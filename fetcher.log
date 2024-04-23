@@ -1881,3 +1881,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:44:35] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
 [2024-04-24 01:44:35] INFO root fetch - main [MainThread]: End processing [kayalab]: success
 [2024-04-24 01:44:35] INFO root fetch - main [MainThread]: Store serial: [22903498]
+[2024-04-24 01:46:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903498]
+[2024-04-24 01:46:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 01:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vuer
+[2024-04-24 01:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deformable-attention
+[2024-04-24 01:46:43] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:46:43] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-04-24 01:46:43] INFO root fetch - processPackages [deformable-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:46:43] INFO root fetch - processPackages [deformable-attention]: Downloading https://files.pythonhosted.org/packages/45/2f/fd26786a83cfd097f3899fa62552028f39840151cdd5c38389c86b2b6283/deformable-attention-0.0.8.tar.gz
+[2024-04-24 01:46:44] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-04-24 01:46:44] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-04-24 01:46:44] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240424/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:46:44] INFO root fetch - processPackages [deformable-attention]: Downloading https://files.pythonhosted.org/packages/c4/4f/2e242a27554663c241fa0f4a9757bbf73ea85f5a39d7f0fe2dceaf95f367/deformable-attention-0.0.9.tar.gz
+[2024-04-24 01:46:44] INFO root fetch - processPackages [deformable-attention]: executing diffoscope
+[2024-04-24 01:46:44] INFO root fetch - processPackages [deformable-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deformable-attention-0.0.8.tar.gz tmp/deformable-attention-0.0.9.tar.gz --markdown 20240424/d/deformable-attention/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:46:44] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-04-24 01:46:44] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-04-24 01:46:44] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-04-24 01:46:45] INFO root fetch - processPackages [deformable-attention]: Remove: archive file [/home/abi/fetcher/tmp/deformable-attention-0.0.8.tar.gz]
+[2024-04-24 01:46:45] INFO root fetch - processPackages [deformable-attention]: Remove: archive file [/home/abi/fetcher/tmp/deformable-attention-0.0.9.tar.gz]
+[2024-04-24 01:46:45] INFO root fetch - main [MainThread]: End processing [deformable-attention]: success
+[2024-04-24 01:46:45] INFO root fetch - main [MainThread]: Store serial: [22903503]
