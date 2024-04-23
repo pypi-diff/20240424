@@ -1186,3 +1186,42 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:08:58] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.9.tar.gz]
 [2024-04-24 01:08:58] INFO root fetch - main [MainThread]: End processing [indexify]: success
 [2024-04-24 01:08:58] INFO root fetch - main [MainThread]: Store serial: [22903218]
+[2024-04-24 01:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903218]
+[2024-04-24 01:11:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langkit
+[2024-04-24 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsx
+[2024-04-24 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromadb
+[2024-04-24 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gleweather
+[2024-04-24 01:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gravithon
+[2024-04-24 01:11:07] WARNING root fetch - processPackages [gleweather]: Skipping, unable to determine old version
+[2024-04-24 01:11:07] INFO root fetch - main [MainThread]: End processing [gleweather] error
+[2024-04-24 01:11:07] INFO root fetch - processPackages [jsx]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-24 01:11:07] INFO root fetch - processPackages [gravithon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:11:07] INFO root fetch - processPackages [langkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:11:07] INFO root fetch - processPackages [chromadb]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-04-24 01:11:07] INFO root fetch - processPackages [jsx]: Downloading https://files.pythonhosted.org/packages/c0/b7/7d7f48f52a220ad8f9511cb85649c866319ecef03c9a6874a077936c25a7/jsx-0.5.0.tar.gz
+[2024-04-24 01:11:07] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/f6/b8/a0455b3e618c7eba6957d6891d43d6c3a775909ec5530b4466cb0db8a404/gravithon-0.0.8.tar.gz
+[2024-04-24 01:11:07] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/ce/e3/7969ef4cda66f7a8d2dc2a61af3bb067c395b8fc3c8bf9e6777139afa351/langkit-0.0.8.tar.gz
+[2024-04-24 01:11:07] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/6e/9e/a64e4e740eae687ece15a5e8afe008ddf7262c0688f7e1019398d12bb6fe/chromadb-0.4.9.tar.gz
+[2024-04-24 01:11:07] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/cd/0d/500a5434077c6a4432a6db2432d0d609036e2d8a8df5e49c28beab6373c9/gravithon-0.0.9.tar.gz
+[2024-04-24 01:11:07] INFO root fetch - processPackages [jsx]: Downloading https://files.pythonhosted.org/packages/40/44/bda38160805194ae749debfd7d0db9362ca240181faf4afa78f6e4594b80/jsx-0.6.0.tar.gz
+[2024-04-24 01:11:08] INFO root fetch - processPackages [gravithon]: executing diffoscope
+[2024-04-24 01:11:08] INFO root fetch - processPackages [gravithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravithon-0.0.8.tar.gz tmp/gravithon-0.0.9.tar.gz --markdown 20240424/g/gravithon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:11:08] INFO root fetch - processPackages [jsx]: executing diffoscope
+[2024-04-24 01:11:08] INFO root fetch - processPackages [jsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsx-0.5.0.tar.gz tmp/jsx-0.6.0.tar.gz --markdown 20240424/j/jsx/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-24 01:11:08] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/32/28/704a6d98bd58a324050772e6b9dc1479ab2f09c77c3a83a38e3697af8ef3/langkit-0.0.9.tar.gz
+[2024-04-24 01:11:08] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/e8/6b/582ebff38cc92d2228505e3c60c1a470c673896e0327b64ffe15ae960457/chromadb-0.5.0.tar.gz
+[2024-04-24 01:11:08] WARNING root fetch - processPackages [chromadb]: Skipping package: exceeds size limit 13752688>=10485760
+[2024-04-24 01:11:08] INFO root fetch - main [MainThread]: End processing [chromadb] error
+[2024-04-24 01:11:08] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.8.tar.gz]
+[2024-04-24 01:11:08] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.9.tar.gz]
+[2024-04-24 01:11:08] INFO root fetch - main [MainThread]: End processing [gravithon]: success
+[2024-04-24 01:11:08] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2024-04-24 01:11:08] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.8.tar.gz tmp/langkit-0.0.9.tar.gz --markdown 20240424/l/langkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:11:08] INFO root fetch - processPackages [jsx]: Remove: archive file [/home/abi/fetcher/tmp/jsx-0.5.0.tar.gz]
+[2024-04-24 01:11:08] INFO root fetch - processPackages [jsx]: Remove: archive file [/home/abi/fetcher/tmp/jsx-0.6.0.tar.gz]
+[2024-04-24 01:11:08] INFO root fetch - main [MainThread]: End processing [jsx]: success
+[2024-04-24 01:11:09] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.8.tar.gz]
+[2024-04-24 01:11:09] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
+[2024-04-24 01:11:09] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2024-04-24 01:11:09] INFO root fetch - main [MainThread]: Store serial: [22903241]
