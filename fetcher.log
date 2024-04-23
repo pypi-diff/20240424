@@ -1702,3 +1702,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:35:08] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.45.tar.gz]
 [2024-04-24 01:35:08] INFO root fetch - main [MainThread]: End processing [cellworld-game]: success
 [2024-04-24 01:35:08] INFO root fetch - main [MainThread]: Store serial: [22903431]
+[2024-04-24 01:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903431]
+[2024-04-24 01:37:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eirStru
+[2024-04-24 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sageworks
+[2024-04-24 01:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pomodorable
+[2024-04-24 01:37:17] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-24 01:37:17] INFO root fetch - processPackages [sageworks]: New version: [0.6.0] Old Version: [0.5.4]
+[2024-04-24 01:37:17] INFO root fetch - processPackages [pomodorable]: New version: [0.1.dev9] Old Version: [0.1.dev8]
+[2024-04-24 01:37:17] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-24 01:37:17] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/78/0f/fabd1b0a9da7f8d7ba81c87042e98133f20a8630e57dd5f4c9e69e71e9cb/sageworks-0.5.4.tar.gz
+[2024-04-24 01:37:17] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-24 01:37:17] INFO root fetch - processPackages [pomodorable]: Downloading https://files.pythonhosted.org/packages/d3/ad/517479bdc5c62854d59457c9cf5b4e6c6e9cf861d961bdbafb55857f6a86/pomodorable-0.1.dev8.tar.gz
+[2024-04-24 01:37:17] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-24 01:37:17] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240424/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-24 01:37:17] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/4c/d6/e6825cc5a383e171b265d68ce7e7e4d388244199f2a3af0e3c47f9bdbbfa/sageworks-0.6.0.tar.gz
+[2024-04-24 01:37:17] INFO root fetch - processPackages [pomodorable]: Downloading https://files.pythonhosted.org/packages/92/5d/b91c67f6c7dae00041e39f7688d01b87851bf8d8d273efb1a25cc434849e/pomodorable-0.1.dev9.tar.gz
+[2024-04-24 01:37:17] INFO root fetch - processPackages [pomodorable]: executing diffoscope
+[2024-04-24 01:37:17] INFO root fetch - processPackages [pomodorable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomodorable-0.1.dev8.tar.gz tmp/pomodorable-0.1.dev9.tar.gz --markdown 20240424/p/pomodorable/0.1.dev8-0.1.dev9/README.md --exclude *.pyd
+[2024-04-24 01:37:18] INFO root fetch - processPackages [sageworks]: executing diffoscope
+[2024-04-24 01:37:18] INFO root fetch - processPackages [sageworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageworks-0.5.4.tar.gz tmp/sageworks-0.6.0.tar.gz --markdown 20240424/s/sageworks/0.5.4-0.6.0/README.md --exclude *.pyd
+[2024-04-24 01:37:18] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-24 01:37:18] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-24 01:37:18] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-24 01:37:18] INFO root fetch - processPackages [pomodorable]: Remove: archive file [/home/abi/fetcher/tmp/pomodorable-0.1.dev8.tar.gz]
+[2024-04-24 01:37:18] INFO root fetch - processPackages [pomodorable]: Remove: archive file [/home/abi/fetcher/tmp/pomodorable-0.1.dev9.tar.gz]
+[2024-04-24 01:37:18] INFO root fetch - main [MainThread]: End processing [pomodorable]: success
+[2024-04-24 01:37:19] INFO root fetch - processPackages [sageworks]: Remove: archive file [/home/abi/fetcher/tmp/sageworks-0.5.4.tar.gz]
+[2024-04-24 01:37:19] INFO root fetch - processPackages [sageworks]: Remove: archive file [/home/abi/fetcher/tmp/sageworks-0.6.0.tar.gz]
+[2024-04-24 01:37:19] INFO root fetch - main [MainThread]: End processing [sageworks]: success
+[2024-04-24 01:37:19] INFO root fetch - main [MainThread]: Store serial: [22903441]
