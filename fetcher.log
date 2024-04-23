@@ -1806,3 +1806,78 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:42:18] INFO root fetch - processPackages [draggable-line-chart]: Remove: archive file [/home/abi/fetcher/tmp/draggable-line-chart-1.0.0.tar.gz]
 [2024-04-24 01:42:18] INFO root fetch - main [MainThread]: End processing [draggable-line-chart]: success
 [2024-04-24 01:42:18] INFO root fetch - main [MainThread]: Store serial: [22903461]
+[2024-04-24 01:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903461]
+[2024-04-24 01:44:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coderdata
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: draggable-charts
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkscreener
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdssdb
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-postgresql
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kayalab
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gravithon
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eirStru
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: password-strength-checker
+[2024-04-24 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zoltraak
+[2024-04-24 01:44:27] INFO root fetch - processPackages [gravithon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:44:27] INFO root fetch - processPackages [coderdata]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 01:44:27] WARNING root fetch - processPackages [zoltraak]: Skipping, unable to determine old version
+[2024-04-24 01:44:27] INFO root fetch - main [MainThread]: End processing [zoltraak] error
+[2024-04-24 01:44:27] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/f6/b8/a0455b3e618c7eba6957d6891d43d6c3a775909ec5530b4466cb0db8a404/gravithon-0.0.8.tar.gz
+[2024-04-24 01:44:27] INFO root fetch - processPackages [coderdata]: Downloading https://files.pythonhosted.org/packages/10/d6/22ffdcd6bb572468417f3fe88f3a17378a747ec71998d08686027c6e0583/coderdata-0.1.8.tar.gz
+[2024-04-24 01:44:27] WARNING root fetch - processPackages [draggable-charts]: Skipping, unable to determine old version
+[2024-04-24 01:44:27] INFO root fetch - main [MainThread]: End processing [draggable-charts] error
+[2024-04-24 01:44:27] WARNING root fetch - processPackages [password-strength-checker]: Skipping, unable to determine old version
+[2024-04-24 01:44:27] INFO root fetch - main [MainThread]: End processing [password-strength-checker] error
+[2024-04-24 01:44:27] INFO root fetch - processPackages [sdssdb]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-24 01:44:27] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240423.289] Old Version: [0.44.20240423.288]
+[2024-04-24 01:44:27] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-24 01:44:27] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-04-24 01:44:27] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-04-24 01:44:28] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/cd/0d/500a5434077c6a4432a6db2432d0d609036e2d8a8df5e49c28beab6373c9/gravithon-0.0.9.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [coderdata]: Downloading https://files.pythonhosted.org/packages/78/4a/2aae6253e25ddd4afbb672f803610f3c149ea023035cccc3d609a2559caf/coderdata-0.1.9.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/28/c2/e98bb8974125588eb5edcf36b2b85ede74bfd182f2514c8d5e05b6778f59/pkscreener-0.44.20240423.288.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [sdssdb]: Downloading https://files.pythonhosted.org/packages/91/68/924c88a967c7725d742ede45cd7d4ef629736f6e16956db48c732e5e1037/sdssdb-0.8.3.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [coderdata]: executing diffoscope
+[2024-04-24 01:44:28] INFO root fetch - processPackages [coderdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderdata-0.1.8.tar.gz tmp/coderdata-0.1.9.tar.gz --markdown 20240424/c/coderdata/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 01:44:28] INFO root fetch - processPackages [gravithon]: executing diffoscope
+[2024-04-24 01:44:28] INFO root fetch - processPackages [gravithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravithon-0.0.8.tar.gz tmp/gravithon-0.0.9.tar.gz --markdown 20240424/g/gravithon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:44:28] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-24 01:44:28] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240424/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-24 01:44:28] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [sdssdb]: Downloading https://files.pythonhosted.org/packages/21/70/4cafe206655f18d779d0738fcdabbc4e1f9478d22b79b4f6c9acc3353fe6/sdssdb-0.9.0.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/00/21/3f6f576b4fb3f5cfe987b5da5fa9da74914e3f83305f606cd8d338a66d66/pkscreener-0.44.20240423.289.tar.gz
+[2024-04-24 01:44:28] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-04-24 01:44:28] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240424/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-04-24 01:44:28] INFO root fetch - processPackages [sdssdb]: executing diffoscope
+[2024-04-24 01:44:28] INFO root fetch - processPackages [sdssdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdssdb-0.8.3.tar.gz tmp/sdssdb-0.9.0.tar.gz --markdown 20240424/s/sdssdb/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-24 01:44:28] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-24 01:44:28] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240423.288.tar.gz tmp/pkscreener-0.44.20240423.289.tar.gz --markdown 20240424/p/pkscreener/0.44.20240423.288-0.44.20240423.289/README.md --exclude *.pyd
+[2024-04-24 01:44:29] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.8.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.9.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - main [MainThread]: End processing [gravithon]: success
+[2024-04-24 01:44:29] INFO root fetch - processPackages [coderdata]: Remove: archive file [/home/abi/fetcher/tmp/coderdata-0.1.8.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - processPackages [coderdata]: Remove: archive file [/home/abi/fetcher/tmp/coderdata-0.1.9.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - main [MainThread]: End processing [coderdata]: success
+[2024-04-24 01:44:29] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-24 01:44:29] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-04-24 01:44:29] INFO root fetch - processPackages [sdssdb]: Remove: archive file [/home/abi/fetcher/tmp/sdssdb-0.8.3.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - processPackages [sdssdb]: Remove: archive file [/home/abi/fetcher/tmp/sdssdb-0.9.0.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - main [MainThread]: End processing [sdssdb]: success
+[2024-04-24 01:44:29] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240423.288.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240423.289.tar.gz]
+[2024-04-24 01:44:29] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-24 01:44:30] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-04-24 01:44:31] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-04-24 01:44:31] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240424/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-04-24 01:44:35] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-04-24 01:44:35] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-04-24 01:44:35] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-04-24 01:44:35] INFO root fetch - main [MainThread]: Store serial: [22903498]
