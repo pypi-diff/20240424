@@ -1601,3 +1601,65 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:30:45] INFO root fetch - processPackages [ord-mediascout-client]: Remove: archive file [/home/abi/fetcher/tmp/ord_mediascout_client-0.0.9.tar.gz]
 [2024-04-24 01:30:45] INFO root fetch - main [MainThread]: End processing [ord-mediascout-client]: success
 [2024-04-24 01:30:45] INFO root fetch - main [MainThread]: Store serial: [22903397]
+[2024-04-24 01:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903397]
+[2024-04-24 01:32:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zuul
+[2024-04-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-kf
+[2024-04-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs2-battle-bot-api-client
+[2024-04-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyorick
+[2024-04-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gravithon
+[2024-04-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gleweather
+[2024-04-24 01:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-datadog
+[2024-04-24 01:32:54] INFO root fetch - processPackages [gravithon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:32:54] INFO root fetch - processPackages [cs2-battle-bot-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:32:54] INFO root fetch - processPackages [gleweather]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 01:32:54] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-04-24 01:32:54] INFO root fetch - processPackages [zuul]: New version: [9.5.0] Old Version: [9.4.0]
+[2024-04-24 01:32:54] INFO root fetch - processPackages [torch-kf]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 01:32:54] INFO root fetch - processPackages [pyorick]: New version: [1.5] Old Version: [1.4]
+[2024-04-24 01:32:54] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/f6/b8/a0455b3e618c7eba6957d6891d43d6c3a775909ec5530b4466cb0db8a404/gravithon-0.0.8.tar.gz
+[2024-04-24 01:32:54] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-04-24 01:32:54] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/03/df/b7441418a2c92e54f467823096a59228bd44b86e3d3cabbf00bf422e840b/cs2_battle_bot_api_client-0.0.8.tar.gz
+[2024-04-24 01:32:54] INFO root fetch - processPackages [gleweather]: Downloading https://files.pythonhosted.org/packages/87/7e/04c220bbdb188aa523fdb4ab8134c38bb3ddcc4cdad5829ced46caf1b380/gleweather-0.1.0.tar.gz
+[2024-04-24 01:32:54] INFO root fetch - processPackages [torch-kf]: Downloading https://files.pythonhosted.org/packages/9b/fa/693b4bd1256fcc401ccd988d410a522261345d6bf310906c501fb1cee885/torch_kf-0.0.1.tar.gz
+[2024-04-24 01:32:55] INFO root fetch - processPackages [pyorick]: Downloading https://files.pythonhosted.org/packages/06/3a/a867e668669d86db38013c7809fe1fd7a58f57975c163c8049504a43c20d/pyorick-1.4.tar.gz
+[2024-04-24 01:32:55] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/cd/0d/500a5434077c6a4432a6db2432d0d609036e2d8a8df5e49c28beab6373c9/gravithon-0.0.9.tar.gz
+[2024-04-24 01:32:55] INFO root fetch - processPackages [zuul]: Downloading https://files.pythonhosted.org/packages/85/59/788e259045f4c7b804ce3476b02b04eb60331ea183f7aba8f67ffc620fd2/zuul-9.4.0.tar.gz
+[2024-04-24 01:32:55] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/77/08/3e7b110a5c7ca73d5a2f0ae6b0262f4ffff4556c60ed50870a60f5aad63e/cs2_battle_bot_api_client-0.0.9.tar.gz
+[2024-04-24 01:32:55] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-04-24 01:32:55] INFO root fetch - processPackages [gravithon]: executing diffoscope
+[2024-04-24 01:32:55] INFO root fetch - processPackages [gravithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravithon-0.0.8.tar.gz tmp/gravithon-0.0.9.tar.gz --markdown 20240424/g/gravithon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:32:55] INFO root fetch - processPackages [cs2-battle-bot-api-client]: executing diffoscope
+[2024-04-24 01:32:55] INFO root fetch - processPackages [cs2-battle-bot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2_battle_bot_api_client-0.0.8.tar.gz tmp/cs2_battle_bot_api_client-0.0.9.tar.gz --markdown 20240424/c/cs2-battle-bot-api-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:32:55] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-04-24 01:32:55] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240424/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-04-24 01:32:55] INFO root fetch - processPackages [torch-kf]: Downloading https://files.pythonhosted.org/packages/a0/ab/34b672827e29b8cbe8532fc5d6a811815c766c4cccfcb36a2cdf9221ebe1/torch_kf-0.0.2.tar.gz
+[2024-04-24 01:32:55] INFO root fetch - processPackages [gleweather]: Downloading https://files.pythonhosted.org/packages/3e/83/13df40c3ef8d1682fb3929e889eb41368f2e74e0940c058147cc6861302e/gleweather-0.1.1.tar.gz
+[2024-04-24 01:32:55] INFO root fetch - processPackages [pyorick]: Downloading https://files.pythonhosted.org/packages/5d/d1/6bdfd14dab17fa820e596d64166916edc4da41a90d654d1dbee0915b2ece/pyorick-1.5.tar.gz
+[2024-04-24 01:32:55] WARNING root fetch - processPackages [zuul]: Skipping package: exceeds size limit 20861293>=10485760
+[2024-04-24 01:32:55] INFO root fetch - main [MainThread]: End processing [zuul] error
+[2024-04-24 01:32:55] INFO root fetch - processPackages [torch-kf]: executing diffoscope
+[2024-04-24 01:32:55] INFO root fetch - processPackages [torch-kf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_kf-0.0.1.tar.gz tmp/torch_kf-0.0.2.tar.gz --markdown 20240424/t/torch-kf/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 01:32:55] INFO root fetch - processPackages [gleweather]: executing diffoscope
+[2024-04-24 01:32:55] INFO root fetch - processPackages [gleweather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gleweather-0.1.0.tar.gz tmp/gleweather-0.1.1.tar.gz --markdown 20240424/g/gleweather/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 01:32:55] INFO root fetch - processPackages [pyorick]: executing diffoscope
+[2024-04-24 01:32:55] INFO root fetch - processPackages [pyorick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyorick-1.4.tar.gz tmp/pyorick-1.5.tar.gz --markdown 20240424/p/pyorick/1.4-1.5/README.md --exclude *.pyd
+[2024-04-24 01:32:55] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.8.tar.gz]
+[2024-04-24 01:32:55] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.9.tar.gz]
+[2024-04-24 01:32:55] INFO root fetch - main [MainThread]: End processing [gravithon]: success
+[2024-04-24 01:32:56] INFO root fetch - processPackages [torch-kf]: Remove: archive file [/home/abi/fetcher/tmp/torch_kf-0.0.1.tar.gz]
+[2024-04-24 01:32:56] INFO root fetch - processPackages [torch-kf]: Remove: archive file [/home/abi/fetcher/tmp/torch_kf-0.0.2.tar.gz]
+[2024-04-24 01:32:56] INFO root fetch - main [MainThread]: End processing [torch-kf]: success
+[2024-04-24 01:32:56] INFO root fetch - processPackages [gleweather]: Remove: archive file [/home/abi/fetcher/tmp/gleweather-0.1.0.tar.gz]
+[2024-04-24 01:32:56] INFO root fetch - processPackages [gleweather]: Remove: archive file [/home/abi/fetcher/tmp/gleweather-0.1.1.tar.gz]
+[2024-04-24 01:32:56] INFO root fetch - main [MainThread]: End processing [gleweather]: success
+[2024-04-24 01:32:56] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.8.tar.gz]
+[2024-04-24 01:32:56] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.9.tar.gz]
+[2024-04-24 01:32:56] INFO root fetch - main [MainThread]: End processing [cs2-battle-bot-api-client]: success
+[2024-04-24 01:32:56] INFO root fetch - processPackages [pyorick]: Remove: archive file [/home/abi/fetcher/tmp/pyorick-1.4.tar.gz]
+[2024-04-24 01:32:56] INFO root fetch - processPackages [pyorick]: Remove: archive file [/home/abi/fetcher/tmp/pyorick-1.5.tar.gz]
+[2024-04-24 01:32:56] INFO root fetch - main [MainThread]: End processing [pyorick]: success
+[2024-04-24 01:32:57] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-04-24 01:32:57] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-04-24 01:32:57] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-04-24 01:32:57] INFO root fetch - main [MainThread]: Store serial: [22903418]
