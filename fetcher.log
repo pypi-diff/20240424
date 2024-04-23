@@ -831,3 +831,36 @@
 [2024-04-24 00:51:21] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.63.tar.gz]
 [2024-04-24 00:51:21] INFO root fetch - main [MainThread]: End processing [affixapi]: success
 [2024-04-24 00:51:21] INFO root fetch - main [MainThread]: Store serial: [22903058]
+[2024-04-24 00:53:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903058]
+[2024-04-24 00:53:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 00:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beam-pyspark-runner
+[2024-04-24 00:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdbgui
+[2024-04-24 00:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stardist
+[2024-04-24 00:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ehdg-tools
+[2024-04-24 00:53:30] INFO root fetch - processPackages [beam-pyspark-runner]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 00:53:30] INFO root fetch - processPackages [beam-pyspark-runner]: Downloading https://files.pythonhosted.org/packages/a9/08/b26780f95070b13df4417dc29921ee427a5e1dfba977e0c110c65468b675/beam_pyspark_runner-0.0.2.tar.gz
+[2024-04-24 00:53:30] WARNING root fetch - processPackages [pdbgui]: Skipping, unable to determine old version
+[2024-04-24 00:53:30] INFO root fetch - main [MainThread]: End processing [pdbgui] error
+[2024-04-24 00:53:30] INFO root fetch - processPackages [ehdg-tools]: New version: [4.2.3] Old Version: [4.2.2]
+[2024-04-24 00:53:30] INFO root fetch - processPackages [stardist]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-04-24 00:53:30] INFO root fetch - processPackages [beam-pyspark-runner]: Downloading https://files.pythonhosted.org/packages/5e/c4/4e55ec84c154902a1b334ecc12caab5fb38cdf79e0ea7bd809136dd581fe/beam_pyspark_runner-0.0.3-py3-none-any.whl
+[2024-04-24 00:53:30] INFO root fetch - processPackages [ehdg-tools]: Downloading https://files.pythonhosted.org/packages/0a/f4/f26b15201a48e5c99dd079dbc98cc3d75ed378849f6402b05fd4e571e475/ehdg_tools-4.2.2.tar.gz
+[2024-04-24 00:53:30] INFO root fetch - processPackages [stardist]: Downloading https://files.pythonhosted.org/packages/d1/bf/c06fb4b6ea23eb7279e5574252f17284d889cbfdc28528133a6fb2ce0818/stardist-0.8.5.tar.gz
+[2024-04-24 00:53:30] INFO root fetch - processPackages [beam-pyspark-runner]: executing diffoscope
+[2024-04-24 00:53:30] INFO root fetch - processPackages [beam-pyspark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_pyspark_runner-0.0.2.tar.gz tmp/beam_pyspark_runner-0.0.3-py3-none-any.whl.zip --markdown 20240424/b/beam-pyspark-runner/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 00:53:31] INFO root fetch - processPackages [ehdg-tools]: Downloading https://files.pythonhosted.org/packages/8a/3c/682b903bff06e6fefc7ff0cde67364e4a2748fd2ea29a9c9dee8de85d4ef/ehdg_tools-4.2.3.tar.gz
+[2024-04-24 00:53:31] INFO root fetch - processPackages [ehdg-tools]: executing diffoscope
+[2024-04-24 00:53:31] INFO root fetch - processPackages [ehdg-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_tools-4.2.2.tar.gz tmp/ehdg_tools-4.2.3.tar.gz --markdown 20240424/e/ehdg-tools/4.2.2-4.2.3/README.md --exclude *.pyd
+[2024-04-24 00:53:31] INFO root fetch - processPackages [stardist]: Downloading https://files.pythonhosted.org/packages/2a/67/76acd6427e82d9277cedf6549f9c7ce5aac4901eaaba3d9049fd55bee674/stardist-0.9.0.tar.gz
+[2024-04-24 00:53:31] INFO root fetch - processPackages [beam-pyspark-runner]: Remove: archive file [/home/abi/fetcher/tmp/beam_pyspark_runner-0.0.2.tar.gz]
+[2024-04-24 00:53:31] INFO root fetch - processPackages [beam-pyspark-runner]: Remove: archive file [/home/abi/fetcher/tmp/beam_pyspark_runner-0.0.3-py3-none-any.whl.zip]
+[2024-04-24 00:53:31] INFO root fetch - main [MainThread]: End processing [beam-pyspark-runner]: success
+[2024-04-24 00:53:31] INFO root fetch - processPackages [stardist]: executing diffoscope
+[2024-04-24 00:53:31] INFO root fetch - processPackages [stardist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stardist-0.8.5.tar.gz tmp/stardist-0.9.0.tar.gz --markdown 20240424/s/stardist/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-04-24 00:53:31] INFO root fetch - processPackages [ehdg-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_tools-4.2.2.tar.gz]
+[2024-04-24 00:53:31] INFO root fetch - processPackages [ehdg-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_tools-4.2.3.tar.gz]
+[2024-04-24 00:53:31] INFO root fetch - main [MainThread]: End processing [ehdg-tools]: success
+[2024-04-24 00:53:32] INFO root fetch - processPackages [stardist]: Remove: archive file [/home/abi/fetcher/tmp/stardist-0.8.5.tar.gz]
+[2024-04-24 00:53:32] INFO root fetch - processPackages [stardist]: Remove: archive file [/home/abi/fetcher/tmp/stardist-0.9.0.tar.gz]
+[2024-04-24 00:53:32] INFO root fetch - main [MainThread]: End processing [stardist]: success
+[2024-04-24 00:53:32] INFO root fetch - main [MainThread]: Store serial: [22903098]
