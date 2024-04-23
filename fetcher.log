@@ -284,3 +284,33 @@
 [2024-04-24 00:18:35] INFO root fetch - processPackages [chic-lib]: Remove: archive file [/home/abi/fetcher/tmp/chic-lib-0.1.9.tar.gz]
 [2024-04-24 00:18:35] INFO root fetch - main [MainThread]: End processing [chic-lib]: success
 [2024-04-24 00:18:35] INFO root fetch - main [MainThread]: Store serial: [22902806]
+[2024-04-24 00:20:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902806]
+[2024-04-24 00:20:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sippy
+[2024-04-24 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-tgpt
+[2024-04-24 00:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pluto-rt
+[2024-04-24 00:20:45] INFO root fetch - processPackages [sippy]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-04-24 00:20:45] INFO root fetch - processPackages [pluto-rt]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-24 00:20:45] INFO root fetch - processPackages [python-tgpt]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-24 00:20:45] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/77/f7/de73b45c728d541ba543b11b6e5cc6f9f6ad97088973d914e8e67f33524f/python_tgpt-0.6.4.tar.gz
+[2024-04-24 00:20:45] INFO root fetch - processPackages [sippy]: Downloading https://files.pythonhosted.org/packages/ee/53/de8ae11734ce0e4561bbfdc5bdf55a1ca9f79c05487f5dfa4f254b01fb21/sippy-2.0.2.tar.gz
+[2024-04-24 00:20:45] INFO root fetch - processPackages [pluto-rt]: Downloading https://files.pythonhosted.org/packages/0f/fb/d89be0ea1f223931a721ec33fc0ad17d50c287a068dd212d5d73dcc895d0/pluto_rt-0.7.1.tar.gz
+[2024-04-24 00:20:45] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/47/aa/025b25584bfae6081eb6adf72789a425f202f97661dbe5b4e138e358c505/python_tgpt-0.6.5.tar.gz
+[2024-04-24 00:20:46] INFO root fetch - processPackages [sippy]: Downloading https://files.pythonhosted.org/packages/4d/7b/ea7888b5d3d9d94cd8c529fcacd39d4da20d5c58e8f5977f16227b297d60/sippy-2.1.0.tar.gz
+[2024-04-24 00:20:46] INFO root fetch - processPackages [python-tgpt]: executing diffoscope
+[2024-04-24 00:20:46] INFO root fetch - processPackages [python-tgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_tgpt-0.6.4.tar.gz tmp/python_tgpt-0.6.5.tar.gz --markdown 20240424/p/python-tgpt/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-24 00:20:46] INFO root fetch - processPackages [sippy]: executing diffoscope
+[2024-04-24 00:20:46] INFO root fetch - processPackages [sippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sippy-2.0.2.tar.gz tmp/sippy-2.1.0.tar.gz --markdown 20240424/s/sippy/2.0.2-2.1.0/README.md --exclude *.pyd
+[2024-04-24 00:20:46] INFO root fetch - processPackages [pluto-rt]: Downloading https://files.pythonhosted.org/packages/97/73/ad81a3a0c381894c906f63c3191367b50037aaf394e3fefa1f2a455ce677/pluto_rt-0.7.2.tar.gz
+[2024-04-24 00:20:46] INFO root fetch - processPackages [pluto-rt]: executing diffoscope
+[2024-04-24 00:20:46] INFO root fetch - processPackages [pluto-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluto_rt-0.7.1.tar.gz tmp/pluto_rt-0.7.2.tar.gz --markdown 20240424/p/pluto-rt/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-24 00:20:46] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.6.4.tar.gz]
+[2024-04-24 00:20:46] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.6.5.tar.gz]
+[2024-04-24 00:20:46] INFO root fetch - main [MainThread]: End processing [python-tgpt]: success
+[2024-04-24 00:20:47] INFO root fetch - processPackages [pluto-rt]: Remove: archive file [/home/abi/fetcher/tmp/pluto_rt-0.7.1.tar.gz]
+[2024-04-24 00:20:47] INFO root fetch - processPackages [pluto-rt]: Remove: archive file [/home/abi/fetcher/tmp/pluto_rt-0.7.2.tar.gz]
+[2024-04-24 00:20:47] INFO root fetch - main [MainThread]: End processing [pluto-rt]: success
+[2024-04-24 00:20:47] INFO root fetch - processPackages [sippy]: Remove: archive file [/home/abi/fetcher/tmp/sippy-2.0.2.tar.gz]
+[2024-04-24 00:20:47] INFO root fetch - processPackages [sippy]: Remove: archive file [/home/abi/fetcher/tmp/sippy-2.1.0.tar.gz]
+[2024-04-24 00:20:47] INFO root fetch - main [MainThread]: End processing [sippy]: success
+[2024-04-24 00:20:47] INFO root fetch - main [MainThread]: Store serial: [22902815]
