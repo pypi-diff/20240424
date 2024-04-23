@@ -1036,3 +1036,42 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 
 [2024-04-24 01:02:26] INFO root fetch - main [MainThread]: End processing [sapit] error
 [2024-04-24 01:02:26] INFO root fetch - main [MainThread]: Store serial: [22903157]
+[2024-04-24 01:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903157]
+[2024-04-24 01:04:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 01:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-datadog
+[2024-04-24 01:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ryomen
+[2024-04-24 01:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs2-battle-bot-api-client
+[2024-04-24 01:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyGRF
+[2024-04-24 01:04:34] INFO root fetch - processPackages [cs2-battle-bot-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:04:34] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/03/df/b7441418a2c92e54f467823096a59228bd44b86e3d3cabbf00bf422e840b/cs2_battle_bot_api_client-0.0.8.tar.gz
+[2024-04-24 01:04:34] INFO root fetch - processPackages [PyGRF]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-24 01:04:34] INFO root fetch - processPackages [ryomen]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-04-24 01:04:34] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-04-24 01:04:35] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/3e/9e/24f60f99654c377b1d2581f76b5af7b971720e73367439293011018063bc/PyGRF-0.0.6.tar.gz
+[2024-04-24 01:04:35] INFO root fetch - processPackages [ryomen]: Downloading https://files.pythonhosted.org/packages/9f/03/7f562750cc2a2533c5007b5d11980f3340ebb74fb0378e652a873780e698/ryomen-0.0.2.tar.gz
+[2024-04-24 01:04:35] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/77/08/3e7b110a5c7ca73d5a2f0ae6b0262f4ffff4556c60ed50870a60f5aad63e/cs2_battle_bot_api_client-0.0.9.tar.gz
+[2024-04-24 01:04:35] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-04-24 01:04:35] INFO root fetch - processPackages [cs2-battle-bot-api-client]: executing diffoscope
+[2024-04-24 01:04:35] INFO root fetch - processPackages [cs2-battle-bot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2_battle_bot_api_client-0.0.8.tar.gz tmp/cs2_battle_bot_api_client-0.0.9.tar.gz --markdown 20240424/c/cs2-battle-bot-api-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:04:35] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-04-24 01:04:35] INFO root fetch - processPackages [ryomen]: Downloading https://files.pythonhosted.org/packages/9a/35/e1a880870a069f8f20f426b358bed66272c659161cf7c7c5487e0c8d37a6/ryomen-0.0.4.tar.gz
+[2024-04-24 01:04:35] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/32/5a/c7ff6b36c728fbbae5876e2e2eb3915db480fed75bf87cb79cfc4445bb39/PyGRF-0.0.7.tar.gz
+[2024-04-24 01:04:35] INFO root fetch - processPackages [ryomen]: executing diffoscope
+[2024-04-24 01:04:35] INFO root fetch - processPackages [ryomen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryomen-0.0.2.tar.gz tmp/ryomen-0.0.4.tar.gz --markdown 20240424/r/ryomen/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-04-24 01:04:35] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-04-24 01:04:35] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240424/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-04-24 01:04:35] INFO root fetch - processPackages [PyGRF]: executing diffoscope
+[2024-04-24 01:04:35] INFO root fetch - processPackages [PyGRF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGRF-0.0.6.tar.gz tmp/PyGRF-0.0.7.tar.gz --markdown 20240424/P/PyGRF/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-24 01:04:36] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.0.6.tar.gz]
+[2024-04-24 01:04:36] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.0.7.tar.gz]
+[2024-04-24 01:04:36] INFO root fetch - main [MainThread]: End processing [PyGRF]: success
+[2024-04-24 01:04:36] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.8.tar.gz]
+[2024-04-24 01:04:36] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.9.tar.gz]
+[2024-04-24 01:04:36] INFO root fetch - main [MainThread]: End processing [cs2-battle-bot-api-client]: success
+[2024-04-24 01:04:36] INFO root fetch - processPackages [ryomen]: Remove: archive file [/home/abi/fetcher/tmp/ryomen-0.0.2.tar.gz]
+[2024-04-24 01:04:36] INFO root fetch - processPackages [ryomen]: Remove: archive file [/home/abi/fetcher/tmp/ryomen-0.0.4.tar.gz]
+[2024-04-24 01:04:36] INFO root fetch - main [MainThread]: End processing [ryomen]: success
+[2024-04-24 01:04:38] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-04-24 01:04:38] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-04-24 01:04:38] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-04-24 01:04:38] INFO root fetch - main [MainThread]: Store serial: [22903171]
