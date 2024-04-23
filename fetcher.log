@@ -587,3 +587,24 @@
 [2024-04-24 00:36:09] INFO root fetch - processPackages [troopwebhost-download]: Remove: archive file [/home/abi/fetcher/tmp/troopwebhost_download-0.3.3.tar.gz]
 [2024-04-24 00:36:09] INFO root fetch - main [MainThread]: End processing [troopwebhost-download]: success
 [2024-04-24 00:36:09] INFO root fetch - main [MainThread]: Store serial: [22902947]
+[2024-04-24 00:38:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902947]
+[2024-04-24 00:38:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsty
+[2024-04-24 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytubefix
+[2024-04-24 00:38:18] INFO root fetch - processPackages [tsty]: New version: [0.0.5.1] Old Version: [0.0.5]
+[2024-04-24 00:38:18] INFO root fetch - processPackages [pytubefix]: New version: [5.1rc1] Old Version: [5.1.2rc1]
+[2024-04-24 00:38:18] INFO root fetch - processPackages [tsty]: Downloading https://files.pythonhosted.org/packages/65/d7/c9c72eca6b01f404a3dcc5bc241068baf647a566ab7065a2e771e7f521e2/tsty-0.0.5.tar.gz
+[2024-04-24 00:38:18] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/1b/67/efa432ce6c8af7d1af62516ff51023831c95811f970769dcc06be56db62b/pytubefix-5.1.2rc1.tar.gz
+[2024-04-24 00:38:18] INFO root fetch - processPackages [tsty]: Downloading https://files.pythonhosted.org/packages/0e/cd/6592f8a31d4461a6ade0b9992aef7437cdcc07f7c248ac85d0242ee6f63c/tsty-0.0.5.1.tar.gz
+[2024-04-24 00:38:18] INFO root fetch - processPackages [tsty]: executing diffoscope
+[2024-04-24 00:38:18] INFO root fetch - processPackages [tsty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsty-0.0.5.tar.gz tmp/tsty-0.0.5.1.tar.gz --markdown 20240424/t/tsty/0.0.5-0.0.5.1/README.md --exclude *.pyd
+[2024-04-24 00:38:18] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/22/97/4e75a25a55d84f4d309482433534ad8a912b59260cabbf4cb8091b85fcc1/pytubefix-5.1rc1.tar.gz
+[2024-04-24 00:38:18] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-24 00:38:18] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-5.1.2rc1.tar.gz tmp/pytubefix-5.1rc1.tar.gz --markdown 20240424/p/pytubefix/5.1.2rc1-5.1rc1/README.md --exclude *.pyd
+[2024-04-24 00:38:19] INFO root fetch - processPackages [tsty]: Remove: archive file [/home/abi/fetcher/tmp/tsty-0.0.5.tar.gz]
+[2024-04-24 00:38:19] INFO root fetch - processPackages [tsty]: Remove: archive file [/home/abi/fetcher/tmp/tsty-0.0.5.1.tar.gz]
+[2024-04-24 00:38:19] INFO root fetch - main [MainThread]: End processing [tsty]: success
+[2024-04-24 00:38:19] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.1.2rc1.tar.gz]
+[2024-04-24 00:38:19] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.1rc1.tar.gz]
+[2024-04-24 00:38:19] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-24 00:38:19] INFO root fetch - main [MainThread]: Store serial: [22902954]
