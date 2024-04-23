@@ -1663,3 +1663,42 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:32:57] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
 [2024-04-24 01:32:57] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2024-04-24 01:32:57] INFO root fetch - main [MainThread]: Store serial: [22903418]
+[2024-04-24 01:35:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903418]
+[2024-04-24 01:35:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 01:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anatools
+[2024-04-24 01:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravithon
+[2024-04-24 01:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlky
+[2024-04-24 01:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellworld-game
+[2024-04-24 01:35:06] INFO root fetch - processPackages [gravithon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:35:06] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/f6/b8/a0455b3e618c7eba6957d6891d43d6c3a775909ec5530b4466cb0db8a404/gravithon-0.0.8.tar.gz
+[2024-04-24 01:35:06] INFO root fetch - processPackages [mlky]: New version: [2024.4.1] Old Version: [2024.3.5]
+[2024-04-24 01:35:06] INFO root fetch - processPackages [cellworld-game]: New version: [0.0.45] Old Version: [0.0.31]
+[2024-04-24 01:35:06] INFO root fetch - processPackages [anatools]: New version: [3.4.3] Old Version: [3.4.2]
+[2024-04-24 01:35:06] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/cd/0d/500a5434077c6a4432a6db2432d0d609036e2d8a8df5e49c28beab6373c9/gravithon-0.0.9.tar.gz
+[2024-04-24 01:35:07] INFO root fetch - processPackages [anatools]: Downloading https://files.pythonhosted.org/packages/ae/19/5aff55bcc81a8c654a3aad2c7314c54704ce628c858813069fc72bfd9a09/anatools-3.4.2.tar.gz
+[2024-04-24 01:35:07] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/e9/3d/d285a08fe8b606ea0e9da9e327b13bc4c8750224fcf1c316d73fa1fe368d/cellworld_game-0.0.31.tar.gz
+[2024-04-24 01:35:07] INFO root fetch - processPackages [mlky]: Downloading https://files.pythonhosted.org/packages/db/75/0ab383db17d48c1483a5bab357ade43ed3f82f69ba2e4cc7dc6b87a9c0d6/mlky-2024.3.5-py3-none-any.whl
+[2024-04-24 01:35:07] INFO root fetch - processPackages [gravithon]: executing diffoscope
+[2024-04-24 01:35:07] INFO root fetch - processPackages [gravithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravithon-0.0.8.tar.gz tmp/gravithon-0.0.9.tar.gz --markdown 20240424/g/gravithon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:35:07] INFO root fetch - processPackages [anatools]: Downloading https://files.pythonhosted.org/packages/c4/ff/0d67449b75222e3616ec53a6eae547ea5ceb1f3791d7dca9c9e71eeece29/anatools-3.4.3.tar.gz
+[2024-04-24 01:35:07] INFO root fetch - processPackages [mlky]: Downloading https://files.pythonhosted.org/packages/04/e3/5d5ec7dd8bdfc53578f2afe460fe9ad9cbcf1ef2581a404b6fb79af50d1c/mlky-2024.4.1-py3-none-any.whl
+[2024-04-24 01:35:07] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/d4/65/a5c97c81173ca91472e7e4806fca2152265fd6dcdbfe510fc94af417c267/cellworld_game-0.0.45.tar.gz
+[2024-04-24 01:35:07] INFO root fetch - processPackages [anatools]: executing diffoscope
+[2024-04-24 01:35:07] INFO root fetch - processPackages [anatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anatools-3.4.2.tar.gz tmp/anatools-3.4.3.tar.gz --markdown 20240424/a/anatools/3.4.2-3.4.3/README.md --exclude *.pyd
+[2024-04-24 01:35:07] INFO root fetch - processPackages [mlky]: executing diffoscope
+[2024-04-24 01:35:07] INFO root fetch - processPackages [mlky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlky-2024.3.5-py3-none-any.whl.zip tmp/mlky-2024.4.1-py3-none-any.whl.zip --markdown 20240424/m/mlky/2024.3.5-2024.4.1/README.md --exclude *.pyd
+[2024-04-24 01:35:07] INFO root fetch - processPackages [cellworld-game]: executing diffoscope
+[2024-04-24 01:35:07] INFO root fetch - processPackages [cellworld-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld_game-0.0.31.tar.gz tmp/cellworld_game-0.0.45.tar.gz --markdown 20240424/c/cellworld-game/0.0.31-0.0.45/README.md --exclude *.pyd
+[2024-04-24 01:35:07] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.8.tar.gz]
+[2024-04-24 01:35:07] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.9.tar.gz]
+[2024-04-24 01:35:07] INFO root fetch - main [MainThread]: End processing [gravithon]: success
+[2024-04-24 01:35:08] INFO root fetch - processPackages [anatools]: Remove: archive file [/home/abi/fetcher/tmp/anatools-3.4.2.tar.gz]
+[2024-04-24 01:35:08] INFO root fetch - processPackages [anatools]: Remove: archive file [/home/abi/fetcher/tmp/anatools-3.4.3.tar.gz]
+[2024-04-24 01:35:08] INFO root fetch - main [MainThread]: End processing [anatools]: success
+[2024-04-24 01:35:08] INFO root fetch - processPackages [mlky]: Remove: archive file [/home/abi/fetcher/tmp/mlky-2024.3.5-py3-none-any.whl.zip]
+[2024-04-24 01:35:08] INFO root fetch - processPackages [mlky]: Remove: archive file [/home/abi/fetcher/tmp/mlky-2024.4.1-py3-none-any.whl.zip]
+[2024-04-24 01:35:08] INFO root fetch - main [MainThread]: End processing [mlky]: success
+[2024-04-24 01:35:08] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.31.tar.gz]
+[2024-04-24 01:35:08] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.45.tar.gz]
+[2024-04-24 01:35:08] INFO root fetch - main [MainThread]: End processing [cellworld-game]: success
+[2024-04-24 01:35:08] INFO root fetch - main [MainThread]: Store serial: [22903431]
