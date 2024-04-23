@@ -1260,3 +1260,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:13:20] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240423231204.tar.gz]
 [2024-04-24 01:13:20] INFO root fetch - main [MainThread]: End processing [google-vizier-dev]: success
 [2024-04-24 01:13:20] INFO root fetch - main [MainThread]: Store serial: [22903257]
+[2024-04-24 01:15:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903257]
+[2024-04-24 01:15:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 01:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvpack
+[2024-04-24 01:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcached.py
+[2024-04-24 01:15:29] INFO root fetch - processPackages [cvpack]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 01:15:29] INFO root fetch - processPackages [zcached.py]: New version: [1.2.1] Old Version: [1.1.1]
+[2024-04-24 01:15:29] INFO root fetch - processPackages [zcached.py]: Downloading https://files.pythonhosted.org/packages/8f/b6/dbada4b57963c92986af7802f4c36611adac172624ebeb29b4c1edd1e416/zcached.py-1.1.1.tar.gz
+[2024-04-24 01:15:29] INFO root fetch - processPackages [cvpack]: Downloading https://files.pythonhosted.org/packages/3d/82/586e66b4af70e7eafba7c44d061186eda0ed9affdc97939d36f21d1f1d4e/cvpack-0.8.0.tar.gz
+[2024-04-24 01:15:29] INFO root fetch - processPackages [zcached.py]: Downloading https://files.pythonhosted.org/packages/ba/b7/cd21762d8d1ccbeab461e43088bab175c85d4247185df1dc2272784e179b/zcached.py-1.2.1.tar.gz
+[2024-04-24 01:15:29] INFO root fetch - processPackages [cvpack]: Downloading https://files.pythonhosted.org/packages/b3/b6/e0a2f05664151c11546c2492463ba904d92eb2ccc0c9d568c86eb6c02f59/cvpack-0.9.0.tar.gz
+[2024-04-24 01:15:29] INFO root fetch - processPackages [zcached.py]: executing diffoscope
+[2024-04-24 01:15:29] INFO root fetch - processPackages [zcached.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcached.py-1.1.1.tar.gz tmp/zcached.py-1.2.1.tar.gz --markdown 20240424/z/zcached.py/1.1.1-1.2.1/README.md --exclude *.pyd
+[2024-04-24 01:15:30] INFO root fetch - processPackages [cvpack]: executing diffoscope
+[2024-04-24 01:15:30] INFO root fetch - processPackages [cvpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvpack-0.8.0.tar.gz tmp/cvpack-0.9.0.tar.gz --markdown 20240424/c/cvpack/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 01:15:30] INFO root fetch - processPackages [zcached.py]: Remove: archive file [/home/abi/fetcher/tmp/zcached.py-1.1.1.tar.gz]
+[2024-04-24 01:15:30] INFO root fetch - processPackages [zcached.py]: Remove: archive file [/home/abi/fetcher/tmp/zcached.py-1.2.1.tar.gz]
+[2024-04-24 01:15:30] INFO root fetch - main [MainThread]: End processing [zcached.py]: success
+[2024-04-24 01:15:30] INFO root fetch - processPackages [cvpack]: Remove: archive file [/home/abi/fetcher/tmp/cvpack-0.8.0.tar.gz]
+[2024-04-24 01:15:30] INFO root fetch - processPackages [cvpack]: Remove: archive file [/home/abi/fetcher/tmp/cvpack-0.9.0.tar.gz]
+[2024-04-24 01:15:30] INFO root fetch - main [MainThread]: End processing [cvpack]: success
+[2024-04-24 01:15:30] INFO root fetch - main [MainThread]: Store serial: [22903265]
