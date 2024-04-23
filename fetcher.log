@@ -260,3 +260,27 @@
 [2024-04-24 00:16:25] INFO root fetch - processPackages [trame-components]: Remove: archive file [/home/abi/fetcher/tmp/trame-components-2.3.2.tar.gz]
 [2024-04-24 00:16:25] INFO root fetch - main [MainThread]: End processing [trame-components]: success
 [2024-04-24 00:16:25] INFO root fetch - main [MainThread]: Store serial: [22902796]
+[2024-04-24 00:18:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902796]
+[2024-04-24 00:18:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 00:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fgo-api-types
+[2024-04-24 00:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytainer
+[2024-04-24 00:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chic-lib
+[2024-04-24 00:18:34] INFO root fetch - processPackages [chic-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 00:18:34] INFO root fetch - processPackages [fgo-api-types]: New version: [2024.4.6.2.22.3] Old Version: [2024.4.23.19.35.59]
+[2024-04-24 00:18:34] INFO root fetch - processPackages [chic-lib]: Downloading https://files.pythonhosted.org/packages/58/4d/834ecf2f368724e24e2cc4e8383c4313b8af911107ae57e804ba390ae60d/chic-lib-0.1.8.tar.gz
+[2024-04-24 00:18:34] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/c8/ca/10ba25ff428e26db193572aa2c8ee8d217966ef6b97b75ffdd09954c01d0/fgo_api_types-2024.4.23.19.35.59.tar.gz
+[2024-04-24 00:18:34] WARNING root fetch - processPackages [pytainer]: Skipping, unable to determine old version
+[2024-04-24 00:18:34] INFO root fetch - main [MainThread]: End processing [pytainer] error
+[2024-04-24 00:18:34] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/b9/41/3dbb26f0f980c564a1e8ae75299afc724991934ffaf1a8a59ab70aafb784/fgo_api_types-2024.4.6.2.22.3.tar.gz
+[2024-04-24 00:18:34] INFO root fetch - processPackages [chic-lib]: Downloading https://files.pythonhosted.org/packages/0e/e3/84f6bd3e2d7a5c2734c14361db63b80edc555bb65436b6e3506aab7864da/chic-lib-0.1.9.tar.gz
+[2024-04-24 00:18:34] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2024-04-24 00:18:34] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2024.4.23.19.35.59.tar.gz tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz --markdown 20240424/f/fgo-api-types/2024.4.23.19.35.59-2024.4.6.2.22.3/README.md --exclude *.pyd
+[2024-04-24 00:18:34] INFO root fetch - processPackages [chic-lib]: executing diffoscope
+[2024-04-24 00:18:34] INFO root fetch - processPackages [chic-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chic-lib-0.1.8.tar.gz tmp/chic-lib-0.1.9.tar.gz --markdown 20240424/c/chic-lib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 00:18:35] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.23.19.35.59.tar.gz]
+[2024-04-24 00:18:35] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2024.4.6.2.22.3.tar.gz]
+[2024-04-24 00:18:35] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2024-04-24 00:18:35] INFO root fetch - processPackages [chic-lib]: Remove: archive file [/home/abi/fetcher/tmp/chic-lib-0.1.8.tar.gz]
+[2024-04-24 00:18:35] INFO root fetch - processPackages [chic-lib]: Remove: archive file [/home/abi/fetcher/tmp/chic-lib-0.1.9.tar.gz]
+[2024-04-24 00:18:35] INFO root fetch - main [MainThread]: End processing [chic-lib]: success
+[2024-04-24 00:18:35] INFO root fetch - main [MainThread]: Store serial: [22902806]
