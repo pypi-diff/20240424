@@ -525,3 +525,65 @@
 [2024-04-24 00:33:57] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-04-24 00:33:57] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-04-24 00:33:57] INFO root fetch - main [MainThread]: Store serial: [22902926]
+[2024-04-24 00:36:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902926]
+[2024-04-24 00:36:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 00:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: financial-datasets
+[2024-04-24 00:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelbit
+[2024-04-24 00:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grutil
+[2024-04-24 00:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-string-match
+[2024-04-24 00:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: excsv
+[2024-04-24 00:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medor
+[2024-04-24 00:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: troopwebhost-download
+[2024-04-24 00:36:07] INFO root fetch - processPackages [grutil]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-24 00:36:07] INFO root fetch - processPackages [medor]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2024-04-24 00:36:07] INFO root fetch - processPackages [excsv]: New version: [0.1.4] Old Version: [0.1.3.1]
+[2024-04-24 00:36:07] INFO root fetch - processPackages [fast-string-match]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 00:36:07] INFO root fetch - processPackages [grutil]: Downloading https://files.pythonhosted.org/packages/1d/90/94608e55eadba594fe9c451c56ca355f9a9415591f86a81ef4a515b6237e/grutil-0.1.4.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [financial-datasets]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 00:36:07] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-24 00:36:07] INFO root fetch - processPackages [troopwebhost-download]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-24 00:36:07] INFO root fetch - processPackages [excsv]: Downloading https://files.pythonhosted.org/packages/c5/e7/788f1ff39e8b2e7bd27d328a79a8a49ae57fcf6f21279359b9109a9f6aaf/excsv-0.1.3.1.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [medor]: Downloading https://files.pythonhosted.org/packages/4d/e3/55029a706e6b71bf0a7bd5427b4f560e33abc71f918f09f32bfe38d93928/medor-0.0.1b8.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [fast-string-match]: Downloading https://files.pythonhosted.org/packages/2f/12/84c1759bdc19bdeb3e1fde6c6b6ebd1de4e7f72a3c40ff13cf7d6ed56bd1/fast_string_match-0.1.2.tar.gz
+[2024-04-24 00:36:07] WARNING root fetch - processPackages [medor]: Skipping package: exceeds size limit 16721504>=10485760
+[2024-04-24 00:36:07] INFO root fetch - main [MainThread]: End processing [medor] error
+[2024-04-24 00:36:07] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/36/94/255abe9cb6d903e14abd37e03da6cf223d9808470f9dd5d79169b683cc32/financial_datasets-0.1.8.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [troopwebhost-download]: Downloading https://files.pythonhosted.org/packages/98/10/5eb5b313305d34b6c66cb5fe54e7d33a0b8a15ae0b15fa27214fd1e9f838/troopwebhost_download-0.3.2.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [grutil]: Downloading https://files.pythonhosted.org/packages/8c/da/a881b5d3a556c3dc4df192125bb163f5721369d55184547f770ae62e6009/grutil-0.2.0.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [excsv]: Downloading https://files.pythonhosted.org/packages/f6/65/f8024f9df90864d72c8a11f9e2e86b1a8476f489192f32304eff7bad1847/excsv-0.1.4.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [grutil]: executing diffoscope
+[2024-04-24 00:36:07] INFO root fetch - processPackages [grutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grutil-0.1.4.tar.gz tmp/grutil-0.2.0.tar.gz --markdown 20240424/g/grutil/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-04-24 00:36:07] INFO root fetch - processPackages [excsv]: executing diffoscope
+[2024-04-24 00:36:07] INFO root fetch - processPackages [excsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excsv-0.1.3.1.tar.gz tmp/excsv-0.1.4.tar.gz --markdown 20240424/e/excsv/0.1.3.1-0.1.4/README.md --exclude *.pyd
+[2024-04-24 00:36:07] INFO root fetch - processPackages [fast-string-match]: Downloading https://files.pythonhosted.org/packages/a1/5e/538b052d324086464a686a8ffc89006bcf865a4ce244155b6d6fdea83610/fast_string_match-0.1.3.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/87/a1/22bd6c400ec0e79b048a16568be6b9aef6c214655800975327559d6f37fa/financial_datasets-0.1.9.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [troopwebhost-download]: Downloading https://files.pythonhosted.org/packages/bf/90/ab35058817c6b92ff87094d29048be845f6fb56ff0995236df1f3c28d2a1/troopwebhost_download-0.3.3.tar.gz
+[2024-04-24 00:36:07] INFO root fetch - processPackages [fast-string-match]: executing diffoscope
+[2024-04-24 00:36:07] INFO root fetch - processPackages [fast-string-match]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_string_match-0.1.2.tar.gz tmp/fast_string_match-0.1.3.tar.gz --markdown 20240424/f/fast-string-match/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 00:36:08] INFO root fetch - processPackages [financial-datasets]: executing diffoscope
+[2024-04-24 00:36:08] INFO root fetch - processPackages [financial-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financial_datasets-0.1.8.tar.gz tmp/financial_datasets-0.1.9.tar.gz --markdown 20240424/f/financial-datasets/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 00:36:08] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2024-04-24 00:36:08] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2024-04-24 00:36:08] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20240424/m/modelbit/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-24 00:36:08] INFO root fetch - processPackages [excsv]: Remove: archive file [/home/abi/fetcher/tmp/excsv-0.1.3.1.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - processPackages [excsv]: Remove: archive file [/home/abi/fetcher/tmp/excsv-0.1.4.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - main [MainThread]: End processing [excsv]: success
+[2024-04-24 00:36:08] INFO root fetch - processPackages [grutil]: Remove: archive file [/home/abi/fetcher/tmp/grutil-0.1.4.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - processPackages [grutil]: Remove: archive file [/home/abi/fetcher/tmp/grutil-0.2.0.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - main [MainThread]: End processing [grutil]: success
+[2024-04-24 00:36:08] INFO root fetch - processPackages [fast-string-match]: Remove: archive file [/home/abi/fetcher/tmp/fast_string_match-0.1.2.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - processPackages [fast-string-match]: Remove: archive file [/home/abi/fetcher/tmp/fast_string_match-0.1.3.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - main [MainThread]: End processing [fast-string-match]: success
+[2024-04-24 00:36:08] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.8.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.9.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - main [MainThread]: End processing [financial-datasets]: success
+[2024-04-24 00:36:08] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2024-04-24 00:36:08] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2024-04-24 00:36:08] INFO root fetch - processPackages [troopwebhost-download]: executing diffoscope
+[2024-04-24 00:36:08] INFO root fetch - processPackages [troopwebhost-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troopwebhost_download-0.3.2.tar.gz tmp/troopwebhost_download-0.3.3.tar.gz --markdown 20240424/t/troopwebhost-download/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-24 00:36:09] INFO root fetch - processPackages [troopwebhost-download]: Remove: archive file [/home/abi/fetcher/tmp/troopwebhost_download-0.3.2.tar.gz]
+[2024-04-24 00:36:09] INFO root fetch - processPackages [troopwebhost-download]: Remove: archive file [/home/abi/fetcher/tmp/troopwebhost_download-0.3.3.tar.gz]
+[2024-04-24 00:36:09] INFO root fetch - main [MainThread]: End processing [troopwebhost-download]: success
+[2024-04-24 00:36:09] INFO root fetch - main [MainThread]: Store serial: [22902947]
