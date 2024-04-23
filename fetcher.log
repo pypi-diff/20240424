@@ -352,3 +352,66 @@
 [2024-04-24 00:25:07] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
 [2024-04-24 00:25:07] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
 [2024-04-24 00:25:07] INFO root fetch - main [MainThread]: Store serial: [22902831]
+[2024-04-24 00:27:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902831]
+[2024-04-24 00:27:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ofunctions.misc
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: berremueller
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arte
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: basic-pitch
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index-llms-octoai
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xnldorker
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: godata
+[2024-04-24 00:27:16] INFO root fetch - processPackages [arte]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ofunctions.misc]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-24 00:27:16] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-24 00:27:16] INFO root fetch - processPackages [arte]: Downloading https://files.pythonhosted.org/packages/e1/b1/bebe6e94fc0ed0f3952b151a7fa90a0c9e49a2872c5414fac569fd65dc98/arte-0.8.0.tar.gz
+[2024-04-24 00:27:16] INFO root fetch - processPackages [berremueller]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-24 00:27:16] WARNING root fetch - processPackages [xnldorker]: Skipping, unable to determine old version
+[2024-04-24 00:27:16] WARNING root fetch - processPackages [llama-index-llms-octoai]: Skipping, unable to determine old version
+[2024-04-24 00:27:16] INFO root fetch - main [MainThread]: End processing [xnldorker] error
+[2024-04-24 00:27:16] INFO root fetch - main [MainThread]: End processing [llama-index-llms-octoai] error
+[2024-04-24 00:27:16] INFO root fetch - processPackages [basic-pitch]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ofunctions.misc]: Downloading https://files.pythonhosted.org/packages/a6/5f/896ec53360b21dec63d17ee9201e7b50cfcbeb1d938dda3b44aa2e95e193/ofunctions.misc-1.7.1.tar.gz
+[2024-04-24 00:27:16] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-24 00:27:16] INFO root fetch - processPackages [godata]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-24 00:27:16] INFO root fetch - processPackages [arte]: Downloading https://files.pythonhosted.org/packages/4f/0a/afd63f63c85b5ca4418eaf8b0fc71626022178281ddccf37a9e97eabfd44/arte-0.9.0.tar.gz
+[2024-04-24 00:27:16] INFO root fetch - processPackages [berremueller]: Downloading https://files.pythonhosted.org/packages/97/60/30a1e90f7a9dff632f4f0db80946c395add2be8f83aacdf7155bdb259e13/berremueller-1.0.3.tar.gz
+[2024-04-24 00:27:16] INFO root fetch - processPackages [basic-pitch]: Downloading https://files.pythonhosted.org/packages/ec/7b/6cf09fea4de17e27832c0ec5f416224cf0b4c461bde523759e08c629f55d/basic_pitch-0.3.2.tar.gz
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ofunctions.misc]: Downloading https://files.pythonhosted.org/packages/cd/36/5d850560fb3e815760fdbc8be9257ef3d1700827528eb31b15fb173dd7f1/ofunctions.misc-1.7.2.tar.gz
+[2024-04-24 00:27:16] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-24 00:27:16] INFO root fetch - processPackages [arte]: executing diffoscope
+[2024-04-24 00:27:16] INFO root fetch - processPackages [arte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arte-0.8.0.tar.gz tmp/arte-0.9.0.tar.gz --markdown 20240424/a/arte/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 00:27:16] INFO root fetch - processPackages [godata]: Downloading https://files.pythonhosted.org/packages/0f/93/e4a73ce5a6e96a2f3aa774588e9184d44ad14c39411da71df10f88b1f556/godata-0.8.3.tar.gz
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ofunctions.misc]: executing diffoscope
+[2024-04-24 00:27:16] INFO root fetch - processPackages [ofunctions.misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofunctions.misc-1.7.1.tar.gz tmp/ofunctions.misc-1.7.2.tar.gz --markdown 20240424/o/ofunctions.misc/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-04-24 00:27:16] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-24 00:27:16] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240424/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-24 00:27:17] INFO root fetch - processPackages [berremueller]: Downloading https://files.pythonhosted.org/packages/0a/81/e9841ab19adbcf11d3f099f7465906ef961dd4a2daf95f61654c3d46b5fb/berremueller-1.0.4.tar.gz
+[2024-04-24 00:27:17] INFO root fetch - processPackages [berremueller]: executing diffoscope
+[2024-04-24 00:27:17] INFO root fetch - processPackages [berremueller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berremueller-1.0.3.tar.gz tmp/berremueller-1.0.4.tar.gz --markdown 20240424/b/berremueller/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-24 00:27:17] INFO root fetch - processPackages [basic-pitch]: Downloading https://files.pythonhosted.org/packages/a0/58/163c4d1035ac6ee0bfd481613373747f29ded8e8615195f9836a770f58d0/basic_pitch-0.3.3.tar.gz
+[2024-04-24 00:27:17] INFO root fetch - processPackages [godata]: Downloading https://files.pythonhosted.org/packages/e9/65/ad6cf514a85536333d86b002cb20d9857a64a5bac7a2b141af2d3015b37b/godata-0.9.0.tar.gz
+[2024-04-24 00:27:17] INFO root fetch - processPackages [godata]: executing diffoscope
+[2024-04-24 00:27:17] INFO root fetch - processPackages [godata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godata-0.8.3.tar.gz tmp/godata-0.9.0.tar.gz --markdown 20240424/g/godata/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-24 00:27:17] INFO root fetch - processPackages [basic-pitch]: executing diffoscope
+[2024-04-24 00:27:17] INFO root fetch - processPackages [basic-pitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basic_pitch-0.3.2.tar.gz tmp/basic_pitch-0.3.3.tar.gz --markdown 20240424/b/basic-pitch/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-24 00:27:17] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-24 00:27:17] INFO root fetch - processPackages [ofunctions.misc]: Remove: archive file [/home/abi/fetcher/tmp/ofunctions.misc-1.7.1.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - processPackages [ofunctions.misc]: Remove: archive file [/home/abi/fetcher/tmp/ofunctions.misc-1.7.2.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - main [MainThread]: End processing [ofunctions.misc]: success
+[2024-04-24 00:27:17] INFO root fetch - processPackages [arte]: Remove: archive file [/home/abi/fetcher/tmp/arte-0.8.0.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - processPackages [arte]: Remove: archive file [/home/abi/fetcher/tmp/arte-0.9.0.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - main [MainThread]: End processing [arte]: success
+[2024-04-24 00:27:17] INFO root fetch - processPackages [berremueller]: Remove: archive file [/home/abi/fetcher/tmp/berremueller-1.0.3.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - processPackages [berremueller]: Remove: archive file [/home/abi/fetcher/tmp/berremueller-1.0.4.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - main [MainThread]: End processing [berremueller]: success
+[2024-04-24 00:27:17] INFO root fetch - processPackages [godata]: Remove: archive file [/home/abi/fetcher/tmp/godata-0.8.3.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - processPackages [godata]: Remove: archive file [/home/abi/fetcher/tmp/godata-0.9.0.tar.gz]
+[2024-04-24 00:27:17] INFO root fetch - main [MainThread]: End processing [godata]: success
+[2024-04-24 00:27:18] INFO root fetch - processPackages [basic-pitch]: Remove: archive file [/home/abi/fetcher/tmp/basic_pitch-0.3.2.tar.gz]
+[2024-04-24 00:27:18] INFO root fetch - processPackages [basic-pitch]: Remove: archive file [/home/abi/fetcher/tmp/basic_pitch-0.3.3.tar.gz]
+[2024-04-24 00:27:18] INFO root fetch - main [MainThread]: End processing [basic-pitch]: success
+[2024-04-24 00:27:18] INFO root fetch - main [MainThread]: Store serial: [22902859]
