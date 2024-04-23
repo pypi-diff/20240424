@@ -143,3 +143,30 @@
 [2024-04-24 00:09:53] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
 [2024-04-24 00:09:53] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
 [2024-04-24 00:09:53] INFO root fetch - main [MainThread]: Store serial: [22902750]
+[2024-04-24 00:11:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902750]
+[2024-04-24 00:12:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 00:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myMUen
+[2024-04-24 00:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytubefix
+[2024-04-24 00:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ions
+[2024-04-24 00:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-statgraph
+[2024-04-24 00:12:02] INFO root fetch - processPackages [ions]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-24 00:12:02] INFO root fetch - processPackages [pytubefix]: New version: [5.1rc1] Old Version: [5.1.1]
+[2024-04-24 00:12:02] WARNING root fetch - processPackages [flask-statgraph]: Skipping, unable to determine old version
+[2024-04-24 00:12:02] INFO root fetch - main [MainThread]: End processing [flask-statgraph] error
+[2024-04-24 00:12:02] INFO root fetch - processPackages [ions]: Downloading https://files.pythonhosted.org/packages/fc/02/441f41dfc7060c9160c44cc284af60260f0c7bfde059e08fb98a8432525d/ions-0.3.2.tar.gz
+[2024-04-24 00:12:02] WARNING root fetch - processPackages [myMUen]: Skipping, unable to determine old version
+[2024-04-24 00:12:02] INFO root fetch - main [MainThread]: End processing [myMUen] error
+[2024-04-24 00:12:03] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/34/01/5310bb0b9c749d66d3fe17eba28894b28a912b2dacda3f93cfdb9b62fae8/pytubefix-5.1.1.tar.gz
+[2024-04-24 00:12:03] INFO root fetch - processPackages [ions]: Downloading https://files.pythonhosted.org/packages/54/8b/cd3a39614b7fd995d5fdd47b4520b3c1f77d358e239f15b71dc644d53645/ions-0.3.3.tar.gz
+[2024-04-24 00:12:03] INFO root fetch - processPackages [ions]: executing diffoscope
+[2024-04-24 00:12:03] INFO root fetch - processPackages [ions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ions-0.3.2.tar.gz tmp/ions-0.3.3.tar.gz --markdown 20240424/i/ions/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-24 00:12:03] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/22/97/4e75a25a55d84f4d309482433534ad8a912b59260cabbf4cb8091b85fcc1/pytubefix-5.1rc1.tar.gz
+[2024-04-24 00:12:03] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-24 00:12:03] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-5.1.1.tar.gz tmp/pytubefix-5.1rc1.tar.gz --markdown 20240424/p/pytubefix/5.1.1-5.1rc1/README.md --exclude *.pyd
+[2024-04-24 00:12:03] INFO root fetch - processPackages [ions]: Remove: archive file [/home/abi/fetcher/tmp/ions-0.3.2.tar.gz]
+[2024-04-24 00:12:03] INFO root fetch - processPackages [ions]: Remove: archive file [/home/abi/fetcher/tmp/ions-0.3.3.tar.gz]
+[2024-04-24 00:12:04] INFO root fetch - main [MainThread]: End processing [ions]: success
+[2024-04-24 00:12:04] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.1.1.tar.gz]
+[2024-04-24 00:12:04] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.1rc1.tar.gz]
+[2024-04-24 00:12:04] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-24 00:12:04] INFO root fetch - main [MainThread]: Store serial: [22902765]
