@@ -1225,3 +1225,38 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:11:09] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
 [2024-04-24 01:11:09] INFO root fetch - main [MainThread]: End processing [langkit]: success
 [2024-04-24 01:11:09] INFO root fetch - main [MainThread]: Store serial: [22903241]
+[2024-04-24 01:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903241]
+[2024-04-24 01:13:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 01:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2024-04-24 01:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-vizier-dev
+[2024-04-24 01:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ukrr-models
+[2024-04-24 01:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yippy
+[2024-04-24 01:13:17] INFO root fetch - processPackages [yippy]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-24 01:13:17] INFO root fetch - processPackages [ukrr-models]: New version: [2.1.1] Old Version: [1.0.0]
+[2024-04-24 01:13:17] INFO root fetch - processPackages [google-vizier-dev]: New version: [0.1.16.dev20240423231204] Old Version: [0.1.16.dev20240422191908]
+[2024-04-24 01:13:18] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240423] Old Version: [2.17.0.dev20240422]
+[2024-04-24 01:13:18] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/21/18/0d248410c40f9256608275b09654bb2411cef215057b5cb55aae899aab2a/google-vizier-dev-0.1.16.dev20240422191908.tar.gz
+[2024-04-24 01:13:18] INFO root fetch - processPackages [ukrr-models]: Downloading https://files.pythonhosted.org/packages/d2/6a/06aa8110ccdd7e0419a89f2eea31c3bc3871e8f8c1f893f5562f8d6ea282/ukrr_models-1.0.0.tar.gz
+[2024-04-24 01:13:18] INFO root fetch - processPackages [yippy]: Downloading https://files.pythonhosted.org/packages/37/c8/488a94eb3a16a76ebce2ec8b96b93ca3a6c48dd6cd948dea5338bdf9f62d/yippy-1.2.0.tar.gz
+[2024-04-24 01:13:18] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/2f/ea/b0bcf24c9bf151ac0058c4e1fe69dad19c04a43314ded8b488039909f27e/tf_nightly_intel-2.17.0.dev20240422-cp39-cp39-win_amd64.whl
+[2024-04-24 01:13:18] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213122238>=10485760
+[2024-04-24 01:13:18] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-04-24 01:13:18] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/7b/8d/a494a59c6c147ae4184b30ec3c7c2939e32c4c9f2952484dd8a65a38f94c/google-vizier-dev-0.1.16.dev20240423231204.tar.gz
+[2024-04-24 01:13:18] INFO root fetch - processPackages [ukrr-models]: Downloading https://files.pythonhosted.org/packages/75/c8/3aaef9ad6733d3a99d8c422f2033429f8ed006e442c37997db849e087a11/ukrr_models-2.1.1.tar.gz
+[2024-04-24 01:13:18] INFO root fetch - processPackages [yippy]: Downloading https://files.pythonhosted.org/packages/f3/7f/0742bf4d75d1aa6836c819b6ac03744848fe233267ddac468b21d612ad4f/yippy-1.3.0.tar.gz
+[2024-04-24 01:13:18] INFO root fetch - processPackages [google-vizier-dev]: executing diffoscope
+[2024-04-24 01:13:18] INFO root fetch - processPackages [google-vizier-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-vizier-dev-0.1.16.dev20240422191908.tar.gz tmp/google-vizier-dev-0.1.16.dev20240423231204.tar.gz --markdown 20240424/g/google-vizier-dev/0.1.16.dev20240422191908-0.1.16.dev20240423231204/README.md --exclude *.pyd
+[2024-04-24 01:13:18] INFO root fetch - processPackages [yippy]: executing diffoscope
+[2024-04-24 01:13:18] INFO root fetch - processPackages [yippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yippy-1.2.0.tar.gz tmp/yippy-1.3.0.tar.gz --markdown 20240424/y/yippy/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-24 01:13:19] INFO root fetch - processPackages [ukrr-models]: executing diffoscope
+[2024-04-24 01:13:19] INFO root fetch - processPackages [ukrr-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukrr_models-1.0.0.tar.gz tmp/ukrr_models-2.1.1.tar.gz --markdown 20240424/u/ukrr-models/1.0.0-2.1.1/README.md --exclude *.pyd
+[2024-04-24 01:13:19] INFO root fetch - processPackages [ukrr-models]: Remove: archive file [/home/abi/fetcher/tmp/ukrr_models-1.0.0.tar.gz]
+[2024-04-24 01:13:19] INFO root fetch - processPackages [ukrr-models]: Remove: archive file [/home/abi/fetcher/tmp/ukrr_models-2.1.1.tar.gz]
+[2024-04-24 01:13:19] INFO root fetch - main [MainThread]: End processing [ukrr-models]: success
+[2024-04-24 01:13:19] INFO root fetch - processPackages [yippy]: Remove: archive file [/home/abi/fetcher/tmp/yippy-1.2.0.tar.gz]
+[2024-04-24 01:13:19] INFO root fetch - processPackages [yippy]: Remove: archive file [/home/abi/fetcher/tmp/yippy-1.3.0.tar.gz]
+[2024-04-24 01:13:19] INFO root fetch - main [MainThread]: End processing [yippy]: success
+[2024-04-24 01:13:20] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240422191908.tar.gz]
+[2024-04-24 01:13:20] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240423231204.tar.gz]
+[2024-04-24 01:13:20] INFO root fetch - main [MainThread]: End processing [google-vizier-dev]: success
+[2024-04-24 01:13:20] INFO root fetch - main [MainThread]: Store serial: [22903257]
