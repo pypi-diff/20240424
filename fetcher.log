@@ -314,3 +314,29 @@
 [2024-04-24 00:20:47] INFO root fetch - processPackages [sippy]: Remove: archive file [/home/abi/fetcher/tmp/sippy-2.1.0.tar.gz]
 [2024-04-24 00:20:47] INFO root fetch - main [MainThread]: End processing [sippy]: success
 [2024-04-24 00:20:47] INFO root fetch - main [MainThread]: Store serial: [22902815]
+[2024-04-24 00:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902815]
+[2024-04-24 00:22:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 00:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medor
+[2024-04-24 00:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-honeybee
+[2024-04-24 00:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogenstudio
+[2024-04-24 00:22:55] INFO root fetch - processPackages [medor]: New version: [0.0.1b8] Old Version: [0.0.1b7]
+[2024-04-24 00:22:55] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-24 00:22:55] INFO root fetch - processPackages [medor]: Downloading https://files.pythonhosted.org/packages/a2/f7/1ed145becfb77efdb178d956a27e0a04b5687650375a639052da3a8e3c79/medor-0.0.1b7.tar.gz
+[2024-04-24 00:22:55] INFO root fetch - processPackages [autogenstudio]: New version: [0.0.9a0] Old Version: [0.0.56rc2]
+[2024-04-24 00:22:55] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-04-24 00:22:55] WARNING root fetch - processPackages [medor]: Skipping package: exceeds size limit 16016533>=10485760
+[2024-04-24 00:22:55] INFO root fetch - main [MainThread]: End processing [medor] error
+[2024-04-24 00:22:56] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-04-24 00:22:56] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/31/85/81e7bed5c81cde357b4c744777b99ef20ac12e23b26572302af848af9f88/autogenstudio-0.0.56rc2.tar.gz
+[2024-04-24 00:22:56] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-04-24 00:22:56] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240424/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-24 00:22:56] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/b6/ab/0ad5a0b106081784151cc4d4bbde768308b75ee7095fed289546d596ea5a/autogenstudio-0.0.9a0.tar.gz
+[2024-04-24 00:22:56] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-04-24 00:22:56] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-04-24 00:22:56] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-04-24 00:22:56] INFO root fetch - processPackages [autogenstudio]: executing diffoscope
+[2024-04-24 00:22:56] INFO root fetch - processPackages [autogenstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogenstudio-0.0.56rc2.tar.gz tmp/autogenstudio-0.0.9a0.tar.gz --markdown 20240424/a/autogenstudio/0.0.56rc2-0.0.9a0/README.md --exclude *.pyd
+[2024-04-24 00:22:57] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.56rc2.tar.gz]
+[2024-04-24 00:22:57] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.9a0.tar.gz]
+[2024-04-24 00:22:57] INFO root fetch - main [MainThread]: End processing [autogenstudio]: success
+[2024-04-24 00:22:57] INFO root fetch - main [MainThread]: Store serial: [22902824]
