@@ -801,3 +801,33 @@
 [2024-04-24 00:49:11] INFO root fetch - processPackages [tfx-bsl]: Remove: archive file [/home/abi/fetcher/tmp/tfx_bsl-1.9.0-cp39-cp39-win_amd64.whl.zip]
 [2024-04-24 00:49:11] INFO root fetch - main [MainThread]: End processing [tfx-bsl]: success
 [2024-04-24 00:49:11] INFO root fetch - main [MainThread]: Store serial: [22903047]
+[2024-04-24 00:51:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903047]
+[2024-04-24 00:51:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 00:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fudstop
+[2024-04-24 00:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: affixapi
+[2024-04-24 00:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beam-pyspark-runner
+[2024-04-24 00:51:20] INFO root fetch - processPackages [affixapi]: New version: [1.1.63] Old Version: [1.1.62]
+[2024-04-24 00:51:20] INFO root fetch - processPackages [fudstop]: New version: [2.5.5] Old Version: [2.5.3]
+[2024-04-24 00:51:20] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/2f/b3/b01bf4f6f7c99466fa0f399fdc4cac929b249bfff41a2e30f7bb91b6af3f/affixapi-1.1.62.tar.gz
+[2024-04-24 00:51:20] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/1d/d7/4edf22efe8fd0775c578cbabfbc65b8e2d745fb85213ea35ac7044c2e47e/fudstop-2.5.3.tar.gz
+[2024-04-24 00:51:20] INFO root fetch - processPackages [beam-pyspark-runner]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 00:51:20] INFO root fetch - processPackages [beam-pyspark-runner]: Downloading https://files.pythonhosted.org/packages/a9/08/b26780f95070b13df4417dc29921ee427a5e1dfba977e0c110c65468b675/beam_pyspark_runner-0.0.2.tar.gz
+[2024-04-24 00:51:20] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/ee/c5/4b0fa5cbe9907064c007a941d1c5e95871c23a7d82683c4a12fe46e36266/fudstop-2.5.5-py3-none-any.whl
+[2024-04-24 00:51:20] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/70/b2/cbef4aa1e47c63cf07ab312a6b17fc8deeeacfae19cd22afd553ae126f64/affixapi-1.1.63.tar.gz
+[2024-04-24 00:51:20] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-04-24 00:51:20] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.5.3.tar.gz tmp/fudstop-2.5.5-py3-none-any.whl.zip --markdown 20240424/f/fudstop/2.5.3-2.5.5/README.md --exclude *.pyd
+[2024-04-24 00:51:20] INFO root fetch - processPackages [beam-pyspark-runner]: Downloading https://files.pythonhosted.org/packages/5e/c4/4e55ec84c154902a1b334ecc12caab5fb38cdf79e0ea7bd809136dd581fe/beam_pyspark_runner-0.0.3-py3-none-any.whl
+[2024-04-24 00:51:20] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-04-24 00:51:20] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.62.tar.gz tmp/affixapi-1.1.63.tar.gz --markdown 20240424/a/affixapi/1.1.62-1.1.63/README.md --exclude *.pyd
+[2024-04-24 00:51:21] INFO root fetch - processPackages [beam-pyspark-runner]: executing diffoscope
+[2024-04-24 00:51:21] INFO root fetch - processPackages [beam-pyspark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_pyspark_runner-0.0.2.tar.gz tmp/beam_pyspark_runner-0.0.3-py3-none-any.whl.zip --markdown 20240424/b/beam-pyspark-runner/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 00:51:21] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.3.tar.gz]
+[2024-04-24 00:51:21] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.5-py3-none-any.whl.zip]
+[2024-04-24 00:51:21] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-04-24 00:51:21] INFO root fetch - processPackages [beam-pyspark-runner]: Remove: archive file [/home/abi/fetcher/tmp/beam_pyspark_runner-0.0.2.tar.gz]
+[2024-04-24 00:51:21] INFO root fetch - processPackages [beam-pyspark-runner]: Remove: archive file [/home/abi/fetcher/tmp/beam_pyspark_runner-0.0.3-py3-none-any.whl.zip]
+[2024-04-24 00:51:21] INFO root fetch - main [MainThread]: End processing [beam-pyspark-runner]: success
+[2024-04-24 00:51:21] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.62.tar.gz]
+[2024-04-24 00:51:21] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.63.tar.gz]
+[2024-04-24 00:51:21] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-04-24 00:51:21] INFO root fetch - main [MainThread]: Store serial: [22903058]
