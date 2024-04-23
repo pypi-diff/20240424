@@ -978,3 +978,61 @@
 [2024-04-24 01:00:12] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.1.9.tar.gz]
 [2024-04-24 01:00:12] INFO root fetch - main [MainThread]: End processing [mystmd]: success
 [2024-04-24 01:00:12] INFO root fetch - main [MainThread]: Store serial: [22903143]
+[2024-04-24 01:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903143]
+[2024-04-24 01:02:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 01:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eidolon-ai-sdk
+[2024-04-24 01:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sapit
+[2024-04-24 01:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sapit
+[2024-04-24 01:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsx
+[2024-04-24 01:02:25] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.33] Old Version: [0.1.32]
+[2024-04-24 01:02:25] INFO root fetch - processPackages [sapit]: New version: [1.1] Old Version: [1.0]
+[2024-04-24 01:02:25] INFO root fetch - processPackages [sapit]: New version: [1.1] Old Version: [1.0]
+[2024-04-24 01:02:25] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/d3/a0/0c3542af03cc5855fc8f98959256da239d48c33ef3004dae81a302db4996/eidolon_ai_sdk-0.1.32.tar.gz
+[2024-04-24 01:02:25] INFO root fetch - processPackages [jsx]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-24 01:02:25] INFO root fetch - processPackages [jsx]: Downloading https://files.pythonhosted.org/packages/c0/b7/7d7f48f52a220ad8f9511cb85649c866319ecef03c9a6874a077936c25a7/jsx-0.5.0.tar.gz
+[2024-04-24 01:02:25] INFO root fetch - processPackages [sapit]: Downloading https://files.pythonhosted.org/packages/da/77/8d7f6fc8839e83afb68443230fdf534b58e43dd93be24401eb4c5453cd1a/sapit-1.0.tar.gz
+[2024-04-24 01:02:25] INFO root fetch - processPackages [sapit]: Downloading https://files.pythonhosted.org/packages/da/77/8d7f6fc8839e83afb68443230fdf534b58e43dd93be24401eb4c5453cd1a/sapit-1.0.tar.gz
+[2024-04-24 01:02:25] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/9a/77/456a7e0d5dfe30b3a0d3f250e4274b7618392e049616afb7e890a39fcd20/eidolon_ai_sdk-0.1.33.tar.gz
+[2024-04-24 01:02:25] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-04-24 01:02:25] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.32.tar.gz tmp/eidolon_ai_sdk-0.1.33.tar.gz --markdown 20240424/e/eidolon-ai-sdk/0.1.32-0.1.33/README.md --exclude *.pyd
+[2024-04-24 01:02:25] INFO root fetch - processPackages [jsx]: Downloading https://files.pythonhosted.org/packages/40/44/bda38160805194ae749debfd7d0db9362ca240181faf4afa78f6e4594b80/jsx-0.6.0.tar.gz
+[2024-04-24 01:02:25] INFO root fetch - processPackages [sapit]: Downloading https://files.pythonhosted.org/packages/6b/53/605eb6530397279faaa6f5e2c6206bdcc0a8a2a1676d8d96dbb32301eb54/sapit-1.1.tar.gz
+[2024-04-24 01:02:25] INFO root fetch - processPackages [sapit]: Downloading https://files.pythonhosted.org/packages/6b/53/605eb6530397279faaa6f5e2c6206bdcc0a8a2a1676d8d96dbb32301eb54/sapit-1.1.tar.gz
+[2024-04-24 01:02:25] INFO root fetch - processPackages [sapit]: executing diffoscope
+[2024-04-24 01:02:25] INFO root fetch - processPackages [sapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapit-1.0.tar.gz tmp/sapit-1.1.tar.gz --markdown 20240424/s/sapit/1.0-1.1/README.md --exclude *.pyd
+[2024-04-24 01:02:26] INFO root fetch - processPackages [sapit]: executing diffoscope
+[2024-04-24 01:02:26] INFO root fetch - processPackages [sapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapit-1.0.tar.gz tmp/sapit-1.1.tar.gz --markdown 20240424/s/sapit/1.0-1.1/README.md --exclude *.pyd
+[2024-04-24 01:02:26] INFO root fetch - processPackages [jsx]: executing diffoscope
+[2024-04-24 01:02:26] INFO root fetch - processPackages [jsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsx-0.5.0.tar.gz tmp/jsx-0.6.0.tar.gz --markdown 20240424/j/jsx/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-24 01:02:26] INFO root fetch - processPackages [sapit]: Remove: archive file [/home/abi/fetcher/tmp/sapit-1.0.tar.gz]
+[2024-04-24 01:02:26] INFO root fetch - processPackages [sapit]: Remove: archive file [/home/abi/fetcher/tmp/sapit-1.1.tar.gz]
+[2024-04-24 01:02:26] INFO root fetch - main [MainThread]: End processing [sapit]: success
+[2024-04-24 01:02:26] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.32.tar.gz]
+[2024-04-24 01:02:26] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.33.tar.gz]
+[2024-04-24 01:02:26] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-04-24 01:02:26] INFO root fetch - processPackages [jsx]: Remove: archive file [/home/abi/fetcher/tmp/jsx-0.5.0.tar.gz]
+[2024-04-24 01:02:26] INFO root fetch - processPackages [jsx]: Remove: archive file [/home/abi/fetcher/tmp/jsx-0.6.0.tar.gz]
+[2024-04-24 01:02:26] INFO root fetch - main [MainThread]: End processing [jsx]: success
+[2024-04-24 01:02:26] ERROR root fetch - processPackages [sapit]: Diffoscope failed: time="2024-04-24T01:02:26+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/sapit-1.0.tar.gz does not exist
+
+[2024-04-24 01:02:26] INFO root fetch - main [MainThread]: End processing [sapit] error
+[2024-04-24 01:02:26] INFO root fetch - main [MainThread]: Store serial: [22903157]
