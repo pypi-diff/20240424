@@ -864,3 +864,63 @@
 [2024-04-24 00:53:32] INFO root fetch - processPackages [stardist]: Remove: archive file [/home/abi/fetcher/tmp/stardist-0.9.0.tar.gz]
 [2024-04-24 00:53:32] INFO root fetch - main [MainThread]: End processing [stardist]: success
 [2024-04-24 00:53:32] INFO root fetch - main [MainThread]: Store serial: [22903098]
+[2024-04-24 00:55:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903098]
+[2024-04-24 00:55:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: passphera-core
+[2024-04-24 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-greenhouse
+[2024-04-24 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GameserverLister
+[2024-04-24 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: commitizen-xcodeproj
+[2024-04-24 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimllearning
+[2024-04-24 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ehdg-pupil-detector
+[2024-04-24 00:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-pulumiservice
+[2024-04-24 00:55:41] INFO root fetch - processPackages [ehdg-pupil-detector]: New version: [3.5.1] Old Version: [3.5.0]
+[2024-04-24 00:55:41] INFO root fetch - processPackages [mimllearning]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-24 00:55:41] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.9.1a1689804796] Old Version: [0.9.0]
+[2024-04-24 00:55:41] INFO root fetch - processPackages [passphera-core]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-24 00:55:41] WARNING root fetch - processPackages [commitizen-xcodeproj]: Skipping, unable to determine old version
+[2024-04-24 00:55:41] INFO root fetch - main [MainThread]: End processing [commitizen-xcodeproj] error
+[2024-04-24 00:55:41] INFO root fetch - processPackages [GameserverLister]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-24 00:55:41] INFO root fetch - processPackages [airbyte-source-greenhouse]: New version: [0.5.3] Old Version: [0.5.1]
+[2024-04-24 00:55:41] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/6a/6a/ff430822fd4521677f8b869d452f128acc2c7eeca12948f07056306dc8b8/ehdg_pupil_detector-3.5.0.tar.gz
+[2024-04-24 00:55:41] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/3b/c6/3fc53c14c64e31b961fbbbf034739b073f97df0f043df8eddc84a9951748/mimllearning-0.1.5.tar.gz
+[2024-04-24 00:55:41] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/7f/2a/9f172c6f432bb1aedfdc2e6f674950d4011b0a5dfb418490d7becd77c215/pulumi_pulumiservice-0.9.0.tar.gz
+[2024-04-24 00:55:41] INFO root fetch - processPackages [passphera-core]: Downloading https://files.pythonhosted.org/packages/c7/ea/40f8d184427a51748dda30f48a8b052477d9debf5cbc4bfb06a39b3db341/passphera-core-0.3.3.tar.gz
+[2024-04-24 00:55:41] INFO root fetch - processPackages [GameserverLister]: Downloading https://files.pythonhosted.org/packages/7d/ea/f2e18e4ca4539a125a8c06fce720614a82970b47d58352fce941ed088908/GameserverLister-1.1.0.tar.gz
+[2024-04-24 00:55:41] INFO root fetch - processPackages [airbyte-source-greenhouse]: Downloading https://files.pythonhosted.org/packages/87/0f/29ffb9a903f0b2880c9880f29406a73800a555d7bbbcf5704d80677cbbcf/airbyte_source_greenhouse-0.5.1.tar.gz
+[2024-04-24 00:55:41] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/0d/88/d9123d1fbed34a277c17acb768dc334c7d111b33c5820b8a76ce41794601/pulumi_pulumiservice-0.9.1a1689804796.tar.gz
+[2024-04-24 00:55:42] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/03/e1/77099b9b45c29c48f016f35a59da8fcdb9f9538a5ab7393d40347cb8e4d8/ehdg_pupil_detector-3.5.1.tar.gz
+[2024-04-24 00:55:42] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2024-04-24 00:55:42] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.9.0.tar.gz tmp/pulumi_pulumiservice-0.9.1a1689804796.tar.gz --markdown 20240424/p/pulumi-pulumiservice/0.9.0-0.9.1a1689804796/README.md --exclude *.pyd
+[2024-04-24 00:55:42] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/11/c8/165993fd5b3e6eb9241598c8b1d88f132a55599a08ed9e1dea8b3168c8fc/mimllearning-0.1.6.tar.gz
+[2024-04-24 00:55:42] INFO root fetch - processPackages [ehdg-pupil-detector]: executing diffoscope
+[2024-04-24 00:55:42] INFO root fetch - processPackages [ehdg-pupil-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_pupil_detector-3.5.0.tar.gz tmp/ehdg_pupil_detector-3.5.1.tar.gz --markdown 20240424/e/ehdg-pupil-detector/3.5.0-3.5.1/README.md --exclude *.pyd
+[2024-04-24 00:55:42] INFO root fetch - processPackages [passphera-core]: Downloading https://files.pythonhosted.org/packages/c1/25/d2b110de08427b050ffb41012bfb8fc3d58552ed7c81cf30c52f796a941a/passphera-core-0.3.4.tar.gz
+[2024-04-24 00:55:42] INFO root fetch - processPackages [airbyte-source-greenhouse]: Downloading https://files.pythonhosted.org/packages/2e/ad/2ad34d19879cefffd9b5badfb31afc127f3089280ecfab98fc37b1cdd2c4/airbyte_source_greenhouse-0.5.3.tar.gz
+[2024-04-24 00:55:42] INFO root fetch - processPackages [GameserverLister]: Downloading https://files.pythonhosted.org/packages/bd/25/b9ed714dea61e7f658ee5b023d0b92fb00681921abbbb79f7b94dbdcefdd/gameserverlister-1.1.1.tar.gz
+[2024-04-24 00:55:42] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-04-24 00:55:42] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.1.5.tar.gz tmp/mimllearning-0.1.6.tar.gz --markdown 20240424/m/mimllearning/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-24 00:55:42] INFO root fetch - processPackages [passphera-core]: executing diffoscope
+[2024-04-24 00:55:42] INFO root fetch - processPackages [passphera-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passphera-core-0.3.3.tar.gz tmp/passphera-core-0.3.4.tar.gz --markdown 20240424/p/passphera-core/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-24 00:55:42] INFO root fetch - processPackages [airbyte-source-greenhouse]: executing diffoscope
+[2024-04-24 00:55:42] INFO root fetch - processPackages [airbyte-source-greenhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_greenhouse-0.5.1.tar.gz tmp/airbyte_source_greenhouse-0.5.3.tar.gz --markdown 20240424/a/airbyte-source-greenhouse/0.5.1-0.5.3/README.md --exclude *.pyd
+[2024-04-24 00:55:42] INFO root fetch - processPackages [GameserverLister]: executing diffoscope
+[2024-04-24 00:55:42] INFO root fetch - processPackages [GameserverLister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GameserverLister-1.1.0.tar.gz tmp/gameserverlister-1.1.1.tar.gz --markdown 20240424/G/GameserverLister/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-24 00:55:42] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.5.0.tar.gz]
+[2024-04-24 00:55:42] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.5.1.tar.gz]
+[2024-04-24 00:55:42] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
+[2024-04-24 00:55:42] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.9.0.tar.gz]
+[2024-04-24 00:55:42] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.9.1a1689804796.tar.gz]
+[2024-04-24 00:55:42] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2024-04-24 00:55:43] INFO root fetch - processPackages [passphera-core]: Remove: archive file [/home/abi/fetcher/tmp/passphera-core-0.3.3.tar.gz]
+[2024-04-24 00:55:43] INFO root fetch - processPackages [passphera-core]: Remove: archive file [/home/abi/fetcher/tmp/passphera-core-0.3.4.tar.gz]
+[2024-04-24 00:55:43] INFO root fetch - main [MainThread]: End processing [passphera-core]: success
+[2024-04-24 00:55:43] INFO root fetch - processPackages [airbyte-source-greenhouse]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_greenhouse-0.5.1.tar.gz]
+[2024-04-24 00:55:43] INFO root fetch - processPackages [airbyte-source-greenhouse]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_greenhouse-0.5.3.tar.gz]
+[2024-04-24 00:55:43] INFO root fetch - main [MainThread]: End processing [airbyte-source-greenhouse]: success
+[2024-04-24 00:55:43] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.5.tar.gz]
+[2024-04-24 00:55:43] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.1.6.tar.gz]
+[2024-04-24 00:55:43] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-04-24 00:55:43] INFO root fetch - processPackages [GameserverLister]: Remove: archive file [/home/abi/fetcher/tmp/GameserverLister-1.1.0.tar.gz]
+[2024-04-24 00:55:43] INFO root fetch - processPackages [GameserverLister]: Remove: archive file [/home/abi/fetcher/tmp/gameserverlister-1.1.1.tar.gz]
+[2024-04-24 00:55:43] INFO root fetch - main [MainThread]: End processing [GameserverLister]: success
+[2024-04-24 00:55:43] INFO root fetch - main [MainThread]: Store serial: [22903123]
