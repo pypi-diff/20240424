@@ -2015,3 +2015,51 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:57:38] INFO root fetch - processPackages [arm-pytorch-utilities]: Remove: archive file [/home/abi/fetcher/tmp/arm_pytorch_utilities-0.4.2.tar.gz]
 [2024-04-24 01:57:38] INFO root fetch - main [MainThread]: End processing [arm-pytorch-utilities]: success
 [2024-04-24 01:57:38] INFO root fetch - main [MainThread]: Store serial: [22903548]
+[2024-04-24 01:59:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903548]
+[2024-04-24 01:59:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 01:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsms-sdk
+[2024-04-24 01:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-customvueadmin
+[2024-04-24 01:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kayalab
+[2024-04-24 01:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: regex-rust
+[2024-04-24 01:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cs2-battle-bot-api-client
+[2024-04-24 01:59:47] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-04-24 01:59:47] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2024-04-24 01:59:47] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 01:59:47] INFO root fetch - processPackages [cs2-battle-bot-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:59:47] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-04-24 01:59:47] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/99/f2/574cc897b36eaa90d9d659e0e3ca096c1c734ad8e9381a87579cff03e716/dsms_sdk-1.4.0rc8.tar.gz
+[2024-04-24 01:59:47] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/03/df/b7441418a2c92e54f467823096a59228bd44b86e3d3cabbf00bf422e840b/cs2_battle_bot_api_client-0.0.8.tar.gz
+[2024-04-24 01:59:47] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/c5/4d/0d59effed1262f17c1fa142676a62a053cf3bcafbece7f3fdf47d7cb29f3/django-customvueadmin-0.1.8.tar.gz
+[2024-04-24 01:59:47] INFO root fetch - processPackages [regex-rust]: New version: [0.2.0] Old Version: [0.1.0rc1]
+[2024-04-24 01:59:47] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/d6/80/4a34169d48bf3fd90ed612c6344540560cc43ee54e6e17e4cb161b988cdf/dsms_sdk-1.4.0rc9.tar.gz
+[2024-04-24 01:59:47] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/77/08/3e7b110a5c7ca73d5a2f0ae6b0262f4ffff4556c60ed50870a60f5aad63e/cs2_battle_bot_api_client-0.0.9.tar.gz
+[2024-04-24 01:59:47] INFO root fetch - processPackages [regex-rust]: Downloading https://files.pythonhosted.org/packages/a2/aa/6b4052da6afa8116ffe33403a77e65bc0be30d16bd5d6b03cebb856f4f3f/regex_rust-0.1.0rc1-cp312-none-win_amd64.whl
+[2024-04-24 01:59:47] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-04-24 01:59:47] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-04-24 01:59:47] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.4.0rc8.tar.gz tmp/dsms_sdk-1.4.0rc9.tar.gz --markdown 20240424/d/dsms-sdk/1.4.0rc8-1.4.0rc9/README.md --exclude *.pyd
+[2024-04-24 01:59:47] INFO root fetch - processPackages [cs2-battle-bot-api-client]: executing diffoscope
+[2024-04-24 01:59:47] INFO root fetch - processPackages [cs2-battle-bot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2_battle_bot_api_client-0.0.8.tar.gz tmp/cs2_battle_bot_api_client-0.0.9.tar.gz --markdown 20240424/c/cs2-battle-bot-api-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:59:47] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-04-24 01:59:47] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.8.tar.gz tmp/django-customvueadmin-0.1.9.tar.gz --markdown 20240424/d/django-customvueadmin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 01:59:47] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-04-24 01:59:47] INFO root fetch - processPackages [regex-rust]: Downloading https://files.pythonhosted.org/packages/68/8f/fc333773f96392e6234451b98050bc983dc63b434d8f655213c7cc5b5b09/regex_rust-0.2.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.whl
+[2024-04-24 01:59:48] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-04-24 01:59:48] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240424/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-04-24 01:59:48] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc8.tar.gz]
+[2024-04-24 01:59:48] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc9.tar.gz]
+[2024-04-24 01:59:48] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-04-24 01:59:48] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.8.tar.gz]
+[2024-04-24 01:59:48] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.9.tar.gz]
+[2024-04-24 01:59:48] INFO root fetch - main [MainThread]: End processing [cs2-battle-bot-api-client]: success
+[2024-04-24 01:59:48] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.8.tar.gz]
+[2024-04-24 01:59:48] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-04-24 01:59:48] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-04-24 01:59:49] INFO root fetch - processPackages [regex-rust]: executing diffoscope
+[2024-04-24 01:59:49] INFO root fetch - processPackages [regex-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex_rust-0.1.0rc1-cp312-none-win_amd64.whl.zip tmp/regex_rust-0.2.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.whl.zip --markdown 20240424/r/regex-rust/0.1.0rc1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 01:59:50] INFO root fetch - processPackages [regex-rust]: Remove: archive file [/home/abi/fetcher/tmp/regex_rust-0.1.0rc1-cp312-none-win_amd64.whl.zip]
+[2024-04-24 01:59:50] INFO root fetch - processPackages [regex-rust]: Remove: archive file [/home/abi/fetcher/tmp/regex_rust-0.2.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.whl.zip]
+[2024-04-24 01:59:50] INFO root fetch - main [MainThread]: End processing [regex-rust]: success
+[2024-04-24 01:59:51] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-04-24 01:59:51] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-04-24 01:59:51] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-04-24 01:59:51] INFO root fetch - main [MainThread]: Store serial: [22903589]
