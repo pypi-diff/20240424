@@ -1487,3 +1487,87 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:26:23] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
 [2024-04-24 01:26:23] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-04-24 01:26:23] INFO root fetch - main [MainThread]: Store serial: [22903363]
+[2024-04-24 01:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903363]
+[2024-04-24 01:28:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-update
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepspeed
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omniconfig
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytainer
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-microcore
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funtoo-ramdisk
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geoips
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vgs-cli
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neon-utils
+[2024-04-24 01:28:31] INFO root fetch - processPackages [pytainer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 01:28:31] INFO root fetch - processPackages [deepspeed]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-24 01:28:31] INFO root fetch - processPackages [funtoo-ramdisk]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-24 01:28:31] INFO root fetch - processPackages [neon-skill-update]: New version: [3.0.0] Old Version: [2.1.3a5]
+[2024-04-24 01:28:31] INFO root fetch - processPackages [omniconfig]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 01:28:31] INFO root fetch - processPackages [vgs-cli]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-24 01:28:31] INFO root fetch - processPackages [ai-microcore]: New version: [3.6.1] Old Version: [3.6.0]
+[2024-04-24 01:28:31] INFO root fetch - processPackages [geoips]: New version: [1.12.2a0] Old Version: [1.12.0]
+[2024-04-24 01:28:31] INFO root fetch - processPackages [pytainer]: Downloading https://files.pythonhosted.org/packages/4f/c2/dfde2f19bf8bb7a606e6e9b5cff38c3cbe92ce3700be2a1370fa650651f6/pytainer-0.0.2.tar.gz
+[2024-04-24 01:28:31] INFO root fetch - processPackages [deepspeed]: Downloading https://files.pythonhosted.org/packages/41/04/14787d6ce94a70fa2a4e6b123d6c1fec7317d8249ac26176932316ff1153/deepspeed-0.9.4.tar.gz
+[2024-04-24 01:28:31] INFO root fetch - processPackages [neon-utils]: New version: [1.9.2a5] Old Version: [1.9.2a4]
+[2024-04-24 01:28:32] INFO root fetch - processPackages [omniconfig]: Downloading https://files.pythonhosted.org/packages/35/fb/b5eb6bdd2f7c5907a8e70a0c49bcba151d65392e65fa706e798802b5b777/omniconfig-0.1.0.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/fa/a9/ef20abf6a7c37f79dec2d67bb8b8d1fefefc573195f32eb943558d8597db/funtoo_ramdisk-1.1.8.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [vgs-cli]: Downloading https://files.pythonhosted.org/packages/c6/ef/2fe772c65ca853772d50854da50dfce5b98d54af0091cd3267b9fc8b109f/vgs-cli-1.9.4.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [ai-microcore]: Downloading https://files.pythonhosted.org/packages/47/1e/9b53cf11ece97f56541917d4c6d03411fa34aa2acf24a239eec019304a74/ai_microcore-3.6.0.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [geoips]: Downloading https://files.pythonhosted.org/packages/8e/5c/281d0ce3bd3f6b88c91c8efc75938b34d800ef72b981c40705650383fd7c/geoips-1.12.0.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/d9/65/fa64ab2a8e5df138c273174a28b00236b9fe1e1862aaa11d7b887507a0ae/neon-skill-update-2.1.3a5.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/40/2d/fb1887f565e889964657dd1ffc5eca79ea8e671fe20620d2659c16798ce4/neon-utils-1.9.2a4.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [pytainer]: Downloading https://files.pythonhosted.org/packages/52/86/704db06918e6acecfefd19f8f570fd5f57a3c346b86dc03e8402c361d40e/pytainer-0.0.3.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [omniconfig]: Downloading https://files.pythonhosted.org/packages/d5/af/453611e43f372dbfbaad79d96b756cb20f28cc9e852e8a4282fe188b9695/omniconfig-0.1.1.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [pytainer]: executing diffoscope
+[2024-04-24 01:28:32] INFO root fetch - processPackages [pytainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytainer-0.0.2.tar.gz tmp/pytainer-0.0.3.tar.gz --markdown 20240424/p/pytainer/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 01:28:32] INFO root fetch - processPackages [ai-microcore]: Downloading https://files.pythonhosted.org/packages/89/98/b6807aa2cbaeb61e993e8c15a734aa852c77b786c5f0102f1a546fcac6ca/ai_microcore-3.6.1.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [deepspeed]: Downloading https://files.pythonhosted.org/packages/99/0f/a4ebd3b3f6a8fd9bca77ca5f570724f3902ca90b491f8146e45c9733e64f/deepspeed-0.9.5.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/dd/08/9f1cdd46afa442da53cf8c4372adc9059d36e9e99c7fd438132df3f19a43/funtoo_ramdisk-1.1.9.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/4c/55/da9b1c505bdb658ce7fa3628ba2979ea8b23ce280db2f7f2e241a519af5a/neon-skill-update-3.0.0.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [geoips]: Downloading https://files.pythonhosted.org/packages/ab/96/90711e28e01c0ea77d8c6b4384d9794f11dd0f99fde2da763ad7d57094c4/geoips-1.12.2a0.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [vgs-cli]: Downloading https://files.pythonhosted.org/packages/4a/37/e7806711730cb819399b1b5673ab9445a738c9e04c09483014bf2978f378/vgs-cli-1.9.5.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [omniconfig]: executing diffoscope
+[2024-04-24 01:28:32] INFO root fetch - processPackages [omniconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniconfig-0.1.0.tar.gz tmp/omniconfig-0.1.1.tar.gz --markdown 20240424/o/omniconfig/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 01:28:32] INFO root fetch - processPackages [funtoo-ramdisk]: executing diffoscope
+[2024-04-24 01:28:32] INFO root fetch - processPackages [funtoo-ramdisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funtoo_ramdisk-1.1.8.tar.gz tmp/funtoo_ramdisk-1.1.9.tar.gz --markdown 20240424/f/funtoo-ramdisk/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-24 01:28:32] INFO root fetch - processPackages [neon-skill-update]: executing diffoscope
+[2024-04-24 01:28:32] INFO root fetch - processPackages [neon-skill-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-update-2.1.3a5.tar.gz tmp/neon-skill-update-3.0.0.tar.gz --markdown 20240424/n/neon-skill-update/2.1.3a5-3.0.0/README.md --exclude *.pyd
+[2024-04-24 01:28:32] INFO root fetch - processPackages [vgs-cli]: executing diffoscope
+[2024-04-24 01:28:32] INFO root fetch - processPackages [vgs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs-cli-1.9.4.tar.gz tmp/vgs-cli-1.9.5.tar.gz --markdown 20240424/v/vgs-cli/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-24 01:28:32] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/4b/7e/d169b05a82bb414b9aaef0aca31a8f1752c08f9ca655cca6a681584a2c23/neon-utils-1.9.2a5.tar.gz
+[2024-04-24 01:28:32] INFO root fetch - processPackages [deepspeed]: executing diffoscope
+[2024-04-24 01:28:32] INFO root fetch - processPackages [deepspeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepspeed-0.9.4.tar.gz tmp/deepspeed-0.9.5.tar.gz --markdown 20240424/d/deepspeed/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-24 01:28:32] INFO root fetch - processPackages [ai-microcore]: executing diffoscope
+[2024-04-24 01:28:32] INFO root fetch - processPackages [ai-microcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_microcore-3.6.0.tar.gz tmp/ai_microcore-3.6.1.tar.gz --markdown 20240424/a/ai-microcore/3.6.0-3.6.1/README.md --exclude *.pyd
+[2024-04-24 01:28:32] INFO root fetch - processPackages [geoips]: executing diffoscope
+[2024-04-24 01:28:32] INFO root fetch - processPackages [geoips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoips-1.12.0.tar.gz tmp/geoips-1.12.2a0.tar.gz --markdown 20240424/g/geoips/1.12.0-1.12.2a0/README.md --exclude *.pyd
+[2024-04-24 01:28:32] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2024-04-24 01:28:32] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.9.2a4.tar.gz tmp/neon-utils-1.9.2a5.tar.gz --markdown 20240424/n/neon-utils/1.9.2a4-1.9.2a5/README.md --exclude *.pyd
+[2024-04-24 01:28:33] INFO root fetch - processPackages [pytainer]: Remove: archive file [/home/abi/fetcher/tmp/pytainer-0.0.2.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - processPackages [pytainer]: Remove: archive file [/home/abi/fetcher/tmp/pytainer-0.0.3.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - main [MainThread]: End processing [pytainer]: success
+[2024-04-24 01:28:33] INFO root fetch - processPackages [omniconfig]: Remove: archive file [/home/abi/fetcher/tmp/omniconfig-0.1.0.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - processPackages [omniconfig]: Remove: archive file [/home/abi/fetcher/tmp/omniconfig-0.1.1.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - main [MainThread]: End processing [omniconfig]: success
+[2024-04-24 01:28:33] INFO root fetch - processPackages [neon-skill-update]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-update-2.1.3a5.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - processPackages [neon-skill-update]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-update-3.0.0.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - main [MainThread]: End processing [neon-skill-update]: success
+[2024-04-24 01:28:33] INFO root fetch - processPackages [ai-microcore]: Remove: archive file [/home/abi/fetcher/tmp/ai_microcore-3.6.0.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - processPackages [ai-microcore]: Remove: archive file [/home/abi/fetcher/tmp/ai_microcore-3.6.1.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - main [MainThread]: End processing [ai-microcore]: success
+[2024-04-24 01:28:33] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.8.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.9.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - main [MainThread]: End processing [funtoo-ramdisk]: success
+[2024-04-24 01:28:33] INFO root fetch - processPackages [vgs-cli]: Remove: archive file [/home/abi/fetcher/tmp/vgs-cli-1.9.4.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - processPackages [vgs-cli]: Remove: archive file [/home/abi/fetcher/tmp/vgs-cli-1.9.5.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - main [MainThread]: End processing [vgs-cli]: success
+[2024-04-24 01:28:33] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a4.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a5.tar.gz]
+[2024-04-24 01:28:33] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2024-04-24 01:28:35] INFO root fetch - processPackages [deepspeed]: Remove: archive file [/home/abi/fetcher/tmp/deepspeed-0.9.4.tar.gz]
+[2024-04-24 01:28:35] INFO root fetch - processPackages [deepspeed]: Remove: archive file [/home/abi/fetcher/tmp/deepspeed-0.9.5.tar.gz]
+[2024-04-24 01:28:35] INFO root fetch - main [MainThread]: End processing [deepspeed]: success
+[2024-04-24 01:28:35] INFO root fetch - processPackages [geoips]: Remove: archive file [/home/abi/fetcher/tmp/geoips-1.12.0.tar.gz]
+[2024-04-24 01:28:35] INFO root fetch - processPackages [geoips]: Remove: archive file [/home/abi/fetcher/tmp/geoips-1.12.2a0.tar.gz]
+[2024-04-24 01:28:35] INFO root fetch - main [MainThread]: End processing [geoips]: success
+[2024-04-24 01:28:35] INFO root fetch - main [MainThread]: Store serial: [22903384]
