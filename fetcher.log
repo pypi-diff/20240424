@@ -1964,3 +1964,30 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:53:16] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-24 01:53:16] INFO root fetch - main [MainThread]: End processing [querysource]: success
 [2024-04-24 01:53:16] INFO root fetch - main [MainThread]: Store serial: [22903522]
+[2024-04-24 01:55:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903522]
+[2024-04-24 01:55:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aikicore
+[2024-04-24 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ck-apstra-api
+[2024-04-24 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: willc
+[2024-04-24 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-customvueadmin
+[2024-04-24 01:55:26] WARNING root fetch - processPackages [aikicore]: Skipping, unable to determine old version
+[2024-04-24 01:55:26] INFO root fetch - main [MainThread]: End processing [aikicore] error
+[2024-04-24 01:55:26] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 01:55:26] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/c5/4d/0d59effed1262f17c1fa142676a62a053cf3bcafbece7f3fdf47d7cb29f3/django-customvueadmin-0.1.8.tar.gz
+[2024-04-24 01:55:26] WARNING root fetch - processPackages [willc]: Skipping, unable to determine old version
+[2024-04-24 01:55:26] INFO root fetch - main [MainThread]: End processing [willc] error
+[2024-04-24 01:55:26] INFO root fetch - processPackages [ck-apstra-api]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-24 01:55:27] INFO root fetch - processPackages [ck-apstra-api]: Downloading https://files.pythonhosted.org/packages/2b/16/4fe667a3e176829aed2cd64fb9e0f3c9c59d68d23bdf754e99ad9b4979c4/ck_apstra_api-0.3.1.tar.gz
+[2024-04-24 01:55:27] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-04-24 01:55:27] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-04-24 01:55:27] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.8.tar.gz tmp/django-customvueadmin-0.1.9.tar.gz --markdown 20240424/d/django-customvueadmin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 01:55:27] INFO root fetch - processPackages [ck-apstra-api]: Downloading https://files.pythonhosted.org/packages/ef/38/972f1b64de5fb23bb26cb4bda8e2d435898e1754a5c5753210bef4149342/ck_apstra_api-0.3.2.tar.gz
+[2024-04-24 01:55:27] INFO root fetch - processPackages [ck-apstra-api]: executing diffoscope
+[2024-04-24 01:55:27] INFO root fetch - processPackages [ck-apstra-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ck_apstra_api-0.3.1.tar.gz tmp/ck_apstra_api-0.3.2.tar.gz --markdown 20240424/c/ck-apstra-api/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-24 01:55:28] INFO root fetch - processPackages [ck-apstra-api]: Remove: archive file [/home/abi/fetcher/tmp/ck_apstra_api-0.3.1.tar.gz]
+[2024-04-24 01:55:28] INFO root fetch - processPackages [ck-apstra-api]: Remove: archive file [/home/abi/fetcher/tmp/ck_apstra_api-0.3.2.tar.gz]
+[2024-04-24 01:55:28] INFO root fetch - main [MainThread]: End processing [ck-apstra-api]: success
+[2024-04-24 01:55:28] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.8.tar.gz]
+[2024-04-24 01:55:28] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-04-24 01:55:28] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-04-24 01:55:28] INFO root fetch - main [MainThread]: Store serial: [22903538]
