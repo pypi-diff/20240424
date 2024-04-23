@@ -1902,3 +1902,26 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:46:45] INFO root fetch - processPackages [deformable-attention]: Remove: archive file [/home/abi/fetcher/tmp/deformable-attention-0.0.9.tar.gz]
 [2024-04-24 01:46:45] INFO root fetch - main [MainThread]: End processing [deformable-attention]: success
 [2024-04-24 01:46:45] INFO root fetch - main [MainThread]: Store serial: [22903503]
+[2024-04-24 01:48:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903503]
+[2024-04-24 01:48:53] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-24 01:50:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903504]
+[2024-04-24 01:50:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 01:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gantry-logger
+[2024-04-24 01:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kmt
+[2024-04-24 01:50:58] INFO root fetch - processPackages [kmt]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-24 01:50:58] INFO root fetch - processPackages [gantry-logger]: New version: [0.0.2a6] Old Version: [0.0.2a5]
+[2024-04-24 01:50:58] INFO root fetch - processPackages [kmt]: Downloading https://files.pythonhosted.org/packages/9d/81/ccd042567a65d13b8483acac6e0350bac5f371eab78aff195939195c7166/kmt-0.3.0.tar.gz
+[2024-04-24 01:50:58] INFO root fetch - processPackages [gantry-logger]: Downloading https://files.pythonhosted.org/packages/8b/02/fff3c67b434281d83f4e1088c532bfa33216a88890911bb3b3b58a8cbb56/gantry-logger-0.0.2a5.tar.gz
+[2024-04-24 01:50:59] INFO root fetch - processPackages [kmt]: Downloading https://files.pythonhosted.org/packages/93/14/44eaf33b177d341dd7786d64d0ea47e3b890718065090d1056ef37ebf31a/kmt-0.3.1.tar.gz
+[2024-04-24 01:50:59] INFO root fetch - processPackages [gantry-logger]: Downloading https://files.pythonhosted.org/packages/a5/7e/4d7fa16ba4c58a81be3c7b8bb3f121e38f1756ed71da988a7eec8a93810f/gantry_logger-0.0.2a6.tar.gz
+[2024-04-24 01:50:59] INFO root fetch - processPackages [kmt]: executing diffoscope
+[2024-04-24 01:50:59] INFO root fetch - processPackages [kmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmt-0.3.0.tar.gz tmp/kmt-0.3.1.tar.gz --markdown 20240424/k/kmt/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-24 01:50:59] INFO root fetch - processPackages [gantry-logger]: executing diffoscope
+[2024-04-24 01:50:59] INFO root fetch - processPackages [gantry-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantry-logger-0.0.2a5.tar.gz tmp/gantry_logger-0.0.2a6.tar.gz --markdown 20240424/g/gantry-logger/0.0.2a5-0.0.2a6/README.md --exclude *.pyd
+[2024-04-24 01:50:59] INFO root fetch - processPackages [kmt]: Remove: archive file [/home/abi/fetcher/tmp/kmt-0.3.0.tar.gz]
+[2024-04-24 01:50:59] INFO root fetch - processPackages [kmt]: Remove: archive file [/home/abi/fetcher/tmp/kmt-0.3.1.tar.gz]
+[2024-04-24 01:50:59] INFO root fetch - main [MainThread]: End processing [kmt]: success
+[2024-04-24 01:50:59] INFO root fetch - processPackages [gantry-logger]: Remove: archive file [/home/abi/fetcher/tmp/gantry-logger-0.0.2a5.tar.gz]
+[2024-04-24 01:50:59] INFO root fetch - processPackages [gantry-logger]: Remove: archive file [/home/abi/fetcher/tmp/gantry_logger-0.0.2a6.tar.gz]
+[2024-04-24 01:50:59] INFO root fetch - main [MainThread]: End processing [gantry-logger]: success
+[2024-04-24 01:50:59] INFO root fetch - main [MainThread]: Store serial: [22903510]
