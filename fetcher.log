@@ -1732,3 +1732,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:37:19] INFO root fetch - processPackages [sageworks]: Remove: archive file [/home/abi/fetcher/tmp/sageworks-0.6.0.tar.gz]
 [2024-04-24 01:37:19] INFO root fetch - main [MainThread]: End processing [sageworks]: success
 [2024-04-24 01:37:19] INFO root fetch - main [MainThread]: Store serial: [22903441]
+[2024-04-24 01:39:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903441]
+[2024-04-24 01:39:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 01:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-appointment
+[2024-04-24 01:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhostprep
+[2024-04-24 01:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyspde
+[2024-04-24 01:39:28] INFO root fetch - processPackages [pyhostprep]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 01:39:28] INFO root fetch - processPackages [pyspde]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 01:39:28] INFO root fetch - processPackages [edc-appointment]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-24 01:39:28] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/04/d8/963d47e7a92caae4e6ccf713750c04249de9656a850f31195b69b2db3574/pyhostprep-1.0.8.tar.gz
+[2024-04-24 01:39:28] INFO root fetch - processPackages [pyspde]: Downloading https://files.pythonhosted.org/packages/d8/94/06a250902cebd9aed38e2d0731a705b28b80d02301c7be3ffef62ea532a9/pyspde-0.0.1.tar.gz
+[2024-04-24 01:39:28] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/07/06/a58bc0da669b30851fde8e5a4429cf012f70b3813ab4f49f05f6e29621ad/edc-appointment-0.4.8.tar.gz
+[2024-04-24 01:39:28] INFO root fetch - processPackages [pyspde]: Downloading https://files.pythonhosted.org/packages/78/7c/a826830da47f3f056b11016ace7966aa6cd1eea9f2eaed4c591657155a22/pyspde-0.0.2.tar.gz
+[2024-04-24 01:39:29] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/cd/3c/cf23b46a139c7addacc89c01e7c0d5972b5e935296a61327072b946f592e/pyhostprep-1.0.9.tar.gz
+[2024-04-24 01:39:29] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/01/14/455ea62f84b9d2874aa7783b98e6e092914f37ccc6f3d556745835e50c3e/edc-appointment-0.4.9.tar.gz
+[2024-04-24 01:39:29] INFO root fetch - processPackages [pyspde]: executing diffoscope
+[2024-04-24 01:39:29] INFO root fetch - processPackages [pyspde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspde-0.0.1.tar.gz tmp/pyspde-0.0.2.tar.gz --markdown 20240424/p/pyspde/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 01:39:29] INFO root fetch - processPackages [pyhostprep]: executing diffoscope
+[2024-04-24 01:39:29] INFO root fetch - processPackages [pyhostprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhostprep-1.0.8.tar.gz tmp/pyhostprep-1.0.9.tar.gz --markdown 20240424/p/pyhostprep/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 01:39:29] INFO root fetch - processPackages [edc-appointment]: executing diffoscope
+[2024-04-24 01:39:29] INFO root fetch - processPackages [edc-appointment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-appointment-0.4.8.tar.gz tmp/edc-appointment-0.4.9.tar.gz --markdown 20240424/e/edc-appointment/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-24 01:39:29] INFO root fetch - processPackages [pyspde]: Remove: archive file [/home/abi/fetcher/tmp/pyspde-0.0.1.tar.gz]
+[2024-04-24 01:39:29] INFO root fetch - processPackages [pyspde]: Remove: archive file [/home/abi/fetcher/tmp/pyspde-0.0.2.tar.gz]
+[2024-04-24 01:39:29] INFO root fetch - main [MainThread]: End processing [pyspde]: success
+[2024-04-24 01:39:29] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.8.tar.gz]
+[2024-04-24 01:39:29] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.9.tar.gz]
+[2024-04-24 01:39:29] INFO root fetch - main [MainThread]: End processing [pyhostprep]: success
+[2024-04-24 01:39:30] INFO root fetch - processPackages [edc-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc-appointment-0.4.8.tar.gz]
+[2024-04-24 01:39:30] INFO root fetch - processPackages [edc-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc-appointment-0.4.9.tar.gz]
+[2024-04-24 01:39:30] INFO root fetch - main [MainThread]: End processing [edc-appointment]: success
+[2024-04-24 01:39:30] INFO root fetch - main [MainThread]: Store serial: [22903449]
