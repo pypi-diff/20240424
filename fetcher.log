@@ -1439,3 +1439,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:22:02] INFO root fetch - processPackages [aws-glue-sessions]: Remove: archive file [/home/abi/fetcher/tmp/aws-glue-sessions-1.0.5.tar.gz]
 [2024-04-24 01:22:02] INFO root fetch - main [MainThread]: End processing [aws-glue-sessions]: success
 [2024-04-24 01:22:02] INFO root fetch - main [MainThread]: Store serial: [22903340]
+[2024-04-24 01:24:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903340]
+[2024-04-24 01:24:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 01:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioimageio.core
+[2024-04-24 01:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravithon
+[2024-04-24 01:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammath-spot
+[2024-04-24 01:24:11] INFO root fetch - processPackages [gravithon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:24:11] INFO root fetch - processPackages [bioimageio.core]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-04-24 01:24:11] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/f6/b8/a0455b3e618c7eba6957d6891d43d6c3a775909ec5530b4466cb0db8a404/gravithon-0.0.8.tar.gz
+[2024-04-24 01:24:11] INFO root fetch - processPackages [gammath-spot]: New version: [9.5] Old Version: [9.3]
+[2024-04-24 01:24:11] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/cd/0d/500a5434077c6a4432a6db2432d0d609036e2d8a8df5e49c28beab6373c9/gravithon-0.0.9.tar.gz
+[2024-04-24 01:24:11] INFO root fetch - processPackages [gammath-spot]: Downloading https://files.pythonhosted.org/packages/c0/03/1dd78e5b03ecddece33b22a8cdc345eb1180ba3cce1414f4ccf4e71746f1/gammath_spot-9.3.tar.gz
+[2024-04-24 01:24:11] INFO root fetch - processPackages [bioimageio.core]: Downloading https://files.pythonhosted.org/packages/9c/9b/fe1a3ddab92d0568907638abc438ebac09a4f75c8596b320496b9dd74411/bioimageio.core-0.5.9.tar.gz
+[2024-04-24 01:24:11] INFO root fetch - processPackages [gravithon]: executing diffoscope
+[2024-04-24 01:24:11] INFO root fetch - processPackages [gravithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravithon-0.0.8.tar.gz tmp/gravithon-0.0.9.tar.gz --markdown 20240424/g/gravithon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:24:12] INFO root fetch - processPackages [bioimageio.core]: Downloading https://files.pythonhosted.org/packages/4f/dc/b76be54378b5e67031285cbef702020349e91e289da514ebb0c2d70a8810/bioimageio.core-0.6.0.tar.gz
+[2024-04-24 01:24:12] INFO root fetch - processPackages [bioimageio.core]: executing diffoscope
+[2024-04-24 01:24:12] INFO root fetch - processPackages [bioimageio.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio.core-0.5.9.tar.gz tmp/bioimageio.core-0.6.0.tar.gz --markdown 20240424/b/bioimageio.core/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-04-24 01:24:12] INFO root fetch - processPackages [gammath-spot]: Downloading https://files.pythonhosted.org/packages/d1/8e/4faa5f1670eb9302dfb910ff09d828b562f2b0b2f0be10504f69fac9e2f6/gammath_spot-9.5.tar.gz
+[2024-04-24 01:24:12] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.8.tar.gz]
+[2024-04-24 01:24:12] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.9.tar.gz]
+[2024-04-24 01:24:12] INFO root fetch - main [MainThread]: End processing [gravithon]: success
+[2024-04-24 01:24:12] INFO root fetch - processPackages [gammath-spot]: executing diffoscope
+[2024-04-24 01:24:12] INFO root fetch - processPackages [gammath-spot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammath_spot-9.3.tar.gz tmp/gammath_spot-9.5.tar.gz --markdown 20240424/g/gammath-spot/9.3-9.5/README.md --exclude *.pyd
+[2024-04-24 01:24:12] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.5.9.tar.gz]
+[2024-04-24 01:24:12] INFO root fetch - processPackages [bioimageio.core]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.core-0.6.0.tar.gz]
+[2024-04-24 01:24:12] INFO root fetch - main [MainThread]: End processing [bioimageio.core]: success
+[2024-04-24 01:24:13] INFO root fetch - processPackages [gammath-spot]: Remove: archive file [/home/abi/fetcher/tmp/gammath_spot-9.3.tar.gz]
+[2024-04-24 01:24:13] INFO root fetch - processPackages [gammath-spot]: Remove: archive file [/home/abi/fetcher/tmp/gammath_spot-9.5.tar.gz]
+[2024-04-24 01:24:13] INFO root fetch - main [MainThread]: End processing [gammath-spot]: success
+[2024-04-24 01:24:13] INFO root fetch - main [MainThread]: Store serial: [22903352]
