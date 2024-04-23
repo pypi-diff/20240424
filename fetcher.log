@@ -110,3 +110,36 @@
 [2024-04-24 00:07:42] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b1.tar.gz]
 [2024-04-24 00:07:42] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-04-24 00:07:42] INFO root fetch - main [MainThread]: Store serial: [22902737]
+[2024-04-24 00:09:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902737]
+[2024-04-24 00:09:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 00:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-energy
+[2024-04-24 00:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLDataModel
+[2024-04-24 00:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mixvideoconcat
+[2024-04-24 00:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zonevu
+[2024-04-24 00:09:51] INFO root fetch - processPackages [zonevu]: New version: [1.1.19] Old Version: [1.1.18]
+[2024-04-24 00:09:51] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2024-04-24 00:09:51] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/b4/35/8ed7b2044e32e88add7553f7bfb43deafc8dbf6e5a6111dba19a2c78265a/zonevu-1.1.18-py3-none-any.whl
+[2024-04-24 00:09:51] INFO root fetch - processPackages [SQLDataModel]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-04-24 00:09:52] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2024-04-24 00:09:52] WARNING root fetch - processPackages [mixvideoconcat]: Skipping, unable to determine old version
+[2024-04-24 00:09:52] INFO root fetch - main [MainThread]: End processing [mixvideoconcat] error
+[2024-04-24 00:09:52] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/59/8c/f7cc81fbac215565605de0060b551711144c36dae1ca0a490cd3d8d047a9/zonevu-1.1.19-py3-none-any.whl
+[2024-04-24 00:09:52] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/cd/8f/03e34c1c8162a8adf45d368f74d60e2e367c8de7cfb6b2f02b80dd000077/sqldatamodel-0.3.9.tar.gz
+[2024-04-24 00:09:52] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2024-04-24 00:09:52] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-24 00:09:52] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.18-py3-none-any.whl.zip tmp/zonevu-1.1.19-py3-none-any.whl.zip --markdown 20240424/z/zonevu/1.1.18-1.1.19/README.md --exclude *.pyd
+[2024-04-24 00:09:52] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2024-04-24 00:09:52] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20240424/h/honeybee-energy/1.99.8-1.99.9/README.md --exclude *.pyd
+[2024-04-24 00:09:52] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/25/32/a11124b907eb30aae2c381db9f45d8e328a3128a2015a52b928249d1fbcc/sqldatamodel-0.4.0.tar.gz
+[2024-04-24 00:09:52] INFO root fetch - processPackages [SQLDataModel]: executing diffoscope
+[2024-04-24 00:09:52] INFO root fetch - processPackages [SQLDataModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqldatamodel-0.3.9.tar.gz tmp/sqldatamodel-0.4.0.tar.gz --markdown 20240424/S/SQLDataModel/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-04-24 00:09:53] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.18-py3-none-any.whl.zip]
+[2024-04-24 00:09:53] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.19-py3-none-any.whl.zip]
+[2024-04-24 00:09:53] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-24 00:09:53] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/sqldatamodel-0.3.9.tar.gz]
+[2024-04-24 00:09:53] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/sqldatamodel-0.4.0.tar.gz]
+[2024-04-24 00:09:53] INFO root fetch - main [MainThread]: End processing [SQLDataModel]: success
+[2024-04-24 00:09:53] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2024-04-24 00:09:53] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2024-04-24 00:09:53] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2024-04-24 00:09:53] INFO root fetch - main [MainThread]: Store serial: [22902750]
