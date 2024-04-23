@@ -759,3 +759,45 @@
 [2024-04-24 00:47:00] INFO root fetch - processPackages [pyodmongo]: Remove: archive file [/home/abi/fetcher/tmp/pyodmongo-0.8.0.tar.gz]
 [2024-04-24 00:47:00] INFO root fetch - main [MainThread]: End processing [pyodmongo]: success
 [2024-04-24 00:47:00] INFO root fetch - main [MainThread]: Store serial: [22903036]
+[2024-04-24 00:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903036]
+[2024-04-24 00:49:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 00:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfx-bsl
+[2024-04-24 00:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sapiopylib
+[2024-04-24 00:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saltext.azurerm
+[2024-04-24 00:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdbgui
+[2024-04-24 00:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fudstop
+[2024-04-24 00:49:08] WARNING root fetch - processPackages [pdbgui]: Skipping, unable to determine old version
+[2024-04-24 00:49:08] INFO root fetch - main [MainThread]: End processing [pdbgui] error
+[2024-04-24 00:49:08] INFO root fetch - processPackages [saltext.azurerm]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-04-24 00:49:08] INFO root fetch - processPackages [sapiopylib]: New version: [2024.4.9a182] Old Version: [2024.4.9a181]
+[2024-04-24 00:49:08] INFO root fetch - processPackages [fudstop]: New version: [2.5.5] Old Version: [2.5.3]
+[2024-04-24 00:49:08] INFO root fetch - processPackages [tfx-bsl]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-24 00:49:08] INFO root fetch - processPackages [saltext.azurerm]: Downloading https://files.pythonhosted.org/packages/30/9e/1d8823a4c52cced6190817955fad89ee8da4c9e594f9f2c282e295d23764/saltext.azurerm-4.0.1.tar.gz
+[2024-04-24 00:49:08] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/e7/a2/dfed0a88a19ff2b956251d7ca32e07b6b7b1f0f12eceaced425ae21e7a9f/sapiopylib-2024.4.9a181.tar.gz
+[2024-04-24 00:49:08] INFO root fetch - processPackages [tfx-bsl]: Downloading https://files.pythonhosted.org/packages/a5/a8/11d48a08f1e31920ce87915762cf980fc5a00a3d50a143574a3e1482c8c7/tfx_bsl-1.8.0-cp39-cp39-win_amd64.whl
+[2024-04-24 00:49:08] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/1d/d7/4edf22efe8fd0775c578cbabfbc65b8e2d745fb85213ea35ac7044c2e47e/fudstop-2.5.3.tar.gz
+[2024-04-24 00:49:09] INFO root fetch - processPackages [saltext.azurerm]: Downloading https://files.pythonhosted.org/packages/f7/e4/b9a39b9d8328d8a0c91fa838af08458357ecfeecd3b38544770006342643/saltext_azurerm-4.1.0.tar.gz
+[2024-04-24 00:49:09] INFO root fetch - processPackages [sapiopylib]: Downloading https://files.pythonhosted.org/packages/0a/6b/94a233fca31880977a33a8f70d7b3908cb3176e420daafd0446fd86d4cdd/sapiopylib-2024.4.9a182.tar.gz
+[2024-04-24 00:49:09] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/ee/c5/4b0fa5cbe9907064c007a941d1c5e95871c23a7d82683c4a12fe46e36266/fudstop-2.5.5-py3-none-any.whl
+[2024-04-24 00:49:09] INFO root fetch - processPackages [saltext.azurerm]: executing diffoscope
+[2024-04-24 00:49:09] INFO root fetch - processPackages [saltext.azurerm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saltext.azurerm-4.0.1.tar.gz tmp/saltext_azurerm-4.1.0.tar.gz --markdown 20240424/s/saltext.azurerm/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-04-24 00:49:09] INFO root fetch - processPackages [sapiopylib]: executing diffoscope
+[2024-04-24 00:49:09] INFO root fetch - processPackages [sapiopylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopylib-2024.4.9a181.tar.gz tmp/sapiopylib-2024.4.9a182.tar.gz --markdown 20240424/s/sapiopylib/2024.4.9a181-2024.4.9a182/README.md --exclude *.pyd
+[2024-04-24 00:49:09] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-04-24 00:49:09] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.5.3.tar.gz tmp/fudstop-2.5.5-py3-none-any.whl.zip --markdown 20240424/f/fudstop/2.5.3-2.5.5/README.md --exclude *.pyd
+[2024-04-24 00:49:09] INFO root fetch - processPackages [tfx-bsl]: Downloading https://files.pythonhosted.org/packages/0a/59/a9aac968fc25340d695885eea855fef4cd1f4d99e06ade1ac978bf20dbe9/tfx_bsl-1.9.0-cp39-cp39-win_amd64.whl
+[2024-04-24 00:49:10] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.3.tar.gz]
+[2024-04-24 00:49:10] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.5-py3-none-any.whl.zip]
+[2024-04-24 00:49:10] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-04-24 00:49:10] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.4.9a181.tar.gz]
+[2024-04-24 00:49:10] INFO root fetch - processPackages [sapiopylib]: Remove: archive file [/home/abi/fetcher/tmp/sapiopylib-2024.4.9a182.tar.gz]
+[2024-04-24 00:49:10] INFO root fetch - main [MainThread]: End processing [sapiopylib]: success
+[2024-04-24 00:49:10] INFO root fetch - processPackages [saltext.azurerm]: Remove: archive file [/home/abi/fetcher/tmp/saltext.azurerm-4.0.1.tar.gz]
+[2024-04-24 00:49:10] INFO root fetch - processPackages [saltext.azurerm]: Remove: archive file [/home/abi/fetcher/tmp/saltext_azurerm-4.1.0.tar.gz]
+[2024-04-24 00:49:10] INFO root fetch - main [MainThread]: End processing [saltext.azurerm]: success
+[2024-04-24 00:49:10] INFO root fetch - processPackages [tfx-bsl]: executing diffoscope
+[2024-04-24 00:49:10] INFO root fetch - processPackages [tfx-bsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfx_bsl-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/tfx_bsl-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240424/t/tfx-bsl/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-24 00:49:11] INFO root fetch - processPackages [tfx-bsl]: Remove: archive file [/home/abi/fetcher/tmp/tfx_bsl-1.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 00:49:11] INFO root fetch - processPackages [tfx-bsl]: Remove: archive file [/home/abi/fetcher/tmp/tfx_bsl-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 00:49:11] INFO root fetch - main [MainThread]: End processing [tfx-bsl]: success
+[2024-04-24 00:49:11] INFO root fetch - main [MainThread]: Store serial: [22903047]
