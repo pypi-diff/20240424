@@ -38,3 +38,42 @@
 [2024-04-24 00:01:09] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.1.tar.gz]
 [2024-04-24 00:01:09] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2024-04-24 00:01:09] INFO root fetch - main [MainThread]: Store serial: [22902713]
+[2024-04-24 00:03:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902713]
+[2024-04-24 00:03:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 00:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformers
+[2024-04-24 00:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercoa
+[2024-04-24 00:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-xroad-soap
+[2024-04-24 00:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cutseq
+[2024-04-24 00:03:17] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 00:03:17] INFO root fetch - processPackages [transformers]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-04-24 00:03:17] INFO root fetch - processPackages [mercoa]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-04-24 00:03:17] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-04-24 00:03:17] INFO root fetch - processPackages [fastapi-xroad-soap]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-24 00:03:18] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-04-24 00:03:18] INFO root fetch - processPackages [transformers]: Downloading https://files.pythonhosted.org/packages/e8/e7/47aacd367c8469c8dfeafe1fdd70419b1794a6313ba22a790fd9b35cca82/transformers-4.9.1.tar.gz
+[2024-04-24 00:03:18] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/ae/30/68f7ba4a130a1373087581bb9a9d87371c28db2348c270a6479cc30cc6bb/mercoa-0.3.7.tar.gz
+[2024-04-24 00:03:18] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/cc/34/b5654325a11eb186c9c40fc863873f4f4f627922bbb2fc27e675f818459d/fastapi_xroad_soap-0.3.0.tar.gz
+[2024-04-24 00:03:18] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-04-24 00:03:18] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240424/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 00:03:18] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/b6/8b/322dac0151393ec9b98ca13fde76fcd64b4651a68f1d3a1f633bfbe31036/fastapi_xroad_soap-0.4.0.tar.gz
+[2024-04-24 00:03:18] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/e1/d6/5e808a9446b56e867fbcbc2a15ede9094baadc6308b0e5a814e653dba2ce/mercoa-0.3.8.tar.gz
+[2024-04-24 00:03:18] INFO root fetch - processPackages [fastapi-xroad-soap]: executing diffoscope
+[2024-04-24 00:03:18] INFO root fetch - processPackages [fastapi-xroad-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_xroad_soap-0.3.0.tar.gz tmp/fastapi_xroad_soap-0.4.0.tar.gz --markdown 20240424/f/fastapi-xroad-soap/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-24 00:03:18] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2024-04-24 00:03:18] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.3.7.tar.gz tmp/mercoa-0.3.8.tar.gz --markdown 20240424/m/mercoa/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-04-24 00:03:18] INFO root fetch - processPackages [transformers]: Downloading https://files.pythonhosted.org/packages/66/52/aabc6b9e0af2b2e29579f134750fc67d8701f914866cef48fe48ea2b04a4/transformers-4.9.2.tar.gz
+[2024-04-24 00:03:18] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-04-24 00:03:18] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-04-24 00:03:18] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-04-24 00:03:19] INFO root fetch - processPackages [transformers]: executing diffoscope
+[2024-04-24 00:03:19] INFO root fetch - processPackages [transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-4.9.1.tar.gz tmp/transformers-4.9.2.tar.gz --markdown 20240424/t/transformers/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-04-24 00:03:19] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.3.0.tar.gz]
+[2024-04-24 00:03:19] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.4.0.tar.gz]
+[2024-04-24 00:03:19] INFO root fetch - main [MainThread]: End processing [fastapi-xroad-soap]: success
+[2024-04-24 00:03:19] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.3.7.tar.gz]
+[2024-04-24 00:03:19] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.3.8.tar.gz]
+[2024-04-24 00:03:19] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2024-04-24 00:03:22] INFO root fetch - processPackages [transformers]: Remove: archive file [/home/abi/fetcher/tmp/transformers-4.9.1.tar.gz]
+[2024-04-24 00:03:22] INFO root fetch - processPackages [transformers]: Remove: archive file [/home/abi/fetcher/tmp/transformers-4.9.2.tar.gz]
+[2024-04-24 00:03:22] INFO root fetch - main [MainThread]: End processing [transformers]: success
+[2024-04-24 00:03:22] INFO root fetch - main [MainThread]: Store serial: [22902728]
