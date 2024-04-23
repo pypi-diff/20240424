@@ -608,3 +608,29 @@
 [2024-04-24 00:38:19] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.1rc1.tar.gz]
 [2024-04-24 00:38:19] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
 [2024-04-24 00:38:19] INFO root fetch - main [MainThread]: Store serial: [22902954]
+[2024-04-24 00:40:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902954]
+[2024-04-24 00:40:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 00:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgserver
+[2024-04-24 00:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archive-hocr-tools
+[2024-04-24 00:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gridworks-protocol
+[2024-04-24 00:40:27] INFO root fetch - processPackages [gridworks-protocol]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-24 00:40:27] INFO root fetch - processPackages [archive-hocr-tools]: New version: [1.1.9] Old Version: [1.1.58]
+[2024-04-24 00:40:27] INFO root fetch - processPackages [pgserver]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 00:40:27] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/85/d3/4e483af8acdccd349d08e1604aaf73780d28c18094e7a9fa705197f0e863/archive-hocr-tools-1.1.58.tar.gz
+[2024-04-24 00:40:27] INFO root fetch - processPackages [gridworks-protocol]: Downloading https://files.pythonhosted.org/packages/33/e0/83629b1b5a8bb1ded941ef6d19476b682c584ce1729af0171eda09042dce/gridworks_protocol-0.7.3.tar.gz
+[2024-04-24 00:40:28] INFO root fetch - processPackages [pgserver]: Downloading https://files.pythonhosted.org/packages/46/5d/d0cdd7d01b32be214047e96d54863bb44433a9dd5f923a79b881c597907f/pgserver-0.1.0-cp39-cp39-win_amd64.whl
+[2024-04-24 00:40:28] WARNING root fetch - processPackages [pgserver]: Skipping package: exceeds size limit 12795088>=10485760
+[2024-04-24 00:40:28] INFO root fetch - main [MainThread]: End processing [pgserver] error
+[2024-04-24 00:40:28] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/0e/34/175062dc61f6a2a9e54da920691e617e4bec55f8b34eb0bdbdbd7e5eb345/archive-hocr-tools-1.1.9.tar.gz
+[2024-04-24 00:40:28] INFO root fetch - processPackages [archive-hocr-tools]: executing diffoscope
+[2024-04-24 00:40:28] INFO root fetch - processPackages [archive-hocr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archive-hocr-tools-1.1.58.tar.gz tmp/archive-hocr-tools-1.1.9.tar.gz --markdown 20240424/a/archive-hocr-tools/1.1.58-1.1.9/README.md --exclude *.pyd
+[2024-04-24 00:40:28] INFO root fetch - processPackages [gridworks-protocol]: Downloading https://files.pythonhosted.org/packages/25/d0/d0f430d88de608607e9bb54505a71574fc4365bc4ba4a41363314777ad2a/gridworks_protocol-0.7.4.tar.gz
+[2024-04-24 00:40:28] INFO root fetch - processPackages [gridworks-protocol]: executing diffoscope
+[2024-04-24 00:40:28] INFO root fetch - processPackages [gridworks-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_protocol-0.7.3.tar.gz tmp/gridworks_protocol-0.7.4.tar.gz --markdown 20240424/g/gridworks-protocol/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-24 00:40:28] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.58.tar.gz]
+[2024-04-24 00:40:28] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.9.tar.gz]
+[2024-04-24 00:40:28] INFO root fetch - main [MainThread]: End processing [archive-hocr-tools]: success
+[2024-04-24 00:40:29] INFO root fetch - processPackages [gridworks-protocol]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_protocol-0.7.3.tar.gz]
+[2024-04-24 00:40:29] INFO root fetch - processPackages [gridworks-protocol]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_protocol-0.7.4.tar.gz]
+[2024-04-24 00:40:29] INFO root fetch - main [MainThread]: End processing [gridworks-protocol]: success
+[2024-04-24 00:40:29] INFO root fetch - main [MainThread]: Store serial: [22902976]
