@@ -454,3 +454,48 @@
 [2024-04-24 00:29:28] INFO root fetch - processPackages [shelltool]: Remove: archive file [/home/abi/fetcher/tmp/shelltool-0.2.2.tar.gz]
 [2024-04-24 00:29:28] INFO root fetch - main [MainThread]: End processing [shelltool]: success
 [2024-04-24 00:29:28] INFO root fetch - main [MainThread]: Store serial: [22902879]
+[2024-04-24 00:31:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902879]
+[2024-04-24 00:31:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 00:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: excsv
+[2024-04-24 00:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: latch-cloud-clients
+[2024-04-24 00:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adit-radis-shared
+[2024-04-24 00:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandasai-enterprise
+[2024-04-24 00:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getai
+[2024-04-24 00:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkscreener
+[2024-04-24 00:31:37] INFO root fetch - processPackages [excsv]: New version: [0.1.3.1] Old Version: [0.1.2]
+[2024-04-24 00:31:37] INFO root fetch - processPackages [latch-cloud-clients]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 00:31:37] INFO root fetch - processPackages [getai]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 00:31:37] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240423.287] Old Version: [0.44.20240422.286]
+[2024-04-24 00:31:37] INFO root fetch - processPackages [excsv]: Downloading https://files.pythonhosted.org/packages/f5/42/c71e805be939d0e6cc16ff86ecf9c0f438d7a786ab60fa026a060ae90d9d/excsv-0.1.2.tar.gz
+[2024-04-24 00:31:37] WARNING root fetch - processPackages [pandasai-enterprise]: Skipping, unable to determine old version
+[2024-04-24 00:31:37] INFO root fetch - main [MainThread]: End processing [pandasai-enterprise] error
+[2024-04-24 00:31:37] WARNING root fetch - processPackages [adit-radis-shared]: Skipping, unable to determine old version
+[2024-04-24 00:31:37] INFO root fetch - main [MainThread]: End processing [adit-radis-shared] error
+[2024-04-24 00:31:37] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/f2/9f/1f8a9426b0df595753f942abdfa5306c31b00867c24d230c48339c1fb310/getai-0.0.3.tar.gz
+[2024-04-24 00:31:37] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/2f/6c/8d0311641e1949a973932a8f24b4d5cc2401ee327edea6c4017e00159bf7/pkscreener-0.44.20240422.286.tar.gz
+[2024-04-24 00:31:37] INFO root fetch - processPackages [latch-cloud-clients]: Downloading https://files.pythonhosted.org/packages/8e/8d/248df32ec3ae05728a9b42f0fd13077158f7021cb6a83a14b6c8071a765c/latch_cloud_clients-0.1.0.tar.gz
+[2024-04-24 00:31:37] INFO root fetch - processPackages [excsv]: Downloading https://files.pythonhosted.org/packages/c5/e7/788f1ff39e8b2e7bd27d328a79a8a49ae57fcf6f21279359b9109a9f6aaf/excsv-0.1.3.1.tar.gz
+[2024-04-24 00:31:38] INFO root fetch - processPackages [excsv]: executing diffoscope
+[2024-04-24 00:31:38] INFO root fetch - processPackages [excsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excsv-0.1.2.tar.gz tmp/excsv-0.1.3.1.tar.gz --markdown 20240424/e/excsv/0.1.2-0.1.3.1/README.md --exclude *.pyd
+[2024-04-24 00:31:38] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/30/81/0ebcf1ae6f5fc264a479a98edf1d5d717d59832a5624e0f02274dc8cae09/getai-0.0.4.tar.gz
+[2024-04-24 00:31:38] INFO root fetch - processPackages [getai]: executing diffoscope
+[2024-04-24 00:31:38] INFO root fetch - processPackages [getai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getai-0.0.3.tar.gz tmp/getai-0.0.4.tar.gz --markdown 20240424/g/getai/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 00:31:38] INFO root fetch - processPackages [latch-cloud-clients]: Downloading https://files.pythonhosted.org/packages/22/62/bfbe589e08d35c42390e6339e695dc23b9399c11d83e729cde8397e83fc5/latch_cloud_clients-0.1.1.tar.gz
+[2024-04-24 00:31:38] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/bc/25/8ec0d1db4be74b1548276a494b557b284755c6cae71dd9ef47966a4f0501/pkscreener-0.44.20240423.287.tar.gz
+[2024-04-24 00:31:38] INFO root fetch - processPackages [latch-cloud-clients]: executing diffoscope
+[2024-04-24 00:31:38] INFO root fetch - processPackages [latch-cloud-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_cloud_clients-0.1.0.tar.gz tmp/latch_cloud_clients-0.1.1.tar.gz --markdown 20240424/l/latch-cloud-clients/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 00:31:38] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-24 00:31:38] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240422.286.tar.gz tmp/pkscreener-0.44.20240423.287.tar.gz --markdown 20240424/p/pkscreener/0.44.20240422.286-0.44.20240423.287/README.md --exclude *.pyd
+[2024-04-24 00:31:38] INFO root fetch - processPackages [excsv]: Remove: archive file [/home/abi/fetcher/tmp/excsv-0.1.2.tar.gz]
+[2024-04-24 00:31:38] INFO root fetch - processPackages [excsv]: Remove: archive file [/home/abi/fetcher/tmp/excsv-0.1.3.1.tar.gz]
+[2024-04-24 00:31:38] INFO root fetch - main [MainThread]: End processing [excsv]: success
+[2024-04-24 00:31:38] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.3.tar.gz]
+[2024-04-24 00:31:38] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.4.tar.gz]
+[2024-04-24 00:31:38] INFO root fetch - main [MainThread]: End processing [getai]: success
+[2024-04-24 00:31:38] INFO root fetch - processPackages [latch-cloud-clients]: Remove: archive file [/home/abi/fetcher/tmp/latch_cloud_clients-0.1.0.tar.gz]
+[2024-04-24 00:31:38] INFO root fetch - processPackages [latch-cloud-clients]: Remove: archive file [/home/abi/fetcher/tmp/latch_cloud_clients-0.1.1.tar.gz]
+[2024-04-24 00:31:38] INFO root fetch - main [MainThread]: End processing [latch-cloud-clients]: success
+[2024-04-24 00:31:39] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240422.286.tar.gz]
+[2024-04-24 00:31:39] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240423.287.tar.gz]
+[2024-04-24 00:31:39] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-24 00:31:39] INFO root fetch - main [MainThread]: Store serial: [22902910]
