@@ -1153,3 +1153,36 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:06:48] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240422.tar.gz]
 [2024-04-24 01:06:48] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-04-24 01:06:48] INFO root fetch - main [MainThread]: Store serial: [22903202]
+[2024-04-24 01:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903202]
+[2024-04-24 01:08:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 01:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gleweather
+[2024-04-24 01:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-string-match
+[2024-04-24 01:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indexify
+[2024-04-24 01:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyGRF
+[2024-04-24 01:08:57] INFO root fetch - processPackages [PyGRF]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-24 01:08:57] INFO root fetch - processPackages [fast-string-match]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-24 01:08:57] INFO root fetch - processPackages [indexify]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:08:57] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/3e/9e/24f60f99654c377b1d2581f76b5af7b971720e73367439293011018063bc/PyGRF-0.0.6.tar.gz
+[2024-04-24 01:08:57] INFO root fetch - processPackages [fast-string-match]: Downloading https://files.pythonhosted.org/packages/a1/5e/538b052d324086464a686a8ffc89006bcf865a4ce244155b6d6fdea83610/fast_string_match-0.1.3.tar.gz
+[2024-04-24 01:08:57] WARNING root fetch - processPackages [gleweather]: Skipping, unable to determine old version
+[2024-04-24 01:08:57] INFO root fetch - main [MainThread]: End processing [gleweather] error
+[2024-04-24 01:08:57] INFO root fetch - processPackages [indexify]: Downloading https://files.pythonhosted.org/packages/f8/a3/de0a3191fc02ea1f246e36e2907d80b8e522872eacb5fbfcd5bf72733b5c/indexify-0.0.8.tar.gz
+[2024-04-24 01:08:57] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/32/5a/c7ff6b36c728fbbae5876e2e2eb3915db480fed75bf87cb79cfc4445bb39/PyGRF-0.0.7.tar.gz
+[2024-04-24 01:08:57] INFO root fetch - processPackages [fast-string-match]: Downloading https://files.pythonhosted.org/packages/a8/89/a432102f14401b60fd7661ea759144abfae8cd6bacae6fa82e5f1499b5cb/fast_string_match-0.1.4.tar.gz
+[2024-04-24 01:08:57] INFO root fetch - processPackages [PyGRF]: executing diffoscope
+[2024-04-24 01:08:57] INFO root fetch - processPackages [PyGRF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGRF-0.0.6.tar.gz tmp/PyGRF-0.0.7.tar.gz --markdown 20240424/P/PyGRF/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-24 01:08:57] INFO root fetch - processPackages [fast-string-match]: executing diffoscope
+[2024-04-24 01:08:57] INFO root fetch - processPackages [fast-string-match]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_string_match-0.1.3.tar.gz tmp/fast_string_match-0.1.4.tar.gz --markdown 20240424/f/fast-string-match/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-24 01:08:58] INFO root fetch - processPackages [indexify]: Downloading https://files.pythonhosted.org/packages/4e/e0/a60b294a8d7968ee0e712e54f1e8c22a898a1db1870c852c6523d9f6c569/indexify-0.0.9.tar.gz
+[2024-04-24 01:08:58] INFO root fetch - processPackages [indexify]: executing diffoscope
+[2024-04-24 01:08:58] INFO root fetch - processPackages [indexify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-0.0.8.tar.gz tmp/indexify-0.0.9.tar.gz --markdown 20240424/i/indexify/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:08:58] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.0.6.tar.gz]
+[2024-04-24 01:08:58] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.0.7.tar.gz]
+[2024-04-24 01:08:58] INFO root fetch - main [MainThread]: End processing [PyGRF]: success
+[2024-04-24 01:08:58] INFO root fetch - processPackages [fast-string-match]: Remove: archive file [/home/abi/fetcher/tmp/fast_string_match-0.1.3.tar.gz]
+[2024-04-24 01:08:58] INFO root fetch - processPackages [fast-string-match]: Remove: archive file [/home/abi/fetcher/tmp/fast_string_match-0.1.4.tar.gz]
+[2024-04-24 01:08:58] INFO root fetch - main [MainThread]: End processing [fast-string-match]: success
+[2024-04-24 01:08:58] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.8.tar.gz]
+[2024-04-24 01:08:58] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.9.tar.gz]
+[2024-04-24 01:08:58] INFO root fetch - main [MainThread]: End processing [indexify]: success
+[2024-04-24 01:08:58] INFO root fetch - main [MainThread]: Store serial: [22903218]
