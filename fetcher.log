@@ -196,3 +196,67 @@
 [2024-04-24 00:14:14] INFO root fetch - processPackages [friendly-sequences]: Remove: archive file [/home/abi/fetcher/tmp/friendly_sequences-1.3.tar.gz]
 [2024-04-24 00:14:14] INFO root fetch - main [MainThread]: End processing [friendly-sequences]: success
 [2024-04-24 00:14:14] INFO root fetch - main [MainThread]: Store serial: [22902775]
+[2024-04-24 00:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902775]
+[2024-04-24 00:16:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 00:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csoundengine
+[2024-04-24 00:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perun.proxy.utils
+[2024-04-24 00:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CTK-Desert
+[2024-04-24 00:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trame-components
+[2024-04-24 00:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perun.proxy.utils
+[2024-04-24 00:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qbraid-core
+[2024-04-24 00:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: websocket-client
+[2024-04-24 00:16:22] INFO root fetch - processPackages [qbraid-core]: New version: [0.1.4.dev2] Old Version: [0.1.4.dev1]
+[2024-04-24 00:16:22] INFO root fetch - processPackages [websocket-client]: New version: [1.7.0] Old Version: [1.6.4]
+[2024-04-24 00:16:22] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 00:16:22] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/31/41/781db3c8b527667b6a8aa2db53ff1547ced9ea9a186e62deeb30d5944806/qbraid_core-0.1.4.dev1.tar.gz
+[2024-04-24 00:16:22] INFO root fetch - processPackages [trame-components]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-24 00:16:22] INFO root fetch - processPackages [csoundengine]: New version: [2.8.4] Old Version: [2.8.3]
+[2024-04-24 00:16:22] INFO root fetch - processPackages [perun.proxy.utils]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-04-24 00:16:22] INFO root fetch - processPackages [perun.proxy.utils]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-04-24 00:16:22] INFO root fetch - processPackages [websocket-client]: Downloading https://files.pythonhosted.org/packages/cb/eb/19eadbb717ef032749853ef5eb1c28e9ca974711e28bccd4815913ba5546/websocket-client-1.6.4.tar.gz
+[2024-04-24 00:16:22] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/02/f9/71fa04670cf0901095e42405db0e7227840e713ae7b531504b415ce512ab/perun.proxy.utils-2.7.1.tar.gz
+[2024-04-24 00:16:22] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-24 00:16:22] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/02/f9/71fa04670cf0901095e42405db0e7227840e713ae7b531504b415ce512ab/perun.proxy.utils-2.7.1.tar.gz
+[2024-04-24 00:16:22] INFO root fetch - processPackages [qbraid-core]: Downloading https://files.pythonhosted.org/packages/1a/17/07c6e99fb770d49e870dfab084c539d6a3c6c4a6c08a46bd699d546b8376/qbraid_core-0.1.4.dev2.tar.gz
+[2024-04-24 00:16:22] INFO root fetch - processPackages [trame-components]: Downloading https://files.pythonhosted.org/packages/02/c8/2fb9564242eaa3a2cac982e7d219aeac38fe7ca2e566b10d6c5ab7d0407c/trame-components-2.3.1.tar.gz
+[2024-04-24 00:16:22] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/53/a4/b505cd0faac8341e1882309d31ba837b63ac06916af884463de6cf24baf5/csoundengine-2.8.3.tar.gz
+[2024-04-24 00:16:22] INFO root fetch - processPackages [websocket-client]: Downloading https://files.pythonhosted.org/packages/20/07/2a94288afc0f6c9434d6709c5320ee21eaedb2f463ede25ed9cf6feff330/websocket-client-1.7.0.tar.gz
+[2024-04-24 00:16:23] INFO root fetch - processPackages [qbraid-core]: executing diffoscope
+[2024-04-24 00:16:23] INFO root fetch - processPackages [qbraid-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid_core-0.1.4.dev1.tar.gz tmp/qbraid_core-0.1.4.dev2.tar.gz --markdown 20240424/q/qbraid-core/0.1.4.dev1-0.1.4.dev2/README.md --exclude *.pyd
+[2024-04-24 00:16:23] INFO root fetch - processPackages [websocket-client]: executing diffoscope
+[2024-04-24 00:16:23] INFO root fetch - processPackages [websocket-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/websocket-client-1.6.4.tar.gz tmp/websocket-client-1.7.0.tar.gz --markdown 20240424/w/websocket-client/1.6.4-1.7.0/README.md --exclude *.pyd
+[2024-04-24 00:16:23] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/08/c9/ccb49fbb11995bfd1d3d2ca974c03c593370e43483cbc943ada652ea0a1e/perun.proxy.utils-2.7.2.tar.gz
+[2024-04-24 00:16:23] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/08/c9/ccb49fbb11995bfd1d3d2ca974c03c593370e43483cbc943ada652ea0a1e/perun.proxy.utils-2.7.2.tar.gz
+[2024-04-24 00:16:23] INFO root fetch - processPackages [trame-components]: Downloading https://files.pythonhosted.org/packages/2a/58/e5cdefb1df96ea44ecf64a4453b5469d46c714da7f010d4ff0e195cd85c9/trame-components-2.3.2.tar.gz
+[2024-04-24 00:16:23] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-24 00:16:23] INFO root fetch - processPackages [perun.proxy.utils]: executing diffoscope
+[2024-04-24 00:16:23] INFO root fetch - processPackages [perun.proxy.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxy.utils-2.7.1.tar.gz tmp/perun.proxy.utils-2.7.2.tar.gz --markdown 20240424/p/perun.proxy.utils/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-04-24 00:16:23] INFO root fetch - processPackages [perun.proxy.utils]: executing diffoscope
+[2024-04-24 00:16:23] INFO root fetch - processPackages [perun.proxy.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxy.utils-2.7.1.tar.gz tmp/perun.proxy.utils-2.7.2.tar.gz --markdown 20240424/p/perun.proxy.utils/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-04-24 00:16:23] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/aa/42/048a67b202d5500aaf3913539f0bd55680134b1af85042ea3c74433453af/csoundengine-2.8.4.tar.gz
+[2024-04-24 00:16:23] INFO root fetch - processPackages [trame-components]: executing diffoscope
+[2024-04-24 00:16:23] INFO root fetch - processPackages [trame-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-components-2.3.1.tar.gz tmp/trame-components-2.3.2.tar.gz --markdown 20240424/t/trame-components/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-24 00:16:23] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-24 00:16:23] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240424/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 00:16:23] INFO root fetch - processPackages [csoundengine]: executing diffoscope
+[2024-04-24 00:16:23] INFO root fetch - processPackages [csoundengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csoundengine-2.8.3.tar.gz tmp/csoundengine-2.8.4.tar.gz --markdown 20240424/c/csoundengine/2.8.3-2.8.4/README.md --exclude *.pyd
+[2024-04-24 00:16:24] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-2.7.1.tar.gz]
+[2024-04-24 00:16:24] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-2.7.2.tar.gz]
+[2024-04-24 00:16:24] INFO root fetch - main [MainThread]: End processing [perun.proxy.utils]: success
+[2024-04-24 00:16:24] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_core-0.1.4.dev1.tar.gz]
+[2024-04-24 00:16:24] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_core-0.1.4.dev2.tar.gz]
+[2024-04-24 00:16:24] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
+[2024-04-24 00:16:24] INFO root fetch - processPackages [websocket-client]: Remove: archive file [/home/abi/fetcher/tmp/websocket-client-1.6.4.tar.gz]
+[2024-04-24 00:16:24] INFO root fetch - processPackages [websocket-client]: Remove: archive file [/home/abi/fetcher/tmp/websocket-client-1.7.0.tar.gz]
+[2024-04-24 00:16:24] INFO root fetch - main [MainThread]: End processing [websocket-client]: success
+[2024-04-24 00:16:24] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-24 00:16:24] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-24 00:16:24] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-24 00:16:24] INFO root fetch - main [MainThread]: End processing [perun.proxy.utils]: success
+[2024-04-24 00:16:25] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-2.8.3.tar.gz]
+[2024-04-24 00:16:25] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-2.8.4.tar.gz]
+[2024-04-24 00:16:25] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
+[2024-04-24 00:16:25] INFO root fetch - processPackages [trame-components]: Remove: archive file [/home/abi/fetcher/tmp/trame-components-2.3.1.tar.gz]
+[2024-04-24 00:16:25] INFO root fetch - processPackages [trame-components]: Remove: archive file [/home/abi/fetcher/tmp/trame-components-2.3.2.tar.gz]
+[2024-04-24 00:16:25] INFO root fetch - main [MainThread]: End processing [trame-components]: success
+[2024-04-24 00:16:25] INFO root fetch - main [MainThread]: Store serial: [22902796]
