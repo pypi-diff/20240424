@@ -1469,3 +1469,21 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:24:13] INFO root fetch - processPackages [gammath-spot]: Remove: archive file [/home/abi/fetcher/tmp/gammath_spot-9.5.tar.gz]
 [2024-04-24 01:24:13] INFO root fetch - main [MainThread]: End processing [gammath-spot]: success
 [2024-04-24 01:24:13] INFO root fetch - main [MainThread]: Store serial: [22903352]
+[2024-04-24 01:26:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903352]
+[2024-04-24 01:26:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 01:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zacrostools
+[2024-04-24 01:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-customvueadmin
+[2024-04-24 01:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erickdamazoplayer
+[2024-04-24 01:26:21] WARNING root fetch - processPackages [zacrostools]: Skipping, unable to determine old version
+[2024-04-24 01:26:21] INFO root fetch - main [MainThread]: End processing [zacrostools] error
+[2024-04-24 01:26:21] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 01:26:21] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/c5/4d/0d59effed1262f17c1fa142676a62a053cf3bcafbece7f3fdf47d7cb29f3/django-customvueadmin-0.1.8.tar.gz
+[2024-04-24 01:26:21] WARNING root fetch - processPackages [erickdamazoplayer]: Skipping, unable to determine old version
+[2024-04-24 01:26:21] INFO root fetch - main [MainThread]: End processing [erickdamazoplayer] error
+[2024-04-24 01:26:22] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-04-24 01:26:22] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-04-24 01:26:22] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.8.tar.gz tmp/django-customvueadmin-0.1.9.tar.gz --markdown 20240424/d/django-customvueadmin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 01:26:23] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.8.tar.gz]
+[2024-04-24 01:26:23] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-04-24 01:26:23] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-04-24 01:26:23] INFO root fetch - main [MainThread]: Store serial: [22903363]
