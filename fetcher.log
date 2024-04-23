@@ -1,0 +1,40 @@
+[2024-04-24 00:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902698]
+[2024-04-24 00:01:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 00:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-mypy-runner
+[2024-04-24 00:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdxcanvas
+[2024-04-24 00:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thoughtful
+[2024-04-24 00:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdxcanvas
+[2024-04-24 00:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tecton
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 00:01:05] WARNING root fetch - processPackages [pytest-mypy-runner]: Skipping, unable to determine old version
+[2024-04-24 00:01:05] INFO root fetch - main [MainThread]: End processing [pytest-mypy-runner] error
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 00:01:05] INFO root fetch - processPackages [tecton]: New version: [0.9.1] Old Version: [0.9.0rc4]
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: Downloading https://files.pythonhosted.org/packages/ba/be/a38f97170f525ff09ecc8e5a56d3689b9bb59e829b385985a19adbc4a389/mdxcanvas-0.1.1.tar.gz
+[2024-04-24 00:01:05] INFO root fetch - processPackages [thoughtful]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: Downloading https://files.pythonhosted.org/packages/ba/be/a38f97170f525ff09ecc8e5a56d3689b9bb59e829b385985a19adbc4a389/mdxcanvas-0.1.1.tar.gz
+[2024-04-24 00:01:05] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/ee/f8/5fe3af4429cd4d8c6e3c285d58e482c6e4a15f2ffd28bd9c32075939d341/tecton-0.9.0rc4.tar.gz
+[2024-04-24 00:01:05] INFO root fetch - processPackages [thoughtful]: Downloading https://files.pythonhosted.org/packages/32/81/ff95948afb702cdb70946346a8c7e23a6357d49ec07b321e5efc6947544c/thoughtful-3.0.0.tar.gz
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: Downloading https://files.pythonhosted.org/packages/39/98/b2d1fccc4fc9cb36cbe3d546ac4945ca86155656dae7daf8f5e87afd9ffe/mdxcanvas-0.1.2.tar.gz
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: Downloading https://files.pythonhosted.org/packages/39/98/b2d1fccc4fc9cb36cbe3d546ac4945ca86155656dae7daf8f5e87afd9ffe/mdxcanvas-0.1.2.tar.gz
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: executing diffoscope
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdxcanvas-0.1.1.tar.gz tmp/mdxcanvas-0.1.2.tar.gz --markdown 20240424/m/mdxcanvas/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: executing diffoscope
+[2024-04-24 00:01:05] INFO root fetch - processPackages [mdxcanvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdxcanvas-0.1.1.tar.gz tmp/mdxcanvas-0.1.2.tar.gz --markdown 20240424/m/mdxcanvas/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 00:01:05] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/0e/50/41f7a143a330546c34da5bb1444a41303a7c23f7b6f3b04c179781666859/tecton-0.9.1.tar.gz
+[2024-04-24 00:01:06] INFO root fetch - processPackages [thoughtful]: Downloading https://files.pythonhosted.org/packages/81/55/074a2aa2c42b595b7226d693a3af236ea3451fb52fd426590003ada2fb30/thoughtful-3.0.1.tar.gz
+[2024-04-24 00:01:06] INFO root fetch - processPackages [thoughtful]: executing diffoscope
+[2024-04-24 00:01:06] INFO root fetch - processPackages [thoughtful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thoughtful-3.0.0.tar.gz tmp/thoughtful-3.0.1.tar.gz --markdown 20240424/t/thoughtful/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-24 00:01:06] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2024-04-24 00:01:06] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.9.0rc4.tar.gz tmp/tecton-0.9.1.tar.gz --markdown 20240424/t/tecton/0.9.0rc4-0.9.1/README.md --exclude *.pyd
+[2024-04-24 00:01:06] INFO root fetch - processPackages [mdxcanvas]: Remove: archive file [/home/abi/fetcher/tmp/mdxcanvas-0.1.1.tar.gz]
+[2024-04-24 00:01:06] INFO root fetch - processPackages [mdxcanvas]: Remove: archive file [/home/abi/fetcher/tmp/mdxcanvas-0.1.2.tar.gz]
+[2024-04-24 00:01:06] INFO root fetch - main [MainThread]: End processing [mdxcanvas]: success
+[2024-04-24 00:01:06] INFO root fetch - main [MainThread]: End processing [mdxcanvas]: success
+[2024-04-24 00:01:06] INFO root fetch - processPackages [thoughtful]: Remove: archive file [/home/abi/fetcher/tmp/thoughtful-3.0.0.tar.gz]
+[2024-04-24 00:01:06] INFO root fetch - processPackages [thoughtful]: Remove: archive file [/home/abi/fetcher/tmp/thoughtful-3.0.1.tar.gz]
+[2024-04-24 00:01:06] INFO root fetch - main [MainThread]: End processing [thoughtful]: success
+[2024-04-24 00:01:09] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc4.tar.gz]
+[2024-04-24 00:01:09] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.1.tar.gz]
+[2024-04-24 00:01:09] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2024-04-24 00:01:09] INFO root fetch - main [MainThread]: Store serial: [22902713]
