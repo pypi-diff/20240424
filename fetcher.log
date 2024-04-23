@@ -1571,3 +1571,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:28:35] INFO root fetch - processPackages [geoips]: Remove: archive file [/home/abi/fetcher/tmp/geoips-1.12.2a0.tar.gz]
 [2024-04-24 01:28:35] INFO root fetch - main [MainThread]: End processing [geoips]: success
 [2024-04-24 01:28:35] INFO root fetch - main [MainThread]: Store serial: [22903384]
+[2024-04-24 01:30:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903384]
+[2024-04-24 01:30:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 01:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-utils
+[2024-04-24 01:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ord-mediascout-client
+[2024-04-24 01:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gravithon
+[2024-04-24 01:30:44] INFO root fetch - processPackages [gravithon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:30:44] INFO root fetch - processPackages [neon-utils]: New version: [1.9.2a5] Old Version: [1.9.2a4]
+[2024-04-24 01:30:44] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/f6/b8/a0455b3e618c7eba6957d6891d43d6c3a775909ec5530b4466cb0db8a404/gravithon-0.0.8.tar.gz
+[2024-04-24 01:30:44] INFO root fetch - processPackages [ord-mediascout-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 01:30:44] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/40/2d/fb1887f565e889964657dd1ffc5eca79ea8e671fe20620d2659c16798ce4/neon-utils-1.9.2a4.tar.gz
+[2024-04-24 01:30:44] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/cd/0d/500a5434077c6a4432a6db2432d0d609036e2d8a8df5e49c28beab6373c9/gravithon-0.0.9.tar.gz
+[2024-04-24 01:30:44] INFO root fetch - processPackages [ord-mediascout-client]: Downloading https://files.pythonhosted.org/packages/15/81/8c572a4950512b1c40ccaffd38c8ab31d131952532e5151f4acccffde4e8/ord_mediascout_client-0.0.8.tar.gz
+[2024-04-24 01:30:44] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/4b/7e/d169b05a82bb414b9aaef0aca31a8f1752c08f9ca655cca6a681584a2c23/neon-utils-1.9.2a5.tar.gz
+[2024-04-24 01:30:44] INFO root fetch - processPackages [gravithon]: executing diffoscope
+[2024-04-24 01:30:44] INFO root fetch - processPackages [gravithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravithon-0.0.8.tar.gz tmp/gravithon-0.0.9.tar.gz --markdown 20240424/g/gravithon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:30:44] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2024-04-24 01:30:44] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.9.2a4.tar.gz tmp/neon-utils-1.9.2a5.tar.gz --markdown 20240424/n/neon-utils/1.9.2a4-1.9.2a5/README.md --exclude *.pyd
+[2024-04-24 01:30:45] INFO root fetch - processPackages [ord-mediascout-client]: Downloading https://files.pythonhosted.org/packages/92/64/2613f3ff2964b7950c34fdf3ce860b41cc8f11e514f277c2a592811aac08/ord_mediascout_client-0.0.9.tar.gz
+[2024-04-24 01:30:45] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.8.tar.gz]
+[2024-04-24 01:30:45] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.9.tar.gz]
+[2024-04-24 01:30:45] INFO root fetch - main [MainThread]: End processing [gravithon]: success
+[2024-04-24 01:30:45] INFO root fetch - processPackages [ord-mediascout-client]: executing diffoscope
+[2024-04-24 01:30:45] INFO root fetch - processPackages [ord-mediascout-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ord_mediascout_client-0.0.8.tar.gz tmp/ord_mediascout_client-0.0.9.tar.gz --markdown 20240424/o/ord-mediascout-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 01:30:45] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a4.tar.gz]
+[2024-04-24 01:30:45] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.9.2a5.tar.gz]
+[2024-04-24 01:30:45] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2024-04-24 01:30:45] INFO root fetch - processPackages [ord-mediascout-client]: Remove: archive file [/home/abi/fetcher/tmp/ord_mediascout_client-0.0.8.tar.gz]
+[2024-04-24 01:30:45] INFO root fetch - processPackages [ord-mediascout-client]: Remove: archive file [/home/abi/fetcher/tmp/ord_mediascout_client-0.0.9.tar.gz]
+[2024-04-24 01:30:45] INFO root fetch - main [MainThread]: End processing [ord-mediascout-client]: success
+[2024-04-24 01:30:45] INFO root fetch - main [MainThread]: Store serial: [22903397]
