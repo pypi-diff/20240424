@@ -77,3 +77,15 @@
 [2024-04-24 00:03:22] INFO root fetch - processPackages [transformers]: Remove: archive file [/home/abi/fetcher/tmp/transformers-4.9.2.tar.gz]
 [2024-04-24 00:03:22] INFO root fetch - main [MainThread]: End processing [transformers]: success
 [2024-04-24 00:03:22] INFO root fetch - main [MainThread]: Store serial: [22902728]
+[2024-04-24 00:05:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22902728]
+[2024-04-24 00:05:31] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 00:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicutils
+[2024-04-24 00:05:31] INFO root fetch - processPackages [dcicutils]: New version: [8.8.4.1b1] Old Version: [8.8.4]
+[2024-04-24 00:05:31] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/81/45/19a3d171e1cf06639cb330b7a2a860835e74977f8faa0ef82139aa5011d8/dcicutils-8.8.4.tar.gz
+[2024-04-24 00:05:32] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b6/11/bea946851e099b1266ae787c98b38b403ceabe1b2a06e2f88c6136a7b6a1/dcicutils-8.8.4.1b1.tar.gz
+[2024-04-24 00:05:32] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-24 00:05:32] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.4.tar.gz tmp/dcicutils-8.8.4.1b1.tar.gz --markdown 20240424/d/dcicutils/8.8.4-8.8.4.1b1/README.md --exclude *.pyd
+[2024-04-24 00:05:33] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.tar.gz]
+[2024-04-24 00:05:33] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b1.tar.gz]
+[2024-04-24 00:05:33] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-24 00:05:33] INFO root fetch - main [MainThread]: Store serial: [22902731]
