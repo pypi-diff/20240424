@@ -13345,3 +13345,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:24:20] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl.zip]
 [2024-04-24 09:24:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-anaf-sync]: success
 [2024-04-24 09:24:20] INFO root fetch - main [MainThread]: Store serial: [22908193]
+[2024-04-24 09:26:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908193]
+[2024-04-24 09:26:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-ro-partner-create-by-vat
+[2024-04-24 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyad
+[2024-04-24 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlp-data
+[2024-04-24 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emiapi
+[2024-04-24 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wttch-train-helper
+[2024-04-24 09:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TitanDevice
+[2024-04-24 09:26:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: New version: [17.0.1.1.0] Old Version: [16.0.1.6.0]
+[2024-04-24 09:26:29] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-24 09:26:29] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 09:26:29] INFO root fetch - processPackages [wttch-train-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 09:26:29] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/c8/be/5d04125a943988c5fcaa15b43bbc08e8d391aa723df0ea8b641954bac231/TitanDevice-0.2.4.tar.gz
+[2024-04-24 09:26:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/e2/7c/e7390a7257cac98223dfff04df0ba30d32e9f42488bd3d393f634d7aa65f/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.6.0-py3-none-any.whl
+[2024-04-24 09:26:29] INFO root fetch - processPackages [nlp-data]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-24 09:26:29] INFO root fetch - processPackages [emiapi]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-24 09:26:29] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/3b/39/20b37adf77ac5d3a1c29fac307c5b35603437a19b4e9ccfdf3da730c7734/wttch-train-helper-0.0.8.tar.gz
+[2024-04-24 09:26:29] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-24 09:26:29] INFO root fetch - processPackages [nlp-data]: Downloading https://files.pythonhosted.org/packages/07/66/0c659132128f6aca099ec6e4c5d522e65da43c69246c5f8fbb85a041dce0/nlp_data-0.3.6.tar.gz
+[2024-04-24 09:26:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/33/28/46d9581facef35c2ce3f135aa75f77cb3e3965eb42833347b9473e0bb6a3/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.0-py3-none-any.whl
+[2024-04-24 09:26:29] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-24 09:26:29] INFO root fetch - processPackages [emiapi]: Downloading https://files.pythonhosted.org/packages/af/98/2f9a45a1dd790b8ba9f2b76e685e9b6032ec62f533e5385d68d1cb46d45a/emiapi-0.1.1.tar.gz
+[2024-04-24 09:26:29] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/06/f1/4c3862ff8dfa72e0261e6a5f5e8fb8722a335c9adec2134db760cf92c16a/wttch-train-helper-0.0.9.tar.gz
+[2024-04-24 09:26:29] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/89/c0/afb2f055f798cac99272a8359901d58bb7b7e6034814fe704652e6882f65/TitanDevice-0.2.5.tar.gz
+[2024-04-24 09:26:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: executing diffoscope
+[2024-04-24 09:26:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.6.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-l10n-ro-partner-create-by-vat/16.0.1.6.0-17.0.1.1.0/README.md --exclude *.pyd
+[2024-04-24 09:26:29] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-24 09:26:29] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240424/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:26:30] INFO root fetch - processPackages [wttch-train-helper]: executing diffoscope
+[2024-04-24 09:26:30] INFO root fetch - processPackages [wttch-train-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wttch-train-helper-0.0.8.tar.gz tmp/wttch-train-helper-0.0.9.tar.gz --markdown 20240424/w/wttch-train-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:26:30] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 09:26:30] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.4.tar.gz tmp/TitanDevice-0.2.5.tar.gz --markdown 20240424/T/TitanDevice/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-24 09:26:30] INFO root fetch - processPackages [nlp-data]: Downloading https://files.pythonhosted.org/packages/f9/db/4dec07fa6d3ad5b99ab1948fdf4b99da4dc3827a801b99b0c3b675ff96cd/nlp_data-0.3.7.tar.gz
+[2024-04-24 09:26:30] INFO root fetch - processPackages [emiapi]: Downloading https://files.pythonhosted.org/packages/1f/0a/f651efef835c7c3d55d0513171709e98a6a84f461bc930d1c5f501534f97/emiapi-0.2.0.tar.gz
+[2024-04-24 09:26:30] INFO root fetch - processPackages [nlp-data]: executing diffoscope
+[2024-04-24 09:26:30] INFO root fetch - processPackages [nlp-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_data-0.3.6.tar.gz tmp/nlp_data-0.3.7.tar.gz --markdown 20240424/n/nlp-data/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-24 09:26:30] INFO root fetch - processPackages [emiapi]: executing diffoscope
+[2024-04-24 09:26:30] INFO root fetch - processPackages [emiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emiapi-0.1.1.tar.gz tmp/emiapi-0.2.0.tar.gz --markdown 20240424/e/emiapi/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 09:26:30] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.8.tar.gz]
+[2024-04-24 09:26:30] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.9.tar.gz]
+[2024-04-24 09:26:30] INFO root fetch - main [MainThread]: End processing [wttch-train-helper]: success
+[2024-04-24 09:26:30] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.4.tar.gz]
+[2024-04-24 09:26:30] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.5.tar.gz]
+[2024-04-24 09:26:30] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 09:26:30] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-24 09:26:30] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-24 09:26:30] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-24 09:26:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.6.0-py3-none-any.whl.zip]
+[2024-04-24 09:26:30] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-24 09:26:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-partner-create-by-vat]: success
+[2024-04-24 09:26:30] INFO root fetch - processPackages [emiapi]: Remove: archive file [/home/abi/fetcher/tmp/emiapi-0.1.1.tar.gz]
+[2024-04-24 09:26:30] INFO root fetch - processPackages [emiapi]: Remove: archive file [/home/abi/fetcher/tmp/emiapi-0.2.0.tar.gz]
+[2024-04-24 09:26:30] INFO root fetch - main [MainThread]: End processing [emiapi]: success
+[2024-04-24 09:26:31] INFO root fetch - processPackages [nlp-data]: Remove: archive file [/home/abi/fetcher/tmp/nlp_data-0.3.6.tar.gz]
+[2024-04-24 09:26:31] INFO root fetch - processPackages [nlp-data]: Remove: archive file [/home/abi/fetcher/tmp/nlp_data-0.3.7.tar.gz]
+[2024-04-24 09:26:31] INFO root fetch - main [MainThread]: End processing [nlp-data]: success
+[2024-04-24 09:26:31] INFO root fetch - main [MainThread]: Store serial: [22908292]
