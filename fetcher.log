@@ -7362,3 +7362,9 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:41:53] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.23.11.9.43.tar.gz]
 [2024-04-24 03:41:53] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-04-24 03:41:53] INFO root fetch - main [MainThread]: Store serial: [22905607]
+[2024-04-24 03:43:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905607]
+[2024-04-24 03:44:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 03:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pokemon-haru
+[2024-04-24 03:44:02] WARNING root fetch - processPackages [pokemon-haru]: Skipping, unable to determine old version
+[2024-04-24 03:44:02] INFO root fetch - main [MainThread]: End processing [pokemon-haru] error
+[2024-04-24 03:44:02] INFO root fetch - main [MainThread]: Store serial: [22905612]
