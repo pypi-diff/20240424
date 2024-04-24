@@ -3212,3 +3212,53 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:52:53] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
 [2024-04-24 02:52:53] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-04-24 02:52:53] INFO root fetch - main [MainThread]: Store serial: [22904149]
+[2024-04-24 02:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22904149]
+[2024-04-24 02:55:01] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-24 02:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22904155]
+[2024-04-24 02:57:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shadowlogger
+[2024-04-24 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: armis
+[2024-04-24 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyspde
+[2024-04-24 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: facehuggershield
+[2024-04-24 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuralnetlib
+[2024-04-24 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svdi
+[2024-04-24 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycde
+[2024-04-24 02:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LingerGRN
+[2024-04-24 02:57:07] WARNING root fetch - processPackages [armis]: Skipping, unable to determine old version
+[2024-04-24 02:57:07] INFO root fetch - main [MainThread]: End processing [armis] error
+[2024-04-24 02:57:07] INFO root fetch - processPackages [pyspde]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 02:57:07] INFO root fetch - processPackages [LingerGRN]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 02:57:07] WARNING root fetch - processPackages [facehuggershield]: Skipping, unable to determine old version
+[2024-04-24 02:57:07] INFO root fetch - main [MainThread]: End processing [facehuggershield] error
+[2024-04-24 02:57:07] WARNING root fetch - processPackages [svdi]: Skipping, unable to determine old version
+[2024-04-24 02:57:07] INFO root fetch - main [MainThread]: End processing [svdi] error
+[2024-04-24 02:57:07] WARNING root fetch - processPackages [shadowlogger]: Skipping, unable to determine old version
+[2024-04-24 02:57:07] INFO root fetch - main [MainThread]: End processing [shadowlogger] error
+[2024-04-24 02:57:07] INFO root fetch - processPackages [neuralnetlib]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-04-24 02:57:07] INFO root fetch - processPackages [pyspde]: Downloading https://files.pythonhosted.org/packages/78/7c/a826830da47f3f056b11016ace7966aa6cd1eea9f2eaed4c591657155a22/pyspde-0.0.2.tar.gz
+[2024-04-24 02:57:07] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/df/69/a80f2b27505be0e6d4762954dc10e7e95186ec0d94c1930d038e59cc8f5d/LingerGRN-1.8.tar.gz
+[2024-04-24 02:57:07] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev896] Old Version: [0.3.1.dev892]
+[2024-04-24 02:57:07] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/2a/d4/bc1098211f9853b00cf0fc1fa010463ea626b649c720158a649a7af9f165/neuralnetlib-2.2.1.tar.gz
+[2024-04-24 02:57:07] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/63/d4/436d53c01941016a6ae8377f82d2b0e575b4398b54914a012eeeea4d45f7/LingerGRN-1.9.tar.gz
+[2024-04-24 02:57:07] INFO root fetch - processPackages [pyspde]: Downloading https://files.pythonhosted.org/packages/19/cb/dcc1d8bfaa4cc7ed6eff55af5de4e587d006e2467c92996b798667a089f2/pyspde-0.0.3.tar.gz
+[2024-04-24 02:57:07] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/5b/f7/1a32da1708e099fe3d83e215e17d563c95d0ed623d3d46f75cf7d1352dcc/pycde-0.3.1.dev892-cp39-cp39-win_amd64.whl
+[2024-04-24 02:57:07] INFO root fetch - processPackages [LingerGRN]: executing diffoscope
+[2024-04-24 02:57:07] INFO root fetch - processPackages [LingerGRN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LingerGRN-1.8.tar.gz tmp/LingerGRN-1.9.tar.gz --markdown 20240424/L/LingerGRN/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 02:57:07] INFO root fetch - processPackages [pyspde]: executing diffoscope
+[2024-04-24 02:57:07] INFO root fetch - processPackages [pyspde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspde-0.0.2.tar.gz tmp/pyspde-0.0.3.tar.gz --markdown 20240424/p/pyspde/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 02:57:07] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/3c/7a/c26b57e4c7d77b4066918c593def23be9159a5d50c10fec95b37ca1c9518/neuralnetlib-2.3.0.tar.gz
+[2024-04-24 02:57:08] INFO root fetch - processPackages [neuralnetlib]: executing diffoscope
+[2024-04-24 02:57:08] INFO root fetch - processPackages [neuralnetlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralnetlib-2.2.1.tar.gz tmp/neuralnetlib-2.3.0.tar.gz --markdown 20240424/n/neuralnetlib/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-04-24 02:57:08] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.8.tar.gz]
+[2024-04-24 02:57:08] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.9.tar.gz]
+[2024-04-24 02:57:08] INFO root fetch - main [MainThread]: End processing [LingerGRN]: success
+[2024-04-24 02:57:08] INFO root fetch - processPackages [pyspde]: Remove: archive file [/home/abi/fetcher/tmp/pyspde-0.0.2.tar.gz]
+[2024-04-24 02:57:08] INFO root fetch - processPackages [pyspde]: Remove: archive file [/home/abi/fetcher/tmp/pyspde-0.0.3.tar.gz]
+[2024-04-24 02:57:08] INFO root fetch - main [MainThread]: End processing [pyspde]: success
+[2024-04-24 02:57:08] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.2.1.tar.gz]
+[2024-04-24 02:57:08] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.3.0.tar.gz]
+[2024-04-24 02:57:08] INFO root fetch - main [MainThread]: End processing [neuralnetlib]: success
+[2024-04-24 02:57:10] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/c4/67/bd90046d41c0f9354afb76987ceb50c09539bd6584fd8a6325bb7b9f81be/pycde-0.3.1.dev896-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-24 02:57:10] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21386002>=10485760
+[2024-04-24 02:57:10] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-24 02:57:10] INFO root fetch - main [MainThread]: Store serial: [22904185]
