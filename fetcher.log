@@ -9677,3 +9677,81 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:09:16] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
 [2024-04-24 06:09:16] INFO root fetch - main [MainThread]: End processing [pih]: success
 [2024-04-24 06:09:16] INFO root fetch - main [MainThread]: Store serial: [22906635]
+[2024-04-24 06:11:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906635]
+[2024-04-24 06:11:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PetsisDev-my-package
+[2024-04-24 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypipr
+[2024-04-24 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-results
+[2024-04-24 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytrend
+[2024-04-24 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gep3
+[2024-04-24 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2024-04-24 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-testplus
+[2024-04-24 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cefi
+[2024-04-24 06:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: transceiver
+[2024-04-24 06:11:25] INFO root fetch - processPackages [gep3]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-24 06:11:25] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.87]
+[2024-04-24 06:11:25] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-24 06:11:25] INFO root fetch - processPackages [talkytrend]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-24 06:11:25] WARNING root fetch - processPackages [PetsisDev-my-package]: Skipping, unable to determine old version
+[2024-04-24 06:11:25] INFO root fetch - main [MainThread]: End processing [PetsisDev-my-package] error
+[2024-04-24 06:11:25] INFO root fetch - processPackages [mojo-results]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-24 06:11:25] INFO root fetch - processPackages [gep3]: Downloading https://files.pythonhosted.org/packages/fe/4f/907e2b67baab61f32b4c6e17125d9b2968772b860f57ad089a4c41c671de/gep3-0.3.2.tar.gz
+[2024-04-24 06:11:25] INFO root fetch - processPackages [mojo-testplus]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-24 06:11:25] INFO root fetch - processPackages [cefi]: New version: [4.6.7] Old Version: [4.6.6]
+[2024-04-24 06:11:25] INFO root fetch - processPackages [transceiver]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 06:11:25] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/be/53/ca2c9ee1c89c629ba14480ebade3c92610cc0474facd30fa8db9d6cb78dc/pypipr-1.0.87.tar.gz
+[2024-04-24 06:11:25] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/ea/1a/d04f1433816847e928b17d9e6c0e90e8459f488952009fe839e87a89d7fa/talkytrend-2.0.8.tar.gz
+[2024-04-24 06:11:25] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-24 06:11:25] INFO root fetch - processPackages [mojo-results]: Downloading https://files.pythonhosted.org/packages/8e/c3/6e39bafa19ff0477a30ebe3ed9775b10ab5a189ea60414ff60bbe0df470d/mojo_results-1.3.8.tar.gz
+[2024-04-24 06:11:25] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a5/fe/6ef403e4cd8937907cb1b6d2bfaee70af2ccb33355ae49346889ebd9d153/mojo_testplus-1.3.8.tar.gz
+[2024-04-24 06:11:25] INFO root fetch - processPackages [transceiver]: Downloading https://files.pythonhosted.org/packages/6b/44/bb3faa60c5ad521cf871f0ac736f23c72983ff8dd10f40edca4ec8ebfe7c/transceiver-0.1.2.tar.gz
+[2024-04-24 06:11:25] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/87/c4/5fd50c504f39a462b025b04ad7b10074a866a4d0a6097f2ab1c2b9cb7430/cefi-4.6.6.tar.gz
+[2024-04-24 06:11:26] INFO root fetch - processPackages [gep3]: Downloading https://files.pythonhosted.org/packages/fe/3f/50e9fcda01677d1ec666d215234e45f0c857cacc10eef094309dfbea678c/gep3-0.3.3.tar.gz
+[2024-04-24 06:11:26] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-24 06:11:26] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-24 06:11:26] INFO root fetch - processPackages [gep3]: executing diffoscope
+[2024-04-24 06:11:26] INFO root fetch - processPackages [gep3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gep3-0.3.2.tar.gz tmp/gep3-0.3.3.tar.gz --markdown 20240424/g/gep3/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-24 06:11:26] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.87.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240424/p/pypipr/1.0.87-1.0.9/README.md --exclude *.pyd
+[2024-04-24 06:11:26] INFO root fetch - processPackages [mojo-results]: Downloading https://files.pythonhosted.org/packages/62/0e/adb07ad0d5ef4069cd714f7d94382b07f9bb484ab47b2482fd75ab7a020b/mojo_results-1.3.9.tar.gz
+[2024-04-24 06:11:26] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/31/8e/bdbf2dd5625f5bbcb86e99495693386e688cc376d985b484f2938945561e/cefi-4.6.7.tar.gz
+[2024-04-24 06:11:26] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-24 06:11:26] INFO root fetch - processPackages [mojo-results]: executing diffoscope
+[2024-04-24 06:11:26] INFO root fetch - processPackages [mojo-results]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_results-1.3.8.tar.gz tmp/mojo_results-1.3.9.tar.gz --markdown 20240424/m/mojo-results/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-24 06:11:26] INFO root fetch - processPackages [transceiver]: Downloading https://files.pythonhosted.org/packages/42/0d/dc988b8fb26050a23207ec181be3c480659b24690ff6632cd9a2c2f527b1/transceiver-0.1.3.tar.gz
+[2024-04-24 06:11:26] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/a8/ac/85c2085482e8605071233f8932cefc380144eddfe79bd52977eb45970c7f/talkytrend-2.0.9.tar.gz
+[2024-04-24 06:11:26] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2024-04-24 06:11:26] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-2.0.8.tar.gz tmp/talkytrend-2.0.9.tar.gz --markdown 20240424/t/talkytrend/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-24 06:11:26] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-24 06:11:26] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.6.6.tar.gz tmp/cefi-4.6.7.tar.gz --markdown 20240424/c/cefi/4.6.6-4.6.7/README.md --exclude *.pyd
+[2024-04-24 06:11:26] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/a4/cd/894241650e47414136a3bf37ddbbef7907d3dc69c678f40c9716e3afbfd2/mojo_testplus-1.3.9.tar.gz
+[2024-04-24 06:11:26] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-24 06:11:26] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240424/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-24 06:11:26] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.87.tar.gz]
+[2024-04-24 06:11:26] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-24 06:11:26] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-24 06:11:26] INFO root fetch - processPackages [transceiver]: executing diffoscope
+[2024-04-24 06:11:26] INFO root fetch - processPackages [transceiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transceiver-0.1.2.tar.gz tmp/transceiver-0.1.3.tar.gz --markdown 20240424/t/transceiver/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 06:11:27] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2024-04-24 06:11:27] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-1.3.8.tar.gz tmp/mojo_testplus-1.3.9.tar.gz --markdown 20240424/m/mojo-testplus/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-24 06:11:27] INFO root fetch - processPackages [mojo-results]: Remove: archive file [/home/abi/fetcher/tmp/mojo_results-1.3.8.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - processPackages [mojo-results]: Remove: archive file [/home/abi/fetcher/tmp/mojo_results-1.3.9.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - main [MainThread]: End processing [mojo-results]: success
+[2024-04-24 06:11:27] INFO root fetch - processPackages [gep3]: Remove: archive file [/home/abi/fetcher/tmp/gep3-0.3.2.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - processPackages [gep3]: Remove: archive file [/home/abi/fetcher/tmp/gep3-0.3.3.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - main [MainThread]: End processing [gep3]: success
+[2024-04-24 06:11:27] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.6.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.7.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-24 06:11:27] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.8.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.9.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2024-04-24 06:11:27] INFO root fetch - processPackages [transceiver]: Remove: archive file [/home/abi/fetcher/tmp/transceiver-0.1.2.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - processPackages [transceiver]: Remove: archive file [/home/abi/fetcher/tmp/transceiver-0.1.3.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - main [MainThread]: End processing [transceiver]: success
+[2024-04-24 06:11:27] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.8.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-1.3.9.tar.gz]
+[2024-04-24 06:11:27] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2024-04-24 06:11:28] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-24 06:11:28] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-24 06:11:28] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-24 06:11:28] INFO root fetch - main [MainThread]: Store serial: [22906660]
