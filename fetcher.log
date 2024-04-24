@@ -11945,3 +11945,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:20:45] INFO root fetch - processPackages [dlrover]: Remove: archive file [/home/abi/fetcher/tmp/dlrover-0.3.6-py3-none-any.whl.zip]
 [2024-04-24 08:20:45] INFO root fetch - main [MainThread]: End processing [dlrover]: success
 [2024-04-24 08:20:45] INFO root fetch - main [MainThread]: Store serial: [22907489]
+[2024-04-24 08:22:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907489]
+[2024-04-24 08:22:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 08:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tjax
+[2024-04-24 08:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-mts-mto-rule
+[2024-04-24 08:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-reserve
+[2024-04-24 08:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-demand-estimate
+[2024-04-24 08:22:54] INFO root fetch - processPackages [tjax]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-24 08:22:54] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/0a/6a/2363c88006dd7f98956bcd37716a18eff3b3138599af4e6dbde76d22d085/tjax-0.8.4.tar.gz
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: New version: [17.0.1.1.0.3] Old Version: [17.0.1.1.0.2]
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-reserve]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-mts-mto-rule]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/5f/9a/a7dfaf3c378522425f0964bb8936f52d83a621166d889e4a5e34737cc7e3/odoo_addon_stock_reserve-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/4f/61/0a94c92539ed48d21aa0523e5ad6b8f65ffca8b34f7da2de8141ce4d6330/odoo_addon_stock_demand_estimate-17.0.1.1.0.2-py3-none-any.whl
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-mts-mto-rule]: Downloading https://files.pythonhosted.org/packages/dd/0d/08431e7e38a5e85e97019e3b1dbad5956222fd289a56617ccafeaba6fb67/odoo_addon_stock_mts_mto_rule-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-24 08:22:54] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/be/f1/ce1970f050f673ae52c304257120a380736f531fee4d81b57ab0f24b506f/tjax-0.9.0.tar.gz
+[2024-04-24 08:22:54] INFO root fetch - processPackages [tjax]: executing diffoscope
+[2024-04-24 08:22:54] INFO root fetch - processPackages [tjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tjax-0.8.4.tar.gz tmp/tjax-0.9.0.tar.gz --markdown 20240424/t/tjax/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-mts-mto-rule]: Downloading https://files.pythonhosted.org/packages/c6/b3/99a5b680cc537d2487d03fe1cf037f9382caea25cdd1df5060035843c6b3/odoo_addon_stock_mts_mto_rule-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-mts-mto-rule]: executing diffoscope
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-mts-mto-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_mts_mto_rule-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_mts_mto_rule-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-stock-mts-mto-rule/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-24 08:22:54] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/72/cb/96c4de5a9fb0ff034f7f0766c10c173fd39d15b6615d26ed44b1774c30be/odoo_addon_stock_reserve-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-24 08:22:55] INFO root fetch - processPackages [odoo-addon-stock-reserve]: executing diffoscope
+[2024-04-24 08:22:55] INFO root fetch - processPackages [odoo-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_reserve-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_stock_reserve-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-stock-reserve/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-24 08:22:55] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/ee/91/5d46bbd05906183e646d1754c39a0535c1bb6ffcbc8a4787e0851ddce19b/odoo_addon_stock_demand_estimate-17.0.1.1.0.3-py3-none-any.whl
+[2024-04-24 08:22:55] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: executing diffoscope
+[2024-04-24 08:22:55] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-stock-demand-estimate/17.0.1.1.0.2-17.0.1.1.0.3/README.md --exclude *.pyd
+[2024-04-24 08:22:55] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.8.4.tar.gz]
+[2024-04-24 08:22:55] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.9.0.tar.gz]
+[2024-04-24 08:22:55] INFO root fetch - main [MainThread]: End processing [tjax]: success
+[2024-04-24 08:22:55] INFO root fetch - processPackages [odoo-addon-stock-mts-mto-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_mts_mto_rule-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-24 08:22:55] INFO root fetch - processPackages [odoo-addon-stock-mts-mto-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_mts_mto_rule-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 08:22:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-mts-mto-rule]: success
+[2024-04-24 08:22:55] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 08:22:55] INFO root fetch - processPackages [odoo-addon-stock-reserve]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_reserve-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-24 08:22:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-reserve]: success
+[2024-04-24 08:22:56] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-24 08:22:56] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-24 08:22:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
+[2024-04-24 08:22:56] INFO root fetch - main [MainThread]: Store serial: [22907502]
