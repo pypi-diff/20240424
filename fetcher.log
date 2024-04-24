@@ -15600,3 +15600,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:43:50] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev45-cp38-cp38-macosx_11_0_arm64.whl.zip]
 [2024-04-24 10:43:50] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-24 10:43:50] INFO root fetch - main [MainThread]: Store serial: [22909214]
+[2024-04-24 10:45:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909214]
+[2024-04-24 10:46:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 10:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2024-04-24 10:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFisca-France
+[2024-04-24 10:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-pfx
+[2024-04-24 10:46:00] INFO root fetch - processPackages [django-pfx]: New version: [1.4.dev8] Old Version: [1.4.dev6]
+[2024-04-24 10:46:00] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-24 10:46:00] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2024-04-24 10:46:00] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/2e/9f/65575dd6215264f53e9e8b7a4683326bc83c43481f371071af7e71e7a40e/django-pfx-1.4.dev6.tar.gz
+[2024-04-24 10:46:00] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2024-04-24 10:46:00] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-24 10:46:01] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/7f/53/caf5a55c22d1a4048e13c64bf53557581259f02deab3e33483ff3512cdf3/django-pfx-1.4.dev8.tar.gz
+[2024-04-24 10:46:01] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2024-04-24 10:46:01] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.4.dev6.tar.gz tmp/django-pfx-1.4.dev8.tar.gz --markdown 20240424/d/django-pfx/1.4.dev6-1.4.dev8/README.md --exclude *.pyd
+[2024-04-24 10:46:01] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2024-04-24 10:46:01] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-24 10:46:01] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-24 10:46:01] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240424/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-24 10:46:01] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2024-04-24 10:46:01] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20240424/O/OpenFisca-France/99.0.0-99.0.1/README.md --exclude *.pyd
+[2024-04-24 10:46:02] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev6.tar.gz]
+[2024-04-24 10:46:02] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev8.tar.gz]
+[2024-04-24 10:46:02] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2024-04-24 10:46:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-24 10:46:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-24 10:46:04] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-24 10:46:10] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2024-04-24 10:46:10] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2024-04-24 10:46:10] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2024-04-24 10:46:10] INFO root fetch - main [MainThread]: Store serial: [22909235]
