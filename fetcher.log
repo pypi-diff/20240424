@@ -7951,3 +7951,63 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:27:50] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
 [2024-04-24 04:27:50] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
 [2024-04-24 04:27:50] INFO root fetch - main [MainThread]: Store serial: [22905835]
+[2024-04-24 04:29:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905835]
+[2024-04-24 04:29:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 04:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-poe
+[2024-04-24 04:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-nebulagraph
+[2024-04-24 04:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finisterra
+[2024-04-24 04:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: facehuggershield
+[2024-04-24 04:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usvseg
+[2024-04-24 04:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jy_lib
+[2024-04-24 04:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdf_tool
+[2024-04-24 04:29:59] INFO root fetch - processPackages [jy_lib]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-24 04:29:59] INFO root fetch - processPackages [facehuggershield]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 04:29:59] INFO root fetch - processPackages [fastapi-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-24 04:29:59] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/72/10/66b4a38cb59ad2f9fc7be20088f6225f4383c1d1217040aea6deba496dbd/jy_lib-0.6.3.tar.gz
+[2024-04-24 04:29:59] INFO root fetch - processPackages [facehuggershield]: Downloading https://files.pythonhosted.org/packages/27/f4/6945bd2d54049146a2afe02c6d743cd4201b822cc5746a3b6f4e93387138/facehuggershield-0.1.1.tar.gz
+[2024-04-24 04:29:59] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.11.4]
+[2024-04-24 04:29:59] INFO root fetch - processPackages [finisterra]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 04:29:59] WARNING root fetch - processPackages [usvseg]: Skipping, unable to determine old version
+[2024-04-24 04:29:59] INFO root fetch - main [MainThread]: End processing [usvseg] error
+[2024-04-24 04:29:59] INFO root fetch - processPackages [tdf_tool]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-24 04:29:59] INFO root fetch - processPackages [fastapi-poe]: Downloading https://files.pythonhosted.org/packages/4b/25/bea38e86b4c9277e953c90a822f4861c62b230a69e700bd9b0151876b6c1/fastapi_poe-0.0.7.tar.gz
+[2024-04-24 04:29:59] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/76/2d/e5c933c24afced261cfdb2372e939099dee5bb3f6f4b8539623f41a3c94e/jupyter_nebulagraph-0.11.4.tar.gz
+[2024-04-24 04:29:59] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/67/b0/976c8bb037e76d356c8cf723abb0159207032fe694700a459319eb1cb818/jy_lib-0.6.4.tar.gz
+[2024-04-24 04:29:59] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/b6/bf/195a1850e81169f476d3d3ca9ef8c21c89088d98c5739b2e6b3e241d7ac4/finisterra-1.0.8.tar.gz
+[2024-04-24 04:29:59] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/e2/20/7bd3981f89deedf6ba8fdd42fc8e01b5fa47635732ea90010af530c1cbc2/tdf_tool-2.4.8.tar.gz
+[2024-04-24 04:29:59] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-24 04:29:59] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.6.3.tar.gz tmp/jy_lib-0.6.4.tar.gz --markdown 20240424/j/jy_lib/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-24 04:30:00] INFO root fetch - processPackages [facehuggershield]: Downloading https://files.pythonhosted.org/packages/88/85/3cf2514d263a696f84222920e6b521b35bfaafafcd9f2ec477fac426a775/facehuggershield-0.1.2.tar.gz
+[2024-04-24 04:30:00] INFO root fetch - processPackages [facehuggershield]: executing diffoscope
+[2024-04-24 04:30:00] INFO root fetch - processPackages [facehuggershield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facehuggershield-0.1.1.tar.gz tmp/facehuggershield-0.1.2.tar.gz --markdown 20240424/f/facehuggershield/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 04:30:00] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/68/8a/02f80cdb16a2f8155583c78bc947832a816e1d8d728091c4ac97d9225473/finisterra-1.0.9.tar.gz
+[2024-04-24 04:30:00] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-04-24 04:30:00] INFO root fetch - processPackages [fastapi-poe]: Downloading https://files.pythonhosted.org/packages/45/b6/a2d0467846df0a1202add666fe039e49680698de1e4b3718bae5354e8e85/fastapi_poe-0.0.9.tar.gz
+[2024-04-24 04:30:00] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/0d/fb/edc0ac41f192341d2e9a5ca096da99a3e6e2fcbb2a105e9f80ca47732071/tdf_tool-2.4.9.tar.gz
+[2024-04-24 04:30:00] INFO root fetch - processPackages [finisterra]: executing diffoscope
+[2024-04-24 04:30:00] INFO root fetch - processPackages [finisterra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finisterra-1.0.8.tar.gz tmp/finisterra-1.0.9.tar.gz --markdown 20240424/f/finisterra/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 04:30:00] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-04-24 04:30:00] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.11.4.tar.gz tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240424/j/jupyter-nebulagraph/0.11.4-0.9.1/README.md --exclude *.pyd
+[2024-04-24 04:30:00] INFO root fetch - processPackages [fastapi-poe]: executing diffoscope
+[2024-04-24 04:30:00] INFO root fetch - processPackages [fastapi-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_poe-0.0.7.tar.gz tmp/fastapi_poe-0.0.9.tar.gz --markdown 20240424/f/fastapi-poe/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-24 04:30:00] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.3.tar.gz]
+[2024-04-24 04:30:00] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.6.4.tar.gz]
+[2024-04-24 04:30:00] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-24 04:30:00] INFO root fetch - processPackages [tdf_tool]: executing diffoscope
+[2024-04-24 04:30:00] INFO root fetch - processPackages [tdf_tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdf_tool-2.4.8.tar.gz tmp/tdf_tool-2.4.9.tar.gz --markdown 20240424/t/tdf_tool/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-24 04:30:00] INFO root fetch - processPackages [facehuggershield]: Remove: archive file [/home/abi/fetcher/tmp/facehuggershield-0.1.1.tar.gz]
+[2024-04-24 04:30:00] INFO root fetch - processPackages [facehuggershield]: Remove: archive file [/home/abi/fetcher/tmp/facehuggershield-0.1.2.tar.gz]
+[2024-04-24 04:30:00] INFO root fetch - main [MainThread]: End processing [facehuggershield]: success
+[2024-04-24 04:30:01] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.11.4.tar.gz]
+[2024-04-24 04:30:01] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-04-24 04:30:01] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-04-24 04:30:01] INFO root fetch - processPackages [fastapi-poe]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_poe-0.0.7.tar.gz]
+[2024-04-24 04:30:01] INFO root fetch - processPackages [fastapi-poe]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_poe-0.0.9.tar.gz]
+[2024-04-24 04:30:01] INFO root fetch - main [MainThread]: End processing [fastapi-poe]: success
+[2024-04-24 04:30:01] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.8.tar.gz]
+[2024-04-24 04:30:01] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.9.tar.gz]
+[2024-04-24 04:30:01] INFO root fetch - main [MainThread]: End processing [finisterra]: success
+[2024-04-24 04:30:01] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.8.tar.gz]
+[2024-04-24 04:30:01] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.9.tar.gz]
+[2024-04-24 04:30:01] INFO root fetch - main [MainThread]: End processing [tdf_tool]: success
+[2024-04-24 04:30:01] INFO root fetch - main [MainThread]: Store serial: [22905855]
