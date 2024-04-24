@@ -9993,3 +9993,15 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:26:47] INFO root fetch - processPackages [ships]: Remove: archive file [/home/abi/fetcher/tmp/ships-1.3.8.tar.gz]
 [2024-04-24 06:26:47] INFO root fetch - main [MainThread]: End processing [ships]: success
 [2024-04-24 06:26:47] INFO root fetch - main [MainThread]: Store serial: [22906764]
+[2024-04-24 06:28:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906764]
+[2024-04-24 06:28:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 06:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hspylib-askai
+[2024-04-24 06:28:56] INFO root fetch - processPackages [hspylib-askai]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-24 06:28:57] INFO root fetch - processPackages [hspylib-askai]: Downloading https://files.pythonhosted.org/packages/ea/e4/851e307e1b2dd5d4bfb5990b107441fb25c4cdd78c49c7ac33e017f6767e/hspylib-askai-1.0.5.tar.gz
+[2024-04-24 06:28:57] INFO root fetch - processPackages [hspylib-askai]: Downloading https://files.pythonhosted.org/packages/6b/42/67e7f33da5c194d79012355fceadc7f39a177d867bf5d7c3e6ae24ea30b7/hspylib_askai-1.0.6.tar.gz
+[2024-04-24 06:28:57] INFO root fetch - processPackages [hspylib-askai]: executing diffoscope
+[2024-04-24 06:28:57] INFO root fetch - processPackages [hspylib-askai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-askai-1.0.5.tar.gz tmp/hspylib_askai-1.0.6.tar.gz --markdown 20240424/h/hspylib-askai/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-24 06:28:58] INFO root fetch - processPackages [hspylib-askai]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-askai-1.0.5.tar.gz]
+[2024-04-24 06:28:58] INFO root fetch - processPackages [hspylib-askai]: Remove: archive file [/home/abi/fetcher/tmp/hspylib_askai-1.0.6.tar.gz]
+[2024-04-24 06:28:58] INFO root fetch - main [MainThread]: End processing [hspylib-askai]: success
+[2024-04-24 06:28:58] INFO root fetch - main [MainThread]: Store serial: [22906767]
