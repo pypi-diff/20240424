@@ -2808,3 +2808,56 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:30:12] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.1rc0-py3-none-any.whl.zip]
 [2024-04-24 02:30:12] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2024-04-24 02:30:12] INFO root fetch - main [MainThread]: Store serial: [22903949]
+[2024-04-24 02:32:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903949]
+[2024-04-24 02:32:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 02:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: launchflow
+[2024-04-24 02:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.appsync-utils
+[2024-04-24 02:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manga-scrape
+[2024-04-24 02:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxruntime-genai
+[2024-04-24 02:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gravithon
+[2024-04-24 02:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onnxruntime-genai-directml
+[2024-04-24 02:32:21] INFO root fetch - processPackages [gravithon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 02:32:21] INFO root fetch - processPackages [onnxruntime-genai-directml]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2024-04-24 02:32:21] INFO root fetch - processPackages [onnxruntime-genai]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2024-04-24 02:32:22] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/f6/b8/a0455b3e618c7eba6957d6891d43d6c3a775909ec5530b4466cb0db8a404/gravithon-0.0.8.tar.gz
+[2024-04-24 02:32:22] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-04-24 02:32:22] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-24 02:32:22] INFO root fetch - processPackages [manga-scrape]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-24 02:32:22] INFO root fetch - processPackages [onnxruntime-genai]: Downloading https://files.pythonhosted.org/packages/9e/28/d1149c0e9751d122065de8a9ef97a841f9ba914a592da1a8621143b7809c/onnxruntime_genai-0.2.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 02:32:22] INFO root fetch - processPackages [onnxruntime-genai-directml]: Downloading https://files.pythonhosted.org/packages/d8/ed/446f7be194007aac1a7f0a6b80adb49b5efe7eb37b1744501f60a71cd852/onnxruntime_genai_directml-0.2.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 02:32:22] WARNING root fetch - processPackages [onnxruntime-genai-directml]: Skipping package: exceeds size limit 15422980>=10485760
+[2024-04-24 02:32:22] INFO root fetch - main [MainThread]: End processing [onnxruntime-genai-directml] error
+[2024-04-24 02:32:22] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/cd/0d/500a5434077c6a4432a6db2432d0d609036e2d8a8df5e49c28beab6373c9/gravithon-0.0.9.tar.gz
+[2024-04-24 02:32:22] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-04-24 02:32:22] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-24 02:32:22] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/bd/f8/0b1c4e019f16b186ed6cc5e5d90e416c4c610bdffb21fae5a0c787b18513/manga_scrape-4.8.0.tar.gz
+[2024-04-24 02:32:22] INFO root fetch - processPackages [gravithon]: executing diffoscope
+[2024-04-24 02:32:22] INFO root fetch - processPackages [gravithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravithon-0.0.8.tar.gz tmp/gravithon-0.0.9.tar.gz --markdown 20240424/g/gravithon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 02:32:22] INFO root fetch - processPackages [onnxruntime-genai]: Downloading https://files.pythonhosted.org/packages/c2/64/e50bf4e79609b12de1da6cbf853eed6cd609356ee6627f4876f368b5742e/onnxruntime_genai-0.2.0rc2-cp39-cp39-win_amd64.whl
+[2024-04-24 02:32:22] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-04-24 02:32:22] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/2b/c5/ce06b355f4b6a9087524a466a76eb5a124e0fe06d2a3d0326e3693d1f160/manga_scrape-4.9.0.tar.gz
+[2024-04-24 02:32:22] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-24 02:32:22] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-24 02:32:22] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240424/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-04-24 02:32:22] INFO root fetch - processPackages [manga-scrape]: executing diffoscope
+[2024-04-24 02:32:22] INFO root fetch - processPackages [manga-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga_scrape-4.8.0.tar.gz tmp/manga_scrape-4.9.0.tar.gz --markdown 20240424/m/manga-scrape/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-24 02:32:22] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-24 02:32:22] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240424/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-24 02:32:22] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.8.tar.gz]
+[2024-04-24 02:32:22] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.9.tar.gz]
+[2024-04-24 02:32:22] INFO root fetch - main [MainThread]: End processing [gravithon]: success
+[2024-04-24 02:32:23] INFO root fetch - processPackages [onnxruntime-genai]: executing diffoscope
+[2024-04-24 02:32:23] INFO root fetch - processPackages [onnxruntime-genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxruntime_genai-0.2.0rc1-cp39-cp39-win_amd64.whl.zip tmp/onnxruntime_genai-0.2.0rc2-cp39-cp39-win_amd64.whl.zip --markdown 20240424/o/onnxruntime-genai/0.2.0rc1-0.2.0rc2/README.md --exclude *.pyd
+[2024-04-24 02:32:23] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.8.0.tar.gz]
+[2024-04-24 02:32:23] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.9.0.tar.gz]
+[2024-04-24 02:32:23] INFO root fetch - main [MainThread]: End processing [manga-scrape]: success
+[2024-04-24 02:32:23] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-24 02:32:23] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-24 02:32:23] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-24 02:32:23] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-04-24 02:32:23] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-04-24 02:32:23] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-24 02:32:24] INFO root fetch - processPackages [onnxruntime-genai]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_genai-0.2.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 02:32:24] INFO root fetch - processPackages [onnxruntime-genai]: Remove: archive file [/home/abi/fetcher/tmp/onnxruntime_genai-0.2.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 02:32:24] INFO root fetch - main [MainThread]: End processing [onnxruntime-genai]: success
+[2024-04-24 02:32:24] INFO root fetch - main [MainThread]: Store serial: [22903981]
