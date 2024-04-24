@@ -10756,3 +10756,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:11:19] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-1.0.4-cp37-abi3-musllinux_1_1_x86_64.whl.zip]
 [2024-04-24 07:11:19] INFO root fetch - main [MainThread]: End processing [qh3]: success
 [2024-04-24 07:11:19] INFO root fetch - main [MainThread]: Store serial: [22907019]
+[2024-04-24 07:13:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907019]
+[2024-04-24 07:13:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 07:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sferriol-wamp
+[2024-04-24 07:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stac-fastapi.core
+[2024-04-24 07:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socket.d
+[2024-04-24 07:13:28] INFO root fetch - processPackages [socket.d]: New version: [2.4.11.1] Old Version: [2.4.11]
+[2024-04-24 07:13:28] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/6d/28/ee207e9735fc444ff858e573cbce1c40729f95f925a77fbb644868b183f1/socket.d-2.4.11.tar.gz
+[2024-04-24 07:13:28] INFO root fetch - processPackages [stac-fastapi.core]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-24 07:13:28] INFO root fetch - processPackages [sferriol-wamp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 07:13:28] INFO root fetch - processPackages [stac-fastapi.core]: Downloading https://files.pythonhosted.org/packages/51/ca/1c8e2682eb3cd4ac5bab91a3dcd88924cabbecab47cc39bf416d8bc6a1af/stac_fastapi.core-2.2.0-py3-none-any.whl
+[2024-04-24 07:13:28] INFO root fetch - processPackages [sferriol-wamp]: Downloading https://files.pythonhosted.org/packages/21/dd/e545c0b488c3681c1dbd4d0e51333f2b8cd2621a3743111533f0374c4b03/sferriol_wamp-0.1.0-py3-none-any.whl
+[2024-04-24 07:13:28] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/d5/cb/b2166d806da6753cf46c9ce39d027e37c0f5144b4ae9ce03ade1fed58067/socket.d-2.4.11.1.tar.gz
+[2024-04-24 07:13:28] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-24 07:13:28] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.11.tar.gz tmp/socket.d-2.4.11.1.tar.gz --markdown 20240424/s/socket.d/2.4.11-2.4.11.1/README.md --exclude *.pyd
+[2024-04-24 07:13:28] INFO root fetch - processPackages [stac-fastapi.core]: Downloading https://files.pythonhosted.org/packages/cc/7a/7dd6177d9d371d2498cfb6835e7a16e745648342db81e8d175ebc4cc5406/stac_fastapi_core-2.3.0.tar.gz
+[2024-04-24 07:13:28] INFO root fetch - processPackages [sferriol-wamp]: Downloading https://files.pythonhosted.org/packages/49/61/c46c7a957a63d5de290d5bc91f77ecf3b139193c260ae5aea548164739bc/sferriol_wamp-0.1.1-py3-none-any.whl
+[2024-04-24 07:13:28] INFO root fetch - processPackages [sferriol-wamp]: executing diffoscope
+[2024-04-24 07:13:28] INFO root fetch - processPackages [sferriol-wamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sferriol_wamp-0.1.0-py3-none-any.whl.zip tmp/sferriol_wamp-0.1.1-py3-none-any.whl.zip --markdown 20240424/s/sferriol-wamp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 07:13:28] INFO root fetch - processPackages [stac-fastapi.core]: executing diffoscope
+[2024-04-24 07:13:28] INFO root fetch - processPackages [stac-fastapi.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi.core-2.2.0-py3-none-any.whl.zip tmp/stac_fastapi_core-2.3.0.tar.gz --markdown 20240424/s/stac-fastapi.core/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-24 07:13:29] INFO root fetch - processPackages [stac-fastapi.core]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi.core-2.2.0-py3-none-any.whl.zip]
+[2024-04-24 07:13:29] INFO root fetch - processPackages [stac-fastapi.core]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_core-2.3.0.tar.gz]
+[2024-04-24 07:13:29] INFO root fetch - main [MainThread]: End processing [stac-fastapi.core]: success
+[2024-04-24 07:13:29] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.11.tar.gz]
+[2024-04-24 07:13:29] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.11.1.tar.gz]
+[2024-04-24 07:13:29] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-24 07:13:29] INFO root fetch - processPackages [sferriol-wamp]: Remove: archive file [/home/abi/fetcher/tmp/sferriol_wamp-0.1.0-py3-none-any.whl.zip]
+[2024-04-24 07:13:29] INFO root fetch - processPackages [sferriol-wamp]: Remove: archive file [/home/abi/fetcher/tmp/sferriol_wamp-0.1.1-py3-none-any.whl.zip]
+[2024-04-24 07:13:29] INFO root fetch - main [MainThread]: End processing [sferriol-wamp]: success
+[2024-04-24 07:13:29] INFO root fetch - main [MainThread]: Store serial: [22907084]
