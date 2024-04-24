@@ -16776,3 +16776,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:20:07] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-24 11:20:07] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-24 11:20:07] INFO root fetch - main [MainThread]: Store serial: [22909693]
+[2024-04-24 11:22:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909693]
+[2024-04-24 11:22:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 11:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-template-generator
+[2024-04-24 11:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tooly
+[2024-04-24 11:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-editable-config
+[2024-04-24 11:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yuanfen
+[2024-04-24 11:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwb4fp
+[2024-04-24 11:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-streams
+[2024-04-24 11:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kso-utils
+[2024-04-24 11:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ropt
+[2024-04-24 11:22:16] INFO root fetch - processPackages [kso-utils]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-24 11:22:16] INFO root fetch - processPackages [yuanfen]: New version: [2024.4.24.2] Old Version: [2024.4.24.1]
+[2024-04-24 11:22:16] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.0.6] Old Version: [0.6.0.5]
+[2024-04-24 11:22:16] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 11:22:16] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/2b/ff/19d34c968862ce43f99de0560056517547e1e1c376c9be65b1e31069d723/kso_utils-0.2.3.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [mo-streams]: New version: [1.601.24115] Old Version: [1.600.24114]
+[2024-04-24 11:22:16] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/23/78/510a3f3d9e8b5bc94f3545545e5080fc15bc3f0ffc4415ebb3f382fa7281/yuanfen-2024.4.24.1.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [tooly]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 11:22:16] INFO root fetch - processPackages [ropt]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-24 11:22:16] INFO root fetch - processPackages [ckanext-editable-config]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 11:22:16] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/19/cc/3872c2a9a874a8ce8dadec947a696cedae0d44ac2252a589627ecd91db78/nwb4fp-0.6.0.5.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/5c/a2/02f0b3cf41b76949deb937b95c8970f032447d82aa090fc0b68084fc59df/p-template-generator-0.1.98.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/b0/03/c6a394d5bf1e454977fceefdecccd0a6c1f616f94357533833ba42f8ae90/tooly-0.1.8.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [ckanext-editable-config]: Downloading https://files.pythonhosted.org/packages/80/91/653b07de719be6be1f7d3b65c72255a05f6fa62767a390c23367e5bb2b43/ckanext-editable-config-0.0.4.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/85/1b/fb6514d7b19b1108e978b647f7d2e0c7522a3226036836b498898622f687/mo_streams-1.600.24114.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/7a/4d/fedb99e2b215aa69ad3edf0d69dcf1677fdc066aae2095d843d7abc34dd3/ropt-0.1.3.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/6e/67/5bb16d7cb826d843f2247335ab76f09a50b0f22643c608ca570502242c99/kso_utils-0.2.4.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/15/2a/114703ef35520f1343d205fee7d380479ff3bc4fdd9aede96fb0910679b1/yuanfen-2024.4.24.2.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/48/c1/d1afa30e43626ce8e338a3ed9689e4333731c9c3d67efd70dabec9d06e1a/nwb4fp-0.6.0.6.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [kso-utils]: executing diffoscope
+[2024-04-24 11:22:16] INFO root fetch - processPackages [kso-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kso_utils-0.2.3.tar.gz tmp/kso_utils-0.2.4.tar.gz --markdown 20240424/k/kso-utils/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-24 11:22:16] INFO root fetch - processPackages [yuanfen]: executing diffoscope
+[2024-04-24 11:22:16] INFO root fetch - processPackages [yuanfen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuanfen-2024.4.24.1.tar.gz tmp/yuanfen-2024.4.24.2.tar.gz --markdown 20240424/y/yuanfen/2024.4.24.1-2024.4.24.2/README.md --exclude *.pyd
+[2024-04-24 11:22:16] INFO root fetch - processPackages [ckanext-editable-config]: Downloading https://files.pythonhosted.org/packages/15/88/31cced656d0bb10f1c72bec6c231740120a69a0980c27e73c8ccb6862303/ckanext_editable_config-0.0.5.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-24 11:22:16] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.0.5.tar.gz tmp/nwb4fp-0.6.0.6.tar.gz --markdown 20240424/n/nwb4fp/0.6.0.5-0.6.0.6/README.md --exclude *.pyd
+[2024-04-24 11:22:16] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/52/a4/138db8ad1b833f5315cc67d9f1834f5ff4eb3415ff1ec89156548aa721a6/mo_streams-1.601.24115.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/cf/49/749e4b295b110c63dc0dec330e9ed1943381c8d0f94b2a61f5db1e274ee7/ropt-0.1.4.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [tooly]: Downloading https://files.pythonhosted.org/packages/16/8c/0307c58b299057a50de718a1422867fb34e4a3bc4df955a74f14b40afa6b/tooly-0.1.9.tar.gz
+[2024-04-24 11:22:16] INFO root fetch - processPackages [ckanext-editable-config]: executing diffoscope
+[2024-04-24 11:22:16] INFO root fetch - processPackages [ckanext-editable-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-editable-config-0.0.4.tar.gz tmp/ckanext_editable_config-0.0.5.tar.gz --markdown 20240424/c/ckanext-editable-config/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-24 11:22:16] INFO root fetch - processPackages [mo-streams]: executing diffoscope
+[2024-04-24 11:22:16] INFO root fetch - processPackages [mo-streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_streams-1.600.24114.tar.gz tmp/mo_streams-1.601.24115.tar.gz --markdown 20240424/m/mo-streams/1.600.24114-1.601.24115/README.md --exclude *.pyd
+[2024-04-24 11:22:17] INFO root fetch - processPackages [tooly]: executing diffoscope
+[2024-04-24 11:22:17] INFO root fetch - processPackages [tooly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooly-0.1.8.tar.gz tmp/tooly-0.1.9.tar.gz --markdown 20240424/t/tooly/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 11:22:17] INFO root fetch - processPackages [ropt]: executing diffoscope
+[2024-04-24 11:22:17] INFO root fetch - processPackages [ropt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt-0.1.3.tar.gz tmp/ropt-0.1.4.tar.gz --markdown 20240424/r/ropt/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-24 11:22:17] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.4.24.1.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.4.24.2.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - main [MainThread]: End processing [yuanfen]: success
+[2024-04-24 11:22:17] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.5.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.6.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-24 11:22:17] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-04-24 11:22:17] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.3.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.4.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - main [MainThread]: End processing [kso-utils]: success
+[2024-04-24 11:22:17] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.8.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - processPackages [tooly]: Remove: archive file [/home/abi/fetcher/tmp/tooly-0.1.9.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - main [MainThread]: End processing [tooly]: success
+[2024-04-24 11:22:17] INFO root fetch - processPackages [ckanext-editable-config]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-editable-config-0.0.4.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - processPackages [ckanext-editable-config]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_editable_config-0.0.5.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - main [MainThread]: End processing [ckanext-editable-config]: success
+[2024-04-24 11:22:17] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.600.24114.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.601.24115.tar.gz]
+[2024-04-24 11:22:17] INFO root fetch - main [MainThread]: End processing [mo-streams]: success
+[2024-04-24 11:22:18] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.1.3.tar.gz]
+[2024-04-24 11:22:18] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.1.4.tar.gz]
+[2024-04-24 11:22:18] INFO root fetch - main [MainThread]: End processing [ropt]: success
+[2024-04-24 11:22:18] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-04-24 11:22:18] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240424/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 11:22:19] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.98.tar.gz]
+[2024-04-24 11:22:19] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-04-24 11:22:19] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-04-24 11:22:19] INFO root fetch - main [MainThread]: Store serial: [22909718]
