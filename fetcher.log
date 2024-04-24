@@ -21697,3 +21697,72 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:03:32] INFO root fetch - processPackages [maritalk]: Remove: archive file [/home/abi/fetcher/tmp/maritalk-0.2.4.tar.gz]
 [2024-04-24 14:03:32] INFO root fetch - main [MainThread]: End processing [maritalk]: success
 [2024-04-24 14:03:32] INFO root fetch - main [MainThread]: Store serial: [22911710]
+[2024-04-24 14:05:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911710]
+[2024-04-24 14:05:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 14:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odbc2deltalake
+[2024-04-24 14:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outpostkit
+[2024-04-24 14:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-json-config
+[2024-04-24 14:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-binexport
+[2024-04-24 14:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcnodes-opencv
+[2024-04-24 14:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SwarmManagement
+[2024-04-24 14:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dexus-vault
+[2024-04-24 14:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langflow
+[2024-04-24 14:05:56] WARNING root fetch - processPackages [funcnodes-opencv]: Skipping, unable to determine old version
+[2024-04-24 14:05:56] INFO root fetch - main [MainThread]: End processing [funcnodes-opencv] error
+[2024-04-24 14:05:56] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-24 14:05:56] INFO root fetch - processPackages [mo-json-config]: New version: [4.602.24115] Old Version: [4.601.24115]
+[2024-04-24 14:05:56] INFO root fetch - processPackages [outpostkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-24 14:05:56] INFO root fetch - processPackages [dexus-vault]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-24 14:05:56] INFO root fetch - processPackages [python-binexport]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-24 14:05:56] INFO root fetch - processPackages [SwarmManagement]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-24 14:05:56] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-24 14:05:56] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/7e/7c/e5e00a529eba224c0cb83a48f922f1c06c6a49b061a41f6010188d06b0d1/mo_json_config-4.601.24115.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/e8/20/6f4f3b0edb61dd5f691668605b0901894c58c85e728662fff6913423203c/outpostkit-0.0.7.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [python-binexport]: Downloading https://files.pythonhosted.org/packages/6d/bd/ab30d5b905fdb9d34c5180089711c13526bf345bbf0995522f8805a218a3/python-binexport-0.3.1.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [SwarmManagement]: Downloading https://files.pythonhosted.org/packages/dc/7c/b62f51a5b7c0d4ac2e6cdf09bebc969a408656c78b9a78a53d21326aad1e/SwarmManagement-1.1.8-py2.py3-none-any.whl
+[2024-04-24 14:05:56] INFO root fetch - processPackages [dexus-vault]: Downloading https://files.pythonhosted.org/packages/60/fa/81debb602c42bd2a6a04bc6ab6860dd315c2b79c7b1470a826e8246edb77/dexus_vault-0.2.2.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/9e/64/16b926d93d24cbdd00b9b5a8184bbdb5b2686e65bbd56295d0809ab0339c/mo_json_config-4.602.24115.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/b3/af/8945c62fc6dc5596e5618810b3971a4c11d217517a24d0cd40a10b5b9553/outpostkit-0.0.9.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [outpostkit]: executing diffoscope
+[2024-04-24 14:05:56] INFO root fetch - processPackages [outpostkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostkit-0.0.7.tar.gz tmp/outpostkit-0.0.9.tar.gz --markdown 20240424/o/outpostkit/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-24 14:05:56] INFO root fetch - processPackages [mo-json-config]: executing diffoscope
+[2024-04-24 14:05:56] INFO root fetch - processPackages [mo-json-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json_config-4.601.24115.tar.gz tmp/mo_json_config-4.602.24115.tar.gz --markdown 20240424/m/mo-json-config/4.601.24115-4.602.24115/README.md --exclude *.pyd
+[2024-04-24 14:05:56] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-04-24 14:05:56] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240424/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-24 14:05:56] INFO root fetch - processPackages [python-binexport]: Downloading https://files.pythonhosted.org/packages/3d/1d/cf94880b6c06433cdf7a1dc03327b69f83dad870c5730889d7e172e67340/python_binexport-0.3.2.tar.gz
+[2024-04-24 14:05:56] INFO root fetch - processPackages [SwarmManagement]: Downloading https://files.pythonhosted.org/packages/42/1c/04e1afedaff414eee2c6fa42a9e9cd55acae51ab8a2abc2eb1e0a294b049/SwarmManagement-1.1.9-py2.py3-none-any.whl
+[2024-04-24 14:05:56] INFO root fetch - processPackages [dexus-vault]: Downloading https://files.pythonhosted.org/packages/51/76/1c28118f1cf029542d008788c1b303aacb777512d49ddb137d5998e65161/dexus_vault-0.3.0.tar.gz
+[2024-04-24 14:05:57] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-04-24 14:05:57] INFO root fetch - processPackages [python-binexport]: executing diffoscope
+[2024-04-24 14:05:57] INFO root fetch - processPackages [python-binexport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-binexport-0.3.1.tar.gz tmp/python_binexport-0.3.2.tar.gz --markdown 20240424/p/python-binexport/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-24 14:05:57] INFO root fetch - processPackages [SwarmManagement]: executing diffoscope
+[2024-04-24 14:05:57] INFO root fetch - processPackages [SwarmManagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwarmManagement-1.1.8-py2.py3-none-any.whl.zip tmp/SwarmManagement-1.1.9-py2.py3-none-any.whl.zip --markdown 20240424/S/SwarmManagement/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-24 14:05:57] INFO root fetch - processPackages [dexus-vault]: executing diffoscope
+[2024-04-24 14:05:57] INFO root fetch - processPackages [dexus-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexus_vault-0.2.2.tar.gz tmp/dexus_vault-0.3.0.tar.gz --markdown 20240424/d/dexus-vault/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-24 14:05:57] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.601.24115.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.602.24115.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
+[2024-04-24 14:05:57] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-04-24 14:05:57] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.7.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
+[2024-04-24 14:05:57] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-04-24 14:05:57] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240424/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-04-24 14:05:57] INFO root fetch - processPackages [python-binexport]: Remove: archive file [/home/abi/fetcher/tmp/python-binexport-0.3.1.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - processPackages [python-binexport]: Remove: archive file [/home/abi/fetcher/tmp/python_binexport-0.3.2.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - main [MainThread]: End processing [python-binexport]: success
+[2024-04-24 14:05:57] INFO root fetch - processPackages [SwarmManagement]: Remove: archive file [/home/abi/fetcher/tmp/SwarmManagement-1.1.8-py2.py3-none-any.whl.zip]
+[2024-04-24 14:05:57] INFO root fetch - processPackages [SwarmManagement]: Remove: archive file [/home/abi/fetcher/tmp/SwarmManagement-1.1.9-py2.py3-none-any.whl.zip]
+[2024-04-24 14:05:57] INFO root fetch - main [MainThread]: End processing [SwarmManagement]: success
+[2024-04-24 14:05:57] INFO root fetch - processPackages [dexus-vault]: Remove: archive file [/home/abi/fetcher/tmp/dexus_vault-0.2.2.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - processPackages [dexus-vault]: Remove: archive file [/home/abi/fetcher/tmp/dexus_vault-0.3.0.tar.gz]
+[2024-04-24 14:05:57] INFO root fetch - main [MainThread]: End processing [dexus-vault]: success
+[2024-04-24 14:05:58] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-04-24 14:05:58] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-04-24 14:05:58] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-04-24 14:05:58] INFO root fetch - main [MainThread]: Store serial: [22911733]
