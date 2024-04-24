@@ -11342,3 +11342,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:46:37] INFO root fetch - processPackages [azure-mgmt-devcenter]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-devcenter-1.1.0b1.tar.gz]
 [2024-04-24 07:46:37] INFO root fetch - main [MainThread]: End processing [azure-mgmt-devcenter]: success
 [2024-04-24 07:46:37] INFO root fetch - main [MainThread]: Store serial: [22907301]
+[2024-04-24 07:48:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907301]
+[2024-04-24 07:48:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-img-optimizer
+[2024-04-24 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-04-24 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPtt
+[2024-04-24 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-parrot-ocrlib
+[2024-04-24 07:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqqq-cli
+[2024-04-24 07:48:47] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-24 07:48:47] INFO root fetch - processPackages [PyPtt]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-24 07:48:47] INFO root fetch - processPackages [django-img-optimizer]: New version: [1.2] Old Version: [1.1]
+[2024-04-24 07:48:47] INFO root fetch - processPackages [robotframework-parrot-ocrlib]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-24 07:48:47] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/73/f6/ed98db080991833aea23b06a4f2495fc48bbdcae27575fd084c7a9fd1110/pyptt-1.2.8.tar.gz
+[2024-04-24 07:48:47] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-24 07:48:47] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/58/3c/82c565f4d039f7219da396f2117440d91b784435131c7f6a03d74afa4b7e/pyqqq_cli-0.2.6.tar.gz
+[2024-04-24 07:48:47] INFO root fetch - processPackages [django-img-optimizer]: Downloading https://files.pythonhosted.org/packages/7d/07/d83769b6a9c2f633caac778a60e5ab7856126efd8dfebc6b222275814270/django_img_optimizer-1.1.tar.gz
+[2024-04-24 07:48:47] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-24 07:48:47] INFO root fetch - processPackages [robotframework-parrot-ocrlib]: Downloading https://files.pythonhosted.org/packages/80/a6/abc5d622d88f02372973361b5c75d6ef1a18ee9784dabfd3c28f99d6e291/robotframework_parrot_ocrlib-1.0.2.tar.gz
+[2024-04-24 07:48:48] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/08/ec/f00fc0e50a99f3830240518fdaabf0227a13fa860ccd6c7bed5091ace893/pyptt-1.2.9.tar.gz
+[2024-04-24 07:48:48] INFO root fetch - processPackages [PyPtt]: executing diffoscope
+[2024-04-24 07:48:48] INFO root fetch - processPackages [PyPtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyptt-1.2.8.tar.gz tmp/pyptt-1.2.9.tar.gz --markdown 20240424/P/PyPtt/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-24 07:48:48] INFO root fetch - processPackages [django-img-optimizer]: Downloading https://files.pythonhosted.org/packages/d4/0a/b508d6d49471b7bcaf32e5acba6c499b9faad430a0f40429577e83919288/django_img_optimizer-1.2.tar.gz
+[2024-04-24 07:48:48] INFO root fetch - processPackages [robotframework-parrot-ocrlib]: Downloading https://files.pythonhosted.org/packages/79/3a/01bdff63ce5eef0d4fc5ed6cc7e472c0343e8f3b58c6ce4f4d566871e9a4/robotframework_parrot_ocrlib-1.0.3.tar.gz
+[2024-04-24 07:48:48] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/78/c0/7a9f59aac4cd2dab4d5ab5c76d43ab2a2e13d6381c93926362bf3b4fa9d6/pyqqq_cli-0.2.7.tar.gz
+[2024-04-24 07:48:48] INFO root fetch - processPackages [django-img-optimizer]: executing diffoscope
+[2024-04-24 07:48:48] INFO root fetch - processPackages [django-img-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_img_optimizer-1.1.tar.gz tmp/django_img_optimizer-1.2.tar.gz --markdown 20240424/d/django-img-optimizer/1.1-1.2/README.md --exclude *.pyd
+[2024-04-24 07:48:48] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-24 07:48:48] INFO root fetch - processPackages [robotframework-parrot-ocrlib]: executing diffoscope
+[2024-04-24 07:48:48] INFO root fetch - processPackages [robotframework-parrot-ocrlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_parrot_ocrlib-1.0.2.tar.gz tmp/robotframework_parrot_ocrlib-1.0.3.tar.gz --markdown 20240424/r/robotframework-parrot-ocrlib/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-24 07:48:48] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-04-24 07:48:48] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.2.6.tar.gz tmp/pyqqq_cli-0.2.7.tar.gz --markdown 20240424/p/pyqqq-cli/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-24 07:48:48] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-24 07:48:48] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240424/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-24 07:48:49] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/pyptt-1.2.8.tar.gz]
+[2024-04-24 07:48:49] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/pyptt-1.2.9.tar.gz]
+[2024-04-24 07:48:49] INFO root fetch - main [MainThread]: End processing [PyPtt]: success
+[2024-04-24 07:48:49] INFO root fetch - processPackages [django-img-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/django_img_optimizer-1.1.tar.gz]
+[2024-04-24 07:48:49] INFO root fetch - processPackages [django-img-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/django_img_optimizer-1.2.tar.gz]
+[2024-04-24 07:48:49] INFO root fetch - main [MainThread]: End processing [django-img-optimizer]: success
+[2024-04-24 07:48:49] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.6.tar.gz]
+[2024-04-24 07:48:49] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.7.tar.gz]
+[2024-04-24 07:48:49] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-04-24 07:48:49] INFO root fetch - processPackages [robotframework-parrot-ocrlib]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_ocrlib-1.0.2.tar.gz]
+[2024-04-24 07:48:49] INFO root fetch - processPackages [robotframework-parrot-ocrlib]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_ocrlib-1.0.3.tar.gz]
+[2024-04-24 07:48:49] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-ocrlib]: success
+[2024-04-24 07:48:50] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-24 07:48:50] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-24 07:48:50] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-24 07:48:50] INFO root fetch - main [MainThread]: Store serial: [22907316]
