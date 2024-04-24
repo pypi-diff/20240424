@@ -22619,3 +22619,68 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:33:02] INFO root fetch - processPackages [sd_tools]: Remove: archive file [/home/abi/fetcher/tmp/sd_tools-1.4.0.tar.gz]
 [2024-04-24 14:33:02] INFO root fetch - main [MainThread]: End processing [sd_tools]: success
 [2024-04-24 14:33:02] INFO root fetch - main [MainThread]: Store serial: [22912078]
+[2024-04-24 14:35:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912078]
+[2024-04-24 14:35:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 14:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kojo
+[2024-04-24 14:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinaraX
+[2024-04-24 14:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kedro-telemetry
+[2024-04-24 14:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RabbitMQPubSub
+[2024-04-24 14:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-energiepartagee
+[2024-04-24 14:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MoonshotAI-Api
+[2024-04-24 14:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyPyNum
+[2024-04-24 14:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightningtoolkit
+[2024-04-24 14:35:27] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-04-24 14:35:27] INFO root fetch - processPackages [kojo]: New version: [0.22.0] Old Version: [0.21.0]
+[2024-04-24 14:35:27] INFO root fetch - processPackages [lightningtoolkit]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 14:35:27] INFO root fetch - processPackages [RabbitMQPubSub]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-24 14:35:27] INFO root fetch - processPackages [PyPyNum]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-04-24 14:35:27] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/18/73/6e88872a574360eff5a069b687750a8e9e06fe21f0f20707e012b77289ca/djangoldp_energiepartagee-2.0.4.tar.gz
+[2024-04-24 14:35:27] INFO root fetch - processPackages [sinaraX]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-24 14:35:27] WARNING root fetch - processPackages [MoonshotAI-Api]: Skipping, unable to determine old version
+[2024-04-24 14:35:27] INFO root fetch - main [MainThread]: End processing [MoonshotAI-Api] error
+[2024-04-24 14:35:27] INFO root fetch - processPackages [kedro-telemetry]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-24 14:35:27] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/35/be/aad85e7680ac5ccd3f50178692b15cbe5f81b40509430b9822698579a7ce/kojo-0.21.0.tar.gz
+[2024-04-24 14:35:27] INFO root fetch - processPackages [lightningtoolkit]: Downloading https://files.pythonhosted.org/packages/d4/90/6006ee827ba80da4e802a701627696944b4f8d406f8081d9e64335b0162c/lightningtoolkit-1.0.0-py3-none-any.whl
+[2024-04-24 14:35:27] INFO root fetch - processPackages [RabbitMQPubSub]: Downloading https://files.pythonhosted.org/packages/e4/0f/69d921e8e4478318e3f0dad8235e9ad9de5355456d1125415ec99fd25a0b/rabbitmqpubsub-1.0.0.tar.gz
+[2024-04-24 14:35:27] INFO root fetch - processPackages [kedro-telemetry]: Downloading https://files.pythonhosted.org/packages/30/f2/9af76f8369537b7d6ef4b6990d38b5eba32cea8af1658616ce6e7885cd4a/kedro-telemetry-0.3.2.tar.gz
+[2024-04-24 14:35:27] INFO root fetch - processPackages [PyPyNum]: Downloading https://files.pythonhosted.org/packages/ad/6c/61e85bfb8af39855151f458d632f029b92d20633ec6adb1da8dbbe273e99/PyPyNum-1.8.0.tar.gz
+[2024-04-24 14:35:27] INFO root fetch - processPackages [sinaraX]: Downloading https://files.pythonhosted.org/packages/97/57/8f3b68e95b3fbfffc2fae53037cef238b15065b683252f6957dcd5e2fa31/sinarax-1.1.5.tar.gz
+[2024-04-24 14:35:27] INFO root fetch - processPackages [lightningtoolkit]: Downloading https://files.pythonhosted.org/packages/c9/48/27f3dbcf9185e3363c938d83e8d033d0bafd4b870aaa7e15eda0306bc928/lightningtoolkit-1.0.1.tar.gz
+[2024-04-24 14:35:27] ERROR root fetch - processPackages [kojo]: Unable to fetch info: No such project/version 'kojo' 0.22.0
+[2024-04-24 14:35:27] INFO root fetch - main [MainThread]: End processing [kojo] error
+[2024-04-24 14:35:27] INFO root fetch - processPackages [RabbitMQPubSub]: Downloading https://files.pythonhosted.org/packages/c9/0c/281de0ee183101308046ae8cff03cebb18d4c36246d6143976b8c6120a9d/rabbitmqpubsub-1.1.0.tar.gz
+[2024-04-24 14:35:28] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/e2/93/8c0f293ca848da19280ae2e637e95e843ca8e118743fe291911e179b9c8c/djangoldp_energiepartagee-2.0.5.tar.gz
+[2024-04-24 14:35:28] INFO root fetch - processPackages [lightningtoolkit]: executing diffoscope
+[2024-04-24 14:35:28] INFO root fetch - processPackages [lightningtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningtoolkit-1.0.0-py3-none-any.whl.zip tmp/lightningtoolkit-1.0.1.tar.gz --markdown 20240424/l/lightningtoolkit/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 14:35:28] INFO root fetch - processPackages [RabbitMQPubSub]: executing diffoscope
+[2024-04-24 14:35:28] INFO root fetch - processPackages [RabbitMQPubSub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbitmqpubsub-1.0.0.tar.gz tmp/rabbitmqpubsub-1.1.0.tar.gz --markdown 20240424/R/RabbitMQPubSub/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-24 14:35:28] INFO root fetch - processPackages [sinaraX]: Downloading https://files.pythonhosted.org/packages/e4/fe/99b1483edbf62245aa9331b5b736eeff27d07acaac8825a8091c31ef84db/sinarax-1.1.6.tar.gz
+[2024-04-24 14:35:28] INFO root fetch - processPackages [kedro-telemetry]: Downloading https://files.pythonhosted.org/packages/a1/0c/7720145e4001fdf66e4b4de588a98b7d953513e5d237c84d3c03f284a113/kedro_telemetry-0.4.0.tar.gz
+[2024-04-24 14:35:28] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-04-24 14:35:28] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.4.tar.gz tmp/djangoldp_energiepartagee-2.0.5.tar.gz --markdown 20240424/d/djangoldp-energiepartagee/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-04-24 14:35:28] INFO root fetch - processPackages [PyPyNum]: Downloading https://files.pythonhosted.org/packages/d1/8d/07917cd18fc34eae8f23ac120059cefafeafb7fc67c14adf00fb803084eb/PyPyNum-1.8.1.tar.gz
+[2024-04-24 14:35:28] INFO root fetch - processPackages [sinaraX]: executing diffoscope
+[2024-04-24 14:35:28] INFO root fetch - processPackages [sinaraX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinarax-1.1.5.tar.gz tmp/sinarax-1.1.6.tar.gz --markdown 20240424/s/sinaraX/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-24 14:35:28] INFO root fetch - processPackages [kedro-telemetry]: executing diffoscope
+[2024-04-24 14:35:28] INFO root fetch - processPackages [kedro-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-telemetry-0.3.2.tar.gz tmp/kedro_telemetry-0.4.0.tar.gz --markdown 20240424/k/kedro-telemetry/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-24 14:35:28] INFO root fetch - processPackages [PyPyNum]: executing diffoscope
+[2024-04-24 14:35:28] INFO root fetch - processPackages [PyPyNum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPyNum-1.8.0.tar.gz tmp/PyPyNum-1.8.1.tar.gz --markdown 20240424/P/PyPyNum/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-04-24 14:35:28] INFO root fetch - processPackages [lightningtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/lightningtoolkit-1.0.0-py3-none-any.whl.zip]
+[2024-04-24 14:35:28] INFO root fetch - processPackages [lightningtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/lightningtoolkit-1.0.1.tar.gz]
+[2024-04-24 14:35:28] INFO root fetch - main [MainThread]: End processing [lightningtoolkit]: success
+[2024-04-24 14:35:28] INFO root fetch - processPackages [RabbitMQPubSub]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmqpubsub-1.0.0.tar.gz]
+[2024-04-24 14:35:28] INFO root fetch - processPackages [RabbitMQPubSub]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmqpubsub-1.1.0.tar.gz]
+[2024-04-24 14:35:28] INFO root fetch - main [MainThread]: End processing [RabbitMQPubSub]: success
+[2024-04-24 14:35:29] INFO root fetch - processPackages [kedro-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/kedro-telemetry-0.3.2.tar.gz]
+[2024-04-24 14:35:29] INFO root fetch - processPackages [kedro-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/kedro_telemetry-0.4.0.tar.gz]
+[2024-04-24 14:35:29] INFO root fetch - main [MainThread]: End processing [kedro-telemetry]: success
+[2024-04-24 14:35:29] INFO root fetch - processPackages [sinaraX]: Remove: archive file [/home/abi/fetcher/tmp/sinarax-1.1.5.tar.gz]
+[2024-04-24 14:35:29] INFO root fetch - processPackages [sinaraX]: Remove: archive file [/home/abi/fetcher/tmp/sinarax-1.1.6.tar.gz]
+[2024-04-24 14:35:29] INFO root fetch - main [MainThread]: End processing [sinaraX]: success
+[2024-04-24 14:35:29] INFO root fetch - processPackages [PyPyNum]: Remove: archive file [/home/abi/fetcher/tmp/PyPyNum-1.8.0.tar.gz]
+[2024-04-24 14:35:29] INFO root fetch - processPackages [PyPyNum]: Remove: archive file [/home/abi/fetcher/tmp/PyPyNum-1.8.1.tar.gz]
+[2024-04-24 14:35:29] INFO root fetch - main [MainThread]: End processing [PyPyNum]: success
+[2024-04-24 14:35:29] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.4.tar.gz]
+[2024-04-24 14:35:29] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.5.tar.gz]
+[2024-04-24 14:35:29] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-04-24 14:35:29] INFO root fetch - main [MainThread]: Store serial: [22912103]
