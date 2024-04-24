@@ -16564,3 +16564,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:13:29] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-24 11:13:29] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
 [2024-04-24 11:13:29] INFO root fetch - main [MainThread]: Store serial: [22909615]
+[2024-04-24 11:15:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909615]
+[2024-04-24 11:15:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazyad
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitblas
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-sql
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: techgram
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asmu
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finpy-tse
+[2024-04-24 11:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: redbrick-sdk
+[2024-04-24 11:15:37] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-24 11:15:38] INFO root fetch - processPackages [techgram]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [bitblas]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [mo-sql]: New version: [4.601.24115] Old Version: [4.600.24114]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [asmu]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [cg]: New version: [60.2.9] Old Version: [60.2.8]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [finpy-tse]: New version: [1.2.9] Old Version: [1.2.6]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [finpy-tse]: Downloading https://files.pythonhosted.org/packages/1f/32/ddf93c0ee95dfa091612ffe29280655c80bb96eb88b1f32d1e815053ad34/finpy_tse-1.2.6.tar.gz
+[2024-04-24 11:15:38] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-24 11:15:38] WARNING root fetch - processPackages [bitblas]: fallback to get urls: [0.0.1.dev1]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/bb/c5/904f0c0d6410d3bee0050e1854c3c39c112dd8fada4b390607c6ade591e2/techgram-1.0.1.tar.gz
+[2024-04-24 11:15:38] WARNING root fetch - processPackages [bitblas]: None
+[2024-04-24 11:15:38] INFO root fetch - processPackages [asmu]: Downloading https://files.pythonhosted.org/packages/b4/25/2ad72d1acdcfa4c35f3d8b784abb8521f0d7d22f8399aab488f89f676f6c/asmu-0.0.1a5.tar.gz
+[2024-04-24 11:15:38] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-24 11:15:38] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240424/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 11:15:38] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/dd/49/ac51a477f27ab9495f9e9c5feb3ab9a6c7214546687895725a3dc4d9f147/cg-60.2.8-py3-none-any.whl
+[2024-04-24 11:15:38] WARNING root fetch - processPackages [bitblas]: None
+[2024-04-24 11:15:38] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/65/d5/6427504859b3df0f311a3e6a62501aaeb95e730fc0561fb2dc0e0313878a/mo_sql-4.600.24114.tar.gz
+[2024-04-24 11:15:38] WARNING root fetch - processPackages [bitblas]: unable to get url for both version [0.0.1.dev1]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/39/80/dc7084102f17b9bfc0989d45c43808a79888bb2b1ede233fc3c06f239087/redbrick-sdk-2.9.0.tar.gz
+[2024-04-24 11:15:38] WARNING root fetch - processPackages [bitblas]: None
+[2024-04-24 11:15:38] INFO root fetch - main [MainThread]: End processing [bitblas] error
+[2024-04-24 11:15:38] INFO root fetch - processPackages [finpy-tse]: Downloading https://files.pythonhosted.org/packages/a9/0a/7364ebcf501b0829f2f258e95313cccc4d24f96c3016cb917786bfa8b596/finpy_tse-1.2.9.tar.gz
+[2024-04-24 11:15:38] INFO root fetch - processPackages [finpy-tse]: executing diffoscope
+[2024-04-24 11:15:38] INFO root fetch - processPackages [finpy-tse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finpy_tse-1.2.6.tar.gz tmp/finpy_tse-1.2.9.tar.gz --markdown 20240424/f/finpy-tse/1.2.6-1.2.9/README.md --exclude *.pyd
+[2024-04-24 11:15:38] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/c8/8e/2a9e3f45c0ae43fceeba0c940e55db6193db79a4cf7412a7861ef82aa8fc/techgram-1.0.2.tar.gz
+[2024-04-24 11:15:38] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/b7/b1/a66349ce3100715df85bca4bd600076e941fd3f00d85804075a28f329ab1/mo_sql-4.601.24115.tar.gz
+[2024-04-24 11:15:38] INFO root fetch - processPackages [asmu]: Downloading https://files.pythonhosted.org/packages/b3/68/f4fd16c75b89ebcbdee2937d74ceb26236fe3d9ea6f099693d3cb9008387/asmu-0.0.1a6.tar.gz
+[2024-04-24 11:15:38] INFO root fetch - processPackages [mo-sql]: executing diffoscope
+[2024-04-24 11:15:38] INFO root fetch - processPackages [mo-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql-4.600.24114.tar.gz tmp/mo_sql-4.601.24115.tar.gz --markdown 20240424/m/mo-sql/4.600.24114-4.601.24115/README.md --exclude *.pyd
+[2024-04-24 11:15:38] INFO root fetch - processPackages [techgram]: executing diffoscope
+[2024-04-24 11:15:38] INFO root fetch - processPackages [techgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techgram-1.0.1.tar.gz tmp/techgram-1.0.2.tar.gz --markdown 20240424/t/techgram/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-24 11:15:38] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-24 11:15:38] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-24 11:15:38] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-24 11:15:38] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/a7/76/019f7262b8485c21cf169b7845636395b17c40312c8ef76d03c3492c4218/redbrick-sdk-2.9.1.tar.gz
+[2024-04-24 11:15:39] INFO root fetch - processPackages [asmu]: executing diffoscope
+[2024-04-24 11:15:39] INFO root fetch - processPackages [asmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asmu-0.0.1a5.tar.gz tmp/asmu-0.0.1a6.tar.gz --markdown 20240424/a/asmu/0.0.1a5-0.0.1a6/README.md --exclude *.pyd
+[2024-04-24 11:15:39] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0f/0d/e3839924847f808deb84f1a764c2aba70c0f1a0932a03e98a5f08b02d908/cg-60.2.9-py3-none-any.whl
+[2024-04-24 11:15:39] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2024-04-24 11:15:39] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20240424/r/redbrick-sdk/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-24 11:15:39] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-24 11:15:39] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.2.8-py3-none-any.whl.zip tmp/cg-60.2.9-py3-none-any.whl.zip --markdown 20240424/c/cg/60.2.8-60.2.9/README.md --exclude *.pyd
+[2024-04-24 11:15:39] INFO root fetch - processPackages [finpy-tse]: Remove: archive file [/home/abi/fetcher/tmp/finpy_tse-1.2.6.tar.gz]
+[2024-04-24 11:15:39] INFO root fetch - processPackages [finpy-tse]: Remove: archive file [/home/abi/fetcher/tmp/finpy_tse-1.2.9.tar.gz]
+[2024-04-24 11:15:39] INFO root fetch - main [MainThread]: End processing [finpy-tse]: success
+[2024-04-24 11:15:39] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.600.24114.tar.gz]
+[2024-04-24 11:15:39] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.601.24115.tar.gz]
+[2024-04-24 11:15:39] INFO root fetch - main [MainThread]: End processing [mo-sql]: success
+[2024-04-24 11:15:39] INFO root fetch - processPackages [asmu]: Remove: archive file [/home/abi/fetcher/tmp/asmu-0.0.1a5.tar.gz]
+[2024-04-24 11:15:39] INFO root fetch - processPackages [asmu]: Remove: archive file [/home/abi/fetcher/tmp/asmu-0.0.1a6.tar.gz]
+[2024-04-24 11:15:39] INFO root fetch - main [MainThread]: End processing [asmu]: success
+[2024-04-24 11:15:39] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.0.tar.gz]
+[2024-04-24 11:15:39] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
+[2024-04-24 11:15:39] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240424/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-24 11:15:40] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240424/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-24 11:15:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-24 11:15:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-24 11:15:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-24 11:15:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-24 11:15:43] INFO root fetch - processPackages [techgram]: Remove: archive file [/home/abi/fetcher/tmp/techgram-1.0.1.tar.gz]
+[2024-04-24 11:15:43] INFO root fetch - processPackages [techgram]: Remove: archive file [/home/abi/fetcher/tmp/techgram-1.0.2.tar.gz]
+[2024-04-24 11:15:43] INFO root fetch - main [MainThread]: End processing [techgram]: success
+[2024-04-24 11:15:43] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.8-py3-none-any.whl.zip]
+[2024-04-24 11:15:43] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.9-py3-none-any.whl.zip]
+[2024-04-24 11:15:43] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-24 11:15:43] INFO root fetch - main [MainThread]: Store serial: [22909643]
