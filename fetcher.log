@@ -10142,3 +10142,45 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:37:57] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b8.tar.gz]
 [2024-04-24 06:37:57] INFO root fetch - main [MainThread]: End processing [cloudflare]: success
 [2024-04-24 06:37:57] INFO root fetch - main [MainThread]: Store serial: [22906813]
+[2024-04-24 06:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906813]
+[2024-04-24 06:40:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 06:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: healthcare_puller
+[2024-04-24 06:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vuer
+[2024-04-24 06:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-mod303
+[2024-04-24 06:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fetch-sitemap
+[2024-04-24 06:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypipr
+[2024-04-24 06:40:07] WARNING root fetch - processPackages [healthcare_puller]: Skipping, unable to determine old version
+[2024-04-24 06:40:07] INFO root fetch - main [MainThread]: End processing [healthcare_puller] error
+[2024-04-24 06:40:07] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 06:40:07] INFO root fetch - processPackages [pypipr]: New version: [1.0.90] Old Version: [1.0.9]
+[2024-04-24 06:40:07] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-24 06:40:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: New version: [17.0.1.2.0.2] Old Version: [17.0.1.2.0.1]
+[2024-04-24 06:40:07] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-04-24 06:40:07] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-24 06:40:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/8a/25/5cfb22a985132c5dc73806aa6363acbf6100806ac098c745c7e8b8861d47/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.1-py3-none-any.whl
+[2024-04-24 06:40:07] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-04-24 06:40:07] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-24 06:40:07] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-04-24 06:40:07] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240424/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 06:40:07] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ca/87/64f0a2a68198383aaf2be9cc1ebca9f70d79ff91c851ea5eae98ebde6f78/pypipr-1.0.90.tar.gz
+[2024-04-24 06:40:07] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-24 06:40:07] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-24 06:40:07] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.9.tar.gz tmp/pypipr-1.0.90.tar.gz --markdown 20240424/p/pypipr/1.0.9-1.0.90/README.md --exclude *.pyd
+[2024-04-24 06:40:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/72/ff/58a00a8b57238a8be919ec1ad787cb92db78da1bfdf917c6fa7c2f1ab07c/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.2-py3-none-any.whl
+[2024-04-24 06:40:07] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-24 06:40:07] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240424/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-24 06:40:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: executing diffoscope
+[2024-04-24 06:40:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-l10n-es-aeat-mod303/17.0.1.2.0.1-17.0.1.2.0.2/README.md --exclude *.pyd
+[2024-04-24 06:40:08] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-04-24 06:40:08] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-04-24 06:40:08] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-04-24 06:40:08] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-24 06:40:08] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.90.tar.gz]
+[2024-04-24 06:40:08] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-24 06:40:08] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-24 06:40:08] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-24 06:40:08] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-24 06:40:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-24 06:40:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303-17.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-04-24 06:40:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303]: success
+[2024-04-24 06:40:08] INFO root fetch - main [MainThread]: Store serial: [22906826]
