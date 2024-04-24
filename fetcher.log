@@ -13999,3 +13999,78 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 09:44:09] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
 [2024-04-24 09:44:09] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-04-24 09:44:09] INFO root fetch - main [MainThread]: Store serial: [22908607]
+[2024-04-24 09:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908607]
+[2024-04-24 09:46:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waylay-sdk-registry-types
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waylay-sdk-registry
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightning-attn
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai21
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PetsisDevUtils
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: everai
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: expressmoney
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazyad
+[2024-04-24 09:46:20] INFO root fetch - processPackages [waylay-sdk-registry]: New version: [2.13.0rc0] Old Version: [2.13.0b20240415]
+[2024-04-24 09:46:20] INFO root fetch - processPackages [waylay-sdk-registry-types]: New version: [2.13.0rc0] Old Version: [2.13.0b20240415]
+[2024-04-24 09:46:20] INFO root fetch - processPackages [PetsisDevUtils]: New version: [0.3] Old Version: [0.2]
+[2024-04-24 09:46:20] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 09:46:20] INFO root fetch - processPackages [everai]: New version: [0.1.32] Old Version: [0.1.31]
+[2024-04-24 09:46:20] INFO root fetch - processPackages [expressmoney]: New version: [9.9.1] Old Version: [9.9.0]
+[2024-04-24 09:46:20] INFO root fetch - processPackages [waylay-sdk-registry]: Downloading https://files.pythonhosted.org/packages/62/5c/b9e702c8c4ea11aaec9aa725f56e18c3f846c10f4cea1da3b032fb537d9c/waylay_sdk_registry-2.13.0b20240415.tar.gz
+[2024-04-24 09:46:20] INFO root fetch - processPackages [lightning-attn]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ai21]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-24 09:46:20] INFO root fetch - processPackages [PetsisDevUtils]: Downloading https://files.pythonhosted.org/packages/ce/d0/7c42f57d11bc860dccb92d5bc8952a9bf351dc8c32b48865b903f5121f09/PetsisDevUtils-0.2.tar.gz
+[2024-04-24 09:46:20] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/a8/3a/7e8df2c62f61f23b4e735c8d1b3ae60b1549a02207fe9302b724bdd6a470/waylay_sdk_registry_types-2.13.0b20240415.tar.gz
+[2024-04-24 09:46:20] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-24 09:46:20] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/6b/dc/9b21d8c096138dde4909ac6a3ee735d2534622b286a9cbc4b75dc36fcc47/everai-0.1.31-py3-none-any.whl
+[2024-04-24 09:46:20] INFO root fetch - processPackages [expressmoney]: Downloading https://files.pythonhosted.org/packages/66/33/8e08f8dddb0b22a27da61c435f93c7d8f5ea098532ef8a9e21aba17fd4e9/expressmoney-9.9.0.tar.gz
+[2024-04-24 09:46:20] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/62/3e/c6decd41e58ac6120827a7bb59c82e8fb12eba6497ca6f500e2a02f0fefd/ai21-2.2.1.tar.gz
+[2024-04-24 09:46:20] INFO root fetch - processPackages [lightning-attn]: Downloading https://files.pythonhosted.org/packages/10/44/e648f2b982abe45154fe244f9ce5ec4749ea15a5cfee5b65e2aea103e10d/lightning_attn-0.0.4.tar.gz
+[2024-04-24 09:46:20] INFO root fetch - processPackages [waylay-sdk-registry]: Downloading https://files.pythonhosted.org/packages/a4/6b/65a7c73cb0f5fa23b1f3df3bff39199688ed0345df034b7e0cbcff8c76d5/waylay-sdk-registry-2.13.0rc0.tar.gz
+[2024-04-24 09:46:21] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/8c/06/b1a4d3c4d75d8af05bcf634494d8eebbf4a58f581cb10b21b21d9e4ded76/waylay-sdk-registry-types-2.13.0rc0.tar.gz
+[2024-04-24 09:46:21] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-24 09:46:21] INFO root fetch - processPackages [PetsisDevUtils]: Downloading https://files.pythonhosted.org/packages/3b/8e/2679ccb336e115118aae6b476f037f8c4b58712c7ac3ec4e45cc7b03b325/PetsisDevUtils-0.3.tar.gz
+[2024-04-24 09:46:21] INFO root fetch - processPackages [expressmoney]: Downloading https://files.pythonhosted.org/packages/68/85/baf2ff28a5cd675870802f90fab795c8d2bf16c7e6137edf5b738fc98d54/expressmoney-9.9.1.tar.gz
+[2024-04-24 09:46:21] INFO root fetch - processPackages [waylay-sdk-registry]: executing diffoscope
+[2024-04-24 09:46:21] INFO root fetch - processPackages [waylay-sdk-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_registry-2.13.0b20240415.tar.gz tmp/waylay-sdk-registry-2.13.0rc0.tar.gz --markdown 20240424/w/waylay-sdk-registry/2.13.0b20240415-2.13.0rc0/README.md --exclude *.pyd
+[2024-04-24 09:46:21] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/62/09/1b5445fc16b8289c994fa91531eddbbaf7170b21c9015839cae2b66018be/everai-0.1.32-py3-none-any.whl
+[2024-04-24 09:46:21] INFO root fetch - processPackages [waylay-sdk-registry-types]: executing diffoscope
+[2024-04-24 09:46:21] INFO root fetch - processPackages [waylay-sdk-registry-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_registry_types-2.13.0b20240415.tar.gz tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz --markdown 20240424/w/waylay-sdk-registry-types/2.13.0b20240415-2.13.0rc0/README.md --exclude *.pyd
+[2024-04-24 09:46:21] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-24 09:46:21] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240424/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:46:21] INFO root fetch - processPackages [PetsisDevUtils]: executing diffoscope
+[2024-04-24 09:46:21] INFO root fetch - processPackages [PetsisDevUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PetsisDevUtils-0.2.tar.gz tmp/PetsisDevUtils-0.3.tar.gz --markdown 20240424/P/PetsisDevUtils/0.2-0.3/README.md --exclude *.pyd
+[2024-04-24 09:46:21] INFO root fetch - processPackages [expressmoney]: executing diffoscope
+[2024-04-24 09:46:21] INFO root fetch - processPackages [expressmoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expressmoney-9.9.0.tar.gz tmp/expressmoney-9.9.1.tar.gz --markdown 20240424/e/expressmoney/9.9.0-9.9.1/README.md --exclude *.pyd
+[2024-04-24 09:46:21] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/5f/16/12f2ae3eb4a60acf727cede322f92d7058db2297e6ca975dcc1c9cb810e1/ai21-2.2.2.tar.gz
+[2024-04-24 09:46:21] INFO root fetch - processPackages [lightning-attn]: Downloading https://files.pythonhosted.org/packages/99/2a/763b2599adfa85d6a76f79a83756ebe7fd417c3881de2c426972ceaa9cb0/lightning_attn-0.0.5.tar.gz
+[2024-04-24 09:46:21] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-24 09:46:21] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.31-py3-none-any.whl.zip tmp/everai-0.1.32-py3-none-any.whl.zip --markdown 20240424/e/everai/0.1.31-0.1.32/README.md --exclude *.pyd
+[2024-04-24 09:46:21] INFO root fetch - processPackages [ai21]: executing diffoscope
+[2024-04-24 09:46:21] INFO root fetch - processPackages [ai21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai21-2.2.1.tar.gz tmp/ai21-2.2.2.tar.gz --markdown 20240424/a/ai21/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-04-24 09:46:21] INFO root fetch - processPackages [lightning-attn]: executing diffoscope
+[2024-04-24 09:46:21] INFO root fetch - processPackages [lightning-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_attn-0.0.4.tar.gz tmp/lightning_attn-0.0.5.tar.gz --markdown 20240424/l/lightning-attn/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-24 09:46:22] INFO root fetch - processPackages [PetsisDevUtils]: Remove: archive file [/home/abi/fetcher/tmp/PetsisDevUtils-0.2.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - processPackages [PetsisDevUtils]: Remove: archive file [/home/abi/fetcher/tmp/PetsisDevUtils-0.3.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - main [MainThread]: End processing [PetsisDevUtils]: success
+[2024-04-24 09:46:22] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-24 09:46:22] INFO root fetch - processPackages [expressmoney]: Remove: archive file [/home/abi/fetcher/tmp/expressmoney-9.9.0.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - processPackages [expressmoney]: Remove: archive file [/home/abi/fetcher/tmp/expressmoney-9.9.1.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - main [MainThread]: End processing [expressmoney]: success
+[2024-04-24 09:46:22] INFO root fetch - processPackages [waylay-sdk-registry]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_registry-2.13.0b20240415.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - processPackages [waylay-sdk-registry]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-2.13.0rc0.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry]: success
+[2024-04-24 09:46:22] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-2.2.1.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-2.2.2.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - main [MainThread]: End processing [ai21]: success
+[2024-04-24 09:46:22] INFO root fetch - processPackages [lightning-attn]: Remove: archive file [/home/abi/fetcher/tmp/lightning_attn-0.0.4.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - processPackages [lightning-attn]: Remove: archive file [/home/abi/fetcher/tmp/lightning_attn-0.0.5.tar.gz]
+[2024-04-24 09:46:22] INFO root fetch - main [MainThread]: End processing [lightning-attn]: success
+[2024-04-24 09:46:23] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.31-py3-none-any.whl.zip]
+[2024-04-24 09:46:23] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.32-py3-none-any.whl.zip]
+[2024-04-24 09:46:23] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-24 09:46:23] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_registry_types-2.13.0b20240415.tar.gz]
+[2024-04-24 09:46:23] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz]
+[2024-04-24 09:46:23] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry-types]: success
+[2024-04-24 09:46:23] INFO root fetch - main [MainThread]: Store serial: [22908633]
