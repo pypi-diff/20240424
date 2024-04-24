@@ -10786,3 +10786,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:13:29] INFO root fetch - processPackages [sferriol-wamp]: Remove: archive file [/home/abi/fetcher/tmp/sferriol_wamp-0.1.1-py3-none-any.whl.zip]
 [2024-04-24 07:13:29] INFO root fetch - main [MainThread]: End processing [sferriol-wamp]: success
 [2024-04-24 07:13:29] INFO root fetch - main [MainThread]: Store serial: [22907084]
+[2024-04-24 07:15:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907084]
+[2024-04-24 07:15:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dkits
+[2024-04-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-pos-partner-second-lastname
+[2024-04-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-pos-product-expiry
+[2024-04-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xlwingsform
+[2024-04-24 07:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stoobly-agent
+[2024-04-24 07:15:38] WARNING root fetch - processPackages [dkits]: Skipping, unable to determine old version
+[2024-04-24 07:15:38] INFO root fetch - main [MainThread]: End processing [dkits] error
+[2024-04-24 07:15:38] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-24 07:15:38] WARNING root fetch - processPackages [xlwingsform]: Skipping, unable to determine old version
+[2024-04-24 07:15:38] INFO root fetch - main [MainThread]: End processing [xlwingsform] error
+[2024-04-24 07:15:38] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: New version: [17.0.1.0.0.7] Old Version: [17.0.1.0.0.5]
+[2024-04-24 07:15:38] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-24 07:15:38] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: Downloading https://files.pythonhosted.org/packages/a0/df/3843775ca8eeaf7159ec8a9d6e15d9411f4502ae6956e8077fa35219eeb4/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 07:15:38] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: Downloading https://files.pythonhosted.org/packages/de/d7/ca27fb2e41a05abb4f28b3b6121a0f957dd6ea20a31fd11c2fe3eaca829d/odoo_addon_pos_product_expiry-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 07:15:38] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2024-04-24 07:15:38] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: Downloading https://files.pythonhosted.org/packages/f2/9e/74d822138eaebd6d41bd0e11de788a956d38c05d9db1ac761de12c2fb026/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-24 07:15:39] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: Downloading https://files.pythonhosted.org/packages/10/b0/6d9fd5ca694691ee64ccf7a4823c20ba51c7a105077ac488177167ce7859/odoo_addon_pos_product_expiry-17.0.1.0.0.7-py3-none-any.whl
+[2024-04-24 07:15:39] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: executing diffoscope
+[2024-04-24 07:15:39] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-pos-partner-second-lastname/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-24 07:15:39] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: executing diffoscope
+[2024-04-24 07:15:39] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_product_expiry-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_pos_product_expiry-17.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-pos-product-expiry/17.0.1.0.0.5-17.0.1.0.0.7/README.md --exclude *.pyd
+[2024-04-24 07:15:39] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2024-04-24 07:15:39] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2024-04-24 07:15:39] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20240424/s/stoobly-agent/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-24 07:15:39] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 07:15:39] INFO root fetch - processPackages [odoo-addon-pos-partner-second-lastname]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_partner_second_lastname-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-24 07:15:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-partner-second-lastname]: success
+[2024-04-24 07:15:39] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_product_expiry-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 07:15:39] INFO root fetch - processPackages [odoo-addon-pos-product-expiry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_product_expiry-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-24 07:15:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-product-expiry]: success
+[2024-04-24 07:15:40] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2024-04-24 07:15:40] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2024-04-24 07:15:40] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2024-04-24 07:15:40] INFO root fetch - main [MainThread]: Store serial: [22907101]
