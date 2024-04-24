@@ -7790,3 +7790,45 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:16:53] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.2.tar.gz]
 [2024-04-24 04:16:53] INFO root fetch - main [MainThread]: End processing [agt-server]: success
 [2024-04-24 04:16:53] INFO root fetch - main [MainThread]: Store serial: [22905770]
+[2024-04-24 04:18:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905770]
+[2024-04-24 04:19:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 04:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: statementskeleton
+[2024-04-24 04:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-peewee
+[2024-04-24 04:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-networkx
+[2024-04-24 04:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-docker
+[2024-04-24 04:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-tensorflow
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-tensorflow]: New version: [2.16.0.20240423] Old Version: [2.15.0.20240422]
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/16/92/1bf3ee64d10ae25849d6e2f6c7740bc075ebb7146762f67a45a01a25d981/types-tensorflow-2.15.0.20240422.tar.gz
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240424] Old Version: [7.0.0.20240413]
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-peewee]: New version: [3.17.3.20240424] Old Version: [3.17.3.20240420]
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-networkx]: New version: [3.2.1.20240424] Old Version: [3.2.1.20240331]
+[2024-04-24 04:19:02] WARNING root fetch - processPackages [statementskeleton]: Skipping, unable to determine old version
+[2024-04-24 04:19:02] INFO root fetch - main [MainThread]: End processing [statementskeleton] error
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-peewee]: Downloading https://files.pythonhosted.org/packages/11/48/87ecba9db49c16afaa3b8cac33fa378220f60fa7c7e9a292270162e9e7ef/types-peewee-3.17.3.20240420.tar.gz
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-networkx]: Downloading https://files.pythonhosted.org/packages/a7/49/b25d177fe1e3bb40a48be66bb40dcd0b7c642db9ac452f511e5262ffe80e/types-networkx-3.2.1.20240331.tar.gz
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/6e/0e/7daf31e2809d194ffacc281af69108b19feae85aa2c28981a15fd590147a/types-tensorflow-2.16.0.20240423.tar.gz
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/61/b6/89aa4467005b6be12b5b0d8467f49ee86e591b2b57c0490a420818403ef7/types-docker-7.0.0.20240413.tar.gz
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-tensorflow]: executing diffoscope
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tensorflow-2.15.0.20240422.tar.gz tmp/types-tensorflow-2.16.0.20240423.tar.gz --markdown 20240424/t/types-tensorflow/2.15.0.20240422-2.16.0.20240423/README.md --exclude *.pyd
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-peewee]: Downloading https://files.pythonhosted.org/packages/f6/fa/6bbd09a5ccf9668cd1904bd8cb957afaf72ee758aec1b52b5b97d173ff28/types-peewee-3.17.3.20240424.tar.gz
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-networkx]: Downloading https://files.pythonhosted.org/packages/b8/f6/be488c3e276f1894ff318650a83916ff2d601bfc21001ec788e31f64a126/types-networkx-3.2.1.20240424.tar.gz
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-peewee]: executing diffoscope
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-peewee-3.17.3.20240420.tar.gz tmp/types-peewee-3.17.3.20240424.tar.gz --markdown 20240424/t/types-peewee/3.17.3.20240420-3.17.3.20240424/README.md --exclude *.pyd
+[2024-04-24 04:19:02] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/6a/13/01bb71aa379e9b4e4f01f27d19916a2219ae63314e523bae201ce0934ea5/types-docker-7.0.0.20240424.tar.gz
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-networkx]: executing diffoscope
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-networkx-3.2.1.20240331.tar.gz tmp/types-networkx-3.2.1.20240424.tar.gz --markdown 20240424/t/types-networkx/3.2.1.20240331-3.2.1.20240424/README.md --exclude *.pyd
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240413.tar.gz tmp/types-docker-7.0.0.20240424.tar.gz --markdown 20240424/t/types-docker/7.0.0.20240413-7.0.0.20240424/README.md --exclude *.pyd
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-peewee]: Remove: archive file [/home/abi/fetcher/tmp/types-peewee-3.17.3.20240420.tar.gz]
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-peewee]: Remove: archive file [/home/abi/fetcher/tmp/types-peewee-3.17.3.20240424.tar.gz]
+[2024-04-24 04:19:03] INFO root fetch - main [MainThread]: End processing [types-peewee]: success
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240413.tar.gz]
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240424.tar.gz]
+[2024-04-24 04:19:03] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-networkx]: Remove: archive file [/home/abi/fetcher/tmp/types-networkx-3.2.1.20240331.tar.gz]
+[2024-04-24 04:19:03] INFO root fetch - processPackages [types-networkx]: Remove: archive file [/home/abi/fetcher/tmp/types-networkx-3.2.1.20240424.tar.gz]
+[2024-04-24 04:19:03] INFO root fetch - main [MainThread]: End processing [types-networkx]: success
+[2024-04-24 04:19:04] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.15.0.20240422.tar.gz]
+[2024-04-24 04:19:04] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.16.0.20240423.tar.gz]
+[2024-04-24 04:19:04] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
+[2024-04-24 04:19:04] INFO root fetch - main [MainThread]: Store serial: [22905787]
