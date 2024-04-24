@@ -20913,3 +20913,131 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 13:33:57] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.8.tar.gz]
 [2024-04-24 13:33:57] INFO root fetch - main [MainThread]: End processing [maling]: success
 [2024-04-24 13:33:57] INFO root fetch - main [MainThread]: Store serial: [22911366]
+[2024-04-24 13:36:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911366]
+[2024-04-24 13:36:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: local-rag-llm
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecv-python-development
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-microsoft-sharepoint
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-sql
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-viking
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchserve-nightly
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-model-archiver-nightly
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xenon-fuse
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-workflow-archiver-nightly
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: server-templates
+[2024-04-24 13:36:17] INFO root fetch - processPackages [mo-sql]: New version: [4.602.24115] Old Version: [4.601.24115]
+[2024-04-24 13:36:17] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.29] Old Version: [0.0.28]
+[2024-04-24 13:36:17] INFO root fetch - processPackages [server-templates]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 13:36:17] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-24 13:36:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-24 13:36:17] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-24 13:36:18] INFO root fetch - processPackages [airbyte-source-microsoft-sharepoint]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-24 13:36:18] WARNING root fetch - processPackages [py-viking]: Skipping, unable to determine old version
+[2024-04-24 13:36:18] INFO root fetch - processPackages [py-viking]: Start processing: tgwrap
+[2024-04-24 13:36:18] INFO root fetch - main [MainThread]: End processing [py-viking] error
+[2024-04-24 13:36:18] INFO root fetch - processPackages [xenon-fuse]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-24 13:36:18] INFO root fetch - processPackages [local-rag-llm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/18/8d/5c32ddd637a0599b7a839f802a7243a55780adba3d383c90ef75166e05a8/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-24 13:36:18] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/b7/b1/a66349ce3100715df85bca4bd600076e941fd3f00d85804075a28f329ab1/mo_sql-4.601.24115.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/59/df/f5673e6af5207982271068cff01271982666f35556ff8fcf33d629e902d6/server_templates-0.2.8.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/0a/df/d6c231bf5e2dcf5222d3ea8530da15e66cde1bc2caeab234cdb96100cd04/ecv-python-development-0.0.28.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/45/5e/4f1364a73e0ee415abfe197b77d791f9294a79e4d8f7a3e886e5eec8d664/torchserve_nightly-2024.4.7-py3-none-any.whl
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/19/d4/48ed170e79102607db9758662c34c1e9a7d2cca453a976226f2d8dd11967/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-24 13:36:18] INFO root fetch - processPackages [tgwrap]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-24 13:36:18] INFO root fetch - processPackages [xenon-fuse]: Downloading https://files.pythonhosted.org/packages/13/4b/459ee5ad74ec328e13ff25b273e1a5b367dd7acab5738ebda7f0bc7dbee7/xenon_fuse-1.2.0.tar.gz
+[2024-04-24 13:36:18] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332257>=10485760
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torchserve-nightly]: Start processing: unofficial-ascend-tools
+[2024-04-24 13:36:18] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-24 13:36:18] INFO root fetch - processPackages [airbyte-source-microsoft-sharepoint]: Downloading https://files.pythonhosted.org/packages/11/d5/9127585e1605c3bbe0190bde999011666c3f6cfa861511d6f7d447fd4f19/airbyte_source_microsoft_sharepoint-0.2.2.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [local-rag-llm]: Downloading https://files.pythonhosted.org/packages/47/e5/e681fffe7011785fd7a7b6d47c68c5ed670e65e570a1209d5629101b9abf/local_rag_llm-0.0.8.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [unofficial-ascend-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 13:36:18] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/11/84/d7da14623575908f087ae536a6c380ca047ec1dbd8e633d855019a35bb7c/server_templates-0.2.9.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/46/e6/cfb9b8e2b84779c413931c88816ff46e987f3bf841f1fb714e6b662e8296/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-24 13:36:18] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/45/6b/fae0ce9d8bf01077a8b23b6e9934fba0b5ae58faba0685ce6be50970bff1/tgwrap-0.8.9.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [unofficial-ascend-tools]: Downloading https://files.pythonhosted.org/packages/ed/00/216899ce29a49bd3e7dc0f21c95a04e7d528c85f6219749bfe475656992d/unofficial_ascend_tools-0.0.1-py3-none-any.whl
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d5/55/6c71d544e2fef7c773e7b994940d2019c84fd5eaa8f6db64fa9983595110/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-24 13:36:18] INFO root fetch - processPackages [server-templates]: executing diffoscope
+[2024-04-24 13:36:18] INFO root fetch - processPackages [server-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server_templates-0.2.8.tar.gz tmp/server_templates-0.2.9.tar.gz --markdown 20240424/s/server-templates/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 13:36:18] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/ab/37/7803b30145bdcd6a2dfc2c30d2d63325ff05e5ad81a9debed925e79ce2a6/mo_sql-4.602.24115.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/10/0e/f43b3818cbd6c107dcef3db3df570bf0c75bb00630a396fd5b210b552010/ecv-python-development-0.0.29.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240424/t/torch-model-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-24 13:36:18] INFO root fetch - processPackages [xenon-fuse]: Downloading https://files.pythonhosted.org/packages/a5/4b/21e1b33f0e0e8a8325e2234a4033d9f085276068d0dabf599049233201c4/xenon_fuse-1.2.1.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-24 13:36:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240424/t/torch-workflow-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-24 13:36:18] INFO root fetch - processPackages [airbyte-source-microsoft-sharepoint]: Downloading https://files.pythonhosted.org/packages/71/b7/8cae50cd06f7eceaacfbea24207f0a03835d292d0274913281b4d2b8c7f4/airbyte_source_microsoft_sharepoint-0.2.3.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-24 13:36:18] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.28.tar.gz tmp/ecv-python-development-0.0.29.tar.gz --markdown 20240424/e/ecv-python-development/0.0.28-0.0.29/README.md --exclude *.pyd
+[2024-04-24 13:36:18] INFO root fetch - processPackages [mo-sql]: executing diffoscope
+[2024-04-24 13:36:18] INFO root fetch - processPackages [mo-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql-4.601.24115.tar.gz tmp/mo_sql-4.602.24115.tar.gz --markdown 20240424/m/mo-sql/4.601.24115-4.602.24115/README.md --exclude *.pyd
+[2024-04-24 13:36:18] INFO root fetch - processPackages [local-rag-llm]: Downloading https://files.pythonhosted.org/packages/50/eb/1c59a18537e299c44773c4b799d52b69bc745cf7d7b224e6fe5d71e2ab1c/local_rag_llm-0.0.9.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [unofficial-ascend-tools]: Downloading https://files.pythonhosted.org/packages/a8/be/c749d4e541c9482aa28fb2afddf86bf1264319cd282860056c25492cf58e/unofficial_ascend_tools-0.0.2-py3-none-any.whl
+[2024-04-24 13:36:18] INFO root fetch - processPackages [xenon-fuse]: executing diffoscope
+[2024-04-24 13:36:18] INFO root fetch - processPackages [xenon-fuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenon_fuse-1.2.0.tar.gz tmp/xenon_fuse-1.2.1.tar.gz --markdown 20240424/x/xenon-fuse/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-24 13:36:18] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/cd/76/006e6d70082f803ed2ca4f41f13b9c5f8cc06004402da90e844bb2c6e473/tgwrap-0.9.0.tar.gz
+[2024-04-24 13:36:18] INFO root fetch - processPackages [local-rag-llm]: executing diffoscope
+[2024-04-24 13:36:18] INFO root fetch - processPackages [local-rag-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_rag_llm-0.0.8.tar.gz tmp/local_rag_llm-0.0.9.tar.gz --markdown 20240424/l/local-rag-llm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:36:19] INFO root fetch - processPackages [unofficial-ascend-tools]: executing diffoscope
+[2024-04-24 13:36:19] INFO root fetch - processPackages [unofficial-ascend-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unofficial_ascend_tools-0.0.1-py3-none-any.whl.zip tmp/unofficial_ascend_tools-0.0.2-py3-none-any.whl.zip --markdown 20240424/u/unofficial-ascend-tools/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 13:36:19] INFO root fetch - processPackages [airbyte-source-microsoft-sharepoint]: executing diffoscope
+[2024-04-24 13:36:19] INFO root fetch - processPackages [airbyte-source-microsoft-sharepoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_microsoft_sharepoint-0.2.2.tar.gz tmp/airbyte_source_microsoft_sharepoint-0.2.3.tar.gz --markdown 20240424/a/airbyte-source-microsoft-sharepoint/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-24 13:36:19] INFO root fetch - processPackages [tgwrap]: executing diffoscope
+[2024-04-24 13:36:19] INFO root fetch - processPackages [tgwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgwrap-0.8.9.tar.gz tmp/tgwrap-0.9.0.tar.gz --markdown 20240424/t/tgwrap/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-24 13:36:19] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.8.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.9.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [server-templates]: Start processing: zoltraak
+[2024-04-24 13:36:19] INFO root fetch - main [MainThread]: End processing [server-templates]: success
+[2024-04-24 13:36:19] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: textdistance
+[2024-04-24 13:36:19] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-24 13:36:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: schubmult
+[2024-04-24 13:36:19] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-24 13:36:19] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-04-24 13:36:19] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.601.24115.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.602.24115.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - main [MainThread]: End processing [mo-sql]: success
+[2024-04-24 13:36:19] INFO root fetch - processPackages [textdistance]: New version: [4.6.2] Old Version: [4.6.1]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [schubmult]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.28.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.29.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-24 13:36:19] INFO root fetch - processPackages [local-rag-llm]: Remove: archive file [/home/abi/fetcher/tmp/local_rag_llm-0.0.8.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [local-rag-llm]: Remove: archive file [/home/abi/fetcher/tmp/local_rag_llm-0.0.9.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - main [MainThread]: End processing [local-rag-llm]: success
+[2024-04-24 13:36:19] INFO root fetch - processPackages [airbyte-source-microsoft-sharepoint]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_microsoft_sharepoint-0.2.2.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [airbyte-source-microsoft-sharepoint]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_microsoft_sharepoint-0.2.3.tar.gz]
+[2024-04-24 13:36:19] INFO root fetch - main [MainThread]: End processing [airbyte-source-microsoft-sharepoint]: success
+[2024-04-24 13:36:19] INFO root fetch - processPackages [unofficial-ascend-tools]: Remove: archive file [/home/abi/fetcher/tmp/unofficial_ascend_tools-0.0.1-py3-none-any.whl.zip]
+[2024-04-24 13:36:19] INFO root fetch - processPackages [unofficial-ascend-tools]: Remove: archive file [/home/abi/fetcher/tmp/unofficial_ascend_tools-0.0.2-py3-none-any.whl.zip]
+[2024-04-24 13:36:19] INFO root fetch - main [MainThread]: End processing [unofficial-ascend-tools]: success
+[2024-04-24 13:36:19] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-04-24 13:36:20] INFO root fetch - processPackages [textdistance]: Downloading https://files.pythonhosted.org/packages/98/c2/708ba2685627effb15b90942387fa59de12ee44b4a7cb3b336df7cde54b5/textdistance-4.6.1.tar.gz
+[2024-04-24 13:36:20] INFO root fetch - processPackages [schubmult]: Downloading https://files.pythonhosted.org/packages/54/2c/857e7238525911d460c081172813d95148c91241d84328d56a8b91721327/schubmult-1.3.4.tar.gz
+[2024-04-24 13:36:20] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 13:36:20] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240424/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 13:36:20] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.8.9.tar.gz]
+[2024-04-24 13:36:20] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.9.0.tar.gz]
+[2024-04-24 13:36:20] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
+[2024-04-24 13:36:20] INFO root fetch - processPackages [xenon-fuse]: Remove: archive file [/home/abi/fetcher/tmp/xenon_fuse-1.2.0.tar.gz]
+[2024-04-24 13:36:20] INFO root fetch - processPackages [xenon-fuse]: Remove: archive file [/home/abi/fetcher/tmp/xenon_fuse-1.2.1.tar.gz]
+[2024-04-24 13:36:20] INFO root fetch - main [MainThread]: End processing [xenon-fuse]: success
+[2024-04-24 13:36:20] INFO root fetch - processPackages [textdistance]: Downloading https://files.pythonhosted.org/packages/58/ae/688cc1596606b4fdeef519daa1a8ddd749bbcae7cd9f7d6cce7ffe858a12/textdistance-4.6.2.tar.gz
+[2024-04-24 13:36:20] INFO root fetch - processPackages [schubmult]: Downloading https://files.pythonhosted.org/packages/02/88/ec1d86fddbeab3077c077c57af487d2545bef2eabdc6b399b5e7edd09087/schubmult-1.3.5.tar.gz
+[2024-04-24 13:36:20] INFO root fetch - processPackages [textdistance]: executing diffoscope
+[2024-04-24 13:36:20] INFO root fetch - processPackages [textdistance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textdistance-4.6.1.tar.gz tmp/textdistance-4.6.2.tar.gz --markdown 20240424/t/textdistance/4.6.1-4.6.2/README.md --exclude *.pyd
+[2024-04-24 13:36:20] INFO root fetch - processPackages [schubmult]: executing diffoscope
+[2024-04-24 13:36:20] INFO root fetch - processPackages [schubmult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schubmult-1.3.4.tar.gz tmp/schubmult-1.3.5.tar.gz --markdown 20240424/s/schubmult/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-04-24 13:36:20] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-04-24 13:36:20] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-04-24 13:36:20] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 13:36:21] INFO root fetch - processPackages [textdistance]: Remove: archive file [/home/abi/fetcher/tmp/textdistance-4.6.1.tar.gz]
+[2024-04-24 13:36:21] INFO root fetch - processPackages [textdistance]: Remove: archive file [/home/abi/fetcher/tmp/textdistance-4.6.2.tar.gz]
+[2024-04-24 13:36:21] INFO root fetch - main [MainThread]: End processing [textdistance]: success
+[2024-04-24 13:36:21] INFO root fetch - processPackages [schubmult]: Remove: archive file [/home/abi/fetcher/tmp/schubmult-1.3.4.tar.gz]
+[2024-04-24 13:36:21] INFO root fetch - processPackages [schubmult]: Remove: archive file [/home/abi/fetcher/tmp/schubmult-1.3.5.tar.gz]
+[2024-04-24 13:36:21] INFO root fetch - main [MainThread]: End processing [schubmult]: success
+[2024-04-24 13:36:21] INFO root fetch - main [MainThread]: Store serial: [22911410]
