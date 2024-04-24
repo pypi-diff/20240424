@@ -7183,3 +7183,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:28:25] INFO root fetch - processPackages [jupyter-environment-manager]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_environment_manager-0.2.0rc9.tar.gz]
 [2024-04-24 03:28:25] INFO root fetch - main [MainThread]: End processing [jupyter-environment-manager]: success
 [2024-04-24 03:28:25] INFO root fetch - main [MainThread]: Store serial: [22905394]
+[2024-04-24 03:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905394]
+[2024-04-24 03:30:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yangsuite-restconf
+[2024-04-24 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigchem
+[2024-04-24 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doctran_openai
+[2024-04-24 03:30:33] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 03:30:33] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-24 03:30:33] INFO root fetch - processPackages [yangsuite-restconf]: New version: [2.1.9.post0.dev9] Old Version: [2.1.9]
+[2024-04-24 03:30:33] INFO root fetch - processPackages [bigchem]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-04-24 03:30:33] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-04-24 03:30:33] INFO root fetch - processPackages [yangsuite-restconf]: Downloading https://files.pythonhosted.org/packages/40/cc/af783f661b15054f8d4ff6bceb7a4a26e7d92d1c16ec1f35b87b667669ed/yangsuite_restconf-2.1.9-py3-none-any.whl
+[2024-04-24 03:30:33] INFO root fetch - processPackages [bigchem]: Downloading https://files.pythonhosted.org/packages/65/1b/2289f96676d606633c68f8ff52f595079f7bb8b7d5950b65a50f55768ceb/bigchem-0.6.9.tar.gz
+[2024-04-24 03:30:33] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-24 03:30:33] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240424/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 03:30:34] INFO root fetch - processPackages [bigchem]: Downloading https://files.pythonhosted.org/packages/7d/a0/6ef048fd5430f39aded56a4c956d215ec7046f1e9e8f71c2b8d36e684e9b/bigchem-0.7.0.tar.gz
+[2024-04-24 03:30:34] INFO root fetch - processPackages [bigchem]: executing diffoscope
+[2024-04-24 03:30:34] INFO root fetch - processPackages [bigchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigchem-0.6.9.tar.gz tmp/bigchem-0.7.0.tar.gz --markdown 20240424/b/bigchem/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-04-24 03:30:34] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-24 03:30:34] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-04-24 03:30:34] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-24 03:30:34] INFO root fetch - processPackages [bigchem]: Remove: archive file [/home/abi/fetcher/tmp/bigchem-0.6.9.tar.gz]
+[2024-04-24 03:30:34] INFO root fetch - processPackages [bigchem]: Remove: archive file [/home/abi/fetcher/tmp/bigchem-0.7.0.tar.gz]
+[2024-04-24 03:30:34] INFO root fetch - main [MainThread]: End processing [bigchem]: success
+[2024-04-24 03:30:35] INFO root fetch - processPackages [yangsuite-restconf]: Downloading https://files.pythonhosted.org/packages/2a/41/f2776c8cea83f5750700e6d83da70cd6a501758e2fb86e60eb8307aa9e41/yangsuite_restconf-2.1.9.post0.dev9-py3-none-any.whl
+[2024-04-24 03:30:36] INFO root fetch - processPackages [yangsuite-restconf]: executing diffoscope
+[2024-04-24 03:30:36] INFO root fetch - processPackages [yangsuite-restconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite_restconf-2.1.9-py3-none-any.whl.zip tmp/yangsuite_restconf-2.1.9.post0.dev9-py3-none-any.whl.zip --markdown 20240424/y/yangsuite-restconf/2.1.9-2.1.9.post0.dev9/README.md --exclude *.pyd
+[2024-04-24 03:30:41] INFO root fetch - processPackages [yangsuite-restconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_restconf-2.1.9-py3-none-any.whl.zip]
+[2024-04-24 03:30:41] INFO root fetch - processPackages [yangsuite-restconf]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite_restconf-2.1.9.post0.dev9-py3-none-any.whl.zip]
+[2024-04-24 03:30:41] INFO root fetch - main [MainThread]: End processing [yangsuite-restconf]: success
+[2024-04-24 03:30:41] INFO root fetch - main [MainThread]: Store serial: [22905472]
