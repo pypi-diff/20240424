@@ -12215,3 +12215,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:40:20] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
 [2024-04-24 08:40:20] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
 [2024-04-24 08:40:20] INFO root fetch - main [MainThread]: Store serial: [22907595]
+[2024-04-24 08:42:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907595]
+[2024-04-24 08:42:28] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-24 08:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907595]
+[2024-04-24 08:44:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 08:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyspde
+[2024-04-24 08:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2024-04-24 08:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-ds
+[2024-04-24 08:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-web-ir-actions-close-wizard-refresh-view
+[2024-04-24 08:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-web-hide-field-with-key
+[2024-04-24 08:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-web-field-tooltip
+[2024-04-24 08:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain_chinese
+[2024-04-24 08:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flexible-semantic-kernel
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pyspde]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-04-24 08:44:34] INFO root fetch - processPackages [odoo-addon-web-ir-actions-close-wizard-refresh-view]: New version: [16.0.1.0.0.11] Old Version: [16.0.1.0.0.10]
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pyspde]: Downloading https://files.pythonhosted.org/packages/19/cb/dcc1d8bfaa4cc7ed6eff55af5de4e587d006e2467c92996b798667a089f2/pyspde-0.0.3.tar.gz
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-04-24 08:44:34] INFO root fetch - processPackages [odoo-addon-web-field-tooltip]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pih-ds]: New version: [0.14] Old Version: [0.13]
+[2024-04-24 08:44:34] INFO root fetch - processPackages [langchain_chinese]: New version: [0.3.1] Old Version: [0.2.9]
+[2024-04-24 08:44:34] INFO root fetch - processPackages [odoo-addon-web-hide-field-with-key]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-04-24 08:44:34] WARNING root fetch - processPackages [flexible-semantic-kernel]: Skipping, unable to determine old version
+[2024-04-24 08:44:34] INFO root fetch - main [MainThread]: End processing [flexible-semantic-kernel] error
+[2024-04-24 08:44:34] INFO root fetch - processPackages [odoo-addon-web-ir-actions-close-wizard-refresh-view]: Downloading https://files.pythonhosted.org/packages/44/a2/beb4d1db8c37b2b3e3932c2669f5c3a1fa2af04aabc7a2c90c26d84edd89/odoo_addon_web_ir_actions_close_wizard_refresh_view-16.0.1.0.0.10-py3-none-any.whl
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pih-ds]: Downloading https://files.pythonhosted.org/packages/b2/b1/5bb3d10d23970138cebc3ad9bf382b3cf01e4c7505069ddd267347cffdcf/pih-ds-0.13.tar.gz
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-04-24 08:44:34] INFO root fetch - processPackages [odoo-addon-web-field-tooltip]: Downloading https://files.pythonhosted.org/packages/70/e7/6271a2a36bcd4a5c3265efbb30b998230de22bfa9b974926536d91ffaeb9/odoo_addon_web_field_tooltip-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-24 08:44:34] INFO root fetch - processPackages [langchain_chinese]: Downloading https://files.pythonhosted.org/packages/a0/43/e270099035cfa49a509331020494a91154aa680de24517edc88010a02117/langchain_chinese-0.2.9.tar.gz
+[2024-04-24 08:44:34] INFO root fetch - processPackages [odoo-addon-web-hide-field-with-key]: Downloading https://files.pythonhosted.org/packages/a5/f7/d0f538eaf221d6b8e10d6626d03629d153dda097ac768e095f66288b6681/odoo_addon_web_hide_field_with_key-16.0.1.0.1-py3-none-any.whl
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pyspde]: Downloading https://files.pythonhosted.org/packages/0d/64/5d5efa10704023e19a21dd70d084ab5f2ecb9f37f5224b3381f3ea38c134/pyspde-0.0.4.tar.gz
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240424/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pyspde]: executing diffoscope
+[2024-04-24 08:44:34] INFO root fetch - processPackages [pyspde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspde-0.0.3.tar.gz tmp/pyspde-0.0.4.tar.gz --markdown 20240424/p/pyspde/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-ir-actions-close-wizard-refresh-view]: Downloading https://files.pythonhosted.org/packages/87/6e/0515bd665c70a6c98fa983fac67ad3bd3ecc824ea8ee91fb7cdad3fbd78b/odoo_addon_web_ir_actions_close_wizard_refresh_view-16.0.1.0.0.11-py3-none-any.whl
+[2024-04-24 08:44:35] INFO root fetch - processPackages [pih-ds]: Downloading https://files.pythonhosted.org/packages/0e/ac/8e7fcb9db1a07e221d169b88ab982c8a96f8053aa97f22b10d7fb9a68d4a/pih-ds-0.14.tar.gz
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-field-tooltip]: Downloading https://files.pythonhosted.org/packages/3d/f4/41ff5da5fe47577cca588ad5303da2e860b36a8e84cf81a5c5b40940da01/odoo_addon_web_field_tooltip-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 08:44:35] INFO root fetch - processPackages [langchain_chinese]: Downloading https://files.pythonhosted.org/packages/c3/f2/9f621b4d0d9beb7c5c9849da0f171b48fa99ee030506c5e33a7a8f83435d/langchain_chinese-0.3.1.tar.gz
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-ir-actions-close-wizard-refresh-view]: executing diffoscope
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-ir-actions-close-wizard-refresh-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_ir_actions_close_wizard_refresh_view-16.0.1.0.0.10-py3-none-any.whl.zip tmp/odoo_addon_web_ir_actions_close_wizard_refresh_view-16.0.1.0.0.11-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-web-ir-actions-close-wizard-refresh-view/16.0.1.0.0.10-16.0.1.0.0.11/README.md --exclude *.pyd
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-hide-field-with-key]: Downloading https://files.pythonhosted.org/packages/37/d1/465730cc828928199b3ce25368fdd755c098e2687294c052748d11d2873c/odoo_addon_web_hide_field_with_key-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-24 08:44:35] INFO root fetch - processPackages [pih-ds]: executing diffoscope
+[2024-04-24 08:44:35] INFO root fetch - processPackages [pih-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ds-0.13.tar.gz tmp/pih-ds-0.14.tar.gz --markdown 20240424/p/pih-ds/0.13-0.14/README.md --exclude *.pyd
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-field-tooltip]: executing diffoscope
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-field-tooltip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_field_tooltip-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_web_field_tooltip-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-web-field-tooltip/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-24 08:44:35] INFO root fetch - processPackages [langchain_chinese]: executing diffoscope
+[2024-04-24 08:44:35] INFO root fetch - processPackages [langchain_chinese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_chinese-0.2.9.tar.gz tmp/langchain_chinese-0.3.1.tar.gz --markdown 20240424/l/langchain_chinese/0.2.9-0.3.1/README.md --exclude *.pyd
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-hide-field-with-key]: executing diffoscope
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-hide-field-with-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_hide_field_with_key-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_web_hide_field_with_key-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-web-hide-field-with-key/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-04-24 08:44:35] INFO root fetch - processPackages [pyspde]: Remove: archive file [/home/abi/fetcher/tmp/pyspde-0.0.3.tar.gz]
+[2024-04-24 08:44:35] INFO root fetch - processPackages [pyspde]: Remove: archive file [/home/abi/fetcher/tmp/pyspde-0.0.4.tar.gz]
+[2024-04-24 08:44:35] INFO root fetch - main [MainThread]: End processing [pyspde]: success
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-ir-actions-close-wizard-refresh-view]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_ir_actions_close_wizard_refresh_view-16.0.1.0.0.10-py3-none-any.whl.zip]
+[2024-04-24 08:44:35] INFO root fetch - processPackages [odoo-addon-web-ir-actions-close-wizard-refresh-view]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_ir_actions_close_wizard_refresh_view-16.0.1.0.0.11-py3-none-any.whl.zip]
+[2024-04-24 08:44:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-ir-actions-close-wizard-refresh-view]: success
+[2024-04-24 08:44:35] INFO root fetch - processPackages [pih-ds]: Remove: archive file [/home/abi/fetcher/tmp/pih-ds-0.13.tar.gz]
+[2024-04-24 08:44:35] INFO root fetch - processPackages [pih-ds]: Remove: archive file [/home/abi/fetcher/tmp/pih-ds-0.14.tar.gz]
+[2024-04-24 08:44:35] INFO root fetch - main [MainThread]: End processing [pih-ds]: success
+[2024-04-24 08:44:36] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-04-24 08:44:36] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-04-24 08:44:36] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-24 08:44:36] INFO root fetch - processPackages [odoo-addon-web-hide-field-with-key]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_hide_field_with_key-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-24 08:44:36] INFO root fetch - processPackages [odoo-addon-web-hide-field-with-key]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_hide_field_with_key-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-24 08:44:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-hide-field-with-key]: success
+[2024-04-24 08:44:36] INFO root fetch - processPackages [odoo-addon-web-field-tooltip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_field_tooltip-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-24 08:44:36] INFO root fetch - processPackages [odoo-addon-web-field-tooltip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_field_tooltip-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 08:44:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-field-tooltip]: success
+[2024-04-24 08:44:36] INFO root fetch - processPackages [langchain_chinese]: Remove: archive file [/home/abi/fetcher/tmp/langchain_chinese-0.2.9.tar.gz]
+[2024-04-24 08:44:36] INFO root fetch - processPackages [langchain_chinese]: Remove: archive file [/home/abi/fetcher/tmp/langchain_chinese-0.3.1.tar.gz]
+[2024-04-24 08:44:36] INFO root fetch - main [MainThread]: End processing [langchain_chinese]: success
+[2024-04-24 08:44:36] INFO root fetch - main [MainThread]: Store serial: [22907613]
