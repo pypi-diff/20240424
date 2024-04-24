@@ -23532,3 +23532,79 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 15:05:27] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.1.tar.gz]
 [2024-04-24 15:05:27] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-04-24 15:05:27] INFO root fetch - main [MainThread]: Store serial: [22912437]
+[2024-04-24 15:07:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912437]
+[2024-04-24 15:07:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rooms-shared-services
+[2024-04-24 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brynq-sdk-leapsome
+[2024-04-24 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autowsgr
+[2024-04-24 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stac-asset
+[2024-04-24 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assonant
+[2024-04-24 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ismrmrd
+[2024-04-24 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gluepy
+[2024-04-24 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s
+[2024-04-24 15:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: home-assistant-frontend
+[2024-04-24 15:07:54] INFO root fetch - processPackages [gluepy]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-24 15:07:54] INFO root fetch - processPackages [brynq-sdk-leapsome]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 15:07:54] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-24 15:07:54] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-24 15:07:54] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20240424.0] Old Version: [20240404.2]
+[2024-04-24 15:07:54] INFO root fetch - processPackages [ismrmrd]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-04-24 15:07:54] INFO root fetch - processPackages [stac-asset]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-04-24 15:07:54] INFO root fetch - processPackages [autowsgr]: New version: [0.2.2.9] Old Version: [0.2.2.8]
+[2024-04-24 15:07:54] INFO root fetch - processPackages [assonant]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-24 15:07:54] INFO root fetch - processPackages [brynq-sdk-leapsome]: Downloading https://files.pythonhosted.org/packages/c8/ff/31bee51702d048e09a42cc153cadd526ac87c7eeea109f87ae505ac8ca7d/brynq_sdk_leapsome-1.0.1.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/30/59/91f8c195baf4163a81689654f11c5377e981b9fd073aabece5b507eb3353/gluepy-1.1.2.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/fd/f5/717efe82c3fcfbeadf4564a68690e2e1fa182053d801da415b961b4e4e2f/home_assistant_frontend-20240404.2-py3-none-any.whl
+[2024-04-24 15:07:54] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 55437749>=10485760
+[2024-04-24 15:07:54] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2024-04-24 15:07:54] INFO root fetch - processPackages [stac-asset]: Downloading https://files.pythonhosted.org/packages/aa/fd/9391baf85df1f19f8856137040e0a4c2e9f0904b79ef674d8341dc90dfed/stac-asset-0.2.4.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [autowsgr]: Downloading https://files.pythonhosted.org/packages/20/db/bb4942509a54b1f01fa10e10e3dca250f9cf92488729f8292657988ac8e2/autowsgr-0.2.2.8.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [ismrmrd]: Downloading https://files.pythonhosted.org/packages/6a/af/515dfe91a007acd11139fd5777c3f6b42389ab388868d1b6ae234dcf697f/ismrmrd-1.9.7.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [assonant]: Downloading https://files.pythonhosted.org/packages/a3/a2/97b9d70631acaa276db53a8ffefb83d358dd99953922ebafb201ae927402/assonant-1.2.0.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/2a/3d/bff40ad9dad072edac5594e42b1da34c8d9fd312a4f883c2174a03d8e105/gluepy-1.1.3.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [brynq-sdk-leapsome]: Downloading https://files.pythonhosted.org/packages/28/1d/2f02adcf4afd96ef5077c0dab468e62608f9bb0b5d86d303fb3bb7dce70d/brynq_sdk_leapsome-1.0.2.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [gluepy]: executing diffoscope
+[2024-04-24 15:07:54] INFO root fetch - processPackages [gluepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluepy-1.1.2.tar.gz tmp/gluepy-1.1.3.tar.gz --markdown 20240424/g/gluepy/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-24 15:07:54] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-24 15:07:54] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240424/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-24 15:07:54] INFO root fetch - processPackages [brynq-sdk-leapsome]: executing diffoscope
+[2024-04-24 15:07:54] INFO root fetch - processPackages [brynq-sdk-leapsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_leapsome-1.0.1.tar.gz tmp/brynq_sdk_leapsome-1.0.2.tar.gz --markdown 20240424/b/brynq-sdk-leapsome/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-24 15:07:54] INFO root fetch - processPackages [stac-asset]: Downloading https://files.pythonhosted.org/packages/19/c6/01421d4ee31fa78eb8ab28117a3e2c479350f74bf810b86419fb8d6723f1/stac_asset-0.3.0.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [assonant]: Downloading https://files.pythonhosted.org/packages/fd/8f/18c720111e7e4085128addc438a8b280a40e68dccd525aa463ad2ed5b6bd/assonant-1.3.0.tar.gz
+[2024-04-24 15:07:54] INFO root fetch - processPackages [stac-asset]: executing diffoscope
+[2024-04-24 15:07:54] INFO root fetch - processPackages [stac-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-asset-0.2.4.tar.gz tmp/stac_asset-0.3.0.tar.gz --markdown 20240424/s/stac-asset/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-04-24 15:07:54] WARNING root fetch - processPackages [autowsgr]: Skipping package: exceeds size limit 18156638>=10485760
+[2024-04-24 15:07:54] INFO root fetch - main [MainThread]: End processing [autowsgr] error
+[2024-04-24 15:07:54] INFO root fetch - processPackages [assonant]: executing diffoscope
+[2024-04-24 15:07:54] INFO root fetch - processPackages [assonant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assonant-1.2.0.tar.gz tmp/assonant-1.3.0.tar.gz --markdown 20240424/a/assonant/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-24 15:07:55] INFO root fetch - processPackages [ismrmrd]: Downloading https://files.pythonhosted.org/packages/fd/e5/29fa5afbb87073850a7f9a1477949a7342ad0f279c7fee35e6e726df4193/ismrmrd-1.9.8.tar.gz
+[2024-04-24 15:07:55] INFO root fetch - processPackages [ismrmrd]: executing diffoscope
+[2024-04-24 15:07:55] INFO root fetch - processPackages [ismrmrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ismrmrd-1.9.7.tar.gz tmp/ismrmrd-1.9.8.tar.gz --markdown 20240424/i/ismrmrd/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-04-24 15:07:55] INFO root fetch - processPackages [brynq-sdk-leapsome]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_leapsome-1.0.1.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - processPackages [brynq-sdk-leapsome]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_leapsome-1.0.2.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - main [MainThread]: End processing [brynq-sdk-leapsome]: success
+[2024-04-24 15:07:55] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-24 15:07:55] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-1.1.2.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-1.1.3.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - main [MainThread]: End processing [gluepy]: success
+[2024-04-24 15:07:55] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-24 15:07:55] INFO root fetch - processPackages [assonant]: Remove: archive file [/home/abi/fetcher/tmp/assonant-1.2.0.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - processPackages [assonant]: Remove: archive file [/home/abi/fetcher/tmp/assonant-1.3.0.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - main [MainThread]: End processing [assonant]: success
+[2024-04-24 15:07:55] INFO root fetch - processPackages [stac-asset]: Remove: archive file [/home/abi/fetcher/tmp/stac-asset-0.2.4.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - processPackages [stac-asset]: Remove: archive file [/home/abi/fetcher/tmp/stac_asset-0.3.0.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - main [MainThread]: End processing [stac-asset]: success
+[2024-04-24 15:07:55] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-24 15:07:55] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240424/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-24 15:07:55] INFO root fetch - processPackages [ismrmrd]: Remove: archive file [/home/abi/fetcher/tmp/ismrmrd-1.9.7.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - processPackages [ismrmrd]: Remove: archive file [/home/abi/fetcher/tmp/ismrmrd-1.9.8.tar.gz]
+[2024-04-24 15:07:55] INFO root fetch - main [MainThread]: End processing [ismrmrd]: success
+[2024-04-24 15:07:56] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-24 15:07:56] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-24 15:07:56] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-24 15:07:56] INFO root fetch - main [MainThread]: Store serial: [22912464]
