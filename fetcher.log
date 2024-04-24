@@ -14779,3 +14779,33 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:15:06] INFO root fetch - processPackages [pynchon]: Remove: archive file [/home/abi/fetcher/tmp/pynchon-2024.4.5.14.1.tar.gz]
 [2024-04-24 10:15:06] INFO root fetch - main [MainThread]: End processing [pynchon]: success
 [2024-04-24 10:15:06] INFO root fetch - main [MainThread]: Store serial: [22908898]
+[2024-04-24 10:17:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908898]
+[2024-04-24 10:17:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-04-24 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: furthrmind
+[2024-04-24 10:17:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fdamages
+[2024-04-24 10:17:15] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 10:17:15] INFO root fetch - processPackages [furthrmind]: New version: [0.1b9] Old Version: [0.1b8]
+[2024-04-24 10:17:15] INFO root fetch - processPackages [fdamages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 10:17:15] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-04-24 10:17:15] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/6b/1c/93a4a8e7af23546373a1b82cee0d135677e2cf9ce042f45322f462306363/furthrmind-0.1b8.tar.gz
+[2024-04-24 10:17:15] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/f7/47/b073d66da70f033a16648506bf9c8c9bf6bb94a4c2addffde34a57d1029e/fdamages-0.0.8.tar.gz
+[2024-04-24 10:17:15] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-04-24 10:17:15] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/ff/ee/844bcc88d136af575ddbb2cb68d65757706abdb455a19a2337df2ac4b7e4/furthrmind-0.1b9.tar.gz
+[2024-04-24 10:17:15] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/c8/91/80a20c426c12fcad2a527baf311c3b6d5f974f223536344ee9c16296a491/fdamages-0.0.9.tar.gz
+[2024-04-24 10:17:16] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-24 10:17:16] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240424/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 10:17:16] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-24 10:17:16] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.8.tar.gz tmp/fdamages-0.0.9.tar.gz --markdown 20240424/f/fdamages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:17:16] INFO root fetch - processPackages [furthrmind]: executing diffoscope
+[2024-04-24 10:17:16] INFO root fetch - processPackages [furthrmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furthrmind-0.1b8.tar.gz tmp/furthrmind-0.1b9.tar.gz --markdown 20240424/f/furthrmind/0.1b8-0.1b9/README.md --exclude *.pyd
+[2024-04-24 10:17:16] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.8.tar.gz]
+[2024-04-24 10:17:16] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.9.tar.gz]
+[2024-04-24 10:17:16] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-24 10:17:16] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-04-24 10:17:16] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-04-24 10:17:16] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-24 10:17:16] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b8.tar.gz]
+[2024-04-24 10:17:16] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b9.tar.gz]
+[2024-04-24 10:17:16] INFO root fetch - main [MainThread]: End processing [furthrmind]: success
+[2024-04-24 10:17:16] INFO root fetch - main [MainThread]: Store serial: [22908905]
