@@ -20082,3 +20082,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:09:20] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-24 13:09:20] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-24 13:09:20] INFO root fetch - main [MainThread]: Store serial: [22910976]
+[2024-04-24 13:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910976]
+[2024-04-24 13:11:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Quanthon
+[2024-04-24 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: converttentotwenty
+[2024-04-24 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nodify
+[2024-04-24 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuralnetlib
+[2024-04-24 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spacemake
+[2024-04-24 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redisbench-admin
+[2024-04-24 13:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-model-manager
+[2024-04-24 13:11:39] INFO root fetch - processPackages [nodify]: New version: [0.0.3rc1] Old Version: [0.0.3]
+[2024-04-24 13:11:39] INFO root fetch - processPackages [neuralnetlib]: New version: [2.4.0] Old Version: [2.3.4]
+[2024-04-24 13:11:39] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev6] Old Version: [0.0.6.dev5]
+[2024-04-24 13:11:39] INFO root fetch - processPackages [redisbench-admin]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 13:11:39] INFO root fetch - processPackages [Quanthon]: New version: [0.3.6] Old Version: [0.3.5.3]
+[2024-04-24 13:11:39] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/f7/2a/7addfce99b3b77a048da98b4f86d9a3a4fe0279a29fceba6bcd9e249b87a/torch_model_manager-0.0.6.dev5.tar.gz
+[2024-04-24 13:11:39] INFO root fetch - processPackages [converttentotwenty]: New version: [3.0.1] Old Version: [2.0.1]
+[2024-04-24 13:11:39] INFO root fetch - processPackages [spacemake]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-04-24 13:11:39] INFO root fetch - processPackages [redisbench-admin]: Downloading https://files.pythonhosted.org/packages/1b/bc/fbbca13a7e0fe02900bb0cd135f79a4c32ff5312414c75613c7417ba66b5/redisbench-admin-0.9.8.tar.gz
+[2024-04-24 13:11:39] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/a5/b7/d8206cf408fca5a47112b84254a8cee7d0a4abd40594efe1fb87f1e06571/neuralnetlib-2.3.4.tar.gz
+[2024-04-24 13:11:39] INFO root fetch - processPackages [nodify]: Downloading https://files.pythonhosted.org/packages/e8/e2/af89eec8ddb7b1a9326807f448c0bbed8257daf66307246779287e16fa9e/nodify-0.0.3.tar.gz
+[2024-04-24 13:11:39] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/45/22/2951c45e6e416bf5f64f1ff48dd1b78820aa28739b3aed43b655c001952c/Quanthon-0.3.5.3.tar.gz
+[2024-04-24 13:11:39] INFO root fetch - processPackages [spacemake]: Downloading https://files.pythonhosted.org/packages/8e/b2/a546edfc3536a5282940cc581370600f2f71008f5dd32032af3b04e92f0a/spacemake-0.7.7.tar.gz
+[2024-04-24 13:11:39] INFO root fetch - processPackages [converttentotwenty]: Downloading https://files.pythonhosted.org/packages/aa/96/aa23b2f8f9d4a987b32d08508f5fc1e943c2466281b6570814b5a7118c64/Converttentotwenty-2.0.1.tar.gz
+[2024-04-24 13:11:40] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/b0/c2/d038cd2943a02ebfeeb7332ac272642add02a0c3507340c86013e2f3b09d/torch_model_manager-0.0.6.dev6.tar.gz
+[2024-04-24 13:11:40] WARNING root fetch - processPackages [spacemake]: Skipping package: exceeds size limit 96001525>=10485760
+[2024-04-24 13:11:40] INFO root fetch - main [MainThread]: End processing [spacemake] error
+[2024-04-24 13:11:40] INFO root fetch - processPackages [redisbench-admin]: Downloading https://files.pythonhosted.org/packages/d8/bf/a564f8e39b26d523bf3f26f6fa2c917fe47853f2319e577d43cd0dfc7c5a/redisbench-admin-0.9.9.tar.gz
+[2024-04-24 13:11:40] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/f8/b3/a10dcc61072f8b6a48d9fd9d62c409d44cc2b59d734da140dd3201b43e0d/neuralnetlib-2.4.0.tar.gz
+[2024-04-24 13:11:40] INFO root fetch - processPackages [nodify]: Downloading https://files.pythonhosted.org/packages/1d/7a/edae40ee287e3f4b926fb0f2843abac67558639ec6633da1acfd1151d509/nodify-0.0.3rc1.tar.gz
+[2024-04-24 13:11:40] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-24 13:11:40] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.0.6.dev5.tar.gz tmp/torch_model_manager-0.0.6.dev6.tar.gz --markdown 20240424/t/torch-model-manager/0.0.6.dev5-0.0.6.dev6/README.md --exclude *.pyd
+[2024-04-24 13:11:40] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/ba/0c/bb60755b43f39ca7331274f07442ea1f0093adb6a45687c8a4765f932a91/Quanthon-0.3.6.tar.gz
+[2024-04-24 13:11:40] INFO root fetch - processPackages [converttentotwenty]: Downloading https://files.pythonhosted.org/packages/6d/7b/96871fb60ef3feb0d94c7774832847671a4e4084d4b88ce2085d120e13a0/converttentotwenty-3.0.1.tar.gz
+[2024-04-24 13:11:40] INFO root fetch - processPackages [neuralnetlib]: executing diffoscope
+[2024-04-24 13:11:40] INFO root fetch - processPackages [neuralnetlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralnetlib-2.3.4.tar.gz tmp/neuralnetlib-2.4.0.tar.gz --markdown 20240424/n/neuralnetlib/2.3.4-2.4.0/README.md --exclude *.pyd
+[2024-04-24 13:11:40] INFO root fetch - processPackages [nodify]: executing diffoscope
+[2024-04-24 13:11:40] INFO root fetch - processPackages [nodify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodify-0.0.3.tar.gz tmp/nodify-0.0.3rc1.tar.gz --markdown 20240424/n/nodify/0.0.3-0.0.3rc1/README.md --exclude *.pyd
+[2024-04-24 13:11:40] INFO root fetch - processPackages [redisbench-admin]: executing diffoscope
+[2024-04-24 13:11:40] INFO root fetch - processPackages [redisbench-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redisbench-admin-0.9.8.tar.gz tmp/redisbench-admin-0.9.9.tar.gz --markdown 20240424/r/redisbench-admin/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 13:11:40] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-24 13:11:40] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quanthon-0.3.5.3.tar.gz tmp/Quanthon-0.3.6.tar.gz --markdown 20240424/Q/Quanthon/0.3.5.3-0.3.6/README.md --exclude *.pyd
+[2024-04-24 13:11:40] INFO root fetch - processPackages [converttentotwenty]: executing diffoscope
+[2024-04-24 13:11:40] INFO root fetch - processPackages [converttentotwenty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Converttentotwenty-2.0.1.tar.gz tmp/converttentotwenty-3.0.1.tar.gz --markdown 20240424/c/converttentotwenty/2.0.1-3.0.1/README.md --exclude *.pyd
+[2024-04-24 13:11:41] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.3.4.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.4.0.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - main [MainThread]: End processing [neuralnetlib]: success
+[2024-04-24 13:11:41] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.5.3.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.6.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-24 13:11:41] INFO root fetch - processPackages [converttentotwenty]: Remove: archive file [/home/abi/fetcher/tmp/Converttentotwenty-2.0.1.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - processPackages [converttentotwenty]: Remove: archive file [/home/abi/fetcher/tmp/converttentotwenty-3.0.1.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - main [MainThread]: End processing [converttentotwenty]: success
+[2024-04-24 13:11:41] INFO root fetch - processPackages [nodify]: Remove: archive file [/home/abi/fetcher/tmp/nodify-0.0.3.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - processPackages [nodify]: Remove: archive file [/home/abi/fetcher/tmp/nodify-0.0.3rc1.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - main [MainThread]: End processing [nodify]: success
+[2024-04-24 13:11:41] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev5.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev6.tar.gz]
+[2024-04-24 13:11:41] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-24 13:11:42] INFO root fetch - processPackages [redisbench-admin]: Remove: archive file [/home/abi/fetcher/tmp/redisbench-admin-0.9.8.tar.gz]
+[2024-04-24 13:11:42] INFO root fetch - processPackages [redisbench-admin]: Remove: archive file [/home/abi/fetcher/tmp/redisbench-admin-0.9.9.tar.gz]
+[2024-04-24 13:11:42] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
+[2024-04-24 13:11:42] INFO root fetch - main [MainThread]: Store serial: [22911005]
