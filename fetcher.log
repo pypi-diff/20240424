@@ -13402,3 +13402,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:26:31] INFO root fetch - processPackages [nlp-data]: Remove: archive file [/home/abi/fetcher/tmp/nlp_data-0.3.7.tar.gz]
 [2024-04-24 09:26:31] INFO root fetch - main [MainThread]: End processing [nlp-data]: success
 [2024-04-24 09:26:31] INFO root fetch - main [MainThread]: Store serial: [22908292]
+[2024-04-24 09:28:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908292]
+[2024-04-24 09:28:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TitanDevice
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openyieldtables
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ozonetel-ai
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tolvera
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: markline
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helmet
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zoltraak
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-stock-mts-mto-rule
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cefeste
+[2024-04-24 09:28:39] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-24 09:28:39] WARNING root fetch - processPackages [tolvera]: Skipping, unable to determine old version
+[2024-04-24 09:28:39] INFO root fetch - main [MainThread]: End processing [tolvera] error
+[2024-04-24 09:28:39] WARNING root fetch - processPackages [helmet]: Skipping, unable to determine old version
+[2024-04-24 09:28:39] INFO root fetch - main [MainThread]: End processing [helmet] error
+[2024-04-24 09:28:39] INFO root fetch - processPackages [zoltraak]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-24 09:28:39] INFO root fetch - processPackages [openyieldtables]: New version: [1.0.0] Old Version: [0.0.0]
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ozonetel-ai]: New version: [0.0.1] Old Version: [0.0.0b0]
+[2024-04-24 09:28:39] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 09:28:39] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.2.dev2]
+[2024-04-24 09:28:39] INFO root fetch - processPackages [markline]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-24 09:28:39] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/89/c0/afb2f055f798cac99272a8359901d58bb7b7e6034814fe704652e6882f65/TitanDevice-0.2.5.tar.gz
+[2024-04-24 09:28:39] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/3d/54/a4edcfeadcbccfd911b4cdf86d660c6b28e2da123fc1fad3b77b56f31961/zoltraak-0.1.6.tar.gz
+[2024-04-24 09:28:39] INFO root fetch - processPackages [openyieldtables]: Downloading https://files.pythonhosted.org/packages/e2/8e/fff0540a5f7b3afc0cb2ccf8a9db687402a822fe53008d7fd46ecdda0df1/openyieldtables-0.0.0.tar.gz
+[2024-04-24 09:28:39] INFO root fetch - processPackages [cefeste]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-24 09:28:39] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 09:28:39] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/a4/20/3265ce09ce553b246eafbe3022fe4236698aec7ea647ac3be9189348a182/ozonetel-ai-0.0.0b0.tar.gz
+[2024-04-24 09:28:40] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: Downloading https://files.pythonhosted.org/packages/61/67/fa932b28a875ed720dec64a2ba37066b226bdbf0f513fe6190a7b2e41982/odoo14_addon_stock_mts_mto_rule-14.0.1.1.2.dev2-py3-none-any.whl
+[2024-04-24 09:28:40] INFO root fetch - processPackages [markline]: Downloading https://files.pythonhosted.org/packages/8a/bc/cad2fb6ca94ca2258668aa0d026060c58895a1d242f15ad37919522a4012/markline-0.3.2.tar.gz
+[2024-04-24 09:28:40] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/43/1e/7e2699bb35b289c41f51890466e399efc9a236c732201d9afe7be506103f/cefeste-1.2.1.tar.gz
+[2024-04-24 09:28:40] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 09:28:40] INFO root fetch - processPackages [openyieldtables]: Downloading https://files.pythonhosted.org/packages/7c/54/637e66ec3891dca433f3580e564d9f0125c100f8a66eed3e2ff43651f61d/openyieldtables-1.0.0.tar.gz
+[2024-04-24 09:28:40] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/9b/9f/7320142fdc184baf4f868257540e72d880e1a809d30fdd6420ab95bb00bb/TitanDevice-0.2.6.tar.gz
+[2024-04-24 09:28:40] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/f9/f4/c8ce5113c81ff24b41d9823b1de2ecdb6bf9cc4419b8be5d7caefcf8c0c8/ozonetel-ai-0.0.1.tar.gz
+[2024-04-24 09:28:40] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/5c/c1/8374c6714bde36f6ffd6da4b3657239b41702887f8745d234896dd976cb7/zoltraak-0.1.7.tar.gz
+[2024-04-24 09:28:40] INFO root fetch - processPackages [ozonetel-ai]: executing diffoscope
+[2024-04-24 09:28:40] INFO root fetch - processPackages [ozonetel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozonetel-ai-0.0.0b0.tar.gz tmp/ozonetel-ai-0.0.1.tar.gz --markdown 20240424/o/ozonetel-ai/0.0.0b0-0.0.1/README.md --exclude *.pyd
+[2024-04-24 09:28:40] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 09:28:40] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 09:28:40] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 09:28:40] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.6.tar.gz tmp/zoltraak-0.1.7.tar.gz --markdown 20240424/z/zoltraak/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-24 09:28:40] INFO root fetch - processPackages [openyieldtables]: executing diffoscope
+[2024-04-24 09:28:40] INFO root fetch - processPackages [openyieldtables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openyieldtables-0.0.0.tar.gz tmp/openyieldtables-1.0.0.tar.gz --markdown 20240424/o/openyieldtables/0.0.0-1.0.0/README.md --exclude *.pyd
+[2024-04-24 09:28:40] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 09:28:40] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.5.tar.gz tmp/TitanDevice-0.2.6.tar.gz --markdown 20240424/T/TitanDevice/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-24 09:28:40] INFO root fetch - processPackages [markline]: Downloading https://files.pythonhosted.org/packages/98/87/edc6cc7b27441cb11d14af3547d0b09cb5e2f9d12fa445f6fffd3b27f69d/markline-0.3.3.tar.gz
+[2024-04-24 09:28:40] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: Downloading https://files.pythonhosted.org/packages/e0/ca/3b04bf61378b73c0903dd47bd301f7e39885a00fa573eb564a2fc68942af/odoo14_addon_stock_mts_mto_rule-14.0.1.2.0-py3-none-any.whl
+[2024-04-24 09:28:40] INFO root fetch - processPackages [markline]: executing diffoscope
+[2024-04-24 09:28:40] INFO root fetch - processPackages [markline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markline-0.3.2.tar.gz tmp/markline-0.3.3.tar.gz --markdown 20240424/m/markline/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-24 09:28:40] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/a2/7b/b883f079f349b4afba06014309c078ee5f995d63aef761e41426e1ea5a97/cefeste-1.2.2.tar.gz
+[2024-04-24 09:28:40] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: executing diffoscope
+[2024-04-24 09:28:40] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_mts_mto_rule-14.0.1.1.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_mts_mto_rule-14.0.1.2.0-py3-none-any.whl.zip --markdown 20240424/o/odoo14-addon-stock-mts-mto-rule/14.0.1.1.2.dev2-14.0.1.2.0/README.md --exclude *.pyd
+[2024-04-24 09:28:41] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.5.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.6.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 09:28:41] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.0b0.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.1.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - main [MainThread]: End processing [ozonetel-ai]: success
+[2024-04-24 09:28:41] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 09:28:41] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 09:28:41] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 09:28:41] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2024-04-24 09:28:41] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.2.1.tar.gz tmp/cefeste-1.2.2.tar.gz --markdown 20240424/c/cefeste/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-24 09:28:41] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.6.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.7.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 09:28:41] INFO root fetch - processPackages [openyieldtables]: Remove: archive file [/home/abi/fetcher/tmp/openyieldtables-0.0.0.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - processPackages [openyieldtables]: Remove: archive file [/home/abi/fetcher/tmp/openyieldtables-1.0.0.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - main [MainThread]: End processing [openyieldtables]: success
+[2024-04-24 09:28:41] INFO root fetch - processPackages [markline]: Remove: archive file [/home/abi/fetcher/tmp/markline-0.3.2.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - processPackages [markline]: Remove: archive file [/home/abi/fetcher/tmp/markline-0.3.3.tar.gz]
+[2024-04-24 09:28:41] INFO root fetch - main [MainThread]: End processing [markline]: success
+[2024-04-24 09:28:41] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_mts_mto_rule-14.0.1.1.2.dev2-py3-none-any.whl.zip]
+[2024-04-24 09:28:41] INFO root fetch - processPackages [odoo14-addon-stock-mts-mto-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_mts_mto_rule-14.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-24 09:28:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-mts-mto-rule]: success
+[2024-04-24 09:28:42] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.2.1.tar.gz]
+[2024-04-24 09:28:42] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.2.2.tar.gz]
+[2024-04-24 09:28:42] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2024-04-24 09:28:42] INFO root fetch - main [MainThread]: Store serial: [22908337]
