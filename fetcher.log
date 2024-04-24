@@ -7096,3 +7096,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:24:01] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.0.1.tar.gz]
 [2024-04-24 03:24:01] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
 [2024-04-24 03:24:01] INFO root fetch - main [MainThread]: Store serial: [22905225]
+[2024-04-24 03:26:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905225]
+[2024-04-24 03:26:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 03:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-cloudinit
+[2024-04-24 03:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dosview
+[2024-04-24 03:26:09] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1713915815] Old Version: [1.5.0a1713897263]
+[2024-04-24 03:26:09] INFO root fetch - processPackages [dosview]: New version: [0.1.8] Old Version: [0.1.5]
+[2024-04-24 03:26:09] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/ae/93/d856691ab985e3e56d74b680c7899a5bda2ac1cf349ac2dc0b3e8af3deeb/pulumi_cloudinit-1.5.0a1713897263.tar.gz
+[2024-04-24 03:26:09] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/08/4b/8983afca1322d20dc3ba5b0c0614c3b6dbe417c830f3ef5027e280b699aa/dosview-0.1.5.tar.gz
+[2024-04-24 03:26:09] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/1b/4a/73e4380339335bdda3291c2b60e0777327820099896778d36f6b5f1758d5/pulumi_cloudinit-1.5.0a1713915815.tar.gz
+[2024-04-24 03:26:09] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-04-24 03:26:09] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1713897263.tar.gz tmp/pulumi_cloudinit-1.5.0a1713915815.tar.gz --markdown 20240424/p/pulumi-cloudinit/1.5.0a1713897263-1.5.0a1713915815/README.md --exclude *.pyd
+[2024-04-24 03:26:10] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/ca/c5/3ffbf2242d0b4d90c549de5b69892bb82e141e1f4077219a0e2b82823a15/dosview-0.1.8.tar.gz
+[2024-04-24 03:26:10] INFO root fetch - processPackages [dosview]: executing diffoscope
+[2024-04-24 03:26:10] INFO root fetch - processPackages [dosview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosview-0.1.5.tar.gz tmp/dosview-0.1.8.tar.gz --markdown 20240424/d/dosview/0.1.5-0.1.8/README.md --exclude *.pyd
+[2024-04-24 03:26:10] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1713897263.tar.gz]
+[2024-04-24 03:26:10] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1713915815.tar.gz]
+[2024-04-24 03:26:10] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-04-24 03:26:10] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.5.tar.gz]
+[2024-04-24 03:26:10] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.8.tar.gz]
+[2024-04-24 03:26:10] INFO root fetch - main [MainThread]: End processing [dosview]: success
+[2024-04-24 03:26:10] INFO root fetch - main [MainThread]: Store serial: [22905296]
