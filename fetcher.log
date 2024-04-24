@@ -17592,3 +17592,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:48:44] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
 [2024-04-24 11:48:44] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
 [2024-04-24 11:48:44] INFO root fetch - main [MainThread]: Store serial: [22909995]
+[2024-04-24 11:50:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909995]
+[2024-04-24 11:50:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-windows-98
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: misleep
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-pipelines
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-apps
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramdriver
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rats-processors
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dav-tools
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: server-templates
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gammarers.aws-frontend-web-app-deploy-stack
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mimosa
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-24 11:50:54] INFO root fetch - processPackages [dav-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 11:50:54] INFO root fetch - processPackages [mkdocs-windows-98]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-24 11:50:54] INFO root fetch - processPackages [mimosa]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-24 11:50:54] INFO root fetch - processPackages [misleep]: New version: [0.2.4b0] Old Version: [0.2.3b0]
+[2024-04-24 11:50:54] WARNING root fetch - processPackages [gammarers.aws-frontend-web-app-deploy-stack]: Skipping, unable to determine old version
+[2024-04-24 11:50:54] INFO root fetch - processPackages [gammarers.aws-frontend-web-app-deploy-stack]: Start processing: logutil
+[2024-04-24 11:50:54] INFO root fetch - main [MainThread]: End processing [gammarers.aws-frontend-web-app-deploy-stack] error
+[2024-04-24 11:50:54] WARNING root fetch - processPackages [ramdriver]: Skipping, unable to determine old version
+[2024-04-24 11:50:54] INFO root fetch - processPackages [ramdriver]: Start processing: eywa-client
+[2024-04-24 11:50:54] INFO root fetch - main [MainThread]: End processing [ramdriver] error
+[2024-04-24 11:50:54] INFO root fetch - processPackages [server-templates]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-24 11:50:54] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/ff/16/c7714169c70078aec3058c93dbdcef4158398b78319873d9a0c6b87c0ee3/dav_tools-0.1.2.tar.gz
+[2024-04-24 11:50:54] INFO root fetch - processPackages [logutil]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-24 11:50:54] WARNING root fetch - processPackages [eywa-client]: Skipping, unable to determine old version
+[2024-04-24 11:50:54] INFO root fetch - processPackages [eywa-client]: Start processing: apipe
+[2024-04-24 11:50:54] INFO root fetch - main [MainThread]: End processing [eywa-client] error
+[2024-04-24 11:50:54] INFO root fetch - processPackages [mkdocs-windows-98]: Downloading https://files.pythonhosted.org/packages/c6/be/60497143b55febb4e583b003e7f32b76d26333dc744b1c8514dffcb70068/mkdocs-windows-98-0.4.1.tar.gz
+[2024-04-24 11:50:54] INFO root fetch - processPackages [mimosa]: Downloading https://files.pythonhosted.org/packages/56/22/cbcc4d7b215bfb573efc8e77a18813df3296c082f0e62306669f0073204e/mimosa-0.1.5.tar.gz
+[2024-04-24 11:50:54] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/d5/91/9701bd977c08a0c6fd6e85834df6dc3f4f64bec3c662630f3996ab074507/misleep-0.2.3b0.tar.gz
+[2024-04-24 11:50:54] INFO root fetch - processPackages [apipe]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-24 11:50:54] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/59/df/f5673e6af5207982271068cff01271982666f35556ff8fcf33d629e902d6/server_templates-0.2.8.tar.gz
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-24 11:50:54] INFO root fetch - processPackages [logutil]: Downloading https://files.pythonhosted.org/packages/2d/60/65e3940d25420bf105c6ccdb596684e2fbc95627ce6504a4b087c86b2374/logutil-0.1.7.tar.gz
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-24 11:50:54] INFO root fetch - processPackages [apipe]: Downloading https://files.pythonhosted.org/packages/34/64/5540d37aca1e2e3941508f9853ab80e8dbb630fe62edc78d0d5dc9880cec/apipe-0.1.5.tar.gz
+[2024-04-24 11:50:54] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/40/82/372beeae2ad7b26f8bc64313c7ea3a48fe7d7db673952dc97417a79162c1/dav_tools-0.1.3.tar.gz
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240424/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240424/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-24 11:50:54] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240424/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-24 11:50:55] INFO root fetch - processPackages [mkdocs-windows-98]: Downloading https://files.pythonhosted.org/packages/13/e6/8a01afd221e126a90a60a28d87371a6a6f8c7ac11558017e6d116e153690/mkdocs_windows_98-0.5.0.tar.gz
+[2024-04-24 11:50:55] INFO root fetch - processPackages [dav-tools]: executing diffoscope
+[2024-04-24 11:50:55] INFO root fetch - processPackages [dav-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dav_tools-0.1.2.tar.gz tmp/dav_tools-0.1.3.tar.gz --markdown 20240424/d/dav-tools/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 11:50:55] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/11/84/d7da14623575908f087ae536a6c380ca047ec1dbd8e633d855019a35bb7c/server_templates-0.2.9.tar.gz
+[2024-04-24 11:50:55] INFO root fetch - processPackages [apipe]: Downloading https://files.pythonhosted.org/packages/e7/23/4e050ad0269e7615ad2d54afc69c7bc358cc7200ded9c72a68fcf5d2c7b2/apipe-0.1.6.tar.gz
+[2024-04-24 11:50:55] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/1f/80/3f7e1fff204bd39a8da1ff2bdbf87e12f3f0e006414dcef829955ddbc3ce/misleep-0.2.4b0.tar.gz
+[2024-04-24 11:50:55] INFO root fetch - processPackages [logutil]: Downloading https://files.pythonhosted.org/packages/16/6e/f3f1615a30c66e007349ac3d6e7f9900071206a3b09cb9c0a9a376e7c4ef/logutil-0.1.8.tar.gz
+[2024-04-24 11:50:55] INFO root fetch - processPackages [mimosa]: Downloading https://files.pythonhosted.org/packages/ea/1d/41fd6a6709cb057dfad472f6d7d250b52fef235e8a8aedb769a0f9482cf9/mimosa-0.1.6.tar.gz
+[2024-04-24 11:50:55] INFO root fetch - processPackages [mkdocs-windows-98]: executing diffoscope
+[2024-04-24 11:50:55] INFO root fetch - processPackages [mkdocs-windows-98]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-windows-98-0.4.1.tar.gz tmp/mkdocs_windows_98-0.5.0.tar.gz --markdown 20240424/m/mkdocs-windows-98/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-24 11:50:55] INFO root fetch - processPackages [server-templates]: executing diffoscope
+[2024-04-24 11:50:55] INFO root fetch - processPackages [server-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server_templates-0.2.8.tar.gz tmp/server_templates-0.2.9.tar.gz --markdown 20240424/s/server-templates/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 11:50:55] INFO root fetch - processPackages [apipe]: executing diffoscope
+[2024-04-24 11:50:55] INFO root fetch - processPackages [apipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apipe-0.1.5.tar.gz tmp/apipe-0.1.6.tar.gz --markdown 20240424/a/apipe/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-24 11:50:55] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-24 11:50:55] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.3b0.tar.gz tmp/misleep-0.2.4b0.tar.gz --markdown 20240424/m/misleep/0.2.3b0-0.2.4b0/README.md --exclude *.pyd
+[2024-04-24 11:50:55] INFO root fetch - processPackages [logutil]: executing diffoscope
+[2024-04-24 11:50:55] INFO root fetch - processPackages [logutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logutil-0.1.7.tar.gz tmp/logutil-0.1.8.tar.gz --markdown 20240424/l/logutil/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-24 11:50:55] INFO root fetch - processPackages [mimosa]: executing diffoscope
+[2024-04-24 11:50:55] INFO root fetch - processPackages [mimosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimosa-0.1.5.tar.gz tmp/mimosa-0.1.6.tar.gz --markdown 20240424/m/mimosa/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-24 11:50:55] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.1.2.tar.gz]
+[2024-04-24 11:50:55] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.1.3.tar.gz]
+[2024-04-24 11:50:55] INFO root fetch - main [MainThread]: End processing [dav-tools]: success
+[2024-04-24 11:50:55] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-24 11:50:55] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-24 11:50:55] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-24 11:50:56] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-24 11:50:56] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-24 11:50:56] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-24 11:50:56] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-24 11:50:56] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-24 11:50:56] INFO root fetch - processPackages [mkdocs-windows-98]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-windows-98-0.4.1.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-24 11:50:56] INFO root fetch - processPackages [mkdocs-windows-98]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_windows_98-0.5.0.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - main [MainThread]: End processing [mkdocs-windows-98]: success
+[2024-04-24 11:50:56] INFO root fetch - processPackages [logutil]: Remove: archive file [/home/abi/fetcher/tmp/logutil-0.1.7.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - processPackages [logutil]: Remove: archive file [/home/abi/fetcher/tmp/logutil-0.1.8.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - main [MainThread]: End processing [logutil]: success
+[2024-04-24 11:50:56] INFO root fetch - processPackages [apipe]: Remove: archive file [/home/abi/fetcher/tmp/apipe-0.1.5.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - processPackages [apipe]: Remove: archive file [/home/abi/fetcher/tmp/apipe-0.1.6.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - main [MainThread]: End processing [apipe]: success
+[2024-04-24 11:50:56] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.8.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.9.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - main [MainThread]: End processing [server-templates]: success
+[2024-04-24 11:50:56] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.3b0.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.4b0.tar.gz]
+[2024-04-24 11:50:56] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-24 11:50:56] ERROR root fetch - processPackages [mimosa]: Diffoscope failed: time="2024-04-24T11:50:55+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+
+[2024-04-24 11:50:56] INFO root fetch - main [MainThread]: End processing [mimosa] error
+[2024-04-24 11:50:56] INFO root fetch - main [MainThread]: Store serial: [22910037]
