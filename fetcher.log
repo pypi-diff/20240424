@@ -12495,3 +12495,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:57:42] INFO root fetch - processPackages [odoo-addon-account-statement-import-camt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_camt-16.0.1.0.2-py3-none-any.whl.zip]
 [2024-04-24 08:57:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-camt]: success
 [2024-04-24 08:57:42] INFO root fetch - main [MainThread]: Store serial: [22907700]
+[2024-04-24 08:59:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907700]
+[2024-04-24 08:59:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-04-24 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waylay-sdk-rules
+[2024-04-24 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waylay-sdk-rules-types
+[2024-04-24 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fractal-client
+[2024-04-24 08:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ATL-Tools
+[2024-04-24 08:59:50] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 08:59:50] INFO root fetch - processPackages [waylay-sdk-rules]: New version: [6.5.0rc1] Old Version: [6.5.0.20240423]
+[2024-04-24 08:59:50] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 08:59:51] INFO root fetch - processPackages [waylay-sdk-rules-types]: New version: [6.5.0rc1] Old Version: [6.5.0.20240423]
+[2024-04-24 08:59:51] INFO root fetch - processPackages [fractal-client]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-04-24 08:59:51] INFO root fetch - processPackages [ATL-Tools]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-24 08:59:51] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-24 08:59:51] INFO root fetch - processPackages [waylay-sdk-rules-types]: Downloading https://files.pythonhosted.org/packages/47/8f/96a2d2f18f2675df6d682aced7a2487a1affbd956a923e6c206ed1a36d6f/waylay_sdk_rules_types-6.5.0.20240423.tar.gz
+[2024-04-24 08:59:51] INFO root fetch - processPackages [waylay-sdk-rules]: Downloading https://files.pythonhosted.org/packages/44/d8/fde54ac5d42c4b0766c8e35dad8a377a3089db293193ad58a6d24b704ed1/waylay_sdk_rules-6.5.0.20240423.tar.gz
+[2024-04-24 08:59:51] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 08:59:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-24 08:59:51] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/7a/e5/1774328aa6df096a4cec5d7a0f819354e046ce26bd8365034fbd865f2cee/fractal_client-2.0.0a1.tar.gz
+[2024-04-24 08:59:51] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/da/4e/929b4bc4da7e1f552903b86133b505c4671357f1612b8b6366667e858f36/atl_tools-1.1.3.tar.gz
+[2024-04-24 08:59:51] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 08:59:51] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 08:59:51] INFO root fetch - processPackages [waylay-sdk-rules-types]: Downloading https://files.pythonhosted.org/packages/53/eb/17c422cfef4ae128e4ad50e8fde2248da4930d8eeea27fd263a79070c034/waylay-sdk-rules-types-6.5.0rc1.tar.gz
+[2024-04-24 08:59:51] INFO root fetch - processPackages [waylay-sdk-rules]: Downloading https://files.pythonhosted.org/packages/27/7d/60aff7e6544eef34fc5158b464cc5d6f6324741ffb07ebd76ab2517d69dc/waylay-sdk-rules-6.5.0rc1.tar.gz
+[2024-04-24 08:59:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-24 08:59:51] INFO root fetch - processPackages [fractal-client]: Downloading https://files.pythonhosted.org/packages/41/fa/ce1fd43d0de8a30048833115488e3030a4e82112f158bbc3be87520821f6/fractal_client-2.0.0a2.tar.gz
+[2024-04-24 08:59:51] INFO root fetch - processPackages [waylay-sdk-rules-types]: executing diffoscope
+[2024-04-24 08:59:51] INFO root fetch - processPackages [waylay-sdk-rules-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_rules_types-6.5.0.20240423.tar.gz tmp/waylay-sdk-rules-types-6.5.0rc1.tar.gz --markdown 20240424/w/waylay-sdk-rules-types/6.5.0.20240423-6.5.0rc1/README.md --exclude *.pyd
+[2024-04-24 08:59:51] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/c7/f8/9ce20255444783809f62fe746abf9bff1376f8efdf822203d7df8100532e/atl_tools-1.1.4.tar.gz
+[2024-04-24 08:59:51] INFO root fetch - processPackages [fractal-client]: executing diffoscope
+[2024-04-24 08:59:51] INFO root fetch - processPackages [fractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_client-2.0.0a1.tar.gz tmp/fractal_client-2.0.0a2.tar.gz --markdown 20240424/f/fractal-client/2.0.0a1-2.0.0a2/README.md --exclude *.pyd
+[2024-04-24 08:59:51] INFO root fetch - processPackages [waylay-sdk-rules]: executing diffoscope
+[2024-04-24 08:59:51] INFO root fetch - processPackages [waylay-sdk-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_rules-6.5.0.20240423.tar.gz tmp/waylay-sdk-rules-6.5.0rc1.tar.gz --markdown 20240424/w/waylay-sdk-rules/6.5.0.20240423-6.5.0rc1/README.md --exclude *.pyd
+[2024-04-24 08:59:51] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-24 08:59:51] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240424/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-24 08:59:51] INFO root fetch - processPackages [ATL-Tools]: executing diffoscope
+[2024-04-24 08:59:51] INFO root fetch - processPackages [ATL-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atl_tools-1.1.3.tar.gz tmp/atl_tools-1.1.4.tar.gz --markdown 20240424/A/ATL-Tools/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-24 08:59:52] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 08:59:52] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 08:59:52] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 08:59:52] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-2.0.0a1.tar.gz]
+[2024-04-24 08:59:52] INFO root fetch - processPackages [fractal-client]: Remove: archive file [/home/abi/fetcher/tmp/fractal_client-2.0.0a2.tar.gz]
+[2024-04-24 08:59:52] INFO root fetch - main [MainThread]: End processing [fractal-client]: success
+[2024-04-24 08:59:52] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.3.tar.gz]
+[2024-04-24 08:59:52] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.4.tar.gz]
+[2024-04-24 08:59:52] INFO root fetch - main [MainThread]: End processing [ATL-Tools]: success
+[2024-04-24 08:59:52] INFO root fetch - processPackages [waylay-sdk-rules]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_rules-6.5.0.20240423.tar.gz]
+[2024-04-24 08:59:52] INFO root fetch - processPackages [waylay-sdk-rules]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-rules-6.5.0rc1.tar.gz]
+[2024-04-24 08:59:52] INFO root fetch - main [MainThread]: End processing [waylay-sdk-rules]: success
+[2024-04-24 08:59:52] INFO root fetch - processPackages [waylay-sdk-rules-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_rules_types-6.5.0.20240423.tar.gz]
+[2024-04-24 08:59:52] INFO root fetch - processPackages [waylay-sdk-rules-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-rules-types-6.5.0rc1.tar.gz]
+[2024-04-24 08:59:52] INFO root fetch - main [MainThread]: End processing [waylay-sdk-rules-types]: success
+[2024-04-24 08:59:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-24 08:59:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-24 08:59:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-24 08:59:53] INFO root fetch - main [MainThread]: Store serial: [22907716]
