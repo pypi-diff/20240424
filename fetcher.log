@@ -8364,3 +8364,15 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:49:52] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.9.tar.gz]
 [2024-04-24 04:49:52] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2024-04-24 04:49:52] INFO root fetch - main [MainThread]: Store serial: [22906078]
+[2024-04-24 04:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906078]
+[2024-04-24 04:52:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 04:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neuralnetlib
+[2024-04-24 04:52:00] INFO root fetch - processPackages [neuralnetlib]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-24 04:52:00] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/57/82/43bc0e1e7a97f0ec8ad052ccde9f840e197e6f7e214846d535c8ae10d96d/neuralnetlib-2.3.1.tar.gz
+[2024-04-24 04:52:00] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/37/8b/e7dbc1a49b2876c548b891d4c45d585877a48b3b8ca4cfaf3f812e24cafa/neuralnetlib-2.3.2.tar.gz
+[2024-04-24 04:52:00] INFO root fetch - processPackages [neuralnetlib]: executing diffoscope
+[2024-04-24 04:52:00] INFO root fetch - processPackages [neuralnetlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralnetlib-2.3.1.tar.gz tmp/neuralnetlib-2.3.2.tar.gz --markdown 20240424/n/neuralnetlib/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-24 04:52:01] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.3.1.tar.gz]
+[2024-04-24 04:52:01] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.3.2.tar.gz]
+[2024-04-24 04:52:01] INFO root fetch - main [MainThread]: End processing [neuralnetlib]: success
+[2024-04-24 04:52:01] INFO root fetch - main [MainThread]: Store serial: [22906099]
