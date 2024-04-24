@@ -8681,3 +8681,15 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:09:00] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.4rc2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-24 05:09:00] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2024-04-24 05:09:00] INFO root fetch - main [MainThread]: Store serial: [22906245]
+[2024-04-24 05:11:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906245]
+[2024-04-24 05:11:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 05:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stonksfeed
+[2024-04-24 05:11:10] INFO root fetch - processPackages [stonksfeed]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-24 05:11:10] INFO root fetch - processPackages [stonksfeed]: Downloading https://files.pythonhosted.org/packages/fd/de/a207ccbf976740ea608641326d8c105bc2c4ec384dad60e0abdf2c35b5e0/stonksfeed-0.1.6.tar.gz
+[2024-04-24 05:11:11] INFO root fetch - processPackages [stonksfeed]: Downloading https://files.pythonhosted.org/packages/4c/d5/a92fd19bf4ecc65cbfa5dcaabea7dc768abcce76ab08a103be40eb2bef9c/stonksfeed-0.1.7.tar.gz
+[2024-04-24 05:11:11] INFO root fetch - processPackages [stonksfeed]: executing diffoscope
+[2024-04-24 05:11:11] INFO root fetch - processPackages [stonksfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonksfeed-0.1.6.tar.gz tmp/stonksfeed-0.1.7.tar.gz --markdown 20240424/s/stonksfeed/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-24 05:11:11] INFO root fetch - processPackages [stonksfeed]: Remove: archive file [/home/abi/fetcher/tmp/stonksfeed-0.1.6.tar.gz]
+[2024-04-24 05:11:11] INFO root fetch - processPackages [stonksfeed]: Remove: archive file [/home/abi/fetcher/tmp/stonksfeed-0.1.7.tar.gz]
+[2024-04-24 05:11:11] INFO root fetch - main [MainThread]: End processing [stonksfeed]: success
+[2024-04-24 05:11:11] INFO root fetch - main [MainThread]: Store serial: [22906251]
