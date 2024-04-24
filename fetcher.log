@@ -2096,3 +2096,81 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:02:03] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
 [2024-04-24 02:02:03] INFO root fetch - main [MainThread]: End processing [kayalab]: success
 [2024-04-24 02:02:03] INFO root fetch - main [MainThread]: Store serial: [22903654]
+[2024-04-24 02:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903654]
+[2024-04-24 02:04:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trace-attributes
+[2024-04-24 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Leonardo-Ai-SDK
+[2024-04-24 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alamos
+[2024-04-24 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synnax-freighter
+[2024-04-24 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fudstop
+[2024-04-24 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdss-target-selection
+[2024-04-24 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synnax
+[2024-04-24 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mct-nightly
+[2024-04-24 02:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Factorlib
+[2024-04-24 02:04:12] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-24 02:04:12] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-24 02:04:12] INFO root fetch - processPackages [fudstop]: New version: [2.5.6] Old Version: [2.5.5]
+[2024-04-24 02:04:12] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 02:04:12] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240423.418] Old Version: [2.0.0.20240422.447]
+[2024-04-24 02:04:12] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-04-24 02:04:12] INFO root fetch - processPackages [sdss-target-selection]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-24 02:04:12] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-04-24 02:04:12] INFO root fetch - processPackages [trace-attributes]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-24 02:04:12] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.6] Old Version: [5.3.5]
+[2024-04-24 02:04:12] WARNING root fetch - processPackages [Factorlib]: Skipping, unable to determine old version
+[2024-04-24 02:04:12] INFO root fetch - main [MainThread]: End processing [Factorlib] error
+[2024-04-24 02:04:12] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/47/1d/b44d0a666ad7dfde7a8635a95d6241671db501c8ed9f7dd576bdf7fe184e/synnax_freighter-0.6.8.tar.gz
+[2024-04-24 02:04:12] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/a8/eb/eb7cfea581c128f6e1e2b5429b0356ba4ba2461b1e48a9e215ecdabecdb9/mct-nightly-2.0.0.20240422.447.tar.gz
+[2024-04-24 02:04:12] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/bd/4b/a01fffdfeaa498340b0f5de57dc358d8c9aa262ca90ce725be16d9e61921/fudstop-2.5.5.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [sdss-target-selection]: Downloading https://files.pythonhosted.org/packages/00/33/93704052273bc66d757263d0f175d2068c35e8169992bc956d2bb4cad966/sdss-target-selection-1.1.0.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/e0/05/d1296e9253cc41595c346cf455011f03eb7d027b436fc7b8745a295f1c89/trace-attributes-3.0.0.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/15/cb/468c68d1dd97a67c765195251bba8f00d92c59d4735ad86995daccf5215e/Leonardo-Ai-SDK-5.3.5.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-04-24 02:04:13] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240424/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-24 02:04:13] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/97/99/8375d1635ab3481a144b8507f5f4be9c85b138a7ecc2c616808ded325e74/synnax_freighter-0.6.9.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-04-24 02:04:13] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240424/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 02:04:13] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/fa/0b/0ae5b3fb112147a60086b00b2484eed0075c0dfc19d4a83dd012ce2ac71e/mct-nightly-2.0.0.20240423.418.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/70/5c/0fa8d55e587f238214ecf5add830cb2b15ea56ef91ac4d3f6ef683626f9b/fudstop-2.5.6.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-04-24 02:04:13] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.6.8.tar.gz tmp/synnax_freighter-0.6.9.tar.gz --markdown 20240424/s/synnax-freighter/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-24 02:04:13] INFO root fetch - processPackages [trace-attributes]: Downloading https://files.pythonhosted.org/packages/26/bc/db47d4bf5dd718077ee26ca97cc1f1e2250d73de74cebfb3b404dfb1f48c/trace_attributes-3.0.1.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/b8/28/628e043a09e9aa7ec18e0dd489f2d0254593c91ba195a4cd4525c3403e19/Leonardo-Ai-SDK-5.3.6.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-24 02:04:13] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240422.447.tar.gz tmp/mct-nightly-2.0.0.20240423.418.tar.gz --markdown 20240424/m/mct-nightly/2.0.0.20240422.447-2.0.0.20240423.418/README.md --exclude *.pyd
+[2024-04-24 02:04:13] INFO root fetch - processPackages [trace-attributes]: executing diffoscope
+[2024-04-24 02:04:13] INFO root fetch - processPackages [trace-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trace-attributes-3.0.0.tar.gz tmp/trace_attributes-3.0.1.tar.gz --markdown 20240424/t/trace-attributes/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-24 02:04:13] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-04-24 02:04:13] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.5.5.tar.gz tmp/fudstop-2.5.6.tar.gz --markdown 20240424/f/fudstop/2.5.5-2.5.6/README.md --exclude *.pyd
+[2024-04-24 02:04:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-04-24 02:04:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.3.5.tar.gz tmp/Leonardo-Ai-SDK-5.3.6.tar.gz --markdown 20240424/L/Leonardo-Ai-SDK/5.3.5-5.3.6/README.md --exclude *.pyd
+[2024-04-24 02:04:13] INFO root fetch - processPackages [sdss-target-selection]: Downloading https://files.pythonhosted.org/packages/7d/50/74ecb7865e446fff9e104081c44d516593770c52300fa3ef9f85b3a9e1dc/sdss_target_selection-1.2.0.tar.gz
+[2024-04-24 02:04:13] INFO root fetch - processPackages [sdss-target-selection]: executing diffoscope
+[2024-04-24 02:04:13] INFO root fetch - processPackages [sdss-target-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss-target-selection-1.1.0.tar.gz tmp/sdss_target_selection-1.2.0.tar.gz --markdown 20240424/s/sdss-target-selection/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-24 02:04:14] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-04-24 02:04:14] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.8.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.9.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-04-24 02:04:14] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-04-24 02:04:14] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace-attributes-3.0.0.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - processPackages [trace-attributes]: Remove: archive file [/home/abi/fetcher/tmp/trace_attributes-3.0.1.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - main [MainThread]: End processing [trace-attributes]: success
+[2024-04-24 02:04:14] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.5.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.6.tar.gz]
+[2024-04-24 02:04:14] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-04-24 02:04:15] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.5.tar.gz]
+[2024-04-24 02:04:15] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.6.tar.gz]
+[2024-04-24 02:04:15] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-04-24 02:04:15] INFO root fetch - processPackages [sdss-target-selection]: Remove: archive file [/home/abi/fetcher/tmp/sdss-target-selection-1.1.0.tar.gz]
+[2024-04-24 02:04:15] INFO root fetch - processPackages [sdss-target-selection]: Remove: archive file [/home/abi/fetcher/tmp/sdss_target_selection-1.2.0.tar.gz]
+[2024-04-24 02:04:15] INFO root fetch - main [MainThread]: End processing [sdss-target-selection]: success
+[2024-04-24 02:04:15] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240422.447.tar.gz]
+[2024-04-24 02:04:15] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240423.418.tar.gz]
+[2024-04-24 02:04:15] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-24 02:04:15] INFO root fetch - main [MainThread]: Store serial: [22903675]
