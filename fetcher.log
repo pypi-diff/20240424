@@ -7341,3 +7341,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:39:42] INFO root fetch - processPackages [openfinance]: Remove: archive file [/home/abi/fetcher/tmp/openfinance-3.3.3.tar.gz]
 [2024-04-24 03:39:42] INFO root fetch - main [MainThread]: End processing [openfinance]: success
 [2024-04-24 03:39:42] INFO root fetch - main [MainThread]: Store serial: [22905601]
+[2024-04-24 03:41:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905601]
+[2024-04-24 03:41:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 03:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-pgbulk
+[2024-04-24 03:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeUtils
+[2024-04-24 03:41:50] INFO root fetch - processPackages [MeUtils]: New version: [2024.4.23.11.9.43] Old Version: [2024.4.11.9.16.11]
+[2024-04-24 03:41:51] INFO root fetch - processPackages [django-pgbulk]: New version: [2.4.0] Old Version: [2.3.1]
+[2024-04-24 03:41:51] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/d7/0f/dea3e24c5aa53d02b6ece96a91d67a0043f5a7c61f776eaecf95bb95200f/MeUtils-2024.4.11.9.16.11.tar.gz
+[2024-04-24 03:41:51] INFO root fetch - processPackages [django-pgbulk]: Downloading https://files.pythonhosted.org/packages/7d/d4/f4bb75647750c6992f51cd32bdd4de373fade4cce0a89e4f8b2375d0d254/django_pgbulk-2.3.1.tar.gz
+[2024-04-24 03:41:51] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/a2/22/c05b4f6461bdf1baf4831041268c4f903463fec38a2fdf911a6f85a96787/MeUtils-2024.4.23.11.9.43.tar.gz
+[2024-04-24 03:41:51] INFO root fetch - processPackages [django-pgbulk]: Downloading https://files.pythonhosted.org/packages/11/74/d9857a37d4ec6d635a0cca1e86568d0a154db2d8a9e1eb9540288e0279a2/django_pgbulk-2.4.0.tar.gz
+[2024-04-24 03:41:51] INFO root fetch - processPackages [django-pgbulk]: executing diffoscope
+[2024-04-24 03:41:51] INFO root fetch - processPackages [django-pgbulk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pgbulk-2.3.1.tar.gz tmp/django_pgbulk-2.4.0.tar.gz --markdown 20240424/d/django-pgbulk/2.3.1-2.4.0/README.md --exclude *.pyd
+[2024-04-24 03:41:51] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-04-24 03:41:51] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.4.11.9.16.11.tar.gz tmp/MeUtils-2024.4.23.11.9.43.tar.gz --markdown 20240424/M/MeUtils/2024.4.11.9.16.11-2024.4.23.11.9.43/README.md --exclude *.pyd
+[2024-04-24 03:41:52] INFO root fetch - processPackages [django-pgbulk]: Remove: archive file [/home/abi/fetcher/tmp/django_pgbulk-2.3.1.tar.gz]
+[2024-04-24 03:41:52] INFO root fetch - processPackages [django-pgbulk]: Remove: archive file [/home/abi/fetcher/tmp/django_pgbulk-2.4.0.tar.gz]
+[2024-04-24 03:41:52] INFO root fetch - main [MainThread]: End processing [django-pgbulk]: success
+[2024-04-24 03:41:53] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.11.9.16.11.tar.gz]
+[2024-04-24 03:41:53] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.23.11.9.43.tar.gz]
+[2024-04-24 03:41:53] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-04-24 03:41:53] INFO root fetch - main [MainThread]: Store serial: [22905607]
