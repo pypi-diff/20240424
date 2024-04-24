@@ -23024,3 +23024,147 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:47:53] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
 [2024-04-24 14:47:53] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
 [2024-04-24 14:47:53] INFO root fetch - main [MainThread]: Store serial: [22912226]
+[2024-04-24 14:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912226]
+[2024-04-24 14:50:18] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secureli
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-hub
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: determined
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gluepy
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nkululeko
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aau-ais-utilities
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neet-nanopore
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: freegenius
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: getai
+[2024-04-24 14:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aau-ais-dipaal
+[2024-04-24 14:50:19] INFO root fetch - processPackages [model-hub]: New version: [0.31.1rc0] Old Version: [0.31.0rc7]
+[2024-04-24 14:50:19] INFO root fetch - processPackages [determined]: New version: [0.31.1rc0] Old Version: [0.31.0rc7]
+[2024-04-24 14:50:19] INFO root fetch - processPackages [getai]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-24 14:50:19] INFO root fetch - processPackages [nkululeko]: New version: [0.82.2] Old Version: [0.82.1]
+[2024-04-24 14:50:19] INFO root fetch - processPackages [freegenius]: New version: [0.0.92] Old Version: [0.0.91]
+[2024-04-24 14:50:19] INFO root fetch - processPackages [neet-nanopore]: New version: [1.0.0] Old Version: [0.0.4]
+[2024-04-24 14:50:19] INFO root fetch - processPackages [gluepy]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-24 14:50:19] WARNING root fetch - processPackages [aau-ais-utilities]: Skipping, unable to determine old version
+[2024-04-24 14:50:19] INFO root fetch - processPackages [aau-ais-utilities]: Start processing: flowclient
+[2024-04-24 14:50:19] INFO root fetch - main [MainThread]: End processing [aau-ais-utilities] error
+[2024-04-24 14:50:19] WARNING root fetch - processPackages [aau-ais-dipaal]: Skipping, unable to determine old version
+[2024-04-24 14:50:19] INFO root fetch - processPackages [aau-ais-dipaal]: Start processing: flowetl
+[2024-04-24 14:50:19] INFO root fetch - main [MainThread]: End processing [aau-ais-dipaal] error
+[2024-04-24 14:50:19] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/cf/e9/7f26dbea9be9b2f08af8a0d95186434ec955b457b6ded5e24231769c7908/nkululeko-0.82.1.tar.gz
+[2024-04-24 14:50:19] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/c7/20/f02e4e20dbb9cf255f3301387a4d2b57ed85162e69241a35060ba242c85a/model_hub-0.31.0rc7-py3-none-any.whl
+[2024-04-24 14:50:19] INFO root fetch - processPackages [secureli]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-24 14:50:19] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/65/15/1eff434b2e336a66cf78dee19b4a9494b94cac16dc787e49d180743d6f6e/getai-0.0.7.tar.gz
+[2024-04-24 14:50:19] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/64/bb/672a3b630118736efae69b603c34b135682017c35a29655f76fb47b76e35/determined-0.31.0rc7-py3-none-any.whl
+[2024-04-24 14:50:19] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-04-24 14:50:19] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/ed/e7/99600ff21d33f8ef96af44dcaccbf440fb94069d58c2fdf3bdb82b75e920/freegenius-0.0.91.tar.gz
+[2024-04-24 14:50:19] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-04-24 14:50:19] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/30/59/91f8c195baf4163a81689654f11c5377e981b9fd073aabece5b507eb3353/gluepy-1.1.2.tar.gz
+[2024-04-24 14:50:19] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-04-24 14:50:19] INFO root fetch - processPackages [neet-nanopore]: Downloading https://files.pythonhosted.org/packages/db/92/015ec39be6a36e545d4bb87eee3b5201540788b7b4bbc7c92d8ffe0eaa3e/neet-nanopore-0.0.4.tar.gz
+[2024-04-24 14:50:19] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/06/5b/2cf31b68ee31c1d8546efad30c2a69e7aea4c5d5e7f964d4153bea2b45c2/secureli-0.9.0.tar.gz
+[2024-04-24 14:50:19] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-04-24 14:50:19] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/68/22/ad433f17cc97bcd0be7e0834c877e90926e19a7aebaa1364268a39d344cb/model_hub-0.31.1rc0-py3-none-any.whl
+[2024-04-24 14:50:19] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/95/07/f9e8eca5b5a34c1a136c318815f571182304bf3b418450754ad4982fe394/nkululeko-0.82.2.tar.gz
+[2024-04-24 14:50:19] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/8a/03/f17178f670a2a83bff516a48d9a2b2b76162c0e22352a708ee6c18dcf29f/determined-0.31.1rc0-py3-none-any.whl
+[2024-04-24 14:50:19] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2024-04-24 14:50:19] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.31.0rc7-py3-none-any.whl.zip tmp/model_hub-0.31.1rc0-py3-none-any.whl.zip --markdown 20240424/m/model-hub/0.31.0rc7-0.31.1rc0/README.md --exclude *.pyd
+[2024-04-24 14:50:19] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/a7/43/9966370c6f830cadd08409c433db00c235306b870ceb5e1e7896549fea6b/getai-0.0.8.tar.gz
+[2024-04-24 14:50:19] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-04-24 14:50:19] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-04-24 14:50:19] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-04-24 14:50:19] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.82.1.tar.gz tmp/nkululeko-0.82.2.tar.gz --markdown 20240424/n/nkululeko/0.82.1-0.82.2/README.md --exclude *.pyd
+[2024-04-24 14:50:19] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/4f/bc/6b9dbf66081bf236634707cdf9c18f3de80535ad44d3f3e73fa8f887817c/secureli-0.9.1.tar.gz
+[2024-04-24 14:50:19] INFO root fetch - processPackages [getai]: executing diffoscope
+[2024-04-24 14:50:19] INFO root fetch - processPackages [getai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getai-0.0.7.tar.gz tmp/getai-0.0.8.tar.gz --markdown 20240424/g/getai/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-24 14:50:19] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-04-24 14:50:19] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240424/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-04-24 14:50:19] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/2a/3d/bff40ad9dad072edac5594e42b1da34c8d9fd312a4f883c2174a03d8e105/gluepy-1.1.3.tar.gz
+[2024-04-24 14:50:20] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-04-24 14:50:20] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240424/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-04-24 14:50:20] INFO root fetch - processPackages [neet-nanopore]: Downloading https://files.pythonhosted.org/packages/71/0b/c664dbfd3e6806cb3577bc81cae0148842139f9372673f54dfa0e76f9463/neet_nanopore-1.0.0.tar.gz
+[2024-04-24 14:50:20] INFO root fetch - processPackages [determined]: executing diffoscope
+[2024-04-24 14:50:20] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.31.0rc7-py3-none-any.whl.zip tmp/determined-0.31.1rc0-py3-none-any.whl.zip --markdown 20240424/d/determined/0.31.0rc7-0.31.1rc0/README.md --exclude *.pyd
+[2024-04-24 14:50:20] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2024-04-24 14:50:20] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.9.0.tar.gz tmp/secureli-0.9.1.tar.gz --markdown 20240424/s/secureli/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-24 14:50:20] INFO root fetch - processPackages [gluepy]: executing diffoscope
+[2024-04-24 14:50:20] INFO root fetch - processPackages [gluepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluepy-1.1.2.tar.gz tmp/gluepy-1.1.3.tar.gz --markdown 20240424/g/gluepy/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-24 14:50:20] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/ab/40/b4555370edfec394f0f43cb0822dc0dad2b150aec731feed6ff9b49ef5a9/freegenius-0.0.92.tar.gz
+[2024-04-24 14:50:20] INFO root fetch - processPackages [neet-nanopore]: executing diffoscope
+[2024-04-24 14:50:20] INFO root fetch - processPackages [neet-nanopore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neet-nanopore-0.0.4.tar.gz tmp/neet_nanopore-1.0.0.tar.gz --markdown 20240424/n/neet-nanopore/0.0.4-1.0.0/README.md --exclude *.pyd
+[2024-04-24 14:50:20] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc7-py3-none-any.whl.zip]
+[2024-04-24 14:50:20] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.1rc0-py3-none-any.whl.zip]
+[2024-04-24 14:50:20] INFO root fetch - processPackages [model-hub]: Start processing: django-ninja-oauth2
+[2024-04-24 14:50:20] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2024-04-24 14:50:20] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-24 14:50:20] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.91.tar.gz tmp/freegenius-0.0.92.tar.gz --markdown 20240424/f/freegenius/0.0.91-0.0.92/README.md --exclude *.pyd
+[2024-04-24 14:50:20] INFO root fetch - processPackages [django-ninja-oauth2]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 14:50:20] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.7.tar.gz]
+[2024-04-24 14:50:20] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.8.tar.gz]
+[2024-04-24 14:50:20] INFO root fetch - processPackages [getai]: Start processing: aporacle
+[2024-04-24 14:50:20] INFO root fetch - main [MainThread]: End processing [getai]: success
+[2024-04-24 14:50:20] INFO root fetch - processPackages [aporacle]: New version: [0.0.141] Old Version: [0.0.140]
+[2024-04-24 14:50:20] INFO root fetch - processPackages [django-ninja-oauth2]: Downloading https://files.pythonhosted.org/packages/47/0b/ac159ad462e679f5654f32c49f08f2b40b660b73ad55492c069845f9162c/django_ninja_oauth2-0.1.1.tar.gz
+[2024-04-24 14:50:20] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/34/f6/91147c4f906c6f81e04189e69c69a0f54d2c54a491577e0b2a6d485c38a0/aporacle-0.0.140.tar.gz
+[2024-04-24 14:50:21] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-1.1.2.tar.gz]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-1.1.3.tar.gz]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [gluepy]: Start processing: ckanext-fpx
+[2024-04-24 14:50:21] INFO root fetch - main [MainThread]: End processing [gluepy]: success
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowclient]: Start processing: flowmachine
+[2024-04-24 14:50:21] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-04-24 14:50:21] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.9.0.tar.gz]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.9.1.tar.gz]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [secureli]: Start processing: frequenz-api-reporting
+[2024-04-24 14:50:21] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [ckanext-fpx]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-04-24 14:50:21] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-04-24 14:50:21] INFO root fetch - processPackages [django-ninja-oauth2]: Downloading https://files.pythonhosted.org/packages/ff/7e/83a493090d1058262ecd9c6fb93a3a0cd60003e60418cf1a11b7ea9d49a8/django_ninja_oauth2-0.1.2.tar.gz
+[2024-04-24 14:50:21] INFO root fetch - processPackages [frequenz-api-reporting]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/08/36/89168ee984b391e88516ff4769e18088a9c7fe41c18919b9cf54683581dc/aporacle-0.0.141.tar.gz
+[2024-04-24 14:50:21] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.82.1.tar.gz]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.82.2.tar.gz]
+[2024-04-24 14:50:21] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-04-24 14:50:21] INFO root fetch - processPackages [ckanext-fpx]: Downloading https://files.pythonhosted.org/packages/11/db/c307edb2ac8261ac8df4cbf63c0df955e2586e49c870c09a7a8c55d0690f/ckanext-fpx-0.6.2.tar.gz
+[2024-04-24 14:50:21] INFO root fetch - processPackages [neet-nanopore]: Remove: archive file [/home/abi/fetcher/tmp/neet-nanopore-0.0.4.tar.gz]
+[2024-04-24 14:50:21] INFO root fetch - processPackages [django-ninja-oauth2]: executing diffoscope
+[2024-04-24 14:50:21] INFO root fetch - processPackages [django-ninja-oauth2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ninja_oauth2-0.1.1.tar.gz tmp/django_ninja_oauth2-0.1.2.tar.gz --markdown 20240424/d/django-ninja-oauth2/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 14:50:21] INFO root fetch - processPackages [neet-nanopore]: Remove: archive file [/home/abi/fetcher/tmp/neet_nanopore-1.0.0.tar.gz]
+[2024-04-24 14:50:21] INFO root fetch - main [MainThread]: End processing [neet-nanopore]: success
+[2024-04-24 14:50:21] INFO root fetch - processPackages [aporacle]: executing diffoscope
+[2024-04-24 14:50:21] INFO root fetch - processPackages [aporacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporacle-0.0.140.tar.gz tmp/aporacle-0.0.141.tar.gz --markdown 20240424/a/aporacle/0.0.140-0.0.141/README.md --exclude *.pyd
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-04-24 14:50:21] INFO root fetch - processPackages [frequenz-api-reporting]: Downloading https://files.pythonhosted.org/packages/9d/7e/6fb7b14546217d72760eff7fa65b6d74fe2306aca4555a80a464559f9c89/frequenz-api-reporting-0.1.1.tar.gz
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-04-24 14:50:21] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240424/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-04-24 14:50:21] INFO root fetch - processPackages [ckanext-fpx]: Downloading https://files.pythonhosted.org/packages/9d/e3/f1d5bc387d28cb43281f02b5e00118cb696ea59b7b4cacee9e4bc9633afd/ckanext_fpx-0.6.3.tar.gz
+[2024-04-24 14:50:22] INFO root fetch - processPackages [frequenz-api-reporting]: Downloading https://files.pythonhosted.org/packages/7f/11/7c72dde83e385ab9f98273b6c1b7503c375d2b840a6ecf132a2e506bdd66/frequenz-api-reporting-0.2.0.tar.gz
+[2024-04-24 14:50:22] INFO root fetch - processPackages [ckanext-fpx]: executing diffoscope
+[2024-04-24 14:50:22] INFO root fetch - processPackages [ckanext-fpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-fpx-0.6.2.tar.gz tmp/ckanext_fpx-0.6.3.tar.gz --markdown 20240424/c/ckanext-fpx/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-24 14:50:22] INFO root fetch - processPackages [django-ninja-oauth2]: Remove: archive file [/home/abi/fetcher/tmp/django_ninja_oauth2-0.1.1.tar.gz]
+[2024-04-24 14:50:22] INFO root fetch - processPackages [django-ninja-oauth2]: Remove: archive file [/home/abi/fetcher/tmp/django_ninja_oauth2-0.1.2.tar.gz]
+[2024-04-24 14:50:22] INFO root fetch - main [MainThread]: End processing [django-ninja-oauth2]: success
+[2024-04-24 14:50:22] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.140.tar.gz]
+[2024-04-24 14:50:22] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.141.tar.gz]
+[2024-04-24 14:50:22] INFO root fetch - main [MainThread]: End processing [aporacle]: success
+[2024-04-24 14:50:22] INFO root fetch - processPackages [frequenz-api-reporting]: executing diffoscope
+[2024-04-24 14:50:22] INFO root fetch - processPackages [frequenz-api-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-reporting-0.1.1.tar.gz tmp/frequenz-api-reporting-0.2.0.tar.gz --markdown 20240424/f/frequenz-api-reporting/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 14:50:22] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.91.tar.gz]
+[2024-04-24 14:50:22] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.92.tar.gz]
+[2024-04-24 14:50:22] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-24 14:50:22] INFO root fetch - processPackages [ckanext-fpx]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-fpx-0.6.2.tar.gz]
+[2024-04-24 14:50:22] INFO root fetch - processPackages [ckanext-fpx]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_fpx-0.6.3.tar.gz]
+[2024-04-24 14:50:22] INFO root fetch - main [MainThread]: End processing [ckanext-fpx]: success
+[2024-04-24 14:50:22] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc7-py3-none-any.whl.zip]
+[2024-04-24 14:50:22] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.1rc0-py3-none-any.whl.zip]
+[2024-04-24 14:50:22] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2024-04-24 14:50:22] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-04-24 14:50:22] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-04-24 14:50:22] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-04-24 14:50:23] INFO root fetch - processPackages [frequenz-api-reporting]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-reporting-0.1.1.tar.gz]
+[2024-04-24 14:50:23] INFO root fetch - processPackages [frequenz-api-reporting]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-reporting-0.2.0.tar.gz]
+[2024-04-24 14:50:23] INFO root fetch - main [MainThread]: End processing [frequenz-api-reporting]: success
+[2024-04-24 14:50:23] INFO root fetch - main [MainThread]: Store serial: [22912276]
