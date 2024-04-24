@@ -22896,3 +22896,56 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:42:54] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.33.tar.gz]
 [2024-04-24 14:42:54] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
 [2024-04-24 14:42:54] INFO root fetch - main [MainThread]: Store serial: [22912175]
+[2024-04-24 14:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912175]
+[2024-04-24 14:45:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 14:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tests-web-linda
+[2024-04-24 14:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tomlparams
+[2024-04-24 14:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2024-04-24 14:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: efinance
+[2024-04-24 14:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antigrav
+[2024-04-24 14:45:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-llm
+[2024-04-24 14:45:21] INFO root fetch - processPackages [antigrav]: New version: [1.1] Old Version: [1.0]
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tests-web-linda]: New version: [0.4] Old Version: [0.3]
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tomlparams]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-24 14:45:21] INFO root fetch - processPackages [antigrav]: Downloading https://files.pythonhosted.org/packages/b4/a7/445a98781e7f5a773f89609993bace31b2d24d3c800b53570ab4b905629c/antigrav-1.0.tar.gz
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tests-web-linda]: Downloading https://files.pythonhosted.org/packages/83/91/030774d737be3c706c265d3e0f0204017e428849b973ac668aa21f8c2bbd/tests_web_linda-0.3.tar.gz
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tomlparams]: Downloading https://files.pythonhosted.org/packages/ac/c4/8c494d3b8436a1c797f046af5ced8dd0768b15a4f5a8790fec05550c1bc0/tomlparams-0.1.8.tar.gz
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-24 14:45:21] INFO root fetch - processPackages [efinance]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-24 14:45:21] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240424] Old Version: [2.5.0b20240423]
+[2024-04-24 14:45:21] WARNING root fetch - processPackages [tests-web-linda]: Skipping package: exceeds size limit 45141394>=10485760
+[2024-04-24 14:45:21] INFO root fetch - main [MainThread]: End processing [tests-web-linda] error
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tomlparams]: Downloading https://files.pythonhosted.org/packages/34/fc/c2e4a60804b8cb6daf06dbdd7c08b6150c12bfde9447f7ab85947fa84670/tomlparams-0.1.9.tar.gz
+[2024-04-24 14:45:21] INFO root fetch - processPackages [antigrav]: Downloading https://files.pythonhosted.org/packages/4e/08/55da469cd7a837bdf60d03011506b7029bd9273a46d57b09e260dfd9a8d2/antigrav-1.1.tar.gz
+[2024-04-24 14:45:21] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/72/b6/2e17eaf75a84f6921f740fc9733df740c2dc48379c5b94fea72ce6d0785d/bigdl_llm-2.5.0b20240423-py3-none-win_amd64.whl
+[2024-04-24 14:45:21] INFO root fetch - processPackages [efinance]: Downloading https://files.pythonhosted.org/packages/5e/97/da842b5c1dccf4f58853c5929b8a49cc8cafa5801ee0ca5f286b2ae6cd56/efinance-0.5.1.tar.gz
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tomlparams]: executing diffoscope
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tomlparams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomlparams-0.1.8.tar.gz tmp/tomlparams-0.1.9.tar.gz --markdown 20240424/t/tomlparams/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 14:45:21] INFO root fetch - processPackages [antigrav]: executing diffoscope
+[2024-04-24 14:45:21] INFO root fetch - processPackages [antigrav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antigrav-1.0.tar.gz tmp/antigrav-1.1.tar.gz --markdown 20240424/a/antigrav/1.0-1.1/README.md --exclude *.pyd
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-24 14:45:21] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240424/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-04-24 14:45:21] INFO root fetch - processPackages [efinance]: Downloading https://files.pythonhosted.org/packages/fc/9e/42d0fc3ea01fb1732ce93a5d8aaeb8b048f7cc3ccb9471716d11af9674ff/efinance-0.5.2.tar.gz
+[2024-04-24 14:45:22] INFO root fetch - processPackages [efinance]: executing diffoscope
+[2024-04-24 14:45:22] INFO root fetch - processPackages [efinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efinance-0.5.1.tar.gz tmp/efinance-0.5.2.tar.gz --markdown 20240424/e/efinance/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-24 14:45:22] INFO root fetch - processPackages [tomlparams]: Remove: archive file [/home/abi/fetcher/tmp/tomlparams-0.1.8.tar.gz]
+[2024-04-24 14:45:22] INFO root fetch - processPackages [tomlparams]: Remove: archive file [/home/abi/fetcher/tmp/tomlparams-0.1.9.tar.gz]
+[2024-04-24 14:45:22] INFO root fetch - main [MainThread]: End processing [tomlparams]: success
+[2024-04-24 14:45:22] INFO root fetch - processPackages [antigrav]: Remove: archive file [/home/abi/fetcher/tmp/antigrav-1.0.tar.gz]
+[2024-04-24 14:45:22] INFO root fetch - processPackages [antigrav]: Remove: archive file [/home/abi/fetcher/tmp/antigrav-1.1.tar.gz]
+[2024-04-24 14:45:22] INFO root fetch - main [MainThread]: End processing [antigrav]: success
+[2024-04-24 14:45:22] INFO root fetch - processPackages [efinance]: Remove: archive file [/home/abi/fetcher/tmp/efinance-0.5.1.tar.gz]
+[2024-04-24 14:45:22] INFO root fetch - processPackages [efinance]: Remove: archive file [/home/abi/fetcher/tmp/efinance-0.5.2.tar.gz]
+[2024-04-24 14:45:22] INFO root fetch - main [MainThread]: End processing [efinance]: success
+[2024-04-24 14:45:22] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/39/81/a2fb948e41d2900d66ecf7db62f4977f1a6659fd91c75aecc89d0bd87532/bigdl_llm-2.5.0b20240424-py3-none-win_amd64.whl
+[2024-04-24 14:45:22] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-24 14:45:22] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-24 14:45:22] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-24 14:45:23] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-04-24 14:45:23] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240423-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240424-py3-none-win_amd64.whl.zip --markdown 20240424/b/bigdl-llm/2.5.0b20240423-2.5.0b20240424/README.md --exclude *.pyd
+[2024-04-24 14:45:24] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240423-py3-none-win_amd64.whl.zip]
+[2024-04-24 14:45:24] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240424-py3-none-win_amd64.whl.zip]
+[2024-04-24 14:45:24] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-04-24 14:45:24] INFO root fetch - main [MainThread]: Store serial: [22912191]
