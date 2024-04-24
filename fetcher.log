@@ -9017,3 +9017,51 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:25:50] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
 [2024-04-24 05:25:50] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
 [2024-04-24 05:25:50] INFO root fetch - main [MainThread]: Store serial: [22906407]
+[2024-04-24 05:27:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906407]
+[2024-04-24 05:27:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 05:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldjcourse
+[2024-04-24 05:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aifs
+[2024-04-24 05:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-ddmrp-chatter
+[2024-04-24 05:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyleniumio
+[2024-04-24 05:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-ddmrp-report-part-flow-index
+[2024-04-24 05:27:59] INFO root fetch - processPackages [ldjcourse]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-24 05:27:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: New version: [16.0.1.1.1.1] Old Version: [16.0.1.1.1]
+[2024-04-24 05:27:59] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/3a/31/944ae63f69490efebbc2f4556eb2ac64676a29db8789c6251853b8cf45a2/ldjcourse-0.0.7.8.tar.gz
+[2024-04-24 05:27:59] INFO root fetch - processPackages [aifs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 05:27:59] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-24 05:27:59] INFO root fetch - processPackages [pyleniumio]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-04-24 05:27:59] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Downloading https://files.pythonhosted.org/packages/76/05/f1a5b3f5580a58e7b327005cfbcd41d4ca61b783f33686970ee300e78322/odoo_addon_ddmrp_chatter-16.0.1.1.1-py3-none-any.whl
+[2024-04-24 05:27:59] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/b2/d2/c485e7350bd66d1cc8ed02691aeb3f6bd93ffec7489788a41174a19a7592/odoo_addon_ddmrp_report_part_flow_index-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-24 05:27:59] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/b4/fa/c89a3aa31269ae21e83af15a6525b1a74639b9340e4abaf00fe86c9ceb50/ldjcourse-0.0.7.9.tar.gz
+[2024-04-24 05:27:59] INFO root fetch - processPackages [aifs]: Downloading https://files.pythonhosted.org/packages/77/4d/e645f0a6d50f78803115feca3770a5addb80c837b0d0da0c7c2459d44d9c/aifs-0.0.8.tar.gz
+[2024-04-24 05:28:00] INFO root fetch - processPackages [pyleniumio]: Downloading https://files.pythonhosted.org/packages/7d/83/db645666358063aa5e504f240ef33c6353ea1f2028f3fc7fb51c3b468568/pyleniumio-1.9.7.tar.gz
+[2024-04-24 05:28:00] INFO root fetch - processPackages [ldjcourse]: executing diffoscope
+[2024-04-24 05:28:00] INFO root fetch - processPackages [ldjcourse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldjcourse-0.0.7.8.tar.gz tmp/ldjcourse-0.0.7.9.tar.gz --markdown 20240424/l/ldjcourse/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-24 05:28:00] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Downloading https://files.pythonhosted.org/packages/6a/35/e28e2ff553a0555446efe7cacf64555d55097022f24bc2481f3f22bba9a1/odoo_addon_ddmrp_chatter-16.0.1.1.1.1-py3-none-any.whl
+[2024-04-24 05:28:00] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: executing diffoscope
+[2024-04-24 05:28:00] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_chatter-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_chatter-16.0.1.1.1.1-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-ddmrp-chatter/16.0.1.1.1-16.0.1.1.1.1/README.md --exclude *.pyd
+[2024-04-24 05:28:00] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/f6/57/4316619df4d573563d7726d64893360a3e545aa89a36bb3292eb06fb502c/odoo_addon_ddmrp_report_part_flow_index-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-24 05:28:00] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: executing diffoscope
+[2024-04-24 05:28:00] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-ddmrp-report-part-flow-index/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-24 05:28:00] INFO root fetch - processPackages [aifs]: Downloading https://files.pythonhosted.org/packages/66/12/f6096bda96f1e804b208056fd0f824c3afe2dbb038bd18876a378c41a3d1/aifs-0.0.9.tar.gz
+[2024-04-24 05:28:00] INFO root fetch - processPackages [pyleniumio]: Downloading https://files.pythonhosted.org/packages/6f/1e/2109ce3b0bbb9bbb766c1b6c86fd888cf24d4fc282ef8c43e2a59ab60e6c/pyleniumio-1.9.8.tar.gz
+[2024-04-24 05:28:00] INFO root fetch - processPackages [aifs]: executing diffoscope
+[2024-04-24 05:28:00] INFO root fetch - processPackages [aifs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifs-0.0.8.tar.gz tmp/aifs-0.0.9.tar.gz --markdown 20240424/a/aifs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 05:28:00] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.8.tar.gz]
+[2024-04-24 05:28:00] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.9.tar.gz]
+[2024-04-24 05:28:00] INFO root fetch - main [MainThread]: End processing [ldjcourse]: success
+[2024-04-24 05:28:00] INFO root fetch - processPackages [pyleniumio]: executing diffoscope
+[2024-04-24 05:28:00] INFO root fetch - processPackages [pyleniumio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyleniumio-1.9.7.tar.gz tmp/pyleniumio-1.9.8.tar.gz --markdown 20240424/p/pyleniumio/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-04-24 05:28:00] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_chatter-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-24 05:28:00] INFO root fetch - processPackages [odoo-addon-ddmrp-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_chatter-16.0.1.1.1.1-py3-none-any.whl.zip]
+[2024-04-24 05:28:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-chatter]: success
+[2024-04-24 05:28:01] INFO root fetch - processPackages [aifs]: Remove: archive file [/home/abi/fetcher/tmp/aifs-0.0.8.tar.gz]
+[2024-04-24 05:28:01] INFO root fetch - processPackages [aifs]: Remove: archive file [/home/abi/fetcher/tmp/aifs-0.0.9.tar.gz]
+[2024-04-24 05:28:01] INFO root fetch - main [MainThread]: End processing [aifs]: success
+[2024-04-24 05:28:01] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-24 05:28:01] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-24 05:28:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-report-part-flow-index]: success
+[2024-04-24 05:28:01] INFO root fetch - processPackages [pyleniumio]: Remove: archive file [/home/abi/fetcher/tmp/pyleniumio-1.9.7.tar.gz]
+[2024-04-24 05:28:01] INFO root fetch - processPackages [pyleniumio]: Remove: archive file [/home/abi/fetcher/tmp/pyleniumio-1.9.8.tar.gz]
+[2024-04-24 05:28:01] INFO root fetch - main [MainThread]: End processing [pyleniumio]: success
+[2024-04-24 05:28:01] INFO root fetch - main [MainThread]: Store serial: [22906419]
