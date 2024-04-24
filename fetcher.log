@@ -23425,3 +23425,59 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 15:00:21] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.5.3.tar.gz]
 [2024-04-24 15:00:21] INFO root fetch - main [MainThread]: End processing [youqu]: success
 [2024-04-24 15:00:21] INFO root fetch - main [MainThread]: Store serial: [22912393]
+[2024-04-24 15:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912393]
+[2024-04-24 15:02:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 15:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ontopint
+[2024-04-24 15:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-kf
+[2024-04-24 15:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peaks2utr
+[2024-04-24 15:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brynq-sdk-leapsome
+[2024-04-24 15:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiida-bader
+[2024-04-24 15:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swanspawner
+[2024-04-24 15:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inewave
+[2024-04-24 15:02:47] INFO root fetch - processPackages [brynq-sdk-leapsome]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 15:02:47] INFO root fetch - processPackages [torch-kf]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 15:02:48] INFO root fetch - processPackages [aiida-bader]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 15:02:48] WARNING root fetch - processPackages [ontopint]: Skipping, unable to determine old version
+[2024-04-24 15:02:48] INFO root fetch - main [MainThread]: End processing [ontopint] error
+[2024-04-24 15:02:48] INFO root fetch - processPackages [torch-kf]: Downloading https://files.pythonhosted.org/packages/9b/fa/693b4bd1256fcc401ccd988d410a522261345d6bf310906c501fb1cee885/torch_kf-0.0.1.tar.gz
+[2024-04-24 15:02:48] INFO root fetch - processPackages [swanspawner]: New version: [1.2.0] Old Version: [1.1.3]
+[2024-04-24 15:02:48] INFO root fetch - processPackages [peaks2utr]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-24 15:02:48] INFO root fetch - processPackages [inewave]: New version: [1.8.0] Old Version: [1.7.5]
+[2024-04-24 15:02:48] INFO root fetch - processPackages [brynq-sdk-leapsome]: Downloading https://files.pythonhosted.org/packages/42/3c/3cc5ff6edb22ec6b60f193cd0ca7b45d020e8dc1da58f9aa7d562c2c5be4/brynq_sdk_leapsome-1.0.0.tar.gz
+[2024-04-24 15:02:48] INFO root fetch - processPackages [aiida-bader]: Downloading https://files.pythonhosted.org/packages/c9/96/70d02f4d2cce6ec6696c1a46eb097e5563277656644559c6ca21040b96c5/aiida-bader-0.0.2.tar.gz
+[2024-04-24 15:02:48] INFO root fetch - processPackages [swanspawner]: Downloading https://files.pythonhosted.org/packages/6f/68/198b5541fba9471fff9903ce8359ba239d234e1848530e9ded2dac6d763d/swanspawner-1.1.3.tar.gz
+[2024-04-24 15:02:48] INFO root fetch - processPackages [peaks2utr]: Downloading https://files.pythonhosted.org/packages/d5/3c/8da05f2380404b8e4f06b8e3a40df7ff9a12d3a109a291aff9b2ef0cf3b7/peaks2utr-1.2.5.tar.gz
+[2024-04-24 15:02:48] INFO root fetch - processPackages [torch-kf]: Downloading https://files.pythonhosted.org/packages/a0/ab/34b672827e29b8cbe8532fc5d6a811815c766c4cccfcb36a2cdf9221ebe1/torch_kf-0.0.2.tar.gz
+[2024-04-24 15:02:48] INFO root fetch - processPackages [inewave]: Downloading https://files.pythonhosted.org/packages/ba/0d/d4391aba0f38bd1f9b175ca6fdd66d0e3c705a6ad951b46d817fb03842cd/inewave-1.7.5.tar.gz
+[2024-04-24 15:02:48] WARNING root fetch - processPackages [peaks2utr]: Skipping package: exceeds size limit 10596291>=10485760
+[2024-04-24 15:02:48] INFO root fetch - main [MainThread]: End processing [peaks2utr] error
+[2024-04-24 15:02:48] INFO root fetch - processPackages [torch-kf]: executing diffoscope
+[2024-04-24 15:02:48] INFO root fetch - processPackages [torch-kf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_kf-0.0.1.tar.gz tmp/torch_kf-0.0.2.tar.gz --markdown 20240424/t/torch-kf/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 15:02:48] INFO root fetch - processPackages [brynq-sdk-leapsome]: Downloading https://files.pythonhosted.org/packages/c8/ff/31bee51702d048e09a42cc153cadd526ac87c7eeea109f87ae505ac8ca7d/brynq_sdk_leapsome-1.0.1.tar.gz
+[2024-04-24 15:02:48] INFO root fetch - processPackages [aiida-bader]: Downloading https://files.pythonhosted.org/packages/b6/12/b717c8db613a79bf3e73cc1e018bacab8df16f2fc177ba26a771ea31e191/aiida_bader-0.0.3.tar.gz
+[2024-04-24 15:02:48] INFO root fetch - processPackages [brynq-sdk-leapsome]: executing diffoscope
+[2024-04-24 15:02:48] INFO root fetch - processPackages [brynq-sdk-leapsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brynq_sdk_leapsome-1.0.0.tar.gz tmp/brynq_sdk_leapsome-1.0.1.tar.gz --markdown 20240424/b/brynq-sdk-leapsome/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 15:02:48] INFO root fetch - processPackages [swanspawner]: Downloading https://files.pythonhosted.org/packages/76/c5/2e23baf31a38c6bd9e34b2f08d0badeea72f81b43b884646647fa9f831a7/swanspawner-1.2.0.tar.gz
+[2024-04-24 15:02:48] INFO root fetch - processPackages [aiida-bader]: executing diffoscope
+[2024-04-24 15:02:48] INFO root fetch - processPackages [aiida-bader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-bader-0.0.2.tar.gz tmp/aiida_bader-0.0.3.tar.gz --markdown 20240424/a/aiida-bader/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 15:02:48] INFO root fetch - processPackages [swanspawner]: executing diffoscope
+[2024-04-24 15:02:48] INFO root fetch - processPackages [swanspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanspawner-1.1.3.tar.gz tmp/swanspawner-1.2.0.tar.gz --markdown 20240424/s/swanspawner/1.1.3-1.2.0/README.md --exclude *.pyd
+[2024-04-24 15:02:49] INFO root fetch - processPackages [torch-kf]: Remove: archive file [/home/abi/fetcher/tmp/torch_kf-0.0.1.tar.gz]
+[2024-04-24 15:02:49] INFO root fetch - processPackages [torch-kf]: Remove: archive file [/home/abi/fetcher/tmp/torch_kf-0.0.2.tar.gz]
+[2024-04-24 15:02:49] INFO root fetch - main [MainThread]: End processing [torch-kf]: success
+[2024-04-24 15:02:49] INFO root fetch - processPackages [brynq-sdk-leapsome]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_leapsome-1.0.0.tar.gz]
+[2024-04-24 15:02:49] INFO root fetch - processPackages [brynq-sdk-leapsome]: Remove: archive file [/home/abi/fetcher/tmp/brynq_sdk_leapsome-1.0.1.tar.gz]
+[2024-04-24 15:02:49] INFO root fetch - main [MainThread]: End processing [brynq-sdk-leapsome]: success
+[2024-04-24 15:02:49] INFO root fetch - processPackages [aiida-bader]: Remove: archive file [/home/abi/fetcher/tmp/aiida-bader-0.0.2.tar.gz]
+[2024-04-24 15:02:49] INFO root fetch - processPackages [aiida-bader]: Remove: archive file [/home/abi/fetcher/tmp/aiida_bader-0.0.3.tar.gz]
+[2024-04-24 15:02:49] INFO root fetch - main [MainThread]: End processing [aiida-bader]: success
+[2024-04-24 15:02:49] INFO root fetch - processPackages [swanspawner]: Remove: archive file [/home/abi/fetcher/tmp/swanspawner-1.1.3.tar.gz]
+[2024-04-24 15:02:49] INFO root fetch - processPackages [swanspawner]: Remove: archive file [/home/abi/fetcher/tmp/swanspawner-1.2.0.tar.gz]
+[2024-04-24 15:02:49] INFO root fetch - main [MainThread]: End processing [swanspawner]: success
+[2024-04-24 15:02:49] INFO root fetch - processPackages [inewave]: Downloading https://files.pythonhosted.org/packages/95/bf/2c12f99d1d443e2ab1bfc4ac8846b93e30080dc90803d3cc76ec0a538f9b/inewave-1.8.0.tar.gz
+[2024-04-24 15:02:50] INFO root fetch - processPackages [inewave]: executing diffoscope
+[2024-04-24 15:02:50] INFO root fetch - processPackages [inewave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inewave-1.7.5.tar.gz tmp/inewave-1.8.0.tar.gz --markdown 20240424/i/inewave/1.7.5-1.8.0/README.md --exclude *.pyd
+[2024-04-24 15:02:57] INFO root fetch - processPackages [inewave]: Remove: archive file [/home/abi/fetcher/tmp/inewave-1.7.5.tar.gz]
+[2024-04-24 15:02:57] INFO root fetch - processPackages [inewave]: Remove: archive file [/home/abi/fetcher/tmp/inewave-1.8.0.tar.gz]
+[2024-04-24 15:02:57] INFO root fetch - main [MainThread]: End processing [inewave]: success
+[2024-04-24 15:02:57] INFO root fetch - main [MainThread]: Store serial: [22912417]
