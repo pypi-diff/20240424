@@ -11450,3 +11450,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:51:06] INFO root fetch - processPackages [localcosmos-app-kit]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit-0.2.3.tar.gz]
 [2024-04-24 07:51:06] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit]: success
 [2024-04-24 07:51:06] INFO root fetch - main [MainThread]: Store serial: [22907336]
+[2024-04-24 07:53:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907336]
+[2024-04-24 07:53:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nullspace-optimizer
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MinVectorDB
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-cancel-reason
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eidolon_ai_client
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eidolon-ai-usage-client
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eidolon-ai-sdk
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-shipping-info-helper
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-fixed-discount
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotframework-parrot-relaycontroller
+[2024-04-24 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-sale-elaboration
+[2024-04-24 07:53:16] INFO root fetch - processPackages [MinVectorDB]: New version: [0.3.0] Old Version: [0.2.7]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [nullspace-optimizer]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon-ai-usage-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon_ai_client]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [robotframework-parrot-relaycontroller]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: New version: [16.0.1.5.0.2] Old Version: [16.0.1.5.0.1]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.36] Old Version: [0.1.35]
+[2024-04-24 07:53:16] INFO root fetch - processPackages [nullspace-optimizer]: Downloading https://files.pythonhosted.org/packages/3d/fd/25c54ea25aa84a3d181cd489e15eeef7c63a2a0d290a5b9e48c21af8a011/nullspace_optimizer-1.2.3-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/0d/c3/b1ad652c03eea6bdabbd5413a6080e48698e8eec2ddf9ab0e865be839669/minvectordb-0.2.7.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon-ai-usage-client]: Downloading https://files.pythonhosted.org/packages/2e/79/138979a8a97cf87698d2f0e7a81094b61b289e7d28cbbbebe40f03f1476a/eidolon_ai_usage_client-0.1.2.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: Downloading https://files.pythonhosted.org/packages/ef/1d/df9bcb59baf87c356a40f9e3a62f2113ad80a20c36b1abb2b9a98d9858b4/odoo_addon_sale_fixed_discount-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/25/f8/f6e3f05b851fee455980cd984f5b7898f75982d14831470cc060b5bf9520/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon_ai_client]: Downloading https://files.pythonhosted.org/packages/3e/77/172b4aa11c13172af3658b4c3fca91993a858b2349646d6cf3c1dbdb986a/eidolon_ai_client-0.1.6.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/e1/2e/6d164a42f9496e35ea5798b5627b0dabc659375262dc213e93b45e688b33/odoo_addon_sale_cancel_reason-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/af/2e/8e758ec95dceb27b9fc597111c00b99ebb81073e4f99ef3e3328f4923425/odoo_addon_sale_elaboration-16.0.1.5.0.1-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [robotframework-parrot-relaycontroller]: Downloading https://files.pythonhosted.org/packages/94/ac/ba15e06a0a225493134455df5ea45e493791a1d149fa1ddee072aa2ce420/robotframework_parrot_relaycontroller-1.0.0.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/e4/4d/780cc2dc0c110c88703cae31191add724bfaa9160b11eb4b59fca46af3bf/eidolon_ai_sdk-0.1.35.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/98/71/271881229ba589f5e05c18e1f63138557d4f30729b97cc1020c2688b47f6/minvectordb-0.3.0.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [nullspace-optimizer]: Downloading https://files.pythonhosted.org/packages/a7/98/b8722368e5046ee781a7cc5401a693ee4a9d5b66fa6d99c20a142ad61e94/nullspace_optimizer-1.2.4-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon-ai-usage-client]: Downloading https://files.pythonhosted.org/packages/cf/e4/a5f610293a8730bf4b7c0b6ff36657a4c4d77c0554c5b780ee39eaf12e10/eidolon_ai_usage_client-0.1.3.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: Downloading https://files.pythonhosted.org/packages/8f/38/3f8073ef6506522d1df9a5d0eccd053497c9976535d1122163e971c975bc/odoo_addon_sale_fixed_discount-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon_ai_client]: Downloading https://files.pythonhosted.org/packages/06/17/e589b7f28b8a9c30f5bf4746454873d704e0ace3e7bb70ead4c13d0fc87d/eidolon_ai_client-0.1.7.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [MinVectorDB]: executing diffoscope
+[2024-04-24 07:53:16] INFO root fetch - processPackages [MinVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minvectordb-0.2.7.tar.gz tmp/minvectordb-0.3.0.tar.gz --markdown 20240424/M/MinVectorDB/0.2.7-0.3.0/README.md --exclude *.pyd
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/3d/bd/75d39998a7750c462cfcc35be165659fa56bdf53d513b81a994ef5b52a2d/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/d8/13/8a6edf37b7ff16db3ded96c5de114eefedd861616e8197e0da8ce500bbd1/odoo_addon_sale_cancel_reason-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/a3/29/2684867cd523ff48ac5143d688c2b44d44d539105a6312640a0315c76476/odoo_addon_sale_elaboration-16.0.1.5.0.2-py3-none-any.whl
+[2024-04-24 07:53:16] INFO root fetch - processPackages [nullspace-optimizer]: executing diffoscope
+[2024-04-24 07:53:16] INFO root fetch - processPackages [nullspace-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nullspace_optimizer-1.2.3-py3-none-any.whl.zip tmp/nullspace_optimizer-1.2.4-py3-none-any.whl.zip --markdown 20240424/n/nullspace-optimizer/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-24 07:53:16] INFO root fetch - processPackages [robotframework-parrot-relaycontroller]: Downloading https://files.pythonhosted.org/packages/5b/7e/09129f6ec53e3dd66a7fa3877088d2bd4631b4b33651b12a575e4144d6e3/robotframework_parrot_relaycontroller-1.0.1.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon-ai-usage-client]: executing diffoscope
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon-ai-usage-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_usage_client-0.1.2.tar.gz tmp/eidolon_ai_usage_client-0.1.3.tar.gz --markdown 20240424/e/eidolon-ai-usage-client/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 07:53:16] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/29/42/fa10802c5eec52b2706019601c2c4e2878f18d261a646e969bdc5294aa22/eidolon_ai_sdk-0.1.36.tar.gz
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: executing diffoscope
+[2024-04-24 07:53:16] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_fixed_discount-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_fixed_discount-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-sale-fixed-discount/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 07:53:17] INFO root fetch - processPackages [eidolon_ai_client]: executing diffoscope
+[2024-04-24 07:53:17] INFO root fetch - processPackages [eidolon_ai_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_client-0.1.6.tar.gz tmp/eidolon_ai_client-0.1.7.tar.gz --markdown 20240424/e/eidolon_ai_client/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-24 07:53:17] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: executing diffoscope
+[2024-04-24 07:53:17] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-sale-shipping-info-helper/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 07:53:17] INFO root fetch - processPackages [robotframework-parrot-relaycontroller]: executing diffoscope
+[2024-04-24 07:53:17] INFO root fetch - processPackages [robotframework-parrot-relaycontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_parrot_relaycontroller-1.0.0.tar.gz tmp/robotframework_parrot_relaycontroller-1.0.1.tar.gz --markdown 20240424/r/robotframework-parrot-relaycontroller/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 07:53:17] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: executing diffoscope
+[2024-04-24 07:53:17] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-sale-cancel-reason/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-24 07:53:17] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: executing diffoscope
+[2024-04-24 07:53:17] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_elaboration-16.0.1.5.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_elaboration-16.0.1.5.0.2-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-sale-elaboration/16.0.1.5.0.1-16.0.1.5.0.2/README.md --exclude *.pyd
+[2024-04-24 07:53:17] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-04-24 07:53:17] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.35.tar.gz tmp/eidolon_ai_sdk-0.1.36.tar.gz --markdown 20240424/e/eidolon-ai-sdk/0.1.35-0.1.36/README.md --exclude *.pyd
+[2024-04-24 07:53:17] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.2.7.tar.gz]
+[2024-04-24 07:53:17] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.3.0.tar.gz]
+[2024-04-24 07:53:17] INFO root fetch - processPackages [MinVectorDB]: Start processing: mesop
+[2024-04-24 07:53:17] INFO root fetch - main [MainThread]: End processing [MinVectorDB]: success
+[2024-04-24 07:53:17] INFO root fetch - processPackages [nullspace-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/nullspace_optimizer-1.2.3-py3-none-any.whl.zip]
+[2024-04-24 07:53:17] INFO root fetch - processPackages [nullspace-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/nullspace_optimizer-1.2.4-py3-none-any.whl.zip]
+[2024-04-24 07:53:17] INFO root fetch - processPackages [nullspace-optimizer]: Start processing: uitestrunner-syberos
+[2024-04-24 07:53:17] INFO root fetch - main [MainThread]: End processing [nullspace-optimizer]: success
+[2024-04-24 07:53:17] INFO root fetch - processPackages [eidolon-ai-usage-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_usage_client-0.1.2.tar.gz]
+[2024-04-24 07:53:17] INFO root fetch - processPackages [eidolon-ai-usage-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_usage_client-0.1.3.tar.gz]
+[2024-04-24 07:53:17] INFO root fetch - main [MainThread]: End processing [eidolon-ai-usage-client]: success
+[2024-04-24 07:53:17] INFO root fetch - processPackages [eidolon_ai_client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.6.tar.gz]
+[2024-04-24 07:53:17] INFO root fetch - processPackages [eidolon_ai_client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.7.tar.gz]
+[2024-04-24 07:53:17] INFO root fetch - main [MainThread]: End processing [eidolon_ai_client]: success
+[2024-04-24 07:53:18] INFO root fetch - processPackages [mesop]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-24 07:53:18] INFO root fetch - processPackages [uitestrunner-syberos]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-24 07:53:18] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 07:53:18] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 07:53:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-shipping-info-helper]: success
+[2024-04-24 07:53:18] INFO root fetch - processPackages [robotframework-parrot-relaycontroller]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_relaycontroller-1.0.0.tar.gz]
+[2024-04-24 07:53:18] INFO root fetch - processPackages [robotframework-parrot-relaycontroller]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_relaycontroller-1.0.1.tar.gz]
+[2024-04-24 07:53:18] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-relaycontroller]: success
+[2024-04-24 07:53:18] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.5.0.1-py3-none-any.whl.zip]
+[2024-04-24 07:53:18] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.5.0.2-py3-none-any.whl.zip]
+[2024-04-24 07:53:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
+[2024-04-24 07:53:18] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_fixed_discount-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 07:53:18] INFO root fetch - processPackages [odoo-addon-sale-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_fixed_discount-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 07:53:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-fixed-discount]: success
+[2024-04-24 07:53:18] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.35.tar.gz]
+[2024-04-24 07:53:18] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.36.tar.gz]
+[2024-04-24 07:53:18] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-04-24 07:53:18] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/e7/2f/2e1ae7b118136aed0f7442b65e742c26705569859e5466153c1ef54ad7bf/mesop-0.4.1-py3-none-any.whl
+[2024-04-24 07:53:18] INFO root fetch - processPackages [uitestrunner-syberos]: Downloading https://files.pythonhosted.org/packages/71/60/8a5cbd698ed2b32b06e2b8500e76fc76d67e1dbae1e5463376650a73939c/uitestrunner_syberos-2.2.8.tar.gz
+[2024-04-24 07:53:18] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 07:53:18] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-24 07:53:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-cancel-reason]: success
+[2024-04-24 07:53:18] WARNING root fetch - processPackages [uitestrunner-syberos]: Skipping package: exceeds size limit 61923538>=10485760
+[2024-04-24 07:53:18] INFO root fetch - main [MainThread]: End processing [uitestrunner-syberos] error
+[2024-04-24 07:53:19] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/7c/09/01ab9542b389947b9e21dbc7dced7572a1e77a4e2abc5c7493a85609a554/mesop-0.4.2-py3-none-any.whl
+[2024-04-24 07:53:20] INFO root fetch - processPackages [mesop]: executing diffoscope
+[2024-04-24 07:53:20] INFO root fetch - processPackages [mesop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesop-0.4.1-py3-none-any.whl.zip tmp/mesop-0.4.2-py3-none-any.whl.zip --markdown 20240424/m/mesop/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-24 07:54:02] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.4.1-py3-none-any.whl.zip]
+[2024-04-24 07:54:02] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.4.2-py3-none-any.whl.zip]
+[2024-04-24 07:54:02] INFO root fetch - main [MainThread]: End processing [mesop]: success
+[2024-04-24 07:54:02] INFO root fetch - main [MainThread]: Store serial: [22907366]
