@@ -7306,3 +7306,38 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:37:31] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.4.tar.gz]
 [2024-04-24 03:37:31] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-24 03:37:31] INFO root fetch - main [MainThread]: Store serial: [22905586]
+[2024-04-24 03:39:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905586]
+[2024-04-24 03:39:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 03:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qualesim
+[2024-04-24 03:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zbx-wxwork-assistant
+[2024-04-24 03:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: es-wait
+[2024-04-24 03:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openfinance
+[2024-04-24 03:39:40] INFO root fetch - processPackages [openfinance]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-24 03:39:40] INFO root fetch - processPackages [openfinance]: Downloading https://files.pythonhosted.org/packages/55/13/e293520f485883c457f328232784355ec70364e1b36214c736153fc46ed5/openfinance-3.3.2.tar.gz
+[2024-04-24 03:39:40] INFO root fetch - processPackages [zbx-wxwork-assistant]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-24 03:39:40] INFO root fetch - processPackages [es-wait]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-24 03:39:40] INFO root fetch - processPackages [qualesim]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 03:39:40] INFO root fetch - processPackages [openfinance]: Downloading https://files.pythonhosted.org/packages/58/f5/1221a748356bb7fea5467eb79bafb227a1cdb5f7239002637714a281ec26/openfinance-3.3.3.tar.gz
+[2024-04-24 03:39:40] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/5f/89/76dac3ad299109f9334894f8060b078c3abfeecbe438cc0e7894a22f1b7a/es_wait-0.2.2.tar.gz
+[2024-04-24 03:39:40] INFO root fetch - processPackages [zbx-wxwork-assistant]: Downloading https://files.pythonhosted.org/packages/e2/22/674303d1af0689db097cb118abac80e6bc2eb0d4d22222a80d8caea15753/zbx_wxwork_assistant-1.1.3-py3-none-any.whl
+[2024-04-24 03:39:40] INFO root fetch - processPackages [qualesim]: Downloading https://files.pythonhosted.org/packages/9d/76/a34ddd12c241c721c0cdd2feb6179435d2f7a4bbeb5e872e4b954f9fd6da/qualesim-1.0.1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-24 03:39:40] INFO root fetch - processPackages [openfinance]: executing diffoscope
+[2024-04-24 03:39:40] INFO root fetch - processPackages [openfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfinance-3.3.2.tar.gz tmp/openfinance-3.3.3.tar.gz --markdown 20240424/o/openfinance/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-04-24 03:39:40] WARNING root fetch - processPackages [qualesim]: Skipping package: exceeds size limit 11672334>=10485760
+[2024-04-24 03:39:40] INFO root fetch - main [MainThread]: End processing [qualesim] error
+[2024-04-24 03:39:41] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/ef/dd/ab083f69a560a1af4ad1acfe48f6816faa7cf990421534a279587b5705bd/es_wait-0.3.0.tar.gz
+[2024-04-24 03:39:41] INFO root fetch - processPackages [zbx-wxwork-assistant]: Downloading https://files.pythonhosted.org/packages/f2/be/e5f75ff8546647a0b699fd5529c1a270a55dde320e36eed1bbf5a5598dc4/zbx_wxwork_assistant-1.1.4-py3-none-any.whl
+[2024-04-24 03:39:41] INFO root fetch - processPackages [zbx-wxwork-assistant]: executing diffoscope
+[2024-04-24 03:39:41] INFO root fetch - processPackages [zbx-wxwork-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbx_wxwork_assistant-1.1.3-py3-none-any.whl.zip tmp/zbx_wxwork_assistant-1.1.4-py3-none-any.whl.zip --markdown 20240424/z/zbx-wxwork-assistant/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-24 03:39:41] INFO root fetch - processPackages [es-wait]: executing diffoscope
+[2024-04-24 03:39:41] INFO root fetch - processPackages [es-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_wait-0.2.2.tar.gz tmp/es_wait-0.3.0.tar.gz --markdown 20240424/e/es-wait/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-24 03:39:41] INFO root fetch - processPackages [zbx-wxwork-assistant]: Remove: archive file [/home/abi/fetcher/tmp/zbx_wxwork_assistant-1.1.3-py3-none-any.whl.zip]
+[2024-04-24 03:39:41] INFO root fetch - processPackages [zbx-wxwork-assistant]: Remove: archive file [/home/abi/fetcher/tmp/zbx_wxwork_assistant-1.1.4-py3-none-any.whl.zip]
+[2024-04-24 03:39:41] INFO root fetch - main [MainThread]: End processing [zbx-wxwork-assistant]: success
+[2024-04-24 03:39:41] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.2.2.tar.gz]
+[2024-04-24 03:39:41] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.3.0.tar.gz]
+[2024-04-24 03:39:41] INFO root fetch - main [MainThread]: End processing [es-wait]: success
+[2024-04-24 03:39:42] INFO root fetch - processPackages [openfinance]: Remove: archive file [/home/abi/fetcher/tmp/openfinance-3.3.2.tar.gz]
+[2024-04-24 03:39:42] INFO root fetch - processPackages [openfinance]: Remove: archive file [/home/abi/fetcher/tmp/openfinance-3.3.3.tar.gz]
+[2024-04-24 03:39:42] INFO root fetch - main [MainThread]: End processing [openfinance]: success
+[2024-04-24 03:39:42] INFO root fetch - main [MainThread]: Store serial: [22905601]
