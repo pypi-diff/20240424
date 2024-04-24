@@ -10658,3 +10658,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:04:46] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
 [2024-04-24 07:04:46] INFO root fetch - main [MainThread]: End processing [gs2]: success
 [2024-04-24 07:04:46] INFO root fetch - main [MainThread]: Store serial: [22906951]
+[2024-04-24 07:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906951]
+[2024-04-24 07:06:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biobear
+[2024-04-24 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-homeassistant-custom-component
+[2024-04-24 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fetch-sitemap
+[2024-04-24 07:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2024-04-24 07:06:55] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-24 07:06:55] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240423] Old Version: [0.1.2.dev20240422]
+[2024-04-24 07:06:55] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-24 07:06:55] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/98/9f/a4c368035216f94cc777a5ec5dea2f70b0621adf60e758324e4e829d9c73/rapid_pe-0.1.2.dev20240422.tar.gz
+[2024-04-24 07:06:55] INFO root fetch - processPackages [biobear]: New version: [0.19.5] Old Version: [0.18.0]
+[2024-04-24 07:06:55] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 07:06:55] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/13/b5/1b17363c312f8ced938e2c2980f807e500f2885087f1703850865479d8bf/rapid_pe-0.1.2.dev20240423.tar.gz
+[2024-04-24 07:06:55] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2024-04-24 07:06:55] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/2c/f9/17d1de0ec333d64f97e2250adc09df384adea8c7575967073892f9af5404/biobear-0.18.0.tar.gz
+[2024-04-24 07:06:55] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-24 07:06:55] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-04-24 07:06:55] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240422.tar.gz tmp/rapid_pe-0.1.2.dev20240423.tar.gz --markdown 20240424/r/rapid-pe/0.1.2.dev20240422-0.1.2.dev20240423/README.md --exclude *.pyd
+[2024-04-24 07:06:55] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-24 07:06:55] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240424/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-24 07:06:55] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2024-04-24 07:06:55] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/bf/e5/1780d94df8571d9dbc4c261d3bf1fc98b7cac1d240cb4c2600355e2a4dfd/biobear-0.19.5.tar.gz
+[2024-04-24 07:06:55] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2024-04-24 07:06:55] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20240424/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 07:06:56] INFO root fetch - processPackages [biobear]: executing diffoscope
+[2024-04-24 07:06:56] INFO root fetch - processPackages [biobear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobear-0.18.0.tar.gz tmp/biobear-0.19.5.tar.gz --markdown 20240424/b/biobear/0.18.0-0.19.5/README.md --exclude *.pyd
+[2024-04-24 07:06:56] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240422.tar.gz]
+[2024-04-24 07:06:56] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240423.tar.gz]
+[2024-04-24 07:06:56] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-04-24 07:06:56] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-24 07:06:56] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-24 07:06:56] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-24 07:06:56] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2024-04-24 07:06:56] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2024-04-24 07:06:56] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2024-04-24 07:06:57] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.18.0.tar.gz]
+[2024-04-24 07:06:57] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.19.5.tar.gz]
+[2024-04-24 07:06:57] INFO root fetch - main [MainThread]: End processing [biobear]: success
+[2024-04-24 07:06:57] INFO root fetch - main [MainThread]: Store serial: [22906990]
