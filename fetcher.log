@@ -10634,3 +10634,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:02:34] INFO root fetch - processPackages [basxconnect]: Remove: archive file [/home/abi/fetcher/tmp/basxconnect-0.4.7.tar.gz]
 [2024-04-24 07:02:34] INFO root fetch - main [MainThread]: End processing [basxconnect]: success
 [2024-04-24 07:02:34] INFO root fetch - main [MainThread]: Store serial: [22906942]
+[2024-04-24 07:04:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906942]
+[2024-04-24 07:04:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 07:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: find-where
+[2024-04-24 07:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs2
+[2024-04-24 07:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eirStru
+[2024-04-24 07:04:43] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-24 07:04:43] WARNING root fetch - processPackages [find-where]: Skipping, unable to determine old version
+[2024-04-24 07:04:43] INFO root fetch - main [MainThread]: End processing [find-where] error
+[2024-04-24 07:04:43] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-24 07:04:43] INFO root fetch - processPackages [gs2]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-24 07:04:43] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-24 07:04:43] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/c5/4e/2410c578d132c3fea988dc408e73fddf9945a8ab84f7cfbaa7c82bd7a40b/gs2-1.1.98.tar.gz
+[2024-04-24 07:04:43] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-24 07:04:43] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240424/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-24 07:04:44] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/81/a0/4021a82a0acbd1a2e84e6dce76f329b6654d5ebcf3ad4bfebcfcb3152d55/gs2-1.1.99.tar.gz
+[2024-04-24 07:04:44] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2024-04-24 07:04:44] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.98.tar.gz tmp/gs2-1.1.99.tar.gz --markdown 20240424/g/gs2/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-24 07:04:44] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-24 07:04:44] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-24 07:04:44] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-24 07:04:46] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.98.tar.gz]
+[2024-04-24 07:04:46] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
+[2024-04-24 07:04:46] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2024-04-24 07:04:46] INFO root fetch - main [MainThread]: Store serial: [22906951]
