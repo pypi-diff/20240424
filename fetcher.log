@@ -11557,3 +11557,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:54:02] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.4.2-py3-none-any.whl.zip]
 [2024-04-24 07:54:02] INFO root fetch - main [MainThread]: End processing [mesop]: success
 [2024-04-24 07:54:02] INFO root fetch - main [MainThread]: Store serial: [22907366]
+[2024-04-24 07:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907366]
+[2024-04-24 07:56:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 07:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metacoag
+[2024-04-24 07:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-parrot-usbswitchcontroller
+[2024-04-24 07:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rime-sdk
+[2024-04-24 07:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dyff-audit
+[2024-04-24 07:56:29] INFO root fetch - processPackages [dyff-audit]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-24 07:56:29] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc6] Old Version: [2.8.0rc4]
+[2024-04-24 07:56:29] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/29/2f/4a7366e1f6ad6ec6eebe2c58c1b632806237fe412e7d3620b5bb68dc8c58/dyff-audit-0.3.0.tar.gz
+[2024-04-24 07:56:29] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 07:56:29] INFO root fetch - processPackages [metacoag]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-24 07:56:29] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/d8/e5/f8773b988dbeeab44697eb468b65379e93b668a57299304a100f6938db8a/rime_sdk-2.8.0rc4.tar.gz
+[2024-04-24 07:56:29] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: Downloading https://files.pythonhosted.org/packages/fa/a9/88438ab81deada6a10a9ed0139bfae6b7fd4828134fd37f5bfb578530891/robotframework_parrot_usbswitchcontroller-1.0.0.tar.gz
+[2024-04-24 07:56:29] INFO root fetch - processPackages [metacoag]: Downloading https://files.pythonhosted.org/packages/2e/38/4c02ab6a535940b3a4f8e2a7cf68af7de4cd55b639d76b17f3b75c1c71b7/metacoag-1.1.4.tar.gz
+[2024-04-24 07:56:29] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/88/70/33a5625cc7a152fd92917d25ca7a9e7be74751d2a1c022c38e06d621ccb6/rime_sdk-2.8.0rc6.tar.gz
+[2024-04-24 07:56:29] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/68/60/07897e5eaf0edc46df98a5076aebbcbdf28e620e88f85c2fc4e11e70fb94/dyff_audit-0.3.1.tar.gz
+[2024-04-24 07:56:29] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-24 07:56:29] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc4.tar.gz tmp/rime_sdk-2.8.0rc6.tar.gz --markdown 20240424/r/rime-sdk/2.8.0rc4-2.8.0rc6/README.md --exclude *.pyd
+[2024-04-24 07:56:29] INFO root fetch - processPackages [dyff-audit]: executing diffoscope
+[2024-04-24 07:56:29] INFO root fetch - processPackages [dyff-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-audit-0.3.0.tar.gz tmp/dyff_audit-0.3.1.tar.gz --markdown 20240424/d/dyff-audit/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-24 07:56:29] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: Downloading https://files.pythonhosted.org/packages/e8/e3/24efab2cd3d66b9a8cfec431d52ec773c16db3ddffbd58f1dee9c80df4bc/robotframework_parrot_usbswitchcontroller-1.0.1.tar.gz
+[2024-04-24 07:56:29] INFO root fetch - processPackages [metacoag]: Downloading https://files.pythonhosted.org/packages/59/35/2d38807ec4dbf753cd0b988ac667d98cf7cccde9097b39157377a3a619d3/metacoag-1.2.0.tar.gz
+[2024-04-24 07:56:29] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: executing diffoscope
+[2024-04-24 07:56:29] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_parrot_usbswitchcontroller-1.0.0.tar.gz tmp/robotframework_parrot_usbswitchcontroller-1.0.1.tar.gz --markdown 20240424/r/robotframework-parrot-usbswitchcontroller/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 07:56:30] INFO root fetch - processPackages [metacoag]: executing diffoscope
+[2024-04-24 07:56:30] INFO root fetch - processPackages [metacoag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metacoag-1.1.4.tar.gz tmp/metacoag-1.2.0.tar.gz --markdown 20240424/m/metacoag/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-04-24 07:56:30] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_usbswitchcontroller-1.0.0.tar.gz]
+[2024-04-24 07:56:30] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_usbswitchcontroller-1.0.1.tar.gz]
+[2024-04-24 07:56:30] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-usbswitchcontroller]: success
+[2024-04-24 07:56:30] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff-audit-0.3.0.tar.gz]
+[2024-04-24 07:56:30] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff_audit-0.3.1.tar.gz]
+[2024-04-24 07:56:30] INFO root fetch - main [MainThread]: End processing [dyff-audit]: success
+[2024-04-24 07:56:31] INFO root fetch - processPackages [metacoag]: Remove: archive file [/home/abi/fetcher/tmp/metacoag-1.1.4.tar.gz]
+[2024-04-24 07:56:31] INFO root fetch - processPackages [metacoag]: Remove: archive file [/home/abi/fetcher/tmp/metacoag-1.2.0.tar.gz]
+[2024-04-24 07:56:31] INFO root fetch - main [MainThread]: End processing [metacoag]: success
+[2024-04-24 07:56:32] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc4.tar.gz]
+[2024-04-24 07:56:32] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc6.tar.gz]
+[2024-04-24 07:56:32] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-24 07:56:32] INFO root fetch - main [MainThread]: Store serial: [22907379]
