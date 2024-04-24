@@ -12174,3 +12174,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:35:58] INFO root fetch - processPackages [deepsearcheath]: Remove: archive file [/home/abi/fetcher/tmp/deepsearcheath-0.9.6-py3-none-any.whl.zip]
 [2024-04-24 08:35:58] INFO root fetch - main [MainThread]: End processing [deepsearcheath]: success
 [2024-04-24 08:35:58] INFO root fetch - main [MainThread]: Store serial: [22907578]
+[2024-04-24 08:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907578]
+[2024-04-24 08:38:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paraforge
+[2024-04-24 08:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poke-harry
+[2024-04-24 08:38:07] INFO root fetch - processPackages [paraforge]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 08:38:07] WARNING root fetch - processPackages [poke-harry]: Skipping, unable to determine old version
+[2024-04-24 08:38:07] INFO root fetch - main [MainThread]: End processing [poke-harry] error
+[2024-04-24 08:38:07] INFO root fetch - processPackages [paraforge]: Downloading https://files.pythonhosted.org/packages/f7/ec/b4ebed7f4db9b852b78797bad3d8be56237db40c719a08daab5234066a9f/paraforge-0.0.1.tar.gz
+[2024-04-24 08:38:07] INFO root fetch - processPackages [paraforge]: Downloading https://files.pythonhosted.org/packages/f2/c0/20273f5404e7828a7a1fbd3e4f5d714b7873262880a27bc65c712810509b/paraforge-0.0.2.tar.gz
+[2024-04-24 08:38:07] INFO root fetch - processPackages [paraforge]: executing diffoscope
+[2024-04-24 08:38:07] INFO root fetch - processPackages [paraforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paraforge-0.0.1.tar.gz tmp/paraforge-0.0.2.tar.gz --markdown 20240424/p/paraforge/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 08:38:08] INFO root fetch - processPackages [paraforge]: Remove: archive file [/home/abi/fetcher/tmp/paraforge-0.0.1.tar.gz]
+[2024-04-24 08:38:08] INFO root fetch - processPackages [paraforge]: Remove: archive file [/home/abi/fetcher/tmp/paraforge-0.0.2.tar.gz]
+[2024-04-24 08:38:08] INFO root fetch - main [MainThread]: End processing [paraforge]: success
+[2024-04-24 08:38:08] INFO root fetch - main [MainThread]: Store serial: [22907586]
