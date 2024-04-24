@@ -13024,3 +13024,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:13:09] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
 [2024-04-24 09:13:09] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
 [2024-04-24 09:13:09] INFO root fetch - main [MainThread]: Store serial: [22907890]
+[2024-04-24 09:15:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907890]
+[2024-04-24 09:15:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vvm-lib
+[2024-04-24 09:15:18] INFO root fetch - processPackages [vvm-lib]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 09:15:18] INFO root fetch - processPackages [vvm-lib]: Downloading https://files.pythonhosted.org/packages/1b/1c/43b6b614b818b71cbb224e156677ea3babc78388418aa0a62cb38d96042e/vvm_lib-1.0.1.tar.gz
+[2024-04-24 09:15:18] INFO root fetch - processPackages [vvm-lib]: Downloading https://files.pythonhosted.org/packages/cd/43/bd5a6a45bdb5732fa8d5a66aafc8a4140452cde138e9545829ebc93d9016/vvm_lib-1.0.2.tar.gz
+[2024-04-24 09:15:18] INFO root fetch - processPackages [vvm-lib]: executing diffoscope
+[2024-04-24 09:15:18] INFO root fetch - processPackages [vvm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvm_lib-1.0.1.tar.gz tmp/vvm_lib-1.0.2.tar.gz --markdown 20240424/v/vvm-lib/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-24 09:15:19] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-1.0.1.tar.gz]
+[2024-04-24 09:15:19] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-1.0.2.tar.gz]
+[2024-04-24 09:15:19] INFO root fetch - main [MainThread]: End processing [vvm-lib]: success
+[2024-04-24 09:15:19] INFO root fetch - main [MainThread]: Store serial: [22907893]
