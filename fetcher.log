@@ -11682,3 +11682,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auditlog-17.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-04-24 08:05:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-auditlog]: success
 [2024-04-24 08:05:10] INFO root fetch - main [MainThread]: Store serial: [22907405]
+[2024-04-24 08:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907405]
+[2024-04-24 08:07:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 08:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-tier-validation
+[2024-04-24 08:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paraforge
+[2024-04-24 08:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zoltraak
+[2024-04-24 08:07:19] INFO root fetch - processPackages [zoltraak]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 08:07:19] WARNING root fetch - processPackages [paraforge]: Skipping, unable to determine old version
+[2024-04-24 08:07:19] INFO root fetch - main [MainThread]: End processing [paraforge] error
+[2024-04-24 08:07:19] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [17.0.1.5.1.1] Old Version: [17.0.1.5.1]
+[2024-04-24 08:07:19] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/b6/12/2a429e41952180b0f05cc31efffe70c753c31d0fac5f43a560098122e201/zoltraak-0.1.0.tar.gz
+[2024-04-24 08:07:19] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/36/fa/309284f1c4d85f0f3735b1e07d9d7feea001fef09754e015fabc87a6f44a/odoo_addon_base_tier_validation-17.0.1.5.1-py3-none-any.whl
+[2024-04-24 08:07:20] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/84/45/b2722a81a027bf088e858c9be60de3687a600076fcefeeed7b9c31c83214/zoltraak-0.1.1.tar.gz
+[2024-04-24 08:07:20] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/56/f1/54e5707b84be7467b9dcc3f4d64cf220d9a8b175ccbd115a40d28e073717/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl
+[2024-04-24 08:07:20] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 08:07:20] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.0.tar.gz tmp/zoltraak-0.1.1.tar.gz --markdown 20240424/z/zoltraak/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 08:07:20] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2024-04-24 08:07:20] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-17.0.1.5.1-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-base-tier-validation/17.0.1.5.1-17.0.1.5.1.1/README.md --exclude *.pyd
+[2024-04-24 08:07:21] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.0.tar.gz]
+[2024-04-24 08:07:21] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.1.tar.gz]
+[2024-04-24 08:07:21] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 08:07:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1-py3-none-any.whl.zip]
+[2024-04-24 08:07:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl.zip]
+[2024-04-24 08:07:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2024-04-24 08:07:21] INFO root fetch - main [MainThread]: Store serial: [22907416]
