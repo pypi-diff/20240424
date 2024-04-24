@@ -8609,3 +8609,42 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:04:10] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.3.0.tar.gz]
 [2024-04-24 05:04:10] INFO root fetch - main [MainThread]: End processing [es-wait]: success
 [2024-04-24 05:04:10] INFO root fetch - main [MainThread]: Store serial: [22906210]
+[2024-04-24 05:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906210]
+[2024-04-24 05:06:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cj-package
+[2024-04-24 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrotgfork
+[2024-04-24 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Explicit
+[2024-04-24 05:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scepter
+[2024-04-24 05:06:19] INFO root fetch - processPackages [pyrotgfork]: New version: [2.1.24] Old Version: [2.1.23]
+[2024-04-24 05:06:19] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 05:06:19] INFO root fetch - processPackages [scepter]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 05:06:19] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/4b/f5/c95b0bd62d4c3cac26fcd7c48e254666d4b8cec0c9cabcbf88fccb03a921/pyrotgfork-2.1.23.tar.gz
+[2024-04-24 05:06:19] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.7.4rc1] Old Version: [4.7.4]
+[2024-04-24 05:06:19] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-24 05:06:19] INFO root fetch - processPackages [scepter]: Downloading https://files.pythonhosted.org/packages/10/bf/b23ac8ed6923e100b7ed6011b5d1ee117be54c3c62a8ef624dc9d1401b05/scepter-0.0.4-py3-none-any.whl
+[2024-04-24 05:06:19] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/e5/a6/d830a99f963df5edfba6e6729ae9dcc341f61c78f7991adbc239f3613a60/Geode_Explicit-4.7.4-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-24 05:06:19] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-24 05:06:19] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/96/4c/a9a0ebefd570d7b7870051f425afb7c1aeb32a018c8766ce32c14656ed07/pyrotgfork-2.1.24.tar.gz
+[2024-04-24 05:06:19] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-24 05:06:19] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240424/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 05:06:19] INFO root fetch - processPackages [pyrotgfork]: executing diffoscope
+[2024-04-24 05:06:19] INFO root fetch - processPackages [pyrotgfork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrotgfork-2.1.23.tar.gz tmp/pyrotgfork-2.1.24.tar.gz --markdown 20240424/p/pyrotgfork/2.1.23-2.1.24/README.md --exclude *.pyd
+[2024-04-24 05:06:19] INFO root fetch - processPackages [scepter]: Downloading https://files.pythonhosted.org/packages/59/71/1f68dcc607b073086af4e8af9060609330eeb743978f4420af911784fd56/scepter-0.0.5-py3-none-any.whl
+[2024-04-24 05:06:20] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/89/b8/14f621faa4bfc8388a89bd5bb1661a29596963b4db56c6b0e423949cdee7/Geode_Explicit-4.7.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 05:06:20] INFO root fetch - processPackages [scepter]: executing diffoscope
+[2024-04-24 05:06:20] INFO root fetch - processPackages [scepter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scepter-0.0.4-py3-none-any.whl.zip tmp/scepter-0.0.5-py3-none-any.whl.zip --markdown 20240424/s/scepter/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-24 05:06:20] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-24 05:06:20] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-24 05:06:20] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-24 05:06:20] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-04-24 05:06:20] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.7.4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Explicit-4.7.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240424/G/Geode-Explicit/4.7.4-4.7.4rc1/README.md --exclude *.pyd
+[2024-04-24 05:06:21] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.4-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-24 05:06:21] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 05:06:21] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-04-24 05:06:21] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.23.tar.gz]
+[2024-04-24 05:06:21] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.24.tar.gz]
+[2024-04-24 05:06:21] INFO root fetch - main [MainThread]: End processing [pyrotgfork]: success
+[2024-04-24 05:06:21] INFO root fetch - processPackages [scepter]: Remove: archive file [/home/abi/fetcher/tmp/scepter-0.0.4-py3-none-any.whl.zip]
+[2024-04-24 05:06:21] INFO root fetch - processPackages [scepter]: Remove: archive file [/home/abi/fetcher/tmp/scepter-0.0.5-py3-none-any.whl.zip]
+[2024-04-24 05:06:22] INFO root fetch - main [MainThread]: End processing [scepter]: success
+[2024-04-24 05:06:22] INFO root fetch - main [MainThread]: Store serial: [22906223]
