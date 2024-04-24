@@ -2568,3 +2568,20 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:21:44] INFO root fetch - processPackages [effect-edc]: Remove: archive file [/home/abi/fetcher/tmp/effect-edc-0.1.9.tar.gz]
 [2024-04-24 02:21:44] INFO root fetch - main [MainThread]: End processing [effect-edc]: success
 [2024-04-24 02:21:44] INFO root fetch - main [MainThread]: Store serial: [22903824]
+[2024-04-24 02:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903824]
+[2024-04-24 02:23:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 02:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NEURON-nightly
+[2024-04-24 02:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradedangerous
+[2024-04-24 02:23:53] INFO root fetch - processPackages [tradedangerous]: New version: [10.9.8] Old Version: [10.9.7]
+[2024-04-24 02:23:53] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/f0/71/5c26485ec7d39c61db0e0eff321b9fcd6656ad98bae9dd80db18336dc73d/tradedangerous-10.9.7.tar.gz
+[2024-04-24 02:23:53] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev223] Old Version: [9.0a1.dev221]
+[2024-04-24 02:23:53] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/dc/f8/20305f955763cf57dd45520664f65c91c00bb4495de4e189433ddceef41a/NEURON_nightly-9.0a1.dev221-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-24 02:23:53] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/d9/11/d9ffad5dfc88cd5ec054cd2e82b8477ba81df779f293f62a341c1dbd90cd/tradedangerous-10.9.8.tar.gz
+[2024-04-24 02:23:53] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 17368996>=10485760
+[2024-04-24 02:23:53] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-04-24 02:23:54] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-04-24 02:23:54] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-10.9.7.tar.gz tmp/tradedangerous-10.9.8.tar.gz --markdown 20240424/t/tradedangerous/10.9.7-10.9.8/README.md --exclude *.pyd
+[2024-04-24 02:23:55] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.7.tar.gz]
+[2024-04-24 02:23:55] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.8.tar.gz]
+[2024-04-24 02:23:55] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-04-24 02:23:55] INFO root fetch - main [MainThread]: Store serial: [22903834]
