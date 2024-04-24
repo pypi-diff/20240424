@@ -20480,3 +20480,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:21:21] INFO root fetch - main [MainThread]: End processing [autofeather-dash-mantine-components]: success
 [2024-04-24 13:21:22] INFO root fetch - main [MainThread]: End processing [imt-ring]: success
 [2024-04-24 13:21:22] INFO root fetch - main [MainThread]: Store serial: [22911116]
+[2024-04-24 13:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911116]
+[2024-04-24 13:23:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imt-ikarus
+[2024-04-24 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imt-ikarus
+[2024-04-24 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-logs
+[2024-04-24 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: faster-coco-eval
+[2024-04-24 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartboiler
+[2024-04-24 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sd-mecha
+[2024-04-24 13:23:43] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.3] Old Version: [0.0.3.0.0.7.2]
+[2024-04-24 13:23:43] INFO root fetch - processPackages [mo-logs]: New version: [8.602.24115] Old Version: [8.601.24115]
+[2024-04-24 13:23:43] INFO root fetch - processPackages [imt-ikarus]: New version: [1.1.2] Old Version: [1.0.2]
+[2024-04-24 13:23:43] INFO root fetch - processPackages [imt-ikarus]: New version: [1.1.2] Old Version: [1.0.2]
+[2024-04-24 13:23:43] INFO root fetch - processPackages [sd-mecha]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:23:43] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/8c/65/8bea580e382eb557272ffce1f43a1b75cdb03acb5f402819946ff450de4e/smartboiler-0.0.3.0.0.7.2.tar.gz
+[2024-04-24 13:23:43] INFO root fetch - processPackages [faster-coco-eval]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-24 13:23:43] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/da/90/d87f8b5e8f483e6f734a64ad269bc310876fd110abff32b7070342972c0e/mo_logs-8.601.24115.tar.gz
+[2024-04-24 13:23:43] INFO root fetch - processPackages [imt-ikarus]: Downloading https://files.pythonhosted.org/packages/df/d7/202df8deab16c374e21d2a4ad21c7a80cb5f06fe7aec78c5de6f58f01e63/imt_ikarus-1.0.2.tar.gz
+[2024-04-24 13:23:43] INFO root fetch - processPackages [imt-ikarus]: Downloading https://files.pythonhosted.org/packages/df/d7/202df8deab16c374e21d2a4ad21c7a80cb5f06fe7aec78c5de6f58f01e63/imt_ikarus-1.0.2.tar.gz
+[2024-04-24 13:23:43] INFO root fetch - processPackages [faster-coco-eval]: Downloading https://files.pythonhosted.org/packages/08/31/8ba2b9be4c343220bbc765d53c15b55f62feb7cef4b1e34158d871356f00/faster_coco_eval-1.5.3.tar.gz
+[2024-04-24 13:23:43] INFO root fetch - processPackages [sd-mecha]: Downloading https://files.pythonhosted.org/packages/e6/d1/c32853afdf56556df9398617cafd161e560f54b1cfb01562d80da47dac4b/sd-mecha-0.0.8.tar.gz
+[2024-04-24 13:23:43] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/0d/de/80c94da9f7e65c8e9a129b7ba4cbee8842fed3c70e49ee351938aa08f6e7/mo_logs-8.602.24115.tar.gz
+[2024-04-24 13:23:43] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-04-24 13:23:43] INFO root fetch - processPackages [faster-coco-eval]: Downloading https://files.pythonhosted.org/packages/f7/2d/c44d6e5b713217ad1a6f18f875f1aed8dceebce9befaef968c18782d70d8/faster_coco_eval-1.5.4.tar.gz
+[2024-04-24 13:23:43] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-04-24 13:23:43] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.2.tar.gz tmp/smartboiler-0.0.3.0.0.7.3.tar.gz --markdown 20240424/s/smartboiler/0.0.3.0.0.7.2-0.0.3.0.0.7.3/README.md --exclude *.pyd
+[2024-04-24 13:23:43] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2024-04-24 13:23:43] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-8.601.24115.tar.gz tmp/mo_logs-8.602.24115.tar.gz --markdown 20240424/m/mo-logs/8.601.24115-8.602.24115/README.md --exclude *.pyd
+[2024-04-24 13:23:44] INFO root fetch - processPackages [sd-mecha]: Downloading https://files.pythonhosted.org/packages/a7/22/16d6f86ae331ca6190bddbaf2c31fdb2747f6dbacd42f3e90578e762c4a7/sd-mecha-0.0.9.tar.gz
+[2024-04-24 13:23:44] INFO root fetch - processPackages [imt-ikarus]: Downloading https://files.pythonhosted.org/packages/17/db/04b77de253dad060efc4dc13fe5a83dd55759ba660eb23d7674924d43a9a/imt_ikarus-1.1.2.tar.gz
+[2024-04-24 13:23:44] INFO root fetch - processPackages [imt-ikarus]: Downloading https://files.pythonhosted.org/packages/17/db/04b77de253dad060efc4dc13fe5a83dd55759ba660eb23d7674924d43a9a/imt_ikarus-1.1.2.tar.gz
+[2024-04-24 13:23:44] INFO root fetch - processPackages [faster-coco-eval]: executing diffoscope
+[2024-04-24 13:23:44] INFO root fetch - processPackages [faster-coco-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faster_coco_eval-1.5.3.tar.gz tmp/faster_coco_eval-1.5.4.tar.gz --markdown 20240424/f/faster-coco-eval/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-04-24 13:23:44] INFO root fetch - processPackages [sd-mecha]: executing diffoscope
+[2024-04-24 13:23:44] INFO root fetch - processPackages [sd-mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd-mecha-0.0.8.tar.gz tmp/sd-mecha-0.0.9.tar.gz --markdown 20240424/s/sd-mecha/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:23:44] INFO root fetch - processPackages [imt-ikarus]: executing diffoscope
+[2024-04-24 13:23:44] INFO root fetch - processPackages [imt-ikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imt_ikarus-1.0.2.tar.gz tmp/imt_ikarus-1.1.2.tar.gz --markdown 20240424/i/imt-ikarus/1.0.2-1.1.2/README.md --exclude *.pyd
+[2024-04-24 13:23:44] INFO root fetch - processPackages [imt-ikarus]: executing diffoscope
+[2024-04-24 13:23:44] INFO root fetch - processPackages [imt-ikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imt_ikarus-1.0.2.tar.gz tmp/imt_ikarus-1.1.2.tar.gz --markdown 20240424/i/imt-ikarus/1.0.2-1.1.2/README.md --exclude *.pyd
+[2024-04-24 13:23:44] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.2.tar.gz]
+[2024-04-24 13:23:44] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-04-24 13:23:44] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-04-24 13:23:44] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.601.24115.tar.gz]
+[2024-04-24 13:23:44] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.602.24115.tar.gz]
+[2024-04-24 13:23:44] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2024-04-24 13:23:44] INFO root fetch - processPackages [faster-coco-eval]: Remove: archive file [/home/abi/fetcher/tmp/faster_coco_eval-1.5.3.tar.gz]
+[2024-04-24 13:23:44] INFO root fetch - processPackages [faster-coco-eval]: Remove: archive file [/home/abi/fetcher/tmp/faster_coco_eval-1.5.4.tar.gz]
+[2024-04-24 13:23:44] INFO root fetch - main [MainThread]: End processing [faster-coco-eval]: success
+[2024-04-24 13:23:44] INFO root fetch - processPackages [sd-mecha]: Remove: archive file [/home/abi/fetcher/tmp/sd-mecha-0.0.8.tar.gz]
+[2024-04-24 13:23:44] INFO root fetch - processPackages [sd-mecha]: Remove: archive file [/home/abi/fetcher/tmp/sd-mecha-0.0.9.tar.gz]
+[2024-04-24 13:23:44] INFO root fetch - main [MainThread]: End processing [sd-mecha]: success
+[2024-04-24 13:23:45] INFO root fetch - processPackages [imt-ikarus]: Remove: archive file [/home/abi/fetcher/tmp/imt_ikarus-1.0.2.tar.gz]
+[2024-04-24 13:23:45] INFO root fetch - processPackages [imt-ikarus]: Remove: archive file [/home/abi/fetcher/tmp/imt_ikarus-1.1.2.tar.gz]
+[2024-04-24 13:23:45] INFO root fetch - main [MainThread]: End processing [imt-ikarus]: success
+[2024-04-24 13:23:45] INFO root fetch - main [MainThread]: End processing [imt-ikarus]: success
+[2024-04-24 13:23:45] INFO root fetch - main [MainThread]: Store serial: [22911141]
