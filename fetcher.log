@@ -14809,3 +14809,61 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:17:16] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b9.tar.gz]
 [2024-04-24 10:17:16] INFO root fetch - main [MainThread]: End processing [furthrmind]: success
 [2024-04-24 10:17:16] INFO root fetch - main [MainThread]: Store serial: [22908905]
+[2024-04-24 10:19:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908905]
+[2024-04-24 10:19:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 10:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxplora-api
+[2024-04-24 10:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danbi
+[2024-04-24 10:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitblas
+[2024-04-24 10:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2024-04-24 10:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-dashboard
+[2024-04-24 10:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QuantLib
+[2024-04-24 10:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eric-ide
+[2024-04-24 10:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whatshow-utils
+[2024-04-24 10:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vfunc
+[2024-04-24 10:19:25] WARNING root fetch - processPackages [vfunc]: Skipping, unable to determine old version
+[2024-04-24 10:19:25] INFO root fetch - main [MainThread]: End processing [vfunc] error
+[2024-04-24 10:19:25] INFO root fetch - processPackages [eric-ide]: New version: [24.4] Old Version: [24.3]
+[2024-04-24 10:19:25] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-24 10:19:25] INFO root fetch - processPackages [oarepo-dashboard]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-24 10:19:25] WARNING root fetch - processPackages [bitblas]: Skipping, unable to determine old version
+[2024-04-24 10:19:25] INFO root fetch - main [MainThread]: End processing [bitblas] error
+[2024-04-24 10:19:25] WARNING root fetch - processPackages [whatshow-utils]: Skipping, unable to determine old version
+[2024-04-24 10:19:25] INFO root fetch - main [MainThread]: End processing [whatshow-utils] error
+[2024-04-24 10:19:25] INFO root fetch - processPackages [danbi]: New version: [0.2.194] Old Version: [0.2.193]
+[2024-04-24 10:19:25] INFO root fetch - processPackages [pyxplora-api]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-04-24 10:19:25] INFO root fetch - processPackages [QuantLib]: New version: [1.34] Old Version: [1.33]
+[2024-04-24 10:19:25] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-24 10:19:26] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/03/aa/172942fd9b0feb0327bf0fa1803267cd46cebb651061825356d4c8e71083/danbi-0.2.193.tar.gz
+[2024-04-24 10:19:26] INFO root fetch - processPackages [oarepo-dashboard]: Downloading https://files.pythonhosted.org/packages/a2/73/9f6c67fc62efd12d6e02dc08bd8906b694b3b1adb02e683ed487797cd2d9/oarepo-dashboard-1.0.4.tar.gz
+[2024-04-24 10:19:26] INFO root fetch - processPackages [eric-ide]: Downloading https://files.pythonhosted.org/packages/fa/63/e7a25e43d1cc8c8339b0fb9e6756863244c5db794315b27e427a2f3ba09b/eric-ide-24.3.tar.gz
+[2024-04-24 10:19:26] INFO root fetch - processPackages [pyxplora-api]: Downloading https://files.pythonhosted.org/packages/66/14/df10aa3ffab103e9711c943d55e8f146dbf2cd108374411512a0def8c1bb/pyxplora_api-2.8.3.tar.gz
+[2024-04-24 10:19:26] INFO root fetch - processPackages [QuantLib]: Downloading https://files.pythonhosted.org/packages/e5/e1/9c150b691679f9a41b555f341af7858f90ba16fca5a9182d07ac99696ea7/QuantLib-1.33-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-24 10:19:26] WARNING root fetch - processPackages [eric-ide]: Skipping package: exceeds size limit 19244074>=10485760
+[2024-04-24 10:19:26] INFO root fetch - main [MainThread]: End processing [eric-ide] error
+[2024-04-24 10:19:26] WARNING root fetch - processPackages [QuantLib]: Skipping package: exceeds size limit 12179561>=10485760
+[2024-04-24 10:19:26] INFO root fetch - main [MainThread]: End processing [QuantLib] error
+[2024-04-24 10:19:26] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-24 10:19:26] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/12/27/f13856a6c4f87d34ee9f40007b208d767bbd52250a8749a28fe3d8242dfc/danbi-0.2.194.tar.gz
+[2024-04-24 10:19:26] INFO root fetch - processPackages [oarepo-dashboard]: Downloading https://files.pythonhosted.org/packages/86/56/772ef519b75f393951647b4551daa73d8b66468f493412b1dd04c8a0a734/oarepo_dashboard-1.0.5.tar.gz
+[2024-04-24 10:19:26] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-24 10:19:26] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240424/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-24 10:19:26] INFO root fetch - processPackages [pyxplora-api]: Downloading https://files.pythonhosted.org/packages/76/fb/473bfea1d77929439a25dce556a7ebeebcca650c71ade471bf09022df0e1/pyxplora_api-2.9.0.tar.gz
+[2024-04-24 10:19:26] INFO root fetch - processPackages [oarepo-dashboard]: executing diffoscope
+[2024-04-24 10:19:26] INFO root fetch - processPackages [oarepo-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-dashboard-1.0.4.tar.gz tmp/oarepo_dashboard-1.0.5.tar.gz --markdown 20240424/o/oarepo-dashboard/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-24 10:19:26] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2024-04-24 10:19:26] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.193.tar.gz tmp/danbi-0.2.194.tar.gz --markdown 20240424/d/danbi/0.2.193-0.2.194/README.md --exclude *.pyd
+[2024-04-24 10:19:26] INFO root fetch - processPackages [pyxplora-api]: executing diffoscope
+[2024-04-24 10:19:26] INFO root fetch - processPackages [pyxplora-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxplora_api-2.8.3.tar.gz tmp/pyxplora_api-2.9.0.tar.gz --markdown 20240424/p/pyxplora-api/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-04-24 10:19:27] INFO root fetch - processPackages [oarepo-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-dashboard-1.0.4.tar.gz]
+[2024-04-24 10:19:27] INFO root fetch - processPackages [oarepo-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_dashboard-1.0.5.tar.gz]
+[2024-04-24 10:19:27] INFO root fetch - main [MainThread]: End processing [oarepo-dashboard]: success
+[2024-04-24 10:19:27] INFO root fetch - processPackages [pyxplora-api]: Remove: archive file [/home/abi/fetcher/tmp/pyxplora_api-2.8.3.tar.gz]
+[2024-04-24 10:19:27] INFO root fetch - processPackages [pyxplora-api]: Remove: archive file [/home/abi/fetcher/tmp/pyxplora_api-2.9.0.tar.gz]
+[2024-04-24 10:19:27] INFO root fetch - main [MainThread]: End processing [pyxplora-api]: success
+[2024-04-24 10:19:27] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.193.tar.gz]
+[2024-04-24 10:19:27] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.194.tar.gz]
+[2024-04-24 10:19:27] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2024-04-24 10:19:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-24 10:19:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-24 10:19:28] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-24 10:19:28] INFO root fetch - main [MainThread]: Store serial: [22908952]
