@@ -14118,3 +14118,108 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 09:48:33] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.8.tar.gz]
 [2024-04-24 09:48:33] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
 [2024-04-24 09:48:33] INFO root fetch - main [MainThread]: Store serial: [22908654]
+[2024-04-24 09:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908654]
+[2024-04-24 09:50:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secretvalidator
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waylay-sdk-storage-types
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waylay-sdk-storage
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quool
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hahomematic
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cattle_lca
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: property-lazy
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-payment-order
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aixblock-ml
+[2024-04-24 09:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastlifeweb
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage]: New version: [0.4.1b1] Old Version: [0.4.1.20240423]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage-types]: New version: [0.4.1b1] Old Version: [0.4.1.20240423]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [fastlifeweb]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [aixblock-ml]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [hahomematic]: New version: [2024.4.9b2] Old Version: [2024.4.9b1]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [17.0.1.1.0.4] Old Version: [17.0.1.1.0.3]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [fastlifeweb]: Downloading https://files.pythonhosted.org/packages/af/71/404c14ebf4d7c00522ec1a5b8e1e6d3b58ca45f10622339baff256dc1202/fastlifeweb-0.4.1.tar.gz
+[2024-04-24 09:50:42] WARNING root fetch - processPackages [cattle_lca]: Skipping, unable to determine old version
+[2024-04-24 09:50:42] INFO root fetch - processPackages [cattle_lca]: Start processing: digitalhub
+[2024-04-24 09:50:42] INFO root fetch - main [MainThread]: End processing [cattle_lca] error
+[2024-04-24 09:50:42] INFO root fetch - processPackages [quool]: New version: [5.0.8] Old Version: [5.0.7]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [property-lazy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage]: Downloading https://files.pythonhosted.org/packages/ae/87/357777836120084176f404e4bcc3c4d5d18246c1a5fc6ffac9cdc7093298/waylay_sdk_storage-0.4.1.20240423.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/ea/c7/281292d0605c1b811babbdcf686078dbff1d1d608e0da05d4ecc8198dbf5/aixblock_ml-0.0.7.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/81/91/9891c6832e1587efb47c6d50c612a5cc7e0eec02825d6413ac1f4b16abf6/hahomematic-2024.4.9b1.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/9a/ab/d0fc63ca31b3e3ea9a6999fe5feb5f659cfe1088268198c8c2574c495979/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage-types]: Downloading https://files.pythonhosted.org/packages/97/6d/06c005f96e2fd08123718a4430705b282d96cec45f8a5f71393bc4e170f7/waylay_sdk_storage_types-0.4.1.20240423.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [digitalhub]: New version: [0.4.0b2] Old Version: [0.4.0b1]
+[2024-04-24 09:50:42] INFO root fetch - processPackages [quool]: Downloading https://files.pythonhosted.org/packages/5b/19/85bc53098ccaab81bd1d597f269954c11369d211b5f4ae1c4ebf7c4c9e57/quool-5.0.7.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [property-lazy]: Downloading https://files.pythonhosted.org/packages/40/28/24ce645d7e1fcafd99454080396438c505599b14995d06887bfb3caeb6fa/property_lazy-0.0.6.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [fastlifeweb]: Downloading https://files.pythonhosted.org/packages/55/f1/36878ec6f8e52cd8ab402d81bafdf876a0bb5cfd7049d416a2249b2c203c/fastlifeweb-0.5.0.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage]: Downloading https://files.pythonhosted.org/packages/c4/ab/5eb6bca1314d75641f8fbd7f767dcb320acc2de63262f45f2c37d14a21c7/waylay-sdk-storage-0.4.1b1.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/46/a9/e704e6ddc68a132aaf03e1839ff53c7ceee71301564f4ebd32078c97031c/aixblock_ml-0.0.8.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/73/77/08a504d8e21c3618788a1df0dcbcdc32d48ae1fbeb07845b788563829933/hahomematic-2024.4.9b2.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage-types]: Downloading https://files.pythonhosted.org/packages/2b/69/74db45c6266a985a744f99168ecab425fad6595b8ecb081ff70a13d5c496/waylay-sdk-storage-types-0.4.1b1.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/f1/cc/0c26850a0282bdb3f8cb0bbbf9893e80a2204350d6cfb5a97081e7d5fe7b/digitalhub-0.4.0b1.tar.gz
+[2024-04-24 09:50:42] INFO root fetch - processPackages [fastlifeweb]: executing diffoscope
+[2024-04-24 09:50:42] INFO root fetch - processPackages [fastlifeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlifeweb-0.4.1.tar.gz tmp/fastlifeweb-0.5.0.tar.gz --markdown 20240424/f/fastlifeweb/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage]: executing diffoscope
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_storage-0.4.1.20240423.tar.gz tmp/waylay-sdk-storage-0.4.1b1.tar.gz --markdown 20240424/w/waylay-sdk-storage/0.4.1.20240423-0.4.1b1/README.md --exclude *.pyd
+[2024-04-24 09:50:42] INFO root fetch - processPackages [aixblock-ml]: executing diffoscope
+[2024-04-24 09:50:42] INFO root fetch - processPackages [aixblock-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_ml-0.0.7.tar.gz tmp/aixblock_ml-0.0.8.tar.gz --markdown 20240424/a/aixblock-ml/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-24 09:50:42] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-24 09:50:42] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240424/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 09:50:42] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/45/d8/eb96c4f25b6e1364802605d676665aa399b91c794204144842ef4c27fb47/odoo_addon_account_payment_order-17.0.1.1.0.4-py3-none-any.whl
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage-types]: executing diffoscope
+[2024-04-24 09:50:42] INFO root fetch - processPackages [waylay-sdk-storage-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_storage_types-0.4.1.20240423.tar.gz tmp/waylay-sdk-storage-types-0.4.1b1.tar.gz --markdown 20240424/w/waylay-sdk-storage-types/0.4.1.20240423-0.4.1b1/README.md --exclude *.pyd
+[2024-04-24 09:50:42] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-04-24 09:50:42] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.4.9b1.tar.gz tmp/hahomematic-2024.4.9b2.tar.gz --markdown 20240424/h/hahomematic/2024.4.9b1-2024.4.9b2/README.md --exclude *.pyd
+[2024-04-24 09:50:42] INFO root fetch - processPackages [property-lazy]: Downloading https://files.pythonhosted.org/packages/eb/3a/0a887e449bc7e6b36e9ff7b0588c0988205e56b2bfd4cf7b952d05749634/property_lazy-0.0.7.tar.gz
+[2024-04-24 09:50:43] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2024-04-24 09:50:43] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-17.0.1.1.0.4-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-account-payment-order/17.0.1.1.0.3-17.0.1.1.0.4/README.md --exclude *.pyd
+[2024-04-24 09:50:43] INFO root fetch - processPackages [quool]: Downloading https://files.pythonhosted.org/packages/56/4c/d5045a8e470b004b2e737c9d69f34c418a8f26a7ebc5f3bee4ecc808bbee/quool-5.0.8.tar.gz
+[2024-04-24 09:50:43] INFO root fetch - processPackages [property-lazy]: executing diffoscope
+[2024-04-24 09:50:43] INFO root fetch - processPackages [property-lazy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/property_lazy-0.0.6.tar.gz tmp/property_lazy-0.0.7.tar.gz --markdown 20240424/p/property-lazy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-24 09:50:43] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/76/1b/4cd765ba11764f381ac18ff403976c898f97aac8ba5f26ba8a0a876e3f97/digitalhub-0.4.0b2.tar.gz
+[2024-04-24 09:50:43] INFO root fetch - processPackages [quool]: executing diffoscope
+[2024-04-24 09:50:43] INFO root fetch - processPackages [quool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quool-5.0.7.tar.gz tmp/quool-5.0.8.tar.gz --markdown 20240424/q/quool/5.0.7-5.0.8/README.md --exclude *.pyd
+[2024-04-24 09:50:43] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-04-24 09:50:43] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.4.0b1.tar.gz tmp/digitalhub-0.4.0b2.tar.gz --markdown 20240424/d/digitalhub/0.4.0b1-0.4.0b2/README.md --exclude *.pyd
+[2024-04-24 09:50:43] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.8.tar.gz]
+[2024-04-24 09:50:43] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.9.tar.gz]
+[2024-04-24 09:50:43] INFO root fetch - processPackages [secretvalidator]: Start processing: unique-sdk
+[2024-04-24 09:50:43] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-24 09:50:43] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.7.tar.gz]
+[2024-04-24 09:50:43] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.8.tar.gz]
+[2024-04-24 09:50:43] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
+[2024-04-24 09:50:43] INFO root fetch - processPackages [unique-sdk]: New version: [0.8.0] Old Version: [0.7.3]
+[2024-04-24 09:50:43] INFO root fetch - processPackages [waylay-sdk-storage]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_storage-0.4.1.20240423.tar.gz]
+[2024-04-24 09:50:43] INFO root fetch - processPackages [waylay-sdk-storage]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-storage-0.4.1b1.tar.gz]
+[2024-04-24 09:50:43] INFO root fetch - main [MainThread]: End processing [waylay-sdk-storage]: success
+[2024-04-24 09:50:43] INFO root fetch - processPackages [fastlifeweb]: Remove: archive file [/home/abi/fetcher/tmp/fastlifeweb-0.4.1.tar.gz]
+[2024-04-24 09:50:43] INFO root fetch - processPackages [fastlifeweb]: Remove: archive file [/home/abi/fetcher/tmp/fastlifeweb-0.5.0.tar.gz]
+[2024-04-24 09:50:43] INFO root fetch - main [MainThread]: End processing [fastlifeweb]: success
+[2024-04-24 09:50:44] INFO root fetch - processPackages [property-lazy]: Remove: archive file [/home/abi/fetcher/tmp/property_lazy-0.0.6.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - processPackages [property-lazy]: Remove: archive file [/home/abi/fetcher/tmp/property_lazy-0.0.7.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - main [MainThread]: End processing [property-lazy]: success
+[2024-04-24 09:50:44] INFO root fetch - processPackages [waylay-sdk-storage-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_storage_types-0.4.1.20240423.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - processPackages [waylay-sdk-storage-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-storage-types-0.4.1b1.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - main [MainThread]: End processing [waylay-sdk-storage-types]: success
+[2024-04-24 09:50:44] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.0.7.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.0.8.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - main [MainThread]: End processing [quool]: success
+[2024-04-24 09:50:44] INFO root fetch - processPackages [unique-sdk]: Downloading https://files.pythonhosted.org/packages/86/37/54abe87f0ce76fc7bd5c64831db7be28544c884d8e48214b23f689ed466f/unique_sdk-0.7.3.tar.gz
+[2024-04-24 09:50:44] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.9b1.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.9b2.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-04-24 09:50:44] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-24 09:50:44] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-04-24 09:50:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2024-04-24 09:50:44] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.4.0b1.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.4.0b2.tar.gz]
+[2024-04-24 09:50:44] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-04-24 09:50:44] INFO root fetch - processPackages [unique-sdk]: Downloading https://files.pythonhosted.org/packages/7d/6b/57c371ddc062bad9525c5c655af6556419d031a8dcb78d9a6317c86125ba/unique_sdk-0.8.0.tar.gz
+[2024-04-24 09:50:44] INFO root fetch - processPackages [unique-sdk]: executing diffoscope
+[2024-04-24 09:50:44] INFO root fetch - processPackages [unique-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unique_sdk-0.7.3.tar.gz tmp/unique_sdk-0.8.0.tar.gz --markdown 20240424/u/unique-sdk/0.7.3-0.8.0/README.md --exclude *.pyd
+[2024-04-24 09:50:45] INFO root fetch - processPackages [unique-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unique_sdk-0.7.3.tar.gz]
+[2024-04-24 09:50:45] INFO root fetch - processPackages [unique-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unique_sdk-0.8.0.tar.gz]
+[2024-04-24 09:50:45] INFO root fetch - main [MainThread]: End processing [unique-sdk]: success
+[2024-04-24 09:50:45] INFO root fetch - main [MainThread]: Store serial: [22908690]
