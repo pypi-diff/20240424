@@ -16389,3 +16389,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:06:53] INFO root fetch - processPackages [pydgn]: Remove: archive file [/home/abi/fetcher/tmp/pydgn-1.5.5.tar.gz]
 [2024-04-24 11:06:53] INFO root fetch - main [MainThread]: End processing [pydgn]: success
 [2024-04-24 11:06:53] INFO root fetch - main [MainThread]: Store serial: [22909518]
+[2024-04-24 11:08:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909518]
+[2024-04-24 11:09:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 11:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-order-line-price-history
+[2024-04-24 11:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsugu-api-python
+[2024-04-24 11:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-utils-dev
+[2024-04-24 11:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrx-link-core
+[2024-04-24 11:09:03] WARNING root fetch - processPackages [tsugu-api-python]: Skipping, unable to determine old version
+[2024-04-24 11:09:03] INFO root fetch - main [MainThread]: End processing [tsugu-api-python] error
+[2024-04-24 11:09:03] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: New version: [16.0.1.1.1.4] Old Version: [16.0.1.1.1.3]
+[2024-04-24 11:09:03] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-24 11:09:03] INFO root fetch - processPackages [mrx-link-core]: New version: [1.4.0.dev2] Old Version: [1.4.0.dev1]
+[2024-04-24 11:09:03] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/b2/64/c0882a3fa23adbfdfedb38c98c0373f81376d779e6bf04fdb3a091e1200e/odoo_addon_sale_order_line_price_history-16.0.1.1.1.3-py3-none-any.whl
+[2024-04-24 11:09:03] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-04-24 11:09:03] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/74/ef/96950173a054d7b5b323f2fd272771167d477900add2ab27962b137db9a6/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl
+[2024-04-24 11:09:04] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/76/3c/9e7822776123644b3689f4dbbf4981887f4cac0e72999b0175c5a785d9b7/odoo_addon_sale_order_line_price_history-16.0.1.1.1.4-py3-none-any.whl
+[2024-04-24 11:09:04] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-04-24 11:09:04] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: executing diffoscope
+[2024-04-24 11:09:04] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_price_history-16.0.1.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_price_history-16.0.1.1.1.4-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-sale-order-line-price-history/16.0.1.1.1.3-16.0.1.1.1.4/README.md --exclude *.pyd
+[2024-04-24 11:09:04] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-24 11:09:04] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240424/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-24 11:09:04] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/e6/64/98604dedf9425e277802a48ebc2e60753864b30ec165a8947eb40764daed/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl
+[2024-04-24 11:09:04] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2024-04-24 11:09:04] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl.zip --markdown 20240424/m/mrx-link-core/1.4.0.dev1-1.4.0.dev2/README.md --exclude *.pyd
+[2024-04-24 11:09:04] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_price_history-16.0.1.1.1.3-py3-none-any.whl.zip]
+[2024-04-24 11:09:04] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_price_history-16.0.1.1.1.4-py3-none-any.whl.zip]
+[2024-04-24 11:09:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-price-history]: success
+[2024-04-24 11:09:04] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-04-24 11:09:04] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-04-24 11:09:04] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-24 11:09:05] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 11:09:05] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 11:09:05] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2024-04-24 11:09:05] INFO root fetch - main [MainThread]: Store serial: [22909544]
