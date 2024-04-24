@@ -8238,3 +8238,54 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:43:19] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.9.0.tar.gz]
 [2024-04-24 04:43:19] INFO root fetch - main [MainThread]: End processing [kolena]: success
 [2024-04-24 04:43:19] INFO root fetch - main [MainThread]: Store serial: [22905935]
+[2024-04-24 04:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905935]
+[2024-04-24 04:45:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-move-name-sequence
+[2024-04-24 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-configuration
+[2024-04-24 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: facehuggershield
+[2024-04-24 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FastSnake
+[2024-04-24 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarers.aws-secure-vpc-bucket
+[2024-04-24 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lambkid
+[2024-04-24 04:45:28] INFO root fetch - processPackages [facehuggershield]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 04:45:28] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: New version: [17.0.1.0.5.1] Old Version: [17.0.1.0.5]
+[2024-04-24 04:45:28] INFO root fetch - processPackages [FastSnake]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-24 04:45:28] INFO root fetch - processPackages [python-configuration]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-24 04:45:28] ERROR root fetch - processPackages [gammarers.aws-secure-vpc-bucket]: Unable to get metadata: No such project 'gammarers.aws-secure-vpc-bucket'
+[2024-04-24 04:45:28] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-vpc-bucket] error
+[2024-04-24 04:45:28] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 04:45:28] INFO root fetch - processPackages [facehuggershield]: Downloading https://files.pythonhosted.org/packages/88/85/3cf2514d263a696f84222920e6b521b35bfaafafcd9f2ec477fac426a775/facehuggershield-0.1.2.tar.gz
+[2024-04-24 04:45:28] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/f8/2a/9ee29fc57f118daa155fefe9937c3db9ca63ab9b8f0864242b6c1e4c7a71/odoo_addon_account_move_name_sequence-17.0.1.0.5-py3-none-any.whl
+[2024-04-24 04:45:28] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/4e/39/3975e123076085cab12818bfdb5453f139c02ec8e1ab8b44b6aa19b34e48/fastsnake-1.4.8.tar.gz
+[2024-04-24 04:45:28] INFO root fetch - processPackages [python-configuration]: Downloading https://files.pythonhosted.org/packages/87/6d/29315450c91d8705fda4faa0830d9233d5b09821a7a566db3084cca4f7ce/python_configuration-0.9.0.tar.gz
+[2024-04-24 04:45:28] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-04-24 04:45:28] INFO root fetch - processPackages [FastSnake]: Downloading https://files.pythonhosted.org/packages/ba/f6/2239174616fa357132ef7f9a94eb64ac1b356e4f1d96dd885ccf70181298/fastsnake-1.4.9.tar.gz
+[2024-04-24 04:45:28] INFO root fetch - processPackages [FastSnake]: executing diffoscope
+[2024-04-24 04:45:28] INFO root fetch - processPackages [FastSnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsnake-1.4.8.tar.gz tmp/fastsnake-1.4.9.tar.gz --markdown 20240424/F/FastSnake/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-24 04:45:28] INFO root fetch - processPackages [facehuggershield]: Downloading https://files.pythonhosted.org/packages/b7/3d/d64bec3b688bbdc4ac2ad3e636752bfae4ed55e2560b306a1c13e71b929b/facehuggershield-0.1.3.tar.gz
+[2024-04-24 04:45:28] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Downloading https://files.pythonhosted.org/packages/b1/c7/05b3398f3d77ea238daec1cacb788eb7604d56e1ac75a381a37bb62147f8/odoo_addon_account_move_name_sequence-17.0.1.0.5.1-py3-none-any.whl
+[2024-04-24 04:45:28] INFO root fetch - processPackages [facehuggershield]: executing diffoscope
+[2024-04-24 04:45:28] INFO root fetch - processPackages [facehuggershield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facehuggershield-0.1.2.tar.gz tmp/facehuggershield-0.1.3.tar.gz --markdown 20240424/f/facehuggershield/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 04:45:28] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: executing diffoscope
+[2024-04-24 04:45:28] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5.1-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-account-move-name-sequence/17.0.1.0.5-17.0.1.0.5.1/README.md --exclude *.pyd
+[2024-04-24 04:45:28] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-04-24 04:45:28] INFO root fetch - processPackages [python-configuration]: Downloading https://files.pythonhosted.org/packages/60/b0/3639e918246ddd1688d8bdaea38bb3f6b4d3fd5c2b17cead994de1db4ab9/python_configuration-0.9.1.tar.gz
+[2024-04-24 04:45:29] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-24 04:45:29] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240424/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 04:45:29] INFO root fetch - processPackages [python-configuration]: executing diffoscope
+[2024-04-24 04:45:29] INFO root fetch - processPackages [python-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_configuration-0.9.0.tar.gz tmp/python_configuration-0.9.1.tar.gz --markdown 20240424/p/python-configuration/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-24 04:45:29] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.4.8.tar.gz]
+[2024-04-24 04:45:29] INFO root fetch - processPackages [FastSnake]: Remove: archive file [/home/abi/fetcher/tmp/fastsnake-1.4.9.tar.gz]
+[2024-04-24 04:45:29] INFO root fetch - main [MainThread]: End processing [FastSnake]: success
+[2024-04-24 04:45:29] INFO root fetch - processPackages [facehuggershield]: Remove: archive file [/home/abi/fetcher/tmp/facehuggershield-0.1.2.tar.gz]
+[2024-04-24 04:45:29] INFO root fetch - processPackages [facehuggershield]: Remove: archive file [/home/abi/fetcher/tmp/facehuggershield-0.1.3.tar.gz]
+[2024-04-24 04:45:29] INFO root fetch - main [MainThread]: End processing [facehuggershield]: success
+[2024-04-24 04:45:29] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5-py3-none-any.whl.zip]
+[2024-04-24 04:45:29] INFO root fetch - processPackages [odoo-addon-account-move-name-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_name_sequence-17.0.1.0.5.1-py3-none-any.whl.zip]
+[2024-04-24 04:45:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-name-sequence]: success
+[2024-04-24 04:45:29] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-04-24 04:45:29] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-04-24 04:45:29] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-24 04:45:29] INFO root fetch - processPackages [python-configuration]: Remove: archive file [/home/abi/fetcher/tmp/python_configuration-0.9.0.tar.gz]
+[2024-04-24 04:45:29] INFO root fetch - processPackages [python-configuration]: Remove: archive file [/home/abi/fetcher/tmp/python_configuration-0.9.1.tar.gz]
+[2024-04-24 04:45:29] INFO root fetch - main [MainThread]: End processing [python-configuration]: success
+[2024-04-24 04:45:29] INFO root fetch - main [MainThread]: Store serial: [22905954]
