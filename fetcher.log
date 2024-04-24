@@ -21641,3 +21641,59 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:00:57] INFO root fetch - processPackages [mixdq-extension]: Remove: archive file [/home/abi/fetcher/tmp/mixdq_extension-0.2-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-24 14:00:57] INFO root fetch - main [MainThread]: End processing [mixdq-extension]: success
 [2024-04-24 14:00:57] INFO root fetch - main [MainThread]: Store serial: [22911679]
+[2024-04-24 14:03:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911679]
+[2024-04-24 14:03:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ntimage
+[2024-04-24 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rooms-shared-services
+[2024-04-24 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commitizen-xcodeproj
+[2024-04-24 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-partner-category-security
+[2024-04-24 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maritalk
+[2024-04-24 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ckanext-editable-config
+[2024-04-24 14:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-quantkit
+[2024-04-24 14:03:30] INFO root fetch - processPackages [ckanext-editable-config]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 14:03:30] INFO root fetch - processPackages [commitizen-xcodeproj]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-24 14:03:30] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-24 14:03:30] WARNING root fetch - processPackages [ntimage]: Skipping, unable to determine old version
+[2024-04-24 14:03:30] INFO root fetch - main [MainThread]: End processing [ntimage] error
+[2024-04-24 14:03:30] INFO root fetch - processPackages [llm-quantkit]: New version: [0.26] Old Version: [0.25]
+[2024-04-24 14:03:30] INFO root fetch - processPackages [maritalk]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-24 14:03:30] INFO root fetch - processPackages [ckanext-editable-config]: Downloading https://files.pythonhosted.org/packages/80/91/653b07de719be6be1f7d3b65c72255a05f6fa62767a390c23367e5bb2b43/ckanext-editable-config-0.0.4.tar.gz
+[2024-04-24 14:03:30] INFO root fetch - processPackages [odoo-addon-partner-category-security]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.0.3]
+[2024-04-24 14:03:30] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-24 14:03:30] INFO root fetch - processPackages [commitizen-xcodeproj]: Downloading https://files.pythonhosted.org/packages/41/1d/fe8481d51ef660f03fd4a7273b293babc88b4c68882f7747c29766f4fc2a/commitizen_xcodeproj-0.1.1.tar.gz
+[2024-04-24 14:03:30] INFO root fetch - processPackages [llm-quantkit]: Downloading https://files.pythonhosted.org/packages/05/fd/c6adf59abe2f3d4867d2a8f6cdaf4b715418a7dd8ce92148d5d464723b1d/llm_quantkit-0.25.tar.gz
+[2024-04-24 14:03:30] INFO root fetch - processPackages [maritalk]: Downloading https://files.pythonhosted.org/packages/22/24/a76e13597430c2352814fdf016ae320a1ebc3ce4233004e5a12ddfd6a30c/maritalk-0.2.3.tar.gz
+[2024-04-24 14:03:30] INFO root fetch - processPackages [odoo-addon-partner-category-security]: Downloading https://files.pythonhosted.org/packages/3c/9b/4f321adc85d1370f120d397837be9a0bd03cbbf16d4af12cbfe6a6f528b8/odoo_addon_partner_category_security-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-24 14:03:31] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-24 14:03:31] INFO root fetch - processPackages [ckanext-editable-config]: Downloading https://files.pythonhosted.org/packages/15/88/31cced656d0bb10f1c72bec6c231740120a69a0980c27e73c8ccb6862303/ckanext_editable_config-0.0.5.tar.gz
+[2024-04-24 14:03:31] ERROR root fetch - processPackages [commitizen-xcodeproj]: Unable to fetch info: No such project/version 'commitizen-xcodeproj' 0.2.0
+[2024-04-24 14:03:31] INFO root fetch - main [MainThread]: End processing [commitizen-xcodeproj] error
+[2024-04-24 14:03:31] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-24 14:03:31] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240424/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-24 14:03:31] INFO root fetch - processPackages [ckanext-editable-config]: executing diffoscope
+[2024-04-24 14:03:31] INFO root fetch - processPackages [ckanext-editable-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-editable-config-0.0.4.tar.gz tmp/ckanext_editable_config-0.0.5.tar.gz --markdown 20240424/c/ckanext-editable-config/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-24 14:03:31] INFO root fetch - processPackages [llm-quantkit]: Downloading https://files.pythonhosted.org/packages/68/b1/65bb3f0b4e8d733b6af2f407da4de342582b6476babb6ec00b29c9147ffa/llm_quantkit-0.26.tar.gz
+[2024-04-24 14:03:31] INFO root fetch - processPackages [odoo-addon-partner-category-security]: Downloading https://files.pythonhosted.org/packages/fc/e6/ff990cac57e6417350450958a12335b8fe79a42cd573fc887b165837f948/odoo_addon_partner_category_security-16.0.2.0.0-py3-none-any.whl
+[2024-04-24 14:03:31] INFO root fetch - processPackages [maritalk]: Downloading https://files.pythonhosted.org/packages/3b/c2/f5f4974bba448cccdf3daa974a10ace9e406619ca45ef09ba6e9d0c6a631/maritalk-0.2.4.tar.gz
+[2024-04-24 14:03:31] INFO root fetch - processPackages [odoo-addon-partner-category-security]: executing diffoscope
+[2024-04-24 14:03:31] INFO root fetch - processPackages [odoo-addon-partner-category-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_category_security-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_partner_category_security-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-partner-category-security/16.0.1.0.0.3-16.0.2.0.0/README.md --exclude *.pyd
+[2024-04-24 14:03:31] INFO root fetch - processPackages [llm-quantkit]: executing diffoscope
+[2024-04-24 14:03:31] INFO root fetch - processPackages [llm-quantkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_quantkit-0.25.tar.gz tmp/llm_quantkit-0.26.tar.gz --markdown 20240424/l/llm-quantkit/0.25-0.26/README.md --exclude *.pyd
+[2024-04-24 14:03:31] INFO root fetch - processPackages [maritalk]: executing diffoscope
+[2024-04-24 14:03:31] INFO root fetch - processPackages [maritalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maritalk-0.2.3.tar.gz tmp/maritalk-0.2.4.tar.gz --markdown 20240424/m/maritalk/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-24 14:03:32] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-24 14:03:32] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-24 14:03:32] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-24 14:03:32] INFO root fetch - processPackages [ckanext-editable-config]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-editable-config-0.0.4.tar.gz]
+[2024-04-24 14:03:32] INFO root fetch - processPackages [ckanext-editable-config]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_editable_config-0.0.5.tar.gz]
+[2024-04-24 14:03:32] INFO root fetch - main [MainThread]: End processing [ckanext-editable-config]: success
+[2024-04-24 14:03:32] INFO root fetch - processPackages [llm-quantkit]: Remove: archive file [/home/abi/fetcher/tmp/llm_quantkit-0.25.tar.gz]
+[2024-04-24 14:03:32] INFO root fetch - processPackages [llm-quantkit]: Remove: archive file [/home/abi/fetcher/tmp/llm_quantkit-0.26.tar.gz]
+[2024-04-24 14:03:32] INFO root fetch - main [MainThread]: End processing [llm-quantkit]: success
+[2024-04-24 14:03:32] INFO root fetch - processPackages [odoo-addon-partner-category-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_category_security-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-24 14:03:32] INFO root fetch - processPackages [odoo-addon-partner-category-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_category_security-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-24 14:03:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-category-security]: success
+[2024-04-24 14:03:32] INFO root fetch - processPackages [maritalk]: Remove: archive file [/home/abi/fetcher/tmp/maritalk-0.2.3.tar.gz]
+[2024-04-24 14:03:32] INFO root fetch - processPackages [maritalk]: Remove: archive file [/home/abi/fetcher/tmp/maritalk-0.2.4.tar.gz]
+[2024-04-24 14:03:32] INFO root fetch - main [MainThread]: End processing [maritalk]: success
+[2024-04-24 14:03:32] INFO root fetch - main [MainThread]: Store serial: [22911710]
