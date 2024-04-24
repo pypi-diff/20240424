@@ -11850,3 +11850,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:13:54] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240423.tar.gz]
 [2024-04-24 08:13:54] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-04-24 08:13:54] INFO root fetch - main [MainThread]: Store serial: [22907456]
+[2024-04-24 08:15:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907456]
+[2024-04-24 08:16:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 08:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mns-common
+[2024-04-24 08:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansible
+[2024-04-24 08:16:04] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.5.5] Old Version: [1.0.7.5.4]
+[2024-04-24 08:16:04] INFO root fetch - processPackages [ansible]: New version: [9.5.1] Old Version: [9.5.0]
+[2024-04-24 08:16:04] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/8f/09/b1f9b3fdcc5c99d9364322be9a5da3da456baba1d8d9bb25b82f3c7693ef/mns_common-1.0.7.5.4.tar.gz
+[2024-04-24 08:16:04] INFO root fetch - processPackages [ansible]: Downloading https://files.pythonhosted.org/packages/a5/da/b20bf59a466de5caf4eb7b5024c1376432b81caced5155676932725c756f/ansible-9.5.0.tar.gz
+[2024-04-24 08:16:04] WARNING root fetch - processPackages [ansible]: Skipping package: exceeds size limit 38792441>=10485760
+[2024-04-24 08:16:04] INFO root fetch - main [MainThread]: End processing [ansible] error
+[2024-04-24 08:16:05] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/c2/ed/0f992559826dbddc6708f76825e26406757f119d2145fa323d0c4774bce5/mns_common-1.0.7.5.5.tar.gz
+[2024-04-24 08:16:05] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-24 08:16:05] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.5.4.tar.gz tmp/mns_common-1.0.7.5.5.tar.gz --markdown 20240424/m/mns-common/1.0.7.5.4-1.0.7.5.5/README.md --exclude *.pyd
+[2024-04-24 08:16:06] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.4.tar.gz]
+[2024-04-24 08:16:06] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.5.tar.gz]
+[2024-04-24 08:16:06] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-24 08:16:06] INFO root fetch - main [MainThread]: Store serial: [22907462]
