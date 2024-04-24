@@ -17067,3 +17067,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:31:10] INFO root fetch - processPackages [python-recentx]: Remove: archive file [/home/abi/fetcher/tmp/python_recentx-1.4.4.tar.gz]
 [2024-04-24 11:31:10] INFO root fetch - main [MainThread]: End processing [python-recentx]: success
 [2024-04-24 11:31:10] INFO root fetch - main [MainThread]: Store serial: [22909793]
+[2024-04-24 11:33:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909793]
+[2024-04-24 11:33:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 11:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvisigraph
+[2024-04-24 11:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mipkit
+[2024-04-24 11:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazysdk
+[2024-04-24 11:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: better-qq-botpy
+[2024-04-24 11:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bia-bob
+[2024-04-24 11:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: momonga
+[2024-04-24 11:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: junkie
+[2024-04-24 11:33:20] INFO root fetch - processPackages [momonga]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 11:33:20] WARNING root fetch - processPackages [better-qq-botpy]: Skipping, unable to determine old version
+[2024-04-24 11:33:20] INFO root fetch - main [MainThread]: End processing [better-qq-botpy] error
+[2024-04-24 11:33:20] WARNING root fetch - processPackages [pyvisigraph]: Skipping, unable to determine old version
+[2024-04-24 11:33:20] INFO root fetch - main [MainThread]: End processing [pyvisigraph] error
+[2024-04-24 11:33:20] INFO root fetch - processPackages [mipkit]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-24 11:33:20] INFO root fetch - processPackages [bia-bob]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-24 11:33:20] INFO root fetch - processPackages [lazysdk]: New version: [0.1.90] Old Version: [0.1.9]
+[2024-04-24 11:33:20] INFO root fetch - processPackages [junkie]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-24 11:33:20] INFO root fetch - processPackages [momonga]: Downloading https://files.pythonhosted.org/packages/88/74/1c0d453e8b43a9bc22de47acb6874d876b40779203032e8f407b071714a2/momonga-0.0.1-py3-none-any.whl
+[2024-04-24 11:33:20] INFO root fetch - processPackages [mipkit]: Downloading https://files.pythonhosted.org/packages/34/b0/9de71af8e914421b29efa7fe67f60b547bc043f594fc97061582e659c4f1/mipkit-1.6.3-py3-none-any.whl
+[2024-04-24 11:33:20] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2024-04-24 11:33:20] INFO root fetch - processPackages [bia-bob]: Downloading https://files.pythonhosted.org/packages/b7/3a/6e5bc9079afd13bf0dcd60f6e468449b226d1a790645a9d7b1e52ca847bc/bia-bob-0.8.1.tar.gz
+[2024-04-24 11:33:21] INFO root fetch - processPackages [junkie]: Downloading https://files.pythonhosted.org/packages/e4/36/470a493c3f918fbf37a28964072951a5bafba59aeef5630a50fa6229a0ba/junkie-3.0.1.tar.gz
+[2024-04-24 11:33:21] INFO root fetch - processPackages [momonga]: Downloading https://files.pythonhosted.org/packages/58/c5/3a00ed70b748b31b29e1348037f9ffb62a556020c205c10c6364650b192e/momonga-0.0.2-py3-none-any.whl
+[2024-04-24 11:33:21] INFO root fetch - processPackages [mipkit]: Downloading https://files.pythonhosted.org/packages/e9/5f/4ff2707ea8e47ed5f6cdfb4cdc55b8092c790a558e0afe7a97de7bf01fef/mipkit-1.6.4-py3-none-any.whl
+[2024-04-24 11:33:21] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/3b/9d/662a835290a8d7d32e3e7a0130d7bd38cb4d161559a8a27193fa0715ef52/lazysdk-0.1.90.tar.gz
+[2024-04-24 11:33:21] INFO root fetch - processPackages [bia-bob]: Downloading https://files.pythonhosted.org/packages/d6/d4/1f46746fde5a1bab4220b9cdc0282a8d09ef134fc533bf3c175cd6640332/bia-bob-0.9.0.tar.gz
+[2024-04-24 11:33:21] INFO root fetch - processPackages [momonga]: executing diffoscope
+[2024-04-24 11:33:21] INFO root fetch - processPackages [momonga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momonga-0.0.1-py3-none-any.whl.zip tmp/momonga-0.0.2-py3-none-any.whl.zip --markdown 20240424/m/momonga/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 11:33:21] INFO root fetch - processPackages [junkie]: Downloading https://files.pythonhosted.org/packages/67/e1/9843610a77495ff1dc582f406597a6f45c4df85142c70162155368292818/junkie-3.0.2.tar.gz
+[2024-04-24 11:33:21] INFO root fetch - processPackages [mipkit]: executing diffoscope
+[2024-04-24 11:33:21] INFO root fetch - processPackages [mipkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mipkit-1.6.3-py3-none-any.whl.zip tmp/mipkit-1.6.4-py3-none-any.whl.zip --markdown 20240424/m/mipkit/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-04-24 11:33:21] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2024-04-24 11:33:21] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.9.tar.gz tmp/lazysdk-0.1.90.tar.gz --markdown 20240424/l/lazysdk/0.1.9-0.1.90/README.md --exclude *.pyd
+[2024-04-24 11:33:21] INFO root fetch - processPackages [bia-bob]: executing diffoscope
+[2024-04-24 11:33:21] INFO root fetch - processPackages [bia-bob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bia-bob-0.8.1.tar.gz tmp/bia-bob-0.9.0.tar.gz --markdown 20240424/b/bia-bob/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-24 11:33:21] INFO root fetch - processPackages [junkie]: executing diffoscope
+[2024-04-24 11:33:21] INFO root fetch - processPackages [junkie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junkie-3.0.1.tar.gz tmp/junkie-3.0.2.tar.gz --markdown 20240424/j/junkie/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-24 11:33:22] INFO root fetch - processPackages [momonga]: Remove: archive file [/home/abi/fetcher/tmp/momonga-0.0.1-py3-none-any.whl.zip]
+[2024-04-24 11:33:22] INFO root fetch - processPackages [momonga]: Remove: archive file [/home/abi/fetcher/tmp/momonga-0.0.2-py3-none-any.whl.zip]
+[2024-04-24 11:33:22] INFO root fetch - main [MainThread]: End processing [momonga]: success
+[2024-04-24 11:33:22] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2024-04-24 11:33:22] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.90.tar.gz]
+[2024-04-24 11:33:22] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2024-04-24 11:33:22] INFO root fetch - processPackages [junkie]: Remove: archive file [/home/abi/fetcher/tmp/junkie-3.0.1.tar.gz]
+[2024-04-24 11:33:22] INFO root fetch - processPackages [junkie]: Remove: archive file [/home/abi/fetcher/tmp/junkie-3.0.2.tar.gz]
+[2024-04-24 11:33:22] INFO root fetch - main [MainThread]: End processing [junkie]: success
+[2024-04-24 11:33:22] INFO root fetch - processPackages [bia-bob]: Remove: archive file [/home/abi/fetcher/tmp/bia-bob-0.8.1.tar.gz]
+[2024-04-24 11:33:22] INFO root fetch - processPackages [bia-bob]: Remove: archive file [/home/abi/fetcher/tmp/bia-bob-0.9.0.tar.gz]
+[2024-04-24 11:33:22] INFO root fetch - main [MainThread]: End processing [bia-bob]: success
+[2024-04-24 11:33:22] INFO root fetch - processPackages [mipkit]: Remove: archive file [/home/abi/fetcher/tmp/mipkit-1.6.3-py3-none-any.whl.zip]
+[2024-04-24 11:33:22] INFO root fetch - processPackages [mipkit]: Remove: archive file [/home/abi/fetcher/tmp/mipkit-1.6.4-py3-none-any.whl.zip]
+[2024-04-24 11:33:22] INFO root fetch - main [MainThread]: End processing [mipkit]: success
+[2024-04-24 11:33:22] INFO root fetch - main [MainThread]: Store serial: [22909816]
