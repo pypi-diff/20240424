@@ -21041,3 +21041,56 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 13:36:21] INFO root fetch - processPackages [schubmult]: Remove: archive file [/home/abi/fetcher/tmp/schubmult-1.3.5.tar.gz]
 [2024-04-24 13:36:21] INFO root fetch - main [MainThread]: End processing [schubmult]: success
 [2024-04-24 13:36:21] INFO root fetch - main [MainThread]: Store serial: [22911410]
+[2024-04-24 13:38:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911410]
+[2024-04-24 13:38:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 13:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-04-24 13:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sema4ai-action-server
+[2024-04-24 13:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: packg
+[2024-04-24 13:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imap-box-up
+[2024-04-24 13:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: 2b4cad69c8f0478caa92a512e57b735aba978d0e
+[2024-04-24 13:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkscreener
+[2024-04-24 13:38:41] INFO root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 13:38:41] INFO root fetch - processPackages [packg]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-24 13:38:41] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240424.290] Old Version: [0.44.20240423.289]
+[2024-04-24 13:38:41] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 13:38:41] INFO root fetch - processPackages [imap-box-up]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 13:38:41] INFO root fetch - processPackages [sema4ai-action-server]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-24 13:38:41] INFO root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: Downloading https://files.pythonhosted.org/packages/01/41/db784ddc21401cdfc90cf5135c9c817ed309e3b065cae306f76fcd8c0455/2b4cad69c8f0478caa92a512e57b735aba978d0e-0.1.8.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/35/f5/de411f4b1201d757eb0aab94b26e1480689d8322ab6621ed887351575c73/packg-0.9.2.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/00/21/3f6f576b4fb3f5cfe987b5da5fa9da74914e3f83305f606cd8d338a66d66/pkscreener-0.44.20240423.289.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-24 13:38:41] WARNING root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: Skipping package: exceeds size limit 27722932>=10485760
+[2024-04-24 13:38:41] INFO root fetch - main [MainThread]: End processing [2b4cad69c8f0478caa92a512e57b735aba978d0e] error
+[2024-04-24 13:38:41] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/85/d4/89fe16af28c38c9f4750c8bb387ecd279cfc21f3b004707626eaca42f2e7/imap_box_up-0.0.3.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [sema4ai-action-server]: Downloading https://files.pythonhosted.org/packages/82/71/d21e9df88648139c8262e54c5e6649ca94bfa07e656feeb7c50572a66fdc/sema4ai_action_server-0.5.0.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/9a/d2/c8c96c46c7352d8d450cd3603781f17a1c2fb55e67cb7758cfe016ed7bad/packg-0.9.3.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/71/ca/6b5293cfa71be1f78f4596b19d8c8ebd11206796692a2bd11e090f9b5f12/pkscreener-0.44.20240424.290.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [packg]: executing diffoscope
+[2024-04-24 13:38:41] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.9.2.tar.gz tmp/packg-0.9.3.tar.gz --markdown 20240424/p/packg/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-24 13:38:41] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-24 13:38:41] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240424/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 13:38:41] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-24 13:38:41] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240423.289.tar.gz tmp/pkscreener-0.44.20240424.290.tar.gz --markdown 20240424/p/pkscreener/0.44.20240423.289-0.44.20240424.290/README.md --exclude *.pyd
+[2024-04-24 13:38:41] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/63/d2/85ac98e793fdf328730ce797f1dd1205fd15da7971df5830169aa44e109b/imap_box_up-0.0.4.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [sema4ai-action-server]: Downloading https://files.pythonhosted.org/packages/05/7b/203ba45557f29f40f579a01028193ff9d6bf9e046fb032eef70bac04e5ca/sema4ai_action_server-0.5.1.tar.gz
+[2024-04-24 13:38:41] INFO root fetch - processPackages [imap-box-up]: executing diffoscope
+[2024-04-24 13:38:41] INFO root fetch - processPackages [imap-box-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_box_up-0.0.3.tar.gz tmp/imap_box_up-0.0.4.tar.gz --markdown 20240424/i/imap-box-up/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 13:38:42] INFO root fetch - processPackages [sema4ai-action-server]: executing diffoscope
+[2024-04-24 13:38:42] INFO root fetch - processPackages [sema4ai-action-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sema4ai_action_server-0.5.0.tar.gz tmp/sema4ai_action_server-0.5.1.tar.gz --markdown 20240424/s/sema4ai-action-server/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-24 13:38:42] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.2.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.3.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2024-04-24 13:38:42] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240423.289.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240424.290.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-24 13:38:42] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-24 13:38:42] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.3.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.4.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - main [MainThread]: End processing [imap-box-up]: success
+[2024-04-24 13:38:42] INFO root fetch - processPackages [sema4ai-action-server]: Remove: archive file [/home/abi/fetcher/tmp/sema4ai_action_server-0.5.0.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - processPackages [sema4ai-action-server]: Remove: archive file [/home/abi/fetcher/tmp/sema4ai_action_server-0.5.1.tar.gz]
+[2024-04-24 13:38:42] INFO root fetch - main [MainThread]: End processing [sema4ai-action-server]: success
+[2024-04-24 13:38:42] INFO root fetch - main [MainThread]: Store serial: [22911430]
