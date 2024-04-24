@@ -10005,3 +10005,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:28:58] INFO root fetch - processPackages [hspylib-askai]: Remove: archive file [/home/abi/fetcher/tmp/hspylib_askai-1.0.6.tar.gz]
 [2024-04-24 06:28:58] INFO root fetch - main [MainThread]: End processing [hspylib-askai]: success
 [2024-04-24 06:28:58] INFO root fetch - main [MainThread]: Store serial: [22906767]
+[2024-04-24 06:31:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906767]
+[2024-04-24 06:31:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 06:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amorprot
+[2024-04-24 06:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-l10n-netherlands
+[2024-04-24 06:31:07] INFO root fetch - processPackages [amorprot]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 06:31:07] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: New version: [16.0.20240423.0] Old Version: [16.0.20240212.1]
+[2024-04-24 06:31:07] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: Downloading https://files.pythonhosted.org/packages/40/20/b551d0cc93f8d09be2a678238db6f8f6bec33639a560f269af927443c59c/odoo_addons_oca_l10n_netherlands-16.0.20240212.1-py3-none-any.whl
+[2024-04-24 06:31:08] INFO root fetch - processPackages [amorprot]: Downloading https://files.pythonhosted.org/packages/fa/2b/aad6af82d61a1b21ff7f26d867add9ec5a0ad582c440a6f210bfaad8a81e/amorprot-0.0.1-py3-none-any.whl
+[2024-04-24 06:31:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: Downloading https://files.pythonhosted.org/packages/f6/54/95b64c010dc86657b1fe7dcde118b251b42ff60d446a794305beb8dac5d1/odoo_addons_oca_l10n_netherlands-16.0.20240423.0-py3-none-any.whl
+[2024-04-24 06:31:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: executing diffoscope
+[2024-04-24 06:31:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_netherlands-16.0.20240212.1-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_netherlands-16.0.20240423.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addons-oca-l10n-netherlands/16.0.20240212.1-16.0.20240423.0/README.md --exclude *.pyd
+[2024-04-24 06:31:08] INFO root fetch - processPackages [amorprot]: Downloading https://files.pythonhosted.org/packages/f9/b2/0ac73a03ed8ad02118621d488d71e935c0a19bb77f872931634d65b25a23/amorprot-0.0.2-py3-none-any.whl
+[2024-04-24 06:31:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_netherlands-16.0.20240212.1-py3-none-any.whl.zip]
+[2024-04-24 06:31:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-netherlands]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_netherlands-16.0.20240423.0-py3-none-any.whl.zip]
+[2024-04-24 06:31:08] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-netherlands]: success
+[2024-04-24 06:31:08] INFO root fetch - processPackages [amorprot]: executing diffoscope
+[2024-04-24 06:31:08] INFO root fetch - processPackages [amorprot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amorprot-0.0.1-py3-none-any.whl.zip tmp/amorprot-0.0.2-py3-none-any.whl.zip --markdown 20240424/a/amorprot/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 06:31:09] INFO root fetch - processPackages [amorprot]: Remove: archive file [/home/abi/fetcher/tmp/amorprot-0.0.1-py3-none-any.whl.zip]
+[2024-04-24 06:31:09] INFO root fetch - processPackages [amorprot]: Remove: archive file [/home/abi/fetcher/tmp/amorprot-0.0.2-py3-none-any.whl.zip]
+[2024-04-24 06:31:09] INFO root fetch - main [MainThread]: End processing [amorprot]: success
+[2024-04-24 06:31:09] INFO root fetch - main [MainThread]: Store serial: [22906772]
