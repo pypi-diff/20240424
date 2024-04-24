@@ -14726,3 +14726,56 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:12:55] INFO root fetch - processPackages [databricks-feature-engineering]: Remove: archive file [/home/abi/fetcher/tmp/databricks_feature_engineering-0.4.0-py3-none-any.whl.zip]
 [2024-04-24 10:12:55] INFO root fetch - main [MainThread]: End processing [databricks-feature-engineering]: success
 [2024-04-24 10:12:55] INFO root fetch - main [MainThread]: Store serial: [22908879]
+[2024-04-24 10:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908879]
+[2024-04-24 10:15:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skanym
+[2024-04-24 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profilecard
+[2024-04-24 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sensestreet
+[2024-04-24 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynchon
+[2024-04-24 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vespacli
+[2024-04-24 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fdamages
+[2024-04-24 10:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: launchable
+[2024-04-24 10:15:04] INFO root fetch - processPackages [skanym]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 10:15:04] INFO root fetch - processPackages [fdamages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 10:15:04] WARNING root fetch - processPackages [profilecard]: Skipping, unable to determine old version
+[2024-04-24 10:15:04] INFO root fetch - main [MainThread]: End processing [profilecard] error
+[2024-04-24 10:15:04] INFO root fetch - processPackages [sensestreet]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-24 10:15:04] INFO root fetch - processPackages [pynchon]: New version: [2024.4.5.14.1] Old Version: [2024.4.3.17.15]
+[2024-04-24 10:15:04] INFO root fetch - processPackages [vespacli]: New version: [8.331.34] Old Version: [8.329.17]
+[2024-04-24 10:15:04] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/f7/47/b073d66da70f033a16648506bf9c8c9bf6bb94a4c2addffde34a57d1029e/fdamages-0.0.8.tar.gz
+[2024-04-24 10:15:04] INFO root fetch - processPackages [launchable]: New version: [1.9.0] Old Version: [1.87.1]
+[2024-04-24 10:15:04] INFO root fetch - processPackages [skanym]: Downloading https://files.pythonhosted.org/packages/68/63/497768a6f7f7a58447424319c34e9cdcbf98d4f15109dc08b1f5f2bdd92d/skanym-0.1.2.tar.gz
+[2024-04-24 10:15:04] INFO root fetch - processPackages [sensestreet]: Downloading https://files.pythonhosted.org/packages/0e/cb/a17d79af6f59758dfb88599987b103547ffded2bcb9c77e49c78fb81ad12/sensestreet-1.0.5.tar.gz
+[2024-04-24 10:15:04] INFO root fetch - processPackages [pynchon]: Downloading https://files.pythonhosted.org/packages/48/37/00ccc5dd7aa83879903e0d0e2628f063102cfde24c253ae20e9f857b8276/pynchon-2024.4.3.17.15.tar.gz
+[2024-04-24 10:15:04] INFO root fetch - processPackages [vespacli]: Downloading https://files.pythonhosted.org/packages/f5/b7/b192f5587bc63f82ece4d586586d21bc2a0dfe492ca107fffb3f52408ed3/vespacli-8.329.17.tar.gz
+[2024-04-24 10:15:04] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/78/b0/4be0a235607249d511c78eb301cd79d13efb4b713cfa28c8b187e9ad9d09/launchable-1.87.1.tar.gz
+[2024-04-24 10:15:04] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/c8/91/80a20c426c12fcad2a527baf311c3b6d5f974f223536344ee9c16296a491/fdamages-0.0.9.tar.gz
+[2024-04-24 10:15:04] WARNING root fetch - processPackages [vespacli]: Skipping package: exceeds size limit 49213969>=10485760
+[2024-04-24 10:15:04] INFO root fetch - main [MainThread]: End processing [vespacli] error
+[2024-04-24 10:15:05] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-24 10:15:05] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.8.tar.gz tmp/fdamages-0.0.9.tar.gz --markdown 20240424/f/fdamages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:15:05] INFO root fetch - processPackages [sensestreet]: Downloading https://files.pythonhosted.org/packages/97/99/390804738c575de0aacacc042a4b9115bdf029804e09d3214c3ba6f43ab7/sensestreet-1.0.6.tar.gz
+[2024-04-24 10:15:05] INFO root fetch - processPackages [skanym]: Downloading https://files.pythonhosted.org/packages/eb/1d/c85496a9a3c2c5d644f063291735c566f96bc02a889457589cd7e47e9b5e/skanym-0.1.3.tar.gz
+[2024-04-24 10:15:05] INFO root fetch - processPackages [pynchon]: Downloading https://files.pythonhosted.org/packages/01/95/0d5a1e1aac3a22d200845a04815e53b0e2081b169ffeaeb2cfe3766c30d6/pynchon-2024.4.5.14.1.tar.gz
+[2024-04-24 10:15:05] INFO root fetch - processPackages [sensestreet]: executing diffoscope
+[2024-04-24 10:15:05] INFO root fetch - processPackages [sensestreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensestreet-1.0.5.tar.gz tmp/sensestreet-1.0.6.tar.gz --markdown 20240424/s/sensestreet/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-24 10:15:05] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/f2/b8/fb6131a7482937963e3324307046a838cb026353d3a543979576d48a47dd/launchable-1.9.0.tar.gz
+[2024-04-24 10:15:05] INFO root fetch - processPackages [pynchon]: executing diffoscope
+[2024-04-24 10:15:05] INFO root fetch - processPackages [pynchon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynchon-2024.4.3.17.15.tar.gz tmp/pynchon-2024.4.5.14.1.tar.gz --markdown 20240424/p/pynchon/2024.4.3.17.15-2024.4.5.14.1/README.md --exclude *.pyd
+[2024-04-24 10:15:05] INFO root fetch - processPackages [skanym]: executing diffoscope
+[2024-04-24 10:15:05] INFO root fetch - processPackages [skanym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skanym-0.1.2.tar.gz tmp/skanym-0.1.3.tar.gz --markdown 20240424/s/skanym/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 10:15:05] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18314320>=10485760
+[2024-04-24 10:15:05] INFO root fetch - main [MainThread]: End processing [launchable] error
+[2024-04-24 10:15:06] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.8.tar.gz]
+[2024-04-24 10:15:06] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.9.tar.gz]
+[2024-04-24 10:15:06] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-24 10:15:06] INFO root fetch - processPackages [sensestreet]: Remove: archive file [/home/abi/fetcher/tmp/sensestreet-1.0.5.tar.gz]
+[2024-04-24 10:15:06] INFO root fetch - processPackages [sensestreet]: Remove: archive file [/home/abi/fetcher/tmp/sensestreet-1.0.6.tar.gz]
+[2024-04-24 10:15:06] INFO root fetch - main [MainThread]: End processing [sensestreet]: success
+[2024-04-24 10:15:06] INFO root fetch - processPackages [skanym]: Remove: archive file [/home/abi/fetcher/tmp/skanym-0.1.2.tar.gz]
+[2024-04-24 10:15:06] INFO root fetch - processPackages [skanym]: Remove: archive file [/home/abi/fetcher/tmp/skanym-0.1.3.tar.gz]
+[2024-04-24 10:15:06] INFO root fetch - main [MainThread]: End processing [skanym]: success
+[2024-04-24 10:15:06] INFO root fetch - processPackages [pynchon]: Remove: archive file [/home/abi/fetcher/tmp/pynchon-2024.4.3.17.15.tar.gz]
+[2024-04-24 10:15:06] INFO root fetch - processPackages [pynchon]: Remove: archive file [/home/abi/fetcher/tmp/pynchon-2024.4.5.14.1.tar.gz]
+[2024-04-24 10:15:06] INFO root fetch - main [MainThread]: End processing [pynchon]: success
+[2024-04-24 10:15:06] INFO root fetch - main [MainThread]: Store serial: [22908898]
