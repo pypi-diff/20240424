@@ -7536,3 +7536,29 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:55:08] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.1.tar.gz]
 [2024-04-24 03:55:08] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
 [2024-04-24 03:55:08] INFO root fetch - main [MainThread]: Store serial: [22905656]
+[2024-04-24 03:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905656]
+[2024-04-24 03:57:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 03:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmqc
+[2024-04-24 03:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xdatbus
+[2024-04-24 03:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tga-data-analysis
+[2024-04-24 03:57:17] INFO root fetch - processPackages [tga-data-analysis]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-24 03:57:17] INFO root fetch - processPackages [tga-data-analysis]: Downloading https://files.pythonhosted.org/packages/b5/24/5adc6e406fdb420fb7578e94cdf9a6705b9ef848045f0f40c700e3745902/tga_data_analysis-2.0.6.tar.gz
+[2024-04-24 03:57:17] INFO root fetch - processPackages [tmqc]: New version: [0.3.1] Old Version: [0.2.6]
+[2024-04-24 03:57:17] INFO root fetch - processPackages [xdatbus]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-24 03:57:17] INFO root fetch - processPackages [tga-data-analysis]: Downloading https://files.pythonhosted.org/packages/c1/3a/ce1c2382eeecbb26a7cad014375094545c93bb38fe54f6784f58619f6de4/tga_data_analysis-2.0.7.tar.gz
+[2024-04-24 03:57:17] INFO root fetch - processPackages [tmqc]: Downloading https://files.pythonhosted.org/packages/19/b7/e27262854dc404071559df19558e8f151e9d01a3b69ee5a0a02a6f2702c8/tmqc-0.2.6.tar.gz
+[2024-04-24 03:57:17] INFO root fetch - processPackages [xdatbus]: Downloading https://files.pythonhosted.org/packages/e0/8c/bdb8c0f5a0c605b06445f098786b99131a711df7c132d2e5343900dc1a1c/xdatbus-0.2.7.tar.gz
+[2024-04-24 03:57:17] INFO root fetch - processPackages [tga-data-analysis]: executing diffoscope
+[2024-04-24 03:57:17] INFO root fetch - processPackages [tga-data-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tga_data_analysis-2.0.6.tar.gz tmp/tga_data_analysis-2.0.7.tar.gz --markdown 20240424/t/tga-data-analysis/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-04-24 03:57:18] WARNING root fetch - processPackages [tmqc]: Skipping package: exceeds size limit 14149047>=10485760
+[2024-04-24 03:57:18] INFO root fetch - main [MainThread]: End processing [tmqc] error
+[2024-04-24 03:57:18] INFO root fetch - processPackages [xdatbus]: Downloading https://files.pythonhosted.org/packages/90/04/691ae55d1a7bc858171e8121886779e0e9f9ff91e07ceccc0a2a4ca84a69/xdatbus-0.2.8.tar.gz
+[2024-04-24 03:57:18] INFO root fetch - processPackages [tga-data-analysis]: Remove: archive file [/home/abi/fetcher/tmp/tga_data_analysis-2.0.6.tar.gz]
+[2024-04-24 03:57:18] INFO root fetch - processPackages [tga-data-analysis]: Remove: archive file [/home/abi/fetcher/tmp/tga_data_analysis-2.0.7.tar.gz]
+[2024-04-24 03:57:18] INFO root fetch - main [MainThread]: End processing [tga-data-analysis]: success
+[2024-04-24 03:57:18] INFO root fetch - processPackages [xdatbus]: executing diffoscope
+[2024-04-24 03:57:18] INFO root fetch - processPackages [xdatbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdatbus-0.2.7.tar.gz tmp/xdatbus-0.2.8.tar.gz --markdown 20240424/x/xdatbus/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-24 03:57:19] INFO root fetch - processPackages [xdatbus]: Remove: archive file [/home/abi/fetcher/tmp/xdatbus-0.2.7.tar.gz]
+[2024-04-24 03:57:19] INFO root fetch - processPackages [xdatbus]: Remove: archive file [/home/abi/fetcher/tmp/xdatbus-0.2.8.tar.gz]
+[2024-04-24 03:57:19] INFO root fetch - main [MainThread]: End processing [xdatbus]: success
+[2024-04-24 03:57:19] INFO root fetch - main [MainThread]: Store serial: [22905667]
