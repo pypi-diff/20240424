@@ -12189,3 +12189,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:38:08] INFO root fetch - processPackages [paraforge]: Remove: archive file [/home/abi/fetcher/tmp/paraforge-0.0.2.tar.gz]
 [2024-04-24 08:38:08] INFO root fetch - main [MainThread]: End processing [paraforge]: success
 [2024-04-24 08:38:08] INFO root fetch - main [MainThread]: Store serial: [22907586]
+[2024-04-24 08:40:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907586]
+[2024-04-24 08:40:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 08:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azureml-rag
+[2024-04-24 08:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FinaleTools
+[2024-04-24 08:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-shell
+[2024-04-24 08:40:17] INFO root fetch - processPackages [tf-shell]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 08:40:17] INFO root fetch - processPackages [FinaleTools]: New version: [0.5.0] Old Version: [0.4.5]
+[2024-04-24 08:40:17] INFO root fetch - processPackages [azureml-rag]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 08:40:17] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/cd/6b/d377d688c115fe0dca01efbe91a0e27be6b61358d1240f8ffd8e690e2d90/azureml_rag-0.2.8-py3-none-any.whl
+[2024-04-24 08:40:17] INFO root fetch - processPackages [FinaleTools]: Downloading https://files.pythonhosted.org/packages/86/ef/bfa06e0fd689cc73b316bf0c385259a18fdc1ef3e26488c9f8d020c52c2e/FinaleTools-0.4.5.tar.gz
+[2024-04-24 08:40:17] INFO root fetch - processPackages [tf-shell]: Downloading https://files.pythonhosted.org/packages/c2/41/ef5ac833e65d9df9b920c260befe764f59bfd6ccb6caea6eb06f3564bf81/tf_shell-0.1.0-cp39-cp39-manylinux_2_35_x86_64.whl
+[2024-04-24 08:40:17] WARNING root fetch - processPackages [tf-shell]: Skipping package: exceeds size limit 16006711>=10485760
+[2024-04-24 08:40:17] INFO root fetch - main [MainThread]: End processing [tf-shell] error
+[2024-04-24 08:40:17] INFO root fetch - processPackages [FinaleTools]: Downloading https://files.pythonhosted.org/packages/bb/d7/2c91c192824178717bf3766796a1cc42445e23fc9f5f8e47c8a83528b4c8/finaletools-0.5.0.tar.gz
+[2024-04-24 08:40:17] INFO root fetch - processPackages [FinaleTools]: executing diffoscope
+[2024-04-24 08:40:17] INFO root fetch - processPackages [FinaleTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinaleTools-0.4.5.tar.gz tmp/finaletools-0.5.0.tar.gz --markdown 20240424/F/FinaleTools/0.4.5-0.5.0/README.md --exclude *.pyd
+[2024-04-24 08:40:18] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/f3/84/b836de2d4c9aec3f94fbe80a1cf0f12b9999277127ca6b03bf9333080769/azureml_rag-0.2.9-py3-none-any.whl
+[2024-04-24 08:40:18] INFO root fetch - processPackages [FinaleTools]: Remove: archive file [/home/abi/fetcher/tmp/FinaleTools-0.4.5.tar.gz]
+[2024-04-24 08:40:18] INFO root fetch - processPackages [FinaleTools]: Remove: archive file [/home/abi/fetcher/tmp/finaletools-0.5.0.tar.gz]
+[2024-04-24 08:40:18] INFO root fetch - main [MainThread]: End processing [FinaleTools]: success
+[2024-04-24 08:40:19] INFO root fetch - processPackages [azureml-rag]: executing diffoscope
+[2024-04-24 08:40:19] INFO root fetch - processPackages [azureml-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rag-0.2.8-py3-none-any.whl.zip tmp/azureml_rag-0.2.9-py3-none-any.whl.zip --markdown 20240424/a/azureml-rag/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 08:40:20] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.8-py3-none-any.whl.zip]
+[2024-04-24 08:40:20] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
+[2024-04-24 08:40:20] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
+[2024-04-24 08:40:20] INFO root fetch - main [MainThread]: Store serial: [22907595]
