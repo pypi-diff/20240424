@@ -9945,3 +9945,51 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:24:32] INFO root fetch - main [MainThread]: End processing [wyy]: success
 [2024-04-24 06:24:32] INFO root fetch - main [MainThread]: End processing [wyy]: success
 [2024-04-24 06:24:32] INFO root fetch - main [MainThread]: Store serial: [22906747]
+[2024-04-24 06:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906747]
+[2024-04-24 06:26:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 06:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ships
+[2024-04-24 06:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mergecraft
+[2024-04-24 06:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reprompt
+[2024-04-24 06:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-it-delivery-note
+[2024-04-24 06:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OZI
+[2024-04-24 06:26:41] INFO root fetch - processPackages [OZI]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-24 06:26:41] INFO root fetch - processPackages [reprompt]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-24 06:26:41] INFO root fetch - processPackages [ships]: New version: [1.3.8] Old Version: [1.2.8]
+[2024-04-24 06:26:41] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/01/0f/ec75dc0c1db5327f1da02921f7cba504d1e4d2ea70fa035a23d6065480ef/OZI-1.1.2.tar.gz
+[2024-04-24 06:26:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: New version: [14.0.3.4.2.dev1] Old Version: [14.0.3.4.1.dev2]
+[2024-04-24 06:26:41] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/16/be/48ea095464d54671ae1d7f9a8f68a699a6be3a4f3b4ce8173849df56fe5e/reprompt-0.0.7.8.tar.gz
+[2024-04-24 06:26:41] INFO root fetch - processPackages [mergecraft]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 06:26:41] INFO root fetch - processPackages [ships]: Downloading https://files.pythonhosted.org/packages/65/6e/6c12e89c0a52e67cc42ad20ad4cce94e21e192874a6979fd5ca967f14124/ships-1.2.8.tar.gz
+[2024-04-24 06:26:41] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/16/15/08760b615346d6cf50b0b2f93dc66b1847dcd770a90364a046b318ec0245/odoo14_addon_l10n_it_delivery_note-14.0.3.4.1.dev2-py3-none-any.whl
+[2024-04-24 06:26:41] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/34/7b/b69aa9e855c34973c306306592065a249afadb486f90351e1f219962e433/OZI-1.1.3.tar.gz
+[2024-04-24 06:26:42] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/73/c2/bec31d2b793bc3d0d6318a9376679d1998891be9da57a1ba324b2458ffdf/mergecraft-0.0.2.tar.gz
+[2024-04-24 06:26:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/9a/90/9d10304fd2c5d1c872b25e4abec3416e9d37b65af4a9c780ff9238cbd9c3/odoo14_addon_l10n_it_delivery_note-14.0.3.4.2.dev1-py3-none-any.whl
+[2024-04-24 06:26:42] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-24 06:26:42] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.1.2.tar.gz tmp/OZI-1.1.3.tar.gz --markdown 20240424/O/OZI/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-24 06:26:42] INFO root fetch - processPackages [ships]: Downloading https://files.pythonhosted.org/packages/44/5e/ca6594829b1129df1878d244d630ab2ced4f070a3164e144ddd416b565b4/ships-1.3.8.tar.gz
+[2024-04-24 06:26:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: executing diffoscope
+[2024-04-24 06:26:42] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.2.dev1-py3-none-any.whl.zip --markdown 20240424/o/odoo14-addon-l10n-it-delivery-note/14.0.3.4.1.dev2-14.0.3.4.2.dev1/README.md --exclude *.pyd
+[2024-04-24 06:26:42] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/9f/57/4ca4c40e9d7a138326c5869361ac479d342f3896bc074d2cbd02c824da2d/reprompt-0.0.7.9.tar.gz
+[2024-04-24 06:26:42] INFO root fetch - processPackages [reprompt]: executing diffoscope
+[2024-04-24 06:26:42] INFO root fetch - processPackages [reprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprompt-0.0.7.8.tar.gz tmp/reprompt-0.0.7.9.tar.gz --markdown 20240424/r/reprompt/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-24 06:26:42] INFO root fetch - processPackages [ships]: executing diffoscope
+[2024-04-24 06:26:42] INFO root fetch - processPackages [ships]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ships-1.2.8.tar.gz tmp/ships-1.3.8.tar.gz --markdown 20240424/s/ships/1.2.8-1.3.8/README.md --exclude *.pyd
+[2024-04-24 06:26:42] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/d9/29/50d63760641c8e57055244ddf956f4cd52599fe24de7309e18e079caaf08/mergecraft-0.0.3.tar.gz
+[2024-04-24 06:26:42] INFO root fetch - processPackages [mergecraft]: executing diffoscope
+[2024-04-24 06:26:42] INFO root fetch - processPackages [mergecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergecraft-0.0.2.tar.gz tmp/mergecraft-0.0.3.tar.gz --markdown 20240424/m/mergecraft/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 06:26:43] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.8.tar.gz]
+[2024-04-24 06:26:43] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.9.tar.gz]
+[2024-04-24 06:26:43] INFO root fetch - main [MainThread]: End processing [reprompt]: success
+[2024-04-24 06:26:43] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.2.tar.gz]
+[2024-04-24 06:26:43] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.3.tar.gz]
+[2024-04-24 06:26:43] INFO root fetch - main [MainThread]: End processing [mergecraft]: success
+[2024-04-24 06:26:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.1.dev2-py3-none-any.whl.zip]
+[2024-04-24 06:26:43] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.2.dev1-py3-none-any.whl.zip]
+[2024-04-24 06:26:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-delivery-note]: success
+[2024-04-24 06:26:43] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.1.2.tar.gz]
+[2024-04-24 06:26:43] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.1.3.tar.gz]
+[2024-04-24 06:26:43] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-24 06:26:47] INFO root fetch - processPackages [ships]: Remove: archive file [/home/abi/fetcher/tmp/ships-1.2.8.tar.gz]
+[2024-04-24 06:26:47] INFO root fetch - processPackages [ships]: Remove: archive file [/home/abi/fetcher/tmp/ships-1.3.8.tar.gz]
+[2024-04-24 06:26:47] INFO root fetch - main [MainThread]: End processing [ships]: success
+[2024-04-24 06:26:47] INFO root fetch - main [MainThread]: Store serial: [22906764]
