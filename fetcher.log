@@ -11175,3 +11175,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:35:40] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240423-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2024-04-24 07:35:40] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-04-24 07:35:40] INFO root fetch - main [MainThread]: Store serial: [22907233]
+[2024-04-24 07:37:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907233]
+[2024-04-24 07:37:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 07:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keycloak-oid-client
+[2024-04-24 07:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dassana
+[2024-04-24 07:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytmlr
+[2024-04-24 07:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stac-fastapi.opensearch
+[2024-04-24 07:37:53] WARNING root fetch - processPackages [keycloak-oid-client]: Skipping, unable to determine old version
+[2024-04-24 07:37:53] INFO root fetch - main [MainThread]: End processing [keycloak-oid-client] error
+[2024-04-24 07:37:53] INFO root fetch - processPackages [stac-fastapi.opensearch]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-24 07:37:53] WARNING root fetch - processPackages [pytmlr]: Skipping, unable to determine old version
+[2024-04-24 07:37:53] INFO root fetch - main [MainThread]: End processing [pytmlr] error
+[2024-04-24 07:37:53] INFO root fetch - processPackages [dassana]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 07:37:53] INFO root fetch - processPackages [stac-fastapi.opensearch]: Downloading https://files.pythonhosted.org/packages/91/9b/6190491c3f42f630735f86cafe723f17b3102c45cf06215712647b2c0eef/stac-fastapi.opensearch-2.2.0.tar.gz
+[2024-04-24 07:37:53] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/b3/9f/871bf6d0e81f729c205d8bbaa19e543384414bab3d57c4b30a50709a45cd/dassana-0.9.8.tar.gz
+[2024-04-24 07:37:53] INFO root fetch - processPackages [stac-fastapi.opensearch]: Downloading https://files.pythonhosted.org/packages/92/c8/316bd41d4d61d1bf60dccd1b0bcfd1fbd296641e4ab119328d61496d4dee/stac_fastapi_opensearch-2.3.0.tar.gz
+[2024-04-24 07:37:53] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/46/ff/4e2ce19c6956690d25a5647d71e7e27518e7a65200c0411641e62dbd2c48/dassana-0.9.9.tar.gz
+[2024-04-24 07:37:53] INFO root fetch - processPackages [stac-fastapi.opensearch]: executing diffoscope
+[2024-04-24 07:37:53] INFO root fetch - processPackages [stac-fastapi.opensearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-fastapi.opensearch-2.2.0.tar.gz tmp/stac_fastapi_opensearch-2.3.0.tar.gz --markdown 20240424/s/stac-fastapi.opensearch/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-24 07:37:53] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2024-04-24 07:37:53] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.9.8.tar.gz tmp/dassana-0.9.9.tar.gz --markdown 20240424/d/dassana/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 07:37:54] INFO root fetch - processPackages [stac-fastapi.opensearch]: Remove: archive file [/home/abi/fetcher/tmp/stac-fastapi.opensearch-2.2.0.tar.gz]
+[2024-04-24 07:37:54] INFO root fetch - processPackages [stac-fastapi.opensearch]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_opensearch-2.3.0.tar.gz]
+[2024-04-24 07:37:54] INFO root fetch - main [MainThread]: End processing [stac-fastapi.opensearch]: success
+[2024-04-24 07:37:54] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.9.8.tar.gz]
+[2024-04-24 07:37:54] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.9.9.tar.gz]
+[2024-04-24 07:37:54] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2024-04-24 07:37:54] INFO root fetch - main [MainThread]: Store serial: [22907248]
