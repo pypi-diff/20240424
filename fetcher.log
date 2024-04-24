@@ -19939,3 +19939,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:04:28] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/sastadev-0.1.5.tar.gz]
 [2024-04-24 13:04:28] INFO root fetch - main [MainThread]: End processing [sastadev]: success
 [2024-04-24 13:04:28] INFO root fetch - main [MainThread]: Store serial: [22910914]
+[2024-04-24 13:06:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910914]
+[2024-04-24 13:06:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alita-tools
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gspc
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ailia
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-utils-dev
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opensafely
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miksiai
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vdf-io
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alita-sdk
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vdf-io
+[2024-04-24 13:06:47] INFO root fetch - processPackages [gspc]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev4] Old Version: [0.0.6.dev3]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [opensafely]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/41/40/8404743bac96e403c4e3cdaa6569f9e35faa80b3fa32b600bcc81fc6aa42/opensafely-1.9.1.tar.gz
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ailia]: New version: [1.3.0.6] Old Version: [1.3.0.5]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [miksiai]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [alita-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [vdf-io]: New version: [0.1.9] Old Version: [0.1.85]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [vdf-io]: New version: [0.1.9] Old Version: [0.1.85]
+[2024-04-24 13:06:47] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/eb/6a/349dadf6e4e3a007e7d5a78f070d389e47a9235751e0a9c1df103f5d5b70/torch_model_manager-0.0.6.dev3.tar.gz
+[2024-04-24 13:06:47] INFO root fetch - processPackages [gspc]: Downloading https://files.pythonhosted.org/packages/4f/b2/1fbf4d61b43eef921e462f66ccbf19d73fd091b4dc369810e9c5c77f256a/gspc-0.0.1.tar.gz
+[2024-04-24 13:06:47] INFO root fetch - processPackages [ailia]: Downloading https://files.pythonhosted.org/packages/ee/17/6334d5ba027e49783696e08027245f0f2583d497bde0c6da9dcb0d022eec/ailia-1.3.0.5-py3-none-any.whl
+[2024-04-24 13:06:48] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/11/7e/f89b7d2fb29b664d4a1b772c0a8757857534dc4981d9d9547b1410352f8b/alita_tools-0.0.8.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [miksiai]: Downloading https://files.pythonhosted.org/packages/af/7f/2062ce84f32733c61554c46a4c8a3da4cb84dfa564bb111e3abe5000a97d/miksiai-1.0.4-cp310-cp310-win_amd64.whl
+[2024-04-24 13:06:48] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/3c/eb/f179bef73b5e231fcd4612214199cf62b22205ce941a25676660b44bd5af/alita_sdk-0.0.9.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/0f/79/960c399848c4b4e73ae4986620f78539ea8443881aa1b95f0e571909a7f3/vdf_io-0.1.85.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/0f/79/960c399848c4b4e73ae4986620f78539ea8443881aa1b95f0e571909a7f3/vdf_io-0.1.85.tar.gz
+[2024-04-24 13:06:48] WARNING root fetch - processPackages [ailia]: Skipping package: exceeds size limit 47688013>=10485760
+[2024-04-24 13:06:48] INFO root fetch - main [MainThread]: End processing [ailia] error
+[2024-04-24 13:06:48] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [gspc]: Downloading https://files.pythonhosted.org/packages/33/78/ba8c2ff344b9f4b071243970cba854f10e14a9069702313671858ea1e2a6/gspc-0.0.2.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/64/67/da5b006e72fe5cc72d10eaf72c3aeb470703a1b5be1f749c06a3c315dc3e/opensafely-1.9.2.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/7d/6c/448e0bf6c8118cf274115590f2954036bec2332a93103e579740484bd779/torch_model_manager-0.0.6.dev4.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [gspc]: executing diffoscope
+[2024-04-24 13:06:48] INFO root fetch - processPackages [gspc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspc-0.0.1.tar.gz tmp/gspc-0.0.2.tar.gz --markdown 20240424/g/gspc/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 13:06:48] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-24 13:06:48] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.0.6.dev3.tar.gz tmp/torch_model_manager-0.0.6.dev4.tar.gz --markdown 20240424/t/torch-model-manager/0.0.6.dev3-0.0.6.dev4/README.md --exclude *.pyd
+[2024-04-24 13:06:48] INFO root fetch - processPackages [opensafely]: executing diffoscope
+[2024-04-24 13:06:48] INFO root fetch - processPackages [opensafely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensafely-1.9.1.tar.gz tmp/opensafely-1.9.2.tar.gz --markdown 20240424/o/opensafely/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-24 13:06:48] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/b2/e0/efa7908f0bf622856778acf50ffea9fd834a7e4b47167ee967dc96ba217d/alita_tools-0.0.9.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/9b/52/c984d4d6e4b3602553ff9c4577ef7dcb089f878012639d529426b0674c1f/alita_sdk-0.1.0.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/54/48/6653d701926d0676616e4c8e49bd591c2fa67a2abb3c903073d39d6cfe8b/vdf_io-0.1.9.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/54/48/6653d701926d0676616e4c8e49bd591c2fa67a2abb3c903073d39d6cfe8b/vdf_io-0.1.9.tar.gz
+[2024-04-24 13:06:48] INFO root fetch - processPackages [alita-tools]: executing diffoscope
+[2024-04-24 13:06:48] INFO root fetch - processPackages [alita-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_tools-0.0.8.tar.gz tmp/alita_tools-0.0.9.tar.gz --markdown 20240424/a/alita-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:06:48] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-04-24 13:06:48] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.0.9.tar.gz tmp/alita_sdk-0.1.0.tar.gz --markdown 20240424/a/alita-sdk/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-24 13:06:48] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-24 13:06:48] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240424/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-24 13:06:48] INFO root fetch - processPackages [vdf-io]: executing diffoscope
+[2024-04-24 13:06:48] INFO root fetch - processPackages [vdf-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdf_io-0.1.85.tar.gz tmp/vdf_io-0.1.9.tar.gz --markdown 20240424/v/vdf-io/0.1.85-0.1.9/README.md --exclude *.pyd
+[2024-04-24 13:06:48] INFO root fetch - processPackages [vdf-io]: executing diffoscope
+[2024-04-24 13:06:48] INFO root fetch - processPackages [vdf-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdf_io-0.1.85.tar.gz tmp/vdf_io-0.1.9.tar.gz --markdown 20240424/v/vdf-io/0.1.85-0.1.9/README.md --exclude *.pyd
+[2024-04-24 13:06:48] INFO root fetch - processPackages [miksiai]: Downloading https://files.pythonhosted.org/packages/25/60/1be636ce0aaa46d9b39c3d556d27241d0bbf7953ff1e82b1a5316161bb16/miksiai-1.0.5-cp310-cp310-win_amd64.whl
+[2024-04-24 13:06:49] INFO root fetch - processPackages [gspc]: Remove: archive file [/home/abi/fetcher/tmp/gspc-0.0.1.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - processPackages [gspc]: Remove: archive file [/home/abi/fetcher/tmp/gspc-0.0.2.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - main [MainThread]: End processing [gspc]: success
+[2024-04-24 13:06:49] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev3.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev4.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-24 13:06:49] INFO root fetch - processPackages [miksiai]: executing diffoscope
+[2024-04-24 13:06:49] INFO root fetch - processPackages [miksiai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miksiai-1.0.4-cp310-cp310-win_amd64.whl.zip tmp/miksiai-1.0.5-cp310-cp310-win_amd64.whl.zip --markdown 20240424/m/miksiai/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-24 13:06:49] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.8.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.9.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - main [MainThread]: End processing [alita-tools]: success
+[2024-04-24 13:06:49] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.85.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.9.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - main [MainThread]: End processing [vdf-io]: success
+[2024-04-24 13:06:49] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-24 13:06:49] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.0.9.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.0.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-04-24 13:06:49] INFO root fetch - main [MainThread]: End processing [vdf-io]: success
+[2024-04-24 13:06:49] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.1.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.2.tar.gz]
+[2024-04-24 13:06:49] INFO root fetch - main [MainThread]: End processing [opensafely]: success
+[2024-04-24 13:06:57] INFO root fetch - processPackages [miksiai]: Remove: archive file [/home/abi/fetcher/tmp/miksiai-1.0.4-cp310-cp310-win_amd64.whl.zip]
+[2024-04-24 13:06:57] INFO root fetch - processPackages [miksiai]: Remove: archive file [/home/abi/fetcher/tmp/miksiai-1.0.5-cp310-cp310-win_amd64.whl.zip]
+[2024-04-24 13:06:57] INFO root fetch - main [MainThread]: End processing [miksiai]: success
+[2024-04-24 13:06:57] INFO root fetch - main [MainThread]: Store serial: [22910949]
