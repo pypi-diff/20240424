@@ -10885,3 +10885,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:20:00] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
 [2024-04-24 07:20:00] INFO root fetch - main [MainThread]: End processing [pxutil]: success
 [2024-04-24 07:20:00] INFO root fetch - main [MainThread]: Store serial: [22907143]
+[2024-04-24 07:22:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907143]
+[2024-04-24 07:22:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 07:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hatch
+[2024-04-24 07:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsgen
+[2024-04-24 07:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyJsBitwise
+[2024-04-24 07:22:09] INFO root fetch - processPackages [hatch]: New version: [1rc6] Old Version: [1rc5]
+[2024-04-24 07:22:09] INFO root fetch - processPackages [dsgen]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-24 07:22:09] INFO root fetch - processPackages [PyJsBitwise]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 07:22:09] INFO root fetch - processPackages [hatch]: Downloading https://files.pythonhosted.org/packages/d3/16/5ffea665c4fb7585bdaa3ccb13ab625fc24a3389557bfb5836f9b6ed3bef/hatch-1rc5.tar.gz
+[2024-04-24 07:22:09] INFO root fetch - processPackages [dsgen]: Downloading https://files.pythonhosted.org/packages/65/2e/ddf84fac176235f7a40c491eba5dc9b4c0a70c27b184f56ece34b237efd5/dsgen-2.4.0-py3-none-any.whl
+[2024-04-24 07:22:09] INFO root fetch - processPackages [PyJsBitwise]: Downloading https://files.pythonhosted.org/packages/1e/33/25fc52e6306996d458dd8c26449f269e2a88ad34dd7275d0720af5518d92/PyJsBitwise-1.0.1.tar.gz
+[2024-04-24 07:22:10] INFO root fetch - processPackages [hatch]: Downloading https://files.pythonhosted.org/packages/bb/4f/0675ad9166256fdc3bf37af73068c11aed9af7855fbde4f6399ec1a687f9/hatch-1rc6.tar.gz
+[2024-04-24 07:22:10] INFO root fetch - processPackages [dsgen]: Downloading https://files.pythonhosted.org/packages/03/5e/a337601b25713a9ee409aa7450f0619ffbfe38151a8fd498a866c81af3fa/dsgen-2.4.1-py3-none-any.whl
+[2024-04-24 07:22:10] INFO root fetch - processPackages [PyJsBitwise]: Downloading https://files.pythonhosted.org/packages/86/8c/6cce6be8e27a4f1aa0d29b3222c8dba24004e8e036794aaa4583c405350b/pyjsbitwise-1.0.2.tar.gz
+[2024-04-24 07:22:10] INFO root fetch - processPackages [dsgen]: executing diffoscope
+[2024-04-24 07:22:10] INFO root fetch - processPackages [dsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsgen-2.4.0-py3-none-any.whl.zip tmp/dsgen-2.4.1-py3-none-any.whl.zip --markdown 20240424/d/dsgen/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-24 07:22:10] INFO root fetch - processPackages [PyJsBitwise]: executing diffoscope
+[2024-04-24 07:22:10] INFO root fetch - processPackages [PyJsBitwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyJsBitwise-1.0.1.tar.gz tmp/pyjsbitwise-1.0.2.tar.gz --markdown 20240424/P/PyJsBitwise/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-24 07:22:10] INFO root fetch - processPackages [hatch]: executing diffoscope
+[2024-04-24 07:22:10] INFO root fetch - processPackages [hatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch-1rc5.tar.gz tmp/hatch-1rc6.tar.gz --markdown 20240424/h/hatch/1rc5-1rc6/README.md --exclude *.pyd
+[2024-04-24 07:22:11] INFO root fetch - processPackages [dsgen]: Remove: archive file [/home/abi/fetcher/tmp/dsgen-2.4.0-py3-none-any.whl.zip]
+[2024-04-24 07:22:11] INFO root fetch - processPackages [dsgen]: Remove: archive file [/home/abi/fetcher/tmp/dsgen-2.4.1-py3-none-any.whl.zip]
+[2024-04-24 07:22:11] INFO root fetch - main [MainThread]: End processing [dsgen]: success
+[2024-04-24 07:22:11] INFO root fetch - processPackages [PyJsBitwise]: Remove: archive file [/home/abi/fetcher/tmp/PyJsBitwise-1.0.1.tar.gz]
+[2024-04-24 07:22:11] INFO root fetch - processPackages [PyJsBitwise]: Remove: archive file [/home/abi/fetcher/tmp/pyjsbitwise-1.0.2.tar.gz]
+[2024-04-24 07:22:11] INFO root fetch - main [MainThread]: End processing [PyJsBitwise]: success
+[2024-04-24 07:22:11] INFO root fetch - processPackages [hatch]: Remove: archive file [/home/abi/fetcher/tmp/hatch-1rc5.tar.gz]
+[2024-04-24 07:22:11] INFO root fetch - processPackages [hatch]: Remove: archive file [/home/abi/fetcher/tmp/hatch-1rc6.tar.gz]
+[2024-04-24 07:22:11] INFO root fetch - main [MainThread]: End processing [hatch]: success
+[2024-04-24 07:22:11] INFO root fetch - main [MainThread]: Store serial: [22907150]
