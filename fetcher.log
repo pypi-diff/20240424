@@ -12373,3 +12373,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:51:08] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.5.tar.gz]
 [2024-04-24 08:51:08] INFO root fetch - main [MainThread]: End processing [dimples]: success
 [2024-04-24 08:51:08] INFO root fetch - main [MainThread]: Store serial: [22907655]
+[2024-04-24 08:53:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907655]
+[2024-04-24 08:53:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 08:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TitanDevice
+[2024-04-24 08:53:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mysql-server-has-gone
+[2024-04-24 08:53:17] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-24 08:53:17] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/37/1c/c5bf637d66e8beca3a91343d55729235ee07d6b181eadcfde5865ee2ab20/TitanDevice-0.2.1.tar.gz
+[2024-04-24 08:53:17] INFO root fetch - processPackages [mysql-server-has-gone]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-24 08:53:18] INFO root fetch - processPackages [mysql-server-has-gone]: Downloading https://files.pythonhosted.org/packages/67/a4/37730bb7722372f634a4a7ec2e4b2f554ed7eca462ee91aaa43e320bc92a/mysql_server_has_gone-2.0.2.tar.gz
+[2024-04-24 08:53:18] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/0f/c8/f5016124fde6480c93850c514c6dc784c91e2c416fb1a4001efc17597343/TitanDevice-0.2.2.tar.gz
+[2024-04-24 08:53:18] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 08:53:18] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.1.tar.gz tmp/TitanDevice-0.2.2.tar.gz --markdown 20240424/T/TitanDevice/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-24 08:53:18] INFO root fetch - processPackages [mysql-server-has-gone]: Downloading https://files.pythonhosted.org/packages/0c/17/a0e281c1e059533e259882041a10531dc32d586ce5eef98bcb81c68f00de/mysql_server_has_gone-2.0.3.tar.gz
+[2024-04-24 08:53:18] INFO root fetch - processPackages [mysql-server-has-gone]: executing diffoscope
+[2024-04-24 08:53:18] INFO root fetch - processPackages [mysql-server-has-gone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_server_has_gone-2.0.2.tar.gz tmp/mysql_server_has_gone-2.0.3.tar.gz --markdown 20240424/m/mysql-server-has-gone/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-24 08:53:18] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.1.tar.gz]
+[2024-04-24 08:53:18] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.2.tar.gz]
+[2024-04-24 08:53:18] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 08:53:19] INFO root fetch - processPackages [mysql-server-has-gone]: Remove: archive file [/home/abi/fetcher/tmp/mysql_server_has_gone-2.0.2.tar.gz]
+[2024-04-24 08:53:19] INFO root fetch - processPackages [mysql-server-has-gone]: Remove: archive file [/home/abi/fetcher/tmp/mysql_server_has_gone-2.0.3.tar.gz]
+[2024-04-24 08:53:19] INFO root fetch - main [MainThread]: End processing [mysql-server-has-gone]: success
+[2024-04-24 08:53:19] INFO root fetch - main [MainThread]: Store serial: [22907661]
