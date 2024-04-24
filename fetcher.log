@@ -2174,3 +2174,57 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:04:15] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240423.418.tar.gz]
 [2024-04-24 02:04:15] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-24 02:04:15] INFO root fetch - main [MainThread]: Store serial: [22903675]
+[2024-04-24 02:06:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903675]
+[2024-04-24 02:06:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2024-04-24 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Factorlib
+[2024-04-24 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polypip
+[2024-04-24 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2024-04-24 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxscript
+[2024-04-24 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latch-cloud-clients
+[2024-04-24 02:06:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vuer
+[2024-04-24 02:06:24] WARNING root fetch - processPackages [Factorlib]: Skipping, unable to determine old version
+[2024-04-24 02:06:24] INFO root fetch - main [MainThread]: End processing [Factorlib] error
+[2024-04-24 02:06:24] INFO root fetch - processPackages [latch-cloud-clients]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 02:06:24] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 02:06:24] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240423] Old Version: [0.1.0.dev20240422]
+[2024-04-24 02:06:24] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240424.359] Old Version: [2.0.0.20240423.418]
+[2024-04-24 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-24 02:06:24] WARNING root fetch - processPackages [polypip]: Skipping, unable to determine old version
+[2024-04-24 02:06:24] INFO root fetch - main [MainThread]: End processing [polypip] error
+[2024-04-24 02:06:24] INFO root fetch - processPackages [latch-cloud-clients]: Downloading https://files.pythonhosted.org/packages/22/62/bfbe589e08d35c42390e6339e695dc23b9399c11d83e729cde8397e83fc5/latch_cloud_clients-0.1.1.tar.gz
+[2024-04-24 02:06:24] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-04-24 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-24 02:06:24] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/fa/0b/0ae5b3fb112147a60086b00b2484eed0075c0dfc19d4a83dd012ce2ac71e/mct-nightly-2.0.0.20240423.418.tar.gz
+[2024-04-24 02:06:24] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/e9/f3/20ae3666922990fa9742a296219a56247fa1893e308360e11befd4d00a92/onnxscript-0.1.0.dev20240422.tar.gz
+[2024-04-24 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-24 02:06:24] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-04-24 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-24 02:06:24] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240424/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-04-24 02:06:24] INFO root fetch - processPackages [latch-cloud-clients]: Downloading https://files.pythonhosted.org/packages/b7/db/d13dd8c74b01aade26a0398b7dd826abc2f791b57f095aa4df244a17d90f/latch_cloud_clients-0.1.2.tar.gz
+[2024-04-24 02:06:24] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-04-24 02:06:24] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240424/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 02:06:24] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/8f/4f/fcd3792960d96d5a3589eef1bc01ed2e3e922ab1859ea551d6fb78348dda/mct-nightly-2.0.0.20240424.359.tar.gz
+[2024-04-24 02:06:24] INFO root fetch - processPackages [latch-cloud-clients]: executing diffoscope
+[2024-04-24 02:06:24] INFO root fetch - processPackages [latch-cloud-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_cloud_clients-0.1.1.tar.gz tmp/latch_cloud_clients-0.1.2.tar.gz --markdown 20240424/l/latch-cloud-clients/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 02:06:24] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/b9/61/e9ffd7fb5be320f69be9dcc34b6b592964987d55c33e7fb463d468d9be7a/onnxscript-0.1.0.dev20240423.tar.gz
+[2024-04-24 02:06:25] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-24 02:06:25] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240423.418.tar.gz tmp/mct-nightly-2.0.0.20240424.359.tar.gz --markdown 20240424/m/mct-nightly/2.0.0.20240423.418-2.0.0.20240424.359/README.md --exclude *.pyd
+[2024-04-24 02:06:25] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-24 02:06:25] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240422.tar.gz tmp/onnxscript-0.1.0.dev20240423.tar.gz --markdown 20240424/o/onnxscript/0.1.0.dev20240422-0.1.0.dev20240423/README.md --exclude *.pyd
+[2024-04-24 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-24 02:06:25] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-24 02:06:25] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-24 02:06:25] INFO root fetch - processPackages [latch-cloud-clients]: Remove: archive file [/home/abi/fetcher/tmp/latch_cloud_clients-0.1.1.tar.gz]
+[2024-04-24 02:06:25] INFO root fetch - processPackages [latch-cloud-clients]: Remove: archive file [/home/abi/fetcher/tmp/latch_cloud_clients-0.1.2.tar.gz]
+[2024-04-24 02:06:25] INFO root fetch - main [MainThread]: End processing [latch-cloud-clients]: success
+[2024-04-24 02:06:25] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-04-24 02:06:25] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-04-24 02:06:25] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-04-24 02:06:26] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240422.tar.gz]
+[2024-04-24 02:06:26] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240423.tar.gz]
+[2024-04-24 02:06:26] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-24 02:06:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240423.418.tar.gz]
+[2024-04-24 02:06:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240424.359.tar.gz]
+[2024-04-24 02:06:27] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-24 02:06:27] INFO root fetch - main [MainThread]: Store serial: [22903698]
