@@ -21847,3 +21847,33 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:08:25] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
 [2024-04-24 14:08:25] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
 [2024-04-24 14:08:25] INFO root fetch - main [MainThread]: Store serial: [22911768]
+[2024-04-24 14:10:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911768]
+[2024-04-24 14:10:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 14:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qamlib
+[2024-04-24 14:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-04-24 14:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orchestrator-core
+[2024-04-24 14:10:51] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 14:10:51] INFO root fetch - processPackages [qamlib]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 14:10:51] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-24 14:10:51] INFO root fetch - processPackages [orchestrator-core]: New version: [2.2.2rc2] Old Version: [2.2.2rc1]
+[2024-04-24 14:10:51] INFO root fetch - processPackages [qamlib]: Downloading https://files.pythonhosted.org/packages/0c/a5/5d58a596c67cb8b5a48a33fb933540401c638eae96d9957b9645746eb26b/qamlib-0.8.0.tar.gz
+[2024-04-24 14:10:51] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/0d/3c/23581255f8b383b388c3015dfdb3229e0365ade803b99aa84b8d98c0de4c/orchestrator_core-2.2.2rc1.tar.gz
+[2024-04-24 14:10:51] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-24 14:10:51] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-24 14:10:51] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240424/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 14:10:52] INFO root fetch - processPackages [qamlib]: Downloading https://files.pythonhosted.org/packages/51/0c/192b1653dde1e62121e5cf5ef19355937c6af312a21666ed5d86dd5e2633/qamlib-0.9.0.tar.gz
+[2024-04-24 14:10:52] INFO root fetch - processPackages [qamlib]: executing diffoscope
+[2024-04-24 14:10:52] INFO root fetch - processPackages [qamlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qamlib-0.8.0.tar.gz tmp/qamlib-0.9.0.tar.gz --markdown 20240424/q/qamlib/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 14:10:52] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/fd/15/44dc829efa3faeb99dafa25cb459250a9ef0bc6e856fbb8d2622b74fd609/orchestrator_core-2.2.2rc2.tar.gz
+[2024-04-24 14:10:52] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2024-04-24 14:10:52] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-2.2.2rc1.tar.gz tmp/orchestrator_core-2.2.2rc2.tar.gz --markdown 20240424/o/orchestrator-core/2.2.2rc1-2.2.2rc2/README.md --exclude *.pyd
+[2024-04-24 14:10:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-24 14:10:52] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-24 14:10:52] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-24 14:10:52] INFO root fetch - processPackages [qamlib]: Remove: archive file [/home/abi/fetcher/tmp/qamlib-0.8.0.tar.gz]
+[2024-04-24 14:10:52] INFO root fetch - processPackages [qamlib]: Remove: archive file [/home/abi/fetcher/tmp/qamlib-0.9.0.tar.gz]
+[2024-04-24 14:10:52] INFO root fetch - main [MainThread]: End processing [qamlib]: success
+[2024-04-24 14:10:54] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.2rc1.tar.gz]
+[2024-04-24 14:10:54] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.2rc2.tar.gz]
+[2024-04-24 14:10:54] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2024-04-24 14:10:54] INFO root fetch - main [MainThread]: Store serial: [22911795]
