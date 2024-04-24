@@ -12086,3 +12086,32 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:27:18] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.9.tar.gz]
 [2024-04-24 08:27:18] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
 [2024-04-24 08:27:18] INFO root fetch - main [MainThread]: Store serial: [22907538]
+[2024-04-24 08:29:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907538]
+[2024-04-24 08:29:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcmd
+[2024-04-24 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtsf-web
+[2024-04-24 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wizata-dsapi
+[2024-04-24 08:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EvoDict
+[2024-04-24 08:29:27] INFO root fetch - processPackages [bcmd]: New version: [0.0.70] Old Version: [0.0.69]
+[2024-04-24 08:29:27] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/f6/a5/ec8c13c06a39c356617ea9ec525764cdb94be287eee241950157f2ab2e27/bcmd-0.0.69.tar.gz
+[2024-04-24 08:29:27] WARNING root fetch - processPackages [EvoDict]: Skipping, unable to determine old version
+[2024-04-24 08:29:27] INFO root fetch - main [MainThread]: End processing [EvoDict] error
+[2024-04-24 08:29:27] INFO root fetch - processPackages [rtsf-web]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-04-24 08:29:27] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-24 08:29:27] INFO root fetch - processPackages [rtsf-web]: Downloading https://files.pythonhosted.org/packages/2d/46/bb8fcd6f466d5a751e2df78da8c001a6fbd4a3476f6ed9e97f50905ffc9e/rtsf-web-1.3.6.tar.gz
+[2024-04-24 08:29:27] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f1/0a/0508b1f02ec8c24958430101972d9c902439dc9f16329d030ce8517ea7be/wizata-dsapi-0.4.8.tar.gz
+[2024-04-24 08:29:27] ERROR root fetch - processPackages [bcmd]: Unable to fetch info: No such project/version 'bcmd' 0.0.70
+[2024-04-24 08:29:27] INFO root fetch - main [MainThread]: End processing [bcmd] error
+[2024-04-24 08:29:27] INFO root fetch - processPackages [rtsf-web]: Downloading https://files.pythonhosted.org/packages/29/88/7137ce6d2033c68cd868252943725511bada96ef0f5088a7a01e5e4064e9/rtsf-web-1.3.7.tar.gz
+[2024-04-24 08:29:27] INFO root fetch - processPackages [rtsf-web]: executing diffoscope
+[2024-04-24 08:29:27] INFO root fetch - processPackages [rtsf-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtsf-web-1.3.6.tar.gz tmp/rtsf-web-1.3.7.tar.gz --markdown 20240424/r/rtsf-web/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-04-24 08:29:27] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/8d/db/a0ae202d1e8bb1b56d320058ac8bef6d9f6ec02eb54e2cc69f637e04a601/wizata-dsapi-0.4.9.tar.gz
+[2024-04-24 08:29:28] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2024-04-24 08:29:28] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.4.8.tar.gz tmp/wizata-dsapi-0.4.9.tar.gz --markdown 20240424/w/wizata-dsapi/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-24 08:29:28] INFO root fetch - processPackages [rtsf-web]: Remove: archive file [/home/abi/fetcher/tmp/rtsf-web-1.3.6.tar.gz]
+[2024-04-24 08:29:28] INFO root fetch - processPackages [rtsf-web]: Remove: archive file [/home/abi/fetcher/tmp/rtsf-web-1.3.7.tar.gz]
+[2024-04-24 08:29:28] INFO root fetch - main [MainThread]: End processing [rtsf-web]: success
+[2024-04-24 08:29:28] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.4.8.tar.gz]
+[2024-04-24 08:29:28] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.4.9.tar.gz]
+[2024-04-24 08:29:28] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2024-04-24 08:29:28] INFO root fetch - main [MainThread]: Store serial: [22907555]
