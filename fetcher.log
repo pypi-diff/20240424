@@ -15417,3 +15417,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:37:08] INFO root fetch - processPackages [learning-loop-node]: Remove: archive file [/home/abi/fetcher/tmp/learning_loop_node-0.9.3.tar.gz]
 [2024-04-24 10:37:08] INFO root fetch - main [MainThread]: End processing [learning-loop-node]: success
 [2024-04-24 10:37:08] INFO root fetch - main [MainThread]: Store serial: [22909116]
+[2024-04-24 10:39:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909116]
+[2024-04-24 10:39:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PluginSDK
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dimples
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kaggle_waggle
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: retriever-search
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RiskLabAI
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akridata-akrimanager-v2
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akridata-dsp
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyakri-de-filters
+[2024-04-24 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyakri-de-utils
+[2024-04-24 10:39:17] INFO root fetch - processPackages [RiskLabAI]: New version: [0.0.9] Old Version: [0.0.80]
+[2024-04-24 10:39:17] INFO root fetch - processPackages [dimples]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-24 10:39:18] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-04-24 10:39:18] WARNING root fetch - processPackages [PluginSDK]: Skipping, unable to determine old version
+[2024-04-24 10:39:18] INFO root fetch - processPackages [kaggle_waggle]: New version: [1.6.12a4] Old Version: [1.6.12a2]
+[2024-04-24 10:39:18] INFO root fetch - processPackages [PluginSDK]: Start processing: akride
+[2024-04-24 10:39:18] INFO root fetch - main [MainThread]: End processing [PluginSDK] error
+[2024-04-24 10:39:18] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/cc/0c/6937553f31e7a20a7397c9e7e241d610870700016a8b441e6c3089b916fe/dimples-0.5.5.tar.gz
+[2024-04-24 10:39:18] WARNING root fetch - processPackages [retriever-search]: Skipping, unable to determine old version
+[2024-04-24 10:39:18] INFO root fetch - main [MainThread]: End processing [retriever-search] error
+[2024-04-24 10:39:18] ERROR root fetch - processPackages [pyakri-de-utils]: Unable to get metadata: No such project 'pyakri-de-utils'
+[2024-04-24 10:39:18] INFO root fetch - main [MainThread]: End processing [pyakri-de-utils] error
+[2024-04-24 10:39:18] INFO root fetch - processPackages [akridata-akrimanager-v2]: New version: [1.22.0.dev0] Old Version: [1.21.0.dev0]
+[2024-04-24 10:39:18] INFO root fetch - processPackages [pyakri-de-filters]: New version: [1.22.0.dev0] Old Version: [1.21.0.dev0]
+[2024-04-24 10:39:18] INFO root fetch - processPackages [akridata-dsp]: New version: [2.14.0.dev0] Old Version: [2.13.0.dev0]
+[2024-04-24 10:39:18] INFO root fetch - processPackages [akride]: New version: [0.4.10] Old Version: [0.3.4]
+[2024-04-24 10:39:18] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/7f/7b/80eca6cb53fb2ccb7626fd75e4eff24e1d7ea753847347195382d9052822/risklabai-0.0.80.tar.gz
+[2024-04-24 10:39:18] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-04-24 10:39:18] INFO root fetch - processPackages [kaggle_waggle]: Downloading https://files.pythonhosted.org/packages/c0/48/4819d1c00455fd830133073454ba1facdc9cab071f43fe5bd3f432acd963/kaggle_waggle-1.6.12a2.tar.gz
+[2024-04-24 10:39:18] INFO root fetch - processPackages [akridata-dsp]: Downloading https://files.pythonhosted.org/packages/23/7c/b6ee5dd0c20501a6157bd2200bdfede906008259197f889c12cc47ec0e88/akridata_dsp-2.13.0.dev0-53-py3-none-any.whl
+[2024-04-24 10:39:18] INFO root fetch - processPackages [pyakri-de-filters]: Downloading https://files.pythonhosted.org/packages/dd/7f/b3dc905cd0d6376ed442986086acb1eb325b30071863fee83335d91e58bb/pyakri_de_filters-1.21.0.dev0-39-py3-none-any.whl
+[2024-04-24 10:39:18] INFO root fetch - processPackages [akridata-akrimanager-v2]: Downloading https://files.pythonhosted.org/packages/ad/f7/d8dcbb25f3986a7d0fa02082763b0896165535415f4685a7e6d044b18f1f/akridata_akrimanager_v2-1.21.0.dev0-72-py3-none-any.whl
+[2024-04-24 10:39:18] WARNING root fetch - processPackages [kaggle_waggle]: Skipping package: exceeds size limit 13217186>=10485760
+[2024-04-24 10:39:18] INFO root fetch - main [MainThread]: End processing [kaggle_waggle] error
+[2024-04-24 10:39:18] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/ec/77/ab70906f6ac7676b7d7150abeffc750f0962ec153926831d90d7c7eb4152/dimples-0.5.6.tar.gz
+[2024-04-24 10:39:18] INFO root fetch - processPackages [akride]: Downloading https://files.pythonhosted.org/packages/29/c1/2741a447d5ae51bff80b567b7bcbb52d3b3bad5f10344a44298b5735e537/akride-0.3.4-py3-none-any.whl
+[2024-04-24 10:39:18] WARNING root fetch - processPackages [pyakri-de-filters]: Skipping package: exceeds size limit 84922682>=10485760
+[2024-04-24 10:39:18] INFO root fetch - main [MainThread]: End processing [pyakri-de-filters] error
+[2024-04-24 10:39:18] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/bd/06/8b21467597cdd4ac5f26ccf7b426641f2283854423d655ae0f713d98b84c/RiskLabAI-0.0.9.tar.gz
+[2024-04-24 10:39:18] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-04-24 10:39:18] INFO root fetch - processPackages [dimples]: executing diffoscope
+[2024-04-24 10:39:18] INFO root fetch - processPackages [dimples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimples-0.5.5.tar.gz tmp/dimples-0.5.6.tar.gz --markdown 20240424/d/dimples/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-24 10:39:18] INFO root fetch - processPackages [RiskLabAI]: executing diffoscope
+[2024-04-24 10:39:18] INFO root fetch - processPackages [RiskLabAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risklabai-0.0.80.tar.gz tmp/RiskLabAI-0.0.9.tar.gz --markdown 20240424/R/RiskLabAI/0.0.80-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:39:18] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-04-24 10:39:18] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240424/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-04-24 10:39:18] INFO root fetch - processPackages [akride]: Downloading https://files.pythonhosted.org/packages/46/24/6473dda058cdd52c3f482d85658a1e4f138b82b2e3659266b4056e550b4a/akride-0.4.10-py3-none-any.whl
+[2024-04-24 10:39:18] INFO root fetch - processPackages [akridata-akrimanager-v2]: Downloading https://files.pythonhosted.org/packages/e3/b7/92404f9ce406a1c12954045e9b13985d47be068ea5920ffd207473e4e961/akridata_akrimanager_v2-1.22.0.dev0-70-py3-none-any.whl
+[2024-04-24 10:39:18] INFO root fetch - processPackages [akridata-dsp]: Downloading https://files.pythonhosted.org/packages/23/b0/bc2dee37e5459940766389f98d9e0a8f949e5f71711c74c6950ec6e182dc/akridata_dsp-2.14.0.dev0-66-py3-none-any.whl
+[2024-04-24 10:39:19] INFO root fetch - processPackages [akride]: executing diffoscope
+[2024-04-24 10:39:19] INFO root fetch - processPackages [akride]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akride-0.3.4-py3-none-any.whl.zip tmp/akride-0.4.10-py3-none-any.whl.zip --markdown 20240424/a/akride/0.3.4-0.4.10/README.md --exclude *.pyd
+[2024-04-24 10:39:19] INFO root fetch - processPackages [akridata-akrimanager-v2]: executing diffoscope
+[2024-04-24 10:39:19] INFO root fetch - processPackages [akridata-akrimanager-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akridata_akrimanager_v2-1.21.0.dev0-72-py3-none-any.whl.zip tmp/akridata_akrimanager_v2-1.22.0.dev0-70-py3-none-any.whl.zip --markdown 20240424/a/akridata-akrimanager-v2/1.21.0.dev0-1.22.0.dev0/README.md --exclude *.pyd
+[2024-04-24 10:39:19] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/risklabai-0.0.80.tar.gz]
+[2024-04-24 10:39:19] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/RiskLabAI-0.0.9.tar.gz]
+[2024-04-24 10:39:19] INFO root fetch - main [MainThread]: End processing [RiskLabAI]: success
+[2024-04-24 10:39:19] INFO root fetch - processPackages [akridata-dsp]: executing diffoscope
+[2024-04-24 10:39:19] INFO root fetch - processPackages [akridata-dsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akridata_dsp-2.13.0.dev0-53-py3-none-any.whl.zip tmp/akridata_dsp-2.14.0.dev0-66-py3-none-any.whl.zip --markdown 20240424/a/akridata-dsp/2.13.0.dev0-2.14.0.dev0/README.md --exclude *.pyd
+[2024-04-24 10:39:19] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-04-24 10:39:19] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-04-24 10:39:19] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-04-24 10:39:19] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.5.tar.gz]
+[2024-04-24 10:39:19] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.6.tar.gz]
+[2024-04-24 10:39:19] INFO root fetch - main [MainThread]: End processing [dimples]: success
+[2024-04-24 10:39:19] INFO root fetch - processPackages [akride]: Remove: archive file [/home/abi/fetcher/tmp/akride-0.3.4-py3-none-any.whl.zip]
+[2024-04-24 10:39:19] INFO root fetch - processPackages [akride]: Remove: archive file [/home/abi/fetcher/tmp/akride-0.4.10-py3-none-any.whl.zip]
+[2024-04-24 10:39:19] INFO root fetch - main [MainThread]: End processing [akride]: success
+[2024-04-24 10:39:21] INFO root fetch - processPackages [akridata-akrimanager-v2]: Remove: archive file [/home/abi/fetcher/tmp/akridata_akrimanager_v2-1.21.0.dev0-72-py3-none-any.whl.zip]
+[2024-04-24 10:39:21] INFO root fetch - processPackages [akridata-akrimanager-v2]: Remove: archive file [/home/abi/fetcher/tmp/akridata_akrimanager_v2-1.22.0.dev0-70-py3-none-any.whl.zip]
+[2024-04-24 10:39:21] INFO root fetch - main [MainThread]: End processing [akridata-akrimanager-v2]: success
+[2024-04-24 10:39:23] INFO root fetch - processPackages [akridata-dsp]: Remove: archive file [/home/abi/fetcher/tmp/akridata_dsp-2.13.0.dev0-53-py3-none-any.whl.zip]
+[2024-04-24 10:39:23] INFO root fetch - processPackages [akridata-dsp]: Remove: archive file [/home/abi/fetcher/tmp/akridata_dsp-2.14.0.dev0-66-py3-none-any.whl.zip]
+[2024-04-24 10:39:23] INFO root fetch - main [MainThread]: End processing [akridata-dsp]: success
+[2024-04-24 10:39:23] INFO root fetch - main [MainThread]: Store serial: [22909152]
