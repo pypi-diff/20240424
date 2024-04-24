@@ -15138,3 +15138,51 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:30:33] INFO root fetch - processPackages [bugsnag]: Remove: archive file [/home/abi/fetcher/tmp/bugsnag-4.7.0.tar.gz]
 [2024-04-24 10:30:33] INFO root fetch - main [MainThread]: End processing [bugsnag]: success
 [2024-04-24 10:30:33] INFO root fetch - main [MainThread]: Store serial: [22909054]
+[2024-04-24 10:32:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909054]
+[2024-04-24 10:32:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 10:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-04-24 10:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scematk
+[2024-04-24 10:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langcodes
+[2024-04-24 10:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SleepHarmonizer
+[2024-04-24 10:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jiebanlp
+[2024-04-24 10:32:43] INFO root fetch - processPackages [langcodes]: New version: [3.4.0.dev2] Old Version: [3.3.0]
+[2024-04-24 10:32:43] INFO root fetch - processPackages [pypipr]: New version: [1.0.92] Old Version: [1.0.91]
+[2024-04-24 10:32:43] INFO root fetch - processPackages [langcodes]: Downloading https://files.pythonhosted.org/packages/5f/ec/9955d772ecac0bdfb5d706d64f185ac68bd0d4092acdc2c5a1882c824369/langcodes-3.3.0.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [SleepHarmonizer]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 10:32:43] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/21/57/3dca3dc124f2f97c44b09f40e3e5a414aed5c7ce97d5554f6831ce10e531/pypipr-1.0.91.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-24 10:32:43] INFO root fetch - processPackages [jiebanlp]: New version: [3.0.0] Old Version: [2.2.2]
+[2024-04-24 10:32:43] INFO root fetch - processPackages [SleepHarmonizer]: Downloading https://files.pythonhosted.org/packages/37/8d/3cb106cf06df098d5444823c11174be50aad72b3d71c38012c6829de058b/SleepHarmonizer-0.1.2.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/4e/2c/014ee78e9385a6e77b4bc6aa22c54716a6a98a70c90e1709d671b0e8c4b4/pypipr-1.0.92.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [langcodes]: Downloading https://files.pythonhosted.org/packages/41/4c/e3d1fd49f6e057027da9596f6f23828a0f3fbb52e88dd746624614c128f9/langcodes-3.4.0.dev2.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/4d/fe/d436b916cfc43302895b0dd27b8007ababb64738500fd8daa4612a9dc079/jiebanlp-2.2.2.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-24 10:32:43] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.91.tar.gz tmp/pypipr-1.0.92.tar.gz --markdown 20240424/p/pypipr/1.0.91-1.0.92/README.md --exclude *.pyd
+[2024-04-24 10:32:43] INFO root fetch - processPackages [SleepHarmonizer]: Downloading https://files.pythonhosted.org/packages/08/38/71890328a446f0bf5371deb73fc9b44e880103597fdfff824bd04103989a/SleepHarmonizer-0.1.3.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [langcodes]: executing diffoscope
+[2024-04-24 10:32:43] INFO root fetch - processPackages [langcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langcodes-3.3.0.tar.gz tmp/langcodes-3.4.0.dev2.tar.gz --markdown 20240424/l/langcodes/3.3.0-3.4.0.dev2/README.md --exclude *.pyd
+[2024-04-24 10:32:43] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [SleepHarmonizer]: executing diffoscope
+[2024-04-24 10:32:43] INFO root fetch - processPackages [SleepHarmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SleepHarmonizer-0.1.2.tar.gz tmp/SleepHarmonizer-0.1.3.tar.gz --markdown 20240424/S/SleepHarmonizer/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 10:32:43] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/13/a8/283d6674c46c54bb63232f4eb25551365dd76361bd0efe7c4c082325deef/jiebanlp-3.0.0.tar.gz
+[2024-04-24 10:32:43] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-24 10:32:43] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240424/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-24 10:32:44] INFO root fetch - processPackages [jiebanlp]: executing diffoscope
+[2024-04-24 10:32:44] INFO root fetch - processPackages [jiebanlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiebanlp-2.2.2.tar.gz tmp/jiebanlp-3.0.0.tar.gz --markdown 20240424/j/jiebanlp/2.2.2-3.0.0/README.md --exclude *.pyd
+[2024-04-24 10:32:44] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.91.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.92.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-24 10:32:44] INFO root fetch - processPackages [langcodes]: Remove: archive file [/home/abi/fetcher/tmp/langcodes-3.3.0.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - processPackages [langcodes]: Remove: archive file [/home/abi/fetcher/tmp/langcodes-3.4.0.dev2.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - main [MainThread]: End processing [langcodes]: success
+[2024-04-24 10:32:44] INFO root fetch - processPackages [SleepHarmonizer]: Remove: archive file [/home/abi/fetcher/tmp/SleepHarmonizer-0.1.2.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - processPackages [SleepHarmonizer]: Remove: archive file [/home/abi/fetcher/tmp/SleepHarmonizer-0.1.3.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - main [MainThread]: End processing [SleepHarmonizer]: success
+[2024-04-24 10:32:44] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-24 10:32:44] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-2.2.2.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-3.0.0.tar.gz]
+[2024-04-24 10:32:44] INFO root fetch - main [MainThread]: End processing [jiebanlp]: success
+[2024-04-24 10:32:44] INFO root fetch - main [MainThread]: Store serial: [22909067]
