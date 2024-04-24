@@ -18660,3 +18660,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:19:45] INFO root fetch - processPackages [django-mapengine]: Remove: archive file [/home/abi/fetcher/tmp/django_mapengine-1.5.0.tar.gz]
 [2024-04-24 12:19:45] INFO root fetch - main [MainThread]: End processing [django-mapengine]: success
 [2024-04-24 12:19:45] INFO root fetch - main [MainThread]: Store serial: [22910345]
+[2024-04-24 12:21:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910345]
+[2024-04-24 12:21:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvisigraph
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: github-webhook-server
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aqora-cli
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-classification-generator
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-times
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-gemini-api
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zyte-common-items
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dimples
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opensafely
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecv-python-development
+[2024-04-24 12:21:55] WARNING root fetch - processPackages [pyvisigraph]: Skipping, unable to determine old version
+[2024-04-24 12:21:55] INFO root fetch - processPackages [pyvisigraph]: Start processing: easy-utils-dev
+[2024-04-24 12:21:55] INFO root fetch - main [MainThread]: End processing [pyvisigraph] error
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.28] Old Version: [0.0.27]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [dimples]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [mo-times]: New version: [5.601.24115] Old Version: [5.600.24114]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [github-webhook-server]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [aqora-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [auto-classification-generator]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [python-gemini-api]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/ec/77/ab70906f6ac7676b7d7150abeffc750f0962ec153926831d90d7c7eb4152/dimples-0.5.6.tar.gz
+[2024-04-24 12:21:55] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/d1/80/a05c9956840eef6f54cc7057151894237628f011d052f038c77bc4cec1f5/ecv-python-development-0.0.27.tar.gz
+[2024-04-24 12:21:55] INFO root fetch - processPackages [zyte-common-items]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [opensafely]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-24 12:21:55] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/da/fc/a5c74b5079e69e912d94e2a4cce53804124549f8116b1eaea2ed4c37e77a/mo_times-5.600.24114.tar.gz
+[2024-04-24 12:21:55] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [aqora-cli]: Downloading https://files.pythonhosted.org/packages/e3/78/852ebf4bfa86346947575c017d14c3eb1e7dce505bc70ddc8181bb836cf5/aqora_cli-0.1.8.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [github-webhook-server]: Downloading https://files.pythonhosted.org/packages/c0/56/cbab23c1ea2749d68d60c632e7929ca52c454aa52c5dc3fb32ac65b94db9/github_webhook_server-1.0.8.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [auto-classification-generator]: Downloading https://files.pythonhosted.org/packages/60/34/6e35ac9b8c59aef0f22a5fbb3df9366707d2a9ac885fb1d902b49b79961e/auto_classification_generator-1.1.2.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/38/51/d3a761d5842c285f367942935a5c07c3e1cbc1d0ee125f61dfd66c20de5c/python-gemini-api-2.4.2.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [zyte-common-items]: Downloading https://files.pythonhosted.org/packages/43/03/55715b2b7bc015460fe54e161ed031518393f987d77400b0a7888fa92e71/zyte-common-items-0.8.0.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/41/40/8404743bac96e403c4e3cdaa6569f9e35faa80b3fa32b600bcc81fc6aa42/opensafely-1.9.1.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/d2/fa/78ceae5f7c8bf6eadc8eaadacfc1b03a3d97030670e11112b175d33a2a0c/mo_times-5.601.24115.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/0a/df/d6c231bf5e2dcf5222d3ea8530da15e66cde1bc2caeab234cdb96100cd04/ecv-python-development-0.0.28.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/92/ad/2d0427b7006aab77f0ca1c8db43644ed16ef53c4f4cce9df5b77d3f188bc/dimples-0.5.7.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2024-04-24 12:21:56] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.600.24114.tar.gz tmp/mo_times-5.601.24115.tar.gz --markdown 20240424/m/mo-times/5.600.24114-5.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:21:56] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-24 12:21:56] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240424/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-24 12:21:56] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-24 12:21:56] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.27.tar.gz tmp/ecv-python-development-0.0.28.tar.gz --markdown 20240424/e/ecv-python-development/0.0.27-0.0.28/README.md --exclude *.pyd
+[2024-04-24 12:21:56] INFO root fetch - processPackages [aqora-cli]: Downloading https://files.pythonhosted.org/packages/ef/58/11e52164a10e8c7e6d60343bd48fdd441be4d871f46cb1a58ec53052f47f/aqora_cli-0.1.9.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [github-webhook-server]: Downloading https://files.pythonhosted.org/packages/d8/e5/6af680dbe8cc52383de6fd1b59cc6f4255b6801fe51655bd031999867ecf/github_webhook_server-1.0.9.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [auto-classification-generator]: Downloading https://files.pythonhosted.org/packages/48/34/0c68d1540b64c924e07edb4030685740375579a7de4732718878a22f0519/auto_classification_generator-1.1.3.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/b3/1a/5880bd4020c9e37605c40f1466b9d8c0b3f02061f7571c43e23dc3e22c82/python_gemini_api-2.4.3.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [dimples]: executing diffoscope
+[2024-04-24 12:21:56] INFO root fetch - processPackages [dimples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimples-0.5.6.tar.gz tmp/dimples-0.5.7.tar.gz --markdown 20240424/d/dimples/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-24 12:21:56] INFO root fetch - processPackages [zyte-common-items]: Downloading https://files.pythonhosted.org/packages/d6/82/c5a751fdc66240394209b28971d6e7b5137f44b24ecddc2fb3040e0955be/zyte-common-items-0.9.0.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [github-webhook-server]: executing diffoscope
+[2024-04-24 12:21:56] INFO root fetch - processPackages [github-webhook-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_webhook_server-1.0.8.tar.gz tmp/github_webhook_server-1.0.9.tar.gz --markdown 20240424/g/github-webhook-server/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 12:21:56] INFO root fetch - processPackages [aqora-cli]: executing diffoscope
+[2024-04-24 12:21:56] INFO root fetch - processPackages [aqora-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqora_cli-0.1.8.tar.gz tmp/aqora_cli-0.1.9.tar.gz --markdown 20240424/a/aqora-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 12:21:56] INFO root fetch - processPackages [zyte-common-items]: executing diffoscope
+[2024-04-24 12:21:56] INFO root fetch - processPackages [zyte-common-items]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyte-common-items-0.8.0.tar.gz tmp/zyte-common-items-0.9.0.tar.gz --markdown 20240424/z/zyte-common-items/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 12:21:56] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/64/67/da5b006e72fe5cc72d10eaf72c3aeb470703a1b5be1f749c06a3c315dc3e/opensafely-1.9.2.tar.gz
+[2024-04-24 12:21:56] INFO root fetch - processPackages [auto-classification-generator]: executing diffoscope
+[2024-04-24 12:21:56] INFO root fetch - processPackages [auto-classification-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_classification_generator-1.1.2.tar.gz tmp/auto_classification_generator-1.1.3.tar.gz --markdown 20240424/a/auto-classification-generator/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-24 12:21:56] INFO root fetch - processPackages [python-gemini-api]: executing diffoscope
+[2024-04-24 12:21:56] INFO root fetch - processPackages [python-gemini-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gemini-api-2.4.2.tar.gz tmp/python_gemini_api-2.4.3.tar.gz --markdown 20240424/p/python-gemini-api/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-04-24 12:21:57] INFO root fetch - processPackages [opensafely]: executing diffoscope
+[2024-04-24 12:21:57] INFO root fetch - processPackages [opensafely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensafely-1.9.1.tar.gz tmp/opensafely-1.9.2.tar.gz --markdown 20240424/o/opensafely/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-24 12:21:57] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.600.24114.tar.gz]
+[2024-04-24 12:21:57] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.601.24115.tar.gz]
+[2024-04-24 12:21:57] INFO root fetch - processPackages [mo-times]: Start processing: kaggle_waggle
+[2024-04-24 12:21:57] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2024-04-24 12:21:57] INFO root fetch - processPackages [kaggle_waggle]: New version: [1.6.12a8] Old Version: [1.6.12a7]
+[2024-04-24 12:21:57] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.27.tar.gz]
+[2024-04-24 12:21:57] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.28.tar.gz]
+[2024-04-24 12:21:57] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-24 12:21:57] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-04-24 12:21:57] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-04-24 12:21:57] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-24 12:21:57] INFO root fetch - processPackages [kaggle_waggle]: Downloading https://files.pythonhosted.org/packages/ce/8e/34555478b05546f1b4ebdb2f6ceb5c26b8d49e7e94b88ed95ef11cdd888f/kaggle_waggle-1.6.12a7.tar.gz
+[2024-04-24 12:21:57] INFO root fetch - processPackages [github-webhook-server]: Remove: archive file [/home/abi/fetcher/tmp/github_webhook_server-1.0.8.tar.gz]
+[2024-04-24 12:21:57] INFO root fetch - processPackages [github-webhook-server]: Remove: archive file [/home/abi/fetcher/tmp/github_webhook_server-1.0.9.tar.gz]
+[2024-04-24 12:21:57] INFO root fetch - main [MainThread]: End processing [github-webhook-server]: success
+[2024-04-24 12:21:57] WARNING root fetch - processPackages [kaggle_waggle]: Skipping package: exceeds size limit 24460908>=10485760
+[2024-04-24 12:21:57] INFO root fetch - main [MainThread]: End processing [kaggle_waggle] error
+[2024-04-24 12:21:58] INFO root fetch - processPackages [zyte-common-items]: Remove: archive file [/home/abi/fetcher/tmp/zyte-common-items-0.8.0.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - processPackages [zyte-common-items]: Remove: archive file [/home/abi/fetcher/tmp/zyte-common-items-0.9.0.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - main [MainThread]: End processing [zyte-common-items]: success
+[2024-04-24 12:21:58] INFO root fetch - processPackages [aqora-cli]: Remove: archive file [/home/abi/fetcher/tmp/aqora_cli-0.1.8.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - processPackages [aqora-cli]: Remove: archive file [/home/abi/fetcher/tmp/aqora_cli-0.1.9.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - main [MainThread]: End processing [aqora-cli]: success
+[2024-04-24 12:21:58] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.6.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.7.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - main [MainThread]: End processing [dimples]: success
+[2024-04-24 12:21:58] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gemini-api-2.4.2.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.3.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - main [MainThread]: End processing [python-gemini-api]: success
+[2024-04-24 12:21:58] INFO root fetch - processPackages [auto-classification-generator]: Remove: archive file [/home/abi/fetcher/tmp/auto_classification_generator-1.1.2.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - processPackages [auto-classification-generator]: Remove: archive file [/home/abi/fetcher/tmp/auto_classification_generator-1.1.3.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - main [MainThread]: End processing [auto-classification-generator]: success
+[2024-04-24 12:21:58] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.1.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.2.tar.gz]
+[2024-04-24 12:21:58] INFO root fetch - main [MainThread]: End processing [opensafely]: success
+[2024-04-24 12:21:58] INFO root fetch - main [MainThread]: Store serial: [22910380]
