@@ -13096,3 +13096,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:17:43] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1509-py3-none-any.whl.zip]
 [2024-04-24 09:17:43] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-24 09:17:43] INFO root fetch - main [MainThread]: Store serial: [22907910]
+[2024-04-24 09:19:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907910]
+[2024-04-24 09:19:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ozonetel-ai
+[2024-04-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-plans-payments
+[2024-04-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2024-04-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2024-04-24 09:19:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TreeSAK
+[2024-04-24 09:19:52] INFO root fetch - processPackages [ozonetel-ai]: New version: [0.0.0b0] Old Version: [0.0.0a0]
+[2024-04-24 09:19:52] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-24 09:19:52] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.24.9.12.27]
+[2024-04-24 09:19:52] INFO root fetch - processPackages [MeUtils]: New version: [2024.4.24.9.41.8] Old Version: [2024.4.23.11.9.43]
+[2024-04-24 09:19:52] INFO root fetch - processPackages [django-plans-payments]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-24 09:19:52] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/b4/3b/bea3d8a762b749a9824a99869855188355cf98f8777133d7e863cf9084f9/ozonetel-ai-0.0.0a0.tar.gz
+[2024-04-24 09:19:52] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-04-24 09:19:52] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/a2/22/c05b4f6461bdf1baf4831041268c4f903463fec38a2fdf911a6f85a96787/MeUtils-2024.4.23.11.9.43.tar.gz
+[2024-04-24 09:19:53] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/5d/ae/c4456cef4b4b40245731bda7e31456fa9a7bc4e2568665cc5a096274e40a/chatllm-2024.4.24.9.12.27.tar.gz
+[2024-04-24 09:19:53] INFO root fetch - processPackages [django-plans-payments]: Downloading https://files.pythonhosted.org/packages/e4/11/9a5e5dac187cdb3c67c5d9a840fb908013452e328fb6bd9248003fe3575a/django-plans-payments-1.4.0.tar.gz
+[2024-04-24 09:19:53] INFO root fetch - processPackages [ozonetel-ai]: Downloading https://files.pythonhosted.org/packages/a4/20/3265ce09ce553b246eafbe3022fe4236698aec7ea647ac3be9189348a182/ozonetel-ai-0.0.0b0.tar.gz
+[2024-04-24 09:19:53] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-04-24 09:19:53] INFO root fetch - processPackages [ozonetel-ai]: executing diffoscope
+[2024-04-24 09:19:53] INFO root fetch - processPackages [ozonetel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozonetel-ai-0.0.0a0.tar.gz tmp/ozonetel-ai-0.0.0b0.tar.gz --markdown 20240424/o/ozonetel-ai/0.0.0a0-0.0.0b0/README.md --exclude *.pyd
+[2024-04-24 09:19:53] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-24 09:19:53] INFO root fetch - processPackages [django-plans-payments]: Downloading https://files.pythonhosted.org/packages/80/8a/7a80c0188b31383c13c4028d91d8e3985361ea49fc39f4b34b95d46df0f0/django-plans-payments-1.4.1.tar.gz
+[2024-04-24 09:19:53] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-04-24 09:19:53] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240424/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-24 09:19:53] INFO root fetch - processPackages [django-plans-payments]: executing diffoscope
+[2024-04-24 09:19:53] INFO root fetch - processPackages [django-plans-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-plans-payments-1.4.0.tar.gz tmp/django-plans-payments-1.4.1.tar.gz --markdown 20240424/d/django-plans-payments/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-24 09:19:53] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/95/d1/32eb4b222d17898f04cb93baab513f04ba82f6049d36fc3973cda063aefd/MeUtils-2024.4.24.9.41.8.tar.gz
+[2024-04-24 09:19:53] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-24 09:19:53] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.24.9.12.27.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240424/c/chatllm/2024.4.24.9.12.27-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-24 09:19:53] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.0a0.tar.gz]
+[2024-04-24 09:19:53] INFO root fetch - processPackages [ozonetel-ai]: Remove: archive file [/home/abi/fetcher/tmp/ozonetel-ai-0.0.0b0.tar.gz]
+[2024-04-24 09:19:53] INFO root fetch - main [MainThread]: End processing [ozonetel-ai]: success
+[2024-04-24 09:19:53] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-04-24 09:19:53] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.4.23.11.9.43.tar.gz tmp/MeUtils-2024.4.24.9.41.8.tar.gz --markdown 20240424/M/MeUtils/2024.4.23.11.9.43-2024.4.24.9.41.8/README.md --exclude *.pyd
+[2024-04-24 09:19:54] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-04-24 09:19:54] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-04-24 09:19:54] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-04-24 09:19:54] INFO root fetch - processPackages [django-plans-payments]: Remove: archive file [/home/abi/fetcher/tmp/django-plans-payments-1.4.0.tar.gz]
+[2024-04-24 09:19:54] INFO root fetch - processPackages [django-plans-payments]: Remove: archive file [/home/abi/fetcher/tmp/django-plans-payments-1.4.1.tar.gz]
+[2024-04-24 09:19:54] INFO root fetch - main [MainThread]: End processing [django-plans-payments]: success
+[2024-04-24 09:19:54] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.24.9.12.27.tar.gz]
+[2024-04-24 09:19:54] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-24 09:19:54] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-24 09:19:55] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.23.11.9.43.tar.gz]
+[2024-04-24 09:19:55] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.24.9.41.8.tar.gz]
+[2024-04-24 09:19:55] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-04-24 09:19:55] INFO root fetch - main [MainThread]: Store serial: [22907969]
