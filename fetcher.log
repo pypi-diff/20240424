@@ -7117,3 +7117,69 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:26:10] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.8.tar.gz]
 [2024-04-24 03:26:10] INFO root fetch - main [MainThread]: End processing [dosview]: success
 [2024-04-24 03:26:10] INFO root fetch - main [MainThread]: Store serial: [22905296]
+[2024-04-24 03:28:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905296]
+[2024-04-24 03:28:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 03:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: momonga
+[2024-04-24 03:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scludam
+[2024-04-24 03:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paltax
+[2024-04-24 03:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: defendatron
+[2024-04-24 03:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onediff
+[2024-04-24 03:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onediffx
+[2024-04-24 03:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qbraid-cli
+[2024-04-24 03:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: svdi
+[2024-04-24 03:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-environment-manager
+[2024-04-24 03:28:19] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202404230126] Old Version: [1.0.0.dev202404220127]
+[2024-04-24 03:28:19] WARNING root fetch - processPackages [momonga]: Skipping, unable to determine old version
+[2024-04-24 03:28:19] INFO root fetch - main [MainThread]: End processing [momonga] error
+[2024-04-24 03:28:19] INFO root fetch - processPackages [qbraid-cli]: New version: [0.8.0.dev7] Old Version: [0.8.0.dev6]
+[2024-04-24 03:28:19] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202404230126] Old Version: [1.0.0.dev202404220127]
+[2024-04-24 03:28:19] INFO root fetch - processPackages [jupyter-environment-manager]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2024-04-24 03:28:19] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/99/91/a881e9fcae033dd385945b095d858fb3bbbc26ab713a2ab4c7f0fd1b2921/onediff-1.0.0.dev202404220127.tar.gz
+[2024-04-24 03:28:19] WARNING root fetch - processPackages [paltax]: Skipping, unable to determine old version
+[2024-04-24 03:28:19] INFO root fetch - main [MainThread]: End processing [paltax] error
+[2024-04-24 03:28:19] INFO root fetch - processPackages [scludam]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-24 03:28:19] WARNING root fetch - processPackages [defendatron]: Skipping, unable to determine old version
+[2024-04-24 03:28:19] INFO root fetch - main [MainThread]: End processing [defendatron] error
+[2024-04-24 03:28:19] INFO root fetch - processPackages [svdi]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 03:28:19] INFO root fetch - processPackages [qbraid-cli]: Downloading https://files.pythonhosted.org/packages/36/f4/a268a84edfbaaba16932fc633b7af2d3884c6e5a1393509406046fd45a13/qbraid_cli-0.8.0.dev6.tar.gz
+[2024-04-24 03:28:19] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/89/b5/a32904aed5e7098d45fbc129bd82d3988263f6e2af54d065dd004bd970df/onediffx-1.0.0.dev202404220127.tar.gz
+[2024-04-24 03:28:19] INFO root fetch - processPackages [jupyter-environment-manager]: Downloading https://files.pythonhosted.org/packages/5e/e8/ea7b674f2490db48b2023cd5a4fc7044952c78cb6c8ec54ca6b42306e8ae/jupyter_environment_manager-0.2.0rc8.tar.gz
+[2024-04-24 03:28:20] INFO root fetch - processPackages [scludam]: Downloading https://files.pythonhosted.org/packages/95/c8/1eb31925ac96e9ec0ce4aae7c1327f678d939f0e61c3bd60387021af0414/scludam-1.0.7-py3-none-any.whl
+[2024-04-24 03:28:20] INFO root fetch - processPackages [svdi]: Downloading https://files.pythonhosted.org/packages/94/fb/d9a14d139d9d773021d8b08fc09056b1e4ffe44755efe95941bc2f080f9a/svdi-1.0.0.tar.gz
+[2024-04-24 03:28:20] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/5f/55/ca803f3c296c153f407ae28ec3749e1897200d87c56881db6ded743404a9/onediff-1.0.0.dev202404230126.tar.gz
+[2024-04-24 03:28:20] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/22/fe/96470e272665613944f4c600736fea37b1c06f746003e8a4e60183855863/onediffx-1.0.0.dev202404230126.tar.gz
+[2024-04-24 03:28:20] INFO root fetch - processPackages [qbraid-cli]: Downloading https://files.pythonhosted.org/packages/20/d8/e694eaa2418ca13b81a6041217a63d30e9ebd778fae95c88f583528154df/qbraid_cli-0.8.0.dev7.tar.gz
+[2024-04-24 03:28:20] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-24 03:28:20] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202404220127.tar.gz tmp/onediff-1.0.0.dev202404230126.tar.gz --markdown 20240424/o/onediff/1.0.0.dev202404220127-1.0.0.dev202404230126/README.md --exclude *.pyd
+[2024-04-24 03:28:20] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-24 03:28:20] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404220127.tar.gz tmp/onediffx-1.0.0.dev202404230126.tar.gz --markdown 20240424/o/onediffx/1.0.0.dev202404220127-1.0.0.dev202404230126/README.md --exclude *.pyd
+[2024-04-24 03:28:20] INFO root fetch - processPackages [svdi]: Downloading https://files.pythonhosted.org/packages/86/ad/bd82d23ab39950c9e6d1c58363a4a9dd29a86a4bfd95eae0ba4d45571ed5/svdi-1.0.1.tar.gz
+[2024-04-24 03:28:20] INFO root fetch - processPackages [scludam]: Downloading https://files.pythonhosted.org/packages/1b/d3/847c4b626fa70b62a573608508dc4ab9518ebed6dd2b83927c3569fa60c2/scludam-1.0.8-py3-none-any.whl
+[2024-04-24 03:28:20] INFO root fetch - processPackages [qbraid-cli]: executing diffoscope
+[2024-04-24 03:28:20] INFO root fetch - processPackages [qbraid-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid_cli-0.8.0.dev6.tar.gz tmp/qbraid_cli-0.8.0.dev7.tar.gz --markdown 20240424/q/qbraid-cli/0.8.0.dev6-0.8.0.dev7/README.md --exclude *.pyd
+[2024-04-24 03:28:20] INFO root fetch - processPackages [svdi]: executing diffoscope
+[2024-04-24 03:28:20] INFO root fetch - processPackages [svdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svdi-1.0.0.tar.gz tmp/svdi-1.0.1.tar.gz --markdown 20240424/s/svdi/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 03:28:20] INFO root fetch - processPackages [jupyter-environment-manager]: Downloading https://files.pythonhosted.org/packages/bf/9d/3c0079b6f48134284526d8fb51cf1ba664bffd65c3c7a1224ed504fe2c3e/jupyter_environment_manager-0.2.0rc9.tar.gz
+[2024-04-24 03:28:20] INFO root fetch - processPackages [scludam]: executing diffoscope
+[2024-04-24 03:28:20] INFO root fetch - processPackages [scludam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scludam-1.0.7-py3-none-any.whl.zip tmp/scludam-1.0.8-py3-none-any.whl.zip --markdown 20240424/s/scludam/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-24 03:28:20] INFO root fetch - processPackages [jupyter-environment-manager]: executing diffoscope
+[2024-04-24 03:28:20] INFO root fetch - processPackages [jupyter-environment-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_environment_manager-0.2.0rc8.tar.gz tmp/jupyter_environment_manager-0.2.0rc9.tar.gz --markdown 20240424/j/jupyter-environment-manager/0.2.0rc8-0.2.0rc9/README.md --exclude *.pyd
+[2024-04-24 03:28:21] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404220127.tar.gz]
+[2024-04-24 03:28:21] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404230126.tar.gz]
+[2024-04-24 03:28:21] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-24 03:28:21] INFO root fetch - processPackages [svdi]: Remove: archive file [/home/abi/fetcher/tmp/svdi-1.0.0.tar.gz]
+[2024-04-24 03:28:21] INFO root fetch - processPackages [svdi]: Remove: archive file [/home/abi/fetcher/tmp/svdi-1.0.1.tar.gz]
+[2024-04-24 03:28:21] INFO root fetch - main [MainThread]: End processing [svdi]: success
+[2024-04-24 03:28:21] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404220127.tar.gz]
+[2024-04-24 03:28:21] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404230126.tar.gz]
+[2024-04-24 03:28:21] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-24 03:28:21] INFO root fetch - processPackages [scludam]: Remove: archive file [/home/abi/fetcher/tmp/scludam-1.0.7-py3-none-any.whl.zip]
+[2024-04-24 03:28:21] INFO root fetch - processPackages [scludam]: Remove: archive file [/home/abi/fetcher/tmp/scludam-1.0.8-py3-none-any.whl.zip]
+[2024-04-24 03:28:21] INFO root fetch - main [MainThread]: End processing [scludam]: success
+[2024-04-24 03:28:21] INFO root fetch - processPackages [qbraid-cli]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_cli-0.8.0.dev6.tar.gz]
+[2024-04-24 03:28:21] INFO root fetch - processPackages [qbraid-cli]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_cli-0.8.0.dev7.tar.gz]
+[2024-04-24 03:28:21] INFO root fetch - main [MainThread]: End processing [qbraid-cli]: success
+[2024-04-24 03:28:25] INFO root fetch - processPackages [jupyter-environment-manager]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_environment_manager-0.2.0rc8.tar.gz]
+[2024-04-24 03:28:25] INFO root fetch - processPackages [jupyter-environment-manager]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_environment_manager-0.2.0rc9.tar.gz]
+[2024-04-24 03:28:25] INFO root fetch - main [MainThread]: End processing [jupyter-environment-manager]: success
+[2024-04-24 03:28:25] INFO root fetch - main [MainThread]: Store serial: [22905394]
