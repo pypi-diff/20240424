@@ -8343,3 +8343,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:47:41] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.5rc0.tar.gz]
 [2024-04-24 04:47:41] INFO root fetch - main [MainThread]: End processing [linktools]: success
 [2024-04-24 04:47:41] INFO root fetch - main [MainThread]: Store serial: [22906072]
+[2024-04-24 04:49:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906072]
+[2024-04-24 04:49:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 04:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-account-invoice-sale-origin-link
+[2024-04-24 04:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funboost
+[2024-04-24 04:49:49] INFO root fetch - processPackages [funboost]: New version: [43.9] Old Version: [43.8]
+[2024-04-24 04:49:50] INFO root fetch - processPackages [odoo13-addon-account-invoice-sale-origin-link]: New version: [13.0.1.0.1.dev5] Old Version: [13.0.1.0.1.dev4]
+[2024-04-24 04:49:50] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/08/9f/61476553d230e649dd55747483b0ca235a224c5715c8d996ce336ce512a0/funboost-43.8.tar.gz
+[2024-04-24 04:49:50] INFO root fetch - processPackages [odoo13-addon-account-invoice-sale-origin-link]: Downloading https://files.pythonhosted.org/packages/ab/c2/0ea70a6718c381dadc680ae6894330cb2e2ed7ff9591b72d6a6a09232317/odoo13_addon_account_invoice_sale_origin_link-13.0.1.0.1.dev4-py3-none-any.whl
+[2024-04-24 04:49:50] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/19/0c/2a35700238a39bb295c848b1011335e87ede7490986597c7c3a82eeb04c2/funboost-43.9.tar.gz
+[2024-04-24 04:49:50] INFO root fetch - processPackages [odoo13-addon-account-invoice-sale-origin-link]: Downloading https://files.pythonhosted.org/packages/4d/23/a6e96830545bec48231b394eace7f390df07c4bd45beb8b4f66582405b41/odoo13_addon_account_invoice_sale_origin_link-13.0.1.0.1.dev5-py3-none-any.whl
+[2024-04-24 04:49:50] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2024-04-24 04:49:50] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-43.8.tar.gz tmp/funboost-43.9.tar.gz --markdown 20240424/f/funboost/43.8-43.9/README.md --exclude *.pyd
+[2024-04-24 04:49:50] INFO root fetch - processPackages [odoo13-addon-account-invoice-sale-origin-link]: executing diffoscope
+[2024-04-24 04:49:50] INFO root fetch - processPackages [odoo13-addon-account-invoice-sale-origin-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_invoice_sale_origin_link-13.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo13_addon_account_invoice_sale_origin_link-13.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20240424/o/odoo13-addon-account-invoice-sale-origin-link/13.0.1.0.1.dev4-13.0.1.0.1.dev5/README.md --exclude *.pyd
+[2024-04-24 04:49:51] INFO root fetch - processPackages [odoo13-addon-account-invoice-sale-origin-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_invoice_sale_origin_link-13.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-24 04:49:51] INFO root fetch - processPackages [odoo13-addon-account-invoice-sale-origin-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_invoice_sale_origin_link-13.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-24 04:49:51] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-invoice-sale-origin-link]: success
+[2024-04-24 04:49:52] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.8.tar.gz]
+[2024-04-24 04:49:52] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.9.tar.gz]
+[2024-04-24 04:49:52] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2024-04-24 04:49:52] INFO root fetch - main [MainThread]: Store serial: [22906078]
