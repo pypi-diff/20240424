@@ -7610,3 +7610,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:01:41] INFO root fetch - processPackages [geohey]: Remove: archive file [/home/abi/fetcher/tmp/geohey-0.0.7.tar.gz]
 [2024-04-24 04:01:41] INFO root fetch - main [MainThread]: End processing [geohey]: success
 [2024-04-24 04:01:41] INFO root fetch - main [MainThread]: Store serial: [22905684]
+[2024-04-24 04:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905684]
+[2024-04-24 04:03:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 04:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neurocaps
+[2024-04-24 04:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crnpy
+[2024-04-24 04:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ncsu_courses
+[2024-04-24 04:03:49] INFO root fetch - processPackages [ncsu_courses]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-24 04:03:49] INFO root fetch - processPackages [ncsu_courses]: Downloading https://files.pythonhosted.org/packages/25/96/5312e8a63eeafe04e4fb319e859af0ab32ed61719d7d2091ee6cc904b4e5/ncsu_courses-0.2.0.tar.gz
+[2024-04-24 04:03:49] INFO root fetch - processPackages [crnpy]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-24 04:03:49] INFO root fetch - processPackages [neurocaps]: New version: [0.8.8.post4] Old Version: [0.8.8.post3]
+[2024-04-24 04:03:50] INFO root fetch - processPackages [ncsu_courses]: Downloading https://files.pythonhosted.org/packages/7e/d0/b5fb1c4ddb7c7d40aa958afdac48ef8518405d4a6c6c75f72179c02e0378/ncsu_courses-0.2.1.tar.gz
+[2024-04-24 04:03:50] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/f2/39/aeb1cb5459b75b6183cfc424675a680beb56a553e919cae8870fb57448fc/crnpy-0.5.1.tar.gz
+[2024-04-24 04:03:50] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/d3/e2/eee05df6566e137e4467bc5f1b207b07b565765726f7e3303fac9574c938/neurocaps-0.8.8.post3.tar.gz
+[2024-04-24 04:03:50] INFO root fetch - processPackages [ncsu_courses]: executing diffoscope
+[2024-04-24 04:03:50] INFO root fetch - processPackages [ncsu_courses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncsu_courses-0.2.0.tar.gz tmp/ncsu_courses-0.2.1.tar.gz --markdown 20240424/n/ncsu_courses/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-24 04:03:50] INFO root fetch - processPackages [crnpy]: Downloading https://files.pythonhosted.org/packages/fd/1f/c23be141ca52f775e4764bc6f2cc90bd8f9889152f5665007785373b6e5d/crnpy-0.6.0.tar.gz
+[2024-04-24 04:03:50] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/26/9b/ed82ef44aeb2bbbaffff7a50d9df95070a4b0558163e91368bd97d09b63f/neurocaps-0.8.8.post4.tar.gz
+[2024-04-24 04:03:50] INFO root fetch - processPackages [crnpy]: executing diffoscope
+[2024-04-24 04:03:50] INFO root fetch - processPackages [crnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crnpy-0.5.1.tar.gz tmp/crnpy-0.6.0.tar.gz --markdown 20240424/c/crnpy/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-24 04:03:50] INFO root fetch - processPackages [neurocaps]: executing diffoscope
+[2024-04-24 04:03:50] INFO root fetch - processPackages [neurocaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurocaps-0.8.8.post3.tar.gz tmp/neurocaps-0.8.8.post4.tar.gz --markdown 20240424/n/neurocaps/0.8.8.post3-0.8.8.post4/README.md --exclude *.pyd
+[2024-04-24 04:03:50] INFO root fetch - processPackages [ncsu_courses]: Remove: archive file [/home/abi/fetcher/tmp/ncsu_courses-0.2.0.tar.gz]
+[2024-04-24 04:03:50] INFO root fetch - processPackages [ncsu_courses]: Remove: archive file [/home/abi/fetcher/tmp/ncsu_courses-0.2.1.tar.gz]
+[2024-04-24 04:03:50] INFO root fetch - main [MainThread]: End processing [ncsu_courses]: success
+[2024-04-24 04:03:51] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.5.1.tar.gz]
+[2024-04-24 04:03:51] INFO root fetch - processPackages [crnpy]: Remove: archive file [/home/abi/fetcher/tmp/crnpy-0.6.0.tar.gz]
+[2024-04-24 04:03:51] INFO root fetch - main [MainThread]: End processing [crnpy]: success
+[2024-04-24 04:03:51] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.8.8.post3.tar.gz]
+[2024-04-24 04:03:51] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.8.8.post4.tar.gz]
+[2024-04-24 04:03:51] INFO root fetch - main [MainThread]: End processing [neurocaps]: success
+[2024-04-24 04:03:51] INFO root fetch - main [MainThread]: Store serial: [22905693]
