@@ -10038,3 +10038,51 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:33:19] INFO root fetch - processPackages [tidal-wave]: Remove: archive file [/home/abi/fetcher/tmp/tidal_wave-2024.4.3.tar.gz]
 [2024-04-24 06:33:19] INFO root fetch - main [MainThread]: End processing [tidal-wave]: success
 [2024-04-24 06:33:19] INFO root fetch - main [MainThread]: Store serial: [22906775]
+[2024-04-24 06:35:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906775]
+[2024-04-24 06:35:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-ro-config
+[2024-04-24 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bullmq
+[2024-04-24 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-ro-account-edi-ubl
+[2024-04-24 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypipr
+[2024-04-24 06:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdf-doctor
+[2024-04-24 06:35:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.0.1]
+[2024-04-24 06:35:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: New version: [16.0.1.48.0] Old Version: [16.0.1.47.0]
+[2024-04-24 06:35:28] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.89]
+[2024-04-24 06:35:28] INFO root fetch - processPackages [bullmq]: New version: [2.7.3] Old Version: [2.7.2]
+[2024-04-24 06:35:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/53/14/4dad413bd6e8910717536ef531e9c800b883445524eeae06d71f7c139674/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.47.0-py3-none-any.whl
+[2024-04-24 06:35:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/e1/01/cad54e6247fee3fa680c4349baa1a986e5cd794f72813b6b8fdf8d09c099/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-24 06:35:28] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/30/85/dc20fe9ccdd758154d8133ba2c50d10b910841b638f6d4fb609b49fc143a/pypipr-1.0.89.tar.gz
+[2024-04-24 06:35:28] INFO root fetch - processPackages [rdf-doctor]: New version: [1.1.0rc4] Old Version: [1.1.0rc3]
+[2024-04-24 06:35:28] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-24 06:35:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/f0/d2/af952f7cc92d686329de051179e5f7321668ba5f18ed8bbd911e2766160b/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl
+[2024-04-24 06:35:28] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/01/32/2701100a1b045fcd022f4ae8738004d7ec882046c739854fbae16b5929b6/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0-py3-none-any.whl
+[2024-04-24 06:35:29] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-24 06:35:29] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.89.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240424/p/pypipr/1.0.89-1.0.9/README.md --exclude *.pyd
+[2024-04-24 06:35:29] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/eb/31/eb5f1355594e90004252238fa30e1a00093108df9ee36319628fdd4e1422/bullmq-2.7.2.tar.gz
+[2024-04-24 06:35:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: executing diffoscope
+[2024-04-24 06:35:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-l10n-ro-config/17.0.1.1.0.1-17.0.1.2.0/README.md --exclude *.pyd
+[2024-04-24 06:35:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2024-04-24 06:35:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.47.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-l10n-ro-account-edi-ubl/16.0.1.47.0-16.0.1.48.0/README.md --exclude *.pyd
+[2024-04-24 06:35:29] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/09/13/1125a1b9c9c02e4eb603a0cec4b072d46cf6133841ced394d84d4ce17cb1/rdf_doctor-1.1.0rc3-py3-none-any.whl
+[2024-04-24 06:35:29] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/3b/d0/79b2f18d93439ed8f3b3c9398f0b55aaeedecefa7e1bed7c617e694fab2b/bullmq-2.7.3.tar.gz
+[2024-04-24 06:35:29] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2024-04-24 06:35:29] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-2.7.2.tar.gz tmp/bullmq-2.7.3.tar.gz --markdown 20240424/b/bullmq/2.7.2-2.7.3/README.md --exclude *.pyd
+[2024-04-24 06:35:29] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.89.tar.gz]
+[2024-04-24 06:35:29] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-24 06:35:29] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-24 06:35:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-24 06:35:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-24 06:35:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-config]: success
+[2024-04-24 06:35:29] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/38/ee/d85aef536dbea85ec6c2011bc6ecfa398b61c5f85ac7aa99d65f20b89c80/rdf_doctor-1.1.0rc4-py3-none-any.whl
+[2024-04-24 06:35:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.47.0-py3-none-any.whl.zip]
+[2024-04-24 06:35:29] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0-py3-none-any.whl.zip]
+[2024-04-24 06:35:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-edi-ubl]: success
+[2024-04-24 06:35:30] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2024-04-24 06:35:30] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-1.1.0rc3-py3-none-any.whl.zip tmp/rdf_doctor-1.1.0rc4-py3-none-any.whl.zip --markdown 20240424/r/rdf-doctor/1.1.0rc3-1.1.0rc4/README.md --exclude *.pyd
+[2024-04-24 06:35:30] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-2.7.2.tar.gz]
+[2024-04-24 06:35:30] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-2.7.3.tar.gz]
+[2024-04-24 06:35:30] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2024-04-24 06:35:30] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.0rc3-py3-none-any.whl.zip]
+[2024-04-24 06:35:30] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.0rc4-py3-none-any.whl.zip]
+[2024-04-24 06:35:30] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2024-04-24 06:35:30] INFO root fetch - main [MainThread]: Store serial: [22906786]
