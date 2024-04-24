@@ -8792,3 +8792,84 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:16:54] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
 [2024-04-24 05:16:54] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2024-04-24 05:16:54] INFO root fetch - main [MainThread]: Store serial: [22906301]
+[2024-04-24 05:18:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906301]
+[2024-04-24 05:19:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-phone
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annoworkcli
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: joo
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymsym
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emtl
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: internal
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hypothesis-torch
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hebill
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytctracer
+[2024-04-24 05:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdm-download
+[2024-04-24 05:19:03] INFO root fetch - processPackages [annoworkcli]: New version: [3.7.0] Old Version: [3.6.2]
+[2024-04-24 05:19:03] INFO root fetch - processPackages [hypothesis-torch]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-24 05:19:03] INFO root fetch - processPackages [internal]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 05:19:03] INFO root fetch - processPackages [annoworkcli]: Downloading https://files.pythonhosted.org/packages/71/bd/b11f68543127b047e7fd64c4a33ab06f12fc3bca6418a62600aa70597081/annoworkcli-3.6.2.tar.gz
+[2024-04-24 05:19:03] WARNING root fetch - processPackages [pymsym]: Skipping, unable to determine old version
+[2024-04-24 05:19:03] INFO root fetch - main [MainThread]: End processing [pymsym] error
+[2024-04-24 05:19:03] INFO root fetch - processPackages [pytctracer]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-24 05:19:03] INFO root fetch - processPackages [emtl]: New version: [0.1.5.dev1] Old Version: [0.1.4.dev1]
+[2024-04-24 05:19:03] INFO root fetch - processPackages [odoo-addon-base-phone]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-24 05:19:03] WARNING root fetch - processPackages [joo]: Skipping, unable to determine old version
+[2024-04-24 05:19:03] INFO root fetch - main [MainThread]: End processing [joo] error
+[2024-04-24 05:19:03] INFO root fetch - processPackages [pdm-download]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 05:19:03] INFO root fetch - processPackages [hebill]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-24 05:19:03] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/15/55/c047030da1f0bfcaa7e41402aaf435fecea5db342c7f3c9c76cf5f78963e/internal-0.1.98.tar.gz
+[2024-04-24 05:19:03] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/18/88/3a6b016d45711aa0e63c4663d31ca24aed56e65783e3d6ab2d075269585c/hypothesis_torch-0.1.9.tar.gz
+[2024-04-24 05:19:03] INFO root fetch - processPackages [emtl]: Downloading https://files.pythonhosted.org/packages/ce/ef/4f04b88d9c6b61e20e58bb0602e97c368ad4b9a1a2c59bcae7036b98ada9/emtl-0.1.4.dev1.tar.gz
+[2024-04-24 05:19:03] INFO root fetch - processPackages [odoo-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/15/4b/23f5d6a4226adbdd0de69fe86a207a23f76ebe8c42fc2570ff10edd39f19/odoo_addon_base_phone-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 05:19:03] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/2f/d6/771320b445b385d8ead56dfac8f449283a76406137e46a97e444ff4325af/pytctracer-0.1.9.tar.gz
+[2024-04-24 05:19:03] INFO root fetch - processPackages [pdm-download]: Downloading https://files.pythonhosted.org/packages/45/83/b6f3433e608ed178e30c20a1b587e4a3721b286cdf9fb876deca8bfac0b2/pdm_download-0.1.2.tar.gz
+[2024-04-24 05:19:03] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/83/0e/6b90d16c18351fc8fbb7314a9d842080e630b70a81a38ae91df78c413c48/internal-0.1.99.tar.gz
+[2024-04-24 05:19:03] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/0e/1e/6ef7769184a3c3eecd5423469ac36cc49b267f6b690feb466b26b0add0e8/hebill-1.2.1.tar.gz
+[2024-04-24 05:19:03] INFO root fetch - processPackages [annoworkcli]: Downloading https://files.pythonhosted.org/packages/d8/1e/e508ddd9db85524df00593ba5964203b42b088cfb05fe6e6df27c969ac34/annoworkcli-3.7.0.tar.gz
+[2024-04-24 05:19:04] INFO root fetch - processPackages [annoworkcli]: executing diffoscope
+[2024-04-24 05:19:04] INFO root fetch - processPackages [annoworkcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annoworkcli-3.6.2.tar.gz tmp/annoworkcli-3.7.0.tar.gz --markdown 20240424/a/annoworkcli/3.6.2-3.7.0/README.md --exclude *.pyd
+[2024-04-24 05:19:04] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-04-24 05:19:04] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-0.1.98.tar.gz tmp/internal-0.1.99.tar.gz --markdown 20240424/i/internal/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 05:19:04] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/06/49/b123b71a14c94cf343223ac53b90c3598a050feff8802fcd721bd664bb66/hypothesis_torch-0.2.0.tar.gz
+[2024-04-24 05:19:04] INFO root fetch - processPackages [hypothesis-torch]: executing diffoscope
+[2024-04-24 05:19:04] INFO root fetch - processPackages [hypothesis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis_torch-0.1.9.tar.gz tmp/hypothesis_torch-0.2.0.tar.gz --markdown 20240424/h/hypothesis-torch/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-24 05:19:04] INFO root fetch - processPackages [emtl]: Downloading https://files.pythonhosted.org/packages/b1/f4/147d76b0eb357a826649b21f2385e4eab07faea171b30529ed0b922941ce/emtl-0.1.5.dev1.tar.gz
+[2024-04-24 05:19:04] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/73/2d/fd263a4e6eaf489257c3813a3dd315f6939ed6493fc28bccc876f2fb44db/hebill-1.2.2.tar.gz
+[2024-04-24 05:19:04] INFO root fetch - processPackages [odoo-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/08/5d/0e51becf372675b3de6ef18073ad817f8254bb9f9e3a7217d6ead7bb62c2/odoo_addon_base_phone-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 05:19:04] INFO root fetch - processPackages [pytctracer]: Downloading https://files.pythonhosted.org/packages/a8/65/235d8ef62c2f905df4ca02604f53d4421f40d8ce8c3be5ad8460adb3f1ef/pytctracer-0.2.0.tar.gz
+[2024-04-24 05:19:04] INFO root fetch - processPackages [emtl]: executing diffoscope
+[2024-04-24 05:19:04] INFO root fetch - processPackages [emtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emtl-0.1.4.dev1.tar.gz tmp/emtl-0.1.5.dev1.tar.gz --markdown 20240424/e/emtl/0.1.4.dev1-0.1.5.dev1/README.md --exclude *.pyd
+[2024-04-24 05:19:04] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-24 05:19:04] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.2.1.tar.gz tmp/hebill-1.2.2.tar.gz --markdown 20240424/h/hebill/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-24 05:19:04] INFO root fetch - processPackages [odoo-addon-base-phone]: executing diffoscope
+[2024-04-24 05:19:04] INFO root fetch - processPackages [odoo-addon-base-phone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_phone-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_phone-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-base-phone/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 05:19:04] INFO root fetch - processPackages [pdm-download]: Downloading https://files.pythonhosted.org/packages/1a/0c/9cabdab2153ff51a4d9e737d11a70e88d5bb2859e8a131ae296164828e48/pdm_download-0.1.3.tar.gz
+[2024-04-24 05:19:04] INFO root fetch - processPackages [pytctracer]: executing diffoscope
+[2024-04-24 05:19:04] INFO root fetch - processPackages [pytctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytctracer-0.1.9.tar.gz tmp/pytctracer-0.2.0.tar.gz --markdown 20240424/p/pytctracer/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-24 05:19:04] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.98.tar.gz]
+[2024-04-24 05:19:04] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.99.tar.gz]
+[2024-04-24 05:19:04] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-04-24 05:19:05] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.1.9.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.2.0.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - main [MainThread]: End processing [hypothesis-torch]: success
+[2024-04-24 05:19:05] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.2.1.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.2.2.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-24 05:19:05] INFO root fetch - processPackages [emtl]: Remove: archive file [/home/abi/fetcher/tmp/emtl-0.1.4.dev1.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - processPackages [emtl]: Remove: archive file [/home/abi/fetcher/tmp/emtl-0.1.5.dev1.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - main [MainThread]: End processing [emtl]: success
+[2024-04-24 05:19:05] INFO root fetch - processPackages [annoworkcli]: Remove: archive file [/home/abi/fetcher/tmp/annoworkcli-3.6.2.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - processPackages [annoworkcli]: Remove: archive file [/home/abi/fetcher/tmp/annoworkcli-3.7.0.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - main [MainThread]: End processing [annoworkcli]: success
+[2024-04-24 05:19:05] INFO root fetch - processPackages [odoo-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_phone-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 05:19:05] INFO root fetch - processPackages [odoo-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_phone-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 05:19:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-phone]: success
+[2024-04-24 05:19:05] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.1.9.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - processPackages [pytctracer]: Remove: archive file [/home/abi/fetcher/tmp/pytctracer-0.2.0.tar.gz]
+[2024-04-24 05:19:05] INFO root fetch - main [MainThread]: End processing [pytctracer]: success
+[2024-04-24 05:19:06] INFO root fetch - processPackages [pdm-download]: executing diffoscope
+[2024-04-24 05:19:06] INFO root fetch - processPackages [pdm-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_download-0.1.2.tar.gz tmp/pdm_download-0.1.3.tar.gz --markdown 20240424/p/pdm-download/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 05:19:07] INFO root fetch - processPackages [pdm-download]: Remove: archive file [/home/abi/fetcher/tmp/pdm_download-0.1.2.tar.gz]
+[2024-04-24 05:19:07] INFO root fetch - processPackages [pdm-download]: Remove: archive file [/home/abi/fetcher/tmp/pdm_download-0.1.3.tar.gz]
+[2024-04-24 05:19:07] INFO root fetch - main [MainThread]: End processing [pdm-download]: success
+[2024-04-24 05:19:07] INFO root fetch - main [MainThread]: Store serial: [22906355]
