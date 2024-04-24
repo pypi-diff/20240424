@@ -15108,3 +15108,33 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:28:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-24 10:28:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-24 10:28:22] INFO root fetch - main [MainThread]: Store serial: [22909044]
+[2024-04-24 10:30:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909044]
+[2024-04-24 10:30:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RiskLabAI
+[2024-04-24 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multidst
+[2024-04-24 10:30:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bugsnag
+[2024-04-24 10:30:31] INFO root fetch - processPackages [RiskLabAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 10:30:31] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/cc/ff/c1d0c1b80be28ca28064c9a4be9a1bb7a191606a8b08c1ccad24911f5b54/RiskLabAI-0.0.8.tar.gz
+[2024-04-24 10:30:31] INFO root fetch - processPackages [multidst]: New version: [0.1.2] Old Version: [0.0.3]
+[2024-04-24 10:30:31] INFO root fetch - processPackages [bugsnag]: New version: [4.7.0] Old Version: [4.6.2]
+[2024-04-24 10:30:31] INFO root fetch - processPackages [bugsnag]: Downloading https://files.pythonhosted.org/packages/5b/14/f2771cd2f536ae9da7481c132a023b4d620da8c0ce3aaf6ab5095c156783/bugsnag-4.6.2.tar.gz
+[2024-04-24 10:30:31] INFO root fetch - processPackages [multidst]: Downloading https://files.pythonhosted.org/packages/06/3b/ec9e70293eec51c90ed346d96054b478b4b506ccd2bb1fb2c000a6da4f91/multidst-0.0.3.tar.gz
+[2024-04-24 10:30:31] INFO root fetch - processPackages [RiskLabAI]: Downloading https://files.pythonhosted.org/packages/bd/06/8b21467597cdd4ac5f26ccf7b426641f2283854423d655ae0f713d98b84c/RiskLabAI-0.0.9.tar.gz
+[2024-04-24 10:30:32] INFO root fetch - processPackages [RiskLabAI]: executing diffoscope
+[2024-04-24 10:30:32] INFO root fetch - processPackages [RiskLabAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskLabAI-0.0.8.tar.gz tmp/RiskLabAI-0.0.9.tar.gz --markdown 20240424/R/RiskLabAI/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:30:32] INFO root fetch - processPackages [bugsnag]: Downloading https://files.pythonhosted.org/packages/ee/17/8d951eabf875606cc2c93536e3e8aadea880f372774f2354de61630d630d/bugsnag-4.7.0.tar.gz
+[2024-04-24 10:30:32] INFO root fetch - processPackages [multidst]: Downloading https://files.pythonhosted.org/packages/b0/04/be60f1ca17fc4a860fa2e04576cb2d9c59d9d623f8bf61bd5c0cd24b05c9/multidst-0.1.2.tar.gz
+[2024-04-24 10:30:32] INFO root fetch - processPackages [multidst]: executing diffoscope
+[2024-04-24 10:30:32] INFO root fetch - processPackages [multidst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidst-0.0.3.tar.gz tmp/multidst-0.1.2.tar.gz --markdown 20240424/m/multidst/0.0.3-0.1.2/README.md --exclude *.pyd
+[2024-04-24 10:30:32] INFO root fetch - processPackages [bugsnag]: executing diffoscope
+[2024-04-24 10:30:32] INFO root fetch - processPackages [bugsnag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugsnag-4.6.2.tar.gz tmp/bugsnag-4.7.0.tar.gz --markdown 20240424/b/bugsnag/4.6.2-4.7.0/README.md --exclude *.pyd
+[2024-04-24 10:30:32] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/RiskLabAI-0.0.8.tar.gz]
+[2024-04-24 10:30:32] INFO root fetch - processPackages [RiskLabAI]: Remove: archive file [/home/abi/fetcher/tmp/RiskLabAI-0.0.9.tar.gz]
+[2024-04-24 10:30:32] INFO root fetch - main [MainThread]: End processing [RiskLabAI]: success
+[2024-04-24 10:30:32] INFO root fetch - processPackages [multidst]: Remove: archive file [/home/abi/fetcher/tmp/multidst-0.0.3.tar.gz]
+[2024-04-24 10:30:32] INFO root fetch - processPackages [multidst]: Remove: archive file [/home/abi/fetcher/tmp/multidst-0.1.2.tar.gz]
+[2024-04-24 10:30:32] INFO root fetch - main [MainThread]: End processing [multidst]: success
+[2024-04-24 10:30:33] INFO root fetch - processPackages [bugsnag]: Remove: archive file [/home/abi/fetcher/tmp/bugsnag-4.6.2.tar.gz]
+[2024-04-24 10:30:33] INFO root fetch - processPackages [bugsnag]: Remove: archive file [/home/abi/fetcher/tmp/bugsnag-4.7.0.tar.gz]
+[2024-04-24 10:30:33] INFO root fetch - main [MainThread]: End processing [bugsnag]: success
+[2024-04-24 10:30:33] INFO root fetch - main [MainThread]: Store serial: [22909054]
