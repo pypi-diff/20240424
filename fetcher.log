@@ -11279,3 +11279,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:44:26] INFO root fetch - processPackages [azure-mgmt-support]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-support-7.0.0.tar.gz]
 [2024-04-24 07:44:26] INFO root fetch - main [MainThread]: End processing [azure-mgmt-support]: success
 [2024-04-24 07:44:26] INFO root fetch - main [MainThread]: Store serial: [22907273]
+[2024-04-24 07:46:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907273]
+[2024-04-24 07:46:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-quota
+[2024-04-24 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-selfhelp
+[2024-04-24 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyVersioning
+[2024-04-24 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-mgmt-hybridcompute
+[2024-04-24 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-mgmt-standbypool
+[2024-04-24 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-mgmt-devcenter
+[2024-04-24 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-deviceregistry
+[2024-04-24 07:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotframework-parrot-dtmf
+[2024-04-24 07:46:35] INFO root fetch - processPackages [robotframework-parrot-dtmf]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 07:46:35] INFO root fetch - processPackages [azure-mgmt-selfhelp]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2024-04-24 07:46:35] INFO root fetch - processPackages [azure-mgmt-devcenter]: New version: [1.1.0b1] Old Version: [1.1.0]
+[2024-04-24 07:46:35] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: New version: [9.0.0b2] Old Version: [9.0.0b1]
+[2024-04-24 07:46:35] WARNING root fetch - processPackages [azure-mgmt-standbypool]: Skipping, unable to determine old version
+[2024-04-24 07:46:35] WARNING root fetch - processPackages [azure-mgmt-deviceregistry]: Skipping, unable to determine old version
+[2024-04-24 07:46:35] INFO root fetch - main [MainThread]: End processing [azure-mgmt-standbypool] error
+[2024-04-24 07:46:35] INFO root fetch - main [MainThread]: End processing [azure-mgmt-deviceregistry] error
+[2024-04-24 07:46:35] INFO root fetch - processPackages [azure-mgmt-quota]: New version: [2.0.0b1] Old Version: [1.1.0b3]
+[2024-04-24 07:46:35] INFO root fetch - processPackages [pyVersioning]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 07:46:35] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Downloading https://files.pythonhosted.org/packages/c7/e8/69969e9870e68952ee9441ed181ccb5af403646af86377a9d481af3ac0d5/azure-mgmt-selfhelp-2.0.0b2.tar.gz
+[2024-04-24 07:46:35] INFO root fetch - processPackages [azure-mgmt-devcenter]: Downloading https://files.pythonhosted.org/packages/52/cf/8c8e6fc3df16ad717c7d7338b372ab46498e1b04f8e30eba56d2fc108361/azure-mgmt-devcenter-1.1.0.tar.gz
+[2024-04-24 07:46:35] INFO root fetch - processPackages [robotframework-parrot-dtmf]: Downloading https://files.pythonhosted.org/packages/2d/df/7a2cf68b3a136edb165b8bfc0206f1304723182e537313ce22194e632eda/robotframework_parrot_dtmf-1.0.1.tar.gz
+[2024-04-24 07:46:35] INFO root fetch - processPackages [azure-mgmt-quota]: Downloading https://files.pythonhosted.org/packages/f0/ae/a4ecfc6e11ac0ed949099a4097dd85f4dd09433dcf63380b0f5467c00079/azure-mgmt-quota-1.1.0b3.zip
+[2024-04-24 07:46:35] INFO root fetch - processPackages [pyVersioning]: Downloading https://files.pythonhosted.org/packages/65/23/acc3b65cd5f77fe2ee8ff435f909fad619645e40262567cad3c31e46c92b/pyVersioning-0.8.0.tar.gz
+[2024-04-24 07:46:35] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: Downloading https://files.pythonhosted.org/packages/66/75/178d713f31b67fb3fbe23e06f9e64477bdde41a72e2088b517725a891412/azure-mgmt-hybridcompute-9.0.0b1.tar.gz
+[2024-04-24 07:46:36] INFO root fetch - processPackages [robotframework-parrot-dtmf]: Downloading https://files.pythonhosted.org/packages/76/5b/7190ce6c4359c6f4a89b68a22d17f30954526386a5b88d939752f02bccca/robotframework_parrot_dtmf-1.0.2.tar.gz
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Downloading https://files.pythonhosted.org/packages/ef/69/2b67f9174d03225f0b27b40bf280b5db3f1349be84e8b987a5af56020015/azure-mgmt-selfhelp-2.0.0b3.tar.gz
+[2024-04-24 07:46:36] INFO root fetch - processPackages [pyVersioning]: Downloading https://files.pythonhosted.org/packages/d4/8a/bdc672f5336295b86f570e3c23fa563f500edf8fd388e8e2a6e5d412adb0/pyVersioning-0.9.0.tar.gz
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-devcenter]: Downloading https://files.pythonhosted.org/packages/db/94/3eb43bf4ac7f16f5076021090a2aa1de5ad61855fcd079d36fb512ac7730/azure-mgmt-devcenter-1.1.0b1.tar.gz
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: Downloading https://files.pythonhosted.org/packages/be/3b/b0927f8f2ff7b0e9815b368cd9930c2c88db60e9ef6f20c1bf38d2b10a7e/azure-mgmt-hybridcompute-9.0.0b2.tar.gz
+[2024-04-24 07:46:36] INFO root fetch - processPackages [robotframework-parrot-dtmf]: executing diffoscope
+[2024-04-24 07:46:36] INFO root fetch - processPackages [robotframework-parrot-dtmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_parrot_dtmf-1.0.1.tar.gz tmp/robotframework_parrot_dtmf-1.0.2.tar.gz --markdown 20240424/r/robotframework-parrot-dtmf/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-selfhelp]: executing diffoscope
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-selfhelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-selfhelp-2.0.0b2.tar.gz tmp/azure-mgmt-selfhelp-2.0.0b3.tar.gz --markdown 20240424/a/azure-mgmt-selfhelp/2.0.0b2-2.0.0b3/README.md --exclude *.pyd
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-devcenter]: executing diffoscope
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-devcenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-devcenter-1.1.0.tar.gz tmp/azure-mgmt-devcenter-1.1.0b1.tar.gz --markdown 20240424/a/azure-mgmt-devcenter/1.1.0-1.1.0b1/README.md --exclude *.pyd
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: executing diffoscope
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-hybridcompute-9.0.0b1.tar.gz tmp/azure-mgmt-hybridcompute-9.0.0b2.tar.gz --markdown 20240424/a/azure-mgmt-hybridcompute/9.0.0b1-9.0.0b2/README.md --exclude *.pyd
+[2024-04-24 07:46:36] INFO root fetch - processPackages [pyVersioning]: executing diffoscope
+[2024-04-24 07:46:36] INFO root fetch - processPackages [pyVersioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVersioning-0.8.0.tar.gz tmp/pyVersioning-0.9.0.tar.gz --markdown 20240424/p/pyVersioning/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-quota]: Downloading https://files.pythonhosted.org/packages/00/9c/3694da25c751edd035db2e5e5085fa9f65dff9c9b3171f0033b636a39436/azure-mgmt-quota-2.0.0b1.tar.gz
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-quota]: executing diffoscope
+[2024-04-24 07:46:36] INFO root fetch - processPackages [azure-mgmt-quota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-quota-1.1.0b3.zip tmp/azure-mgmt-quota-2.0.0b1.tar.gz --markdown 20240424/a/azure-mgmt-quota/1.1.0b3-2.0.0b1/README.md --exclude *.pyd
+[2024-04-24 07:46:37] INFO root fetch - processPackages [robotframework-parrot-dtmf]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_dtmf-1.0.1.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - processPackages [robotframework-parrot-dtmf]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_dtmf-1.0.2.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-dtmf]: success
+[2024-04-24 07:46:37] INFO root fetch - processPackages [pyVersioning]: Remove: archive file [/home/abi/fetcher/tmp/pyVersioning-0.8.0.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - processPackages [pyVersioning]: Remove: archive file [/home/abi/fetcher/tmp/pyVersioning-0.9.0.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - main [MainThread]: End processing [pyVersioning]: success
+[2024-04-24 07:46:37] INFO root fetch - processPackages [azure-mgmt-quota]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-quota-1.1.0b3.zip]
+[2024-04-24 07:46:37] INFO root fetch - processPackages [azure-mgmt-quota]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-quota-2.0.0b1.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - main [MainThread]: End processing [azure-mgmt-quota]: success
+[2024-04-24 07:46:37] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-selfhelp-2.0.0b2.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-selfhelp-2.0.0b3.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - main [MainThread]: End processing [azure-mgmt-selfhelp]: success
+[2024-04-24 07:46:37] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-hybridcompute-9.0.0b1.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-hybridcompute-9.0.0b2.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - main [MainThread]: End processing [azure-mgmt-hybridcompute]: success
+[2024-04-24 07:46:37] INFO root fetch - processPackages [azure-mgmt-devcenter]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-devcenter-1.1.0.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - processPackages [azure-mgmt-devcenter]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-devcenter-1.1.0b1.tar.gz]
+[2024-04-24 07:46:37] INFO root fetch - main [MainThread]: End processing [azure-mgmt-devcenter]: success
+[2024-04-24 07:46:37] INFO root fetch - main [MainThread]: Store serial: [22907301]
