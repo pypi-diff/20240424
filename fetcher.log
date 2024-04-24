@@ -9203,3 +9203,51 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:41:07] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.19-cp312-none-win_amd64.whl.zip]
 [2024-04-24 05:41:07] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
 [2024-04-24 05:41:07] INFO root fetch - main [MainThread]: Store serial: [22906484]
+[2024-04-24 05:43:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906484]
+[2024-04-24 05:43:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 05:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qctrl-release-noter
+[2024-04-24 05:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saleyo
+[2024-04-24 05:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-bccr
+[2024-04-24 05:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leya
+[2024-04-24 05:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-core
+[2024-04-24 05:43:16] INFO root fetch - processPackages [leya]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 05:43:16] INFO root fetch - processPackages [qctrl-release-noter]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 05:43:16] INFO root fetch - processPackages [pypomes-core]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-04-24 05:43:16] INFO root fetch - processPackages [saleyo]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-24 05:43:16] INFO root fetch - processPackages [leya]: Downloading https://files.pythonhosted.org/packages/57/7a/e0c31f1a967c6bcf17105a0d02042398ed4d703828494daff4b1684b7b90/leya-0.1.0.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/8d/b0/33aa5498292afed6db201c1982ffa4c4417d05a6224f9d8ba7a9f09d45ac/qctrl_release_noter-0.8.0.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [antchain-bccr]: New version: [1.8.15] Old Version: [1.18.25]
+[2024-04-24 05:43:16] INFO root fetch - processPackages [saleyo]: Downloading https://files.pythonhosted.org/packages/9a/69/f7f9a02ae11c60b8476234b60f129fd6ef296fe59fd74297cc8a75092290/saleyo-1.0.3.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/4e/63/38f4b247ac6e059936331078ad747b49035cc4157f42a4ea97abffa2021b/pypomes_core-0.8.7.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/a5/00/b64bb2759ca9c19de1f3aab50c1906eabd762905750ad9d94ef86b105095/antchain_bccr-1.18.25.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [leya]: Downloading https://files.pythonhosted.org/packages/02/d4/a08ad80632a485a5c75d91a205477b377f44267a693f3b45cae373af5cfb/leya-0.1.1.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/af/eb/5647b92e5f16900f4f3e6e02009600972ca6c82cd63a42c8808d28402b55/qctrl_release_noter-0.9.0.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [saleyo]: Downloading https://files.pythonhosted.org/packages/f5/96/b3f727c01db845c29b26b04c260260c19e595c194be05948910fa25f9758/saleyo-1.0.4.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [leya]: executing diffoscope
+[2024-04-24 05:43:16] INFO root fetch - processPackages [leya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leya-0.1.0.tar.gz tmp/leya-0.1.1.tar.gz --markdown 20240424/l/leya/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 05:43:16] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/df/1d/012ff5f14251413967fb9ff5decddcafc6d38f477a0f72c5c1bfd99964be/pypomes_core-0.8.8.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [qctrl-release-noter]: executing diffoscope
+[2024-04-24 05:43:16] INFO root fetch - processPackages [qctrl-release-noter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_release_noter-0.8.0.tar.gz tmp/qctrl_release_noter-0.9.0.tar.gz --markdown 20240424/q/qctrl-release-noter/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 05:43:16] INFO root fetch - processPackages [saleyo]: executing diffoscope
+[2024-04-24 05:43:16] INFO root fetch - processPackages [saleyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saleyo-1.0.3.tar.gz tmp/saleyo-1.0.4.tar.gz --markdown 20240424/s/saleyo/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-24 05:43:16] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/fd/cb/0b4e2048f81a8e2498ba2c0f5180ce333aabefa79808dd5f924efcad36da/antchain_bccr-1.8.15.tar.gz
+[2024-04-24 05:43:16] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-04-24 05:43:16] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.8.7.tar.gz tmp/pypomes_core-0.8.8.tar.gz --markdown 20240424/p/pypomes-core/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-04-24 05:43:17] INFO root fetch - processPackages [antchain-bccr]: executing diffoscope
+[2024-04-24 05:43:17] INFO root fetch - processPackages [antchain-bccr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bccr-1.18.25.tar.gz tmp/antchain_bccr-1.8.15.tar.gz --markdown 20240424/a/antchain-bccr/1.18.25-1.8.15/README.md --exclude *.pyd
+[2024-04-24 05:43:17] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.8.0.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.9.0.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - main [MainThread]: End processing [qctrl-release-noter]: success
+[2024-04-24 05:43:17] INFO root fetch - processPackages [leya]: Remove: archive file [/home/abi/fetcher/tmp/leya-0.1.0.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - processPackages [leya]: Remove: archive file [/home/abi/fetcher/tmp/leya-0.1.1.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - main [MainThread]: End processing [leya]: success
+[2024-04-24 05:43:17] INFO root fetch - processPackages [saleyo]: Remove: archive file [/home/abi/fetcher/tmp/saleyo-1.0.3.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - processPackages [saleyo]: Remove: archive file [/home/abi/fetcher/tmp/saleyo-1.0.4.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - main [MainThread]: End processing [saleyo]: success
+[2024-04-24 05:43:17] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.18.25.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.8.15.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - main [MainThread]: End processing [antchain-bccr]: success
+[2024-04-24 05:43:17] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.8.7.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.8.8.tar.gz]
+[2024-04-24 05:43:17] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-04-24 05:43:17] INFO root fetch - main [MainThread]: Store serial: [22906499]
