@@ -8500,3 +8500,92 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:59:44] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-24 04:59:44] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2024-04-24 04:59:44] INFO root fetch - main [MainThread]: Store serial: [22906168]
+[2024-04-24 05:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906168]
+[2024-04-24 05:01:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaea-operator
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xinference-client
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-payment-order
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-listing
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrotgfork
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nautobot-plugin-nornir
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-signalfx
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xinference
+[2024-04-24 05:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zhousf-lib
+[2024-04-24 05:01:57] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [17.0.1.1.0.3] Old Version: [17.0.1.1.0.2]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.dev8] Old Version: [1.2.0.dev7]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1713904385] Old Version: [7.2.0a1713561372]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [xinference-client]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [pyrotgfork]: New version: [2.1.24] Old Version: [2.1.23]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [xinference]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [django-listing]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [nautobot-plugin-nornir]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/ef/99/70fcb88f74f28d6bf0ed34f49a839c55bc553cbb4c55d529782da1e71612/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 05:01:57] INFO root fetch - processPackages [zhousf-lib]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-24 05:01:57] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/46/d4/f26ad06bbeb2121a17121ff5685ccb563d81eb1b4b51b4fe3855be43c9fb/odoo_addon_account_payment_order-17.0.1.1.0.2-py3-none-any.whl
+[2024-04-24 05:01:57] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/f9/f1/8dcfd0bddf4ce7712f3675f96dee25c53787cda976db1514810d0daae1aa/pulumi_signalfx-7.2.0a1713561372.tar.gz
+[2024-04-24 05:01:57] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/ce/5e/a3c05106202be3f17ee02527315548d053cbf693d9d3a227d07742a68775/gaea_operator-1.2.0.dev7-py3-none-any.whl
+[2024-04-24 05:01:57] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/6d/b8/345520866b2a4eb03a3d6c561cf46ac494e6acf0df5c25ed27d73a37d6c4/xinference-client-0.9.3.tar.gz
+[2024-04-24 05:01:57] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/4b/f5/c95b0bd62d4c3cac26fcd7c48e254666d4b8cec0c9cabcbf88fccb03a921/pyrotgfork-2.1.23.tar.gz
+[2024-04-24 05:01:57] INFO root fetch - processPackages [nautobot-plugin-nornir]: Downloading https://files.pythonhosted.org/packages/87/2a/dfed9fda4175b0ba217315680dcd8f2cf90deb56f5be505299cd486dc6b0/nautobot_plugin_nornir-2.0.0.tar.gz
+[2024-04-24 05:01:57] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/09/c8/26f5da6b956e0276700cb32085158a914277b8b81983a759ca438092704c/django-listing-0.7.8.tar.gz
+[2024-04-24 05:01:57] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/4f/20/18ca8f4fdf1042e2a6f62625da7822eea401a90019e36e7b0d66b5b83d99/xinference-0.9.3.tar.gz
+[2024-04-24 05:01:57] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/ec/7c/69e30e885819071e793828a66129c6628502c48d7014119ec62c53f36f04/zhousf-lib-1.5.2.tar.gz
+[2024-04-24 05:01:58] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/9a/ab/d0fc63ca31b3e3ea9a6999fe5feb5f659cfe1088268198c8c2574c495979/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl
+[2024-04-24 05:01:58] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/42/e8/1aea724d3c63eb585804ecb8b2913f96af334037c840e83f5aff09d013a0/pulumi_signalfx-7.2.0a1713904385.tar.gz
+[2024-04-24 05:01:58] WARNING root fetch - processPackages [xinference]: Skipping package: exceeds size limit 12053117>=10485760
+[2024-04-24 05:01:58] INFO root fetch - main [MainThread]: End processing [xinference] error
+[2024-04-24 05:01:58] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/d4/99/6ba717eef4c010e95d6c2cf437025e807c91ba4867eca4ded08bb49cb8d6/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 05:01:58] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/77/10/1ba768a0f917d5d9eca1dfd3d09fc8b73fdf49a26687873bbc3bcc554ae0/gaea_operator-1.2.0.dev8-py3-none-any.whl
+[2024-04-24 05:01:58] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-04-24 05:01:58] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1713561372.tar.gz tmp/pulumi_signalfx-7.2.0a1713904385.tar.gz --markdown 20240424/p/pulumi-signalfx/7.2.0a1713561372-7.2.0a1713904385/README.md --exclude *.pyd
+[2024-04-24 05:01:58] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2024-04-24 05:01:58] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-account-banking-sepa-direct-debit/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 05:01:58] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/d9/51/a0c540e0cc12db8debdfbcd787c091fe47401f5b510b3dced4113987d99c/xinference-client-0.9.4.tar.gz
+[2024-04-24 05:01:58] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-24 05:01:58] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.dev7-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.dev8-py3-none-any.whl.zip --markdown 20240424/g/gaea-operator/1.2.0.dev7-1.2.0.dev8/README.md --exclude *.pyd
+[2024-04-24 05:01:58] INFO root fetch - processPackages [pyrotgfork]: Downloading https://files.pythonhosted.org/packages/96/4c/a9a0ebefd570d7b7870051f425afb7c1aeb32a018c8766ce32c14656ed07/pyrotgfork-2.1.24.tar.gz
+[2024-04-24 05:01:58] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2024-04-24 05:01:58] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-17.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-account-payment-order/17.0.1.1.0.2-17.0.1.1.0.3/README.md --exclude *.pyd
+[2024-04-24 05:01:58] INFO root fetch - processPackages [nautobot-plugin-nornir]: Downloading https://files.pythonhosted.org/packages/e4/08/ce7e8e3fdab4db9b8709822f8a421cc5a1cfacf3df1cdc9678450b3c43ec/nautobot_plugin_nornir-2.0.1.tar.gz
+[2024-04-24 05:01:58] INFO root fetch - processPackages [xinference-client]: executing diffoscope
+[2024-04-24 05:01:58] INFO root fetch - processPackages [xinference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinference-client-0.9.3.tar.gz tmp/xinference-client-0.9.4.tar.gz --markdown 20240424/x/xinference-client/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-24 05:01:58] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/c6/97/537d90a38c614b36afa1ce8885492729ee1347e18993887939e6e9cb14cc/django-listing-0.7.9.tar.gz
+[2024-04-24 05:01:58] INFO root fetch - processPackages [nautobot-plugin-nornir]: executing diffoscope
+[2024-04-24 05:01:58] INFO root fetch - processPackages [nautobot-plugin-nornir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_plugin_nornir-2.0.0.tar.gz tmp/nautobot_plugin_nornir-2.0.1.tar.gz --markdown 20240424/n/nautobot-plugin-nornir/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-24 05:01:58] INFO root fetch - processPackages [pyrotgfork]: executing diffoscope
+[2024-04-24 05:01:58] INFO root fetch - processPackages [pyrotgfork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrotgfork-2.1.23.tar.gz tmp/pyrotgfork-2.1.24.tar.gz --markdown 20240424/p/pyrotgfork/2.1.23-2.1.24/README.md --exclude *.pyd
+[2024-04-24 05:01:58] INFO root fetch - processPackages [django-listing]: executing diffoscope
+[2024-04-24 05:01:58] INFO root fetch - processPackages [django-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-listing-0.7.8.tar.gz tmp/django-listing-0.7.9.tar.gz --markdown 20240424/d/django-listing/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-24 05:01:59] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.3.tar.gz]
+[2024-04-24 05:01:59] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.4.tar.gz]
+[2024-04-24 05:01:59] INFO root fetch - main [MainThread]: End processing [xinference-client]: success
+[2024-04-24 05:01:59] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/5d/07/6a17e2991941b3a10b0911cbed7e44c34911a78a663547c4ce28618944a2/zhousf-lib-1.5.3.tar.gz
+[2024-04-24 05:01:59] INFO root fetch - processPackages [nautobot-plugin-nornir]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_plugin_nornir-2.0.0.tar.gz]
+[2024-04-24 05:01:59] INFO root fetch - processPackages [nautobot-plugin-nornir]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_plugin_nornir-2.0.1.tar.gz]
+[2024-04-24 05:01:59] INFO root fetch - main [MainThread]: End processing [nautobot-plugin-nornir]: success
+[2024-04-24 05:01:59] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1713561372.tar.gz]
+[2024-04-24 05:01:59] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1713904385.tar.gz]
+[2024-04-24 05:01:59] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-04-24 05:01:59] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-24 05:01:59] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-24 05:01:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2024-04-24 05:01:59] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 05:01:59] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 05:01:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2024-04-24 05:01:59] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.dev7-py3-none-any.whl.zip]
+[2024-04-24 05:01:59] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.dev8-py3-none-any.whl.zip]
+[2024-04-24 05:01:59] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-24 05:01:59] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2024-04-24 05:01:59] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-1.5.2.tar.gz tmp/zhousf-lib-1.5.3.tar.gz --markdown 20240424/z/zhousf-lib/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-04-24 05:02:00] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.7.8.tar.gz]
+[2024-04-24 05:02:00] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.7.9.tar.gz]
+[2024-04-24 05:02:00] INFO root fetch - main [MainThread]: End processing [django-listing]: success
+[2024-04-24 05:02:00] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.23.tar.gz]
+[2024-04-24 05:02:00] INFO root fetch - processPackages [pyrotgfork]: Remove: archive file [/home/abi/fetcher/tmp/pyrotgfork-2.1.24.tar.gz]
+[2024-04-24 05:02:00] INFO root fetch - main [MainThread]: End processing [pyrotgfork]: success
+[2024-04-24 05:02:01] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.2.tar.gz]
+[2024-04-24 05:02:01] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.3.tar.gz]
+[2024-04-24 05:02:01] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2024-04-24 05:02:01] INFO root fetch - main [MainThread]: Store serial: [22906199]
