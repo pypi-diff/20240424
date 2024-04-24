@@ -12552,3 +12552,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:59:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-24 08:59:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-24 08:59:53] INFO root fetch - main [MainThread]: Store serial: [22907716]
+[2024-04-24 09:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907716]
+[2024-04-24 09:02:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 09:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-commission
+[2024-04-24 09:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudpss
+[2024-04-24 09:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2024-04-24 09:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-commission
+[2024-04-24 09:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-py-tool
+[2024-04-24 09:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-stock-picking-auto-create-lot
+[2024-04-24 09:02:02] INFO root fetch - processPackages [ul-py-tool]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-24 09:02:02] INFO root fetch - processPackages [cloudpss]: New version: [4.1.1b9] Old Version: [4.1.1b8]
+[2024-04-24 09:02:02] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-24 09:02:02] INFO root fetch - processPackages [odoo-addon-commission]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-24 09:02:02] INFO root fetch - processPackages [odoo14-addon-stock-picking-auto-create-lot]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2024-04-24 09:02:02] INFO root fetch - processPackages [odoo-addon-account-commission]: New version: [16.0.2.3.0.1] Old Version: [16.0.2.3.0]
+[2024-04-24 09:02:02] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/65/0d/e9ba31f289288d38ec199f38c22f1178ac0366abcaa1e81a28f168399008/cloudpss-4.1.1b8.tar.gz
+[2024-04-24 09:02:02] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-04-24 09:02:02] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/8c/e2/97d1998bcb647a0466cad89d177c20f305c285a85dc06bb2ccbf5bd69a57/ul-py-tool-2.0.1.tar.gz
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/f8/36/24e37368a21041c63ac24fde57d0b5f064634ac3d188c2a9977d18016c5d/odoo_addon_commission-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/01/81/08cc8beeb88b11a0d5afffa4c78d48f5438bc23a13feeba2a1535d2029ab/odoo_addon_account_commission-16.0.2.3.0-py3-none-any.whl
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo14-addon-stock-picking-auto-create-lot]: Downloading https://files.pythonhosted.org/packages/c8/95/f33c161caaa76dfb88a83b6c75333586e5eca95316bf200bdd930daec875/odoo14_addon_stock_picking_auto_create_lot-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-04-24 09:02:03] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-04-24 09:02:03] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/5b/24/24989e49cb8cf21d5d2c8b071d835f6a78aca17eceeb1885baa86476f8d4/cloudpss-4.1.1b9.tar.gz
+[2024-04-24 09:02:03] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/a4/34/23f6b67894cd38bc0180d1bda48cae068ce3431cd22720e4e149000e3c8a/ul-py-tool-2.1.0.tar.gz
+[2024-04-24 09:02:03] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-04-24 09:02:03] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240424/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-24 09:02:03] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2024-04-24 09:02:03] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-2.0.1.tar.gz tmp/ul-py-tool-2.1.0.tar.gz --markdown 20240424/u/ul-py-tool/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/75/1f/bf1cb0eb36159b0ad122b37fb99fe773c4d66b32f18fc0dc99b9d8382223/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/c3/13/7122feb4d0a538e46136a643f3137b51eb9f6d0bda52f6084120cec234a5/odoo_addon_account_commission-16.0.2.3.0.1-py3-none-any.whl
+[2024-04-24 09:02:03] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2024-04-24 09:02:03] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-4.1.1b8.tar.gz tmp/cloudpss-4.1.1b9.tar.gz --markdown 20240424/c/cloudpss/4.1.1b8-4.1.1b9/README.md --exclude *.pyd
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo-addon-commission]: executing diffoscope
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo-addon-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-commission/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo-addon-account-commission]: executing diffoscope
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo-addon-account-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_commission-16.0.2.3.0-py3-none-any.whl.zip tmp/odoo_addon_account_commission-16.0.2.3.0.1-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-account-commission/16.0.2.3.0-16.0.2.3.0.1/README.md --exclude *.pyd
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo14-addon-stock-picking-auto-create-lot]: Downloading https://files.pythonhosted.org/packages/a9/f9/9bf5277a402c609dc6a864084e4a880911365723a8e430e4dddce02e7937/odoo14_addon_stock_picking_auto_create_lot-14.0.1.0.1.dev6-py3-none-any.whl
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo14-addon-stock-picking-auto-create-lot]: executing diffoscope
+[2024-04-24 09:02:03] INFO root fetch - processPackages [odoo14-addon-stock-picking-auto-create-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_auto_create_lot-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_auto_create_lot-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20240424/o/odoo14-addon-stock-picking-auto-create-lot/14.0.1.0.1.dev5-14.0.1.0.1.dev6/README.md --exclude *.pyd
+[2024-04-24 09:02:04] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-04-24 09:02:04] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-04-24 09:02:04] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-04-24 09:02:04] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.0.1.tar.gz]
+[2024-04-24 09:02:04] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.1.0.tar.gz]
+[2024-04-24 09:02:04] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2024-04-24 09:02:04] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.3.0-py3-none-any.whl.zip]
+[2024-04-24 09:02:04] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.3.0.1-py3-none-any.whl.zip]
+[2024-04-24 09:02:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
+[2024-04-24 09:02:04] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 09:02:04] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 09:02:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
+[2024-04-24 09:02:04] INFO root fetch - processPackages [odoo14-addon-stock-picking-auto-create-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_auto_create_lot-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-24 09:02:04] INFO root fetch - processPackages [odoo14-addon-stock-picking-auto-create-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_auto_create_lot-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2024-04-24 09:02:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-auto-create-lot]: success
+[2024-04-24 09:02:04] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b8.tar.gz]
+[2024-04-24 09:02:04] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b9.tar.gz]
+[2024-04-24 09:02:04] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2024-04-24 09:02:04] INFO root fetch - main [MainThread]: Store serial: [22907732]
