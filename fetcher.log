@@ -17733,3 +17733,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:53:07] INFO root fetch - processPackages [ocean-spark-connect]: Remove: archive file [/home/abi/fetcher/tmp/ocean_spark_connect-0.3.5.tar.gz]
 [2024-04-24 11:53:07] INFO root fetch - main [MainThread]: End processing [ocean-spark-connect]: success
 [2024-04-24 11:53:07] INFO root fetch - main [MainThread]: Store serial: [22910046]
+[2024-04-24 11:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910046]
+[2024-04-24 11:55:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocean-spark-connect
+[2024-04-24 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HawaData
+[2024-04-24 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lynxius-sdk
+[2024-04-24 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-core
+[2024-04-24 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: port-ocean
+[2024-04-24 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EvoDict
+[2024-04-24 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lynxius-webapp
+[2024-04-24 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-langchain
+[2024-04-24 11:55:16] INFO root fetch - processPackages [ocean-spark-connect]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-24 11:55:16] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 11:55:16] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 11:55:17] INFO root fetch - processPackages [ocean-spark-connect]: Downloading https://files.pythonhosted.org/packages/e8/cf/fee964f9881962724a4b5b61ccf69636efab5ce83ce5f07837f03f4aa43f/ocean_spark_connect-0.3.4.tar.gz
+[2024-04-24 11:55:17] WARNING root fetch - processPackages [lynxius-webapp]: Skipping, unable to determine old version
+[2024-04-24 11:55:17] INFO root fetch - main [MainThread]: End processing [lynxius-webapp] error
+[2024-04-24 11:55:17] WARNING root fetch - processPackages [lynxius-sdk]: Skipping, unable to determine old version
+[2024-04-24 11:55:17] INFO root fetch - main [MainThread]: End processing [lynxius-sdk] error
+[2024-04-24 11:55:17] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-24 11:55:17] INFO root fetch - processPackages [EvoDict]: New version: [0.2] Old Version: [0.1]
+[2024-04-24 11:55:17] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [port-ocean]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-24 11:55:17] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/78/bc/7cc9e8e2e79075a3c79c00273aaeb13f895d17585c027c53b61f77bdaba4/port_ocean-0.5.8.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [ocean-spark-connect]: Downloading https://files.pythonhosted.org/packages/34/be/f7c3fe16c9243cb573dc8faf880a24aedcf500ae2c721748798d2fc7cd26/ocean_spark_connect-0.3.5.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [EvoDict]: Downloading https://files.pythonhosted.org/packages/1c/9e/9c9c691ab934bf6ff93d7251ece40adc6eb4b27a97c03d78e1173a7a79e0/evodict-0.1.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [ocean-spark-connect]: executing diffoscope
+[2024-04-24 11:55:17] INFO root fetch - processPackages [ocean-spark-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocean_spark_connect-0.3.4.tar.gz tmp/ocean_spark_connect-0.3.5.tar.gz --markdown 20240424/o/ocean-spark-connect/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-24 11:55:17] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-24 11:55:17] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240424/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 11:55:17] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-24 11:55:17] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240424/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 11:55:17] INFO root fetch - processPackages [EvoDict]: Downloading https://files.pythonhosted.org/packages/23/c2/f5a148fd91f3992725e59fcfe4b1f2dfd0d080eee0dfb717839e239df072/evodict-0.2.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/9a/b8/b4b21f5c3d509271ff988cb9644c8429ce3f2eb23c44e309e16fc3f2c3d6/port_ocean-0.5.9.tar.gz
+[2024-04-24 11:55:17] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-24 11:55:17] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240424/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-24 11:55:17] INFO root fetch - processPackages [EvoDict]: executing diffoscope
+[2024-04-24 11:55:17] INFO root fetch - processPackages [EvoDict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evodict-0.1.tar.gz tmp/evodict-0.2.tar.gz --markdown 20240424/E/EvoDict/0.1-0.2/README.md --exclude *.pyd
+[2024-04-24 11:55:17] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2024-04-24 11:55:17] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.5.8.tar.gz tmp/port_ocean-0.5.9.tar.gz --markdown 20240424/p/port-ocean/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-24 11:55:18] INFO root fetch - processPackages [ocean-spark-connect]: Remove: archive file [/home/abi/fetcher/tmp/ocean_spark_connect-0.3.4.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - processPackages [ocean-spark-connect]: Remove: archive file [/home/abi/fetcher/tmp/ocean_spark_connect-0.3.5.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - main [MainThread]: End processing [ocean-spark-connect]: success
+[2024-04-24 11:55:18] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-24 11:55:18] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-24 11:55:18] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-24 11:55:18] INFO root fetch - processPackages [EvoDict]: Remove: archive file [/home/abi/fetcher/tmp/evodict-0.1.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - processPackages [EvoDict]: Remove: archive file [/home/abi/fetcher/tmp/evodict-0.2.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - main [MainThread]: End processing [EvoDict]: success
+[2024-04-24 11:55:18] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.8.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.9.tar.gz]
+[2024-04-24 11:55:18] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2024-04-24 11:55:18] INFO root fetch - main [MainThread]: Store serial: [22910074]
