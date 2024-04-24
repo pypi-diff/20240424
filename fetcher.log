@@ -19678,3 +19678,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:55:00] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.9.tar.gz]
 [2024-04-24 12:55:00] INFO root fetch - main [MainThread]: End processing [satip]: success
 [2024-04-24 12:55:00] INFO root fetch - main [MainThread]: Store serial: [22910827]
+[2024-04-24 12:57:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910827]
+[2024-04-24 12:57:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 12:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: werk24
+[2024-04-24 12:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pimsclient
+[2024-04-24 12:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rooms-shared-services
+[2024-04-24 12:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KloockyDE
+[2024-04-24 12:57:19] INFO root fetch - processPackages [KloockyDE]: New version: [2.9] Old Version: [2.8]
+[2024-04-24 12:57:19] INFO root fetch - processPackages [pimsclient]: New version: [2.0.0] Old Version: [0.7.0]
+[2024-04-24 12:57:19] INFO root fetch - processPackages [werk24]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-24 12:57:19] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-24 12:57:19] INFO root fetch - processPackages [pimsclient]: Downloading https://files.pythonhosted.org/packages/53/30/f59ce4fce35deb818dee6f985820640dfd765d899c8dffcaeadc06281b80/pimsclient-0.7.0.tar.gz
+[2024-04-24 12:57:19] INFO root fetch - processPackages [werk24]: Downloading https://files.pythonhosted.org/packages/d3/13/7071f3ddadcaea9f7fb1135af323a4edea6039ad8e3d66640b311aa68558/werk24-1.8.3.tar.gz
+[2024-04-24 12:57:19] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-24 12:57:19] INFO root fetch - processPackages [KloockyDE]: Downloading https://files.pythonhosted.org/packages/97/5a/ea9f6f58dc87ace7ea4badb6184711a7b65e128fd9c270cab2d31594ab3b/KloockyDE-2.8.tar.gz
+[2024-04-24 12:57:19] INFO root fetch - processPackages [pimsclient]: Downloading https://files.pythonhosted.org/packages/43/b5/5ec545b8722216b0397f0d11e6642c851fd0260f53f244206dcaf81b73f3/pimsclient-2.0.0.tar.gz
+[2024-04-24 12:57:19] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-24 12:57:19] INFO root fetch - processPackages [KloockyDE]: Downloading https://files.pythonhosted.org/packages/ad/bb/73decd3064dcff2dd1f2df42e32a109c154807f8f9412ac363a98dcc2d09/KloockyDE-2.9.tar.gz
+[2024-04-24 12:57:19] INFO root fetch - processPackages [werk24]: Downloading https://files.pythonhosted.org/packages/58/26/148daf3b1abf625db9db634dc22813074fa5d595bbdc23e00874ea332d21/werk24-1.9.0.tar.gz
+[2024-04-24 12:57:19] INFO root fetch - processPackages [pimsclient]: executing diffoscope
+[2024-04-24 12:57:19] INFO root fetch - processPackages [pimsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pimsclient-0.7.0.tar.gz tmp/pimsclient-2.0.0.tar.gz --markdown 20240424/p/pimsclient/0.7.0-2.0.0/README.md --exclude *.pyd
+[2024-04-24 12:57:19] INFO root fetch - processPackages [KloockyDE]: executing diffoscope
+[2024-04-24 12:57:19] INFO root fetch - processPackages [KloockyDE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KloockyDE-2.8.tar.gz tmp/KloockyDE-2.9.tar.gz --markdown 20240424/K/KloockyDE/2.8-2.9/README.md --exclude *.pyd
+[2024-04-24 12:57:20] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-24 12:57:20] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240424/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-24 12:57:20] INFO root fetch - processPackages [werk24]: executing diffoscope
+[2024-04-24 12:57:20] INFO root fetch - processPackages [werk24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werk24-1.8.3.tar.gz tmp/werk24-1.9.0.tar.gz --markdown 20240424/w/werk24/1.8.3-1.9.0/README.md --exclude *.pyd
+[2024-04-24 12:57:20] INFO root fetch - processPackages [pimsclient]: Remove: archive file [/home/abi/fetcher/tmp/pimsclient-0.7.0.tar.gz]
+[2024-04-24 12:57:20] INFO root fetch - processPackages [pimsclient]: Remove: archive file [/home/abi/fetcher/tmp/pimsclient-2.0.0.tar.gz]
+[2024-04-24 12:57:20] INFO root fetch - main [MainThread]: End processing [pimsclient]: success
+[2024-04-24 12:57:20] INFO root fetch - processPackages [KloockyDE]: Remove: archive file [/home/abi/fetcher/tmp/KloockyDE-2.8.tar.gz]
+[2024-04-24 12:57:20] INFO root fetch - processPackages [KloockyDE]: Remove: archive file [/home/abi/fetcher/tmp/KloockyDE-2.9.tar.gz]
+[2024-04-24 12:57:20] INFO root fetch - main [MainThread]: End processing [KloockyDE]: success
+[2024-04-24 12:57:20] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-24 12:57:20] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-24 12:57:20] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-24 12:57:21] INFO root fetch - processPackages [werk24]: Remove: archive file [/home/abi/fetcher/tmp/werk24-1.8.3.tar.gz]
+[2024-04-24 12:57:21] INFO root fetch - processPackages [werk24]: Remove: archive file [/home/abi/fetcher/tmp/werk24-1.9.0.tar.gz]
+[2024-04-24 12:57:21] INFO root fetch - main [MainThread]: End processing [werk24]: success
+[2024-04-24 12:57:21] INFO root fetch - main [MainThread]: Store serial: [22910838]
