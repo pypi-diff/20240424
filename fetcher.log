@@ -17526,3 +17526,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:46:33] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.6.3.tar.gz]
 [2024-04-24 11:46:33] INFO root fetch - main [MainThread]: End processing [credsweeper]: success
 [2024-04-24 11:46:33] INFO root fetch - main [MainThread]: Store serial: [22909975]
+[2024-04-24 11:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909975]
+[2024-04-24 11:48:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 11:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Project-DataPrepKit
+[2024-04-24 11:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-helpwithpic
+[2024-04-24 11:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-cnab-structure
+[2024-04-24 11:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TitanDevice
+[2024-04-24 11:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-radiance
+[2024-04-24 11:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chamco-ragbot
+[2024-04-24 11:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miniscons
+[2024-04-24 11:48:42] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 11:48:42] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 11:48:42] INFO root fetch - processPackages [Project-DataPrepKit]: New version: [0.4] Old Version: [0.3]
+[2024-04-24 11:48:42] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-24 11:48:42] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/28/24/217618cc94e5d20215b780cc06e8b8ea901198fa7e2ab0f9ae59576698af/chamco_ragbot-0.1.8.tar.gz
+[2024-04-24 11:48:42] INFO root fetch - processPackages [miniscons]: New version: [0.6.0] Old Version: [0.10.1]
+[2024-04-24 11:48:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev2]
+[2024-04-24 11:48:42] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: New version: [1.5.1] Old Version: [1.5]
+[2024-04-24 11:48:42] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/18/f1/7c04fd26ef02ba29ec1a1949d1160151f0b85868ae9829c8385050763cec/TitanDevice-0.2.8.tar.gz
+[2024-04-24 11:48:42] INFO root fetch - processPackages [Project-DataPrepKit]: Downloading https://files.pythonhosted.org/packages/a4/3e/a9cd1cd449f059c6cf63439ef66359cb3e74a47fb97bd657f792f0f2d98a/Project_DataPrepKit-0.3.tar.gz
+[2024-04-24 11:48:42] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2024-04-24 11:48:43] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/b8/da/e6540a84f3e33c63244dbeb611ecf0c5c4cf23402f276e05d4b680f77b4b/miniscons-0.10.1.tar.gz
+[2024-04-24 11:48:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: Downloading https://files.pythonhosted.org/packages/87/d9/17c5a8c9b0d3d9622fd8537c0b9e6e03c0177aae134d18e6a7fcf32008a9/odoo14_addon_l10n_br_cnab_structure-14.0.1.1.1.dev2-py3-none-any.whl
+[2024-04-24 11:48:43] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/6d/2f/b0cfb668429f9c2cc9bbd78a2a429261023e9941169dc50b7905e48db0ac/chamco_ragbot-0.1.9.tar.gz
+[2024-04-24 11:48:43] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: Downloading https://files.pythonhosted.org/packages/2a/f9/00fa5400dd0572ce926d30c19decfad753906536ee54a2a1997641e586db/nonebot_plugin_helpwithpic-1.5.tar.gz
+[2024-04-24 11:48:43] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2024-04-24 11:48:43] INFO root fetch - processPackages [Project-DataPrepKit]: Downloading https://files.pythonhosted.org/packages/43/e0/6dffcdcc97a17be31644819bdbe9712362b677bb6026418baeefd9227863/Project_DataPrepKit-0.4.tar.gz
+[2024-04-24 11:48:43] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/f2/62/339e37c07eacb94950111b2647ce13b813920fa696ab51966e4ef0eb7c3d/TitanDevice-0.2.9.tar.gz
+[2024-04-24 11:48:43] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-24 11:48:43] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.8.tar.gz tmp/chamco_ragbot-0.1.9.tar.gz --markdown 20240424/c/chamco-ragbot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 11:48:43] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 11:48:43] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.8.tar.gz tmp/TitanDevice-0.2.9.tar.gz --markdown 20240424/T/TitanDevice/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 11:48:43] INFO root fetch - processPackages [Project-DataPrepKit]: executing diffoscope
+[2024-04-24 11:48:43] INFO root fetch - processPackages [Project-DataPrepKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Project_DataPrepKit-0.3.tar.gz tmp/Project_DataPrepKit-0.4.tar.gz --markdown 20240424/P/Project-DataPrepKit/0.3-0.4/README.md --exclude *.pyd
+[2024-04-24 11:48:43] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2024-04-24 11:48:43] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20240424/h/honeybee-radiance/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-24 11:48:43] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/a1/6b/da2cfaef6508c9d0b513222a3d44aaf11df90315b816467b8932d61777ac/miniscons-0.6.0.tar.gz
+[2024-04-24 11:48:43] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: Downloading https://files.pythonhosted.org/packages/43/31/490a80a1eb1d209a681b903ab727910ed16a63b2f151d272631e86aeb970/nonebot_plugin_helpwithpic-1.5.1.tar.gz
+[2024-04-24 11:48:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: Downloading https://files.pythonhosted.org/packages/0f/51/0cafe9f58c224f2b5e95cd6c80b77b0898b115653188a1e135096f9938e8/odoo14_addon_l10n_br_cnab_structure-14.0.1.2.0-py3-none-any.whl
+[2024-04-24 11:48:43] INFO root fetch - processPackages [miniscons]: executing diffoscope
+[2024-04-24 11:48:43] INFO root fetch - processPackages [miniscons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscons-0.10.1.tar.gz tmp/miniscons-0.6.0.tar.gz --markdown 20240424/m/miniscons/0.10.1-0.6.0/README.md --exclude *.pyd
+[2024-04-24 11:48:43] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: executing diffoscope
+[2024-04-24 11:48:43] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_helpwithpic-1.5.tar.gz tmp/nonebot_plugin_helpwithpic-1.5.1.tar.gz --markdown 20240424/n/nonebot-plugin-helpwithpic/1.5-1.5.1/README.md --exclude *.pyd
+[2024-04-24 11:48:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: executing diffoscope
+[2024-04-24 11:48:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_cnab_structure-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_cnab_structure-14.0.1.2.0-py3-none-any.whl.zip --markdown 20240424/o/odoo14-addon-l10n-br-cnab-structure/14.0.1.1.1.dev2-14.0.1.2.0/README.md --exclude *.pyd
+[2024-04-24 11:48:43] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.8.tar.gz]
+[2024-04-24 11:48:43] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.9.tar.gz]
+[2024-04-24 11:48:43] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-24 11:48:44] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.8.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.9.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 11:48:44] INFO root fetch - processPackages [Project-DataPrepKit]: Remove: archive file [/home/abi/fetcher/tmp/Project_DataPrepKit-0.3.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - processPackages [Project-DataPrepKit]: Remove: archive file [/home/abi/fetcher/tmp/Project_DataPrepKit-0.4.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - main [MainThread]: End processing [Project-DataPrepKit]: success
+[2024-04-24 11:48:44] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.10.1.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.6.0.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - main [MainThread]: End processing [miniscons]: success
+[2024-04-24 11:48:44] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_helpwithpic-1.5.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - processPackages [nonebot-plugin-helpwithpic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_helpwithpic-1.5.1.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-helpwithpic]: success
+[2024-04-24 11:48:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnab_structure-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2024-04-24 11:48:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnab_structure-14.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-24 11:48:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-cnab-structure]: success
+[2024-04-24 11:48:44] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2024-04-24 11:48:44] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2024-04-24 11:48:44] INFO root fetch - main [MainThread]: Store serial: [22909995]
