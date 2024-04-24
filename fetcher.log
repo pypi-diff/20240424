@@ -19636,3 +19636,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:52:41] INFO root fetch - processPackages [SEVtras]: Remove: archive file [/home/abi/fetcher/tmp/SEVtras-0.2.9-py3-none-any.whl.zip]
 [2024-04-24 12:52:41] INFO root fetch - main [MainThread]: End processing [SEVtras]: success
 [2024-04-24 12:52:41] INFO root fetch - main [MainThread]: Store serial: [22910810]
+[2024-04-24 12:54:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910810]
+[2024-04-24 12:54:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 12:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaycopilot_client
+[2024-04-24 12:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: satip
+[2024-04-24 12:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plico-interferometer
+[2024-04-24 12:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GameserverLister
+[2024-04-24 12:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djau-gsuite-email
+[2024-04-24 12:54:59] INFO root fetch - processPackages [GameserverLister]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-24 12:54:59] WARNING root fetch - processPackages [jaycopilot_client]: Skipping, unable to determine old version
+[2024-04-24 12:54:59] INFO root fetch - main [MainThread]: End processing [jaycopilot_client] error
+[2024-04-24 12:54:59] INFO root fetch - processPackages [djau-gsuite-email]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-24 12:54:59] INFO root fetch - processPackages [plico-interferometer]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 12:54:59] INFO root fetch - processPackages [GameserverLister]: Downloading https://files.pythonhosted.org/packages/7d/ea/f2e18e4ca4539a125a8c06fce720614a82970b47d58352fce941ed088908/GameserverLister-1.1.0.tar.gz
+[2024-04-24 12:54:59] INFO root fetch - processPackages [satip]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-24 12:54:59] INFO root fetch - processPackages [djau-gsuite-email]: Downloading https://files.pythonhosted.org/packages/e0/a2/9a68cd8de63170d9d1427e9dfe3a89d6fd1178254a2fa6b4b93b4229c4bc/djau_gsuite_email-0.1.4.tar.gz
+[2024-04-24 12:54:59] INFO root fetch - processPackages [plico-interferometer]: Downloading https://files.pythonhosted.org/packages/e9/27/dd780b648705248bbbcbd40baebb24c72de93db11862bcd3400ddec7dccd/plico_interferometer-0.1.0.tar.gz
+[2024-04-24 12:54:59] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/c3/e8/b3c5caf4db2b47fab258763e006a81315f49cf587e12e65aa7025968b03f/satip-2.9.8.tar.gz
+[2024-04-24 12:54:59] INFO root fetch - processPackages [GameserverLister]: Downloading https://files.pythonhosted.org/packages/bd/25/b9ed714dea61e7f658ee5b023d0b92fb00681921abbbb79f7b94dbdcefdd/gameserverlister-1.1.1.tar.gz
+[2024-04-24 12:54:59] INFO root fetch - processPackages [GameserverLister]: executing diffoscope
+[2024-04-24 12:54:59] INFO root fetch - processPackages [GameserverLister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GameserverLister-1.1.0.tar.gz tmp/gameserverlister-1.1.1.tar.gz --markdown 20240424/G/GameserverLister/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-24 12:54:59] INFO root fetch - processPackages [plico-interferometer]: Downloading https://files.pythonhosted.org/packages/4f/bc/aa3519086fc9d6288df27bd31a2223182f109b3a5db17d7929f19929ac67/plico_interferometer-0.1.1.tar.gz
+[2024-04-24 12:54:59] INFO root fetch - processPackages [djau-gsuite-email]: Downloading https://files.pythonhosted.org/packages/47/d9/540139d93c93145eebd3b166091a6c127be26fc71847baf82677cb401b4a/djau_gsuite_email-0.1.5.tar.gz
+[2024-04-24 12:54:59] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/06/5b/8bd6eec7428e98b330d6546e21261944d9361dcedd4e96b25bee4a5ee145/satip-2.9.9.tar.gz
+[2024-04-24 12:54:59] INFO root fetch - processPackages [plico-interferometer]: executing diffoscope
+[2024-04-24 12:54:59] INFO root fetch - processPackages [plico-interferometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plico_interferometer-0.1.0.tar.gz tmp/plico_interferometer-0.1.1.tar.gz --markdown 20240424/p/plico-interferometer/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 12:55:00] INFO root fetch - processPackages [djau-gsuite-email]: executing diffoscope
+[2024-04-24 12:55:00] INFO root fetch - processPackages [djau-gsuite-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djau_gsuite_email-0.1.4.tar.gz tmp/djau_gsuite_email-0.1.5.tar.gz --markdown 20240424/d/djau-gsuite-email/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-24 12:55:00] INFO root fetch - processPackages [satip]: executing diffoscope
+[2024-04-24 12:55:00] INFO root fetch - processPackages [satip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satip-2.9.8.tar.gz tmp/satip-2.9.9.tar.gz --markdown 20240424/s/satip/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-24 12:55:00] INFO root fetch - processPackages [GameserverLister]: Remove: archive file [/home/abi/fetcher/tmp/GameserverLister-1.1.0.tar.gz]
+[2024-04-24 12:55:00] INFO root fetch - processPackages [GameserverLister]: Remove: archive file [/home/abi/fetcher/tmp/gameserverlister-1.1.1.tar.gz]
+[2024-04-24 12:55:00] INFO root fetch - main [MainThread]: End processing [GameserverLister]: success
+[2024-04-24 12:55:00] INFO root fetch - processPackages [plico-interferometer]: Remove: archive file [/home/abi/fetcher/tmp/plico_interferometer-0.1.0.tar.gz]
+[2024-04-24 12:55:00] INFO root fetch - processPackages [plico-interferometer]: Remove: archive file [/home/abi/fetcher/tmp/plico_interferometer-0.1.1.tar.gz]
+[2024-04-24 12:55:00] INFO root fetch - main [MainThread]: End processing [plico-interferometer]: success
+[2024-04-24 12:55:00] INFO root fetch - processPackages [djau-gsuite-email]: Remove: archive file [/home/abi/fetcher/tmp/djau_gsuite_email-0.1.4.tar.gz]
+[2024-04-24 12:55:00] INFO root fetch - processPackages [djau-gsuite-email]: Remove: archive file [/home/abi/fetcher/tmp/djau_gsuite_email-0.1.5.tar.gz]
+[2024-04-24 12:55:00] INFO root fetch - main [MainThread]: End processing [djau-gsuite-email]: success
+[2024-04-24 12:55:00] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.8.tar.gz]
+[2024-04-24 12:55:00] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.9.tar.gz]
+[2024-04-24 12:55:00] INFO root fetch - main [MainThread]: End processing [satip]: success
+[2024-04-24 12:55:00] INFO root fetch - main [MainThread]: Store serial: [22910827]
