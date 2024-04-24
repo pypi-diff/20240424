@@ -23800,3 +23800,114 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 15:15:22] INFO root fetch - processPackages [qbindiff]: Remove: archive file [/home/abi/fetcher/tmp/qbindiff-1.2.1.tar.gz]
 [2024-04-24 15:15:22] INFO root fetch - main [MainThread]: End processing [qbindiff]: success
 [2024-04-24 15:15:22] INFO root fetch - main [MainThread]: Store serial: [22912552]
+[2024-04-24 15:17:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912552]
+[2024-04-24 15:17:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: managedtenants-cli
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azol
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dj_sinp_organisms
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pennylane-snowflurry
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antigrav
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-gemini-api
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funcnodes-opencv
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-neat
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dplib-py
+[2024-04-24 15:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-04-24 15:17:48] INFO root fetch - processPackages [funcnodes-opencv]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [antigrav]: New version: [1.1.1] Old Version: [1.1]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [dj_sinp_organisms]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [azol]: New version: [0.2.3b1] Old Version: [0.2.2b1]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [managedtenants-cli]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [funcnodes-opencv]: Downloading https://files.pythonhosted.org/packages/da/45/d67a8dbb99ccb23ad45ef78bf37406be1f3927d347df6fc0eec486d7e165/funcnodes_opencv-0.1.1.tar.gz
+[2024-04-24 15:17:48] INFO root fetch - processPackages [python-gemini-api]: New version: [2.4.6] Old Version: [2.4.5]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [dplib-py]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [antigrav]: Downloading https://files.pythonhosted.org/packages/4e/08/55da469cd7a837bdf60d03011506b7029bd9273a46d57b09e260dfd9a8d2/antigrav-1.1.tar.gz
+[2024-04-24 15:17:48] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.4.24] Old Version: [2024.4.23]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [pennylane-snowflurry]: New version: [0.2.0] Old Version: [0.1.0.post1]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [cognite-neat]: New version: [0.75.5] Old Version: [0.75.4]
+[2024-04-24 15:17:48] INFO root fetch - processPackages [dj_sinp_organisms]: Downloading https://files.pythonhosted.org/packages/c3/73/9c9d752192f6dc38a7463aab5c8e10ca47e823614ebf8813190d818736eb/dj_sinp_organisms-1.3.0.tar.gz
+[2024-04-24 15:17:48] INFO root fetch - processPackages [azol]: Downloading https://files.pythonhosted.org/packages/82/bf/80cb65fbd46a14f328cddbccaebb73408ef7f563234d078bc17dfff377c6/azol-0.2.2b1.tar.gz
+[2024-04-24 15:17:48] INFO root fetch - processPackages [managedtenants-cli]: Downloading https://files.pythonhosted.org/packages/39/b7/356ec51e479aaf8176f8128af98feb4cf21b31a039a2109612d473bf5730/managedtenants_cli-1.8.3-py3-none-any.whl
+[2024-04-24 15:17:48] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/8d/f6/7cb6820d0e1caa5c2c55c8fd46235201285e90390f864d02d8c828b40fa8/dplib_py-0.7.3.tar.gz
+[2024-04-24 15:17:48] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/26/26/61be6d67548fd8f216ee2ddc8833ed4f7faefaaeb427761e34979538d8dc/python_gemini_api-2.4.5.tar.gz
+[2024-04-24 15:17:48] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/84/ef/90fd582ce973556e0c5d928a8f3c2d037ece104a6c7dffa581c9d224eb68/cognite_neat-0.75.4.tar.gz
+[2024-04-24 15:17:48] INFO root fetch - processPackages [pennylane-snowflurry]: Downloading https://files.pythonhosted.org/packages/f9/9c/bb4471f7126034f3d2fc16d6c17829d8db5b793539ae112068125545e023/pennylane-snowflurry-0.1.0.post1.tar.gz
+[2024-04-24 15:17:48] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/9e/4a/4e9803ffe311a0ac3a37753f1822a95b8ab3eec8c5e4b4f98992a66d8be4/fbgemm_gpu_nightly_cpu-2024.4.23-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-24 15:17:48] INFO root fetch - processPackages [antigrav]: Downloading https://files.pythonhosted.org/packages/d1/71/a1ea10ae714e02a91a94d64007c0671df5a724808127f84da62ea3017e2a/antigrav-1.1.1.tar.gz
+[2024-04-24 15:17:48] INFO root fetch - processPackages [funcnodes-opencv]: Downloading https://files.pythonhosted.org/packages/74/11/f547289483350dc99dd6a2f2233cc73876ddff5a80a6af217fa57572b1a3/funcnodes_opencv-0.1.2.tar.gz
+[2024-04-24 15:17:49] INFO root fetch - processPackages [antigrav]: executing diffoscope
+[2024-04-24 15:17:49] INFO root fetch - processPackages [antigrav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antigrav-1.1.tar.gz tmp/antigrav-1.1.1.tar.gz --markdown 20240424/a/antigrav/1.1-1.1.1/README.md --exclude *.pyd
+[2024-04-24 15:17:49] INFO root fetch - processPackages [funcnodes-opencv]: executing diffoscope
+[2024-04-24 15:17:49] INFO root fetch - processPackages [funcnodes-opencv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_opencv-0.1.1.tar.gz tmp/funcnodes_opencv-0.1.2.tar.gz --markdown 20240424/f/funcnodes-opencv/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 15:17:49] INFO root fetch - processPackages [azol]: Downloading https://files.pythonhosted.org/packages/02/f5/372f3a9ef9c7e7f94bb97efe98d5ef7cde1fb6a5e61cd78eb24c2fc4eb89/azol-0.2.3b1.tar.gz
+[2024-04-24 15:17:49] INFO root fetch - processPackages [dj_sinp_organisms]: Downloading https://files.pythonhosted.org/packages/2d/26/2c3aee5a08cfd498e8d5b50e71c4ab5c106113b4bbf9b6ba77e7bacbd72c/dj_sinp_organisms-1.3.1.tar.gz
+[2024-04-24 15:17:49] INFO root fetch - processPackages [pennylane-snowflurry]: Downloading https://files.pythonhosted.org/packages/83/f5/196c62afaa987a9b38adff995ea7b061e9f7dd0acc442e254f404444ad3d/pennylane_snowflurry-0.2.0.tar.gz
+[2024-04-24 15:17:49] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/17/51/f55750a12748bbbc772eb0ef9d6fe51852e4126ea8a3b57e2ba89c29cade/dplib_py-0.7.4.tar.gz
+[2024-04-24 15:17:49] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/e7/d7/b3be9ca7aca2283e46a98d205c16e7c9b290a2a3806919b83acd2433bd28/python_gemini_api-2.4.6.tar.gz
+[2024-04-24 15:17:49] INFO root fetch - processPackages [managedtenants-cli]: Downloading https://files.pythonhosted.org/packages/ce/54/b1f5f0ed4231802571740849976b7e34b1f8e33895238e0c4c80f6358e36/managedtenants_cli-1.9.0-py3-none-any.whl
+[2024-04-24 15:17:49] INFO root fetch - processPackages [azol]: executing diffoscope
+[2024-04-24 15:17:49] INFO root fetch - processPackages [azol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azol-0.2.2b1.tar.gz tmp/azol-0.2.3b1.tar.gz --markdown 20240424/a/azol/0.2.2b1-0.2.3b1/README.md --exclude *.pyd
+[2024-04-24 15:17:49] INFO root fetch - processPackages [pennylane-snowflurry]: executing diffoscope
+[2024-04-24 15:17:49] INFO root fetch - processPackages [pennylane-snowflurry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-snowflurry-0.1.0.post1.tar.gz tmp/pennylane_snowflurry-0.2.0.tar.gz --markdown 20240424/p/pennylane-snowflurry/0.1.0.post1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 15:17:49] INFO root fetch - processPackages [managedtenants-cli]: executing diffoscope
+[2024-04-24 15:17:49] INFO root fetch - processPackages [managedtenants-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/managedtenants_cli-1.8.3-py3-none-any.whl.zip tmp/managedtenants_cli-1.9.0-py3-none-any.whl.zip --markdown 20240424/m/managedtenants-cli/1.8.3-1.9.0/README.md --exclude *.pyd
+[2024-04-24 15:17:49] INFO root fetch - processPackages [python-gemini-api]: executing diffoscope
+[2024-04-24 15:17:49] INFO root fetch - processPackages [python-gemini-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gemini_api-2.4.5.tar.gz tmp/python_gemini_api-2.4.6.tar.gz --markdown 20240424/p/python-gemini-api/2.4.5-2.4.6/README.md --exclude *.pyd
+[2024-04-24 15:17:49] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/e3/19/9f3d99e6cb1b471cd5fc7cbeb1061c42d5aa126d8382bd4df6b9c384d898/cognite_neat-0.75.5.tar.gz
+[2024-04-24 15:17:49] INFO root fetch - processPackages [dplib-py]: executing diffoscope
+[2024-04-24 15:17:49] INFO root fetch - processPackages [dplib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dplib_py-0.7.3.tar.gz tmp/dplib_py-0.7.4.tar.gz --markdown 20240424/d/dplib-py/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-24 15:17:49] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/71/80/cb1ce1b0ec851c976747768778738383ad9d073c6749219aa8edcc873004/fbgemm_gpu_nightly_cpu-2024.4.24-cp38-cp38-manylinux2014_x86_64.whl
+[2024-04-24 15:17:49] INFO root fetch - processPackages [dj_sinp_organisms]: executing diffoscope
+[2024-04-24 15:17:49] INFO root fetch - processPackages [dj_sinp_organisms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_sinp_organisms-1.3.0.tar.gz tmp/dj_sinp_organisms-1.3.1.tar.gz --markdown 20240424/d/dj_sinp_organisms/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-24 15:17:49] INFO root fetch - processPackages [funcnodes-opencv]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_opencv-0.1.1.tar.gz]
+[2024-04-24 15:17:49] INFO root fetch - processPackages [funcnodes-opencv]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_opencv-0.1.2.tar.gz]
+[2024-04-24 15:17:49] INFO root fetch - processPackages [funcnodes-opencv]: Start processing: bgutils-hddly
+[2024-04-24 15:17:49] INFO root fetch - main [MainThread]: End processing [funcnodes-opencv]: success
+[2024-04-24 15:17:49] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-24 15:17:49] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.75.4.tar.gz tmp/cognite_neat-0.75.5.tar.gz --markdown 20240424/c/cognite-neat/0.75.4-0.75.5/README.md --exclude *.pyd
+[2024-04-24 15:17:49] INFO root fetch - processPackages [antigrav]: Remove: archive file [/home/abi/fetcher/tmp/antigrav-1.1.tar.gz]
+[2024-04-24 15:17:49] INFO root fetch - processPackages [antigrav]: Remove: archive file [/home/abi/fetcher/tmp/antigrav-1.1.1.tar.gz]
+[2024-04-24 15:17:49] INFO root fetch - processPackages [antigrav]: Start processing: python-binexport
+[2024-04-24 15:17:49] INFO root fetch - main [MainThread]: End processing [antigrav]: success
+[2024-04-24 15:17:50] INFO root fetch - processPackages [python-binexport]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-24 15:17:50] INFO root fetch - processPackages [bgutils-hddly]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-24 15:17:50] INFO root fetch - processPackages [python-binexport]: Downloading https://files.pythonhosted.org/packages/6d/bd/ab30d5b905fdb9d34c5180089711c13526bf345bbf0995522f8805a218a3/python-binexport-0.3.1.tar.gz
+[2024-04-24 15:17:50] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/07/22/a69a45ea0621e457373043238ae8172d597dde38054d258752459d22fd6a/bgutils_hddly-1.1.8-py3-none-any.whl
+[2024-04-24 15:17:50] INFO root fetch - processPackages [python-binexport]: Downloading https://files.pythonhosted.org/packages/3d/1d/cf94880b6c06433cdf7a1dc03327b69f83dad870c5730889d7e172e67340/python_binexport-0.3.2.tar.gz
+[2024-04-24 15:17:50] INFO root fetch - processPackages [pennylane-snowflurry]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-snowflurry-0.1.0.post1.tar.gz]
+[2024-04-24 15:17:50] INFO root fetch - processPackages [pennylane-snowflurry]: Remove: archive file [/home/abi/fetcher/tmp/pennylane_snowflurry-0.2.0.tar.gz]
+[2024-04-24 15:17:50] INFO root fetch - main [MainThread]: End processing [pennylane-snowflurry]: success
+[2024-04-24 15:17:50] INFO root fetch - processPackages [azol]: Remove: archive file [/home/abi/fetcher/tmp/azol-0.2.2b1.tar.gz]
+[2024-04-24 15:17:50] INFO root fetch - processPackages [azol]: Remove: archive file [/home/abi/fetcher/tmp/azol-0.2.3b1.tar.gz]
+[2024-04-24 15:17:50] INFO root fetch - main [MainThread]: End processing [azol]: success
+[2024-04-24 15:17:50] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-04-24 15:17:50] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.4.23-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.4.24-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20240424/f/fbgemm-gpu-nightly-cpu/2024.4.23-2024.4.24/README.md --exclude *.pyd
+[2024-04-24 15:17:50] INFO root fetch - processPackages [python-binexport]: executing diffoscope
+[2024-04-24 15:17:50] INFO root fetch - processPackages [python-binexport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-binexport-0.3.1.tar.gz tmp/python_binexport-0.3.2.tar.gz --markdown 20240424/p/python-binexport/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-24 15:17:50] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.5.tar.gz]
+[2024-04-24 15:17:50] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.6.tar.gz]
+[2024-04-24 15:17:50] INFO root fetch - main [MainThread]: End processing [python-gemini-api]: success
+[2024-04-24 15:17:50] INFO root fetch - processPackages [managedtenants-cli]: Remove: archive file [/home/abi/fetcher/tmp/managedtenants_cli-1.8.3-py3-none-any.whl.zip]
+[2024-04-24 15:17:50] INFO root fetch - processPackages [managedtenants-cli]: Remove: archive file [/home/abi/fetcher/tmp/managedtenants_cli-1.9.0-py3-none-any.whl.zip]
+[2024-04-24 15:17:50] INFO root fetch - main [MainThread]: End processing [managedtenants-cli]: success
+[2024-04-24 15:17:50] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/68/b8/73eaefe5a7f9214b0aa5443f4083f56d3a6492768411b1a003302b66bf45/bgutils_hddly-1.1.9.tar.gz
+[2024-04-24 15:17:50] INFO root fetch - processPackages [bgutils-hddly]: executing diffoscope
+[2024-04-24 15:17:50] INFO root fetch - processPackages [bgutils-hddly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip tmp/bgutils_hddly-1.1.9.tar.gz --markdown 20240424/b/bgutils-hddly/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-24 15:17:51] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.3.tar.gz]
+[2024-04-24 15:17:51] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.4.tar.gz]
+[2024-04-24 15:17:51] INFO root fetch - main [MainThread]: End processing [dplib-py]: success
+[2024-04-24 15:17:51] INFO root fetch - processPackages [python-binexport]: Remove: archive file [/home/abi/fetcher/tmp/python-binexport-0.3.1.tar.gz]
+[2024-04-24 15:17:51] INFO root fetch - processPackages [python-binexport]: Remove: archive file [/home/abi/fetcher/tmp/python_binexport-0.3.2.tar.gz]
+[2024-04-24 15:17:51] INFO root fetch - main [MainThread]: End processing [python-binexport]: success
+[2024-04-24 15:17:51] INFO root fetch - processPackages [dj_sinp_organisms]: Remove: archive file [/home/abi/fetcher/tmp/dj_sinp_organisms-1.3.0.tar.gz]
+[2024-04-24 15:17:51] INFO root fetch - processPackages [dj_sinp_organisms]: Remove: archive file [/home/abi/fetcher/tmp/dj_sinp_organisms-1.3.1.tar.gz]
+[2024-04-24 15:17:51] INFO root fetch - main [MainThread]: End processing [dj_sinp_organisms]: success
+[2024-04-24 15:17:51] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip]
+[2024-04-24 15:17:51] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.9.tar.gz]
+[2024-04-24 15:17:51] INFO root fetch - main [MainThread]: End processing [bgutils-hddly]: success
+[2024-04-24 15:17:54] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.4.tar.gz]
+[2024-04-24 15:17:54] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.5.tar.gz]
+[2024-04-24 15:17:54] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-24 15:18:32] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.23-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-24 15:18:32] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.24-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2024-04-24 15:18:32] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-04-24 15:18:32] INFO root fetch - main [MainThread]: Store serial: [22912590]
