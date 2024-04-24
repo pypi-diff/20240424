@@ -19552,3 +19552,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:47:59] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
 [2024-04-24 12:47:59] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2024-04-24 12:47:59] INFO root fetch - main [MainThread]: Store serial: [22910772]
+[2024-04-24 12:50:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910772]
+[2024-04-24 12:50:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 12:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bondzai.idetect40-interface
+[2024-04-24 12:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-assistant
+[2024-04-24 12:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri-developer
+[2024-04-24 12:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kungfupanda
+[2024-04-24 12:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pkscreener
+[2024-04-24 12:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inoopa_utils
+[2024-04-24 12:50:19] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-24 12:50:19] INFO root fetch - processPackages [kungfupanda]: New version: [0.24] Old Version: [0.23]
+[2024-04-24 12:50:19] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/6c/69/a9edbc1af2c4e0f83465045502e2cba7a2947ec12cf12be21f56781297b1/kungfupanda-0.23.tar.gz
+[2024-04-24 12:50:19] INFO root fetch - processPackages [fastapi-assistant]: New version: [0.1.26] Old Version: [0.1.25]
+[2024-04-24 12:50:19] WARNING root fetch - processPackages [bondzai.idetect40-interface]: Skipping, unable to determine old version
+[2024-04-24 12:50:19] INFO root fetch - main [MainThread]: End processing [bondzai.idetect40-interface] error
+[2024-04-24 12:50:19] WARNING root fetch - processPackages [swarmauri-developer]: Skipping, unable to determine old version
+[2024-04-24 12:50:19] INFO root fetch - main [MainThread]: End processing [swarmauri-developer] error
+[2024-04-24 12:50:19] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240424.290] Old Version: [0.44.20240423.289]
+[2024-04-24 12:50:19] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/00/21/3f6f576b4fb3f5cfe987b5da5fa9da74914e3f83305f606cd8d338a66d66/pkscreener-0.44.20240423.289.tar.gz
+[2024-04-24 12:50:19] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/7f/a4/f818bcc0af3f37bb5b96bf8eb949e4272b913b0b31f012e233849f530685/inoopa_utils-2.9.1.tar.gz
+[2024-04-24 12:50:19] INFO root fetch - processPackages [fastapi-assistant]: Downloading https://files.pythonhosted.org/packages/14/14/b5daac893965bb6c1df33a3b6405668c28a0c5f8c33dd5300f48eb1b02d2/fastapi_assistant-0.1.25.tar.gz
+[2024-04-24 12:50:19] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/0c/f4/071e18012449a2cb5d12a5eeadf087d28cb3316c102eef2c6d2879c67590/inoopa_utils-2.9.2.tar.gz
+[2024-04-24 12:50:19] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-24 12:50:19] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.1.tar.gz tmp/inoopa_utils-2.9.2.tar.gz --markdown 20240424/i/inoopa_utils/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-24 12:50:19] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/71/ca/6b5293cfa71be1f78f4596b19d8c8ebd11206796692a2bd11e090f9b5f12/pkscreener-0.44.20240424.290.tar.gz
+[2024-04-24 12:50:19] INFO root fetch - processPackages [fastapi-assistant]: Downloading https://files.pythonhosted.org/packages/67/2f/4d2b2fd0689162c98a08f850d8d9a93aaa87bb74881daec75b53743ff024/fastapi_assistant-0.1.26.tar.gz
+[2024-04-24 12:50:19] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/83/8d/a6ca47e0be8cbb9a0bf79963db9451923c1944036f11fbc6adda8b2b6c3b/kungfupanda-0.24.tar.gz
+[2024-04-24 12:50:19] INFO root fetch - processPackages [fastapi-assistant]: executing diffoscope
+[2024-04-24 12:50:19] INFO root fetch - processPackages [fastapi-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_assistant-0.1.25.tar.gz tmp/fastapi_assistant-0.1.26.tar.gz --markdown 20240424/f/fastapi-assistant/0.1.25-0.1.26/README.md --exclude *.pyd
+[2024-04-24 12:50:19] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-24 12:50:19] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240423.289.tar.gz tmp/pkscreener-0.44.20240424.290.tar.gz --markdown 20240424/p/pkscreener/0.44.20240423.289-0.44.20240424.290/README.md --exclude *.pyd
+[2024-04-24 12:50:20] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.1.tar.gz]
+[2024-04-24 12:50:20] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.2.tar.gz]
+[2024-04-24 12:50:20] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-24 12:50:20] INFO root fetch - processPackages [kungfupanda]: executing diffoscope
+[2024-04-24 12:50:20] INFO root fetch - processPackages [kungfupanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kungfupanda-0.23.tar.gz tmp/kungfupanda-0.24.tar.gz --markdown 20240424/k/kungfupanda/0.23-0.24/README.md --exclude *.pyd
+[2024-04-24 12:50:20] INFO root fetch - processPackages [fastapi-assistant]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_assistant-0.1.25.tar.gz]
+[2024-04-24 12:50:20] INFO root fetch - processPackages [fastapi-assistant]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_assistant-0.1.26.tar.gz]
+[2024-04-24 12:50:20] INFO root fetch - main [MainThread]: End processing [fastapi-assistant]: success
+[2024-04-24 12:50:20] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240423.289.tar.gz]
+[2024-04-24 12:50:20] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240424.290.tar.gz]
+[2024-04-24 12:50:20] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-24 12:50:20] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.23.tar.gz]
+[2024-04-24 12:50:20] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.24.tar.gz]
+[2024-04-24 12:50:20] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
+[2024-04-24 12:50:20] INFO root fetch - main [MainThread]: Store serial: [22910798]
