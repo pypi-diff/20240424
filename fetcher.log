@@ -15493,3 +15493,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:39:23] INFO root fetch - processPackages [akridata-dsp]: Remove: archive file [/home/abi/fetcher/tmp/akridata_dsp-2.14.0.dev0-66-py3-none-any.whl.zip]
 [2024-04-24 10:39:23] INFO root fetch - main [MainThread]: End processing [akridata-dsp]: success
 [2024-04-24 10:39:23] INFO root fetch - main [MainThread]: Store serial: [22909152]
+[2024-04-24 10:41:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909152]
+[2024-04-24 10:41:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 10:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-alice-bob-provider
+[2024-04-24 10:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kungfupanda
+[2024-04-24 10:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 10:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xdwlib
+[2024-04-24 10:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: label-convert
+[2024-04-24 10:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zonesmart-utils
+[2024-04-24 10:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: armis
+[2024-04-24 10:41:33] INFO root fetch - processPackages [armis]: New version: [1.0.18] Old Version: [1.0.17]
+[2024-04-24 10:41:33] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 10:41:33] INFO root fetch - processPackages [label-convert]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 10:41:33] INFO root fetch - processPackages [kungfupanda]: New version: [0.8] Old Version: [0.7]
+[2024-04-24 10:41:33] INFO root fetch - processPackages [zonesmart-utils]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-24 10:41:33] INFO root fetch - processPackages [xdwlib]: New version: [3.9.7] Old Version: [3.9.6]
+[2024-04-24 10:41:33] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 10:41:33] INFO root fetch - processPackages [qiskit-alice-bob-provider]: New version: [0.6.0] Old Version: [0.5.4]
+[2024-04-24 10:41:33] INFO root fetch - processPackages [label-convert]: Downloading https://files.pythonhosted.org/packages/8f/30/9fe6c95b0be78cddf897a3638e1f29e06a125db057da51381aa252d8fc83/label_convert-0.1.0-py3-none-any.whl
+[2024-04-24 10:41:33] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/11/fb/fd59ec0d032da628a6fcc52ced808c72f4d541f577922bdfc358c982aaec/kungfupanda-0.7.tar.gz
+[2024-04-24 10:41:33] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/66/4b/62902c12f70461ac6182c3dfa57fa03bbfb4a3bc91a67cb1f995f0d2c994/zonesmart-utils-0.6.0.tar.gz
+[2024-04-24 10:41:33] INFO root fetch - processPackages [armis]: Downloading https://files.pythonhosted.org/packages/c7/17/2b1af57833f3c472976a98787c5c9923cda079bbdb22cddda061561710a0/armis-1.0.17-py3-none-any.whl
+[2024-04-24 10:41:34] INFO root fetch - processPackages [xdwlib]: Downloading https://files.pythonhosted.org/packages/27/e6/94fa8ac617ccd23ee90a1e2099088cdfe26dff5b179041a125ed075ae902/xdwlib-3.9.6.zip
+[2024-04-24 10:41:34] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Downloading https://files.pythonhosted.org/packages/56/d6/74323d541e4904205e89ec705f29e5efae4f236553c3b8a3920f7f1999e7/qiskit_alice_bob_provider-0.5.4.tar.gz
+[2024-04-24 10:41:34] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/02/cb/b9219e37ade9ea6f620e1945533ff6c73489069eb538d791044b5f612eb4/kungfupanda-0.8.tar.gz
+[2024-04-24 10:41:34] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 10:41:34] INFO root fetch - processPackages [label-convert]: Downloading https://files.pythonhosted.org/packages/7e/72/612c2a4e0ceaf1662ac2633e19e0184a54f42085e9f80a7a9e6b26991691/label_convert-0.1.1-py3-none-any.whl
+[2024-04-24 10:41:34] INFO root fetch - processPackages [kungfupanda]: executing diffoscope
+[2024-04-24 10:41:34] INFO root fetch - processPackages [kungfupanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kungfupanda-0.7.tar.gz tmp/kungfupanda-0.8.tar.gz --markdown 20240424/k/kungfupanda/0.7-0.8/README.md --exclude *.pyd
+[2024-04-24 10:41:34] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 10:41:34] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 10:41:34] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/a9/70/36d2529fa49c559ba64043c91f2ad61081b5d2023ca9f96c18e6d1a6e030/zonesmart-utils-0.6.1.tar.gz
+[2024-04-24 10:41:34] INFO root fetch - processPackages [armis]: Downloading https://files.pythonhosted.org/packages/b0/7c/dc8495d41df43f1d5cf3254c5a0f57da4b33df855f4c79c7044c363410dc/armis-1.0.18.tar.gz
+[2024-04-24 10:41:34] INFO root fetch - processPackages [label-convert]: executing diffoscope
+[2024-04-24 10:41:34] INFO root fetch - processPackages [label-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label_convert-0.1.0-py3-none-any.whl.zip tmp/label_convert-0.1.1-py3-none-any.whl.zip --markdown 20240424/l/label-convert/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 10:41:34] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Downloading https://files.pythonhosted.org/packages/f1/c4/17e6e853bf1c5715df410b4bf558d2864b8a268ec8445824bcc486d62bd8/qiskit_alice_bob_provider-0.6.0.tar.gz
+[2024-04-24 10:41:34] INFO root fetch - processPackages [armis]: executing diffoscope
+[2024-04-24 10:41:34] INFO root fetch - processPackages [armis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armis-1.0.17-py3-none-any.whl.zip tmp/armis-1.0.18.tar.gz --markdown 20240424/a/armis/1.0.17-1.0.18/README.md --exclude *.pyd
+[2024-04-24 10:41:34] INFO root fetch - processPackages [zonesmart-utils]: executing diffoscope
+[2024-04-24 10:41:34] INFO root fetch - processPackages [zonesmart-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-0.6.0.tar.gz tmp/zonesmart-utils-0.6.1.tar.gz --markdown 20240424/z/zonesmart-utils/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-24 10:41:34] INFO root fetch - processPackages [qiskit-alice-bob-provider]: executing diffoscope
+[2024-04-24 10:41:34] INFO root fetch - processPackages [qiskit-alice-bob-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_alice_bob_provider-0.5.4.tar.gz tmp/qiskit_alice_bob_provider-0.6.0.tar.gz --markdown 20240424/q/qiskit-alice-bob-provider/0.5.4-0.6.0/README.md --exclude *.pyd
+[2024-04-24 10:41:34] INFO root fetch - processPackages [xdwlib]: Downloading https://files.pythonhosted.org/packages/3a/d8/32a43ee3e9e75d3ab12896a093a15e35b200faba0898ec7c75e93a65de40/xdwlib-3.9.7.zip
+[2024-04-24 10:41:34] INFO root fetch - processPackages [xdwlib]: executing diffoscope
+[2024-04-24 10:41:34] INFO root fetch - processPackages [xdwlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdwlib-3.9.6.zip tmp/xdwlib-3.9.7.zip --markdown 20240424/x/xdwlib/3.9.6-3.9.7/README.md --exclude *.pyd
+[2024-04-24 10:41:34] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.7.tar.gz]
+[2024-04-24 10:41:34] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.8.tar.gz]
+[2024-04-24 10:41:34] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
+[2024-04-24 10:41:35] INFO root fetch - processPackages [label-convert]: Remove: archive file [/home/abi/fetcher/tmp/label_convert-0.1.0-py3-none-any.whl.zip]
+[2024-04-24 10:41:35] INFO root fetch - processPackages [label-convert]: Remove: archive file [/home/abi/fetcher/tmp/label_convert-0.1.1-py3-none-any.whl.zip]
+[2024-04-24 10:41:35] INFO root fetch - main [MainThread]: End processing [label-convert]: success
+[2024-04-24 10:41:35] INFO root fetch - processPackages [armis]: Remove: archive file [/home/abi/fetcher/tmp/armis-1.0.17-py3-none-any.whl.zip]
+[2024-04-24 10:41:35] INFO root fetch - processPackages [armis]: Remove: archive file [/home/abi/fetcher/tmp/armis-1.0.18.tar.gz]
+[2024-04-24 10:41:35] INFO root fetch - main [MainThread]: End processing [armis]: success
+[2024-04-24 10:41:35] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 10:41:35] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 10:41:35] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 10:41:35] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_alice_bob_provider-0.5.4.tar.gz]
+[2024-04-24 10:41:35] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_alice_bob_provider-0.6.0.tar.gz]
+[2024-04-24 10:41:35] INFO root fetch - main [MainThread]: End processing [qiskit-alice-bob-provider]: success
+[2024-04-24 10:41:35] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.6.0.tar.gz]
+[2024-04-24 10:41:35] INFO root fetch - processPackages [zonesmart-utils]: Remove: archive file [/home/abi/fetcher/tmp/zonesmart-utils-0.6.1.tar.gz]
+[2024-04-24 10:41:35] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
+[2024-04-24 10:41:35] INFO root fetch - processPackages [xdwlib]: Remove: archive file [/home/abi/fetcher/tmp/xdwlib-3.9.6.zip]
+[2024-04-24 10:41:35] INFO root fetch - processPackages [xdwlib]: Remove: archive file [/home/abi/fetcher/tmp/xdwlib-3.9.7.zip]
+[2024-04-24 10:41:35] INFO root fetch - main [MainThread]: End processing [xdwlib]: success
+[2024-04-24 10:41:35] INFO root fetch - main [MainThread]: Store serial: [22909174]
