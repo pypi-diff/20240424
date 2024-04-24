@@ -8430,3 +8430,43 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:54:50] INFO root fetch - processPackages [timelink]: Remove: archive file [/home/abi/fetcher/tmp/timelink-1.1.5.tar.gz]
 [2024-04-24 04:54:50] INFO root fetch - main [MainThread]: End processing [timelink]: success
 [2024-04-24 04:54:50] INFO root fetch - main [MainThread]: Store serial: [22906140]
+[2024-04-24 04:56:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906140]
+[2024-04-24 04:56:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 04:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neuralnetlib
+[2024-04-24 04:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linalgebralib
+[2024-04-24 04:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuralnetlib
+[2024-04-24 04:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: historianstexttools
+[2024-04-24 04:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synthx
+[2024-04-24 04:56:58] INFO root fetch - processPackages [neuralnetlib]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-04-24 04:56:58] INFO root fetch - processPackages [synthx]: New version: [1.0.0] Old Version: [0.4.3]
+[2024-04-24 04:56:58] INFO root fetch - processPackages [neuralnetlib]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-04-24 04:56:58] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/37/8b/e7dbc1a49b2876c548b891d4c45d585877a48b3b8ca4cfaf3f812e24cafa/neuralnetlib-2.3.2.tar.gz
+[2024-04-24 04:56:58] INFO root fetch - processPackages [linalgebralib]: New version: [0.0.31] Old Version: [0.0.3]
+[2024-04-24 04:56:58] WARNING root fetch - processPackages [historianstexttools]: Skipping, unable to determine old version
+[2024-04-24 04:56:58] INFO root fetch - main [MainThread]: End processing [historianstexttools] error
+[2024-04-24 04:56:58] INFO root fetch - processPackages [synthx]: Downloading https://files.pythonhosted.org/packages/72/04/7971fc982cd052d78c2d5d8f62c912860b053f763d67c7db881663a1f0b6/synthx-0.4.3.tar.gz
+[2024-04-24 04:56:58] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/37/8b/e7dbc1a49b2876c548b891d4c45d585877a48b3b8ca4cfaf3f812e24cafa/neuralnetlib-2.3.2.tar.gz
+[2024-04-24 04:56:58] INFO root fetch - processPackages [linalgebralib]: Downloading https://files.pythonhosted.org/packages/95/af/c15f3e34d5bdd4dbe40a10585f057230b03b4d315af6eeec2cd698153c77/linalgebralib-0.0.3.tar.gz
+[2024-04-24 04:56:58] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/ed/7b/b5640e12823454356a5d3c3794b376b3e2a09f0ea76ecaf01d3080c7db38/neuralnetlib-2.3.3.tar.gz
+[2024-04-24 04:56:59] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/ed/7b/b5640e12823454356a5d3c3794b376b3e2a09f0ea76ecaf01d3080c7db38/neuralnetlib-2.3.3.tar.gz
+[2024-04-24 04:56:59] INFO root fetch - processPackages [neuralnetlib]: executing diffoscope
+[2024-04-24 04:56:59] INFO root fetch - processPackages [neuralnetlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralnetlib-2.3.2.tar.gz tmp/neuralnetlib-2.3.3.tar.gz --markdown 20240424/n/neuralnetlib/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-04-24 04:56:59] INFO root fetch - processPackages [synthx]: Downloading https://files.pythonhosted.org/packages/21/a0/db4abcaf662a3a7375aefcbcb97ed70c8f9c6df548f71e37e6d71bcde880/synthx-1.0.0.tar.gz
+[2024-04-24 04:56:59] INFO root fetch - processPackages [neuralnetlib]: executing diffoscope
+[2024-04-24 04:56:59] INFO root fetch - processPackages [neuralnetlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralnetlib-2.3.2.tar.gz tmp/neuralnetlib-2.3.3.tar.gz --markdown 20240424/n/neuralnetlib/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-04-24 04:56:59] INFO root fetch - processPackages [synthx]: executing diffoscope
+[2024-04-24 04:56:59] INFO root fetch - processPackages [synthx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthx-0.4.3.tar.gz tmp/synthx-1.0.0.tar.gz --markdown 20240424/s/synthx/0.4.3-1.0.0/README.md --exclude *.pyd
+[2024-04-24 04:56:59] INFO root fetch - processPackages [linalgebralib]: Downloading https://files.pythonhosted.org/packages/74/43/e5d45c7965d92512de1cb3d684cb26aa1f3cde7ef5903bf6e27062737fe4/linalgebralib-0.0.31.tar.gz
+[2024-04-24 04:56:59] INFO root fetch - processPackages [linalgebralib]: executing diffoscope
+[2024-04-24 04:56:59] INFO root fetch - processPackages [linalgebralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linalgebralib-0.0.3.tar.gz tmp/linalgebralib-0.0.31.tar.gz --markdown 20240424/l/linalgebralib/0.0.3-0.0.31/README.md --exclude *.pyd
+[2024-04-24 04:56:59] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.3.2.tar.gz]
+[2024-04-24 04:56:59] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.3.3.tar.gz]
+[2024-04-24 04:56:59] INFO root fetch - main [MainThread]: End processing [neuralnetlib]: success
+[2024-04-24 04:56:59] INFO root fetch - processPackages [synthx]: Remove: archive file [/home/abi/fetcher/tmp/synthx-0.4.3.tar.gz]
+[2024-04-24 04:56:59] INFO root fetch - processPackages [synthx]: Remove: archive file [/home/abi/fetcher/tmp/synthx-1.0.0.tar.gz]
+[2024-04-24 04:56:59] INFO root fetch - main [MainThread]: End processing [synthx]: success
+[2024-04-24 04:56:59] INFO root fetch - main [MainThread]: End processing [neuralnetlib]: success
+[2024-04-24 04:57:00] INFO root fetch - processPackages [linalgebralib]: Remove: archive file [/home/abi/fetcher/tmp/linalgebralib-0.0.3.tar.gz]
+[2024-04-24 04:57:00] INFO root fetch - processPackages [linalgebralib]: Remove: archive file [/home/abi/fetcher/tmp/linalgebralib-0.0.31.tar.gz]
+[2024-04-24 04:57:00] INFO root fetch - main [MainThread]: End processing [linalgebralib]: success
+[2024-04-24 04:57:00] INFO root fetch - main [MainThread]: Store serial: [22906156]
