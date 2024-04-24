@@ -2305,3 +2305,36 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:10:50] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404230010.tar.gz]
 [2024-04-24 02:10:50] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-24 02:10:50] INFO root fetch - main [MainThread]: Store serial: [22903728]
+[2024-04-24 02:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903728]
+[2024-04-24 02:12:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-cloudinit
+[2024-04-24 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygpt-net
+[2024-04-24 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2024-04-24 02:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: factorlib
+[2024-04-24 02:12:59] WARNING root fetch - processPackages [factorlib]: Skipping, unable to determine old version
+[2024-04-24 02:12:59] INFO root fetch - main [MainThread]: End processing [factorlib] error
+[2024-04-24 02:12:59] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1713897263] Old Version: [1.5.0a1713461116]
+[2024-04-24 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-24 02:12:59] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/24/57/7fa38cb67af849142c649d21402c9bc98fbe14b5c859b68ff153b722e8f3/pulumi_cloudinit-1.5.0a1713461116.tar.gz
+[2024-04-24 02:12:59] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-24 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-24 02:12:59] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/ae/93/d856691ab985e3e56d74b680c7899a5bda2ac1cf349ac2dc0b3e8af3deeb/pulumi_cloudinit-1.5.0a1713897263.tar.gz
+[2024-04-24 02:12:59] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-24 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-04-24 02:12:59] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-04-24 02:12:59] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1713461116.tar.gz tmp/pulumi_cloudinit-1.5.0a1713897263.tar.gz --markdown 20240424/p/pulumi-cloudinit/1.5.0a1713461116-1.5.0a1713897263/README.md --exclude *.pyd
+[2024-04-24 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-24 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240424/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-24 02:13:00] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-24 02:13:00] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-24 02:13:00] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240424/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-24 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-04-24 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-04-24 02:13:00] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-24 02:13:00] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1713461116.tar.gz]
+[2024-04-24 02:13:00] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1713897263.tar.gz]
+[2024-04-24 02:13:00] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-04-24 02:13:02] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-24 02:13:02] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-24 02:13:02] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-24 02:13:02] INFO root fetch - main [MainThread]: Store serial: [22903742]
