@@ -11249,3 +11249,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:42:16] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-1.0.1a0.tar.gz]
 [2024-04-24 07:42:16] INFO root fetch - main [MainThread]: End processing [refract-serving]: success
 [2024-04-24 07:42:16] INFO root fetch - main [MainThread]: Store serial: [22907264]
+[2024-04-24 07:44:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907264]
+[2024-04-24 07:44:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 07:44:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refract-serving
+[2024-04-24 07:44:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-parrot-audio
+[2024-04-24 07:44:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-mgmt-support
+[2024-04-24 07:44:25] INFO root fetch - processPackages [refract-serving]: New version: [1.0.1a0] Old Version: [0.0.7a0]
+[2024-04-24 07:44:25] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/0b/fa/9f51fcf15ca20703f0ab0e2a402a9a3464d9b0a9351b5158791f8fb9764a/refract-serving-0.0.7a0.tar.gz
+[2024-04-24 07:44:25] INFO root fetch - processPackages [azure-mgmt-support]: New version: [7.0.0] Old Version: [6.1.0b3]
+[2024-04-24 07:44:25] INFO root fetch - processPackages [robotframework-parrot-audio]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 07:44:25] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/cd/90/901baff63e451378f6aa62b42db59239ec5dbfa0571c10419f3db637cade/refract-serving-1.0.1a0.tar.gz
+[2024-04-24 07:44:25] INFO root fetch - processPackages [azure-mgmt-support]: Downloading https://files.pythonhosted.org/packages/eb/5a/d97b85bff85f692808e6a428352eb5e800da2c7134b3c246d54d7046fd5d/azure-mgmt-support-6.1.0b3.tar.gz
+[2024-04-24 07:44:25] INFO root fetch - processPackages [robotframework-parrot-audio]: Downloading https://files.pythonhosted.org/packages/eb/bd/ce32a93e72118525b8aef317335322d06fa26500d21bf6816730e2327212/robotframework_parrot_audio-1.0.0.tar.gz
+[2024-04-24 07:44:25] INFO root fetch - processPackages [refract-serving]: executing diffoscope
+[2024-04-24 07:44:25] INFO root fetch - processPackages [refract-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refract-serving-0.0.7a0.tar.gz tmp/refract-serving-1.0.1a0.tar.gz --markdown 20240424/r/refract-serving/0.0.7a0-1.0.1a0/README.md --exclude *.pyd
+[2024-04-24 07:44:25] INFO root fetch - processPackages [robotframework-parrot-audio]: Downloading https://files.pythonhosted.org/packages/cf/d8/94c47ccb23afad0f8eae40d32b2391637f8c793fc58512b0820bbb925de7/robotframework_parrot_audio-1.0.1.tar.gz
+[2024-04-24 07:44:25] INFO root fetch - processPackages [azure-mgmt-support]: Downloading https://files.pythonhosted.org/packages/12/95/a3e986e6495b04fc46ab22dd636c01b26f9fd01fc66f38616388c22539ce/azure-mgmt-support-7.0.0.tar.gz
+[2024-04-24 07:44:25] INFO root fetch - processPackages [robotframework-parrot-audio]: executing diffoscope
+[2024-04-24 07:44:25] INFO root fetch - processPackages [robotframework-parrot-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_parrot_audio-1.0.0.tar.gz tmp/robotframework_parrot_audio-1.0.1.tar.gz --markdown 20240424/r/robotframework-parrot-audio/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 07:44:25] INFO root fetch - processPackages [azure-mgmt-support]: executing diffoscope
+[2024-04-24 07:44:25] INFO root fetch - processPackages [azure-mgmt-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-support-6.1.0b3.tar.gz tmp/azure-mgmt-support-7.0.0.tar.gz --markdown 20240424/a/azure-mgmt-support/6.1.0b3-7.0.0/README.md --exclude *.pyd
+[2024-04-24 07:44:26] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-0.0.7a0.tar.gz]
+[2024-04-24 07:44:26] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-1.0.1a0.tar.gz]
+[2024-04-24 07:44:26] INFO root fetch - main [MainThread]: End processing [refract-serving]: success
+[2024-04-24 07:44:26] INFO root fetch - processPackages [robotframework-parrot-audio]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_audio-1.0.0.tar.gz]
+[2024-04-24 07:44:26] INFO root fetch - processPackages [robotframework-parrot-audio]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_audio-1.0.1.tar.gz]
+[2024-04-24 07:44:26] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-audio]: success
+[2024-04-24 07:44:26] INFO root fetch - processPackages [azure-mgmt-support]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-support-6.1.0b3.tar.gz]
+[2024-04-24 07:44:26] INFO root fetch - processPackages [azure-mgmt-support]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-support-7.0.0.tar.gz]
+[2024-04-24 07:44:26] INFO root fetch - main [MainThread]: End processing [azure-mgmt-support]: success
+[2024-04-24 07:44:26] INFO root fetch - main [MainThread]: Store serial: [22907273]
