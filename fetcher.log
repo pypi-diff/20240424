@@ -14499,3 +14499,40 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:01:46] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
 [2024-04-24 10:01:46] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
 [2024-04-24 10:01:46] INFO root fetch - main [MainThread]: Store serial: [22908789]
+[2024-04-24 10:03:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908789]
+[2024-04-24 10:03:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 10:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaggle_waggle
+[2024-04-24 10:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: middleware-help-python
+[2024-04-24 10:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vxutils
+[2024-04-24 10:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymobiledevice3
+[2024-04-24 10:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mbtiles-util
+[2024-04-24 10:03:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fs-attestation-safe-eth-py
+[2024-04-24 10:03:56] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.3.0] Old Version: [4.2.3]
+[2024-04-24 10:03:56] INFO root fetch - processPackages [vxutils]: New version: [20240423] Old Version: [20240410]
+[2024-04-24 10:03:56] INFO root fetch - processPackages [mbtiles-util]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-04-24 10:03:56] WARNING root fetch - processPackages [fs-attestation-safe-eth-py]: Skipping, unable to determine old version
+[2024-04-24 10:03:56] INFO root fetch - main [MainThread]: End processing [fs-attestation-safe-eth-py] error
+[2024-04-24 10:03:56] WARNING root fetch - processPackages [middleware-help-python]: Skipping, unable to determine old version
+[2024-04-24 10:03:56] INFO root fetch - main [MainThread]: End processing [middleware-help-python] error
+[2024-04-24 10:03:56] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/a9/17/aa0ee51da5b288ebd0f42587862e412b9f69fa7556de621e78d8b6f9371b/vxutils-20240410.tar.gz
+[2024-04-24 10:03:56] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/50/47/f67009398edfeb1c102068e0ecaaabaf66b2356a0758f885ea49972784fa/pymobiledevice3-4.2.3.tar.gz
+[2024-04-24 10:03:56] INFO root fetch - processPackages [kaggle_waggle]: New version: [1.6.12a2] Old Version: [1.6.12a1]
+[2024-04-24 10:03:56] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31543579>=10485760
+[2024-04-24 10:03:56] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-24 10:03:56] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/ad/14/98d61054798201a82fa62da4e346cfe25dc68e8688d143a0cad8397120d2/vxutils-20240423.tar.gz
+[2024-04-24 10:03:56] INFO root fetch - processPackages [mbtiles-util]: Downloading https://files.pythonhosted.org/packages/16/d3/d85479554f5c799a5585e83d9b2baa5f0dc17fd5d02b2d07f2700d67fca3/mbtiles_util-1.0.0.tar.gz
+[2024-04-24 10:03:56] INFO root fetch - processPackages [kaggle_waggle]: Downloading https://files.pythonhosted.org/packages/ee/78/cb6062dd466350542ea2ee02a75fddc098e1eb1d20b8d5a7cec6e45ad770/kaggle_waggle-1.6.12a1.tar.gz
+[2024-04-24 10:03:56] WARNING root fetch - processPackages [kaggle_waggle]: Skipping package: exceeds size limit 13217120>=10485760
+[2024-04-24 10:03:56] INFO root fetch - main [MainThread]: End processing [kaggle_waggle] error
+[2024-04-24 10:03:56] INFO root fetch - processPackages [vxutils]: executing diffoscope
+[2024-04-24 10:03:56] INFO root fetch - processPackages [vxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vxutils-20240410.tar.gz tmp/vxutils-20240423.tar.gz --markdown 20240424/v/vxutils/20240410-20240423/README.md --exclude *.pyd
+[2024-04-24 10:03:56] INFO root fetch - processPackages [mbtiles-util]: Downloading https://files.pythonhosted.org/packages/4c/05/04610f1468a00e854c3c7f090de223b4f750d46176c78f14a70ba0977717/mbtiles_util-1.0.2.tar.gz
+[2024-04-24 10:03:56] INFO root fetch - processPackages [mbtiles-util]: executing diffoscope
+[2024-04-24 10:03:56] INFO root fetch - processPackages [mbtiles-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbtiles_util-1.0.0.tar.gz tmp/mbtiles_util-1.0.2.tar.gz --markdown 20240424/m/mbtiles-util/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-04-24 10:03:57] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240410.tar.gz]
+[2024-04-24 10:03:57] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240423.tar.gz]
+[2024-04-24 10:03:57] INFO root fetch - main [MainThread]: End processing [vxutils]: success
+[2024-04-24 10:03:57] INFO root fetch - processPackages [mbtiles-util]: Remove: archive file [/home/abi/fetcher/tmp/mbtiles_util-1.0.0.tar.gz]
+[2024-04-24 10:03:57] INFO root fetch - processPackages [mbtiles-util]: Remove: archive file [/home/abi/fetcher/tmp/mbtiles_util-1.0.2.tar.gz]
+[2024-04-24 10:03:57] INFO root fetch - main [MainThread]: End processing [mbtiles-util]: success
+[2024-04-24 10:03:57] INFO root fetch - main [MainThread]: Store serial: [22908809]
