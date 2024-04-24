@@ -14223,3 +14223,58 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 09:50:45] INFO root fetch - processPackages [unique-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unique_sdk-0.8.0.tar.gz]
 [2024-04-24 09:50:45] INFO root fetch - main [MainThread]: End processing [unique-sdk]: success
 [2024-04-24 09:50:45] INFO root fetch - main [MainThread]: Store serial: [22908690]
+[2024-04-24 09:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908690]
+[2024-04-24 09:52:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalhub-core
+[2024-04-24 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretvalidator
+[2024-04-24 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mxcubeweb
+[2024-04-24 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digitalhub-data
+[2024-04-24 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liveramp-automation
+[2024-04-24 09:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretvalidator
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 09:52:54] INFO root fetch - processPackages [digitalhub-data]: New version: [0.4.0b2] Old Version: [0.4.0b1]
+[2024-04-24 09:52:54] INFO root fetch - processPackages [liveramp-automation]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-04-24 09:52:54] INFO root fetch - processPackages [digitalhub-core]: New version: [0.4.0b2] Old Version: [0.4.0b1]
+[2024-04-24 09:52:54] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/1f/70/68b1d4ac1c08c6dad1ce3dc3d786f682b3e7efd7c71db5e9881511b3442d/digitalhub_data-0.4.0b1.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/1e/57/b0daf7144f8d622236b0b2d3262742e27531e9350a080347c66a5e1dc505/liveramp_automation-1.3.7.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/f7/23/d132e5b0543ac3a15fa7b5cbef629bf9a53242a28e4808e79638abcbd390/digitalhub_core-0.4.0b1.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240424/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-24 09:52:54] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240424/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 09:52:54] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/a4/b6/d2b20ab3c150b182637df29743656d27a234a2bb954171fd185929384e80/digitalhub_data-0.4.0b2.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/c5/4a/699428b01a00259bdf3dae5d7283a03414043db4f9e588736a144ab62d9f/liveramp_automation-1.3.8.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/24/b3/b8fed2df1e164e176f2f2475b4c7e5b78450a6cc1bcc054f3f202fd3bb5f/digitalhub_core-0.4.0b2.tar.gz
+[2024-04-24 09:52:54] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-04-24 09:52:54] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_data-0.4.0b1.tar.gz tmp/digitalhub_data-0.4.0b2.tar.gz --markdown 20240424/d/digitalhub-data/0.4.0b1-0.4.0b2/README.md --exclude *.pyd
+[2024-04-24 09:52:55] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2024-04-24 09:52:55] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-1.3.7.tar.gz tmp/liveramp_automation-1.3.8.tar.gz --markdown 20240424/l/liveramp-automation/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-04-24 09:52:55] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-04-24 09:52:55] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-04-24 09:52:55] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_core-0.4.0b1.tar.gz tmp/digitalhub_core-0.4.0b2.tar.gz --markdown 20240424/d/digitalhub-core/0.4.0b1-0.4.0b2/README.md --exclude *.pyd
+[2024-04-24 09:52:55] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-04-24 09:52:55] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240424/m/mxcubeweb/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-24 09:52:55] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.8.tar.gz]
+[2024-04-24 09:52:55] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.9.tar.gz]
+[2024-04-24 09:52:55] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-24 09:52:55] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-24 09:52:55] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b1.tar.gz]
+[2024-04-24 09:52:55] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b2.tar.gz]
+[2024-04-24 09:52:55] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-04-24 09:52:55] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.7.tar.gz]
+[2024-04-24 09:52:55] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.8.tar.gz]
+[2024-04-24 09:52:55] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2024-04-24 09:52:55] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b1.tar.gz]
+[2024-04-24 09:52:55] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b2.tar.gz]
+[2024-04-24 09:52:55] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-04-24 09:52:56] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-04-24 09:52:56] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-04-24 09:52:56] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-04-24 09:52:56] INFO root fetch - main [MainThread]: Store serial: [22908709]
