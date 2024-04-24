@@ -22214,3 +22214,70 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:17:59] INFO root fetch - processPackages [cnspy-trajectory]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_trajectory-0.2.0.tar.gz]
 [2024-04-24 14:17:59] INFO root fetch - main [MainThread]: End processing [cnspy-trajectory]: success
 [2024-04-24 14:17:59] INFO root fetch - main [MainThread]: Store serial: [22911923]
+[2024-04-24 14:20:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911923]
+[2024-04-24 14:20:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 14:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: filip
+[2024-04-24 14:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cnspy-trajectory-evaluation
+[2024-04-24 14:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pollination-annual-daylight.full
+[2024-04-24 14:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 2b4cad69c8f0478caa92a512e57b735aba978d0e
+[2024-04-24 14:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: halftone-converter
+[2024-04-24 14:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pollination-annual-daylight.viz
+[2024-04-24 14:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tabpfn-client
+[2024-04-24 14:20:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecv-python-development
+[2024-04-24 14:20:24] INFO root fetch - processPackages [halftone-converter]: New version: [2.5.0] Old Version: [2.4.6]
+[2024-04-24 14:20:24] INFO root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 14:20:24] INFO root fetch - processPackages [tabpfn-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-24 14:20:24] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.31] Old Version: [0.0.30]
+[2024-04-24 14:20:25] INFO root fetch - processPackages [cnspy-trajectory-evaluation]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.full]: New version: [0.10.9] Old Version: [0.10.8]
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.viz]: New version: [0.10.9] Old Version: [0.10.8]
+[2024-04-24 14:20:25] INFO root fetch - processPackages [filip]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-24 14:20:25] INFO root fetch - processPackages [halftone-converter]: Downloading https://files.pythonhosted.org/packages/52/b8/9cd692ec856f31f069618f379dcb0279471cb8ddf2db3da8a1dc0e255813/halftone-converter-2.4.6.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/c9/29/e2e8d50fc1282c66d087ef3840fff02dcf1f681517054c2b6fee35cbece3/ecv-python-development-0.0.30.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: Downloading https://files.pythonhosted.org/packages/01/41/db784ddc21401cdfc90cf5135c9c817ed309e3b065cae306f76fcd8c0455/2b4cad69c8f0478caa92a512e57b735aba978d0e-0.1.8.tar.gz
+[2024-04-24 14:20:25] WARNING root fetch - processPackages [halftone-converter]: Skipping package: exceeds size limit 19404775>=10485760
+[2024-04-24 14:20:25] INFO root fetch - main [MainThread]: End processing [halftone-converter] error
+[2024-04-24 14:20:25] INFO root fetch - processPackages [tabpfn-client]: Downloading https://files.pythonhosted.org/packages/4b/88/ca0c61e9360c411047eb654d47e10be0eca6961732e3999116fa02fbf3fe/tabpfn_client-0.0.7.tar.gz
+[2024-04-24 14:20:25] WARNING root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: Skipping package: exceeds size limit 27722932>=10485760
+[2024-04-24 14:20:25] INFO root fetch - main [MainThread]: End processing [2b4cad69c8f0478caa92a512e57b735aba978d0e] error
+[2024-04-24 14:20:25] INFO root fetch - processPackages [cnspy-trajectory-evaluation]: Downloading https://files.pythonhosted.org/packages/b4/14/a19ebcaaba638f5441b07583bca2d0a027c5f773ddb9f6ac9af1bdb6bccb/cnspy_trajectory_evaluation-0.1.1.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Downloading https://files.pythonhosted.org/packages/9b/07/8ae5b1660da808ce1aec5c1b439db899fe2ca9f83369077cb6c685c1bc2b/pollination-annual-daylight.viz-0.10.8.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.full]: Downloading https://files.pythonhosted.org/packages/ef/d5/8716000754bf19464b9fb583886db0bfb6af07ce7a01e73eb05346c2ac6e/pollination-annual-daylight.full-0.10.8.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [filip]: Downloading https://files.pythonhosted.org/packages/d6/53/bf01b3d38dd3489540d453495ce1815a7a4d0d8182be6c22b2837d8b40a3/filip-0.4.0.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/5a/78/2f7dc1e40a7e2c439b9cc9f8177cbd440c80951d2886bd7940021441107c/ecv-python-development-0.0.31.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [tabpfn-client]: Downloading https://files.pythonhosted.org/packages/07/2d/d7888ba411e10c57009789dab962b15b12962a217fa37365548262598b41/tabpfn_client-0.0.8.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Downloading https://files.pythonhosted.org/packages/24/ea/f2cf4a141804c514c92fa609a73e2d7f861cef874899130476ccc6b08f0a/pollination-annual-daylight.viz-0.10.9.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.full]: Downloading https://files.pythonhosted.org/packages/3d/de/97a382d989e44d75d2a677e4bbfc68ecc5f4c42240766d3be29e3db489e9/pollination-annual-daylight.full-0.10.9.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-24 14:20:25] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.30.tar.gz tmp/ecv-python-development-0.0.31.tar.gz --markdown 20240424/e/ecv-python-development/0.0.30-0.0.31/README.md --exclude *.pyd
+[2024-04-24 14:20:25] INFO root fetch - processPackages [filip]: Downloading https://files.pythonhosted.org/packages/ee/82/47c2c24d578f6638f1b876d42326b313f4b568c5915174dd5e699e15e49f/filip-0.4.1.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [tabpfn-client]: executing diffoscope
+[2024-04-24 14:20:25] INFO root fetch - processPackages [tabpfn-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabpfn_client-0.0.7.tar.gz tmp/tabpfn_client-0.0.8.tar.gz --markdown 20240424/t/tabpfn-client/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-24 14:20:25] INFO root fetch - processPackages [cnspy-trajectory-evaluation]: Downloading https://files.pythonhosted.org/packages/f3/53/08905fe54aa001028f3ff8713e7d9ce98919efbddd0897005f7fda9b3b16/cnspy_trajectory_evaluation-0.2.0.tar.gz
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.viz]: executing diffoscope
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight.viz-0.10.8.tar.gz tmp/pollination-annual-daylight.viz-0.10.9.tar.gz --markdown 20240424/p/pollination-annual-daylight.viz/0.10.8-0.10.9/README.md --exclude *.pyd
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.full]: executing diffoscope
+[2024-04-24 14:20:25] INFO root fetch - processPackages [pollination-annual-daylight.full]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight.full-0.10.8.tar.gz tmp/pollination-annual-daylight.full-0.10.9.tar.gz --markdown 20240424/p/pollination-annual-daylight.full/0.10.8-0.10.9/README.md --exclude *.pyd
+[2024-04-24 14:20:25] INFO root fetch - processPackages [filip]: executing diffoscope
+[2024-04-24 14:20:25] INFO root fetch - processPackages [filip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filip-0.4.0.tar.gz tmp/filip-0.4.1.tar.gz --markdown 20240424/f/filip/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-24 14:20:25] INFO root fetch - processPackages [cnspy-trajectory-evaluation]: executing diffoscope
+[2024-04-24 14:20:25] INFO root fetch - processPackages [cnspy-trajectory-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnspy_trajectory_evaluation-0.1.1.tar.gz tmp/cnspy_trajectory_evaluation-0.2.0.tar.gz --markdown 20240424/c/cnspy-trajectory-evaluation/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 14:20:26] INFO root fetch - processPackages [tabpfn-client]: Remove: archive file [/home/abi/fetcher/tmp/tabpfn_client-0.0.7.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - processPackages [tabpfn-client]: Remove: archive file [/home/abi/fetcher/tmp/tabpfn_client-0.0.8.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - main [MainThread]: End processing [tabpfn-client]: success
+[2024-04-24 14:20:26] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.30.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.31.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-24 14:20:26] INFO root fetch - processPackages [cnspy-trajectory-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_trajectory_evaluation-0.1.1.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - processPackages [cnspy-trajectory-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_trajectory_evaluation-0.2.0.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - main [MainThread]: End processing [cnspy-trajectory-evaluation]: success
+[2024-04-24 14:20:26] INFO root fetch - processPackages [pollination-annual-daylight.full]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.full-0.10.8.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - processPackages [pollination-annual-daylight.full]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.full-0.10.9.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight.full]: success
+[2024-04-24 14:20:26] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.viz-0.10.8.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.viz-0.10.9.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight.viz]: success
+[2024-04-24 14:20:26] INFO root fetch - processPackages [filip]: Remove: archive file [/home/abi/fetcher/tmp/filip-0.4.0.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - processPackages [filip]: Remove: archive file [/home/abi/fetcher/tmp/filip-0.4.1.tar.gz]
+[2024-04-24 14:20:26] INFO root fetch - main [MainThread]: End processing [filip]: success
+[2024-04-24 14:20:26] INFO root fetch - main [MainThread]: Store serial: [22911944]
