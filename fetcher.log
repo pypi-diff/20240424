@@ -12394,3 +12394,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:53:19] INFO root fetch - processPackages [mysql-server-has-gone]: Remove: archive file [/home/abi/fetcher/tmp/mysql_server_has_gone-2.0.3.tar.gz]
 [2024-04-24 08:53:19] INFO root fetch - main [MainThread]: End processing [mysql-server-has-gone]: success
 [2024-04-24 08:53:19] INFO root fetch - main [MainThread]: Store serial: [22907661]
+[2024-04-24 08:55:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907661]
+[2024-04-24 08:55:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 08:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rfb-battery-cycler
+[2024-04-24 08:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ul-db-utils
+[2024-04-24 08:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-web-refresher
+[2024-04-24 08:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymobiledevice3
+[2024-04-24 08:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wttch-train-helper
+[2024-04-24 08:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nestipy-ioc
+[2024-04-24 08:55:29] INFO root fetch - processPackages [ul-db-utils]: New version: [3.3.2] Old Version: [3.3.1]
+[2024-04-24 08:55:29] INFO root fetch - processPackages [nestipy-ioc]: New version: [0.1.21] Old Version: [0.1.20]
+[2024-04-24 08:55:29] INFO root fetch - processPackages [rfb-battery-cycler]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 08:55:29] INFO root fetch - processPackages [wttch-train-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 08:55:29] INFO root fetch - processPackages [odoo-addon-web-refresher]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-04-24 08:55:29] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/13/fa/e8b349114e71d6c471063a7ded360bd426d08a4b9b7c5f5d7805b4776d14/ul-db-utils-3.3.1.tar.gz
+[2024-04-24 08:55:29] INFO root fetch - processPackages [nestipy-ioc]: Downloading https://files.pythonhosted.org/packages/35/17/e010516b5d20df6fd298b89c8c18261cfa46b6c68c1e2d39913b6c34d74d/nestipy_ioc-0.1.20.tar.gz
+[2024-04-24 08:55:29] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.3.0] Old Version: [4.2.3]
+[2024-04-24 08:55:29] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/3b/39/20b37adf77ac5d3a1c29fac307c5b35603437a19b4e9ccfdf3da730c7734/wttch-train-helper-0.0.8.tar.gz
+[2024-04-24 08:55:29] INFO root fetch - processPackages [rfb-battery-cycler]: Downloading https://files.pythonhosted.org/packages/66/b8/03dee31128d2adfdfcc0192b34586002a574f465ba959cee14e97d57622d/rfb-battery-cycler-0.0.1.tar.gz
+[2024-04-24 08:55:29] INFO root fetch - processPackages [odoo-addon-web-refresher]: Downloading https://files.pythonhosted.org/packages/6b/a4/4a73dc1a6fceb7cb25b13da3b23c9e7be1c99bdc115acb7b2357cef5c67f/odoo_addon_web_refresher-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-24 08:55:29] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/50/47/f67009398edfeb1c102068e0ecaaabaf66b2356a0758f885ea49972784fa/pymobiledevice3-4.2.3.tar.gz
+[2024-04-24 08:55:29] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/06/f1/4c3862ff8dfa72e0261e6a5f5e8fb8722a335c9adec2134db760cf92c16a/wttch-train-helper-0.0.9.tar.gz
+[2024-04-24 08:55:29] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31543579>=10485760
+[2024-04-24 08:55:29] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-24 08:55:29] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/55/ae/6dcc4d13fef6ee90aead5ecb64697068f9b128814438a822ec47af996c41/ul-db-utils-3.3.2.tar.gz
+[2024-04-24 08:55:29] INFO root fetch - processPackages [nestipy-ioc]: Downloading https://files.pythonhosted.org/packages/04/60/8786ed2761e31310e5cd7b44684b70465cf5e7aaf13861decb6f05c827c0/nestipy_ioc-0.1.21.tar.gz
+[2024-04-24 08:55:30] INFO root fetch - processPackages [wttch-train-helper]: executing diffoscope
+[2024-04-24 08:55:30] INFO root fetch - processPackages [wttch-train-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wttch-train-helper-0.0.8.tar.gz tmp/wttch-train-helper-0.0.9.tar.gz --markdown 20240424/w/wttch-train-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 08:55:30] INFO root fetch - processPackages [ul-db-utils]: executing diffoscope
+[2024-04-24 08:55:30] INFO root fetch - processPackages [ul-db-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-db-utils-3.3.1.tar.gz tmp/ul-db-utils-3.3.2.tar.gz --markdown 20240424/u/ul-db-utils/3.3.1-3.3.2/README.md --exclude *.pyd
+[2024-04-24 08:55:30] INFO root fetch - processPackages [nestipy-ioc]: executing diffoscope
+[2024-04-24 08:55:30] INFO root fetch - processPackages [nestipy-ioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_ioc-0.1.20.tar.gz tmp/nestipy_ioc-0.1.21.tar.gz --markdown 20240424/n/nestipy-ioc/0.1.20-0.1.21/README.md --exclude *.pyd
+[2024-04-24 08:55:30] INFO root fetch - processPackages [rfb-battery-cycler]: Downloading https://files.pythonhosted.org/packages/a9/55/9f0279e213a05e49cf60cfea88a9a4c59b70b9d935f4cc92fa572338ad34/rfb_battery_cycler-0.0.2.tar.gz
+[2024-04-24 08:55:30] INFO root fetch - processPackages [odoo-addon-web-refresher]: Downloading https://files.pythonhosted.org/packages/b5/17/fef6468db53f33765ec13e6c350678a162e2581c5a6961a3bbbc415ea107/odoo_addon_web_refresher-17.0.1.0.1-py3-none-any.whl
+[2024-04-24 08:55:30] INFO root fetch - processPackages [rfb-battery-cycler]: executing diffoscope
+[2024-04-24 08:55:30] INFO root fetch - processPackages [rfb-battery-cycler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfb-battery-cycler-0.0.1.tar.gz tmp/rfb_battery_cycler-0.0.2.tar.gz --markdown 20240424/r/rfb-battery-cycler/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 08:55:30] INFO root fetch - processPackages [odoo-addon-web-refresher]: executing diffoscope
+[2024-04-24 08:55:30] INFO root fetch - processPackages [odoo-addon-web-refresher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_refresher-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_web_refresher-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-web-refresher/17.0.1.0.0.6-17.0.1.0.1/README.md --exclude *.pyd
+[2024-04-24 08:55:30] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.8.tar.gz]
+[2024-04-24 08:55:30] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.9.tar.gz]
+[2024-04-24 08:55:30] INFO root fetch - main [MainThread]: End processing [wttch-train-helper]: success
+[2024-04-24 08:55:30] INFO root fetch - processPackages [nestipy-ioc]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_ioc-0.1.20.tar.gz]
+[2024-04-24 08:55:30] INFO root fetch - processPackages [nestipy-ioc]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_ioc-0.1.21.tar.gz]
+[2024-04-24 08:55:30] INFO root fetch - main [MainThread]: End processing [nestipy-ioc]: success
+[2024-04-24 08:55:30] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.1.tar.gz]
+[2024-04-24 08:55:30] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.2.tar.gz]
+[2024-04-24 08:55:30] INFO root fetch - main [MainThread]: End processing [ul-db-utils]: success
+[2024-04-24 08:55:30] INFO root fetch - processPackages [rfb-battery-cycler]: Remove: archive file [/home/abi/fetcher/tmp/rfb-battery-cycler-0.0.1.tar.gz]
+[2024-04-24 08:55:30] INFO root fetch - processPackages [rfb-battery-cycler]: Remove: archive file [/home/abi/fetcher/tmp/rfb_battery_cycler-0.0.2.tar.gz]
+[2024-04-24 08:55:30] INFO root fetch - main [MainThread]: End processing [rfb-battery-cycler]: success
+[2024-04-24 08:55:31] INFO root fetch - processPackages [odoo-addon-web-refresher]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_refresher-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-24 08:55:31] INFO root fetch - processPackages [odoo-addon-web-refresher]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_refresher-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-24 08:55:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-refresher]: success
+[2024-04-24 08:55:31] INFO root fetch - main [MainThread]: Store serial: [22907683]
