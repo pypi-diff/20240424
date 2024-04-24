@@ -12780,3 +12780,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:06:33] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-24 09:06:33] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-24 09:06:33] INFO root fetch - main [MainThread]: Store serial: [22907786]
+[2024-04-24 09:08:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907786]
+[2024-04-24 09:08:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th-influx-sdk
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mysqlLibRan
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mysqlLibRan
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcmqi
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kaggle_waggle
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastlifeweb
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xnatuploader
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dsp-tools
+[2024-04-24 09:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: runtimepy
+[2024-04-24 09:08:44] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-24 09:08:44] INFO root fetch - processPackages [th-influx-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 09:08:44] INFO root fetch - processPackages [xnatuploader]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-24 09:08:44] INFO root fetch - processPackages [runtimepy]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-04-24 09:08:44] INFO root fetch - processPackages [fastlifeweb]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-24 09:08:44] WARNING root fetch - processPackages [dcmqi]: Skipping, unable to determine old version
+[2024-04-24 09:08:44] INFO root fetch - main [MainThread]: End processing [dcmqi] error
+[2024-04-24 09:08:44] WARNING root fetch - processPackages [kaggle_waggle]: Skipping, unable to determine old version
+[2024-04-24 09:08:44] INFO root fetch - main [MainThread]: End processing [kaggle_waggle] error
+[2024-04-24 09:08:44] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/6e/34/6f4e128c3f6189d6d74d476d8ebbfaa3612d63e5b5560199148276bd1350/th-influx-sdk-1.0.3.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [dsp-tools]: New version: [7.1.3] Old Version: [7.1.2.post0]
+[2024-04-24 09:08:44] INFO root fetch - processPackages [xnatuploader]: Downloading https://files.pythonhosted.org/packages/66/41/0f0a0baa41d6bb73fbf2c9e3076165551ac2954def96d2ab0a8b26f1b901/xnatuploader-1.1.7.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/a2/3c/b113a1e74ed4c74f07e1da2ee1d09ba95762cdcc1526b3f2864b970a264d/runtimepy-4.2.0.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: Downloading https://files.pythonhosted.org/packages/96/0f/778649ebcf20e1169504c55e57f42afac5d5ef4640463e5b6b7c977cbac7/mysqllibran-0.0.2.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: Downloading https://files.pythonhosted.org/packages/96/0f/778649ebcf20e1169504c55e57f42afac5d5ef4640463e5b6b7c977cbac7/mysqllibran-0.0.2.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [fastlifeweb]: Downloading https://files.pythonhosted.org/packages/af/71/404c14ebf4d7c00522ec1a5b8e1e6d3b58ca45f10622339baff256dc1202/fastlifeweb-0.4.1.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/e6/ba/15c5bd8ce78070ac83e6d7e4b5f313d1ad0dbc4f255a4b900abc36ff3a03/dsp_tools-7.1.2.post0.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [xnatuploader]: Downloading https://files.pythonhosted.org/packages/5c/1b/7d2263579fdff75c40396599c3edf9c293d9e3eb34811af08749c3a79c9b/xnatuploader-1.1.8.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/4b/72/19511f9343619b23223a4fb6f0bc12c7c575955d9630bdd9d41ce6493eb1/runtimepy-4.2.1.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/0d/b4/012bc23d80ce3ccbf8bc3a2179a0f31e5cca7c9ebf0d3df9ea32b1d74507/th-influx-sdk-1.0.4.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [xnatuploader]: executing diffoscope
+[2024-04-24 09:08:44] INFO root fetch - processPackages [xnatuploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnatuploader-1.1.7.tar.gz tmp/xnatuploader-1.1.8.tar.gz --markdown 20240424/x/xnatuploader/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-24 09:08:44] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: Downloading https://files.pythonhosted.org/packages/a8/54/5c5f060608a8f56087886102a510eb54c60c1a98ee0945536bbb0430c316/mysqllibran-0.0.3.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2024-04-24 09:08:44] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-4.2.0.tar.gz tmp/runtimepy-4.2.1.tar.gz --markdown 20240424/r/runtimepy/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: Downloading https://files.pythonhosted.org/packages/a8/54/5c5f060608a8f56087886102a510eb54c60c1a98ee0945536bbb0430c316/mysqllibran-0.0.3.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [th-influx-sdk]: executing diffoscope
+[2024-04-24 09:08:44] INFO root fetch - processPackages [th-influx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th-influx-sdk-1.0.3.tar.gz tmp/th-influx-sdk-1.0.4.tar.gz --markdown 20240424/t/th-influx-sdk/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-24 09:08:44] INFO root fetch - processPackages [fastlifeweb]: Downloading https://files.pythonhosted.org/packages/55/f1/36878ec6f8e52cd8ab402d81bafdf876a0bb5cfd7049d416a2249b2c203c/fastlifeweb-0.5.0.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: executing diffoscope
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqllibran-0.0.2.tar.gz tmp/mysqllibran-0.0.3.tar.gz --markdown 20240424/m/mysqlLibRan/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: executing diffoscope
+[2024-04-24 09:08:44] INFO root fetch - processPackages [mysqlLibRan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqllibran-0.0.2.tar.gz tmp/mysqllibran-0.0.3.tar.gz --markdown 20240424/m/mysqlLibRan/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 09:08:44] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/9c/6e/37f697b5763291d17d50a8bbb6fddebcc163663671c74171192d5ac712f5/dsp_tools-7.1.3.tar.gz
+[2024-04-24 09:08:44] INFO root fetch - processPackages [fastlifeweb]: executing diffoscope
+[2024-04-24 09:08:44] INFO root fetch - processPackages [fastlifeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlifeweb-0.4.1.tar.gz tmp/fastlifeweb-0.5.0.tar.gz --markdown 20240424/f/fastlifeweb/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-24 09:08:45] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-24 09:08:45] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240424/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-24 09:08:45] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-04-24 09:08:45] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.1.2.post0.tar.gz tmp/dsp_tools-7.1.3.tar.gz --markdown 20240424/d/dsp-tools/7.1.2.post0-7.1.3/README.md --exclude *.pyd
+[2024-04-24 09:08:45] INFO root fetch - processPackages [xnatuploader]: Remove: archive file [/home/abi/fetcher/tmp/xnatuploader-1.1.7.tar.gz]
+[2024-04-24 09:08:45] INFO root fetch - processPackages [xnatuploader]: Remove: archive file [/home/abi/fetcher/tmp/xnatuploader-1.1.8.tar.gz]
+[2024-04-24 09:08:45] INFO root fetch - main [MainThread]: End processing [xnatuploader]: success
+[2024-04-24 09:08:45] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.3.tar.gz]
+[2024-04-24 09:08:45] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.4.tar.gz]
+[2024-04-24 09:08:45] INFO root fetch - main [MainThread]: End processing [th-influx-sdk]: success
+[2024-04-24 09:08:45] INFO root fetch - processPackages [mysqlLibRan]: Remove: archive file [/home/abi/fetcher/tmp/mysqllibran-0.0.2.tar.gz]
+[2024-04-24 09:08:45] INFO root fetch - processPackages [mysqlLibRan]: Remove: archive file [/home/abi/fetcher/tmp/mysqllibran-0.0.2.tar.gz]
+[2024-04-24 09:08:45] WARNING root fetch - processPackages [mysqlLibRan]: Unable to remove archive file: [[Errno 2] No such file or directory: '/home/abi/fetcher/tmp/mysqllibran-0.0.2.tar.gz']
+[2024-04-24 09:08:45] INFO root fetch - processPackages [mysqlLibRan]: Remove: archive file [/home/abi/fetcher/tmp/mysqllibran-0.0.3.tar.gz]
+[2024-04-24 09:08:45] INFO root fetch - main [MainThread]: End processing [mysqlLibRan]: success
+[2024-04-24 09:08:45] INFO root fetch - main [MainThread]: End processing [mysqlLibRan]: success
+[2024-04-24 09:08:45] INFO root fetch - processPackages [fastlifeweb]: Remove: archive file [/home/abi/fetcher/tmp/fastlifeweb-0.4.1.tar.gz]
+[2024-04-24 09:08:45] INFO root fetch - processPackages [fastlifeweb]: Remove: archive file [/home/abi/fetcher/tmp/fastlifeweb-0.5.0.tar.gz]
+[2024-04-24 09:08:45] INFO root fetch - main [MainThread]: End processing [fastlifeweb]: success
+[2024-04-24 09:08:46] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.2.post0.tar.gz]
+[2024-04-24 09:08:46] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.3.tar.gz]
+[2024-04-24 09:08:46] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-04-24 09:08:46] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.2.0.tar.gz]
+[2024-04-24 09:08:46] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.2.1.tar.gz]
+[2024-04-24 09:08:46] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2024-04-24 09:08:46] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-24 09:08:46] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-24 09:08:46] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-24 09:08:46] INFO root fetch - main [MainThread]: Store serial: [22907828]
