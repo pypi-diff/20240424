@@ -12861,3 +12861,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:08:46] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-04-24 09:08:46] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-24 09:08:46] INFO root fetch - main [MainThread]: Store serial: [22907828]
+[2024-04-24 09:10:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907828]
+[2024-04-24 09:10:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoltraak
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odbc2deltalake
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-web-refresher
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-i18n
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zoltraak
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: survival-data-handler
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skip-pydjamodb
+[2024-04-24 09:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: collective.volto.enhancedlinks
+[2024-04-24 09:10:55] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [zoltraak]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [odoo-addon-web-refresher]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [zoltraak]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [collective.volto.enhancedlinks]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-04-24 09:10:55] INFO root fetch - processPackages [survival-data-handler]: New version: [2024.1.2] Old Version: [2024.1.1]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [pydantic-i18n]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [skip-pydjamodb]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 09:10:55] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/34/3a/5a82b19a4dec66312d547332dd1b1920fae1d946bf89645aee2e4ef33a2e/zoltraak-0.1.2.tar.gz
+[2024-04-24 09:10:55] INFO root fetch - processPackages [odoo-addon-web-refresher]: Downloading https://files.pythonhosted.org/packages/6b/a4/4a73dc1a6fceb7cb25b13da3b23c9e7be1c99bdc115acb7b2357cef5c67f/odoo_addon_web_refresher-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-24 09:10:55] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/34/3a/5a82b19a4dec66312d547332dd1b1920fae1d946bf89645aee2e4ef33a2e/zoltraak-0.1.2.tar.gz
+[2024-04-24 09:10:55] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 09:10:56] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-24 09:10:56] INFO root fetch - processPackages [collective.volto.enhancedlinks]: Downloading https://files.pythonhosted.org/packages/03/07/2269ae11b64d3d52f22c9849a7dce9bdd937b6d1d9526c3c965d08d19b94/collective.volto.enhancedlinks-1.1.0.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/9b/c3/4c2b0c0c021bcbb223785eb53237804a8e21e2c9a3ad5514c731aa89233b/survival_data_handler-2024.1.1.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [skip-pydjamodb]: Downloading https://files.pythonhosted.org/packages/26/20/e194d5f35c609edb21c4df4a3b1c01a1c45119b5a3a387e76ff56d5e173d/skip_pydjamodb-0.1.0.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [pydantic-i18n]: Downloading https://files.pythonhosted.org/packages/53/22/bff521d6ca41975673749a9d9ddd766725ff807d9671e4cb0e7523e4b8b8/pydantic_i18n-0.4.3.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [odoo-addon-web-refresher]: Downloading https://files.pythonhosted.org/packages/b5/17/fef6468db53f33765ec13e6c350678a162e2581c5a6961a3bbbc415ea107/odoo_addon_web_refresher-17.0.1.0.1-py3-none-any.whl
+[2024-04-24 09:10:56] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 09:10:56] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/51/3e/7967b26fdcdaa6b97850f23931295ce3e3bb1913d9777d125d769ecf9328/zoltraak-0.1.4.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/51/3e/7967b26fdcdaa6b97850f23931295ce3e3bb1913d9777d125d769ecf9328/zoltraak-0.1.4.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [odoo-addon-web-refresher]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [odoo-addon-web-refresher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_refresher-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_web_refresher-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-web-refresher/17.0.1.0.0.6-17.0.1.0.1/README.md --exclude *.pyd
+[2024-04-24 09:10:56] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 09:10:56] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240424/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-24 09:10:56] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.2.tar.gz tmp/zoltraak-0.1.4.tar.gz --markdown 20240424/z/zoltraak/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-24 09:10:56] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.2.tar.gz tmp/zoltraak-0.1.4.tar.gz --markdown 20240424/z/zoltraak/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-24 09:10:56] INFO root fetch - processPackages [collective.volto.enhancedlinks]: Downloading https://files.pythonhosted.org/packages/a4/1f/fd0b06e2e32d9b016b3ba66dcd71644f113c3f0b5874ab5e710587f9d4c7/collective.volto.enhancedlinks-1.1.1.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/55/66/dab7bc0ebbca6d11ed7f71bdb3acf6e13b5f5e8d09682a495cee7ec88c75/survival_data_handler-2024.1.2.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [pydantic-i18n]: Downloading https://files.pythonhosted.org/packages/2a/ef/c0115def4b9ab6da52c93ba0586b667679da037f511fc9e94a016ba6593c/pydantic_i18n-0.4.4.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [skip-pydjamodb]: Downloading https://files.pythonhosted.org/packages/c9/70/a2bd053bd4d2114d5a9b394b8dd6ecbd9412a4c8c7fa88952d85207d58bb/skip_pydjamodb-0.1.1.tar.gz
+[2024-04-24 09:10:56] INFO root fetch - processPackages [survival-data-handler]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [survival-data-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survival_data_handler-2024.1.1.tar.gz tmp/survival_data_handler-2024.1.2.tar.gz --markdown 20240424/s/survival-data-handler/2024.1.1-2024.1.2/README.md --exclude *.pyd
+[2024-04-24 09:10:56] INFO root fetch - processPackages [collective.volto.enhancedlinks]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [collective.volto.enhancedlinks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.volto.enhancedlinks-1.1.0.tar.gz tmp/collective.volto.enhancedlinks-1.1.1.tar.gz --markdown 20240424/c/collective.volto.enhancedlinks/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-24 09:10:56] INFO root fetch - processPackages [pydantic-i18n]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [pydantic-i18n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_i18n-0.4.3.tar.gz tmp/pydantic_i18n-0.4.4.tar.gz --markdown 20240424/p/pydantic-i18n/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-24 09:10:56] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-24 09:10:56] INFO root fetch - processPackages [skip-pydjamodb]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [skip-pydjamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip_pydjamodb-0.1.0.tar.gz tmp/skip_pydjamodb-0.1.1.tar.gz --markdown 20240424/s/skip-pydjamodb/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 09:10:56] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-24 09:10:56] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240424/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-04-24 09:10:57] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.2.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.4.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 09:10:57] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 09:10:57] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 09:10:57] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 09:10:57] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 09:10:57] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-04-24 09:10:57] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.1.1.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.1.2.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - main [MainThread]: End processing [survival-data-handler]: success
+[2024-04-24 09:10:57] INFO root fetch - processPackages [collective.volto.enhancedlinks]: Remove: archive file [/home/abi/fetcher/tmp/collective.volto.enhancedlinks-1.1.0.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - processPackages [collective.volto.enhancedlinks]: Remove: archive file [/home/abi/fetcher/tmp/collective.volto.enhancedlinks-1.1.1.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - main [MainThread]: End processing [collective.volto.enhancedlinks]: success
+[2024-04-24 09:10:57] INFO root fetch - processPackages [skip-pydjamodb]: Remove: archive file [/home/abi/fetcher/tmp/skip_pydjamodb-0.1.0.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - processPackages [skip-pydjamodb]: Remove: archive file [/home/abi/fetcher/tmp/skip_pydjamodb-0.1.1.tar.gz]
+[2024-04-24 09:10:57] INFO root fetch - main [MainThread]: End processing [skip-pydjamodb]: success
+[2024-04-24 09:10:58] INFO root fetch - processPackages [odoo-addon-web-refresher]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_refresher-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-24 09:10:58] INFO root fetch - processPackages [odoo-addon-web-refresher]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_refresher-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-24 09:10:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-refresher]: success
+[2024-04-24 09:10:58] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-24 09:10:58] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-24 09:10:58] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-24 09:10:58] INFO root fetch - processPackages [pydantic-i18n]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_i18n-0.4.3.tar.gz]
+[2024-04-24 09:10:58] INFO root fetch - processPackages [pydantic-i18n]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_i18n-0.4.4.tar.gz]
+[2024-04-24 09:10:58] INFO root fetch - main [MainThread]: End processing [pydantic-i18n]: success
+[2024-04-24 09:10:58] INFO root fetch - main [MainThread]: Store serial: [22907855]
