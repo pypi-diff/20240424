@@ -15277,3 +15277,143 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:34:58] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.8.1.post1.tar.gz]
 [2024-04-24 10:34:58] INFO root fetch - main [MainThread]: End processing [networklab]: success
 [2024-04-24 10:34:58] INFO root fetch - main [MainThread]: Store serial: [22909098]
+[2024-04-24 10:37:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909098]
+[2024-04-24 10:37:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 10:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: learning-loop-node
+[2024-04-24 10:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: middleware-help-python
+[2024-04-24 10:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagster-scaleway
+[2024-04-24 10:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: siat
+[2024-04-24 10:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwb4fp
+[2024-04-24 10:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqprocessor
+[2024-04-24 10:37:07] INFO root fetch - processPackages [middleware-help-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 10:37:07] INFO root fetch - processPackages [seqprocessor]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-24 10:37:07] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.0.5] Old Version: [0.6.0.3]
+[2024-04-24 10:37:07] INFO root fetch - processPackages [siat]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-24 10:37:07] INFO root fetch - processPackages [dagster-scaleway]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 10:37:07] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/78/28/311f6163433a9218c627e6f54aa0d2df92639c89ba2a9d2ad0e356211dc8/nwb4fp-0.6.0.3.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [seqprocessor]: Downloading https://files.pythonhosted.org/packages/9d/31/8415e9c6508dfbc3828bcc62ce79416187a24f76979acdae0b471034c1da/seqprocessor-0.1.3.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [learning-loop-node]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-24 10:37:07] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/b2/aa/560bdb35d9a34118eef13a79806586a72e291637a84ee068b5d15f779422/middleware-help-python-0.0.1.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [dagster-scaleway]: Downloading https://files.pythonhosted.org/packages/1c/4b/a665adc71cb0e4c7ae037f1905c875782d2da188f3305616b055fc5990aa/dagster_scaleway-0.1.2.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-04-24 10:37:07] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.0.3-py3-none-any.whl.zip tmp/siat-3.0.4-py3-none-any.whl.zip --markdown 20240424/s/siat/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-04-24 10:37:07] INFO root fetch - processPackages [learning-loop-node]: Downloading https://files.pythonhosted.org/packages/c2/c3/d9e31c5cdd663dd4fcb72104155f27f644530d332b81c0093aeb9c8eecc0/learning_loop_node-0.9.2.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/19/cc/3872c2a9a874a8ce8dadec947a696cedae0d44ac2252a589627ecd91db78/nwb4fp-0.6.0.5.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [seqprocessor]: Downloading https://files.pythonhosted.org/packages/99/25/59a40facca678d7df1735c1baf1968d8a0af12d75fac3e782ca0e90e5f47/seqprocessor-0.1.4.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/e5/dd/3a7321e8f0504f4be7a09c704583287cb8f4f2f3d654b602e8d329ed0ba3/middleware-help-python-0.0.2.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-24 10:37:07] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.0.3.tar.gz tmp/nwb4fp-0.6.0.5.tar.gz --markdown 20240424/n/nwb4fp/0.6.0.3-0.6.0.5/README.md --exclude *.pyd
+[2024-04-24 10:37:07] INFO root fetch - processPackages [dagster-scaleway]: Downloading https://files.pythonhosted.org/packages/d2/ac/28b8e4f257cdab7e0720eb2fbf27e255a1806cf9ba3c76c956be95505509/dagster_scaleway-0.1.3.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [seqprocessor]: executing diffoscope
+[2024-04-24 10:37:07] INFO root fetch - processPackages [seqprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqprocessor-0.1.3.tar.gz tmp/seqprocessor-0.1.4.tar.gz --markdown 20240424/s/seqprocessor/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-24 10:37:07] INFO root fetch - processPackages [middleware-help-python]: executing diffoscope
+[2024-04-24 10:37:07] INFO root fetch - processPackages [middleware-help-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-help-python-0.0.1.tar.gz tmp/middleware-help-python-0.0.2.tar.gz --markdown 20240424/m/middleware-help-python/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 10:37:07] INFO root fetch - processPackages [learning-loop-node]: Downloading https://files.pythonhosted.org/packages/2a/e0/c868d70ad42da4c2eae30d2123fbdee26dc44d6ad03de70f130734246b65/learning_loop_node-0.9.3.tar.gz
+[2024-04-24 10:37:07] INFO root fetch - processPackages [dagster-scaleway]: executing diffoscope
+[2024-04-24 10:37:07] INFO root fetch - processPackages [dagster-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_scaleway-0.1.2.tar.gz tmp/dagster_scaleway-0.1.3.tar.gz --markdown 20240424/d/dagster-scaleway/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 10:37:08] INFO root fetch - processPackages [learning-loop-node]: executing diffoscope
+[2024-04-24 10:37:08] INFO root fetch - processPackages [learning-loop-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learning_loop_node-0.9.2.tar.gz tmp/learning_loop_node-0.9.3.tar.gz --markdown 20240424/l/learning-loop-node/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-24 10:37:08] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-04-24T10:37:07+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-04-24 10:37:08] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-04-24 10:37:08] INFO root fetch - processPackages [seqprocessor]: Remove: archive file [/home/abi/fetcher/tmp/seqprocessor-0.1.3.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - processPackages [seqprocessor]: Remove: archive file [/home/abi/fetcher/tmp/seqprocessor-0.1.4.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - main [MainThread]: End processing [seqprocessor]: success
+[2024-04-24 10:37:08] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.1.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.2.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - main [MainThread]: End processing [middleware-help-python]: success
+[2024-04-24 10:37:08] INFO root fetch - processPackages [dagster-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/dagster_scaleway-0.1.2.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - processPackages [dagster-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/dagster_scaleway-0.1.3.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - main [MainThread]: End processing [dagster-scaleway]: success
+[2024-04-24 10:37:08] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.3.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.5.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-24 10:37:08] INFO root fetch - processPackages [learning-loop-node]: Remove: archive file [/home/abi/fetcher/tmp/learning_loop_node-0.9.2.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - processPackages [learning-loop-node]: Remove: archive file [/home/abi/fetcher/tmp/learning_loop_node-0.9.3.tar.gz]
+[2024-04-24 10:37:08] INFO root fetch - main [MainThread]: End processing [learning-loop-node]: success
+[2024-04-24 10:37:08] INFO root fetch - main [MainThread]: Store serial: [22909116]
