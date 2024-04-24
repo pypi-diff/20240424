@@ -14664,3 +14664,65 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:10:44] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240423.tar.gz]
 [2024-04-24 10:10:44] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-04-24 10:10:44] INFO root fetch - main [MainThread]: Store serial: [22908859]
+[2024-04-24 10:12:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908859]
+[2024-04-24 10:12:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 10:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-on-whales
+[2024-04-24 10:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fissix
+[2024-04-24 10:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ekuiper
+[2024-04-24 10:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calcephpy
+[2024-04-24 10:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databricks-feature-engineering
+[2024-04-24 10:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gfagraphs
+[2024-04-24 10:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kungfupanda
+[2024-04-24 10:12:53] INFO root fetch - processPackages [gfagraphs]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-24 10:12:53] INFO root fetch - processPackages [fissix]: New version: [21.6.6] Old Version: [21.11.13]
+[2024-04-24 10:12:53] INFO root fetch - processPackages [kungfupanda]: New version: [0.8] Old Version: [0.7]
+[2024-04-24 10:12:53] INFO root fetch - processPackages [databricks-feature-engineering]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-24 10:12:53] INFO root fetch - processPackages [ekuiper]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-24 10:12:53] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/d1/31/a71fbb731c9664265ae02364247f8001a828e63f4c763e0d605e62d32254/gfagraphs-0.3.0.tar.gz
+[2024-04-24 10:12:53] INFO root fetch - processPackages [calcephpy]: New version: [4.0.0] Old Version: [3.5.5]
+[2024-04-24 10:12:53] INFO root fetch - processPackages [python-on-whales]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-24 10:12:53] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/11/fb/fd59ec0d032da628a6fcc52ced808c72f4d541f577922bdfc358c982aaec/kungfupanda-0.7.tar.gz
+[2024-04-24 10:12:53] INFO root fetch - processPackages [databricks-feature-engineering]: Downloading https://files.pythonhosted.org/packages/5c/bc/d5f57ae1624ab27c207588cc42bb33d59575279d640aec83636af97a2c5d/databricks_feature_engineering-0.3.0-py3-none-any.whl
+[2024-04-24 10:12:53] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2024-04-24 10:12:53] INFO root fetch - processPackages [python-on-whales]: Downloading https://files.pythonhosted.org/packages/0c/de/d0175a21add24a0aa116a24f4ad4a78b8304f3f520b6637d75dfbeccaf3c/python-on-whales-0.9.0.tar.gz
+[2024-04-24 10:12:53] INFO root fetch - processPackages [calcephpy]: Downloading https://files.pythonhosted.org/packages/72/f4/4e28ac73197b9ad8882888302186006ddcda1389334fbf4d429e97a4271b/calcephpy-3.5.5.tar.gz
+[2024-04-24 10:12:53] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/02/cb/b9219e37ade9ea6f620e1945533ff6c73489069eb538d791044b5f612eb4/kungfupanda-0.8.tar.gz
+[2024-04-24 10:12:53] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/cc/41/d5fdf093a4cff6966b4605b317636535c469515a2c963c5ce40e31cdd702/gfagraphs-0.3.1.tar.gz
+[2024-04-24 10:12:53] WARNING root fetch - processPackages [calcephpy]: Skipping package: exceeds size limit 24612265>=10485760
+[2024-04-24 10:12:53] INFO root fetch - main [MainThread]: End processing [calcephpy] error
+[2024-04-24 10:12:53] INFO root fetch - processPackages [fissix]: Downloading https://files.pythonhosted.org/packages/94/cb/fe0df0273fd88dbaa4b0c6ed6b7e3e1dc5348f9595622b81da32499197bb/fissix-21.11.13.tar.gz
+[2024-04-24 10:12:53] INFO root fetch - processPackages [kungfupanda]: executing diffoscope
+[2024-04-24 10:12:53] INFO root fetch - processPackages [kungfupanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kungfupanda-0.7.tar.gz tmp/kungfupanda-0.8.tar.gz --markdown 20240424/k/kungfupanda/0.7-0.8/README.md --exclude *.pyd
+[2024-04-24 10:12:53] INFO root fetch - processPackages [gfagraphs]: executing diffoscope
+[2024-04-24 10:12:53] INFO root fetch - processPackages [gfagraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfagraphs-0.3.0.tar.gz tmp/gfagraphs-0.3.1.tar.gz --markdown 20240424/g/gfagraphs/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-24 10:12:53] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/44/cc/47ea2cdc9e522f5d6468310623a50fd5720f9088e52c7eaea835ac05e235/ekuiper-1.9.2.tar.gz
+[2024-04-24 10:12:53] INFO root fetch - processPackages [databricks-feature-engineering]: Downloading https://files.pythonhosted.org/packages/1e/e9/885956ba8e6f41d92113764d8ecfb1f47c5caebe92fd5e915de264753091/databricks_feature_engineering-0.4.0-py3-none-any.whl
+[2024-04-24 10:12:53] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2024-04-24 10:12:53] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.1.tar.gz tmp/ekuiper-1.9.2.tar.gz --markdown 20240424/e/ekuiper/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-24 10:12:53] INFO root fetch - processPackages [fissix]: Downloading https://files.pythonhosted.org/packages/45/0f/d2d0a61c5b3bb1a2d5e677996ee12f3a3505551f70c3bad17cc1a2a631bb/fissix-21.6.6.tar.gz
+[2024-04-24 10:12:53] INFO root fetch - processPackages [python-on-whales]: Downloading https://files.pythonhosted.org/packages/b9/5b/0086caaf50bcfe2ed377d292d379aa4c7b4cb19fda4fa69159452c73dccb/python-on-whales-0.9.1.tar.gz
+[2024-04-24 10:12:54] INFO root fetch - processPackages [databricks-feature-engineering]: executing diffoscope
+[2024-04-24 10:12:54] INFO root fetch - processPackages [databricks-feature-engineering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_feature_engineering-0.3.0-py3-none-any.whl.zip tmp/databricks_feature_engineering-0.4.0-py3-none-any.whl.zip --markdown 20240424/d/databricks-feature-engineering/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-24 10:12:54] INFO root fetch - processPackages [python-on-whales]: executing diffoscope
+[2024-04-24 10:12:54] INFO root fetch - processPackages [python-on-whales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-on-whales-0.9.0.tar.gz tmp/python-on-whales-0.9.1.tar.gz --markdown 20240424/p/python-on-whales/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-24 10:12:54] INFO root fetch - processPackages [fissix]: executing diffoscope
+[2024-04-24 10:12:54] INFO root fetch - processPackages [fissix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fissix-21.11.13.tar.gz tmp/fissix-21.6.6.tar.gz --markdown 20240424/f/fissix/21.11.13-21.6.6/README.md --exclude *.pyd
+[2024-04-24 10:12:54] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.7.tar.gz]
+[2024-04-24 10:12:54] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.8.tar.gz]
+[2024-04-24 10:12:54] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
+[2024-04-24 10:12:54] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.3.0.tar.gz]
+[2024-04-24 10:12:54] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.3.1.tar.gz]
+[2024-04-24 10:12:54] INFO root fetch - main [MainThread]: End processing [gfagraphs]: success
+[2024-04-24 10:12:54] INFO root fetch - processPackages [ekuiper]: Remove: archive file [/home/abi/fetcher/tmp/ekuiper-1.9.1.tar.gz]
+[2024-04-24 10:12:54] INFO root fetch - processPackages [ekuiper]: Remove: archive file [/home/abi/fetcher/tmp/ekuiper-1.9.2.tar.gz]
+[2024-04-24 10:12:54] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2024-04-24 10:12:55] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.0.tar.gz]
+[2024-04-24 10:12:55] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.1.tar.gz]
+[2024-04-24 10:12:55] INFO root fetch - main [MainThread]: End processing [python-on-whales]: success
+[2024-04-24 10:12:55] INFO root fetch - processPackages [fissix]: Remove: archive file [/home/abi/fetcher/tmp/fissix-21.11.13.tar.gz]
+[2024-04-24 10:12:55] INFO root fetch - processPackages [fissix]: Remove: archive file [/home/abi/fetcher/tmp/fissix-21.6.6.tar.gz]
+[2024-04-24 10:12:55] INFO root fetch - main [MainThread]: End processing [fissix]: success
+[2024-04-24 10:12:55] INFO root fetch - processPackages [databricks-feature-engineering]: Remove: archive file [/home/abi/fetcher/tmp/databricks_feature_engineering-0.3.0-py3-none-any.whl.zip]
+[2024-04-24 10:12:55] INFO root fetch - processPackages [databricks-feature-engineering]: Remove: archive file [/home/abi/fetcher/tmp/databricks_feature_engineering-0.4.0-py3-none-any.whl.zip]
+[2024-04-24 10:12:55] INFO root fetch - main [MainThread]: End processing [databricks-feature-engineering]: success
+[2024-04-24 10:12:55] INFO root fetch - main [MainThread]: Store serial: [22908879]
