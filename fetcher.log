@@ -12115,3 +12115,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:29:28] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.4.9.tar.gz]
 [2024-04-24 08:29:28] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
 [2024-04-24 08:29:28] INFO root fetch - main [MainThread]: Store serial: [22907555]
+[2024-04-24 08:31:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907555]
+[2024-04-24 08:31:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 08:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shuangchentools
+[2024-04-24 08:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: load-envfile
+[2024-04-24 08:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plone.staticresources
+[2024-04-24 08:31:36] INFO root fetch - processPackages [load-envfile]: New version: [0.5] Old Version: [0.3]
+[2024-04-24 08:31:37] INFO root fetch - processPackages [load-envfile]: Downloading https://files.pythonhosted.org/packages/e7/28/be12c0ddbb7735325e148a22f703b1ce0d97619d2acf10d462c9cb3c5322/load_envfile-0.3.tar.gz
+[2024-04-24 08:31:37] INFO root fetch - processPackages [shuangchentools]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 08:31:37] INFO root fetch - processPackages [plone.staticresources]: New version: [2.2.0a6] Old Version: [2.2.0a5]
+[2024-04-24 08:31:37] INFO root fetch - processPackages [shuangchentools]: Downloading https://files.pythonhosted.org/packages/e7/a7/9ff9bc54bb6e81d2eb9b6c96b74099c0eb34da7136346c78f6f382bfb8cc/shuangchentools-0.0.2.tar.gz
+[2024-04-24 08:31:37] INFO root fetch - processPackages [plone.staticresources]: Downloading https://files.pythonhosted.org/packages/e6/4f/3d01439c55b2ba167ed5c9f6c82f7346e2f60ee2c0d3cdcf8ae16ae7025b/plone.staticresources-2.2.0a5.tar.gz
+[2024-04-24 08:31:37] WARNING root fetch - processPackages [plone.staticresources]: Skipping package: exceeds size limit 11277640>=10485760
+[2024-04-24 08:31:37] INFO root fetch - main [MainThread]: End processing [plone.staticresources] error
+[2024-04-24 08:31:37] INFO root fetch - processPackages [load-envfile]: Downloading https://files.pythonhosted.org/packages/e2/f0/ec87b6cf8dbf1743f6f9dfa472b93d3bd98c51747c583301bf47165a83d9/load_envfile-0.5.tar.gz
+[2024-04-24 08:31:37] INFO root fetch - processPackages [load-envfile]: executing diffoscope
+[2024-04-24 08:31:37] INFO root fetch - processPackages [load-envfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/load_envfile-0.3.tar.gz tmp/load_envfile-0.5.tar.gz --markdown 20240424/l/load-envfile/0.3-0.5/README.md --exclude *.pyd
+[2024-04-24 08:31:37] INFO root fetch - processPackages [shuangchentools]: Downloading https://files.pythonhosted.org/packages/82/c8/627b40da07d132e944ba73969e562c8173aaa6065e8bc956a83f959c2181/shuangchentools-0.0.3.tar.gz
+[2024-04-24 08:31:37] INFO root fetch - processPackages [shuangchentools]: executing diffoscope
+[2024-04-24 08:31:37] INFO root fetch - processPackages [shuangchentools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shuangchentools-0.0.2.tar.gz tmp/shuangchentools-0.0.3.tar.gz --markdown 20240424/s/shuangchentools/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 08:31:37] INFO root fetch - processPackages [load-envfile]: Remove: archive file [/home/abi/fetcher/tmp/load_envfile-0.3.tar.gz]
+[2024-04-24 08:31:37] INFO root fetch - processPackages [load-envfile]: Remove: archive file [/home/abi/fetcher/tmp/load_envfile-0.5.tar.gz]
+[2024-04-24 08:31:37] INFO root fetch - main [MainThread]: End processing [load-envfile]: success
+[2024-04-24 08:31:38] INFO root fetch - processPackages [shuangchentools]: Remove: archive file [/home/abi/fetcher/tmp/shuangchentools-0.0.2.tar.gz]
+[2024-04-24 08:31:38] INFO root fetch - processPackages [shuangchentools]: Remove: archive file [/home/abi/fetcher/tmp/shuangchentools-0.0.3.tar.gz]
+[2024-04-24 08:31:38] INFO root fetch - main [MainThread]: End processing [shuangchentools]: success
+[2024-04-24 08:31:38] INFO root fetch - main [MainThread]: Store serial: [22907570]
