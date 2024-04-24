@@ -9899,3 +9899,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:20:10] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
 [2024-04-24 06:20:10] INFO root fetch - main [MainThread]: End processing [dxsp]: success
 [2024-04-24 06:20:10] INFO root fetch - main [MainThread]: Store serial: [22906726]
+[2024-04-24 06:22:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906726]
+[2024-04-24 06:22:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 06:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-interop
+[2024-04-24 06:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldjcourse
+[2024-04-24 06:22:19] INFO root fetch - processPackages [ldjcourse]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-24 06:22:19] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/3a/31/944ae63f69490efebbc2f4556eb2ac64676a29db8789c6251853b8cf45a2/ldjcourse-0.0.7.8.tar.gz
+[2024-04-24 06:22:19] INFO root fetch - processPackages [mojo-interop]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-24 06:22:19] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/b4/fa/c89a3aa31269ae21e83af15a6525b1a74639b9340e4abaf00fe86c9ceb50/ldjcourse-0.0.7.9.tar.gz
+[2024-04-24 06:22:19] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ab/a3/0b2448c3a7eaadce81ead97a0284b9eadde7fc11421c8a8ada144f88abe0/mojo_interop-1.3.8.tar.gz
+[2024-04-24 06:22:20] INFO root fetch - processPackages [ldjcourse]: executing diffoscope
+[2024-04-24 06:22:20] INFO root fetch - processPackages [ldjcourse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldjcourse-0.0.7.8.tar.gz tmp/ldjcourse-0.0.7.9.tar.gz --markdown 20240424/l/ldjcourse/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-24 06:22:20] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/87/86/ce6cbddd16154ffb5e383dbb481e623cb803fa9711c753daaa0ee1b22cef/mojo_interop-1.3.9.tar.gz
+[2024-04-24 06:22:20] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.8.tar.gz]
+[2024-04-24 06:22:20] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.9.tar.gz]
+[2024-04-24 06:22:20] INFO root fetch - main [MainThread]: End processing [ldjcourse]: success
+[2024-04-24 06:22:20] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2024-04-24 06:22:20] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-1.3.8.tar.gz tmp/mojo_interop-1.3.9.tar.gz --markdown 20240424/m/mojo-interop/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-24 06:22:22] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-1.3.8.tar.gz]
+[2024-04-24 06:22:22] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-1.3.9.tar.gz]
+[2024-04-24 06:22:22] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2024-04-24 06:22:22] INFO root fetch - main [MainThread]: Store serial: [22906732]
