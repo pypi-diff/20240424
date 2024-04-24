@@ -2661,3 +2661,150 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:27:58] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-24 02:27:58] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-04-24 02:27:58] INFO root fetch - main [MainThread]: Store serial: [22903869]
+[2024-04-24 02:30:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903869]
+[2024-04-24 02:30:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-serverless-clamscan
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autofeather-dash-mantine-components
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqqq
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clichatapp
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easybloom
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linkture
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gravithon
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-aurora-globaldatabase
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-certbot-dns-route53
+[2024-04-24 02:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jsx
+[2024-04-24 02:30:07] INFO root fetch - processPackages [gravithon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 02:30:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-24 02:30:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-24 02:30:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-24 02:30:07] WARNING root fetch - processPackages [clichatapp]: Skipping, unable to determine old version
+[2024-04-24 02:30:07] INFO root fetch - processPackages [jsx]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-24 02:30:07] WARNING root fetch - processPackages [autofeather-dash-mantine-components]: Skipping, unable to determine old version
+[2024-04-24 02:30:07] INFO root fetch - processPackages [clichatapp]: Start processing: cdk-gitlab-runner
+[2024-04-24 02:30:07] INFO root fetch - main [MainThread]: End processing [clichatapp] error
+[2024-04-24 02:30:07] INFO root fetch - processPackages [pyqqq]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-04-24 02:30:07] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Start processing: model-hub
+[2024-04-24 02:30:07] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/f6/b8/a0455b3e618c7eba6957d6891d43d6c3a775909ec5530b4466cb0db8a404/gravithon-0.0.8.tar.gz
+[2024-04-24 02:30:07] INFO root fetch - main [MainThread]: End processing [autofeather-dash-mantine-components] error
+[2024-04-24 02:30:07] WARNING root fetch - processPackages [linkture]: Skipping, unable to determine old version
+[2024-04-24 02:30:07] INFO root fetch - processPackages [linkture]: Start processing: crumbly
+[2024-04-24 02:30:07] INFO root fetch - main [MainThread]: End processing [linkture] error
+[2024-04-24 02:30:07] INFO root fetch - processPackages [easybloom]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 02:30:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-24 02:30:07] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-24 02:30:07] INFO root fetch - processPackages [model-hub]: New version: [0.31.1rc0] Old Version: [0.31.0rc7]
+[2024-04-24 02:30:07] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-24 02:30:07] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/41/f5/df96b3d2c35838e98beac3317c2323215dee6664efaf4582ee270df7154f/pyqqq-0.8.6.tar.gz
+[2024-04-24 02:30:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-24 02:30:07] INFO root fetch - processPackages [easybloom]: Downloading https://files.pythonhosted.org/packages/2a/c7/ca10eb51f5e76ef40e42bdf04d40889f5c034c33c070b9e0efa640b22434/easybloom-0.1.0.tar.gz
+[2024-04-24 02:30:07] INFO root fetch - processPackages [crumbly]: New version: [1.2.1] Old Version: [1.2]
+[2024-04-24 02:30:07] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-24 02:30:07] INFO root fetch - processPackages [jsx]: Downloading https://files.pythonhosted.org/packages/33/50/2fb2b6323b24d9b84ebfad852ccce2fe707706238563b691fe2add086fa3/jsx-0.6.3.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [gravithon]: Downloading https://files.pythonhosted.org/packages/cd/0d/500a5434077c6a4432a6db2432d0d609036e2d8a8df5e49c28beab6373c9/gravithon-0.0.9.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/c7/20/f02e4e20dbb9cf255f3301387a4d2b57ed85162e69241a35060ba242c85a/model_hub-0.31.0rc7-py3-none-any.whl
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [crumbly]: Downloading https://files.pythonhosted.org/packages/e2/ab/70b366f0c505931e540bce165bd06b1934a8a0b52f7d7c2abdc7aca49e01/crumbly-1.2.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [gravithon]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [gravithon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravithon-0.0.8.tar.gz tmp/gravithon-0.0.9.tar.gz --markdown 20240424/g/gravithon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/e4/92/4c116589300d35852cc6e8e67c9a12c32f4860c81f5693a6f7cbd0c18034/pyqqq-0.8.7.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [easybloom]: Downloading https://files.pythonhosted.org/packages/9e/4b/84ca046d825248ac241bd0d955a9665440a64d3de5262d476b5376991c02/easybloom-0.1.1.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240424/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240424/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [jsx]: Downloading https://files.pythonhosted.org/packages/09/15/a6460cc55f5b53c1f0a31f317b0f3b6c67f4f712151da190cf804c60f7d8/jsx-0.6.4.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240424/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.8.6.tar.gz tmp/pyqqq-0.8.7.tar.gz --markdown 20240424/p/pyqqq/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240424/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/68/22/ad433f17cc97bcd0be7e0834c877e90926e19a7aebaa1364268a39d344cb/model_hub-0.31.1rc0-py3-none-any.whl
+[2024-04-24 02:30:08] INFO root fetch - processPackages [easybloom]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [easybloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybloom-0.1.0.tar.gz tmp/easybloom-0.1.1.tar.gz --markdown 20240424/e/easybloom/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [jsx]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [jsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsx-0.6.3.tar.gz tmp/jsx-0.6.4.tar.gz --markdown 20240424/j/jsx/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [crumbly]: Downloading https://files.pythonhosted.org/packages/24/e6/4f8dc8ca1b918681ab1a4b814019abf44a2ebf3521c4cc580dab4022e5a8/crumbly-1.2.1.tar.gz
+[2024-04-24 02:30:08] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.31.0rc7-py3-none-any.whl.zip tmp/model_hub-0.31.1rc0-py3-none-any.whl.zip --markdown 20240424/m/model-hub/0.31.0rc7-0.31.1rc0/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [crumbly]: executing diffoscope
+[2024-04-24 02:30:08] INFO root fetch - processPackages [crumbly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crumbly-1.2.tar.gz tmp/crumbly-1.2.1.tar.gz --markdown 20240424/c/crumbly/1.2-1.2.1/README.md --exclude *.pyd
+[2024-04-24 02:30:08] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.8.tar.gz]
+[2024-04-24 02:30:08] INFO root fetch - processPackages [gravithon]: Remove: archive file [/home/abi/fetcher/tmp/gravithon-0.0.9.tar.gz]
+[2024-04-24 02:30:08] INFO root fetch - processPackages [gravithon]: Start processing: determined
+[2024-04-24 02:30:08] INFO root fetch - main [MainThread]: End processing [gravithon]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [determined]: New version: [0.31.1rc0] Old Version: [0.31.0rc7]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: easybloom
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [easybloom]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: static-ffmpeg
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/64/bb/672a3b630118736efae69b603c34b135682017c35a29655f76fb47b76e35/determined-0.31.0rc7-py3-none-any.whl
+[2024-04-24 02:30:09] INFO root fetch - processPackages [easybloom]: executing diffoscope
+[2024-04-24 02:30:09] INFO root fetch - processPackages [easybloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybloom-0.1.0.tar.gz tmp/easybloom-0.1.1.tar.gz --markdown 20240424/e/easybloom/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-serverless-clamscan]: Start processing: pyqqq-cli
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [easybloom]: Remove: archive file [/home/abi/fetcher/tmp/easybloom-0.1.0.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [easybloom]: Remove: archive file [/home/abi/fetcher/tmp/easybloom-0.1.1.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [easybloom]: Start processing: aeppl-nightly
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [easybloom]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [static-ffmpeg]: New version: [2.7] Old Version: [2.5]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240423] Old Version: [0.1.5.dev20240422]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [crumbly]: Remove: archive file [/home/abi/fetcher/tmp/crumbly-1.2.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [crumbly]: Remove: archive file [/home/abi/fetcher/tmp/crumbly-1.2.1.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [crumbly]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.8.6.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.8.7.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.0rc7-py3-none-any.whl.zip]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.31.1rc0-py3-none-any.whl.zip]
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/76/8e/319fdd880e194fa83bfd3f4318042f61b981c23a55e88286df5d3e38b361/aeppl_nightly-0.1.5.dev20240422.tar.gz
+[2024-04-24 02:30:09] INFO root fetch - processPackages [jsx]: Remove: archive file [/home/abi/fetcher/tmp/jsx-0.6.3.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - processPackages [jsx]: Remove: archive file [/home/abi/fetcher/tmp/jsx-0.6.4.tar.gz]
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [jsx]: success
+[2024-04-24 02:30:09] INFO root fetch - processPackages [static-ffmpeg]: Downloading https://files.pythonhosted.org/packages/cd/ce/c196ac40956e2e99b07a6c25a3defde3e87e9569bdb9ebbf6897c8f4ec4e/static_ffmpeg-2.5.tar.gz
+[2024-04-24 02:30:09] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/8a/03/f17178f670a2a83bff516a48d9a2b2b76162c0e22352a708ee6c18dcf29f/determined-0.31.1rc0-py3-none-any.whl
+[2024-04-24 02:30:09] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/58/3c/82c565f4d039f7219da396f2117440d91b784435131c7f6a03d74afa4b7e/pyqqq_cli-0.2.6.tar.gz
+[2024-04-24 02:30:09] ERROR root fetch - processPackages [easybloom]: Diffoscope failed: time="2024-04-24T02:30:09+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/easybloom-0.1.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/easybloom-0.1.1.tar.gz: No such file or directory
+
+[2024-04-24 02:30:09] INFO root fetch - main [MainThread]: End processing [easybloom] error
+[2024-04-24 02:30:10] INFO root fetch - processPackages [determined]: executing diffoscope
+[2024-04-24 02:30:10] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.31.0rc7-py3-none-any.whl.zip tmp/determined-0.31.1rc0-py3-none-any.whl.zip --markdown 20240424/d/determined/0.31.0rc7-0.31.1rc0/README.md --exclude *.pyd
+[2024-04-24 02:30:10] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/b3/2e/a8238d34346e75d8b744ab78454186b00b48d260e977696408f140b98101/aeppl_nightly-0.1.5.dev20240423.tar.gz
+[2024-04-24 02:30:10] INFO root fetch - processPackages [static-ffmpeg]: Downloading https://files.pythonhosted.org/packages/58/77/1a160360a82d3b152bba3bfb850181ade1af6f53767813de7adb3fd50c8e/static_ffmpeg-2.7.tar.gz
+[2024-04-24 02:30:10] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-24 02:30:10] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240422.tar.gz tmp/aeppl_nightly-0.1.5.dev20240423.tar.gz --markdown 20240424/a/aeppl-nightly/0.1.5.dev20240422-0.1.5.dev20240423/README.md --exclude *.pyd
+[2024-04-24 02:30:10] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/78/c0/7a9f59aac4cd2dab4d5ab5c76d43ab2a2e13d6381c93926362bf3b4fa9d6/pyqqq_cli-0.2.7.tar.gz
+[2024-04-24 02:30:10] INFO root fetch - processPackages [static-ffmpeg]: executing diffoscope
+[2024-04-24 02:30:10] INFO root fetch - processPackages [static-ffmpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static_ffmpeg-2.5.tar.gz tmp/static_ffmpeg-2.7.tar.gz --markdown 20240424/s/static-ffmpeg/2.5-2.7/README.md --exclude *.pyd
+[2024-04-24 02:30:10] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-04-24 02:30:10] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.2.6.tar.gz tmp/pyqqq_cli-0.2.7.tar.gz --markdown 20240424/p/pyqqq-cli/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-24 02:30:10] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240422.tar.gz]
+[2024-04-24 02:30:10] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240423.tar.gz]
+[2024-04-24 02:30:10] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-24 02:30:10] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.6.tar.gz]
+[2024-04-24 02:30:10] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.7.tar.gz]
+[2024-04-24 02:30:10] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-04-24 02:30:10] INFO root fetch - processPackages [static-ffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/static_ffmpeg-2.5.tar.gz]
+[2024-04-24 02:30:10] INFO root fetch - processPackages [static-ffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/static_ffmpeg-2.7.tar.gz]
+[2024-04-24 02:30:10] INFO root fetch - main [MainThread]: End processing [static-ffmpeg]: success
+[2024-04-24 02:30:12] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.0rc7-py3-none-any.whl.zip]
+[2024-04-24 02:30:12] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.31.1rc0-py3-none-any.whl.zip]
+[2024-04-24 02:30:12] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2024-04-24 02:30:12] INFO root fetch - main [MainThread]: Store serial: [22903949]
