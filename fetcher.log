@@ -3008,3 +3008,67 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:39:21] INFO root fetch - processPackages [amaranth-yosys]: Remove: archive file [/home/abi/fetcher/tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip]
 [2024-04-24 02:39:21] INFO root fetch - main [MainThread]: End processing [amaranth-yosys]: success
 [2024-04-24 02:39:21] INFO root fetch - main [MainThread]: Store serial: [22904059]
+[2024-04-24 02:41:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22904059]
+[2024-04-24 02:41:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 02:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doctran_openai
+[2024-04-24 02:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2024-04-24 02:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easybloom
+[2024-04-24 02:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exetimer
+[2024-04-24 02:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easybloom
+[2024-04-24 02:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aider-chat
+[2024-04-24 02:41:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-ecs-service-extensions
+[2024-04-24 02:41:32] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 02:41:32] INFO root fetch - processPackages [easybloom]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 02:41:32] INFO root fetch - processPackages [easybloom]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 02:41:32] INFO root fetch - processPackages [exetimer]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 02:41:32] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 02:41:32] INFO root fetch - processPackages [easybloom]: Downloading https://files.pythonhosted.org/packages/2a/c7/ca10eb51f5e76ef40e42bdf04d40889f5c034c33c070b9e0efa640b22434/easybloom-0.1.0.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [aider-chat]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-24 02:41:32] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-24 02:41:32] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [easybloom]: Downloading https://files.pythonhosted.org/packages/2a/c7/ca10eb51f5e76ef40e42bdf04d40889f5c034c33c070b9e0efa640b22434/easybloom-0.1.0.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [exetimer]: Downloading https://files.pythonhosted.org/packages/0d/67/04313bac698129fbc76a0a0472a73fdd51b41c0e7bdd3071d123da47a531/exetimer-0.0.3.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/97/6d/6e7b681204d0890d7a1d07928f1168e3e15b16856958c5b3934aa123f438/aider-chat-0.8.3.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [easybloom]: Downloading https://files.pythonhosted.org/packages/9e/4b/84ca046d825248ac241bd0d955a9665440a64d3de5262d476b5376991c02/easybloom-0.1.1.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [easybloom]: Downloading https://files.pythonhosted.org/packages/9e/4b/84ca046d825248ac241bd0d955a9665440a64d3de5262d476b5376991c02/easybloom-0.1.1.tar.gz
+[2024-04-24 02:41:32] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-24 02:41:33] INFO root fetch - processPackages [easybloom]: executing diffoscope
+[2024-04-24 02:41:33] INFO root fetch - processPackages [easybloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybloom-0.1.0.tar.gz tmp/easybloom-0.1.1.tar.gz --markdown 20240424/e/easybloom/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 02:41:33] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-24 02:41:33] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240424/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 02:41:33] INFO root fetch - processPackages [easybloom]: executing diffoscope
+[2024-04-24 02:41:33] INFO root fetch - processPackages [easybloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybloom-0.1.0.tar.gz tmp/easybloom-0.1.1.tar.gz --markdown 20240424/e/easybloom/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 02:41:33] INFO root fetch - processPackages [exetimer]: Downloading https://files.pythonhosted.org/packages/80/a7/dfeafeb01ec150ff229c7b27a20437cb4d9f15f8f2279271c3e65d60b399/exetimer-0.0.4.tar.gz
+[2024-04-24 02:41:33] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-24 02:41:33] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240424/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 02:41:33] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/27/f3/89e2047247691d2f850711b47e321bccb308fdcd459ee406fc6fd652d143/aider-chat-0.9.0.tar.gz
+[2024-04-24 02:41:33] INFO root fetch - processPackages [exetimer]: executing diffoscope
+[2024-04-24 02:41:33] INFO root fetch - processPackages [exetimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exetimer-0.0.3.tar.gz tmp/exetimer-0.0.4.tar.gz --markdown 20240424/e/exetimer/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 02:41:33] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2024-04-24 02:41:33] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.8.3.tar.gz tmp/aider-chat-0.9.0.tar.gz --markdown 20240424/a/aider-chat/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-24 02:41:33] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-24 02:41:33] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-24 02:41:33] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240424/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-04-24 02:41:33] INFO root fetch - processPackages [easybloom]: Remove: archive file [/home/abi/fetcher/tmp/easybloom-0.1.0.tar.gz]
+[2024-04-24 02:41:33] INFO root fetch - processPackages [easybloom]: Remove: archive file [/home/abi/fetcher/tmp/easybloom-0.1.1.tar.gz]
+[2024-04-24 02:41:33] INFO root fetch - main [MainThread]: End processing [easybloom]: success
+[2024-04-24 02:41:33] INFO root fetch - main [MainThread]: End processing [easybloom]: success
+[2024-04-24 02:41:33] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-24 02:41:33] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-04-24 02:41:33] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-24 02:41:33] INFO root fetch - processPackages [exetimer]: Remove: archive file [/home/abi/fetcher/tmp/exetimer-0.0.3.tar.gz]
+[2024-04-24 02:41:33] INFO root fetch - processPackages [exetimer]: Remove: archive file [/home/abi/fetcher/tmp/exetimer-0.0.4.tar.gz]
+[2024-04-24 02:41:33] INFO root fetch - main [MainThread]: End processing [exetimer]: success
+[2024-04-24 02:41:33] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-24 02:41:33] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-24 02:41:33] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-24 02:41:34] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.3.tar.gz]
+[2024-04-24 02:41:34] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.9.0.tar.gz]
+[2024-04-24 02:41:34] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2024-04-24 02:41:34] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-24 02:41:34] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-24 02:41:34] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-24 02:41:34] INFO root fetch - main [MainThread]: Store serial: [22904086]
