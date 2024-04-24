@@ -13782,3 +13782,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:39:40] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-0.9.2.tar.gz]
 [2024-04-24 09:39:40] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
 [2024-04-24 09:39:40] INFO root fetch - main [MainThread]: Store serial: [22908529]
+[2024-04-24 09:41:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908529]
+[2024-04-24 09:41:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 09:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fetch-sitemap
+[2024-04-24 09:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorflow-gnn
+[2024-04-24 09:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beakerx
+[2024-04-24 09:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-invoice-line-default-account
+[2024-04-24 09:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: valmi-connector-lib
+[2024-04-24 09:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fog-x
+[2024-04-24 09:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redturtle.voltoplugin.editablefooter
+[2024-04-24 09:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cereja
+[2024-04-24 09:41:50] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-24 09:41:50] WARNING root fetch - processPackages [fog-x]: Skipping, unable to determine old version
+[2024-04-24 09:41:50] INFO root fetch - main [MainThread]: End processing [fog-x] error
+[2024-04-24 09:41:50] INFO root fetch - processPackages [tensorflow-gnn]: New version: [1.0.3rc0] Old Version: [1.0.2rc1]
+[2024-04-24 09:41:50] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 09:41:50] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-24 09:41:50] INFO root fetch - processPackages [beakerx]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-04-24 09:41:50] INFO root fetch - processPackages [redturtle.voltoplugin.editablefooter]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-24 09:41:50] WARNING root fetch - processPackages [odoo-addon-account-invoice-line-default-account]: Skipping, unable to determine old version
+[2024-04-24 09:41:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-line-default-account] error
+[2024-04-24 09:41:50] INFO root fetch - processPackages [cereja]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-24 09:41:50] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-24 09:41:50] INFO root fetch - processPackages [tensorflow-gnn]: Downloading https://files.pythonhosted.org/packages/ba/fb/b1dd60955b1b7e1e78619f726b6a754896a9a39dec34de52b70d0c4b5a5a/tensorflow-gnn-1.0.2rc1.tar.gz
+[2024-04-24 09:41:50] INFO root fetch - processPackages [beakerx]: Downloading https://files.pythonhosted.org/packages/a3/39/5ef7026edf449e9accbb7b71e8d60a1216a6e6db91878d0c9dd156af735f/beakerx-2.4.2.tar.gz
+[2024-04-24 09:41:50] INFO root fetch - processPackages [redturtle.voltoplugin.editablefooter]: Downloading https://files.pythonhosted.org/packages/2a/60/aa4e5e056d334a1baa5e45998d43789ad9552479ddd78588943e815a9b1f/redturtle.voltoplugin.editablefooter-1.3.2.tar.gz
+[2024-04-24 09:41:50] INFO root fetch - processPackages [cereja]: Downloading https://files.pythonhosted.org/packages/2f/56/ba8812019c1ece9ee22d0ae0afd25bf12ccd57816e7bf5de2a9cd2bd2f32/cereja-1.9.8.tar.gz
+[2024-04-24 09:41:51] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-24 09:41:51] WARNING root fetch - processPackages [beakerx]: Skipping package: exceeds size limit 73040468>=10485760
+[2024-04-24 09:41:51] INFO root fetch - main [MainThread]: End processing [beakerx] error
+[2024-04-24 09:41:51] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-24 09:41:51] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240424/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-24 09:41:51] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-24 09:41:51] INFO root fetch - processPackages [cereja]: Downloading https://files.pythonhosted.org/packages/eb/a6/59c3f737c406a8d2d327a65ae7bfc75dd7b00e47ed9c37efdbacff449093/cereja-1.9.9.tar.gz
+[2024-04-24 09:41:51] INFO root fetch - processPackages [tensorflow-gnn]: Downloading https://files.pythonhosted.org/packages/88/58/5f1f3e0dcf0a1f87af76856b262c0a6beeefd220ac24d5c26c0115112bde/tensorflow-gnn-1.0.3rc0.tar.gz
+[2024-04-24 09:41:51] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-24 09:41:51] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240424/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 09:41:51] INFO root fetch - processPackages [redturtle.voltoplugin.editablefooter]: Downloading https://files.pythonhosted.org/packages/3d/1e/0de6b1ba63c8e8e9446c828db01052f62f4e6aaac2ddf3dc8f7552b43f28/redturtle.voltoplugin.editablefooter-1.3.3.tar.gz
+[2024-04-24 09:41:51] INFO root fetch - processPackages [tensorflow-gnn]: executing diffoscope
+[2024-04-24 09:41:51] INFO root fetch - processPackages [tensorflow-gnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-gnn-1.0.2rc1.tar.gz tmp/tensorflow-gnn-1.0.3rc0.tar.gz --markdown 20240424/t/tensorflow-gnn/1.0.2rc1-1.0.3rc0/README.md --exclude *.pyd
+[2024-04-24 09:41:51] INFO root fetch - processPackages [cereja]: executing diffoscope
+[2024-04-24 09:41:51] INFO root fetch - processPackages [cereja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cereja-1.9.8.tar.gz tmp/cereja-1.9.9.tar.gz --markdown 20240424/c/cereja/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-24 09:41:51] INFO root fetch - processPackages [redturtle.voltoplugin.editablefooter]: executing diffoscope
+[2024-04-24 09:41:51] INFO root fetch - processPackages [redturtle.voltoplugin.editablefooter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.voltoplugin.editablefooter-1.3.2.tar.gz tmp/redturtle.voltoplugin.editablefooter-1.3.3.tar.gz --markdown 20240424/r/redturtle.voltoplugin.editablefooter/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-04-24 09:41:51] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-24 09:41:51] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-24 09:41:51] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-24 09:41:52] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-24 09:41:52] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-24 09:41:52] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-24 09:41:52] INFO root fetch - processPackages [redturtle.voltoplugin.editablefooter]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.voltoplugin.editablefooter-1.3.2.tar.gz]
+[2024-04-24 09:41:52] INFO root fetch - processPackages [redturtle.voltoplugin.editablefooter]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.voltoplugin.editablefooter-1.3.3.tar.gz]
+[2024-04-24 09:41:52] INFO root fetch - main [MainThread]: End processing [redturtle.voltoplugin.editablefooter]: success
+[2024-04-24 09:41:52] INFO root fetch - processPackages [cereja]: Remove: archive file [/home/abi/fetcher/tmp/cereja-1.9.8.tar.gz]
+[2024-04-24 09:41:52] INFO root fetch - processPackages [cereja]: Remove: archive file [/home/abi/fetcher/tmp/cereja-1.9.9.tar.gz]
+[2024-04-24 09:41:52] INFO root fetch - main [MainThread]: End processing [cereja]: success
+[2024-04-24 09:41:53] INFO root fetch - processPackages [tensorflow-gnn]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-gnn-1.0.2rc1.tar.gz]
+[2024-04-24 09:41:53] INFO root fetch - processPackages [tensorflow-gnn]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-gnn-1.0.3rc0.tar.gz]
+[2024-04-24 09:41:53] INFO root fetch - main [MainThread]: End processing [tensorflow-gnn]: success
+[2024-04-24 09:41:53] INFO root fetch - main [MainThread]: Store serial: [22908556]
