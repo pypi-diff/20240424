@@ -22827,3 +22827,72 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:40:27] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.9.0.tar.gz]
 [2024-04-24 14:40:27] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
 [2024-04-24 14:40:27] INFO root fetch - main [MainThread]: Store serial: [22912151]
+[2024-04-24 14:42:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912151]
+[2024-04-24 14:42:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: validio-cli
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tomlparams
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brynq-sdk-leapsome
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecv-python-development
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antigrav
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: server-templates
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rag-doc-search
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rooms-shared-services
+[2024-04-24 14:42:53] WARNING root fetch - processPackages [brynq-sdk-leapsome]: Skipping, unable to determine old version
+[2024-04-24 14:42:53] INFO root fetch - main [MainThread]: End processing [brynq-sdk-leapsome] error
+[2024-04-24 14:42:53] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-24 14:42:53] INFO root fetch - processPackages [server-templates]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.33] Old Version: [0.0.32]
+[2024-04-24 14:42:53] INFO root fetch - processPackages [antigrav]: New version: [1.1] Old Version: [1.0]
+[2024-04-24 14:42:53] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [validio-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 14:42:53] INFO root fetch - processPackages [rag-doc-search]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-24 14:42:53] INFO root fetch - processPackages [tomlparams]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/e7/42/3e7e3f1c97c70197b390b444822fc003035b36348887b05ad2181aedb8b0/ecv-python-development-0.0.32.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/59/df/f5673e6af5207982271068cff01271982666f35556ff8fcf33d629e902d6/server_templates-0.2.8.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [antigrav]: Downloading https://files.pythonhosted.org/packages/b4/a7/445a98781e7f5a773f89609993bace31b2d24d3c800b53570ab4b905629c/antigrav-1.0.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [rag-doc-search]: Downloading https://files.pythonhosted.org/packages/c9/9e/cbd7cc12cce26a9c2bab6ec8567821440a38e386b4c8d9fdc3ff512233a3/rag_doc_search-0.1.5.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [tomlparams]: Downloading https://files.pythonhosted.org/packages/ac/c4/8c494d3b8436a1c797f046af5ced8dd0768b15a4f5a8790fec05550c1bc0/tomlparams-0.1.8.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/50/ef/bee0fbe9261ca2e2fd646048a6c24877fb616066e64d61d6f2b42d9e1faf/validio_cli-0.8.0.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/11/84/d7da14623575908f087ae536a6c380ca047ec1dbd8e633d855019a35bb7c/server_templates-0.2.9.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/7b/2e/5a5e0e7736b176095a5d5d9365b0ed51d396ca5ae0bccb4ed1ea058fa9a1/ecv-python-development-0.0.33.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-24 14:42:53] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240424/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-24 14:42:53] INFO root fetch - processPackages [server-templates]: executing diffoscope
+[2024-04-24 14:42:53] INFO root fetch - processPackages [server-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server_templates-0.2.8.tar.gz tmp/server_templates-0.2.9.tar.gz --markdown 20240424/s/server-templates/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 14:42:53] INFO root fetch - processPackages [antigrav]: Downloading https://files.pythonhosted.org/packages/4e/08/55da469cd7a837bdf60d03011506b7029bd9273a46d57b09e260dfd9a8d2/antigrav-1.1.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-24 14:42:53] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.32.tar.gz tmp/ecv-python-development-0.0.33.tar.gz --markdown 20240424/e/ecv-python-development/0.0.32-0.0.33/README.md --exclude *.pyd
+[2024-04-24 14:42:53] INFO root fetch - processPackages [rag-doc-search]: Downloading https://files.pythonhosted.org/packages/2d/5d/a4b74860e96f1025ad1e45a053fab4a004920bda458bc4868ce843aa0bc9/rag_doc_search-0.1.6.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [tomlparams]: Downloading https://files.pythonhosted.org/packages/34/fc/c2e4a60804b8cb6daf06dbdd7c08b6150c12bfde9447f7ab85947fa84670/tomlparams-0.1.9.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/fb/8b/71e38f220651f67974b3c38f5b2c6d0c5f513a5631fbc842c063d386dda4/validio_cli-0.9.0.tar.gz
+[2024-04-24 14:42:53] INFO root fetch - processPackages [antigrav]: executing diffoscope
+[2024-04-24 14:42:53] INFO root fetch - processPackages [antigrav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antigrav-1.0.tar.gz tmp/antigrav-1.1.tar.gz --markdown 20240424/a/antigrav/1.0-1.1/README.md --exclude *.pyd
+[2024-04-24 14:42:54] INFO root fetch - processPackages [rag-doc-search]: executing diffoscope
+[2024-04-24 14:42:54] INFO root fetch - processPackages [rag-doc-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_doc_search-0.1.5.tar.gz tmp/rag_doc_search-0.1.6.tar.gz --markdown 20240424/r/rag-doc-search/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-24 14:42:54] INFO root fetch - processPackages [validio-cli]: executing diffoscope
+[2024-04-24 14:42:54] INFO root fetch - processPackages [tomlparams]: executing diffoscope
+[2024-04-24 14:42:54] INFO root fetch - processPackages [tomlparams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomlparams-0.1.8.tar.gz tmp/tomlparams-0.1.9.tar.gz --markdown 20240424/t/tomlparams/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 14:42:54] INFO root fetch - processPackages [validio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_cli-0.8.0.tar.gz tmp/validio_cli-0.9.0.tar.gz --markdown 20240424/v/validio-cli/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 14:42:54] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.8.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.9.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - main [MainThread]: End processing [server-templates]: success
+[2024-04-24 14:42:54] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.8.0.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.9.0.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - main [MainThread]: End processing [validio-cli]: success
+[2024-04-24 14:42:54] INFO root fetch - processPackages [antigrav]: Remove: archive file [/home/abi/fetcher/tmp/antigrav-1.0.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - processPackages [antigrav]: Remove: archive file [/home/abi/fetcher/tmp/antigrav-1.1.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - main [MainThread]: End processing [antigrav]: success
+[2024-04-24 14:42:54] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-24 14:42:54] INFO root fetch - processPackages [rag-doc-search]: Remove: archive file [/home/abi/fetcher/tmp/rag_doc_search-0.1.5.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - processPackages [rag-doc-search]: Remove: archive file [/home/abi/fetcher/tmp/rag_doc_search-0.1.6.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - main [MainThread]: End processing [rag-doc-search]: success
+[2024-04-24 14:42:54] INFO root fetch - processPackages [tomlparams]: Remove: archive file [/home/abi/fetcher/tmp/tomlparams-0.1.8.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - processPackages [tomlparams]: Remove: archive file [/home/abi/fetcher/tmp/tomlparams-0.1.9.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - main [MainThread]: End processing [tomlparams]: success
+[2024-04-24 14:42:54] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.32.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.33.tar.gz]
+[2024-04-24 14:42:54] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-24 14:42:54] INFO root fetch - main [MainThread]: Store serial: [22912175]
