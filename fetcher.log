@@ -18912,3 +18912,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:28:36] INFO root fetch - processPackages [recsyslearn]: Remove: archive file [/home/abi/fetcher/tmp/recsyslearn-2.0.1.tar.gz]
 [2024-04-24 12:28:36] INFO root fetch - main [MainThread]: End processing [recsyslearn]: success
 [2024-04-24 12:28:36] INFO root fetch - main [MainThread]: Store serial: [22910507]
+[2024-04-24 12:30:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910507]
+[2024-04-24 12:30:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 12:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apipe
+[2024-04-24 12:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-files
+[2024-04-24 12:30:47] INFO root fetch - processPackages [mo-files]: New version: [6.601.24115] Old Version: [6.600.24114]
+[2024-04-24 12:30:47] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/7d/9e/08305dbc60e89394f3fe73714c444ee927dca121a707b92eb388ca6e7747/mo_files-6.600.24114.tar.gz
+[2024-04-24 12:30:47] INFO root fetch - processPackages [apipe]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-24 12:30:47] INFO root fetch - processPackages [apipe]: Downloading https://files.pythonhosted.org/packages/de/e0/0b33134baa4fea8fc4ae33bd9e369408cd9d5500e024edbbcaf800773719/apipe-0.1.7.tar.gz
+[2024-04-24 12:30:47] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/00/ac/779ee18f4b80c6e53a68f0182a03c8b8012ece67d01cc854eafa600ff098/mo_files-6.601.24115.tar.gz
+[2024-04-24 12:30:47] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2024-04-24 12:30:47] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.600.24114.tar.gz tmp/mo_files-6.601.24115.tar.gz --markdown 20240424/m/mo-files/6.600.24114-6.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:30:47] INFO root fetch - processPackages [apipe]: Downloading https://files.pythonhosted.org/packages/5c/82/eda34c6d753ff569726cbbdb6dc932e1381d5f47ec5d14a6974c8792a4b6/apipe-0.1.8.tar.gz
+[2024-04-24 12:30:47] INFO root fetch - processPackages [apipe]: executing diffoscope
+[2024-04-24 12:30:47] INFO root fetch - processPackages [apipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apipe-0.1.7.tar.gz tmp/apipe-0.1.8.tar.gz --markdown 20240424/a/apipe/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-24 12:30:48] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.600.24114.tar.gz]
+[2024-04-24 12:30:48] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.601.24115.tar.gz]
+[2024-04-24 12:30:48] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2024-04-24 12:30:48] INFO root fetch - processPackages [apipe]: Remove: archive file [/home/abi/fetcher/tmp/apipe-0.1.7.tar.gz]
+[2024-04-24 12:30:48] INFO root fetch - processPackages [apipe]: Remove: archive file [/home/abi/fetcher/tmp/apipe-0.1.8.tar.gz]
+[2024-04-24 12:30:48] INFO root fetch - main [MainThread]: End processing [apipe]: success
+[2024-04-24 12:30:48] INFO root fetch - main [MainThread]: Store serial: [22910514]
