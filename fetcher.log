@@ -7879,3 +7879,60 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:23:28] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.4.5.tar.gz]
 [2024-04-24 04:23:28] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
 [2024-04-24 04:23:28] INFO root fetch - main [MainThread]: Store serial: [22905801]
+[2024-04-24 04:25:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905801]
+[2024-04-24 04:25:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 04:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpc-obscodes
+[2024-04-24 04:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statementskeleton
+[2024-04-24 04:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atmospy
+[2024-04-24 04:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: batchtk
+[2024-04-24 04:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WPEMPhase
+[2024-04-24 04:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotiphy
+[2024-04-24 04:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-ros20190910-py2
+[2024-04-24 04:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-ros20190910
+[2024-04-24 04:25:38] INFO root fetch - processPackages [mpc-obscodes]: New version: [2024.4.5] Old Version: [2024.4.24]
+[2024-04-24 04:25:38] WARNING root fetch - processPackages [statementskeleton]: Skipping, unable to determine old version
+[2024-04-24 04:25:38] INFO root fetch - main [MainThread]: End processing [statementskeleton] error
+[2024-04-24 04:25:38] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/eb/27/e3ca190e6face1529d4a6c560f321b0dc7f98b7766173628f89dfe13f714/mpc_obscodes-2024.4.24-py3-none-any.whl
+[2024-04-24 04:25:38] WARNING root fetch - processPackages [atmospy]: Skipping, unable to determine old version
+[2024-04-24 04:25:38] INFO root fetch - main [MainThread]: End processing [atmospy] error
+[2024-04-24 04:25:38] WARNING root fetch - processPackages [batchtk]: Skipping, unable to determine old version
+[2024-04-24 04:25:38] INFO root fetch - main [MainThread]: End processing [batchtk] error
+[2024-04-24 04:25:38] INFO root fetch - processPackages [spotiphy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 04:25:38] INFO root fetch - processPackages [WPEMPhase]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 04:25:38] INFO root fetch - processPackages [alibabacloud-ros20190910]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-24 04:25:38] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-24 04:25:38] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/c5/c7/026120cceb75d622414d8a5b26f0bbed6fe5ce3036fcf9be3ddab9297b6d/mpc_obscodes-2024.4.5.tar.gz
+[2024-04-24 04:25:38] INFO root fetch - processPackages [spotiphy]: Downloading https://files.pythonhosted.org/packages/12/d0/5dc8725c71436b8c9660f73c76599a1c419a583270c3255ba2c4a90cac0a/spotiphy-0.1.2.tar.gz
+[2024-04-24 04:25:38] INFO root fetch - processPackages [WPEMPhase]: Downloading https://files.pythonhosted.org/packages/24/c5/c13ffc4fa30c332182c1ccc96839c350ce64c2c3fedd7fbc269646bfe6c3/WPEMPhase-0.1.0.tar.gz
+[2024-04-24 04:25:38] INFO root fetch - processPackages [alibabacloud-ros20190910]: Downloading https://files.pythonhosted.org/packages/62/03/17d4ca2c48f9944d4a32fb264f86459c32ccf8bf4cbfd238ed1b3de06a91/alibabacloud_ros20190910-3.3.8.tar.gz
+[2024-04-24 04:25:38] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Downloading https://files.pythonhosted.org/packages/1e/88/09ec301cb562e644f32e6dbcc64daea46cf62c1039c6655efbfa1114e6b2/alibabacloud_ros20190910_py2-2.3.8.tar.gz
+[2024-04-24 04:25:38] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2024-04-24 04:25:38] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2024.4.24-py3-none-any.whl.zip tmp/mpc_obscodes-2024.4.5.tar.gz --markdown 20240424/m/mpc-obscodes/2024.4.24-2024.4.5/README.md --exclude *.pyd
+[2024-04-24 04:25:39] INFO root fetch - processPackages [WPEMPhase]: Downloading https://files.pythonhosted.org/packages/b3/86/adcea9126867e13f335173cb9cbf6570905caefad3335bdce1467e4ab790/WPEMPhase-0.1.1.tar.gz
+[2024-04-24 04:25:39] INFO root fetch - processPackages [spotiphy]: Downloading https://files.pythonhosted.org/packages/8e/e0/8a4e90887e7744253c17293d57d80b78f218721467cc68475aff3f763af2/spotiphy-0.1.3.tar.gz
+[2024-04-24 04:25:39] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Downloading https://files.pythonhosted.org/packages/f1/d1/b10d4602805733be2516e1175fcceb1aa710f87f21085840a0ab95a8de8b/alibabacloud_ros20190910_py2-2.3.9.tar.gz
+[2024-04-24 04:25:39] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: executing diffoscope
+[2024-04-24 04:25:39] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ros20190910_py2-2.3.8.tar.gz tmp/alibabacloud_ros20190910_py2-2.3.9.tar.gz --markdown 20240424/a/alibabacloud-ros20190910-py2/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-24 04:25:39] INFO root fetch - processPackages [spotiphy]: executing diffoscope
+[2024-04-24 04:25:39] INFO root fetch - processPackages [spotiphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotiphy-0.1.2.tar.gz tmp/spotiphy-0.1.3.tar.gz --markdown 20240424/s/spotiphy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 04:25:39] INFO root fetch - processPackages [alibabacloud-ros20190910]: Downloading https://files.pythonhosted.org/packages/3a/b4/acfb826a2feedd805dd70e14a410e60a7b9de22ea0b4506deabc5535ab12/alibabacloud_ros20190910-3.3.9.tar.gz
+[2024-04-24 04:25:39] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.4.24-py3-none-any.whl.zip]
+[2024-04-24 04:25:39] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.4.5.tar.gz]
+[2024-04-24 04:25:39] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2024-04-24 04:25:39] INFO root fetch - processPackages [WPEMPhase]: executing diffoscope
+[2024-04-24 04:25:39] INFO root fetch - processPackages [WPEMPhase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WPEMPhase-0.1.0.tar.gz tmp/WPEMPhase-0.1.1.tar.gz --markdown 20240424/W/WPEMPhase/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 04:25:39] INFO root fetch - processPackages [alibabacloud-ros20190910]: executing diffoscope
+[2024-04-24 04:25:39] INFO root fetch - processPackages [alibabacloud-ros20190910]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ros20190910-3.3.8.tar.gz tmp/alibabacloud_ros20190910-3.3.9.tar.gz --markdown 20240424/a/alibabacloud-ros20190910/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-24 04:25:39] INFO root fetch - processPackages [spotiphy]: Remove: archive file [/home/abi/fetcher/tmp/spotiphy-0.1.2.tar.gz]
+[2024-04-24 04:25:39] INFO root fetch - processPackages [spotiphy]: Remove: archive file [/home/abi/fetcher/tmp/spotiphy-0.1.3.tar.gz]
+[2024-04-24 04:25:39] INFO root fetch - main [MainThread]: End processing [spotiphy]: success
+[2024-04-24 04:25:40] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ros20190910_py2-2.3.8.tar.gz]
+[2024-04-24 04:25:40] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ros20190910_py2-2.3.9.tar.gz]
+[2024-04-24 04:25:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-ros20190910-py2]: success
+[2024-04-24 04:25:40] INFO root fetch - processPackages [WPEMPhase]: Remove: archive file [/home/abi/fetcher/tmp/WPEMPhase-0.1.0.tar.gz]
+[2024-04-24 04:25:40] INFO root fetch - processPackages [WPEMPhase]: Remove: archive file [/home/abi/fetcher/tmp/WPEMPhase-0.1.1.tar.gz]
+[2024-04-24 04:25:40] INFO root fetch - main [MainThread]: End processing [WPEMPhase]: success
+[2024-04-24 04:25:40] INFO root fetch - processPackages [alibabacloud-ros20190910]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ros20190910-3.3.8.tar.gz]
+[2024-04-24 04:25:40] INFO root fetch - processPackages [alibabacloud-ros20190910]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ros20190910-3.3.9.tar.gz]
+[2024-04-24 04:25:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-ros20190910]: success
+[2024-04-24 04:25:40] INFO root fetch - main [MainThread]: Store serial: [22905827]
