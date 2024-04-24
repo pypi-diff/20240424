@@ -12609,3 +12609,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:02:04] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b9.tar.gz]
 [2024-04-24 09:02:04] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
 [2024-04-24 09:02:04] INFO root fetch - main [MainThread]: Store serial: [22907732]
+[2024-04-24 09:04:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907732]
+[2024-04-24 09:04:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helmet
+[2024-04-24 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2024-04-24 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorrt-llm
+[2024-04-24 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TreeSAK
+[2024-04-24 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2024-04-24 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mysql-server-has-gone
+[2024-04-24 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nestipy-ioc
+[2024-04-24 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zoltraak
+[2024-04-24 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alamos
+[2024-04-24 09:04:13] INFO root fetch - processPackages [mysql-server-has-gone]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-24 09:04:13] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-24 09:04:13] INFO root fetch - processPackages [zoltraak]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 09:04:13] INFO root fetch - processPackages [nestipy-ioc]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-04-24 09:04:13] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-24 09:04:13] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240422] Old Version: [1.33.1.dev20240421]
+[2024-04-24 09:04:13] WARNING root fetch - processPackages [helmet]: Skipping, unable to determine old version
+[2024-04-24 09:04:13] INFO root fetch - main [MainThread]: End processing [helmet] error
+[2024-04-24 09:04:13] INFO root fetch - processPackages [tensorrt-llm]: New version: [0.9.0.dev2024040900] Old Version: [0.9.0.dev2024040200]
+[2024-04-24 09:04:13] INFO root fetch - processPackages [mysql-server-has-gone]: Downloading https://files.pythonhosted.org/packages/67/a4/37730bb7722372f634a4a7ec2e4b2f554ed7eca462ee91aaa43e320bc92a/mysql_server_has_gone-2.0.2.tar.gz
+[2024-04-24 09:04:13] INFO root fetch - processPackages [nestipy-ioc]: Downloading https://files.pythonhosted.org/packages/04/60/8786ed2761e31310e5cd7b44684b70465cf5e7aaf13861decb6f05c827c0/nestipy_ioc-0.1.21.tar.gz
+[2024-04-24 09:04:13] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/84/45/b2722a81a027bf088e858c9be60de3687a600076fcefeeed7b9c31c83214/zoltraak-0.1.1.tar.gz
+[2024-04-24 09:04:13] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-24 09:04:14] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/23/07/2433f4b4d6a817e7c4123afaafc3a58638df4fa338110f49c05463d822bb/streamlit_nightly-1.33.1.dev20240421.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [tensorrt-llm]: Downloading https://files.pythonhosted.org/packages/2a/c1/a41b5bb3daec8c3058b96bc94726cfe62850a4e86988b5c1791caa30b90c/tensorrt_llm-0.9.0.dev2024040200.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [mysql-server-has-gone]: Downloading https://files.pythonhosted.org/packages/0c/17/a0e281c1e059533e259882041a10531dc32d586ce5eef98bcb81c68f00de/mysql_server_has_gone-2.0.3.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/34/3a/5a82b19a4dec66312d547332dd1b1920fae1d946bf89645aee2e4ef33a2e/zoltraak-0.1.2.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [nestipy-ioc]: Downloading https://files.pythonhosted.org/packages/af/18/63d23b409d238b18d4c7ca8d5661ffa0f172a6b46f4857c6e356947abfa5/nestipy_ioc-0.1.22.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [mysql-server-has-gone]: executing diffoscope
+[2024-04-24 09:04:14] INFO root fetch - processPackages [mysql-server-has-gone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_server_has_gone-2.0.2.tar.gz tmp/mysql_server_has_gone-2.0.3.tar.gz --markdown 20240424/m/mysql-server-has-gone/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-24 09:04:14] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 09:04:14] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.1.tar.gz tmp/zoltraak-0.1.2.tar.gz --markdown 20240424/z/zoltraak/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 09:04:14] INFO root fetch - processPackages [nestipy-ioc]: executing diffoscope
+[2024-04-24 09:04:14] INFO root fetch - processPackages [nestipy-ioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_ioc-0.1.21.tar.gz tmp/nestipy_ioc-0.1.22.tar.gz --markdown 20240424/n/nestipy-ioc/0.1.21-0.1.22/README.md --exclude *.pyd
+[2024-04-24 09:04:14] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-04-24 09:04:14] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240424/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-24 09:04:14] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [tensorrt-llm]: Downloading https://files.pythonhosted.org/packages/27/e0/eaf2f17cd0e4a7e8d57054ceeafeaaf86effd6dd0c299ab151cae910420e/tensorrt_llm-0.9.0.dev2024040900.tar.gz
+[2024-04-24 09:04:14] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-04-24 09:04:14] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240424/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-24 09:04:15] INFO root fetch - processPackages [tensorrt-llm]: executing diffoscope
+[2024-04-24 09:04:15] INFO root fetch - processPackages [tensorrt-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorrt_llm-0.9.0.dev2024040200.tar.gz tmp/tensorrt_llm-0.9.0.dev2024040900.tar.gz --markdown 20240424/t/tensorrt-llm/0.9.0.dev2024040200-0.9.0.dev2024040900/README.md --exclude *.pyd
+[2024-04-24 09:04:15] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-24 09:04:15] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240424/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-04-24 09:04:15] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-04-24 09:04:15] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.1.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.2.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 09:04:15] INFO root fetch - processPackages [nestipy-ioc]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_ioc-0.1.21.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - processPackages [nestipy-ioc]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_ioc-0.1.22.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - main [MainThread]: End processing [nestipy-ioc]: success
+[2024-04-24 09:04:15] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/54/88/52b911a8ad265cbfb609cd85777a40a904ab7e5f3523c776307531e4152d/streamlit_nightly-1.33.1.dev20240422.tar.gz
+[2024-04-24 09:04:15] INFO root fetch - processPackages [mysql-server-has-gone]: Remove: archive file [/home/abi/fetcher/tmp/mysql_server_has_gone-2.0.2.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - processPackages [mysql-server-has-gone]: Remove: archive file [/home/abi/fetcher/tmp/mysql_server_has_gone-2.0.3.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - main [MainThread]: End processing [mysql-server-has-gone]: success
+[2024-04-24 09:04:15] INFO root fetch - processPackages [tensorrt-llm]: Remove: archive file [/home/abi/fetcher/tmp/tensorrt_llm-0.9.0.dev2024040200.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - processPackages [tensorrt-llm]: Remove: archive file [/home/abi/fetcher/tmp/tensorrt_llm-0.9.0.dev2024040900.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - main [MainThread]: End processing [tensorrt-llm]: success
+[2024-04-24 09:04:15] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-04-24 09:04:15] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-04-24 09:04:16] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-24 09:04:16] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-24 09:04:16] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-24 09:04:16] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-24 09:04:16] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.33.1.dev20240421.tar.gz tmp/streamlit_nightly-1.33.1.dev20240422.tar.gz --markdown 20240424/s/streamlit-nightly/1.33.1.dev20240421-1.33.1.dev20240422/README.md --exclude *.pyd
+[2024-04-24 09:04:19] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240421.tar.gz]
+[2024-04-24 09:04:19] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240422.tar.gz]
+[2024-04-24 09:04:19] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-24 09:04:19] INFO root fetch - main [MainThread]: Store serial: [22907759]
