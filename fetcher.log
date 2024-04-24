@@ -12286,3 +12286,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:44:36] INFO root fetch - processPackages [langchain_chinese]: Remove: archive file [/home/abi/fetcher/tmp/langchain_chinese-0.3.1.tar.gz]
 [2024-04-24 08:44:36] INFO root fetch - main [MainThread]: End processing [langchain_chinese]: success
 [2024-04-24 08:44:36] INFO root fetch - main [MainThread]: Store serial: [22907613]
+[2024-04-24 08:46:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907613]
+[2024-04-24 08:46:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 08:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flexible-semantic-kernel
+[2024-04-24 08:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-ds
+[2024-04-24 08:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-04-24 08:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marqo
+[2024-04-24 08:46:46] WARNING root fetch - processPackages [flexible-semantic-kernel]: Skipping, unable to determine old version
+[2024-04-24 08:46:46] INFO root fetch - main [MainThread]: End processing [flexible-semantic-kernel] error
+[2024-04-24 08:46:46] INFO root fetch - processPackages [pih-ds]: New version: [0.14] Old Version: [0.13]
+[2024-04-24 08:46:46] INFO root fetch - processPackages [pih-ds]: Downloading https://files.pythonhosted.org/packages/b2/b1/5bb3d10d23970138cebc3ad9bf382b3cf01e4c7505069ddd267347cffdcf/pih-ds-0.13.tar.gz
+[2024-04-24 08:46:46] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-24 08:46:46] INFO root fetch - processPackages [marqo]: New version: [3.3.0] Old Version: [3.2.1]
+[2024-04-24 08:46:46] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-24 08:46:46] INFO root fetch - processPackages [pih-ds]: Downloading https://files.pythonhosted.org/packages/0e/ac/8e7fcb9db1a07e221d169b88ab982c8a96f8053aa97f22b10d7fb9a68d4a/pih-ds-0.14.tar.gz
+[2024-04-24 08:46:46] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/72/e9/f04330a0c956e08593b876a3b0d819a6c3baa5d37f9da18b9715731311c7/marqo-3.2.1.tar.gz
+[2024-04-24 08:46:46] INFO root fetch - processPackages [pih-ds]: executing diffoscope
+[2024-04-24 08:46:46] INFO root fetch - processPackages [pih-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-ds-0.13.tar.gz tmp/pih-ds-0.14.tar.gz --markdown 20240424/p/pih-ds/0.13-0.14/README.md --exclude *.pyd
+[2024-04-24 08:46:46] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-24 08:46:47] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-24 08:46:47] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240424/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-24 08:46:47] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/f8/e8/14c6df437de55fb659be5b795167ac92ec2d573aec4851975474205239fe/marqo-3.3.0.tar.gz
+[2024-04-24 08:46:47] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2024-04-24 08:46:47] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-3.2.1.tar.gz tmp/marqo-3.3.0.tar.gz --markdown 20240424/m/marqo/3.2.1-3.3.0/README.md --exclude *.pyd
+[2024-04-24 08:46:47] INFO root fetch - processPackages [pih-ds]: Remove: archive file [/home/abi/fetcher/tmp/pih-ds-0.13.tar.gz]
+[2024-04-24 08:46:47] INFO root fetch - processPackages [pih-ds]: Remove: archive file [/home/abi/fetcher/tmp/pih-ds-0.14.tar.gz]
+[2024-04-24 08:46:47] INFO root fetch - main [MainThread]: End processing [pih-ds]: success
+[2024-04-24 08:46:47] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-3.2.1.tar.gz]
+[2024-04-24 08:46:47] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-3.3.0.tar.gz]
+[2024-04-24 08:46:47] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2024-04-24 08:46:48] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-24 08:46:48] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-24 08:46:48] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-24 08:46:48] INFO root fetch - main [MainThread]: Store serial: [22907627]
