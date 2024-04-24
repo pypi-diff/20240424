@@ -11219,3 +11219,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:40:04] WARNING root fetch - processPackages [gwaslab]: Skipping package: exceeds size limit 20618587>=10485760
 [2024-04-24 07:40:04] INFO root fetch - main [MainThread]: End processing [gwaslab] error
 [2024-04-24 07:40:04] INFO root fetch - main [MainThread]: Store serial: [22907254]
+[2024-04-24 07:42:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907254]
+[2024-04-24 07:42:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 07:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 07:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wizlib
+[2024-04-24 07:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: refract-serving
+[2024-04-24 07:42:14] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 07:42:14] INFO root fetch - processPackages [wizlib]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-24 07:42:14] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/c7/29/35737ce7846bb14f7d77201bdbf44cacd38f08ab24172460c788074062b1/wizlib-2.0.8.tar.gz
+[2024-04-24 07:42:14] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 07:42:14] INFO root fetch - processPackages [refract-serving]: New version: [1.0.1a0] Old Version: [0.0.7a0]
+[2024-04-24 07:42:14] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 07:42:14] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/0b/fa/9f51fcf15ca20703f0ab0e2a402a9a3464d9b0a9351b5158791f8fb9764a/refract-serving-0.0.7a0.tar.gz
+[2024-04-24 07:42:15] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/31/ce/96f81a7e7d0ed4536b0497ca69767df2257151675cb7d3422fb66cb5d42f/wizlib-2.0.9.tar.gz
+[2024-04-24 07:42:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 07:42:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 07:42:15] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2024-04-24 07:42:15] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-2.0.8.tar.gz tmp/wizlib-2.0.9.tar.gz --markdown 20240424/w/wizlib/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-24 07:42:15] INFO root fetch - processPackages [refract-serving]: Downloading https://files.pythonhosted.org/packages/cd/90/901baff63e451378f6aa62b42db59239ec5dbfa0571c10419f3db637cade/refract-serving-1.0.1a0.tar.gz
+[2024-04-24 07:42:15] INFO root fetch - processPackages [refract-serving]: executing diffoscope
+[2024-04-24 07:42:15] INFO root fetch - processPackages [refract-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refract-serving-0.0.7a0.tar.gz tmp/refract-serving-1.0.1a0.tar.gz --markdown 20240424/r/refract-serving/0.0.7a0-1.0.1a0/README.md --exclude *.pyd
+[2024-04-24 07:42:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 07:42:15] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 07:42:15] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 07:42:15] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-2.0.8.tar.gz]
+[2024-04-24 07:42:15] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-2.0.9.tar.gz]
+[2024-04-24 07:42:15] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2024-04-24 07:42:16] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-0.0.7a0.tar.gz]
+[2024-04-24 07:42:16] INFO root fetch - processPackages [refract-serving]: Remove: archive file [/home/abi/fetcher/tmp/refract-serving-1.0.1a0.tar.gz]
+[2024-04-24 07:42:16] INFO root fetch - main [MainThread]: End processing [refract-serving]: success
+[2024-04-24 07:42:16] INFO root fetch - main [MainThread]: Store serial: [22907264]
