@@ -14278,3 +14278,51 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 09:52:56] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
 [2024-04-24 09:52:56] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
 [2024-04-24 09:52:56] INFO root fetch - main [MainThread]: Store serial: [22908709]
+[2024-04-24 09:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908709]
+[2024-04-24 09:55:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 09:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalhub-ml
+[2024-04-24 09:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everai
+[2024-04-24 09:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manteia-qa-pylinac
+[2024-04-24 09:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 09:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secretvalidator
+[2024-04-24 09:55:04] INFO root fetch - processPackages [everai]: New version: [0.1.33] Old Version: [0.1.32]
+[2024-04-24 09:55:04] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 09:55:04] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 09:55:04] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/62/09/1b5445fc16b8289c994fa91531eddbbaf7170b21c9015839cae2b66018be/everai-0.1.32-py3-none-any.whl
+[2024-04-24 09:55:04] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.4.0b2] Old Version: [0.4.0b1]
+[2024-04-24 09:55:04] INFO root fetch - processPackages [manteia-qa-pylinac]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-24 09:55:04] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 09:55:05] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-24 09:55:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 09:55:05] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/c4/46/bc784a00316e687528f6cdec609aa5ac7502fe9dd014df9c79f4d3db34f6/manteia_qa_pylinac-1.2.0.tar.gz
+[2024-04-24 09:55:05] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/22/45/84bee2812a1947555717564b7b01d6b1f01dc37111881efd589e0bdde78d/digitalhub_ml-0.4.0b1.tar.gz
+[2024-04-24 09:55:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 09:55:05] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/05/83/42b9a95bdf9a6b55ff6545bab5fa875e8d6894dffcb3c8a7390661c80237/everai-0.1.33-py3-none-any.whl
+[2024-04-24 09:55:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 09:55:05] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-24 09:55:05] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-24 09:55:05] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240424/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 09:55:05] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-24 09:55:05] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.32-py3-none-any.whl.zip tmp/everai-0.1.33-py3-none-any.whl.zip --markdown 20240424/e/everai/0.1.32-0.1.33/README.md --exclude *.pyd
+[2024-04-24 09:55:05] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/11/5f/ca213e3b240b50d7df89e5f20af652407b8a230f774a93f5f96623045754/digitalhub_ml-0.4.0b2.tar.gz
+[2024-04-24 09:55:05] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/d6/85/5b51904e4f7e3740920c2b3dc997e185be3233520a7eed5d35951d45bf99/manteia_qa_pylinac-1.2.1.tar.gz
+[2024-04-24 09:55:05] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-04-24 09:55:05] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.4.0b1.tar.gz tmp/digitalhub_ml-0.4.0b2.tar.gz --markdown 20240424/d/digitalhub-ml/0.4.0b1-0.4.0b2/README.md --exclude *.pyd
+[2024-04-24 09:55:05] INFO root fetch - processPackages [manteia-qa-pylinac]: executing diffoscope
+[2024-04-24 09:55:05] INFO root fetch - processPackages [manteia-qa-pylinac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manteia_qa_pylinac-1.2.0.tar.gz tmp/manteia_qa_pylinac-1.2.1.tar.gz --markdown 20240424/m/manteia-qa-pylinac/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-24 09:55:05] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.8.tar.gz]
+[2024-04-24 09:55:05] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.9.tar.gz]
+[2024-04-24 09:55:05] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-24 09:55:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 09:55:05] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 09:55:05] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 09:55:06] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b1.tar.gz]
+[2024-04-24 09:55:06] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b2.tar.gz]
+[2024-04-24 09:55:06] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-04-24 09:55:06] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.0.tar.gz]
+[2024-04-24 09:55:06] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.1.tar.gz]
+[2024-04-24 09:55:06] INFO root fetch - main [MainThread]: End processing [manteia-qa-pylinac]: success
+[2024-04-24 09:55:06] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.32-py3-none-any.whl.zip]
+[2024-04-24 09:55:06] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.33-py3-none-any.whl.zip]
+[2024-04-24 09:55:06] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-24 09:55:06] INFO root fetch - main [MainThread]: Store serial: [22908722]
