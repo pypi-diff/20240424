@@ -8648,3 +8648,36 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:06:21] INFO root fetch - processPackages [scepter]: Remove: archive file [/home/abi/fetcher/tmp/scepter-0.0.5-py3-none-any.whl.zip]
 [2024-04-24 05:06:22] INFO root fetch - main [MainThread]: End processing [scepter]: success
 [2024-04-24 05:06:22] INFO root fetch - main [MainThread]: Store serial: [22906223]
+[2024-04-24 05:08:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906223]
+[2024-04-24 05:08:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 05:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finisterra
+[2024-04-24 05:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkg-packages
+[2024-04-24 05:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Simplex
+[2024-04-24 05:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eirStru
+[2024-04-24 05:08:31] INFO root fetch - processPackages [finisterra]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 05:08:31] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-24 05:08:31] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/b6/bf/195a1850e81169f476d3d3ca9ef8c21c89088d98c5739b2e6b3e241d7ac4/finisterra-1.0.8.tar.gz
+[2024-04-24 05:08:31] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-24 05:08:31] WARNING root fetch - processPackages [pkg-packages]: Skipping, unable to determine old version
+[2024-04-24 05:08:31] INFO root fetch - main [MainThread]: End processing [pkg-packages] error
+[2024-04-24 05:08:31] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.7.4rc2] Old Version: [6.7.4rc1]
+[2024-04-24 05:08:31] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-24 05:08:31] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/68/8a/02f80cdb16a2f8155583c78bc947832a816e1d8d728091c4ac97d9225473/finisterra-1.0.9.tar.gz
+[2024-04-24 05:08:31] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/d8/08/7b5aadae0f6923dfb08f8f55976149fadc364462faf75e435fe4dc1ce11c/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 05:08:31] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-24 05:08:31] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240424/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-24 05:08:31] INFO root fetch - processPackages [finisterra]: executing diffoscope
+[2024-04-24 05:08:31] INFO root fetch - processPackages [finisterra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finisterra-1.0.8.tar.gz tmp/finisterra-1.0.9.tar.gz --markdown 20240424/f/finisterra/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 05:08:32] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/bf/c4/3b237634c83b6b59e47347af610dbdacbf2e980476dd58d9f0cda08d7fae/Geode_Simplex-6.7.4rc2-cp39-cp39-win_amd64.whl
+[2024-04-24 05:08:32] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-24 05:08:32] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-24 05:08:32] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-24 05:08:32] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.8.tar.gz]
+[2024-04-24 05:08:32] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.9.tar.gz]
+[2024-04-24 05:08:32] INFO root fetch - main [MainThread]: End processing [finisterra]: success
+[2024-04-24 05:08:32] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-04-24 05:08:32] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.7.4rc2-cp39-cp39-win_amd64.whl.zip --markdown 20240424/G/Geode-Simplex/6.7.4rc1-6.7.4rc2/README.md --exclude *.pyd
+[2024-04-24 05:09:00] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 05:09:00] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.4rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 05:09:00] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-04-24 05:09:00] INFO root fetch - main [MainThread]: Store serial: [22906245]
