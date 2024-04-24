@@ -18014,3 +18014,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 11:59:46] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.0.tar.gz]
 [2024-04-24 11:59:46] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-04-24 11:59:46] INFO root fetch - main [MainThread]: Store serial: [22910127]
+[2024-04-24 12:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910127]
+[2024-04-24 12:01:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composio-autogen
+[2024-04-24 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yuanfen
+[2024-04-24 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wonder-diffusion-sdk
+[2024-04-24 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mergecraft
+[2024-04-24 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-crewai
+[2024-04-24 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-geoengine-swisstopo
+[2024-04-24 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-base-geoengine
+[2024-04-24 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-lyzr
+[2024-04-24 12:01:56] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 12:01:56] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 12:01:56] INFO root fetch - processPackages [yuanfen]: New version: [2024.4.24.4] Old Version: [2024.4.24.3]
+[2024-04-24 12:01:56] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 12:01:56] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.4.dev2] Old Version: [0.0.4.dev1]
+[2024-04-24 12:01:56] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-04-24 12:01:56] INFO root fetch - processPackages [mergecraft]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 12:01:56] INFO root fetch - processPackages [odoo12-addon-base-geoengine]: New version: [12.0.1.3.0.99.dev1] Old Version: [12.0.1.3.0]
+[2024-04-24 12:01:56] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-04-24 12:01:56] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-04-24 12:01:56] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/88/60/5ecdacf945a59990986a6632d91f49b90ad1da814ac898aaaa85d38f5883/yuanfen-2024.4.24.3.tar.gz
+[2024-04-24 12:01:56] INFO root fetch - processPackages [odoo12-addon-geoengine-swisstopo]: New version: [12.0.1.1.0.99.dev1] Old Version: [12.0.1.1.0]
+[2024-04-24 12:01:56] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/c4/54/3fee319ba58b7e1c2881e66d813d241aff9a64d6cb5c4d9899cd729b787d/wonder-diffusion-sdk-0.0.4.dev1.tar.gz
+[2024-04-24 12:01:56] INFO root fetch - processPackages [odoo12-addon-base-geoengine]: Downloading https://files.pythonhosted.org/packages/f3/1d/0ff98101334bef5ff26964a8f2db991a617107cee8a41efc4601631e1ded/odoo12_addon_base_geoengine-12.0.1.3.0-py3-none-any.whl
+[2024-04-24 12:01:57] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/d9/29/50d63760641c8e57055244ddf956f4cd52599fe24de7309e18e079caaf08/mergecraft-0.0.3.tar.gz
+[2024-04-24 12:01:57] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-04-24 12:01:57] INFO root fetch - processPackages [odoo12-addon-geoengine-swisstopo]: Downloading https://files.pythonhosted.org/packages/4d/7d/87863eb7bfcbfda20c5f2fdb28942871e54fd2c6ab23443852533d0a247a/odoo12_addon_geoengine_swisstopo-12.0.1.1.0-py3-none-any.whl
+[2024-04-24 12:01:57] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-04-24 12:01:57] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-04-24 12:01:57] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/07/ac/e7a2609a129371de4eae4dc995e17a4b1b6d3b16a67d936dffeca5fb3e74/yuanfen-2024.4.24.4.tar.gz
+[2024-04-24 12:01:57] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-24 12:01:57] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240424/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 12:01:57] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-24 12:01:57] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240424/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 12:01:57] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-24 12:01:57] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240424/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 12:01:57] INFO root fetch - processPackages [yuanfen]: executing diffoscope
+[2024-04-24 12:01:57] INFO root fetch - processPackages [yuanfen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuanfen-2024.4.24.3.tar.gz tmp/yuanfen-2024.4.24.4.tar.gz --markdown 20240424/y/yuanfen/2024.4.24.3-2024.4.24.4/README.md --exclude *.pyd
+[2024-04-24 12:01:57] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/ba/fd/c2e3775349ee397c87a468086f382719abd2226caed4ae0d0ee6011c32db/wonder-diffusion-sdk-0.0.4.dev2.tar.gz
+[2024-04-24 12:01:57] INFO root fetch - processPackages [odoo12-addon-geoengine-swisstopo]: Downloading https://files.pythonhosted.org/packages/d6/6a/dbaf20b04c4b576aa288636bb8490b3d96131481b79aaba9b4ff2524f119/odoo12_addon_geoengine_swisstopo-12.0.1.1.0.99.dev1-py3-none-any.whl
+[2024-04-24 12:01:57] INFO root fetch - processPackages [odoo12-addon-base-geoengine]: Downloading https://files.pythonhosted.org/packages/dd/87/766c360a4ff246edf45c5c2a7177157aa9cd85ca361821e72a2272ee48e0/odoo12_addon_base_geoengine-12.0.1.3.0.99.dev1-py3-none-any.whl
+[2024-04-24 12:01:57] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-04-24 12:01:57] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.4.dev1.tar.gz tmp/wonder-diffusion-sdk-0.0.4.dev2.tar.gz --markdown 20240424/w/wonder-diffusion-sdk/0.0.4.dev1-0.0.4.dev2/README.md --exclude *.pyd
+[2024-04-24 12:01:57] INFO root fetch - processPackages [odoo12-addon-geoengine-swisstopo]: executing diffoscope
+[2024-04-24 12:01:57] INFO root fetch - processPackages [odoo12-addon-geoengine-swisstopo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_geoengine_swisstopo-12.0.1.1.0-py3-none-any.whl.zip tmp/odoo12_addon_geoengine_swisstopo-12.0.1.1.0.99.dev1-py3-none-any.whl.zip --markdown 20240424/o/odoo12-addon-geoengine-swisstopo/12.0.1.1.0-12.0.1.1.0.99.dev1/README.md --exclude *.pyd
+[2024-04-24 12:01:57] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/59/1f/07c7f2818cc54d7dc322c3b35f856333a9b68723a4d32ed2aea7cbfbe2d7/mergecraft-0.0.4.tar.gz
+[2024-04-24 12:01:57] INFO root fetch - processPackages [odoo12-addon-base-geoengine]: executing diffoscope
+[2024-04-24 12:01:57] INFO root fetch - processPackages [odoo12-addon-base-geoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_geoengine-12.0.1.3.0-py3-none-any.whl.zip tmp/odoo12_addon_base_geoengine-12.0.1.3.0.99.dev1-py3-none-any.whl.zip --markdown 20240424/o/odoo12-addon-base-geoengine/12.0.1.3.0-12.0.1.3.0.99.dev1/README.md --exclude *.pyd
+[2024-04-24 12:01:57] INFO root fetch - processPackages [mergecraft]: executing diffoscope
+[2024-04-24 12:01:57] INFO root fetch - processPackages [mergecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergecraft-0.0.3.tar.gz tmp/mergecraft-0.0.4.tar.gz --markdown 20240424/m/mergecraft/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 12:01:58] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-24 12:01:58] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-24 12:01:58] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.4.24.3.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.4.24.4.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - main [MainThread]: End processing [yuanfen]: success
+[2024-04-24 12:01:58] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-24 12:01:58] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.4.dev1.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.4.dev2.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-04-24 12:01:58] INFO root fetch - processPackages [odoo12-addon-geoengine-swisstopo]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_geoengine_swisstopo-12.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-24 12:01:58] INFO root fetch - processPackages [odoo12-addon-geoengine-swisstopo]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_geoengine_swisstopo-12.0.1.1.0.99.dev1-py3-none-any.whl.zip]
+[2024-04-24 12:01:58] INFO root fetch - main [MainThread]: End processing [odoo12-addon-geoengine-swisstopo]: success
+[2024-04-24 12:01:58] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.3.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.4.tar.gz]
+[2024-04-24 12:01:58] INFO root fetch - main [MainThread]: End processing [mergecraft]: success
+[2024-04-24 12:01:58] INFO root fetch - processPackages [odoo12-addon-base-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_geoengine-12.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-24 12:01:58] INFO root fetch - processPackages [odoo12-addon-base-geoengine]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_base_geoengine-12.0.1.3.0.99.dev1-py3-none-any.whl.zip]
+[2024-04-24 12:01:58] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-geoengine]: success
+[2024-04-24 12:01:58] INFO root fetch - main [MainThread]: Store serial: [22910146]
