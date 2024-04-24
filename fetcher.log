@@ -7685,3 +7685,15 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:10:19] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
 [2024-04-24 04:10:19] INFO root fetch - main [MainThread]: End processing [message-local]: success
 [2024-04-24 04:10:19] INFO root fetch - main [MainThread]: Store serial: [22905721]
+[2024-04-24 04:12:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905721]
+[2024-04-24 04:12:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 04:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptopian-infra
+[2024-04-24 04:12:28] INFO root fetch - processPackages [cryptopian-infra]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-24 04:12:29] INFO root fetch - processPackages [cryptopian-infra]: Downloading https://files.pythonhosted.org/packages/83/a2/70dfc64c6891b12670e21fec6c940d91757eb9d11cffae49e0cf05af7bb7/cryptopian_infra-0.1.4.tar.gz
+[2024-04-24 04:12:29] INFO root fetch - processPackages [cryptopian-infra]: Downloading https://files.pythonhosted.org/packages/b9/61/eb92baba973a0770564b5ac6626c15b5dff58984f65c3851ed732b264e33/cryptopian_infra-0.1.5.tar.gz
+[2024-04-24 04:12:29] INFO root fetch - processPackages [cryptopian-infra]: executing diffoscope
+[2024-04-24 04:12:29] INFO root fetch - processPackages [cryptopian-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptopian_infra-0.1.4.tar.gz tmp/cryptopian_infra-0.1.5.tar.gz --markdown 20240424/c/cryptopian-infra/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-24 04:12:30] INFO root fetch - processPackages [cryptopian-infra]: Remove: archive file [/home/abi/fetcher/tmp/cryptopian_infra-0.1.4.tar.gz]
+[2024-04-24 04:12:30] INFO root fetch - processPackages [cryptopian-infra]: Remove: archive file [/home/abi/fetcher/tmp/cryptopian_infra-0.1.5.tar.gz]
+[2024-04-24 04:12:30] INFO root fetch - main [MainThread]: End processing [cryptopian-infra]: success
+[2024-04-24 04:12:30] INFO root fetch - main [MainThread]: Store serial: [22905740]
