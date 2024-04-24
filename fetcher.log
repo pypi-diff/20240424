@@ -10086,3 +10086,59 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:35:30] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.0rc4-py3-none-any.whl.zip]
 [2024-04-24 06:35:30] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
 [2024-04-24 06:35:30] INFO root fetch - main [MainThread]: Store serial: [22906786]
+[2024-04-24 06:37:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906786]
+[2024-04-24 06:37:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 06:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reprompt
+[2024-04-24 06:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fileformats-medimage
+[2024-04-24 06:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aq-geometric
+[2024-04-24 06:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fileformats-medimage-extras
+[2024-04-24 06:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vllm
+[2024-04-24 06:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudflare
+[2024-04-24 06:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tests-web-linda
+[2024-04-24 06:37:39] INFO root fetch - processPackages [aq-geometric]: New version: [2024.4.7.2] Old Version: [2024.4.6.1]
+[2024-04-24 06:37:39] INFO root fetch - processPackages [reprompt]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-24 06:37:39] WARNING root fetch - processPackages [tests-web-linda]: Skipping, unable to determine old version
+[2024-04-24 06:37:39] INFO root fetch - main [MainThread]: End processing [tests-web-linda] error
+[2024-04-24 06:37:39] INFO root fetch - processPackages [fileformats-medimage]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-24 06:37:39] INFO root fetch - processPackages [fileformats-medimage-extras]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-24 06:37:39] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/e8/3a/361e91ac5e9c6f7d6d1f4fae3f93e8654e9e151e1853cbd03ee234b30c96/aq_geometric-2024.4.6.1.tar.gz
+[2024-04-24 06:37:39] INFO root fetch - processPackages [vllm]: New version: [0.4.1] Old Version: [0.4.0.post1]
+[2024-04-24 06:37:39] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/16/be/48ea095464d54671ae1d7f9a8f68a699a6be3a4f3b4ce8173849df56fe5e/reprompt-0.0.7.8.tar.gz
+[2024-04-24 06:37:39] INFO root fetch - processPackages [cloudflare]: New version: [3.0.0b8] Old Version: [3.0.0b7]
+[2024-04-24 06:37:39] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/09/6e/5dcf5d358694c265761f72daaf8330182e14799386df3ed6f881686aeafd/fileformats_medimage-0.6.7.tar.gz
+[2024-04-24 06:37:39] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/64/c7/642b4e3b6bf75bc1543134bb1eab127d55e580079938f10789f297f7f07d/fileformats_medimage_extras-0.6.7.tar.gz
+[2024-04-24 06:37:39] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/9f/57/4ca4c40e9d7a138326c5869361ac479d342f3896bc074d2cbd02c824da2d/reprompt-0.0.7.9.tar.gz
+[2024-04-24 06:37:39] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/e3/fb/e18463bced89426df17e49d76539b23df0f3310fa0f23e373b41374b9f92/cloudflare-3.0.0b7.tar.gz
+[2024-04-24 06:37:39] INFO root fetch - processPackages [vllm]: Downloading https://files.pythonhosted.org/packages/c6/4d/5b39fa05634c8b8d93b175e41027f1f2753bb2bc264db21ab8a42e2f7581/vllm-0.4.0.post1-cp39-cp39-manylinux1_x86_64.whl
+[2024-04-24 06:37:39] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/0e/08/70b34eb8103823c658557aaaf636d19969e7d9c7e2f66f140ce371644f59/aq_geometric-2024.4.7.2.tar.gz
+[2024-04-24 06:37:39] WARNING root fetch - processPackages [vllm]: Skipping package: exceeds size limit 97614834>=10485760
+[2024-04-24 06:37:39] INFO root fetch - main [MainThread]: End processing [vllm] error
+[2024-04-24 06:37:39] INFO root fetch - processPackages [reprompt]: executing diffoscope
+[2024-04-24 06:37:39] INFO root fetch - processPackages [reprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprompt-0.0.7.8.tar.gz tmp/reprompt-0.0.7.9.tar.gz --markdown 20240424/r/reprompt/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-24 06:37:40] INFO root fetch - processPackages [aq-geometric]: executing diffoscope
+[2024-04-24 06:37:40] INFO root fetch - processPackages [aq-geometric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aq_geometric-2024.4.6.1.tar.gz tmp/aq_geometric-2024.4.7.2.tar.gz --markdown 20240424/a/aq-geometric/2024.4.6.1-2024.4.7.2/README.md --exclude *.pyd
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/19/b9/cc5e79796ae0ce65a9713804c0612a1ed333d032eb6f0c86fdad8a988e27/fileformats_medimage-0.7.0.tar.gz
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/10/63/4457a91ccb6c426aa557155cf4948544fd434a79c48ecff452362285d238/fileformats_medimage_extras-0.7.0.tar.gz
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage]: executing diffoscope
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage-0.6.7.tar.gz tmp/fileformats_medimage-0.7.0.tar.gz --markdown 20240424/f/fileformats-medimage/0.6.7-0.7.0/README.md --exclude *.pyd
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage-extras]: executing diffoscope
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_extras-0.6.7.tar.gz tmp/fileformats_medimage_extras-0.7.0.tar.gz --markdown 20240424/f/fileformats-medimage-extras/0.6.7-0.7.0/README.md --exclude *.pyd
+[2024-04-24 06:37:40] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/1a/04/755fc8275ff14b215138b2cf234d507cb737e5c74a13661c8d9b0647ff39/cloudflare-3.0.0b8.tar.gz
+[2024-04-24 06:37:40] INFO root fetch - processPackages [cloudflare]: executing diffoscope
+[2024-04-24 06:37:40] INFO root fetch - processPackages [cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-3.0.0b7.tar.gz tmp/cloudflare-3.0.0b8.tar.gz --markdown 20240424/c/cloudflare/3.0.0b7-3.0.0b8/README.md --exclude *.pyd
+[2024-04-24 06:37:40] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.6.1.tar.gz]
+[2024-04-24 06:37:40] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.7.2.tar.gz]
+[2024-04-24 06:37:40] INFO root fetch - main [MainThread]: End processing [aq-geometric]: success
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.6.7.tar.gz]
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.7.0.tar.gz]
+[2024-04-24 06:37:40] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-extras]: success
+[2024-04-24 06:37:40] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.8.tar.gz]
+[2024-04-24 06:37:40] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.9.tar.gz]
+[2024-04-24 06:37:40] INFO root fetch - main [MainThread]: End processing [reprompt]: success
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.6.7.tar.gz]
+[2024-04-24 06:37:40] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.7.0.tar.gz]
+[2024-04-24 06:37:40] INFO root fetch - main [MainThread]: End processing [fileformats-medimage]: success
+[2024-04-24 06:37:57] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b7.tar.gz]
+[2024-04-24 06:37:57] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b8.tar.gz]
+[2024-04-24 06:37:57] INFO root fetch - main [MainThread]: End processing [cloudflare]: success
+[2024-04-24 06:37:57] INFO root fetch - main [MainThread]: Store serial: [22906813]
