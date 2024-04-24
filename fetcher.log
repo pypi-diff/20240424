@@ -18124,3 +18124,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:04:10] INFO root fetch - processPackages [openfinance]: Remove: archive file [/home/abi/fetcher/tmp/openfinance-3.3.4.tar.gz]
 [2024-04-24 12:04:10] INFO root fetch - main [MainThread]: End processing [openfinance]: success
 [2024-04-24 12:04:10] INFO root fetch - main [MainThread]: Store serial: [22910157]
+[2024-04-24 12:06:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910157]
+[2024-04-24 12:06:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-honeybee
+[2024-04-24 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess2vec
+[2024-04-24 12:06:20] INFO root fetch - processPackages [chess2vec]: New version: [0.3.2] Old Version: [0.3.1b3]
+[2024-04-24 12:06:20] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-24 12:06:20] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/e7/13/754b1eec01b0e51f5cd28184959c83035b96a61357f11c3f80e74b52a002/chess2vec-0.3.1b3.tar.gz
+[2024-04-24 12:06:20] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-04-24 12:06:20] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-04-24 12:06:20] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/a4/33/b918e51bc033a5da96065dd6e383f913c05827e6e61826153a12ee029164/chess2vec-0.3.2.tar.gz
+[2024-04-24 12:06:20] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-04-24 12:06:20] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240424/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-24 12:06:21] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-24 12:06:21] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.3.1b3.tar.gz tmp/chess2vec-0.3.2.tar.gz --markdown 20240424/c/chess2vec/0.3.1b3-0.3.2/README.md --exclude *.pyd
+[2024-04-24 12:06:21] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-04-24 12:06:21] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-04-24 12:06:21] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-04-24 12:06:21] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.3.1b3.tar.gz]
+[2024-04-24 12:06:21] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.3.2.tar.gz]
+[2024-04-24 12:06:21] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-24 12:06:21] INFO root fetch - main [MainThread]: Store serial: [22910164]
