@@ -16902,3 +16902,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:24:32] INFO root fetch - processPackages [techgram]: Remove: archive file [/home/abi/fetcher/tmp/techgram-1.0.2.tar.gz]
 [2024-04-24 11:24:32] INFO root fetch - main [MainThread]: End processing [techgram]: success
 [2024-04-24 11:24:32] INFO root fetch - main [MainThread]: Store serial: [22909734]
+[2024-04-24 11:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909734]
+[2024-04-24 11:26:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logutil
+[2024-04-24 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trycicle
+[2024-04-24 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-04-24 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-recentx
+[2024-04-24 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: govmlretriever
+[2024-04-24 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbrepo
+[2024-04-24 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fdamages
+[2024-04-24 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easy-utils-dev
+[2024-04-24 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unstructured-inference
+[2024-04-24 11:26:42] INFO root fetch - processPackages [logutil]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-24 11:26:42] INFO root fetch - processPackages [fdamages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 11:26:42] INFO root fetch - processPackages [python-recentx]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-24 11:26:42] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-24 11:26:42] INFO root fetch - processPackages [cg]: New version: [60.2.9] Old Version: [60.2.8]
+[2024-04-24 11:26:42] INFO root fetch - processPackages [dbrepo]: New version: [1.4.2rc15] Old Version: [1.4.2rc14]
+[2024-04-24 11:26:42] INFO root fetch - processPackages [trycicle]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-24 11:26:42] WARNING root fetch - processPackages [govmlretriever]: Skipping, unable to determine old version
+[2024-04-24 11:26:42] INFO root fetch - main [MainThread]: End processing [govmlretriever] error
+[2024-04-24 11:26:42] INFO root fetch - processPackages [logutil]: Downloading https://files.pythonhosted.org/packages/2d/60/65e3940d25420bf105c6ccdb596684e2fbc95627ce6504a4b087c86b2374/logutil-0.1.7.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [unstructured-inference]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-24 11:26:42] INFO root fetch - processPackages [python-recentx]: Downloading https://files.pythonhosted.org/packages/80/55/63029f69cca523683ee0168b8cae995909a5aac1bee0160713e1a1fd52ff/python_recentx-1.4.1.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/f7/47/b073d66da70f033a16648506bf9c8c9bf6bb94a4c2addffde34a57d1029e/fdamages-0.0.8.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/dd/49/ac51a477f27ab9495f9e9c5feb3ab9a6c7214546687895725a3dc4d9f147/cg-60.2.8-py3-none-any.whl
+[2024-04-24 11:26:42] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/65/2f/0b16d85332107c2c57bc4c96f4349c0da997f63c2a2fa6cea1b7afc25ef3/dbrepo-1.4.2rc14.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [trycicle]: Downloading https://files.pythonhosted.org/packages/da/41/4f853cfda663724ab124b69b1d0d3154c5dd4f519c7f7e99d48a1b6dbb6a/trycicle-0.3.0.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/a5/de/236a90cd7a70ce149d52403b92cbeee81f73494434e6fc9a8503fa7055ef/unstructured_inference-0.7.8.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [logutil]: Downloading https://files.pythonhosted.org/packages/16/6e/f3f1615a30c66e007349ac3d6e7f9900071206a3b09cb9c0a9a376e7c4ef/logutil-0.1.8.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/c8/91/80a20c426c12fcad2a527baf311c3b6d5f974f223536344ee9c16296a491/fdamages-0.0.9.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [logutil]: executing diffoscope
+[2024-04-24 11:26:42] INFO root fetch - processPackages [logutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logutil-0.1.7.tar.gz tmp/logutil-0.1.8.tar.gz --markdown 20240424/l/logutil/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-24 11:26:42] INFO root fetch - processPackages [python-recentx]: Downloading https://files.pythonhosted.org/packages/11/02/bb555d097e3260a48a667f1ef7958931542a5a7987b840392e6beb76adb3/python_recentx-1.4.2.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-24 11:26:42] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.8.tar.gz tmp/fdamages-0.0.9.tar.gz --markdown 20240424/f/fdamages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 11:26:42] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-24 11:26:42] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240424/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-24 11:26:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0f/0d/e3839924847f808deb84f1a764c2aba70c0f1a0932a03e98a5f08b02d908/cg-60.2.9-py3-none-any.whl
+[2024-04-24 11:26:42] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/c0/18/b96af27b2120d69c4de4b2b81c51bdd6b6aee737156346ac1bb4ec6dd97b/dbrepo-1.4.2rc15.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [trycicle]: Downloading https://files.pythonhosted.org/packages/34/fe/5b3dcd0834ab06d3b28e80d11a98ec6670785cbb82813158cf2870c7b38c/trycicle-0.3.1.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/33/77/3df1a5cf753f74575c4abbd6064e39624ead060b1f27dd8fbd58c7cba561/unstructured_inference-0.7.9.tar.gz
+[2024-04-24 11:26:42] INFO root fetch - processPackages [python-recentx]: executing diffoscope
+[2024-04-24 11:26:42] INFO root fetch - processPackages [python-recentx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_recentx-1.4.1.tar.gz tmp/python_recentx-1.4.2.tar.gz --markdown 20240424/p/python-recentx/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-24 11:26:42] INFO root fetch - processPackages [dbrepo]: executing diffoscope
+[2024-04-24 11:26:42] INFO root fetch - processPackages [dbrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbrepo-1.4.2rc14.tar.gz tmp/dbrepo-1.4.2rc15.tar.gz --markdown 20240424/d/dbrepo/1.4.2rc14-1.4.2rc15/README.md --exclude *.pyd
+[2024-04-24 11:26:43] INFO root fetch - processPackages [trycicle]: executing diffoscope
+[2024-04-24 11:26:43] INFO root fetch - processPackages [trycicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycicle-0.3.0.tar.gz tmp/trycicle-0.3.1.tar.gz --markdown 20240424/t/trycicle/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-24 11:26:43] INFO root fetch - processPackages [unstructured-inference]: executing diffoscope
+[2024-04-24 11:26:43] INFO root fetch - processPackages [unstructured-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured_inference-0.7.8.tar.gz tmp/unstructured_inference-0.7.9.tar.gz --markdown 20240424/u/unstructured-inference/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-24 11:26:43] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-24 11:26:43] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.2.8-py3-none-any.whl.zip tmp/cg-60.2.9-py3-none-any.whl.zip --markdown 20240424/c/cg/60.2.8-60.2.9/README.md --exclude *.pyd
+[2024-04-24 11:26:43] INFO root fetch - processPackages [logutil]: Remove: archive file [/home/abi/fetcher/tmp/logutil-0.1.7.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - processPackages [logutil]: Remove: archive file [/home/abi/fetcher/tmp/logutil-0.1.8.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - main [MainThread]: End processing [logutil]: success
+[2024-04-24 11:26:43] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.8.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.9.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-24 11:26:43] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-24 11:26:43] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.2rc14.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.2rc15.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - main [MainThread]: End processing [dbrepo]: success
+[2024-04-24 11:26:43] INFO root fetch - processPackages [trycicle]: Remove: archive file [/home/abi/fetcher/tmp/trycicle-0.3.0.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - processPackages [trycicle]: Remove: archive file [/home/abi/fetcher/tmp/trycicle-0.3.1.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - main [MainThread]: End processing [trycicle]: success
+[2024-04-24 11:26:43] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.7.8.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.7.9.tar.gz]
+[2024-04-24 11:26:43] INFO root fetch - main [MainThread]: End processing [unstructured-inference]: success
+[2024-04-24 11:26:44] INFO root fetch - processPackages [python-recentx]: Remove: archive file [/home/abi/fetcher/tmp/python_recentx-1.4.1.tar.gz]
+[2024-04-24 11:26:44] INFO root fetch - processPackages [python-recentx]: Remove: archive file [/home/abi/fetcher/tmp/python_recentx-1.4.2.tar.gz]
+[2024-04-24 11:26:44] INFO root fetch - main [MainThread]: End processing [python-recentx]: success
+[2024-04-24 11:26:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.8-py3-none-any.whl.zip]
+[2024-04-24 11:26:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.9-py3-none-any.whl.zip]
+[2024-04-24 11:26:47] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-24 11:26:47] INFO root fetch - main [MainThread]: Store serial: [22909763]
