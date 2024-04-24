@@ -16851,3 +16851,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:22:19] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
 [2024-04-24 11:22:19] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
 [2024-04-24 11:22:19] INFO root fetch - main [MainThread]: Store serial: [22909718]
+[2024-04-24 11:24:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909718]
+[2024-04-24 11:24:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 11:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: techgram
+[2024-04-24 11:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tbp-nightly
+[2024-04-24 11:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kungfupanda
+[2024-04-24 11:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mure
+[2024-04-24 11:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Test-MMAI-Api
+[2024-04-24 11:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logutil
+[2024-04-24 11:24:28] INFO root fetch - processPackages [techgram]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 11:24:28] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-24 11:24:28] WARNING root fetch - processPackages [Test-MMAI-Api]: Skipping, unable to determine old version
+[2024-04-24 11:24:28] INFO root fetch - main [MainThread]: End processing [Test-MMAI-Api] error
+[2024-04-24 11:24:28] INFO root fetch - processPackages [mure]: New version: [1.0.0a3] Old Version: [1.0.0a0]
+[2024-04-24 11:24:28] INFO root fetch - processPackages [kungfupanda]: New version: [0.23] Old Version: [0.22]
+[2024-04-24 11:24:28] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/bb/c5/904f0c0d6410d3bee0050e1854c3c39c112dd8fada4b390607c6ade591e2/techgram-1.0.1.tar.gz
+[2024-04-24 11:24:28] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-24 11:24:28] INFO root fetch - processPackages [logutil]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-24 11:24:28] INFO root fetch - processPackages [mure]: Downloading https://files.pythonhosted.org/packages/a6/b2/e5865442b9a034856105844b461cab1ea2aa546f73e7a0ebff76c98132bc/mure-1.0.0a0.tar.gz
+[2024-04-24 11:24:28] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/d7/2a/c12708c3c0b6dedff51aebc74eb8f9e0d3f5dca957d8b2b4776564233690/kungfupanda-0.22.tar.gz
+[2024-04-24 11:24:28] INFO root fetch - processPackages [logutil]: Downloading https://files.pythonhosted.org/packages/2d/60/65e3940d25420bf105c6ccdb596684e2fbc95627ce6504a4b087c86b2374/logutil-0.1.7.tar.gz
+[2024-04-24 11:24:28] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/c8/8e/2a9e3f45c0ae43fceeba0c940e55db6193db79a4cf7412a7861ef82aa8fc/techgram-1.0.2.tar.gz
+[2024-04-24 11:24:29] INFO root fetch - processPackages [mure]: Downloading https://files.pythonhosted.org/packages/95/a4/c6d8b4034e98febccde3947a125056bb79e4f57abfe0b3ad92f3bab3a94d/mure-1.0.0a3.tar.gz
+[2024-04-24 11:24:29] INFO root fetch - processPackages [techgram]: executing diffoscope
+[2024-04-24 11:24:29] INFO root fetch - processPackages [techgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/techgram-1.0.1.tar.gz tmp/techgram-1.0.2.tar.gz --markdown 20240424/t/techgram/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-24 11:24:29] INFO root fetch - processPackages [mure]: executing diffoscope
+[2024-04-24 11:24:29] INFO root fetch - processPackages [mure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mure-1.0.0a0.tar.gz tmp/mure-1.0.0a3.tar.gz --markdown 20240424/m/mure/1.0.0a0-1.0.0a3/README.md --exclude *.pyd
+[2024-04-24 11:24:29] INFO root fetch - processPackages [logutil]: Downloading https://files.pythonhosted.org/packages/16/6e/f3f1615a30c66e007349ac3d6e7f9900071206a3b09cb9c0a9a376e7c4ef/logutil-0.1.8.tar.gz
+[2024-04-24 11:24:29] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/6c/69/a9edbc1af2c4e0f83465045502e2cba7a2947ec12cf12be21f56781297b1/kungfupanda-0.23.tar.gz
+[2024-04-24 11:24:29] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-24 11:24:29] INFO root fetch - processPackages [kungfupanda]: executing diffoscope
+[2024-04-24 11:24:29] INFO root fetch - processPackages [kungfupanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kungfupanda-0.22.tar.gz tmp/kungfupanda-0.23.tar.gz --markdown 20240424/k/kungfupanda/0.22-0.23/README.md --exclude *.pyd
+[2024-04-24 11:24:29] INFO root fetch - processPackages [logutil]: executing diffoscope
+[2024-04-24 11:24:29] INFO root fetch - processPackages [logutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logutil-0.1.7.tar.gz tmp/logutil-0.1.8.tar.gz --markdown 20240424/l/logutil/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-24 11:24:29] INFO root fetch - processPackages [mure]: Remove: archive file [/home/abi/fetcher/tmp/mure-1.0.0a0.tar.gz]
+[2024-04-24 11:24:29] INFO root fetch - processPackages [mure]: Remove: archive file [/home/abi/fetcher/tmp/mure-1.0.0a3.tar.gz]
+[2024-04-24 11:24:29] INFO root fetch - main [MainThread]: End processing [mure]: success
+[2024-04-24 11:24:30] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-24 11:24:30] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240424/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-24 11:24:30] INFO root fetch - processPackages [logutil]: Remove: archive file [/home/abi/fetcher/tmp/logutil-0.1.7.tar.gz]
+[2024-04-24 11:24:30] INFO root fetch - processPackages [logutil]: Remove: archive file [/home/abi/fetcher/tmp/logutil-0.1.8.tar.gz]
+[2024-04-24 11:24:30] INFO root fetch - main [MainThread]: End processing [logutil]: success
+[2024-04-24 11:24:30] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.22.tar.gz]
+[2024-04-24 11:24:30] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.23.tar.gz]
+[2024-04-24 11:24:30] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
+[2024-04-24 11:24:32] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-24 11:24:32] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-24 11:24:32] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-24 11:24:32] INFO root fetch - processPackages [techgram]: Remove: archive file [/home/abi/fetcher/tmp/techgram-1.0.1.tar.gz]
+[2024-04-24 11:24:32] INFO root fetch - processPackages [techgram]: Remove: archive file [/home/abi/fetcher/tmp/techgram-1.0.2.tar.gz]
+[2024-04-24 11:24:32] INFO root fetch - main [MainThread]: End processing [techgram]: success
+[2024-04-24 11:24:32] INFO root fetch - main [MainThread]: Store serial: [22909734]
