@@ -16106,3 +16106,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:59:33] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.22.tar.gz]
 [2024-04-24 10:59:33] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
 [2024-04-24 10:59:33] INFO root fetch - main [MainThread]: Store serial: [22909406]
+[2024-04-24 11:01:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909406]
+[2024-04-24 11:01:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-recentx
+[2024-04-24 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prowler
+[2024-04-24 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prowler-cloud
+[2024-04-24 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-logs
+[2024-04-24 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qodex-cameras
+[2024-04-24 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mteb
+[2024-04-24 11:01:43] WARNING root fetch - processPackages [python-recentx]: Skipping, unable to determine old version
+[2024-04-24 11:01:43] INFO root fetch - main [MainThread]: End processing [python-recentx] error
+[2024-04-24 11:01:43] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-24 11:01:43] INFO root fetch - processPackages [qodex-cameras]: New version: [2.3] Old Version: [2.2]
+[2024-04-24 11:01:43] INFO root fetch - processPackages [prowler]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-04-24 11:01:43] INFO root fetch - processPackages [prowler-cloud]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-04-24 11:01:43] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-24 11:01:43] INFO root fetch - processPackages [mo-logs]: New version: [8.601.24115] Old Version: [8.600.24114]
+[2024-04-24 11:01:43] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/71/30/ebe8700b29ae95de014d31d0569bcfe7238623b4e04a8553613f00ae4cb5/prowler_cloud-4.0.1.tar.gz
+[2024-04-24 11:01:43] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/12/d1/92243380f3e56e54d6aac68f3961bdc26d9904bce3385258dc002ffaea37/prowler-4.0.1.tar.gz
+[2024-04-24 11:01:43] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/6b/37/f329fc43344307b23ccf48d0653de1747c26572f11e608ca22520579b47b/qodex_cameras-2.2-py3-none-any.whl
+[2024-04-24 11:01:43] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-24 11:01:43] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-24 11:01:43] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240424/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-24 11:01:43] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/37/b0/92676c956af0ad93e6d8aefe518b84138733c21d98853def86472f671762/mo_logs-8.600.24114.tar.gz
+[2024-04-24 11:01:44] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/6d/1d/b9aa07c4efd0a250f123166047c93f68479bcd5da0b48bb8d51009a43d64/qodex_cameras-2.3-py3-none-any.whl
+[2024-04-24 11:01:44] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/ee/13/5bb93cd8f4213e2a8f57ede055635bd26c503d20cd42969d9c6b5765b418/prowler_cloud-4.1.0.tar.gz
+[2024-04-24 11:01:44] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/da/90/d87f8b5e8f483e6f734a64ad269bc310876fd110abff32b7070342972c0e/mo_logs-8.601.24115.tar.gz
+[2024-04-24 11:01:44] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/df/f2/26e6bb76ee58a2340be041c67a80b46de62fb925e09d58bd766bdee1b788/prowler-4.1.0.tar.gz
+[2024-04-24 11:01:44] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-24 11:01:44] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.2-py3-none-any.whl.zip tmp/qodex_cameras-2.3-py3-none-any.whl.zip --markdown 20240424/q/qodex-cameras/2.2-2.3/README.md --exclude *.pyd
+[2024-04-24 11:01:44] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2024-04-24 11:01:44] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-4.0.1.tar.gz tmp/prowler_cloud-4.1.0.tar.gz --markdown 20240424/p/prowler-cloud/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-04-24 11:01:44] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2024-04-24 11:01:44] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-8.600.24114.tar.gz tmp/mo_logs-8.601.24115.tar.gz --markdown 20240424/m/mo-logs/8.600.24114-8.601.24115/README.md --exclude *.pyd
+[2024-04-24 11:01:44] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2024-04-24 11:01:44] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-4.0.1.tar.gz tmp/prowler-4.1.0.tar.gz --markdown 20240424/p/prowler/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-04-24 11:01:44] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.2-py3-none-any.whl.zip]
+[2024-04-24 11:01:44] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.3-py3-none-any.whl.zip]
+[2024-04-24 11:01:44] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-24 11:01:45] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.600.24114.tar.gz]
+[2024-04-24 11:01:45] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.601.24115.tar.gz]
+[2024-04-24 11:01:45] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2024-04-24 11:01:45] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-24 11:01:45] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-24 11:01:45] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-24 11:01:50] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.0.1.tar.gz]
+[2024-04-24 11:01:50] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.1.0.tar.gz]
+[2024-04-24 11:01:50] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2024-04-24 11:01:50] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.0.1.tar.gz]
+[2024-04-24 11:01:50] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.1.0.tar.gz]
+[2024-04-24 11:01:50] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2024-04-24 11:01:50] INFO root fetch - main [MainThread]: Store serial: [22909427]
