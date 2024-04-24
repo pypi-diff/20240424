@@ -9638,3 +9638,42 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:07:06] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
 [2024-04-24 06:07:06] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
 [2024-04-24 06:07:06] INFO root fetch - main [MainThread]: Store serial: [22906623]
+[2024-04-24 06:09:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906623]
+[2024-04-24 06:09:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 06:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pykegg
+[2024-04-24 06:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2024-04-24 06:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-landscaping
+[2024-04-24 06:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-edit-schema
+[2024-04-24 06:09:15] INFO root fetch - processPackages [datasette-edit-schema]: New version: [0.8a1] Old Version: [0.8a0]
+[2024-04-24 06:09:15] INFO root fetch - processPackages [pykegg]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-24 06:09:15] INFO root fetch - processPackages [mojo-landscaping]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-24 06:09:15] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-04-24 06:09:15] INFO root fetch - processPackages [datasette-edit-schema]: Downloading https://files.pythonhosted.org/packages/b9/0c/dd737cae19c5558be38638bfaea1f104585ca50cc8bf709da863fee12ae4/datasette-edit-schema-0.8a0.tar.gz
+[2024-04-24 06:09:15] INFO root fetch - processPackages [pykegg]: Downloading https://files.pythonhosted.org/packages/ec/77/4c47e39eb85d03a49d2d04f68230304fc56d483747029cd4d1d088a08a81/pykegg-0.1.6.tar.gz
+[2024-04-24 06:09:15] INFO root fetch - processPackages [mojo-landscaping]: Downloading https://files.pythonhosted.org/packages/bb/14/e6c033b5083f7045b081d817f713cfbcf9e9d8de1f4041ba2e91c02cc257/mojo_landscaping-1.3.4.tar.gz
+[2024-04-24 06:09:15] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-04-24 06:09:15] INFO root fetch - processPackages [datasette-edit-schema]: Downloading https://files.pythonhosted.org/packages/3e/9c/9a1baca6349874e209bf5ce6df9c5fed95d486a5bf031adb3743fec8ec6d/datasette-edit-schema-0.8a1.tar.gz
+[2024-04-24 06:09:15] INFO root fetch - processPackages [pykegg]: Downloading https://files.pythonhosted.org/packages/e6/96/74493acd8f535745edecc0127efd29c32755b4e15f0425ad14c3ba33694a/pykegg-0.1.7.tar.gz
+[2024-04-24 06:09:15] INFO root fetch - processPackages [mojo-landscaping]: Downloading https://files.pythonhosted.org/packages/0c/20/db34254ebca527d76a9afad8e187a86ccba4df707a62ba4c700cb51f4495/mojo_landscaping-1.3.5.tar.gz
+[2024-04-24 06:09:15] INFO root fetch - processPackages [datasette-edit-schema]: executing diffoscope
+[2024-04-24 06:09:15] INFO root fetch - processPackages [datasette-edit-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-edit-schema-0.8a0.tar.gz tmp/datasette-edit-schema-0.8a1.tar.gz --markdown 20240424/d/datasette-edit-schema/0.8a0-0.8a1/README.md --exclude *.pyd
+[2024-04-24 06:09:15] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-04-24 06:09:15] INFO root fetch - processPackages [pykegg]: executing diffoscope
+[2024-04-24 06:09:15] INFO root fetch - processPackages [pykegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykegg-0.1.6.tar.gz tmp/pykegg-0.1.7.tar.gz --markdown 20240424/p/pykegg/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-24 06:09:15] INFO root fetch - processPackages [mojo-landscaping]: executing diffoscope
+[2024-04-24 06:09:15] INFO root fetch - processPackages [mojo-landscaping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_landscaping-1.3.4.tar.gz tmp/mojo_landscaping-1.3.5.tar.gz --markdown 20240424/m/mojo-landscaping/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-04-24 06:09:16] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-24 06:09:16] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240424/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-04-24 06:09:16] INFO root fetch - processPackages [pykegg]: Remove: archive file [/home/abi/fetcher/tmp/pykegg-0.1.6.tar.gz]
+[2024-04-24 06:09:16] INFO root fetch - processPackages [pykegg]: Remove: archive file [/home/abi/fetcher/tmp/pykegg-0.1.7.tar.gz]
+[2024-04-24 06:09:16] INFO root fetch - main [MainThread]: End processing [pykegg]: success
+[2024-04-24 06:09:16] INFO root fetch - processPackages [datasette-edit-schema]: Remove: archive file [/home/abi/fetcher/tmp/datasette-edit-schema-0.8a0.tar.gz]
+[2024-04-24 06:09:16] INFO root fetch - processPackages [datasette-edit-schema]: Remove: archive file [/home/abi/fetcher/tmp/datasette-edit-schema-0.8a1.tar.gz]
+[2024-04-24 06:09:16] INFO root fetch - main [MainThread]: End processing [datasette-edit-schema]: success
+[2024-04-24 06:09:16] INFO root fetch - processPackages [mojo-landscaping]: Remove: archive file [/home/abi/fetcher/tmp/mojo_landscaping-1.3.4.tar.gz]
+[2024-04-24 06:09:16] INFO root fetch - processPackages [mojo-landscaping]: Remove: archive file [/home/abi/fetcher/tmp/mojo_landscaping-1.3.5.tar.gz]
+[2024-04-24 06:09:16] INFO root fetch - main [MainThread]: End processing [mojo-landscaping]: success
+[2024-04-24 06:09:16] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-04-24 06:09:16] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-04-24 06:09:16] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-24 06:09:16] INFO root fetch - main [MainThread]: Store serial: [22906635]
