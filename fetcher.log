@@ -21971,3 +21971,246 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:13:20] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.6.tar.gz]
 [2024-04-24 14:13:20] INFO root fetch - main [MainThread]: End processing [kso-utils]: success
 [2024-04-24 14:13:20] INFO root fetch - main [MainThread]: Store serial: [22911831]
+[2024-04-24 14:17:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911831]
+[2024-04-24 14:17:54] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kso-utils
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tui-dsmt
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clump-python
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: so-ml-tools
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easybloom
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: freegenius
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hddm-s
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: saleyo
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-24 14:17:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moyopy
+[2024-04-24 14:17:54] INFO root fetch - processPackages [kso-utils]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-24 14:17:54] INFO root fetch - processPackages [freegenius]: New version: [0.0.91] Old Version: [0.0.90]
+[2024-04-24 14:17:54] INFO root fetch - processPackages [hddm-s]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-24 14:17:54] INFO root fetch - processPackages [moyopy]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-04-24 14:17:54] INFO root fetch - processPackages [tui-dsmt]: New version: [202404231703] Old Version: [202404231702]
+[2024-04-24 14:17:54] INFO root fetch - processPackages [saleyo]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-04-24 14:17:54] WARNING root fetch - processPackages [clump-python]: Skipping, unable to determine old version
+[2024-04-24 14:17:54] INFO root fetch - processPackages [clump-python]: Start processing: rooms-shared-services
+[2024-04-24 14:17:54] INFO root fetch - main [MainThread]: End processing [clump-python] error
+[2024-04-24 14:17:54] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/68/cb/8337472b4853a1d91216dfdadb53c527dfc4f50230de6810b2b674439b53/kso_utils-0.2.6.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [easybloom]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-24 14:17:54] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 14:17:54] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240424] Old Version: [2.5.0b20240423]
+[2024-04-24 14:17:54] INFO root fetch - processPackages [moyopy]: Downloading https://files.pythonhosted.org/packages/7a/e9/76bf60ebcb03ab2b27c5ef12edd5af911be7d2df1ebffa5fac3d91c3b92d/moyopy-0.1.4.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/eb/f7/6bd6b4879628f47ae15ea401ea6c59b5ca77e73eb04cdaaa91972d8f4f16/freegenius-0.0.90.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/c7/15/051d8248dd680cc83687b776c06944bb75f8bcddabc05f270b5c65549a26/hddm_s-1.0.7.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-24 14:17:54] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/94/7c/c7ea7297780ff8dd9e6660f6ecb9b8a0f1a94434c7a245d15e0b6f8643e8/tui_dsmt-202404231702.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [easybloom]: Downloading https://files.pythonhosted.org/packages/16/7e/b5143f3bf1bbd84294495702f1466e223eb46f865745fcb8e19c54bc9f10/easybloom-0.1.3.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [saleyo]: Downloading https://files.pythonhosted.org/packages/f5/96/b3f727c01db845c29b26b04c260260c19e595c194be05948910fa25f9758/saleyo-1.0.4.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/e0/94/d558766fe65b8dfd78ecb2e0ef062c921a1c8c3ce540aaf8e6ef0a19eb99/bigdl_core_xe_esimd_21-2.5.0b20240423-cp39-cp39-win_amd64.whl
+[2024-04-24 14:17:54] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/d2/24/0bac70948a0f916016590dddfc7e17148c466fa4b02e8bd2d4f3119e1816/hddm_s-1.0.9.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [moyopy]: Downloading https://files.pythonhosted.org/packages/a5/a0/d219a45fcdc00019a1f4d24ea81d2eb7c595fe144a60af2d8d68f206f87c/moyopy-0.1.6.tar.gz
+[2024-04-24 14:17:54] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/63/ed/14be7e46d70cbfb4ac24adb8ba3a178942e4961e90a76a0f8bf07f957779/kso_utils-0.2.7.tar.gz
+[2024-04-24 14:17:55] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-24 14:17:55] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.7.tar.gz tmp/hddm_s-1.0.9.tar.gz --markdown 20240424/h/hddm-s/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-24 14:17:55] INFO root fetch - processPackages [moyopy]: executing diffoscope
+[2024-04-24 14:17:55] INFO root fetch - processPackages [moyopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moyopy-0.1.4.tar.gz tmp/moyopy-0.1.6.tar.gz --markdown 20240424/m/moyopy/0.1.4-0.1.6/README.md --exclude *.pyd
+[2024-04-24 14:17:55] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-24 14:17:55] INFO root fetch - processPackages [easybloom]: Downloading https://files.pythonhosted.org/packages/5f/92/a6863b2dab5d16816ad12c9f02ac7a92021c0bc36642af813411db2caaa2/easybloom-0.1.4.tar.gz
+[2024-04-24 14:17:55] INFO root fetch - processPackages [saleyo]: Downloading https://files.pythonhosted.org/packages/af/70/591655739a226bb254d11606382115d3066f35e8129996d3b25735b76d86/saleyo-1.1.0.tar.gz
+[2024-04-24 14:17:55] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/db/9c/31ad9ab894f7cbb4f00c2f4a507dddac4e89cabbe57fceb72007bc1cff3c/tui_dsmt-202404231703-py3-none-any.whl
+[2024-04-24 14:17:55] INFO root fetch - processPackages [kso-utils]: executing diffoscope
+[2024-04-24 14:17:55] INFO root fetch - processPackages [kso-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kso_utils-0.2.6.tar.gz tmp/kso_utils-0.2.7.tar.gz --markdown 20240424/k/kso-utils/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-24 14:17:55] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/ed/e7/99600ff21d33f8ef96af44dcaccbf440fb94069d58c2fdf3bdb82b75e920/freegenius-0.0.91.tar.gz
+[2024-04-24 14:17:55] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-24 14:17:55] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-24 14:17:55] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240424/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-24 14:17:55] INFO root fetch - processPackages [easybloom]: executing diffoscope
+[2024-04-24 14:17:55] INFO root fetch - processPackages [easybloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybloom-0.1.3.tar.gz tmp/easybloom-0.1.4.tar.gz --markdown 20240424/e/easybloom/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-24 14:17:55] INFO root fetch - processPackages [saleyo]: executing diffoscope
+[2024-04-24 14:17:55] INFO root fetch - processPackages [saleyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saleyo-1.0.4.tar.gz tmp/saleyo-1.1.0.tar.gz --markdown 20240424/s/saleyo/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-04-24 14:17:55] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-24 14:17:55] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404231702.tar.gz tmp/tui_dsmt-202404231703-py3-none-any.whl.zip --markdown 20240424/t/tui-dsmt/202404231702-202404231703/README.md --exclude *.pyd
+[2024-04-24 14:17:55] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-24 14:17:55] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240424/s/so-ml-tools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 14:17:55] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/a9/28/1c9d76267a4684f407c3d435b6dffb3fcc87a9333f196e01486c3697465e/bigdl_core_xe_esimd_21-2.5.0b20240424-cp310-cp310-manylinux2010_x86_64.whl
+[2024-04-24 14:17:55] WARNING root fetch - processPackages [bigdl-core-xe-esimd-21]: Skipping package: exceeds size limit 46710743>=10485760
+[2024-04-24 14:17:55] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Start processing: alert-on-exception
+[2024-04-24 14:17:55] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-04-24 14:17:55] INFO root fetch - processPackages [alert-on-exception]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-24 14:17:55] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-24 14:17:55] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.90.tar.gz tmp/freegenius-0.0.91.tar.gz --markdown 20240424/f/freegenius/0.0.90-0.0.91/README.md --exclude *.pyd
+[2024-04-24 14:17:55] INFO root fetch - processPackages [alert-on-exception]: Downloading https://files.pythonhosted.org/packages/31/0a/a3f61daf21b7531b68e2dd12e1a468e58759ed79b4679ae1b6022255f584/alert_on_exception-0.1.3.tar.gz
+[2024-04-24 14:17:55] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.7.tar.gz]
+[2024-04-24 14:17:55] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.9.tar.gz]
+[2024-04-24 14:17:55] INFO root fetch - processPackages [hddm-s]: Start processing: setech
+[2024-04-24 14:17:55] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-24 14:17:55] INFO root fetch - processPackages [setech]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [alert-on-exception]: Downloading https://files.pythonhosted.org/packages/31/66/be69b016e8859461ee248b220a339ccc1552c361fafc2ed642a4ede2ba46/alert_on_exception-0.1.4.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [alert-on-exception]: executing diffoscope
+[2024-04-24 14:17:56] INFO root fetch - processPackages [alert-on-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alert_on_exception-0.1.3.tar.gz tmp/alert_on_exception-0.1.4.tar.gz --markdown 20240424/a/alert-on-exception/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-24 14:17:56] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/72/56/cf4d991e55b0add8d7d124bd0a3b6b4088c86ea92928ff7b9982d6c22768/setech-1.2.1.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404231702.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404231703-py3-none-any.whl.zip]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [tui-dsmt]: Start processing: pyodesys
+[2024-04-24 14:17:56] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-24 14:17:56] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.6.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.7.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [kso-utils]: Start processing: supervisely
+[2024-04-24 14:17:56] INFO root fetch - main [MainThread]: End processing [kso-utils]: success
+[2024-04-24 14:17:56] INFO root fetch - processPackages [moyopy]: Remove: archive file [/home/abi/fetcher/tmp/moyopy-0.1.4.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [moyopy]: Remove: archive file [/home/abi/fetcher/tmp/moyopy-0.1.6.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [moyopy]: Start processing: cnspy-numpy-utils
+[2024-04-24 14:17:56] INFO root fetch - main [MainThread]: End processing [moyopy]: success
+[2024-04-24 14:17:56] INFO root fetch - processPackages [pyodesys]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [so-ml-tools]: Start processing: pollination-annual-daylight
+[2024-04-24 14:17:56] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-24 14:17:56] INFO root fetch - processPackages [easybloom]: Remove: archive file [/home/abi/fetcher/tmp/easybloom-0.1.3.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [easybloom]: Remove: archive file [/home/abi/fetcher/tmp/easybloom-0.1.4.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [easybloom]: Start processing: nitrain
+[2024-04-24 14:17:56] INFO root fetch - main [MainThread]: End processing [easybloom]: success
+[2024-04-24 14:17:56] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [rooms-shared-services]: Start processing: cnspy-spatial-csv-formats
+[2024-04-24 14:17:56] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-24 14:17:56] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [cnspy-numpy-utils]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [saleyo]: Remove: archive file [/home/abi/fetcher/tmp/saleyo-1.0.4.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [saleyo]: Remove: archive file [/home/abi/fetcher/tmp/saleyo-1.1.0.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [saleyo]: Start processing: cnspy-timestamp-association
+[2024-04-24 14:17:56] INFO root fetch - main [MainThread]: End processing [saleyo]: success
+[2024-04-24 14:17:56] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/d5/28/166876dc549f1c300a0bdc4aa94d2c2ae8ad3c7d2789f90d4db7b2d51f7d/setech-1.3.0.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [nitrain]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [pollination-annual-daylight]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [pyodesys]: Downloading https://files.pythonhosted.org/packages/38/f4/8f83b7709e3cbc57b6e7548fa11298f47e2e401d780b8e63bbec7e9dac16/pyodesys-0.9.1.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [cnspy-spatial-csv-formats]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [cnspy-timestamp-association]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [setech]: executing diffoscope
+[2024-04-24 14:17:56] INFO root fetch - processPackages [setech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setech-1.2.1.tar.gz tmp/setech-1.3.0.tar.gz --markdown 20240424/s/setech/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-04-24 14:17:56] INFO root fetch - processPackages [cnspy-numpy-utils]: Downloading https://files.pythonhosted.org/packages/e4/59/d543700c750f3e76bbc881a3ae350335efad3c75cb566a1607e338ab06c7/cnspy_numpy_utils-0.1.1.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [nitrain]: Downloading https://files.pythonhosted.org/packages/9d/c3/d458baebe033dde6b55c6f74a0aa5fbf6896fa86457e4eb98090249009ca/nitrain-0.2.2.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [pollination-annual-daylight]: Downloading https://files.pythonhosted.org/packages/84/2c/8efad4f9a84def4f540967d3f5d5a7b176697357ade3b81901f19f2f7d70/pollination-annual-daylight-0.9.8.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [cnspy-spatial-csv-formats]: Downloading https://files.pythonhosted.org/packages/3d/39/49b3ac79310ae51486ecf4d6002daacfc54dc51f9f22b3842776830a43e4/cnspy_spatial_csv_formats-0.1.1.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [cnspy-timestamp-association]: Downloading https://files.pythonhosted.org/packages/23/14/321e998bb566d3e4603efbf3436cfad9ffc8443ace61512160d342aa73ba/cnspy_timestamp_association-0.1.1.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [alert-on-exception]: Remove: archive file [/home/abi/fetcher/tmp/alert_on_exception-0.1.3.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [alert-on-exception]: Remove: archive file [/home/abi/fetcher/tmp/alert_on_exception-0.1.4.tar.gz]
+[2024-04-24 14:17:56] INFO root fetch - processPackages [alert-on-exception]: Start processing: chess2vec
+[2024-04-24 14:17:56] INFO root fetch - main [MainThread]: End processing [alert-on-exception]: success
+[2024-04-24 14:17:56] INFO root fetch - processPackages [cnspy-numpy-utils]: Downloading https://files.pythonhosted.org/packages/66/56/1a7991bf5c9f99fca159e004a98ebe4635a9a5566117d54496e74bcde5f3/cnspy_numpy_utils-0.2.0.tar.gz
+[2024-04-24 14:17:56] INFO root fetch - processPackages [chess2vec]: New version: [0.3.2b3] Old Version: [0.3.2b2]
+[2024-04-24 14:17:57] INFO root fetch - processPackages [pyodesys]: Downloading https://files.pythonhosted.org/packages/f5/3f/f3a2dcf6bfba104b9f1d5bec1f408bc0fb1d72eddc8116da35f3b01b2cd6/pyodesys-0.9.2.tar.gz
+[2024-04-24 14:17:57] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-04-24 14:17:57] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/9e/e0/358a5772a8aa073734180b1a6f14b2ebefb1ac3663e83289f0bd3c1c7065/chess2vec-0.3.2b2.tar.gz
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-numpy-utils]: executing diffoscope
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-numpy-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnspy_numpy_utils-0.1.1.tar.gz tmp/cnspy_numpy_utils-0.2.0.tar.gz --markdown 20240424/c/cnspy-numpy-utils/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 14:17:57] INFO root fetch - processPackages [nitrain]: Downloading https://files.pythonhosted.org/packages/60/31/faccb8c6330a2af47b236f5490fc7fc856df64dcef16a46710a67cb5022b/nitrain-0.3.0.tar.gz
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-spatial-csv-formats]: Downloading https://files.pythonhosted.org/packages/4b/c0/19f8c2e0d0eae8cd6533955ecb8319f3759c9ce0a550d2dba60612dd408a/cnspy_spatial_csv_formats-0.2.0.tar.gz
+[2024-04-24 14:17:57] INFO root fetch - processPackages [pollination-annual-daylight]: Downloading https://files.pythonhosted.org/packages/3f/e1/394fb4b8480edc7dea37f64330776b542e5453f9784b22f4e61e89bb4ecd/pollination-annual-daylight-0.9.9.tar.gz
+[2024-04-24 14:17:57] INFO root fetch - processPackages [pyodesys]: executing diffoscope
+[2024-04-24 14:17:57] INFO root fetch - processPackages [pyodesys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodesys-0.9.1.tar.gz tmp/pyodesys-0.9.2.tar.gz --markdown 20240424/p/pyodesys/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-timestamp-association]: Downloading https://files.pythonhosted.org/packages/8b/0a/dc02bf6211faae7a1196501e2ab0fe3e0497e51f3682a45ccb7d3f98ff7f/cnspy_timestamp_association-0.2.0.tar.gz
+[2024-04-24 14:17:57] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.2.1.tar.gz]
+[2024-04-24 14:17:57] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.0.tar.gz]
+[2024-04-24 14:17:57] INFO root fetch - processPackages [setech]: Start processing: cnspy-csv2dataframe
+[2024-04-24 14:17:57] INFO root fetch - main [MainThread]: End processing [setech]: success
+[2024-04-24 14:17:57] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-04-24 14:17:57] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240424/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-04-24 14:17:57] INFO root fetch - processPackages [nitrain]: executing diffoscope
+[2024-04-24 14:17:57] INFO root fetch - processPackages [nitrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrain-0.2.2.tar.gz tmp/nitrain-0.3.0.tar.gz --markdown 20240424/n/nitrain/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-24 14:17:57] INFO root fetch - processPackages [pollination-annual-daylight]: executing diffoscope
+[2024-04-24 14:17:57] INFO root fetch - processPackages [pollination-annual-daylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight-0.9.8.tar.gz tmp/pollination-annual-daylight-0.9.9.tar.gz --markdown 20240424/p/pollination-annual-daylight/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-spatial-csv-formats]: executing diffoscope
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-spatial-csv-formats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnspy_spatial_csv_formats-0.1.1.tar.gz tmp/cnspy_spatial_csv_formats-0.2.0.tar.gz --markdown 20240424/c/cnspy-spatial-csv-formats/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-timestamp-association]: executing diffoscope
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-timestamp-association]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnspy_timestamp_association-0.1.1.tar.gz tmp/cnspy_timestamp_association-0.2.0.tar.gz --markdown 20240424/c/cnspy-timestamp-association/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-csv2dataframe]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-24 14:17:57] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/08/cc/922eff8b6466ee1ac4fb8d7478a9e41ec0e11c4d610531d130f19c8834eb/chess2vec-0.3.2b3.tar.gz
+[2024-04-24 14:17:57] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-24 14:17:57] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.3.2b2.tar.gz tmp/chess2vec-0.3.2b3.tar.gz --markdown 20240424/c/chess2vec/0.3.2b2-0.3.2b3/README.md --exclude *.pyd
+[2024-04-24 14:17:57] INFO root fetch - processPackages [cnspy-csv2dataframe]: Downloading https://files.pythonhosted.org/packages/95/40/2a62460eec41c0d9991b9c8c02ec639116138c1b0a745b1068b84f283436/cnspy_csv2dataframe-0.1.1.tar.gz
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-csv2dataframe]: Downloading https://files.pythonhosted.org/packages/9c/f0/632e1581aaf601dbbffbd367758a960a52ac0b82684a44f3afb3d3975d8b/cnspy_csv2dataframe-0.2.0.tar.gz
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-numpy-utils]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_numpy_utils-0.1.1.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-numpy-utils]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_numpy_utils-0.2.0.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-numpy-utils]: Start processing: cnspy-rosbag2csv
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [cnspy-numpy-utils]: success
+[2024-04-24 14:17:58] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.90.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.91.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [freegenius]: Start processing: dataskillhub
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-csv2dataframe]: executing diffoscope
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-csv2dataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnspy_csv2dataframe-0.1.1.tar.gz tmp/cnspy_csv2dataframe-0.2.0.tar.gz --markdown 20240424/c/cnspy-csv2dataframe/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-rosbag2csv]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [pollination-annual-daylight]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-0.9.8.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [pollination-annual-daylight]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-0.9.9.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [pollination-annual-daylight]: Start processing: cnspy-rosbag2image
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight]: success
+[2024-04-24 14:17:58] INFO root fetch - processPackages [dataskillhub]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-timestamp-association]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_timestamp_association-0.1.1.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [pyodesys]: Remove: archive file [/home/abi/fetcher/tmp/pyodesys-0.9.1.tar.gz]
+[2024-04-24 14:17:58] WARNING root fetch - processPackages [cnspy-rosbag2image]: Skipping, unable to determine old version
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-timestamp-association]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_timestamp_association-0.2.0.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [pyodesys]: Remove: archive file [/home/abi/fetcher/tmp/pyodesys-0.9.2.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-rosbag2image]: Start processing: cnspy-ranging-evaluation
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [cnspy-rosbag2image] error
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-timestamp-association]: Start processing: hddm-s
+[2024-04-24 14:17:58] INFO root fetch - processPackages [pyodesys]: Start processing: clusterfudge
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [cnspy-timestamp-association]: success
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [pyodesys]: success
+[2024-04-24 14:17:58] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.3.2b2.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.3.2b3.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [chess2vec]: Start processing: cnspy-trajectory
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-24 14:17:58] INFO root fetch - processPackages [hddm-s]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-rosbag2csv]: Downloading https://files.pythonhosted.org/packages/97/d9/63775dece72326977aa007953b747b61bbd32e5ed657d20050dc6b06e006/cnspy_rosbag2csv-0.1.2.tar.gz
+[2024-04-24 14:17:58] INFO root fetch - processPackages [nitrain]: Remove: archive file [/home/abi/fetcher/tmp/nitrain-0.2.2.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [nitrain]: Remove: archive file [/home/abi/fetcher/tmp/nitrain-0.3.0.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [nitrain]: success
+[2024-04-24 14:17:58] INFO root fetch - processPackages [clusterfudge]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/91/8e/cb75e4ce0b7c73b598b8caba63e22df9078276df7a7f326d0e4fb63b4af1/dataskillhub-1.6.6-py3-none-any.whl
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-spatial-csv-formats]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_spatial_csv_formats-0.1.1.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-spatial-csv-formats]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_spatial_csv_formats-0.2.0.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [cnspy-spatial-csv-formats]: success
+[2024-04-24 14:17:58] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/c7/15/051d8248dd680cc83687b776c06944bb75f8bcddabc05f270b5c65549a26/hddm_s-1.0.7.tar.gz
+[2024-04-24 14:17:58] WARNING root fetch - processPackages [cnspy-ranging-evaluation]: Skipping, unable to determine old version
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [cnspy-ranging-evaluation] error
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-trajectory]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [clusterfudge]: Downloading https://files.pythonhosted.org/packages/5c/35/cebbfc54b4264e1a9322762888c118308ba25fcbf02b45f1c5e313a3e216/clusterfudge-0.8.0.tar.gz
+[2024-04-24 14:17:58] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/d2/24/0bac70948a0f916016590dddfc7e17148c466fa4b02e8bd2d4f3119e1816/hddm_s-1.0.9.tar.gz
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-rosbag2csv]: Downloading https://files.pythonhosted.org/packages/38/9a/ce85a527e16fcf713d6479d5877cf87e1505fca679428a0182b20d4af11b/cnspy_rosbag2csv-0.2.0.tar.gz
+[2024-04-24 14:17:58] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/f6/18/ddc8f328ccc266d27a092224683bc2d7e8b61302e246ae93378340cab059/dataskillhub-1.6.7-py3-none-any.whl
+[2024-04-24 14:17:58] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-trajectory]: Downloading https://files.pythonhosted.org/packages/51/48/f4db44830bf9d97885d18f3e12b63b94167518e3b559daa3cf198198cfe5/cnspy_trajectory-0.1.1.tar.gz
+[2024-04-24 14:17:58] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-24 14:17:58] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.7.tar.gz tmp/hddm_s-1.0.9.tar.gz --markdown 20240424/h/hddm-s/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-rosbag2csv]: executing diffoscope
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-rosbag2csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnspy_rosbag2csv-0.1.2.tar.gz tmp/cnspy_rosbag2csv-0.2.0.tar.gz --markdown 20240424/c/cnspy-rosbag2csv/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-24 14:17:58] INFO root fetch - processPackages [dataskillhub]: executing diffoscope
+[2024-04-24 14:17:58] INFO root fetch - processPackages [dataskillhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskillhub-1.6.6-py3-none-any.whl.zip tmp/dataskillhub-1.6.7-py3-none-any.whl.zip --markdown 20240424/d/dataskillhub/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-04-24 14:17:58] INFO root fetch - processPackages [clusterfudge]: Downloading https://files.pythonhosted.org/packages/f0/ca/90782725b83d2037573c9ae7467cc5d96cc6dde495224232482bd1025b38/clusterfudge-0.9.0.tar.gz
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-csv2dataframe]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_csv2dataframe-0.1.1.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - processPackages [cnspy-csv2dataframe]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_csv2dataframe-0.2.0.tar.gz]
+[2024-04-24 14:17:58] INFO root fetch - main [MainThread]: End processing [cnspy-csv2dataframe]: success
+[2024-04-24 14:17:59] INFO root fetch - processPackages [clusterfudge]: executing diffoscope
+[2024-04-24 14:17:59] INFO root fetch - processPackages [clusterfudge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clusterfudge-0.8.0.tar.gz tmp/clusterfudge-0.9.0.tar.gz --markdown 20240424/c/clusterfudge/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 14:17:59] INFO root fetch - processPackages [cnspy-trajectory]: Downloading https://files.pythonhosted.org/packages/9c/e6/e66645cbba3f276df20f135cea8b5070cda72bdce78692c226c24bdefa7b/cnspy_trajectory-0.2.0.tar.gz
+[2024-04-24 14:17:59] INFO root fetch - processPackages [cnspy-trajectory]: executing diffoscope
+[2024-04-24 14:17:59] INFO root fetch - processPackages [cnspy-trajectory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnspy_trajectory-0.1.1.tar.gz tmp/cnspy_trajectory-0.2.0.tar.gz --markdown 20240424/c/cnspy-trajectory/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 14:17:59] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.7.tar.gz]
+[2024-04-24 14:17:59] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.9.tar.gz]
+[2024-04-24 14:17:59] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-24 14:17:59] INFO root fetch - processPackages [cnspy-rosbag2csv]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_rosbag2csv-0.1.2.tar.gz]
+[2024-04-24 14:17:59] INFO root fetch - processPackages [cnspy-rosbag2csv]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_rosbag2csv-0.2.0.tar.gz]
+[2024-04-24 14:17:59] INFO root fetch - main [MainThread]: End processing [cnspy-rosbag2csv]: success
+[2024-04-24 14:17:59] INFO root fetch - processPackages [clusterfudge]: Remove: archive file [/home/abi/fetcher/tmp/clusterfudge-0.8.0.tar.gz]
+[2024-04-24 14:17:59] INFO root fetch - processPackages [clusterfudge]: Remove: archive file [/home/abi/fetcher/tmp/clusterfudge-0.9.0.tar.gz]
+[2024-04-24 14:17:59] INFO root fetch - main [MainThread]: End processing [clusterfudge]: success
+[2024-04-24 14:17:59] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.6-py3-none-any.whl.zip]
+[2024-04-24 14:17:59] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.6.7-py3-none-any.whl.zip]
+[2024-04-24 14:17:59] INFO root fetch - main [MainThread]: End processing [dataskillhub]: success
+[2024-04-24 14:17:59] INFO root fetch - processPackages [cnspy-trajectory]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_trajectory-0.1.1.tar.gz]
+[2024-04-24 14:17:59] INFO root fetch - processPackages [cnspy-trajectory]: Remove: archive file [/home/abi/fetcher/tmp/cnspy_trajectory-0.2.0.tar.gz]
+[2024-04-24 14:17:59] INFO root fetch - main [MainThread]: End processing [cnspy-trajectory]: success
+[2024-04-24 14:17:59] INFO root fetch - main [MainThread]: Store serial: [22911923]
