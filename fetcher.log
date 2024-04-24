@@ -23762,3 +23762,41 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 15:12:52] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.3.9.tar.gz]
 [2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [allocmd]: success
 [2024-04-24 15:12:52] INFO root fetch - main [MainThread]: Store serial: [22912522]
+[2024-04-24 15:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912522]
+[2024-04-24 15:15:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynetgene
+[2024-04-24 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qbindiff
+[2024-04-24 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-lyzr
+[2024-04-24 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: b2bTools
+[2024-04-24 15:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dnv-onecompute
+[2024-04-24 15:15:19] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 15:15:19] WARNING root fetch - processPackages [pynetgene]: Skipping, unable to determine old version
+[2024-04-24 15:15:19] INFO root fetch - main [MainThread]: End processing [pynetgene] error
+[2024-04-24 15:15:19] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-04-24 15:15:19] INFO root fetch - processPackages [dnv-onecompute]: New version: [9.3.0] Old Version: [9.2.0.0]
+[2024-04-24 15:15:19] INFO root fetch - processPackages [qbindiff]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-24 15:15:19] INFO root fetch - processPackages [b2bTools]: New version: [3.0.7b2] Old Version: [3.0.7b1]
+[2024-04-24 15:15:20] INFO root fetch - processPackages [b2bTools]: Downloading https://files.pythonhosted.org/packages/c2/87/1ad2c3c003320438a3002619d733657426c09cf0ded237a74fdaaed31320/b2bTools-3.0.7b1.tar.gz
+[2024-04-24 15:15:20] INFO root fetch - processPackages [qbindiff]: Downloading https://files.pythonhosted.org/packages/a5/67/aed44492718dbfbcc4155e215861a55ee89c0841dcbd666176b546f6449e/qbindiff-1.2.0.tar.gz
+[2024-04-24 15:15:20] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-04-24 15:15:20] INFO root fetch - processPackages [dnv-onecompute]: Downloading https://files.pythonhosted.org/packages/4f/98/6292fd90b86f4968f05622fcba30e9bc4b51b00ae2fb4352eaa9e0b2fe84/dnv-onecompute-9.2.0.0.tar.gz
+[2024-04-24 15:15:20] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-24 15:15:20] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240424/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 15:15:20] WARNING root fetch - processPackages [b2bTools]: Skipping package: exceeds size limit 19847464>=10485760
+[2024-04-24 15:15:20] INFO root fetch - main [MainThread]: End processing [b2bTools] error
+[2024-04-24 15:15:20] INFO root fetch - processPackages [dnv-onecompute]: Downloading https://files.pythonhosted.org/packages/56/b8/22ad59c9c0f70550ac52ae5ae618a4fec8ee096a2bff57a2bdbb39ce6aab/dnv-onecompute-9.3.0.tar.gz
+[2024-04-24 15:15:20] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-04-24 15:15:20] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-04-24 15:15:20] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-24 15:15:20] INFO root fetch - processPackages [dnv-onecompute]: executing diffoscope
+[2024-04-24 15:15:20] INFO root fetch - processPackages [dnv-onecompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnv-onecompute-9.2.0.0.tar.gz tmp/dnv-onecompute-9.3.0.tar.gz --markdown 20240424/d/dnv-onecompute/9.2.0.0-9.3.0/README.md --exclude *.pyd
+[2024-04-24 15:15:20] INFO root fetch - processPackages [qbindiff]: Downloading https://files.pythonhosted.org/packages/5d/38/1821d97ef2330cb347c9aec100d22a47e7e5f2ba2100bb8a310690794324/qbindiff-1.2.1.tar.gz
+[2024-04-24 15:15:21] INFO root fetch - processPackages [qbindiff]: executing diffoscope
+[2024-04-24 15:15:21] INFO root fetch - processPackages [qbindiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbindiff-1.2.0.tar.gz tmp/qbindiff-1.2.1.tar.gz --markdown 20240424/q/qbindiff/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-24 15:15:21] INFO root fetch - processPackages [dnv-onecompute]: Remove: archive file [/home/abi/fetcher/tmp/dnv-onecompute-9.2.0.0.tar.gz]
+[2024-04-24 15:15:21] INFO root fetch - processPackages [dnv-onecompute]: Remove: archive file [/home/abi/fetcher/tmp/dnv-onecompute-9.3.0.tar.gz]
+[2024-04-24 15:15:21] INFO root fetch - main [MainThread]: End processing [dnv-onecompute]: success
+[2024-04-24 15:15:22] INFO root fetch - processPackages [qbindiff]: Remove: archive file [/home/abi/fetcher/tmp/qbindiff-1.2.0.tar.gz]
+[2024-04-24 15:15:22] INFO root fetch - processPackages [qbindiff]: Remove: archive file [/home/abi/fetcher/tmp/qbindiff-1.2.1.tar.gz]
+[2024-04-24 15:15:22] INFO root fetch - main [MainThread]: End processing [qbindiff]: success
+[2024-04-24 15:15:22] INFO root fetch - main [MainThread]: Store serial: [22912552]
