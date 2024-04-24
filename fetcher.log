@@ -11643,3 +11643,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:03:00] INFO root fetch - processPackages [plantuml-markdown]: Remove: archive file [/home/abi/fetcher/tmp/plantuml-markdown-3.9.6.tar.gz]
 [2024-04-24 08:03:00] INFO root fetch - main [MainThread]: End processing [plantuml-markdown]: success
 [2024-04-24 08:03:00] INFO root fetch - main [MainThread]: Store serial: [22907394]
+[2024-04-24 08:05:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907394]
+[2024-04-24 08:05:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 08:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-auditlog
+[2024-04-24 08:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-server-tools
+[2024-04-24 08:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unit-simple
+[2024-04-24 08:05:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nullspace-optimizer
+[2024-04-24 08:05:09] INFO root fetch - processPackages [nullspace-optimizer]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-24 08:05:09] INFO root fetch - processPackages [nullspace-optimizer]: Downloading https://files.pythonhosted.org/packages/3d/fd/25c54ea25aa84a3d181cd489e15eeef7c63a2a0d290a5b9e48c21af8a011/nullspace_optimizer-1.2.3-py3-none-any.whl
+[2024-04-24 08:05:09] INFO root fetch - processPackages [unit-simple]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 08:05:09] INFO root fetch - processPackages [odoo-addon-auditlog]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-24 08:05:09] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: New version: [16.0.20240423.1] Old Version: [16.0.20240205.0]
+[2024-04-24 08:05:09] INFO root fetch - processPackages [odoo-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/c0/76/6784c897952ad1fb0143735e43e45142c1a7ab5ab3996b746920f339d8f6/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 08:05:09] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/a8/74/f89117b1db081b1965f441015e00807ff3face463837cb928a8f492c000b/odoo_addons_oca_server_tools-16.0.20240205.0-py3-none-any.whl
+[2024-04-24 08:05:09] INFO root fetch - processPackages [nullspace-optimizer]: Downloading https://files.pythonhosted.org/packages/a7/98/b8722368e5046ee781a7cc5401a693ee4a9d5b66fa6d99c20a142ad61e94/nullspace_optimizer-1.2.4-py3-none-any.whl
+[2024-04-24 08:05:09] INFO root fetch - processPackages [unit-simple]: Downloading https://files.pythonhosted.org/packages/df/7b/632d2fa9e73ea864000ebb6629e1db037dfe07bb193cdb0490ca79050c66/unit_simple-1.0.8.tar.gz
+[2024-04-24 08:05:09] INFO root fetch - processPackages [nullspace-optimizer]: executing diffoscope
+[2024-04-24 08:05:09] INFO root fetch - processPackages [nullspace-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nullspace_optimizer-1.2.3-py3-none-any.whl.zip tmp/nullspace_optimizer-1.2.4-py3-none-any.whl.zip --markdown 20240424/n/nullspace-optimizer/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/43/ad/c236e2b872387334923657abc437c75417e389aeca945fc8b5a0c28dac99/odoo_addons_oca_server_tools-16.0.20240423.1-py3-none-any.whl
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/71/9e/1ae1b7239480d981cac53c7ce69a2d90b736469a439df56979c9129ee27e/odoo_addon_auditlog-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: executing diffoscope
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_tools-16.0.20240205.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_tools-16.0.20240423.1-py3-none-any.whl.zip --markdown 20240424/o/odoo-addons-oca-server-tools/16.0.20240205.0-16.0.20240423.1/README.md --exclude *.pyd
+[2024-04-24 08:05:10] INFO root fetch - processPackages [unit-simple]: Downloading https://files.pythonhosted.org/packages/cd/fb/ca23f2ca62f65ed36ab8969c1c1d39a8a9ad8acabcce65f446271c37ceba/unit_simple-1.0.9.tar.gz
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addon-auditlog]: executing diffoscope
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_auditlog-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-auditlog/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 08:05:10] INFO root fetch - processPackages [unit-simple]: executing diffoscope
+[2024-04-24 08:05:10] INFO root fetch - processPackages [unit-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit_simple-1.0.8.tar.gz tmp/unit_simple-1.0.9.tar.gz --markdown 20240424/u/unit-simple/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 08:05:10] INFO root fetch - processPackages [nullspace-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/nullspace_optimizer-1.2.3-py3-none-any.whl.zip]
+[2024-04-24 08:05:10] INFO root fetch - processPackages [nullspace-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/nullspace_optimizer-1.2.4-py3-none-any.whl.zip]
+[2024-04-24 08:05:10] INFO root fetch - main [MainThread]: End processing [nullspace-optimizer]: success
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20240205.0-py3-none-any.whl.zip]
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_tools-16.0.20240423.1-py3-none-any.whl.zip]
+[2024-04-24 08:05:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-tools]: success
+[2024-04-24 08:05:10] INFO root fetch - processPackages [unit-simple]: Remove: archive file [/home/abi/fetcher/tmp/unit_simple-1.0.8.tar.gz]
+[2024-04-24 08:05:10] INFO root fetch - processPackages [unit-simple]: Remove: archive file [/home/abi/fetcher/tmp/unit_simple-1.0.9.tar.gz]
+[2024-04-24 08:05:10] INFO root fetch - main [MainThread]: End processing [unit-simple]: success
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auditlog-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 08:05:10] INFO root fetch - processPackages [odoo-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auditlog-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 08:05:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-auditlog]: success
+[2024-04-24 08:05:10] INFO root fetch - main [MainThread]: Store serial: [22907405]
