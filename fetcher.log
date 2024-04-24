@@ -23290,3 +23290,87 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:55:22] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.9.0.tar.gz]
 [2024-04-24 14:55:22] INFO root fetch - main [MainThread]: End processing [zenml]: success
 [2024-04-24 14:55:22] INFO root fetch - main [MainThread]: Store serial: [22912329]
+[2024-04-24 14:57:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912329]
+[2024-04-24 14:57:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 14:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoltraak
+[2024-04-24 14:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ussl
+[2024-04-24 14:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotsos
+[2024-04-24 14:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collider-dashboard
+[2024-04-24 14:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gattlib-py
+[2024-04-24 14:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: casbin-databases-adapter
+[2024-04-24 14:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-xroad-soap
+[2024-04-24 14:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ep-stats
+[2024-04-24 14:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finalsa-s3-client
+[2024-04-24 14:57:48] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 14:57:48] INFO root fetch - processPackages [collider-dashboard]: New version: [1.3.1.0] Old Version: [1.3.0.0]
+[2024-04-24 14:57:48] INFO root fetch - processPackages [fastapi-xroad-soap]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-24 14:57:48] INFO root fetch - processPackages [ussl]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 14:57:48] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-24 14:57:48] INFO root fetch - processPackages [finalsa-s3-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 14:57:48] INFO root fetch - processPackages [casbin-databases-adapter]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-24 14:57:48] INFO root fetch - processPackages [ep-stats]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-24 14:57:48] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [collider-dashboard]: Downloading https://files.pythonhosted.org/packages/0b/54/81c818273607f921f5bef8e136b8b090e45f3aca594d1f08038a3bfd9f47/collider_dashboard-1.3.0.0.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/cc/34/b5654325a11eb186c9c40fc863873f4f4f627922bbb2fc27e675f818459d/fastapi_xroad_soap-0.3.0.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [gattlib-py]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-24 14:57:48] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [casbin-databases-adapter]: Downloading https://files.pythonhosted.org/packages/c5/4b/2fa0cd23fb77434fbda131d5b56dd6f8e992b234acc545b32c702c5b284c/casbin_databases_adapter-1.1.0.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/c3/c4/477ca9e4ca97d245274123a6dbcff6543065235c8ab065e6a1245bb9819a/ussl-1.0.8.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [finalsa-s3-client]: Downloading https://files.pythonhosted.org/packages/ce/52/7ef03ec0b6fff112d59d75ead0fed490a8e739c5d0fb0b1db474ad92612e/finalsa-s3-client-0.0.1.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [ep-stats]: Downloading https://files.pythonhosted.org/packages/59/ec/df0f1e3a6ec3a604ce54c6bd3fccf3be54210f605973e06a25388ecf1a0d/ep-stats-2.3.1.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [gattlib-py]: Downloading https://files.pythonhosted.org/packages/f5/1b/db12e0a0bf668a2c01df8a7d73cbf636e868d93a2eb1f49b9b5dae93ba0a/gattlib-py-0.7.1.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/b6/8b/322dac0151393ec9b98ca13fde76fcd64b4651a68f1d3a1f633bfbe31036/fastapi_xroad_soap-0.4.0.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [collider-dashboard]: Downloading https://files.pythonhosted.org/packages/2c/7a/29a07ec1e1918c159f8e6a2e1da4214a8b4cbc6515da7e844723965662a3/collider_dashboard-1.3.1.0.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [casbin-databases-adapter]: Downloading https://files.pythonhosted.org/packages/23/09/ab4153d5cb944f19312df65199e7bb6ec848e4846abfa26a4061387c99fa/casbin_databases_adapter-1.2.0.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [fastapi-xroad-soap]: executing diffoscope
+[2024-04-24 14:57:48] INFO root fetch - processPackages [fastapi-xroad-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_xroad_soap-0.3.0.tar.gz tmp/fastapi_xroad_soap-0.4.0.tar.gz --markdown 20240424/f/fastapi-xroad-soap/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-24 14:57:48] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-24 14:57:48] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240424/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-24 14:57:48] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 14:57:48] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240424/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 14:57:48] INFO root fetch - processPackages [casbin-databases-adapter]: executing diffoscope
+[2024-04-24 14:57:48] INFO root fetch - processPackages [casbin-databases-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin_databases_adapter-1.1.0.tar.gz tmp/casbin_databases_adapter-1.2.0.tar.gz --markdown 20240424/c/casbin-databases-adapter/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-24 14:57:48] INFO root fetch - processPackages [finalsa-s3-client]: Downloading https://files.pythonhosted.org/packages/0b/aa/67d10abacc3c50cff4bbe38839369401b233ffb2b060001d4b6963653751/finalsa_s3_client-0.0.2.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/73/49/e49e8db5e6cdcdc2d1880c2bb21336cf35579c239dac2e16daed6a2357d9/ussl-1.0.9.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [ep-stats]: Downloading https://files.pythonhosted.org/packages/20/32/04ba4d7a9577b1f5514fbd2b0a2b37e8503963984c41de0845bb33e06827/ep-stats-2.3.2.tar.gz
+[2024-04-24 14:57:48] INFO root fetch - processPackages [ussl]: executing diffoscope
+[2024-04-24 14:57:48] INFO root fetch - processPackages [ussl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ussl-1.0.8.tar.gz tmp/ussl-1.0.9.tar.gz --markdown 20240424/u/ussl/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 14:57:48] INFO root fetch - processPackages [gattlib-py]: Downloading https://files.pythonhosted.org/packages/8a/68/dc3b105aabd99e757f18ac353667756157864a622a4b1f8062a185afe22c/gattlib-py-0.7.2.tar.gz
+[2024-04-24 14:57:49] INFO root fetch - processPackages [finalsa-s3-client]: executing diffoscope
+[2024-04-24 14:57:49] INFO root fetch - processPackages [finalsa-s3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalsa-s3-client-0.0.1.tar.gz tmp/finalsa_s3_client-0.0.2.tar.gz --markdown 20240424/f/finalsa-s3-client/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 14:57:49] INFO root fetch - processPackages [collider-dashboard]: executing diffoscope
+[2024-04-24 14:57:49] INFO root fetch - processPackages [collider-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collider_dashboard-1.3.0.0.tar.gz tmp/collider_dashboard-1.3.1.0.tar.gz --markdown 20240424/c/collider-dashboard/1.3.0.0-1.3.1.0/README.md --exclude *.pyd
+[2024-04-24 14:57:49] INFO root fetch - processPackages [ep-stats]: executing diffoscope
+[2024-04-24 14:57:49] INFO root fetch - processPackages [ep-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ep-stats-2.3.1.tar.gz tmp/ep-stats-2.3.2.tar.gz --markdown 20240424/e/ep-stats/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-04-24 14:57:49] INFO root fetch - processPackages [gattlib-py]: executing diffoscope
+[2024-04-24 14:57:49] INFO root fetch - processPackages [gattlib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gattlib-py-0.7.1.tar.gz tmp/gattlib-py-0.7.2.tar.gz --markdown 20240424/g/gattlib-py/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-24 14:57:49] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 14:57:49] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.3.0.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.4.0.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - main [MainThread]: End processing [fastapi-xroad-soap]: success
+[2024-04-24 14:57:49] INFO root fetch - processPackages [casbin-databases-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin_databases_adapter-1.1.0.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - processPackages [casbin-databases-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin_databases_adapter-1.2.0.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - main [MainThread]: End processing [casbin-databases-adapter]: success
+[2024-04-24 14:57:49] INFO root fetch - processPackages [finalsa-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/finalsa-s3-client-0.0.1.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - processPackages [finalsa-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/finalsa_s3_client-0.0.2.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - main [MainThread]: End processing [finalsa-s3-client]: success
+[2024-04-24 14:57:49] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.0.8.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.0.9.tar.gz]
+[2024-04-24 14:57:49] INFO root fetch - main [MainThread]: End processing [ussl]: success
+[2024-04-24 14:57:50] INFO root fetch - processPackages [ep-stats]: Remove: archive file [/home/abi/fetcher/tmp/ep-stats-2.3.1.tar.gz]
+[2024-04-24 14:57:50] INFO root fetch - processPackages [ep-stats]: Remove: archive file [/home/abi/fetcher/tmp/ep-stats-2.3.2.tar.gz]
+[2024-04-24 14:57:50] INFO root fetch - main [MainThread]: End processing [ep-stats]: success
+[2024-04-24 14:57:50] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-24 14:57:50] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-24 14:57:50] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-24 14:57:50] INFO root fetch - processPackages [gattlib-py]: Remove: archive file [/home/abi/fetcher/tmp/gattlib-py-0.7.1.tar.gz]
+[2024-04-24 14:57:50] INFO root fetch - processPackages [gattlib-py]: Remove: archive file [/home/abi/fetcher/tmp/gattlib-py-0.7.2.tar.gz]
+[2024-04-24 14:57:50] INFO root fetch - main [MainThread]: End processing [gattlib-py]: success
+[2024-04-24 14:57:52] INFO root fetch - processPackages [collider-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/collider_dashboard-1.3.0.0.tar.gz]
+[2024-04-24 14:57:52] INFO root fetch - processPackages [collider-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/collider_dashboard-1.3.1.0.tar.gz]
+[2024-04-24 14:57:52] INFO root fetch - main [MainThread]: End processing [collider-dashboard]: success
+[2024-04-24 14:57:52] INFO root fetch - main [MainThread]: Store serial: [22912377]
