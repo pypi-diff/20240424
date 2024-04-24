@@ -10274,3 +10274,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:48:48] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
 [2024-04-24 06:48:48] INFO root fetch - main [MainThread]: End processing [pih]: success
 [2024-04-24 06:48:48] INFO root fetch - main [MainThread]: Store serial: [22906856]
+[2024-04-24 06:50:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906856]
+[2024-04-24 06:50:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 06:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-04-24 06:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-answ-auto
+[2024-04-24 06:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-rvw-auto
+[2024-04-24 06:50:56] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-rvw-auto]: New version: [0.17] Old Version: [0.15]
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-answ-auto]: New version: [0.18] Old Version: [0.17]
+[2024-04-24 06:50:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/15/2e/abac12a89f209a437ae900a042a2e42393f4cfcef8f71ed4524bcbb844db/pih-answ_auto-0.17.tar.gz
+[2024-04-24 06:50:57] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/9c/ff/95808b2c9cc586a8dd31884fb155000daa4cdd192dcefa2b093c1dc5235b/pih-rvw_auto-0.15.tar.gz
+[2024-04-24 06:50:57] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-24 06:50:57] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240424/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/39/a9/2a0234ace444b01d29edf800973b77d491646176405f11bc3d8ca96981ed/pih-answ_auto-0.18.tar.gz
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-rvw-auto]: Downloading https://files.pythonhosted.org/packages/06/bf/2d96de99b123b3bceeb7c91915786e766e50a6001b4f6142fc2b96ee20d0/pih-rvw_auto-0.17.tar.gz
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-answ-auto]: executing diffoscope
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-answ-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-answ_auto-0.17.tar.gz tmp/pih-answ_auto-0.18.tar.gz --markdown 20240424/p/pih-answ-auto/0.17-0.18/README.md --exclude *.pyd
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-rvw-auto]: executing diffoscope
+[2024-04-24 06:50:57] INFO root fetch - processPackages [pih-rvw-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-rvw_auto-0.15.tar.gz tmp/pih-rvw_auto-0.17.tar.gz --markdown 20240424/p/pih-rvw-auto/0.15-0.17/README.md --exclude *.pyd
+[2024-04-24 06:50:57] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-24 06:50:57] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-24 06:50:57] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-24 06:50:58] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.17.tar.gz]
+[2024-04-24 06:50:58] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.18.tar.gz]
+[2024-04-24 06:50:58] INFO root fetch - main [MainThread]: End processing [pih-answ-auto]: success
+[2024-04-24 06:50:58] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.15.tar.gz]
+[2024-04-24 06:50:58] INFO root fetch - processPackages [pih-rvw-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-rvw_auto-0.17.tar.gz]
+[2024-04-24 06:50:58] INFO root fetch - main [MainThread]: End processing [pih-rvw-auto]: success
+[2024-04-24 06:50:58] INFO root fetch - main [MainThread]: Store serial: [22906864]
