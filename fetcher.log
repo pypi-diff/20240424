@@ -21241,3 +21241,118 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 13:45:54] INFO root fetch - processPackages [distilabel]: Remove: archive file [/home/abi/fetcher/tmp/distilabel-1.0.2.tar.gz]
 [2024-04-24 13:45:54] INFO root fetch - main [MainThread]: End processing [distilabel]: success
 [2024-04-24 13:45:54] INFO root fetch - main [MainThread]: Store serial: [22911498]
+[2024-04-24 13:48:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911498]
+[2024-04-24 13:48:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiLevelPercolation
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edwh-migrate
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owlapy
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decthings-api
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ned-py
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prediction-market-agent-tooling
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multiLevelPercolation
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nitrokeyapp
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecv-python-development
+[2024-04-24 13:48:14] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.30] Old Version: [0.0.29]
+[2024-04-24 13:48:14] INFO root fetch - processPackages [cg]: New version: [60.3.0] Old Version: [60.2.9]
+[2024-04-24 13:48:14] INFO root fetch - processPackages [decthings-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 13:48:14] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-04-24 13:48:14] INFO root fetch - processPackages [ned-py]: New version: [0.3] Old Version: [0.2]
+[2024-04-24 13:48:14] INFO root fetch - processPackages [multiLevelPercolation]: New version: [1.0.0.1] Old Version: [1.0.0.0]
+[2024-04-24 13:48:14] INFO root fetch - processPackages [multiLevelPercolation]: New version: [1.0.0.1] Old Version: [1.0.0.0]
+[2024-04-24 13:48:14] INFO root fetch - processPackages [nitrokeyapp]: New version: [2.3.0] Old Version: [2.2.2]
+[2024-04-24 13:48:14] INFO root fetch - processPackages [owlapy]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 13:48:14] INFO root fetch - processPackages [edwh-migrate]: New version: [0.8.1] Old Version: [0.8.0b1]
+[2024-04-24 13:48:15] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/10/0e/f43b3818cbd6c107dcef3db3df570bf0c75bb00630a396fd5b210b552010/ecv-python-development-0.0.29.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/0f/0d/e3839924847f808deb84f1a764c2aba70c0f1a0932a03e98a5f08b02d908/cg-60.2.9-py3-none-any.whl
+[2024-04-24 13:48:15] INFO root fetch - processPackages [decthings-api]: Downloading https://files.pythonhosted.org/packages/f6/6e/d09648c928e301dbace323411d888ad0681442a02fa989b08c480c866374/decthings-api-0.0.1.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [multiLevelPercolation]: Downloading https://files.pythonhosted.org/packages/67/51/8930fc4a1d7902cc0e86ae67d245efab83ed7af052ce733a6c786fd3b3ff/multiLevelPercolation-1.0.0.0.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [multiLevelPercolation]: Downloading https://files.pythonhosted.org/packages/67/51/8930fc4a1d7902cc0e86ae67d245efab83ed7af052ce733a6c786fd3b3ff/multiLevelPercolation-1.0.0.0.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [nitrokeyapp]: Downloading https://files.pythonhosted.org/packages/6a/0e/5f4295d3ea021270262ac9de20dd54bcb3fa0cecf7cb500ebd21b62762f6/nitrokeyapp-2.2.2.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [ned-py]: Downloading https://files.pythonhosted.org/packages/9e/c4/7c91bdb51986a01b9dc93b62df73617a2d359b54cfedf8d2db1408446605/ned-py-0.2.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/ad/65/25aecad3d01f7b179856ce9406746b55d6b02f025ca91a0ffdc28b9ec976/edwh_migrate-0.8.0b1.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [owlapy]: Downloading https://files.pythonhosted.org/packages/33/1d/152553e888d74b6ecc1d97698a609fd92dbdedc7f7f75edf04d0fd9049c3/owlapy-1.0.0.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/2c/17/6b9526b52dfcdaf571b3cd941b0a0b14db378f0c8b89a1c361109cb73c26/prediction_market_agent_tooling-0.9.3.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/c9/29/e2e8d50fc1282c66d087ef3840fff02dcf1f681517054c2b6fee35cbece3/ecv-python-development-0.0.30.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-04-24 13:48:15] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.1.tar.gz tmp/prediction_market_agent_tooling-0.9.3.tar.gz --markdown 20240424/p/prediction-market-agent-tooling/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-04-24 13:48:15] INFO root fetch - processPackages [decthings-api]: Downloading https://files.pythonhosted.org/packages/a1/55/8b45538eead3b15ce9ec7c90f4ff659e431f5fd8e4929c3918f5aedd559b/decthings_api-0.0.2.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-24 13:48:15] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.29.tar.gz tmp/ecv-python-development-0.0.30.tar.gz --markdown 20240424/e/ecv-python-development/0.0.29-0.0.30/README.md --exclude *.pyd
+[2024-04-24 13:48:15] INFO root fetch - processPackages [ned-py]: Downloading https://files.pythonhosted.org/packages/fd/e1/8becd7e468160bf8acfcb082da132253bcf1c386b133b7707496f2d62832/ned-py-0.3.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [decthings-api]: executing diffoscope
+[2024-04-24 13:48:15] INFO root fetch - processPackages [decthings-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decthings-api-0.0.1.tar.gz tmp/decthings_api-0.0.2.tar.gz --markdown 20240424/d/decthings-api/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 13:48:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7c/ed/db33c97eec53f616d721a75b4ac3875170f9c0df4ca2957ff9473c5f53ce/cg-60.3.0.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [owlapy]: Downloading https://files.pythonhosted.org/packages/98/64/50024255ad583f0c16ac8f32eb31035ed3cd812a13a6d2d166efdae7c8de/owlapy-1.0.1.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [nitrokeyapp]: Downloading https://files.pythonhosted.org/packages/f8/53/e19f25a556cb534a7ad6779e4fe8335691db1afb5f268a136b092c3ca813/nitrokeyapp-2.3.0.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [edwh-migrate]: Downloading https://files.pythonhosted.org/packages/4b/af/90c4923221977deae1881775e6156c916c6a167e99739b3136b7ac2dc713/edwh_migrate-0.8.1.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [multiLevelPercolation]: Downloading https://files.pythonhosted.org/packages/b6/b7/02f637049d673badf2c43be43cf97e00be5e5f02d1d8162fd5cc752202a6/multiLevelPercolation-1.0.0.1.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [ned-py]: executing diffoscope
+[2024-04-24 13:48:15] INFO root fetch - processPackages [ned-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ned-py-0.2.tar.gz tmp/ned-py-0.3.tar.gz --markdown 20240424/n/ned-py/0.2-0.3/README.md --exclude *.pyd
+[2024-04-24 13:48:15] INFO root fetch - processPackages [multiLevelPercolation]: Downloading https://files.pythonhosted.org/packages/b6/b7/02f637049d673badf2c43be43cf97e00be5e5f02d1d8162fd5cc752202a6/multiLevelPercolation-1.0.0.1.tar.gz
+[2024-04-24 13:48:15] INFO root fetch - processPackages [owlapy]: executing diffoscope
+[2024-04-24 13:48:15] INFO root fetch - processPackages [owlapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlapy-1.0.0.tar.gz tmp/owlapy-1.0.1.tar.gz --markdown 20240424/o/owlapy/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 13:48:15] INFO root fetch - processPackages [edwh-migrate]: executing diffoscope
+[2024-04-24 13:48:15] INFO root fetch - processPackages [edwh-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_migrate-0.8.0b1.tar.gz tmp/edwh_migrate-0.8.1.tar.gz --markdown 20240424/e/edwh-migrate/0.8.0b1-0.8.1/README.md --exclude *.pyd
+[2024-04-24 13:48:15] INFO root fetch - processPackages [nitrokeyapp]: executing diffoscope
+[2024-04-24 13:48:15] INFO root fetch - processPackages [nitrokeyapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrokeyapp-2.2.2.tar.gz tmp/nitrokeyapp-2.3.0.tar.gz --markdown 20240424/n/nitrokeyapp/2.2.2-2.3.0/README.md --exclude *.pyd
+[2024-04-24 13:48:16] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-24 13:48:16] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.2.9-py3-none-any.whl.zip tmp/cg-60.3.0.tar.gz --markdown 20240424/c/cg/60.2.9-60.3.0/README.md --exclude *.pyd
+[2024-04-24 13:48:16] INFO root fetch - processPackages [multiLevelPercolation]: executing diffoscope
+[2024-04-24 13:48:16] INFO root fetch - processPackages [multiLevelPercolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiLevelPercolation-1.0.0.0.tar.gz tmp/multiLevelPercolation-1.0.0.1.tar.gz --markdown 20240424/m/multiLevelPercolation/1.0.0.0-1.0.0.1/README.md --exclude *.pyd
+[2024-04-24 13:48:16] INFO root fetch - processPackages [multiLevelPercolation]: executing diffoscope
+[2024-04-24 13:48:16] INFO root fetch - processPackages [multiLevelPercolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiLevelPercolation-1.0.0.0.tar.gz tmp/multiLevelPercolation-1.0.0.1.tar.gz --markdown 20240424/m/multiLevelPercolation/1.0.0.0-1.0.0.1/README.md --exclude *.pyd
+[2024-04-24 13:48:16] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.29.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.30.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - processPackages [ecv-python-development]: Start processing: tapsage-client
+[2024-04-24 13:48:16] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-24 13:48:16] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.3.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - processPackages [prediction-market-agent-tooling]: Start processing: Tapsage-Python-client-package
+[2024-04-24 13:48:16] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-04-24 13:48:16] WARNING root fetch - processPackages [tapsage-client]: Skipping, unable to determine old version
+[2024-04-24 13:48:16] INFO root fetch - processPackages [tapsage-client]: Start processing: nuclio-sdk
+[2024-04-24 13:48:16] INFO root fetch - main [MainThread]: End processing [tapsage-client] error
+[2024-04-24 13:48:16] INFO root fetch - processPackages [decthings-api]: Remove: archive file [/home/abi/fetcher/tmp/decthings-api-0.0.1.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - processPackages [decthings-api]: Remove: archive file [/home/abi/fetcher/tmp/decthings_api-0.0.2.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - processPackages [decthings-api]: Start processing: TableauConMan
+[2024-04-24 13:48:16] INFO root fetch - main [MainThread]: End processing [decthings-api]: success
+[2024-04-24 13:48:16] WARNING root fetch - processPackages [Tapsage-Python-client-package]: Skipping, unable to determine old version
+[2024-04-24 13:48:16] INFO root fetch - main [MainThread]: End processing [Tapsage-Python-client-package] error
+[2024-04-24 13:48:16] INFO root fetch - processPackages [ned-py]: Remove: archive file [/home/abi/fetcher/tmp/ned-py-0.2.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - processPackages [ned-py]: Remove: archive file [/home/abi/fetcher/tmp/ned-py-0.3.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - main [MainThread]: End processing [ned-py]: success
+[2024-04-24 13:48:16] INFO root fetch - processPackages [nuclio-sdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-24 13:48:16] INFO root fetch - processPackages [edwh-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edwh_migrate-0.8.0b1.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - processPackages [edwh-migrate]: Remove: archive file [/home/abi/fetcher/tmp/edwh_migrate-0.8.1.tar.gz]
+[2024-04-24 13:48:16] INFO root fetch - main [MainThread]: End processing [edwh-migrate]: success
+[2024-04-24 13:48:16] INFO root fetch - processPackages [TableauConMan]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 13:48:17] INFO root fetch - processPackages [owlapy]: Remove: archive file [/home/abi/fetcher/tmp/owlapy-1.0.0.tar.gz]
+[2024-04-24 13:48:17] INFO root fetch - processPackages [owlapy]: Remove: archive file [/home/abi/fetcher/tmp/owlapy-1.0.1.tar.gz]
+[2024-04-24 13:48:17] INFO root fetch - main [MainThread]: End processing [owlapy]: success
+[2024-04-24 13:48:17] INFO root fetch - processPackages [nuclio-sdk]: Downloading https://files.pythonhosted.org/packages/53/f2/44e0aa74b6d123f9e8795069351a0a1920c67862286d076d76ec22e9aad1/nuclio_sdk-0.5.8.tar.gz
+[2024-04-24 13:48:17] INFO root fetch - processPackages [TableauConMan]: Downloading https://files.pythonhosted.org/packages/ec/22/cc0d5789c27addef82ce815d3de41d0383f12191db2ba719b0246483fa82/TableauConMan-0.1.8.tar.gz
+[2024-04-24 13:48:17] INFO root fetch - processPackages [multiLevelPercolation]: Remove: archive file [/home/abi/fetcher/tmp/multiLevelPercolation-1.0.0.0.tar.gz]
+[2024-04-24 13:48:17] INFO root fetch - processPackages [multiLevelPercolation]: Remove: archive file [/home/abi/fetcher/tmp/multiLevelPercolation-1.0.0.1.tar.gz]
+[2024-04-24 13:48:17] INFO root fetch - main [MainThread]: End processing [multiLevelPercolation]: success
+[2024-04-24 13:48:17] INFO root fetch - main [MainThread]: End processing [multiLevelPercolation]: success
+[2024-04-24 13:48:17] INFO root fetch - processPackages [nitrokeyapp]: Remove: archive file [/home/abi/fetcher/tmp/nitrokeyapp-2.2.2.tar.gz]
+[2024-04-24 13:48:17] INFO root fetch - processPackages [nitrokeyapp]: Remove: archive file [/home/abi/fetcher/tmp/nitrokeyapp-2.3.0.tar.gz]
+[2024-04-24 13:48:17] INFO root fetch - main [MainThread]: End processing [nitrokeyapp]: success
+[2024-04-24 13:48:17] INFO root fetch - processPackages [nuclio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/01/9ccea6238eaf12bdc96d62f0b5f630a7497b96af6f6c482ec44017199e4b/nuclio_sdk-0.5.9.tar.gz
+[2024-04-24 13:48:17] INFO root fetch - processPackages [TableauConMan]: Downloading https://files.pythonhosted.org/packages/8e/a1/0f4cfc52a2e997e4137b45496093c0df612e9c96199dd43092518737662f/TableauConMan-0.1.9.tar.gz
+[2024-04-24 13:48:17] INFO root fetch - processPackages [nuclio-sdk]: executing diffoscope
+[2024-04-24 13:48:17] INFO root fetch - processPackages [nuclio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclio_sdk-0.5.8.tar.gz tmp/nuclio_sdk-0.5.9.tar.gz --markdown 20240424/n/nuclio-sdk/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-24 13:48:17] INFO root fetch - processPackages [TableauConMan]: executing diffoscope
+[2024-04-24 13:48:17] INFO root fetch - processPackages [TableauConMan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TableauConMan-0.1.8.tar.gz tmp/TableauConMan-0.1.9.tar.gz --markdown 20240424/T/TableauConMan/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 13:48:18] INFO root fetch - processPackages [nuclio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nuclio_sdk-0.5.8.tar.gz]
+[2024-04-24 13:48:18] INFO root fetch - processPackages [nuclio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nuclio_sdk-0.5.9.tar.gz]
+[2024-04-24 13:48:18] INFO root fetch - main [MainThread]: End processing [nuclio-sdk]: success
+[2024-04-24 13:48:18] INFO root fetch - processPackages [TableauConMan]: Remove: archive file [/home/abi/fetcher/tmp/TableauConMan-0.1.8.tar.gz]
+[2024-04-24 13:48:18] INFO root fetch - processPackages [TableauConMan]: Remove: archive file [/home/abi/fetcher/tmp/TableauConMan-0.1.9.tar.gz]
+[2024-04-24 13:48:18] INFO root fetch - main [MainThread]: End processing [TableauConMan]: success
+[2024-04-24 13:48:20] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.9-py3-none-any.whl.zip]
+[2024-04-24 13:48:20] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.3.0.tar.gz]
+[2024-04-24 13:48:20] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-24 13:48:20] INFO root fetch - main [MainThread]: Store serial: [22911550]
