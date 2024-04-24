@@ -19834,3 +19834,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:02:01] INFO root fetch - processPackages [igorwriter]: Remove: archive file [/home/abi/fetcher/tmp/igorwriter-0.6.1.tar.gz]
 [2024-04-24 13:02:01] INFO root fetch - main [MainThread]: End processing [igorwriter]: success
 [2024-04-24 13:02:01] INFO root fetch - main [MainThread]: Store serial: [22910876]
+[2024-04-24 13:04:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910876]
+[2024-04-24 13:04:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foyou-cli
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyiron-potentialfit
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synch2jira
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-manager
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kungfupanda
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-allauth
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ul-py-tool
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: YnExchangePY
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: getai
+[2024-04-24 13:04:19] INFO root fetch - processPackages [foyou-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev3] Old Version: [0.0.6.dev2]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [kungfupanda]: New version: [0.25] Old Version: [0.24]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [YnExchangePY]: New version: [3.0.0] Old Version: [2.5.2]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ul-py-tool]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [getai]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [pyiron-potentialfit]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [django-allauth]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-24 13:04:19] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/55/9a/471532162a823e4d1cac3eb68b7404aadfe65c6ee18b4a95a9c17fdf9abb/foyou-cli-0.0.8.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/00/62/77eca8b2c9f5d99214307c88cbc3d843ea9093b9e38291e15b1b7a548f3f/torch_model_manager-0.0.6.dev2.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/83/8d/a6ca47e0be8cbb9a0bf79963db9451923c1944036f11fbc6adda8b2b6c3b/kungfupanda-0.24.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/8c/e2/97d1998bcb647a0466cad89d177c20f305c285a85dc06bb2ccbf5bd69a57/ul-py-tool-2.0.1.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/92/2d/7d0dc220fa16dba94df03aa18ebd0e5494f7f9504b4217154afe968a6b11/getai-0.0.5.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [YnExchangePY]: Downloading https://files.pythonhosted.org/packages/0f/3d/91bb111b9f14075b119b4a9652fcabe9f66c7da9d3e6c49c9af8cc452ede/YnExchangePY-2.5.2.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [pyiron-potentialfit]: Downloading https://files.pythonhosted.org/packages/6f/05/6e7de06a83454745baa12e2bf5b9a34e7f7f09539a55af465bbcc3a048a4/pyiron_potentialfit-0.3.1.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [django-allauth]: Downloading https://files.pythonhosted.org/packages/f9/f6/3fb178b47347574c7db41ca4d819e7b88498f632383f0cdd4f2ad333e0ed/django-allauth-0.8.3.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/9a/ac/a25ab426c6eee0f04bab42f3811012d00694a825290384e5ec9f25ae7ad8/foyou-cli-0.0.9.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [YnExchangePY]: Downloading https://files.pythonhosted.org/packages/d6/6b/3927bd42368051a50f191bc8e15e4e2f1be99df247ab68dfe4b1ffe9142e/YnExchangePY-3.0.0.tar.gz
+[2024-04-24 13:04:19] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-24 13:04:20] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/eb/6a/349dadf6e4e3a007e7d5a78f070d389e47a9235751e0a9c1df103f5d5b70/torch_model_manager-0.0.6.dev3.tar.gz
+[2024-04-24 13:04:20] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/a4/34/23f6b67894cd38bc0180d1bda48cae068ce3431cd22720e4e149000e3c8a/ul-py-tool-2.1.0.tar.gz
+[2024-04-24 13:04:20] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/9e/23/d45fb761c7cd922b076d6c83065b3e80ac252f66ac17f9e040f5a8441e18/getai-0.0.6.tar.gz
+[2024-04-24 13:04:20] INFO root fetch - processPackages [foyou-cli]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [foyou-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foyou-cli-0.0.8.tar.gz tmp/foyou-cli-0.0.9.tar.gz --markdown 20240424/f/foyou-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:04:20] INFO root fetch - processPackages [YnExchangePY]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [YnExchangePY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YnExchangePY-2.5.2.tar.gz tmp/YnExchangePY-3.0.0.tar.gz --markdown 20240424/Y/YnExchangePY/2.5.2-3.0.0/README.md --exclude *.pyd
+[2024-04-24 13:04:20] INFO root fetch - processPackages [pyiron-potentialfit]: Downloading https://files.pythonhosted.org/packages/a7/3c/04b65bb1f02228db604356b9b95fb86995b28c609b2c63aa187b994e532f/pyiron_potentialfit-0.3.2.tar.gz
+[2024-04-24 13:04:20] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-24 13:04:20] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.0.6.dev2.tar.gz tmp/torch_model_manager-0.0.6.dev3.tar.gz --markdown 20240424/t/torch-model-manager/0.0.6.dev2-0.0.6.dev3/README.md --exclude *.pyd
+[2024-04-24 13:04:20] INFO root fetch - processPackages [django-allauth]: Downloading https://files.pythonhosted.org/packages/72/0c/b18370f287130b7262638eeee7edb2abe16f4d5e4685065be0c44bae18e0/django-allauth-0.9.0.tar.gz
+[2024-04-24 13:04:20] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240424/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-24 13:04:20] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-2.0.1.tar.gz tmp/ul-py-tool-2.1.0.tar.gz --markdown 20240424/u/ul-py-tool/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-24 13:04:20] INFO root fetch - processPackages [getai]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [getai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getai-0.0.5.tar.gz tmp/getai-0.0.6.tar.gz --markdown 20240424/g/getai/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-24 13:04:20] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/5c/73/71bac87ba620a0ee656576b05917c7f3705354ed54de1f6f0fa45ca5312f/kungfupanda-0.25.tar.gz
+[2024-04-24 13:04:20] INFO root fetch - processPackages [pyiron-potentialfit]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [pyiron-potentialfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_potentialfit-0.3.1.tar.gz tmp/pyiron_potentialfit-0.3.2.tar.gz --markdown 20240424/p/pyiron-potentialfit/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-24 13:04:20] INFO root fetch - processPackages [django-allauth]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [django-allauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-allauth-0.8.3.tar.gz tmp/django-allauth-0.9.0.tar.gz --markdown 20240424/d/django-allauth/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-24 13:04:20] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240424/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-24 13:04:20] INFO root fetch - processPackages [kungfupanda]: executing diffoscope
+[2024-04-24 13:04:20] INFO root fetch - processPackages [kungfupanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kungfupanda-0.24.tar.gz tmp/kungfupanda-0.25.tar.gz --markdown 20240424/k/kungfupanda/0.24-0.25/README.md --exclude *.pyd
+[2024-04-24 13:04:21] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.8.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.9.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [foyou-cli]: Start processing: hamcontestanalysis
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [foyou-cli]: success
+[2024-04-24 13:04:21] INFO root fetch - processPackages [YnExchangePY]: Remove: archive file [/home/abi/fetcher/tmp/YnExchangePY-2.5.2.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [YnExchangePY]: Remove: archive file [/home/abi/fetcher/tmp/YnExchangePY-3.0.0.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [YnExchangePY]: Start processing: sastadev
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [YnExchangePY]: success
+[2024-04-24 13:04:21] WARNING root fetch - processPackages [hamcontestanalysis]: Skipping, unable to determine old version
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [hamcontestanalysis] error
+[2024-04-24 13:04:21] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev2.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev3.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-24 13:04:21] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.5.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.6.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [getai]: success
+[2024-04-24 13:04:21] INFO root fetch - processPackages [sastadev]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-24 13:04:21] INFO root fetch - processPackages [pyiron-potentialfit]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_potentialfit-0.3.1.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [pyiron-potentialfit]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_potentialfit-0.3.2.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [pyiron-potentialfit]: success
+[2024-04-24 13:04:21] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.0.1.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.1.0.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2024-04-24 13:04:21] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/5d/64/0b8257bc4b671d39e0d7773d0e1206da055b7fbea08f934cf078fae570a2/sastadev-0.1.4.tar.gz
+[2024-04-24 13:04:21] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-24 13:04:21] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.24.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.25.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
+[2024-04-24 13:04:21] INFO root fetch - processPackages [django-allauth]: Remove: archive file [/home/abi/fetcher/tmp/django-allauth-0.8.3.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - processPackages [django-allauth]: Remove: archive file [/home/abi/fetcher/tmp/django-allauth-0.9.0.tar.gz]
+[2024-04-24 13:04:21] INFO root fetch - main [MainThread]: End processing [django-allauth]: success
+[2024-04-24 13:04:22] INFO root fetch - processPackages [sastadev]: Downloading https://files.pythonhosted.org/packages/79/ca/73fae0eebcb5c3c558fb59413162c5f9b0685e948d89406d0e69697417ea/sastadev-0.1.5.tar.gz
+[2024-04-24 13:04:23] INFO root fetch - processPackages [sastadev]: executing diffoscope
+[2024-04-24 13:04:23] INFO root fetch - processPackages [sastadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sastadev-0.1.4.tar.gz tmp/sastadev-0.1.5.tar.gz --markdown 20240424/s/sastadev/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-24 13:04:28] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/sastadev-0.1.4.tar.gz]
+[2024-04-24 13:04:28] INFO root fetch - processPackages [sastadev]: Remove: archive file [/home/abi/fetcher/tmp/sastadev-0.1.5.tar.gz]
+[2024-04-24 13:04:28] INFO root fetch - main [MainThread]: End processing [sastadev]: success
+[2024-04-24 13:04:28] INFO root fetch - main [MainThread]: Store serial: [22910914]
