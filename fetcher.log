@@ -10387,3 +10387,59 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:55:21] INFO root fetch - processPackages [basxconnect]: Remove: archive file [/home/abi/fetcher/tmp/basxconnect-0.4.7.tar.gz]
 [2024-04-24 06:55:21] INFO root fetch - main [MainThread]: End processing [basxconnect]: success
 [2024-04-24 06:55:21] INFO root fetch - main [MainThread]: Store serial: [22906887]
+[2024-04-24 06:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906887]
+[2024-04-24 06:57:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 06:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tests-web-linda
+[2024-04-24 06:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profile-local
+[2024-04-24 06:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accuhit-utils
+[2024-04-24 06:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: launchflow
+[2024-04-24 06:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hermesbaby
+[2024-04-24 06:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finter
+[2024-04-24 06:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amorprot
+[2024-04-24 06:57:30] INFO root fetch - processPackages [tests-web-linda]: New version: [0.3] Old Version: [0.2]
+[2024-04-24 06:57:30] INFO root fetch - processPackages [amorprot]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 06:57:30] INFO root fetch - processPackages [hermesbaby]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 06:57:30] WARNING root fetch - processPackages [accuhit-utils]: Skipping, unable to determine old version
+[2024-04-24 06:57:30] INFO root fetch - main [MainThread]: End processing [accuhit-utils] error
+[2024-04-24 06:57:30] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 06:57:30] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-04-24 06:57:30] INFO root fetch - processPackages [finter]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-24 06:57:30] INFO root fetch - processPackages [amorprot]: Downloading https://files.pythonhosted.org/packages/f9/b2/0ac73a03ed8ad02118621d488d71e935c0a19bb77f872931634d65b25a23/amorprot-0.0.2-py3-none-any.whl
+[2024-04-24 06:57:30] INFO root fetch - processPackages [hermesbaby]: Downloading https://files.pythonhosted.org/packages/1a/61/380e890add7ce82837bdf25af02807c2484c8f86bff5875091c982f36ba7/hermesbaby-0.1.2.tar.gz
+[2024-04-24 06:57:30] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-04-24 06:57:30] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-04-24 06:57:30] INFO root fetch - processPackages [tests-web-linda]: Downloading https://files.pythonhosted.org/packages/11/84/1664ccc6d6b333d1a8aacca464e2bfc9c6e289d14daddf510f50a6a4fabd/tests_web_linda-0.2.tar.gz
+[2024-04-24 06:57:30] WARNING root fetch - processPackages [tests-web-linda]: Skipping package: exceeds size limit 45141412>=10485760
+[2024-04-24 06:57:30] INFO root fetch - main [MainThread]: End processing [tests-web-linda] error
+[2024-04-24 06:57:30] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/64/36/eca59ecf5f16076355b4997517a97b5d4bda52ef03282ac66c8017d11aec/finter-0.2.3-py3-none-any.whl
+[2024-04-24 06:57:30] INFO root fetch - processPackages [amorprot]: Downloading https://files.pythonhosted.org/packages/b2/af/e925f051a36c4cfb322a199b19da79f9c8228ad6947d499d1fe841e7f2e3/amorprot-0.0.3.tar.gz
+[2024-04-24 06:57:30] INFO root fetch - processPackages [hermesbaby]: Downloading https://files.pythonhosted.org/packages/94/da/58d875295c8e803ae629e0c636cac88c56da5408cb41df81f262f428b529/hermesbaby-0.1.3.tar.gz
+[2024-04-24 06:57:30] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-04-24 06:57:30] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-04-24 06:57:30] INFO root fetch - processPackages [amorprot]: executing diffoscope
+[2024-04-24 06:57:30] INFO root fetch - processPackages [amorprot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amorprot-0.0.2-py3-none-any.whl.zip tmp/amorprot-0.0.3.tar.gz --markdown 20240424/a/amorprot/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 06:57:30] INFO root fetch - processPackages [hermesbaby]: executing diffoscope
+[2024-04-24 06:57:30] INFO root fetch - processPackages [hermesbaby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermesbaby-0.1.2.tar.gz tmp/hermesbaby-0.1.3.tar.gz --markdown 20240424/h/hermesbaby/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 06:57:30] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-04-24 06:57:30] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240424/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 06:57:30] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-24 06:57:30] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240424/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-04-24 06:57:30] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/3b/5b/405df3548c326eb189422051bca725e12c7f71fc78424b6d7f2598f7ab15/finter-0.2.4-py3-none-any.whl
+[2024-04-24 06:57:31] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-04-24 06:57:31] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.3-py3-none-any.whl.zip tmp/finter-0.2.4-py3-none-any.whl.zip --markdown 20240424/f/finter/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-24 06:57:31] INFO root fetch - processPackages [amorprot]: Remove: archive file [/home/abi/fetcher/tmp/amorprot-0.0.2-py3-none-any.whl.zip]
+[2024-04-24 06:57:31] INFO root fetch - processPackages [amorprot]: Remove: archive file [/home/abi/fetcher/tmp/amorprot-0.0.3.tar.gz]
+[2024-04-24 06:57:31] INFO root fetch - main [MainThread]: End processing [amorprot]: success
+[2024-04-24 06:57:31] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-04-24 06:57:31] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-04-24 06:57:31] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-04-24 06:57:31] INFO root fetch - processPackages [hermesbaby]: Remove: archive file [/home/abi/fetcher/tmp/hermesbaby-0.1.2.tar.gz]
+[2024-04-24 06:57:31] INFO root fetch - processPackages [hermesbaby]: Remove: archive file [/home/abi/fetcher/tmp/hermesbaby-0.1.3.tar.gz]
+[2024-04-24 06:57:31] INFO root fetch - main [MainThread]: End processing [hermesbaby]: success
+[2024-04-24 06:57:31] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-04-24 06:57:31] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-04-24 06:57:31] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-24 06:57:31] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.3-py3-none-any.whl.zip]
+[2024-04-24 06:57:31] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.4-py3-none-any.whl.zip]
+[2024-04-24 06:57:31] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-04-24 06:57:31] INFO root fetch - main [MainThread]: Store serial: [22906906]
