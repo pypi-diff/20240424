@@ -8960,3 +8960,60 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:23:40] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.2.dev2024042403.tar.gz]
 [2024-04-24 05:23:40] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-04-24 05:23:40] INFO root fetch - main [MainThread]: Store serial: [22906390]
+[2024-04-24 05:25:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906390]
+[2024-04-24 05:25:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 05:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hebill
+[2024-04-24 05:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-currency-rate-update-xe
+[2024-04-24 05:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcmd
+[2024-04-24 05:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypothesis-torch
+[2024-04-24 05:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-gettext
+[2024-04-24 05:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyminerva
+[2024-04-24 05:25:48] INFO root fetch - processPackages [hebill]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hypothesis-torch]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-24 05:25:49] INFO root fetch - processPackages [bcmd]: New version: [0.0.69] Old Version: [0.0.68]
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/0e/1e/6ef7769184a3c3eecd5423469ac36cc49b267f6b690feb466b26b0add0e8/hebill-1.2.1.tar.gz
+[2024-04-24 05:25:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hatch-gettext]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/06/49/b123b71a14c94cf343223ac53b90c3598a050feff8802fcd721bd664bb66/hypothesis_torch-0.2.0.tar.gz
+[2024-04-24 05:25:49] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/9a/67/c9df13bd2e67e3e284877febae73490c0615e20f51a1197a84ab93416b61/bcmd-0.0.68.tar.gz
+[2024-04-24 05:25:49] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/73/2d/fd263a4e6eaf489257c3813a3dd315f6939ed6493fc28bccc876f2fb44db/hebill-1.2.2.tar.gz
+[2024-04-24 05:25:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/60/e0/2775f2c5e46bd049653de86e9f67c47a481aff75ee3a60457ca2ea9cccdc/odoo_addon_currency_rate_update_xe-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 05:25:49] INFO root fetch - processPackages [bcmd]: Downloading https://files.pythonhosted.org/packages/f6/a5/ec8c13c06a39c356617ea9ec525764cdb94be287eee241950157f2ab2e27/bcmd-0.0.69.tar.gz
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hatch-gettext]: Downloading https://files.pythonhosted.org/packages/af/8d/98a4e455917472351f40137de71b6fe804db256e244b59a4669433d0c499/hatch_gettext-1.0.0.tar.gz
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.2.1.tar.gz tmp/hebill-1.2.2.tar.gz --markdown 20240424/h/hebill/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-24 05:25:49] INFO root fetch - processPackages [bcmd]: executing diffoscope
+[2024-04-24 05:25:49] INFO root fetch - processPackages [bcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcmd-0.0.68.tar.gz tmp/bcmd-0.0.69.tar.gz --markdown 20240424/b/bcmd/0.0.68-0.0.69/README.md --exclude *.pyd
+[2024-04-24 05:25:49] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/16/36/4e9f749980094564e5997a6d43b3c425017c3ae748767620b93694cd8a17/hypothesis_torch-0.3.0.tar.gz
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hypothesis-torch]: executing diffoscope
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hypothesis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis_torch-0.2.0.tar.gz tmp/hypothesis_torch-0.3.0.tar.gz --markdown 20240424/h/hypothesis-torch/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-24 05:25:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/e3/65/274d2a4e5e1456ff66547c9ebb1c5a8f6cbc5b8fadf1d3f111005b3f5231/odoo_addon_currency_rate_update_xe-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hatch-gettext]: Downloading https://files.pythonhosted.org/packages/cd/b2/4d4832953d048af2c6cf6e56c5dc50cd2b661848c05346d7c13702ead6fa/hatch_gettext-1.1.0.tar.gz
+[2024-04-24 05:25:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: executing diffoscope
+[2024-04-24 05:25:49] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-currency-rate-update-xe/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hatch-gettext]: executing diffoscope
+[2024-04-24 05:25:49] INFO root fetch - processPackages [hatch-gettext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_gettext-1.0.0.tar.gz tmp/hatch_gettext-1.1.0.tar.gz --markdown 20240424/h/hatch-gettext/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-24 05:25:49] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-24 05:25:50] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.2.1.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.2.2.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-24 05:25:50] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.68.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - processPackages [bcmd]: Remove: archive file [/home/abi/fetcher/tmp/bcmd-0.0.69.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - main [MainThread]: End processing [bcmd]: success
+[2024-04-24 05:25:50] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-24 05:25:50] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240424/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-24 05:25:50] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.2.0.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.3.0.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - main [MainThread]: End processing [hypothesis-torch]: success
+[2024-04-24 05:25:50] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 05:25:50] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-24 05:25:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update-xe]: success
+[2024-04-24 05:25:50] INFO root fetch - processPackages [hatch-gettext]: Remove: archive file [/home/abi/fetcher/tmp/hatch_gettext-1.0.0.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - processPackages [hatch-gettext]: Remove: archive file [/home/abi/fetcher/tmp/hatch_gettext-1.1.0.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - main [MainThread]: End processing [hatch-gettext]: success
+[2024-04-24 05:25:50] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-24 05:25:50] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-24 05:25:50] INFO root fetch - main [MainThread]: Store serial: [22906407]
