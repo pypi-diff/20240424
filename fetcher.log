@@ -18321,3 +18321,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:10:49] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.3.tar.gz]
 [2024-04-24 12:10:49] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-04-24 12:10:49] INFO root fetch - main [MainThread]: Store serial: [22910231]
+[2024-04-24 12:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910231]
+[2024-04-24 12:12:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoltraak
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sag-py-auth-brand
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: primers
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: primers
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: primers
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-dots
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audian
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: primers
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: specklia
+[2024-04-24 12:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mergecraft
+[2024-04-24 12:12:59] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [mergecraft]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [mo-dots]: New version: [9.601.24115] Old Version: [9.600.24114]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [sag-py-auth-brand]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [primers]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [primers]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [primers]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [primers]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-04-24 12:12:59] INFO root fetch - processPackages [audian]: New version: [1.7] Old Version: [1.6]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-24 12:12:59] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/59/1f/07c7f2818cc54d7dc322c3b35f856333a9b68723a4d32ed2aea7cbfbe2d7/mergecraft-0.0.4.tar.gz
+[2024-04-24 12:12:59] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/71/27/c696cbe7700b1648c72f99e45498e6ce661dc791a2af82d9efba2de47b15/mo_dots-9.600.24114.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [sag-py-auth-brand]: Downloading https://files.pythonhosted.org/packages/88/90/231a7225bbecc2a927dbdbd92871e7d8f76d99fee312154b4e53815ce891/sag-py-auth-brand-0.2.2.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/ff/ba/ce73081366650cfd44edc09c878c78f63b6657072c3ef6ca03cbbb44afc9/primers-0.5.7-py3-none-any.whl
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/ff/ba/ce73081366650cfd44edc09c878c78f63b6657072c3ef6ca03cbbb44afc9/primers-0.5.7-py3-none-any.whl
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/ff/ba/ce73081366650cfd44edc09c878c78f63b6657072c3ef6ca03cbbb44afc9/primers-0.5.7-py3-none-any.whl
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/ff/ba/ce73081366650cfd44edc09c878c78f63b6657072c3ef6ca03cbbb44afc9/primers-0.5.7-py3-none-any.whl
+[2024-04-24 12:13:00] INFO root fetch - processPackages [audian]: Downloading https://files.pythonhosted.org/packages/5c/29/d2734ded1fccb1c3f3a41002c93ba96eaeee40c170397f60d7acd6141fe1/audian-1.6.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/68/12/b4ccfc0df7e7ff31a25b70492006aa4902d4e2259b8d32a6c92401b53632/mo_dots-9.601.24115.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/16/6b/730522a31c4aa348fe9a587b598a8c5ea81075967887563ebf881992c6ed/mergecraft-0.0.5.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240424/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 12:13:00] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_dots-9.600.24114.tar.gz tmp/mo_dots-9.601.24115.tar.gz --markdown 20240424/m/mo-dots/9.600.24114-9.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:13:00] INFO root fetch - processPackages [sag-py-auth-brand]: Downloading https://files.pythonhosted.org/packages/fe/f0/b1430c9ba4aa2c6fbd73d0b5613c377a19b5918aefbba35cc5b0f8dbe660/sag_py_auth_brand-0.3.0.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [mergecraft]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [mergecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergecraft-0.0.4.tar.gz tmp/mergecraft-0.0.5.tar.gz --markdown 20240424/m/mergecraft/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/f2/7d/73a28cdd7ed19b5db4c46e73b7e214c2769aeff92e0372990b3649e349b2/primers-0.5.8-py3-none-any.whl
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/f2/7d/73a28cdd7ed19b5db4c46e73b7e214c2769aeff92e0372990b3649e349b2/primers-0.5.8-py3-none-any.whl
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/f2/7d/73a28cdd7ed19b5db4c46e73b7e214c2769aeff92e0372990b3649e349b2/primers-0.5.8-py3-none-any.whl
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/f2/7d/73a28cdd7ed19b5db4c46e73b7e214c2769aeff92e0372990b3649e349b2/primers-0.5.8-py3-none-any.whl
+[2024-04-24 12:13:00] INFO root fetch - processPackages [audian]: Downloading https://files.pythonhosted.org/packages/cf/3a/a85aeaf5c5e49985cd75790e0bb1a8b33c948c1631836ecec3ede2e32687/audian-1.7.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [sag-py-auth-brand]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [sag-py-auth-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-auth-brand-0.2.2.tar.gz tmp/sag_py_auth_brand-0.3.0.tar.gz --markdown 20240424/s/sag-py-auth-brand/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primers-0.5.7-py3-none-any.whl.zip tmp/primers-0.5.8-py3-none-any.whl.zip --markdown 20240424/p/primers/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primers-0.5.7-py3-none-any.whl.zip tmp/primers-0.5.8-py3-none-any.whl.zip --markdown 20240424/p/primers/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primers-0.5.7-py3-none-any.whl.zip tmp/primers-0.5.8-py3-none-any.whl.zip --markdown 20240424/p/primers/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [primers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primers-0.5.7-py3-none-any.whl.zip tmp/primers-0.5.8-py3-none-any.whl.zip --markdown 20240424/p/primers/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-24 12:13:00] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-24 12:13:00] INFO root fetch - processPackages [audian]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [audian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audian-1.6.tar.gz tmp/audian-1.7.tar.gz --markdown 20240424/a/audian/1.6-1.7/README.md --exclude *.pyd
+[2024-04-24 12:13:00] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-24 12:13:00] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240424/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-24 12:13:01] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.4.tar.gz]
+[2024-04-24 12:13:01] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.5.tar.gz]
+[2024-04-24 12:13:01] INFO root fetch - main [MainThread]: End processing [mergecraft]: success
+[2024-04-24 12:13:01] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.600.24114.tar.gz]
+[2024-04-24 12:13:01] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.601.24115.tar.gz]
+[2024-04-24 12:13:01] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2024-04-24 12:13:01] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-04-24 12:13:01] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-04-24 12:13:01] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 12:13:01] INFO root fetch - processPackages [primers]: Remove: archive file [/home/abi/fetcher/tmp/primers-0.5.7-py3-none-any.whl.zip]
+[2024-04-24 12:13:01] INFO root fetch - processPackages [primers]: Remove: archive file [/home/abi/fetcher/tmp/primers-0.5.8-py3-none-any.whl.zip]
+[2024-04-24 12:13:01] INFO root fetch - main [MainThread]: End processing [primers]: success
+[2024-04-24 12:13:02] INFO root fetch - processPackages [sag-py-auth-brand]: Remove: archive file [/home/abi/fetcher/tmp/sag-py-auth-brand-0.2.2.tar.gz]
+[2024-04-24 12:13:02] INFO root fetch - processPackages [sag-py-auth-brand]: Remove: archive file [/home/abi/fetcher/tmp/sag_py_auth_brand-0.3.0.tar.gz]
+[2024-04-24 12:13:02] INFO root fetch - main [MainThread]: End processing [sag-py-auth-brand]: success
+[2024-04-24 12:13:02] INFO root fetch - main [MainThread]: End processing [primers]: success
+[2024-04-24 12:13:02] INFO root fetch - main [MainThread]: End processing [primers]: success
+[2024-04-24 12:13:02] INFO root fetch - main [MainThread]: End processing [primers]: success
+[2024-04-24 12:13:02] INFO root fetch - processPackages [audian]: Remove: archive file [/home/abi/fetcher/tmp/audian-1.6.tar.gz]
+[2024-04-24 12:13:02] INFO root fetch - processPackages [audian]: Remove: archive file [/home/abi/fetcher/tmp/audian-1.7.tar.gz]
+[2024-04-24 12:13:02] INFO root fetch - main [MainThread]: End processing [audian]: success
+[2024-04-24 12:13:02] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-24 12:13:02] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-24 12:13:02] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-24 12:13:02] INFO root fetch - main [MainThread]: Store serial: [22910258]
