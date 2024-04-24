@@ -7718,3 +7718,75 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:14:42] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.0.6-py2.py3-none-any.whl.zip]
 [2024-04-24 04:14:42] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
 [2024-04-24 04:14:42] INFO root fetch - main [MainThread]: Store serial: [22905744]
+[2024-04-24 04:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905744]
+[2024-04-24 04:16:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 04:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: escaper-lite
+[2024-04-24 04:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-calendards
+[2024-04-24 04:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agt-server
+[2024-04-24 04:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: facehuggershield
+[2024-04-24 04:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: defendatron
+[2024-04-24 04:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cj-package
+[2024-04-24 04:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: latch-cloud-clients
+[2024-04-24 04:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aql
+[2024-04-24 04:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: audio-toolkit
+[2024-04-24 04:16:51] WARNING root fetch - processPackages [defendatron]: Skipping, unable to determine old version
+[2024-04-24 04:16:51] INFO root fetch - main [MainThread]: End processing [defendatron] error
+[2024-04-24 04:16:51] INFO root fetch - processPackages [latch-cloud-clients]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 04:16:51] INFO root fetch - processPackages [agt-server]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-24 04:16:51] WARNING root fetch - processPackages [facehuggershield]: Skipping, unable to determine old version
+[2024-04-24 04:16:51] INFO root fetch - main [MainThread]: End processing [facehuggershield] error
+[2024-04-24 04:16:51] INFO root fetch - processPackages [django-calendards]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-24 04:16:51] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 04:16:51] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/42/09/e4f7107e74007313fa4cd9d4ee5cce79c5fc1e90d8d0942f060ade6d0e17/agt_server-1.3.1.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [escaper-lite]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-24 04:16:51] INFO root fetch - processPackages [aql]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-24 04:16:51] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 04:16:51] INFO root fetch - processPackages [latch-cloud-clients]: Downloading https://files.pythonhosted.org/packages/b7/db/d13dd8c74b01aade26a0398b7dd826abc2f791b57f095aa4df244a17d90f/latch_cloud_clients-0.1.2.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [escaper-lite]: Downloading https://files.pythonhosted.org/packages/94/16/487f24558ba0bcbcdd3084a39cad1955130e9183b63ea8ad52e52a310bc3/escaper_lite-0.0.7-py3-none-any.whl
+[2024-04-24 04:16:51] INFO root fetch - processPackages [django-calendards]: Downloading https://files.pythonhosted.org/packages/7d/fa/cd28dcb478001592f455626881f2174bb01007861314331ee96947496443/django_calendards-0.4.1.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [aql]: Downloading https://files.pythonhosted.org/packages/82/5b/b68907397ad30cb1d5e709b665bc2926cb097e225d84386baa9b1e68d16c/aql-0.4.1.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/83/18/eecba9433fa9490251ad404a2b9ae5d4fee1fe165b3c25e81dbd8b84b8b9/agt_server-1.3.2.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [latch-cloud-clients]: Downloading https://files.pythonhosted.org/packages/98/f4/84cdd3f08c3ab3c9ff48f6f5869264b382dc1ef01787a0419e1e131a4673/latch_cloud_clients-0.1.3.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [escaper-lite]: Downloading https://files.pythonhosted.org/packages/40/ac/88748872fdbf62a465bec7dc6fa5a323d25c313f7925531a6a2daddd4580/escaper_lite-0.0.8-py3-none-any.whl
+[2024-04-24 04:16:51] INFO root fetch - processPackages [django-calendards]: Downloading https://files.pythonhosted.org/packages/d5/d2/fc7beb4486d623a01aaf377976a48ee762cc6cc85572db56f4af7ed41d88/django_calendards-0.4.2.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [aql]: Downloading https://files.pythonhosted.org/packages/a4/9a/15254abbf411388e993aa08238f2daba69c375af36873b69f2f01ab6359f/aql-0.5.0.tar.gz
+[2024-04-24 04:16:51] INFO root fetch - processPackages [latch-cloud-clients]: executing diffoscope
+[2024-04-24 04:16:51] INFO root fetch - processPackages [latch-cloud-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_cloud_clients-0.1.2.tar.gz tmp/latch_cloud_clients-0.1.3.tar.gz --markdown 20240424/l/latch-cloud-clients/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 04:16:52] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-24 04:16:52] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-04-24 04:16:52] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.3.1.tar.gz tmp/agt_server-1.3.2.tar.gz --markdown 20240424/a/agt-server/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-24 04:16:52] INFO root fetch - processPackages [escaper-lite]: executing diffoscope
+[2024-04-24 04:16:52] INFO root fetch - processPackages [escaper-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escaper_lite-0.0.7-py3-none-any.whl.zip tmp/escaper_lite-0.0.8-py3-none-any.whl.zip --markdown 20240424/e/escaper-lite/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-24 04:16:52] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-24 04:16:52] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240424/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 04:16:52] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-24 04:16:52] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240424/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 04:16:52] INFO root fetch - processPackages [django-calendards]: executing diffoscope
+[2024-04-24 04:16:52] INFO root fetch - processPackages [django-calendards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_calendards-0.4.1.tar.gz tmp/django_calendards-0.4.2.tar.gz --markdown 20240424/d/django-calendards/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-24 04:16:52] INFO root fetch - processPackages [aql]: executing diffoscope
+[2024-04-24 04:16:52] INFO root fetch - processPackages [aql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aql-0.4.1.tar.gz tmp/aql-0.5.0.tar.gz --markdown 20240424/a/aql/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-24 04:16:52] INFO root fetch - processPackages [escaper-lite]: Remove: archive file [/home/abi/fetcher/tmp/escaper_lite-0.0.7-py3-none-any.whl.zip]
+[2024-04-24 04:16:52] INFO root fetch - processPackages [escaper-lite]: Remove: archive file [/home/abi/fetcher/tmp/escaper_lite-0.0.8-py3-none-any.whl.zip]
+[2024-04-24 04:16:52] INFO root fetch - main [MainThread]: End processing [escaper-lite]: success
+[2024-04-24 04:16:52] INFO root fetch - processPackages [latch-cloud-clients]: Remove: archive file [/home/abi/fetcher/tmp/latch_cloud_clients-0.1.2.tar.gz]
+[2024-04-24 04:16:52] INFO root fetch - processPackages [latch-cloud-clients]: Remove: archive file [/home/abi/fetcher/tmp/latch_cloud_clients-0.1.3.tar.gz]
+[2024-04-24 04:16:52] INFO root fetch - main [MainThread]: End processing [latch-cloud-clients]: success
+[2024-04-24 04:16:52] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-24 04:16:52] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-24 04:16:52] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-24 04:16:52] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-24 04:16:52] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-24 04:16:52] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-24 04:16:53] INFO root fetch - processPackages [aql]: Remove: archive file [/home/abi/fetcher/tmp/aql-0.4.1.tar.gz]
+[2024-04-24 04:16:53] INFO root fetch - processPackages [aql]: Remove: archive file [/home/abi/fetcher/tmp/aql-0.5.0.tar.gz]
+[2024-04-24 04:16:53] INFO root fetch - main [MainThread]: End processing [aql]: success
+[2024-04-24 04:16:53] INFO root fetch - processPackages [django-calendards]: Remove: archive file [/home/abi/fetcher/tmp/django_calendards-0.4.1.tar.gz]
+[2024-04-24 04:16:53] INFO root fetch - processPackages [django-calendards]: Remove: archive file [/home/abi/fetcher/tmp/django_calendards-0.4.2.tar.gz]
+[2024-04-24 04:16:53] INFO root fetch - main [MainThread]: End processing [django-calendards]: success
+[2024-04-24 04:16:53] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.1.tar.gz]
+[2024-04-24 04:16:53] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.3.2.tar.gz]
+[2024-04-24 04:16:53] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-04-24 04:16:53] INFO root fetch - main [MainThread]: Store serial: [22905770]
