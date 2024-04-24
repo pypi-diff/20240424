@@ -10984,3 +10984,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:26:35] INFO root fetch - processPackages [GS-Edit]: Remove: archive file [/home/abi/fetcher/tmp/gs_edit-0.2.4.tar.gz]
 [2024-04-24 07:26:35] INFO root fetch - main [MainThread]: End processing [GS-Edit]: success
 [2024-04-24 07:26:35] INFO root fetch - main [MainThread]: Store serial: [22907170]
+[2024-04-24 07:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907170]
+[2024-04-24 07:28:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 07:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fetch-sitemap
+[2024-04-24 07:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transcribe-anything
+[2024-04-24 07:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphlit-client
+[2024-04-24 07:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superb-ai-apps
+[2024-04-24 07:28:44] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-24 07:28:44] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-24 07:28:44] INFO root fetch - processPackages [superb-ai-apps]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 07:28:44] INFO root fetch - processPackages [graphlit-client]: New version: [1.0.20240423001] Old Version: [1.0.20240420011]
+[2024-04-24 07:28:44] INFO root fetch - processPackages [transcribe-anything]: New version: [2.7.9] Old Version: [2.7.8]
+[2024-04-24 07:28:44] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/ce/19/fe7d3964f5b793f5f7b33d4704d41d8b7d32662e98849a6a4c9de1acb750/superb-ai-apps-0.0.4.tar.gz
+[2024-04-24 07:28:44] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/f8/6d/138c7887ecf087a68a5a3b06d1f1b17cd123081c045dfc8d90a7b6a9f4f1/graphlit_client-1.0.20240420011.tar.gz
+[2024-04-24 07:28:44] INFO root fetch - processPackages [transcribe-anything]: Downloading https://files.pythonhosted.org/packages/5e/98/a598231a3f4ea78e4bbcd6e690a53942a6e0a69d64d1c65b0a644a2d5ae7/transcribe-anything-2.7.8.tar.gz
+[2024-04-24 07:28:44] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-24 07:28:44] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-24 07:28:44] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240424/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-24 07:28:44] INFO root fetch - processPackages [transcribe-anything]: Downloading https://files.pythonhosted.org/packages/e9/6a/df21658c4cdfeafaa108a8d1ff8ba2261564a49e76821cbf65f445682e3e/transcribe-anything-2.7.9.tar.gz
+[2024-04-24 07:28:44] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/32/5a/a416868542088b59cf6ad40189831a7775b18a266b0dc0983517fa235262/superb-ai-apps-0.0.5.tar.gz
+[2024-04-24 07:28:44] INFO root fetch - processPackages [graphlit-client]: Downloading https://files.pythonhosted.org/packages/1f/f3/ebb8eef76560c807f497e9cc9f5945e2e2f5ec76966472cbef4143d98468/graphlit_client-1.0.20240423001.tar.gz
+[2024-04-24 07:28:45] INFO root fetch - processPackages [superb-ai-apps]: executing diffoscope
+[2024-04-24 07:28:45] INFO root fetch - processPackages [superb-ai-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb-ai-apps-0.0.4.tar.gz tmp/superb-ai-apps-0.0.5.tar.gz --markdown 20240424/s/superb-ai-apps/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-24 07:28:45] INFO root fetch - processPackages [graphlit-client]: executing diffoscope
+[2024-04-24 07:28:45] INFO root fetch - processPackages [graphlit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlit_client-1.0.20240420011.tar.gz tmp/graphlit_client-1.0.20240423001.tar.gz --markdown 20240424/g/graphlit-client/1.0.20240420011-1.0.20240423001/README.md --exclude *.pyd
+[2024-04-24 07:28:45] INFO root fetch - processPackages [transcribe-anything]: executing diffoscope
+[2024-04-24 07:28:45] INFO root fetch - processPackages [transcribe-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcribe-anything-2.7.8.tar.gz tmp/transcribe-anything-2.7.9.tar.gz --markdown 20240424/t/transcribe-anything/2.7.8-2.7.9/README.md --exclude *.pyd
+[2024-04-24 07:28:45] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-24 07:28:45] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-24 07:28:45] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-24 07:28:45] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.4.tar.gz]
+[2024-04-24 07:28:45] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.5.tar.gz]
+[2024-04-24 07:28:45] INFO root fetch - main [MainThread]: End processing [superb-ai-apps]: success
+[2024-04-24 07:28:45] INFO root fetch - processPackages [transcribe-anything]: Remove: archive file [/home/abi/fetcher/tmp/transcribe-anything-2.7.8.tar.gz]
+[2024-04-24 07:28:45] INFO root fetch - processPackages [transcribe-anything]: Remove: archive file [/home/abi/fetcher/tmp/transcribe-anything-2.7.9.tar.gz]
+[2024-04-24 07:28:45] INFO root fetch - main [MainThread]: End processing [transcribe-anything]: success
+[2024-04-24 07:28:45] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240420011.tar.gz]
+[2024-04-24 07:28:45] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240423001.tar.gz]
+[2024-04-24 07:28:45] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
+[2024-04-24 07:28:45] INFO root fetch - main [MainThread]: Store serial: [22907181]
