@@ -18408,3 +18408,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:13:02] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
 [2024-04-24 12:13:02] INFO root fetch - main [MainThread]: End processing [specklia]: success
 [2024-04-24 12:13:02] INFO root fetch - main [MainThread]: Store serial: [22910258]
+[2024-04-24 12:15:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910258]
+[2024-04-24 12:15:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HomePy
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bsx-sdk-py
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-kwargs
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rrtask
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zoltraak
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redisbench-admin
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ithaca-py
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mo-math
+[2024-04-24 12:15:12] INFO root fetch - processPackages [rrtask]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 12:15:12] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ithaca-py]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-24 12:15:12] INFO root fetch - processPackages [mo-math]: New version: [7.601.24115] Old Version: [7.600.24114]
+[2024-04-24 12:15:12] INFO root fetch - processPackages [mo-kwargs]: New version: [7.601.24115] Old Version: [7.600.24114]
+[2024-04-24 12:15:12] INFO root fetch - processPackages [HomePy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 12:15:12] INFO root fetch - processPackages [bsx-sdk-py]: New version: [0.0.1b5] Old Version: [0.0.1b4]
+[2024-04-24 12:15:12] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-04-24 12:15:12] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-04-24 12:15:12] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/bb/b1/65a9012b21a37dab808be721937a76f5eb179f72fed82b0d6acab2c3610e/rrtask-0.0.4.tar.gz
+[2024-04-24 12:15:12] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/2a/e3/63f5f091f3c4fa88a0fb6110eedb2a8e1d2fd7b9f1b97636836d8c6592c2/ithaca_py-0.2.2.tar.gz
+[2024-04-24 12:15:12] INFO root fetch - processPackages [redisbench-admin]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 12:15:12] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/f1/91/e028c01de6211d44041bf09c3d12627739cdc43ceca34b65367f7eda479e/mo_math-7.600.24114.tar.gz
+[2024-04-24 12:15:12] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/80/4c/847906178a11d4eec08fc0596c886ec4b37bb43a34bc5915542ef9174e98/mo_kwargs-7.600.24114.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [HomePy]: Downloading https://files.pythonhosted.org/packages/46/8c/d5c8c2e9d368fbe12a45bc88ac600775d854dde599c65fbd1aa8e348d2e9/HomePy-0.0.1.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [bsx-sdk-py]: Downloading https://files.pythonhosted.org/packages/5e/ba/a3ba18d1725628ecd70913b42f4c5d2a317433d4dec6c154b014dc03e049/bsx_sdk_py-0.0.1b4.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [redisbench-admin]: Downloading https://files.pythonhosted.org/packages/1b/bc/fbbca13a7e0fe02900bb0cd135f79a4c32ff5312414c75613c7417ba66b5/redisbench-admin-0.9.8.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/a9/c7/107c52aab6c7dd0376ac48904d78bf160be98abb90a9d3c52d891be8f7c8/ithaca_py-0.2.3.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/42/4d/39745e090919d8b235891c40f46b2a760a7dcb1eb606dac9f1866d2eb565/mo_kwargs-7.601.24115.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/b8/d1/131a159259d84c9728c345e93424c6f2cb02d3364c4984079422e4d31179/mo_math-7.601.24115.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/fa/01/caf442b29496ac1293ccf7cb9e4023ca290b722e4dcf056ee011b5c31b2e/rrtask-0.0.5.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-04-24 12:15:13] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.2.2.tar.gz tmp/ithaca_py-0.2.3.tar.gz --markdown 20240424/i/ithaca-py/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-24 12:15:13] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2024-04-24 12:15:13] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_kwargs-7.600.24114.tar.gz tmp/mo_kwargs-7.601.24115.tar.gz --markdown 20240424/m/mo-kwargs/7.600.24114-7.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:15:13] INFO root fetch - processPackages [HomePy]: Downloading https://files.pythonhosted.org/packages/a1/da/04a960650ca9203e3107b51724be906dc23849b5ab905437f0383e2ea89c/homepy-0.0.2.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 12:15:13] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240424/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 12:15:13] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2024-04-24 12:15:13] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_math-7.600.24114.tar.gz tmp/mo_math-7.601.24115.tar.gz --markdown 20240424/m/mo-math/7.600.24114-7.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:15:13] INFO root fetch - processPackages [rrtask]: executing diffoscope
+[2024-04-24 12:15:13] INFO root fetch - processPackages [rrtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rrtask-0.0.4.tar.gz tmp/rrtask-0.0.5.tar.gz --markdown 20240424/r/rrtask/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-24 12:15:13] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [bsx-sdk-py]: Downloading https://files.pythonhosted.org/packages/17/9e/90edf32d11cd3c2295cd25fe60d13179083410abd9086e11f65cb8bc3a41/bsx_sdk_py-0.0.1b5.tar.gz
+[2024-04-24 12:15:13] INFO root fetch - processPackages [HomePy]: executing diffoscope
+[2024-04-24 12:15:13] INFO root fetch - processPackages [HomePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HomePy-0.0.1.tar.gz tmp/homepy-0.0.2.tar.gz --markdown 20240424/H/HomePy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 12:15:13] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-04-24 12:15:13] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240424/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-04-24 12:15:13] INFO root fetch - processPackages [bsx-sdk-py]: executing diffoscope
+[2024-04-24 12:15:13] INFO root fetch - processPackages [bsx-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsx_sdk_py-0.0.1b4.tar.gz tmp/bsx_sdk_py-0.0.1b5.tar.gz --markdown 20240424/b/bsx-sdk-py/0.0.1b4-0.0.1b5/README.md --exclude *.pyd
+[2024-04-24 12:15:13] INFO root fetch - processPackages [redisbench-admin]: Downloading https://files.pythonhosted.org/packages/d8/bf/a564f8e39b26d523bf3f26f6fa2c917fe47853f2319e577d43cd0dfc7c5a/redisbench-admin-0.9.9.tar.gz
+[2024-04-24 12:15:14] INFO root fetch - processPackages [redisbench-admin]: executing diffoscope
+[2024-04-24 12:15:14] INFO root fetch - processPackages [redisbench-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redisbench-admin-0.9.8.tar.gz tmp/redisbench-admin-0.9.9.tar.gz --markdown 20240424/r/redisbench-admin/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 12:15:14] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.600.24114.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.601.24115.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2024-04-24 12:15:14] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.4.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.5.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - main [MainThread]: End processing [rrtask]: success
+[2024-04-24 12:15:14] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.600.24114.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.601.24115.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2024-04-24 12:15:14] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.2.2.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.2.3.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-04-24 12:15:14] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 12:15:14] INFO root fetch - processPackages [bsx-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/bsx_sdk_py-0.0.1b4.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - processPackages [bsx-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/bsx_sdk_py-0.0.1b5.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - main [MainThread]: End processing [bsx-sdk-py]: success
+[2024-04-24 12:15:14] INFO root fetch - processPackages [HomePy]: Remove: archive file [/home/abi/fetcher/tmp/HomePy-0.0.1.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - processPackages [HomePy]: Remove: archive file [/home/abi/fetcher/tmp/homepy-0.0.2.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - main [MainThread]: End processing [HomePy]: success
+[2024-04-24 12:15:14] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-04-24 12:15:14] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-04-24 12:15:16] INFO root fetch - processPackages [redisbench-admin]: Remove: archive file [/home/abi/fetcher/tmp/redisbench-admin-0.9.8.tar.gz]
+[2024-04-24 12:15:16] INFO root fetch - processPackages [redisbench-admin]: Remove: archive file [/home/abi/fetcher/tmp/redisbench-admin-0.9.9.tar.gz]
+[2024-04-24 12:15:16] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
+[2024-04-24 12:15:16] INFO root fetch - main [MainThread]: Store serial: [22910285]
