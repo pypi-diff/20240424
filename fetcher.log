@@ -17433,3 +17433,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:44:21] INFO root fetch - processPackages [shadow4]: Remove: archive file [/home/abi/fetcher/tmp/shadow4-0.1.8.tar.gz]
 [2024-04-24 11:44:21] INFO root fetch - main [MainThread]: End processing [shadow4]: success
 [2024-04-24 11:44:21] INFO root fetch - main [MainThread]: Store serial: [22909948]
+[2024-04-24 11:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909948]
+[2024-04-24 11:46:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-api-platform-instancemanagement
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-core
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apibook
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: credsweeper
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gov-uk-dashboards
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OASYS1-shadow4
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-langchain
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py2docfx
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchvinecopulib
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Project-DataPrepKit
+[2024-04-24 11:46:30] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 11:46:30] INFO root fetch - processPackages [apibook]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 11:46:30] INFO root fetch - processPackages [Project-DataPrepKit]: New version: [0.3] Old Version: [0.2]
+[2024-04-24 11:46:30] INFO root fetch - processPackages [ansys-api-platform-instancemanagement]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2024-04-24 11:46:30] INFO root fetch - processPackages [torchvinecopulib]: New version: [2024.4.0] Old Version: [2024.3.3]
+[2024-04-24 11:46:30] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 11:46:30] INFO root fetch - processPackages [py2docfx]: New version: [0.1.5.dev1704905] Old Version: [0.1.4rc1704856]
+[2024-04-24 11:46:30] INFO root fetch - processPackages [OASYS1-shadow4]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-24 11:46:30] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-04-24 11:46:30] INFO root fetch - processPackages [credsweeper]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-24 11:46:31] INFO root fetch - processPackages [apibook]: Downloading https://files.pythonhosted.org/packages/43/12/7b9b5e8cccf41fefa1714ba4c8dd463bb0d4b6f26bf6ad09f0df971bdb7e/apibook-0.1.0.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [Project-DataPrepKit]: Downloading https://files.pythonhosted.org/packages/89/d1/103c18b0ac51078d44632686bf149fbebd9df5c2ac9f7d5bdfcad27f107f/Project_DataPrepKit-0.2.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/21/07/05e5bf96d21954a6007d7f9e75793c0fcbf89501920902be1a249187fe19/py2docfx-0.1.4rc1704856-py3-none-any.whl
+[2024-04-24 11:46:31] INFO root fetch - processPackages [torchvinecopulib]: Downloading https://files.pythonhosted.org/packages/e9/70/8b73eef92d421f647fe05ec308981bcd4e943a7628ae1c3eeda5f2d38df2/torchvinecopulib-2024.3.3.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [ansys-api-platform-instancemanagement]: Downloading https://files.pythonhosted.org/packages/fe/ab/68cbb48fae5e03de12aa11fd3e101e951d19a04120be930bd5467fadf337/ansys_api_platform_instancemanagement-1.0.0b3-py3-none-any.whl
+[2024-04-24 11:46:31] INFO root fetch - processPackages [OASYS1-shadow4]: Downloading https://files.pythonhosted.org/packages/28/85/9a7b2aabe4f3fd024ac7d42f7e15a59f20b9cd73888be705eedb4b3b3f71/OASYS1-shadow4-0.0.6.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/ff/ac/09d2f1920f52927f9f05bd375954d69fd74486b63ecd4b4e49a80d916230/credsweeper-1.6.2.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [apibook]: Downloading https://files.pythonhosted.org/packages/a1/8b/f7a4dc4b92a1b75dea4c62fddb0cb3bc3b6621da78ba21da493e57a4c7aa/apibook-0.1.1.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [torchvinecopulib]: Downloading https://files.pythonhosted.org/packages/e8/55/a97f6a79bdc98a85c20d4a75026b364891bd16954603c08829eb333602b7/torchvinecopulib-2024.4.0.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [apibook]: executing diffoscope
+[2024-04-24 11:46:31] INFO root fetch - processPackages [apibook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apibook-0.1.0.tar.gz tmp/apibook-0.1.1.tar.gz --markdown 20240424/a/apibook/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 11:46:31] INFO root fetch - processPackages [Project-DataPrepKit]: Downloading https://files.pythonhosted.org/packages/a4/3e/a9cd1cd449f059c6cf63439ef66359cb3e74a47fb97bd657f792f0f2d98a/Project_DataPrepKit-0.3.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-24 11:46:31] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240424/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 11:46:31] INFO root fetch - processPackages [ansys-api-platform-instancemanagement]: Downloading https://files.pythonhosted.org/packages/53/02/f3504af7c348b77ed5142971f9af3bd749647989d8ac9d6990f60e95ef52/ansys-api-platform-instancemanagement-1.0.0b4.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/44/4f/b6902e63fff30df3d967d61a70d15aa2a5caa1f2c2969f8912a8989b4517/py2docfx-0.1.5.dev1704905-py3-none-any.whl
+[2024-04-24 11:46:31] INFO root fetch - processPackages [torchvinecopulib]: executing diffoscope
+[2024-04-24 11:46:31] INFO root fetch - processPackages [torchvinecopulib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchvinecopulib-2024.3.3.tar.gz tmp/torchvinecopulib-2024.4.0.tar.gz --markdown 20240424/t/torchvinecopulib/2024.3.3-2024.4.0/README.md --exclude *.pyd
+[2024-04-24 11:46:31] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-24 11:46:31] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240424/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 11:46:31] INFO root fetch - processPackages [Project-DataPrepKit]: executing diffoscope
+[2024-04-24 11:46:31] INFO root fetch - processPackages [Project-DataPrepKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Project_DataPrepKit-0.2.tar.gz tmp/Project_DataPrepKit-0.3.tar.gz --markdown 20240424/P/Project-DataPrepKit/0.2-0.3/README.md --exclude *.pyd
+[2024-04-24 11:46:31] INFO root fetch - processPackages [OASYS1-shadow4]: Downloading https://files.pythonhosted.org/packages/2a/7e/7bf83d2fc7487cd1b2eb273894b1415af0ec1123dd558e4e8df4e1d4acf7/OASYS1-shadow4-0.0.9.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-24 11:46:31] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4rc1704856-py3-none-any.whl.zip tmp/py2docfx-0.1.5.dev1704905-py3-none-any.whl.zip --markdown 20240424/p/py2docfx/0.1.4rc1704856-0.1.5.dev1704905/README.md --exclude *.pyd
+[2024-04-24 11:46:31] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/17/f5/09407b9eb6fd14b64a5cb1ebef0c40f77592da884fc571cfa39f04a00080/credsweeper-1.6.3.tar.gz
+[2024-04-24 11:46:31] INFO root fetch - processPackages [ansys-api-platform-instancemanagement]: executing diffoscope
+[2024-04-24 11:46:31] INFO root fetch - processPackages [ansys-api-platform-instancemanagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_api_platform_instancemanagement-1.0.0b3-py3-none-any.whl.zip tmp/ansys-api-platform-instancemanagement-1.0.0b4.tar.gz --markdown 20240424/a/ansys-api-platform-instancemanagement/1.0.0b3-1.0.0b4/README.md --exclude *.pyd
+[2024-04-24 11:46:31] INFO root fetch - processPackages [OASYS1-shadow4]: executing diffoscope
+[2024-04-24 11:46:31] INFO root fetch - processPackages [OASYS1-shadow4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OASYS1-shadow4-0.0.6.tar.gz tmp/OASYS1-shadow4-0.0.9.tar.gz --markdown 20240424/O/OASYS1-shadow4/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-04-24 11:46:31] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2024-04-24 11:46:31] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20240424/g/gov-uk-dashboards/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-04-24 11:46:32] INFO root fetch - processPackages [credsweeper]: executing diffoscope
+[2024-04-24 11:46:32] INFO root fetch - processPackages [credsweeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credsweeper-1.6.2.tar.gz tmp/credsweeper-1.6.3.tar.gz --markdown 20240424/c/credsweeper/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-04-24 11:46:32] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-24 11:46:32] INFO root fetch - processPackages [apibook]: Remove: archive file [/home/abi/fetcher/tmp/apibook-0.1.0.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - processPackages [apibook]: Remove: archive file [/home/abi/fetcher/tmp/apibook-0.1.1.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - main [MainThread]: End processing [apibook]: success
+[2024-04-24 11:46:32] INFO root fetch - processPackages [Project-DataPrepKit]: Remove: archive file [/home/abi/fetcher/tmp/Project_DataPrepKit-0.2.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - processPackages [Project-DataPrepKit]: Remove: archive file [/home/abi/fetcher/tmp/Project_DataPrepKit-0.3.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - main [MainThread]: End processing [Project-DataPrepKit]: success
+[2024-04-24 11:46:32] INFO root fetch - processPackages [ansys-api-platform-instancemanagement]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_platform_instancemanagement-1.0.0b3-py3-none-any.whl.zip]
+[2024-04-24 11:46:32] INFO root fetch - processPackages [ansys-api-platform-instancemanagement]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-platform-instancemanagement-1.0.0b4.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - main [MainThread]: End processing [ansys-api-platform-instancemanagement]: success
+[2024-04-24 11:46:32] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-24 11:46:32] INFO root fetch - processPackages [torchvinecopulib]: Remove: archive file [/home/abi/fetcher/tmp/torchvinecopulib-2024.3.3.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - processPackages [torchvinecopulib]: Remove: archive file [/home/abi/fetcher/tmp/torchvinecopulib-2024.4.0.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - main [MainThread]: End processing [torchvinecopulib]: success
+[2024-04-24 11:46:32] INFO root fetch - processPackages [OASYS1-shadow4]: Remove: archive file [/home/abi/fetcher/tmp/OASYS1-shadow4-0.0.6.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - processPackages [OASYS1-shadow4]: Remove: archive file [/home/abi/fetcher/tmp/OASYS1-shadow4-0.0.9.tar.gz]
+[2024-04-24 11:46:32] INFO root fetch - main [MainThread]: End processing [OASYS1-shadow4]: success
+[2024-04-24 11:46:32] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1704856-py3-none-any.whl.zip]
+[2024-04-24 11:46:32] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5.dev1704905-py3-none-any.whl.zip]
+[2024-04-24 11:46:32] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-24 11:46:33] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2024-04-24 11:46:33] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2024-04-24 11:46:33] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2024-04-24 11:46:33] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.6.2.tar.gz]
+[2024-04-24 11:46:33] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.6.3.tar.gz]
+[2024-04-24 11:46:33] INFO root fetch - main [MainThread]: End processing [credsweeper]: success
+[2024-04-24 11:46:33] INFO root fetch - main [MainThread]: Store serial: [22909975]
