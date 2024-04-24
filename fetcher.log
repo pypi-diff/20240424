@@ -10352,3 +10352,38 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:53:09] INFO root fetch - processPackages [precli]: Remove: archive file [/home/abi/fetcher/tmp/precli-0.5.1.tar.gz]
 [2024-04-24 06:53:09] INFO root fetch - main [MainThread]: End processing [precli]: success
 [2024-04-24 06:53:09] INFO root fetch - main [MainThread]: Store serial: [22906878]
+[2024-04-24 06:55:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906878]
+[2024-04-24 06:55:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 06:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sml2mqtt
+[2024-04-24 06:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basxconnect
+[2024-04-24 06:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPtt
+[2024-04-24 06:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tests-web-linda
+[2024-04-24 06:55:18] INFO root fetch - processPackages [tests-web-linda]: New version: [0.2] Old Version: [0.1]
+[2024-04-24 06:55:18] INFO root fetch - processPackages [PyPtt]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-24 06:55:18] INFO root fetch - processPackages [sml2mqtt]: New version: [3.0] Old Version: [2.2]
+[2024-04-24 06:55:18] INFO root fetch - processPackages [basxconnect]: New version: [0.4.7] Old Version: [0.4.61]
+[2024-04-24 06:55:18] INFO root fetch - processPackages [tests-web-linda]: Downloading https://files.pythonhosted.org/packages/6d/39/f96e0ef1b80aa9c2b708a9f669684ae64269cefa88de6c3a0797b78995b6/tests_web_linda-0.1.tar.gz
+[2024-04-24 06:55:18] WARNING root fetch - processPackages [tests-web-linda]: Skipping package: exceeds size limit 45141015>=10485760
+[2024-04-24 06:55:18] INFO root fetch - main [MainThread]: End processing [tests-web-linda] error
+[2024-04-24 06:55:18] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/73/f6/ed98db080991833aea23b06a4f2495fc48bbdcae27575fd084c7a9fd1110/pyptt-1.2.8.tar.gz
+[2024-04-24 06:55:18] INFO root fetch - processPackages [basxconnect]: Downloading https://files.pythonhosted.org/packages/b4/ae/1d4442a808a509ee5f8b82907e6de962c83e76201949ec6c7454d95a5390/basxconnect-0.4.61.tar.gz
+[2024-04-24 06:55:18] INFO root fetch - processPackages [sml2mqtt]: Downloading https://files.pythonhosted.org/packages/0c/9e/efe5c8f877e5c2bc69f28502a235b8178dd5179c3b1f1c82d28c4d08cba3/sml2mqtt-2.2.tar.gz
+[2024-04-24 06:55:18] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/08/ec/f00fc0e50a99f3830240518fdaabf0227a13fa860ccd6c7bed5091ace893/pyptt-1.2.9.tar.gz
+[2024-04-24 06:55:18] INFO root fetch - processPackages [sml2mqtt]: Downloading https://files.pythonhosted.org/packages/ee/c5/f4146fe60d252bf3682f19c634d24e7f1bc976cbf561359af6fb72a2d7e4/sml2mqtt-3.0.tar.gz
+[2024-04-24 06:55:18] INFO root fetch - processPackages [basxconnect]: Downloading https://files.pythonhosted.org/packages/6c/10/3809eee2e25a1ae44da3cafb0cd756ebfcfcfd4c3b4909ac5df3a1be3a81/basxconnect-0.4.7.tar.gz
+[2024-04-24 06:55:18] INFO root fetch - processPackages [PyPtt]: executing diffoscope
+[2024-04-24 06:55:18] INFO root fetch - processPackages [PyPtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyptt-1.2.8.tar.gz tmp/pyptt-1.2.9.tar.gz --markdown 20240424/P/PyPtt/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-24 06:55:18] INFO root fetch - processPackages [sml2mqtt]: executing diffoscope
+[2024-04-24 06:55:18] INFO root fetch - processPackages [sml2mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sml2mqtt-2.2.tar.gz tmp/sml2mqtt-3.0.tar.gz --markdown 20240424/s/sml2mqtt/2.2-3.0/README.md --exclude *.pyd
+[2024-04-24 06:55:19] INFO root fetch - processPackages [basxconnect]: executing diffoscope
+[2024-04-24 06:55:19] INFO root fetch - processPackages [basxconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basxconnect-0.4.61.tar.gz tmp/basxconnect-0.4.7.tar.gz --markdown 20240424/b/basxconnect/0.4.61-0.4.7/README.md --exclude *.pyd
+[2024-04-24 06:55:19] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/pyptt-1.2.8.tar.gz]
+[2024-04-24 06:55:19] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/pyptt-1.2.9.tar.gz]
+[2024-04-24 06:55:19] INFO root fetch - main [MainThread]: End processing [PyPtt]: success
+[2024-04-24 06:55:19] INFO root fetch - processPackages [sml2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/sml2mqtt-2.2.tar.gz]
+[2024-04-24 06:55:19] INFO root fetch - processPackages [sml2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/sml2mqtt-3.0.tar.gz]
+[2024-04-24 06:55:19] INFO root fetch - main [MainThread]: End processing [sml2mqtt]: success
+[2024-04-24 06:55:21] INFO root fetch - processPackages [basxconnect]: Remove: archive file [/home/abi/fetcher/tmp/basxconnect-0.4.61.tar.gz]
+[2024-04-24 06:55:21] INFO root fetch - processPackages [basxconnect]: Remove: archive file [/home/abi/fetcher/tmp/basxconnect-0.4.7.tar.gz]
+[2024-04-24 06:55:21] INFO root fetch - main [MainThread]: End processing [basxconnect]: success
+[2024-04-24 06:55:21] INFO root fetch - main [MainThread]: Store serial: [22906887]
