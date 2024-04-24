@@ -22753,3 +22753,77 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:37:57] INFO root fetch - processPackages [cyc-pep-perm]: Remove: archive file [/home/abi/fetcher/tmp/cyc_pep_perm-0.1.0.tar.gz]
 [2024-04-24 14:37:57] INFO root fetch - main [MainThread]: End processing [cyc-pep-perm]: success
 [2024-04-24 14:37:57] INFO root fetch - main [MainThread]: Store serial: [22912126]
+[2024-04-24 14:40:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912126]
+[2024-04-24 14:40:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 14:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tests-web-linda
+[2024-04-24 14:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everai
+[2024-04-24 14:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TTRPGaag
+[2024-04-24 14:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tclab-sdk
+[2024-04-24 14:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynafile
+[2024-04-24 14:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clump-python
+[2024-04-24 14:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lightningtoolkit
+[2024-04-24 14:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: village-data-analysis
+[2024-04-24 14:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: validio-sdk
+[2024-04-24 14:40:24] INFO root fetch - processPackages [everai]: New version: [0.1.34] Old Version: [0.1.33]
+[2024-04-24 14:40:24] INFO root fetch - processPackages [lightningtoolkit]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 14:40:24] INFO root fetch - processPackages [clump-python]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-24 14:40:24] INFO root fetch - processPackages [tclab-sdk]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-04-24 14:40:24] INFO root fetch - processPackages [dynafile]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 14:40:24] INFO root fetch - processPackages [validio-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 14:40:24] INFO root fetch - processPackages [tests-web-linda]: New version: [0.4] Old Version: [0.3]
+[2024-04-24 14:40:24] INFO root fetch - processPackages [TTRPGaag]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-24 14:40:24] WARNING root fetch - processPackages [village-data-analysis]: Skipping, unable to determine old version
+[2024-04-24 14:40:24] INFO root fetch - main [MainThread]: End processing [village-data-analysis] error
+[2024-04-24 14:40:24] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/05/83/42b9a95bdf9a6b55ff6545bab5fa875e8d6894dffcb3c8a7390661c80237/everai-0.1.33-py3-none-any.whl
+[2024-04-24 14:40:24] INFO root fetch - processPackages [lightningtoolkit]: Downloading https://files.pythonhosted.org/packages/c9/48/27f3dbcf9185e3363c938d83e8d033d0bafd4b870aaa7e15eda0306bc928/lightningtoolkit-1.0.1.tar.gz
+[2024-04-24 14:40:24] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/5f/3e/a0b1c825f5c0d74c895bb9d83db7d479b175c19e9402f9dbaf822e385591/tclab_sdk-2.5.4-py2.py3-none-any.whl
+[2024-04-24 14:40:24] INFO root fetch - processPackages [dynafile]: Downloading https://files.pythonhosted.org/packages/53/02/e587c40297685de2b49c765a1cd3704ee115c2180194e39994118b66734f/dynafile-0.1.2.tar.gz
+[2024-04-24 14:40:24] INFO root fetch - processPackages [clump-python]: Downloading https://files.pythonhosted.org/packages/7b/30/3d15ffff97deb2e0d0695fb1c32cc817582e03a211a532ab3b73398f6296/clump-python-0.1.tar.gz
+[2024-04-24 14:40:24] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/94/70/6947c0ccdffe9c8607f04bd8432d095d8f4c19e643b3c5e023db491e3fbd/validio_sdk-0.8.0.tar.gz
+[2024-04-24 14:40:24] INFO root fetch - processPackages [TTRPGaag]: Downloading https://files.pythonhosted.org/packages/55/d6/f105753b35d46705d0758a5dee6ac8db305004e177957ea3ff3d0cf76ef7/TTRPGaag-3.0.1.tar.gz
+[2024-04-24 14:40:24] INFO root fetch - processPackages [tests-web-linda]: Downloading https://files.pythonhosted.org/packages/83/91/030774d737be3c706c265d3e0f0204017e428849b973ac668aa21f8c2bbd/tests_web_linda-0.3.tar.gz
+[2024-04-24 14:40:25] WARNING root fetch - processPackages [tests-web-linda]: Skipping package: exceeds size limit 45141394>=10485760
+[2024-04-24 14:40:25] INFO root fetch - main [MainThread]: End processing [tests-web-linda] error
+[2024-04-24 14:40:25] INFO root fetch - processPackages [lightningtoolkit]: Downloading https://files.pythonhosted.org/packages/be/55/03015819fafc950f0bb4603de2bdeb720042181a30662cb8574c568f9cdc/lightningtoolkit-1.0.2.tar.gz
+[2024-04-24 14:40:25] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/af/43/f62a3900a702e77cfd23cdd3497a24286094608609ddcd2fad85f049c1a3/everai-0.1.34-py3-none-any.whl
+[2024-04-24 14:40:25] INFO root fetch - processPackages [lightningtoolkit]: executing diffoscope
+[2024-04-24 14:40:25] INFO root fetch - processPackages [lightningtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningtoolkit-1.0.1.tar.gz tmp/lightningtoolkit-1.0.2.tar.gz --markdown 20240424/l/lightningtoolkit/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-24 14:40:25] INFO root fetch - processPackages [tclab-sdk]: Downloading https://files.pythonhosted.org/packages/b5/89/724c2b8475d9d95fa69c261edb79de38b71fc692892e8062fc5588f33e66/tclab_sdk-2.5.5-py2.py3-none-any.whl
+[2024-04-24 14:40:25] INFO root fetch - processPackages [dynafile]: Downloading https://files.pythonhosted.org/packages/c4/d9/0d7e79caf7d3c7ac66dac24871c567bc4a40ffd3b53a3603238e9be018da/dynafile-0.1.3.tar.gz
+[2024-04-24 14:40:25] INFO root fetch - processPackages [clump-python]: Downloading https://files.pythonhosted.org/packages/ff/78/9605f162fd42faf4e5a1c68da25349471df60349e7178871c148c205200f/clump-python-0.1.1.tar.gz
+[2024-04-24 14:40:25] INFO root fetch - processPackages [TTRPGaag]: Downloading https://files.pythonhosted.org/packages/c6/51/2f9889a85fa79afebdee4e902837533023a605cbdb3f02254e4df6714ccd/ttrpgaag-3.0.2.tar.gz
+[2024-04-24 14:40:25] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-24 14:40:25] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.33-py3-none-any.whl.zip tmp/everai-0.1.34-py3-none-any.whl.zip --markdown 20240424/e/everai/0.1.33-0.1.34/README.md --exclude *.pyd
+[2024-04-24 14:40:25] INFO root fetch - processPackages [tclab-sdk]: executing diffoscope
+[2024-04-24 14:40:25] INFO root fetch - processPackages [tclab-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tclab_sdk-2.5.4-py2.py3-none-any.whl.zip tmp/tclab_sdk-2.5.5-py2.py3-none-any.whl.zip --markdown 20240424/t/tclab-sdk/2.5.4-2.5.5/README.md --exclude *.pyd
+[2024-04-24 14:40:25] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/db/91/e39c8107f98699b979e164ef962827501361573e283df30edc9d182ac594/validio_sdk-0.9.0.tar.gz
+[2024-04-24 14:40:25] INFO root fetch - processPackages [dynafile]: executing diffoscope
+[2024-04-24 14:40:25] INFO root fetch - processPackages [dynafile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynafile-0.1.2.tar.gz tmp/dynafile-0.1.3.tar.gz --markdown 20240424/d/dynafile/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 14:40:25] INFO root fetch - processPackages [clump-python]: executing diffoscope
+[2024-04-24 14:40:25] INFO root fetch - processPackages [clump-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clump-python-0.1.tar.gz tmp/clump-python-0.1.1.tar.gz --markdown 20240424/c/clump-python/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-24 14:40:25] INFO root fetch - processPackages [TTRPGaag]: executing diffoscope
+[2024-04-24 14:40:25] INFO root fetch - processPackages [TTRPGaag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TTRPGaag-3.0.1.tar.gz tmp/ttrpgaag-3.0.2.tar.gz --markdown 20240424/T/TTRPGaag/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-24 14:40:25] INFO root fetch - processPackages [validio-sdk]: executing diffoscope
+[2024-04-24 14:40:25] INFO root fetch - processPackages [validio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_sdk-0.8.0.tar.gz tmp/validio_sdk-0.9.0.tar.gz --markdown 20240424/v/validio-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 14:40:25] INFO root fetch - processPackages [lightningtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/lightningtoolkit-1.0.1.tar.gz]
+[2024-04-24 14:40:25] INFO root fetch - processPackages [lightningtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/lightningtoolkit-1.0.2.tar.gz]
+[2024-04-24 14:40:25] INFO root fetch - main [MainThread]: End processing [lightningtoolkit]: success
+[2024-04-24 14:40:26] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab_sdk-2.5.4-py2.py3-none-any.whl.zip]
+[2024-04-24 14:40:26] INFO root fetch - processPackages [tclab-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tclab_sdk-2.5.5-py2.py3-none-any.whl.zip]
+[2024-04-24 14:40:26] INFO root fetch - main [MainThread]: End processing [tclab-sdk]: success
+[2024-04-24 14:40:26] INFO root fetch - processPackages [clump-python]: Remove: archive file [/home/abi/fetcher/tmp/clump-python-0.1.tar.gz]
+[2024-04-24 14:40:26] INFO root fetch - processPackages [clump-python]: Remove: archive file [/home/abi/fetcher/tmp/clump-python-0.1.1.tar.gz]
+[2024-04-24 14:40:26] INFO root fetch - main [MainThread]: End processing [clump-python]: success
+[2024-04-24 14:40:26] INFO root fetch - processPackages [dynafile]: Remove: archive file [/home/abi/fetcher/tmp/dynafile-0.1.2.tar.gz]
+[2024-04-24 14:40:26] INFO root fetch - processPackages [dynafile]: Remove: archive file [/home/abi/fetcher/tmp/dynafile-0.1.3.tar.gz]
+[2024-04-24 14:40:26] INFO root fetch - main [MainThread]: End processing [dynafile]: success
+[2024-04-24 14:40:26] INFO root fetch - processPackages [TTRPGaag]: Remove: archive file [/home/abi/fetcher/tmp/TTRPGaag-3.0.1.tar.gz]
+[2024-04-24 14:40:26] INFO root fetch - processPackages [TTRPGaag]: Remove: archive file [/home/abi/fetcher/tmp/ttrpgaag-3.0.2.tar.gz]
+[2024-04-24 14:40:26] INFO root fetch - main [MainThread]: End processing [TTRPGaag]: success
+[2024-04-24 14:40:27] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.33-py3-none-any.whl.zip]
+[2024-04-24 14:40:27] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.34-py3-none-any.whl.zip]
+[2024-04-24 14:40:27] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-24 14:40:27] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.8.0.tar.gz]
+[2024-04-24 14:40:27] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.9.0.tar.gz]
+[2024-04-24 14:40:27] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
+[2024-04-24 14:40:27] INFO root fetch - main [MainThread]: Store serial: [22912151]
