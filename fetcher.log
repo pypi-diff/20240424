@@ -9089,3 +9089,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:30:11] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-04-24 05:30:11] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-24 05:30:11] INFO root fetch - main [MainThread]: Store serial: [22906428]
+[2024-04-24 05:32:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906428]
+[2024-04-24 05:32:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adelie
+[2024-04-24 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paeio
+[2024-04-24 05:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-networking
+[2024-04-24 05:32:20] INFO root fetch - processPackages [paeio]: New version: [0.1] Old Version: [0.0.1.3]
+[2024-04-24 05:32:20] INFO root fetch - processPackages [mojo-networking]: New version: [1.3.3] Old Version: [1.3.1]
+[2024-04-24 05:32:20] INFO root fetch - processPackages [adelie]: New version: [1.1.29] Old Version: [1.1.28]
+[2024-04-24 05:32:20] INFO root fetch - processPackages [paeio]: Downloading https://files.pythonhosted.org/packages/7d/57/ac0cb2bcb331849b691e3d70285a7eb02a2e73c62f253aa6874f8d409df7/paeio-0.0.1.3.tar.gz
+[2024-04-24 05:32:20] INFO root fetch - processPackages [mojo-networking]: Downloading https://files.pythonhosted.org/packages/e9/c6/f90ebe7d5190fc6c75a911a043edc23d21007e013a851315a71ab2cab739/mojo_networking-1.3.1.tar.gz
+[2024-04-24 05:32:20] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/10/6b/f34f1a93c7a840dc850e83444af7562694f7976e3850253782276a992866/adelie-1.1.28.tar.gz
+[2024-04-24 05:32:20] INFO root fetch - processPackages [paeio]: Downloading https://files.pythonhosted.org/packages/cf/c7/c37809a59afebe8ab2ef8aed771ee950f9d67a776b79a19488ae04e8511e/paeio-0.1.tar.gz
+[2024-04-24 05:32:20] INFO root fetch - processPackages [mojo-networking]: Downloading https://files.pythonhosted.org/packages/ef/fb/34664a27d4c337591e976a2f7355277cd506d8dd6384a2e0ea3b4d9bbc9d/mojo_networking-1.3.3.tar.gz
+[2024-04-24 05:32:20] INFO root fetch - processPackages [paeio]: executing diffoscope
+[2024-04-24 05:32:20] INFO root fetch - processPackages [paeio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paeio-0.0.1.3.tar.gz tmp/paeio-0.1.tar.gz --markdown 20240424/p/paeio/0.0.1.3-0.1/README.md --exclude *.pyd
+[2024-04-24 05:32:20] INFO root fetch - processPackages [mojo-networking]: executing diffoscope
+[2024-04-24 05:32:20] INFO root fetch - processPackages [mojo-networking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_networking-1.3.1.tar.gz tmp/mojo_networking-1.3.3.tar.gz --markdown 20240424/m/mojo-networking/1.3.1-1.3.3/README.md --exclude *.pyd
+[2024-04-24 05:32:21] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/7f/f4/f63ab866bbb2fbf52cb79ea3373049751a6117bd30b6b6d984a40b3291af/adelie-1.1.29.tar.gz
+[2024-04-24 05:32:21] INFO root fetch - processPackages [adelie]: executing diffoscope
+[2024-04-24 05:32:21] INFO root fetch - processPackages [adelie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adelie-1.1.28.tar.gz tmp/adelie-1.1.29.tar.gz --markdown 20240424/a/adelie/1.1.28-1.1.29/README.md --exclude *.pyd
+[2024-04-24 05:32:21] INFO root fetch - processPackages [mojo-networking]: Remove: archive file [/home/abi/fetcher/tmp/mojo_networking-1.3.1.tar.gz]
+[2024-04-24 05:32:21] INFO root fetch - processPackages [mojo-networking]: Remove: archive file [/home/abi/fetcher/tmp/mojo_networking-1.3.3.tar.gz]
+[2024-04-24 05:32:21] INFO root fetch - main [MainThread]: End processing [mojo-networking]: success
+[2024-04-24 05:32:21] INFO root fetch - processPackages [paeio]: Remove: archive file [/home/abi/fetcher/tmp/paeio-0.0.1.3.tar.gz]
+[2024-04-24 05:32:21] INFO root fetch - processPackages [paeio]: Remove: archive file [/home/abi/fetcher/tmp/paeio-0.1.tar.gz]
+[2024-04-24 05:32:21] INFO root fetch - main [MainThread]: End processing [paeio]: success
+[2024-04-24 05:32:24] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.28.tar.gz]
+[2024-04-24 05:32:24] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.29.tar.gz]
+[2024-04-24 05:32:24] INFO root fetch - main [MainThread]: End processing [adelie]: success
+[2024-04-24 05:32:24] INFO root fetch - main [MainThread]: Store serial: [22906448]
