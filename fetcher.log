@@ -21496,3 +21496,33 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 13:55:49] INFO root fetch - processPackages [spotinst-sdk2]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-sdk2-3.1.0.tar.gz]
 [2024-04-24 13:55:49] INFO root fetch - main [MainThread]: End processing [spotinst-sdk2]: success
 [2024-04-24 13:55:49] INFO root fetch - main [MainThread]: Store serial: [22911609]
+[2024-04-24 13:58:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911609]
+[2024-04-24 13:58:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 13:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TkEasyGUI
+[2024-04-24 13:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comet-ml
+[2024-04-24 13:58:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DockerBuildSystem
+[2024-04-24 13:58:15] INFO root fetch - processPackages [TkEasyGUI]: New version: [0.2.63] Old Version: [0.2.57]
+[2024-04-24 13:58:15] INFO root fetch - processPackages [DockerBuildSystem]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-24 13:58:15] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-24 13:58:15] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/70/ee/2bcb445d487e0e978bef597f9f908ee5ce0ba3f837a157a2525c15814c64/tkeasygui-0.2.57.tar.gz
+[2024-04-24 13:58:15] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/fb/d1/5b364541fde741bc08ab30b76b39bd9dceaf41e597c7878d897b2397d984/comet_ml-3.9.0.tar.gz
+[2024-04-24 13:58:15] INFO root fetch - processPackages [DockerBuildSystem]: Downloading https://files.pythonhosted.org/packages/86/fb/7ddd522c4a519fe04863688fb2538d8c19a84355ee8fe5752fb614db04df/DockerBuildSystem-1.1.8-py2.py3-none-any.whl
+[2024-04-24 13:58:15] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/60/cb/509ea756b3cddf1d5230ff34afcd17a485b7b2665137dd9cd09f7227a38d/tkeasygui-0.2.63.tar.gz
+[2024-04-24 13:58:16] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/17/97/9f1e153f6b4df253f5eea38e51f9be34256bc8bf0d363d01a1ffc2d2d668/comet_ml-3.9.1.tar.gz
+[2024-04-24 13:58:16] INFO root fetch - processPackages [TkEasyGUI]: executing diffoscope
+[2024-04-24 13:58:16] INFO root fetch - processPackages [TkEasyGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkeasygui-0.2.57.tar.gz tmp/tkeasygui-0.2.63.tar.gz --markdown 20240424/T/TkEasyGUI/0.2.57-0.2.63/README.md --exclude *.pyd
+[2024-04-24 13:58:16] INFO root fetch - processPackages [DockerBuildSystem]: Downloading https://files.pythonhosted.org/packages/d6/1c/374fc3b92f671d1b0d591c1d682fda049fda9baa1222834cf45c9450d383/DockerBuildSystem-1.1.9-py2.py3-none-any.whl
+[2024-04-24 13:58:16] INFO root fetch - processPackages [DockerBuildSystem]: executing diffoscope
+[2024-04-24 13:58:16] INFO root fetch - processPackages [DockerBuildSystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DockerBuildSystem-1.1.8-py2.py3-none-any.whl.zip tmp/DockerBuildSystem-1.1.9-py2.py3-none-any.whl.zip --markdown 20240424/D/DockerBuildSystem/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-24 13:58:16] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2024-04-24 13:58:16] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20240424/c/comet-ml/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-24 13:58:16] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.57.tar.gz]
+[2024-04-24 13:58:16] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.63.tar.gz]
+[2024-04-24 13:58:16] INFO root fetch - main [MainThread]: End processing [TkEasyGUI]: success
+[2024-04-24 13:58:16] INFO root fetch - processPackages [DockerBuildSystem]: Remove: archive file [/home/abi/fetcher/tmp/DockerBuildSystem-1.1.8-py2.py3-none-any.whl.zip]
+[2024-04-24 13:58:16] INFO root fetch - processPackages [DockerBuildSystem]: Remove: archive file [/home/abi/fetcher/tmp/DockerBuildSystem-1.1.9-py2.py3-none-any.whl.zip]
+[2024-04-24 13:58:16] INFO root fetch - main [MainThread]: End processing [DockerBuildSystem]: success
+[2024-04-24 13:58:17] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.0.tar.gz]
+[2024-04-24 13:58:17] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.1.tar.gz]
+[2024-04-24 13:58:17] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2024-04-24 13:58:17] INFO root fetch - main [MainThread]: Store serial: [22911629]
