@@ -20144,3 +20144,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:11:42] INFO root fetch - processPackages [redisbench-admin]: Remove: archive file [/home/abi/fetcher/tmp/redisbench-admin-0.9.9.tar.gz]
 [2024-04-24 13:11:42] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
 [2024-04-24 13:11:42] INFO root fetch - main [MainThread]: Store serial: [22911005]
+[2024-04-24 13:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911005]
+[2024-04-24 13:14:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-base
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-cli
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-dso
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ar-ex-sys-worker
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-libs
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webex-bot
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-whd
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-oci
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OctoPrint
+[2024-04-24 13:14:03] INFO root fetch - processPackages [webex-bot]: New version: [0.4.6] Old Version: [0.4.1]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [webex-bot]: Downloading https://files.pythonhosted.org/packages/ad/33/0dd88a5364a3e939bec14c61edeb4b4016393043cb62e5c03395c7d3964d/webex_bot-0.4.1.tar.gz
+[2024-04-24 13:14:03] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2383.0] Old Version: [1.2382.0]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [OctoPrint]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/ac/33/faffdc46184c5c3edf6493abe5f8f42898af1986dcba1795d6c5ad046148/ar_ex_sys_worker-1.9.4-py3-none-any.whl
+[2024-04-24 13:14:03] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2383.0] Old Version: [1.2382.0]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2383.0] Old Version: [1.2382.0]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2383.0] Old Version: [1.2382.0]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2383.0] Old Version: [1.2382.0]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-24 13:14:03] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-04-24 13:14:03] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/2e/51/eee44cf9e2c09f28be687c918700411d4ae3576a4634f3f3cefd198526cd/gardener_cicd_whd-1.2382.0.tar.gz
+[2024-04-24 13:14:03] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/08/eb/189ded84d1a7ce758da34d22a99a0e05ca9c852476b92eb1fe93472452e7/gardener_cicd_base-1.2382.0.tar.gz
+[2024-04-24 13:14:03] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/b6/4e/1e2d80c269b42662588ca7e06afe15525f9cde21e7ff47670db9e3158c9e/gardener_cicd_dso-1.2382.0.tar.gz
+[2024-04-24 13:14:03] INFO root fetch - processPackages [webex-bot]: Downloading https://files.pythonhosted.org/packages/9f/30/952e60d4f938254c7f92fd56dd912a0a0459c753bc42e9b83a25762e77d5/webex_bot-0.4.6.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [OctoPrint]: Downloading https://files.pythonhosted.org/packages/38/d2/d5be70ce765911a45630217a58619553812e3a8d1134a0f85189eb680f43/OctoPrint-1.9.2.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/60/5a/59e643b81595e00f5422c492d3c00c97e9f229ce45c166a1b173a76620a1/gardener_cicd_libs-1.2382.0.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/f2/21/1c3e101abf073d06756df28b9439ea782f4442a2c6d85a368e438543a940/gardener_cicd_cli-1.2382.0.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/5e/dc/2398f7bdf3292ba56e73f3afd6554a9de51a6e3301341c036b23c7e40cda/ar_ex_sys_worker-1.9.5-py3-none-any.whl
+[2024-04-24 13:14:04] INFO root fetch - processPackages [webex-bot]: executing diffoscope
+[2024-04-24 13:14:04] INFO root fetch - processPackages [webex-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webex_bot-0.4.1.tar.gz tmp/webex_bot-0.4.6.tar.gz --markdown 20240424/w/webex-bot/0.4.1-0.4.6/README.md --exclude *.pyd
+[2024-04-24 13:14:04] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2024-04-24 13:14:04] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.9.4-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.9.5-py3-none-any.whl.zip --markdown 20240424/a/ar-ex-sys-worker/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-24 13:14:04] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-24 13:14:04] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240424/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/ef/ee/2d0385b0629fbb35fa24d80857d269460d47f91718b8a1b04ba73729e4d9/gardener_cicd_whd-1.2383.0.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/6a/ac/8f512aa107f52413694db648f356e1bd6a54080349fa982bfce24ee5772d/gardener_cicd_base-1.2383.0.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/c0/bc/9d9bb81ef39c290e018c2bdb14966759299dce96f7c822ffa14d52f9c0d7/gardener_cicd_dso-1.2383.0.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/fe/46/87ac1132b60a10ded3cd512f2c95d0cd2d0af5a9c7574800d151b4bb79f5/gardener_cicd_cli-1.2383.0.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/e6/68/9d57cd3cb55c68bd5dd6617501fa2d73ed47c522066a4f1f5742d0161d48/gardener_cicd_libs-1.2383.0.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2382.0.tar.gz tmp/gardener_cicd_base-1.2383.0.tar.gz --markdown 20240424/g/gardener-cicd-base/1.2382.0-1.2383.0/README.md --exclude *.pyd
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2382.0.tar.gz tmp/gardener_cicd_dso-1.2383.0.tar.gz --markdown 20240424/g/gardener-cicd-dso/1.2382.0-1.2383.0/README.md --exclude *.pyd
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2382.0.tar.gz tmp/gardener_cicd_whd-1.2383.0.tar.gz --markdown 20240424/g/gardener-cicd-whd/1.2382.0-1.2383.0/README.md --exclude *.pyd
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2382.0.tar.gz tmp/gardener_cicd_cli-1.2383.0.tar.gz --markdown 20240424/g/gardener-cicd-cli/1.2382.0-1.2383.0/README.md --exclude *.pyd
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240424/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-04-24 13:14:04] INFO root fetch - processPackages [OctoPrint]: Downloading https://files.pythonhosted.org/packages/98/85/87e9539a5c7262c49be21e3dd214fa7247b04fb643ad6ac53d1bc61f9fe0/OctoPrint-1.9.3.tar.gz
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-04-24 13:14:04] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2382.0.tar.gz tmp/gardener_cicd_libs-1.2383.0.tar.gz --markdown 20240424/g/gardener-cicd-libs/1.2382.0-1.2383.0/README.md --exclude *.pyd
+[2024-04-24 13:14:05] INFO root fetch - processPackages [OctoPrint]: executing diffoscope
+[2024-04-24 13:14:05] INFO root fetch - processPackages [OctoPrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoPrint-1.9.2.tar.gz tmp/OctoPrint-1.9.3.tar.gz --markdown 20240424/O/OctoPrint/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-04-24 13:14:05] INFO root fetch - processPackages [ar-ex-sys-worker]: Remove: archive file [/home/abi/fetcher/tmp/ar_ex_sys_worker-1.9.4-py3-none-any.whl.zip]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [ar-ex-sys-worker]: Remove: archive file [/home/abi/fetcher/tmp/ar_ex_sys_worker-1.9.5-py3-none-any.whl.zip]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [ar-ex-sys-worker]: Start processing: invariantkernels
+[2024-04-24 13:14:05] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2024-04-24 13:14:05] INFO root fetch - processPackages [webex-bot]: Remove: archive file [/home/abi/fetcher/tmp/webex_bot-0.4.1.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [webex-bot]: Remove: archive file [/home/abi/fetcher/tmp/webex_bot-0.4.6.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [webex-bot]: Start processing: nonebot-plugin-bard
+[2024-04-24 13:14:05] INFO root fetch - main [MainThread]: End processing [webex-bot]: success
+[2024-04-24 13:14:05] INFO root fetch - processPackages [invariantkernels]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [nonebot-plugin-bard]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [invariantkernels]: Downloading https://files.pythonhosted.org/packages/95/c0/b6c3a034e9fe707818db949cd1e7bdd6ff7b6153d7253e8fd704029faf06/invariantkernels-0.0.8.tar.gz
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2382.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2383.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: jaycopilot_client
+[2024-04-24 13:14:05] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-04-24 13:14:05] INFO root fetch - processPackages [nonebot-plugin-bard]: Downloading https://files.pythonhosted.org/packages/aa/5a/4dc12e4af362daec874a99e7b1c28c2b402c384b0f5202f6faeb90ba0a80/nonebot_plugin_bard-0.5.0.tar.gz
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2382.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2383.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: tb-nightly
+[2024-04-24 13:14:05] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-04-24 13:14:05] INFO root fetch - processPackages [jaycopilot_client]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2382.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2383.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-04-24 13:14:05] INFO root fetch - processPackages [invariantkernels]: Downloading https://files.pythonhosted.org/packages/b4/e4/41c0bdb1a396c92ed392eff4ff94d8ae5879c0dbee39204b3eb2416568c2/invariantkernels-0.0.9.tar.gz
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-04-24 13:14:05] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2382.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2383.0.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-04-24 13:14:05] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-24 13:14:05] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-24 13:14:05] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-24 13:14:05] INFO root fetch - processPackages [invariantkernels]: executing diffoscope
+[2024-04-24 13:14:05] INFO root fetch - processPackages [invariantkernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invariantkernels-0.0.8.tar.gz tmp/invariantkernels-0.0.9.tar.gz --markdown 20240424/i/invariantkernels/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:14:05] INFO root fetch - processPackages [jaycopilot_client]: Downloading https://files.pythonhosted.org/packages/9d/15/da10bc1d26008e4c4998efdcfd89d0798de974d655c48f9428f2d8f2ae10/jaycopilot_client-0.1.0.tar.gz
+[2024-04-24 13:14:06] INFO root fetch - processPackages [nonebot-plugin-bard]: Downloading https://files.pythonhosted.org/packages/d3/c5/d5e3b68a3596166cc0a73ebf091989cc26fb426bcdf4a2509136897be026/nonebot_plugin_bard-0.5.1.tar.gz
+[2024-04-24 13:14:06] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-24 13:14:06] INFO root fetch - processPackages [nonebot-plugin-bard]: executing diffoscope
+[2024-04-24 13:14:06] INFO root fetch - processPackages [nonebot-plugin-bard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bard-0.5.0.tar.gz tmp/nonebot_plugin_bard-0.5.1.tar.gz --markdown 20240424/n/nonebot-plugin-bard/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-24 13:14:06] INFO root fetch - processPackages [jaycopilot_client]: Downloading https://files.pythonhosted.org/packages/4a/73/53492e38bcbeef9be6d350d3a9fb6ef543d62c68487b3f049907b7194cad/jaycopilot_client-0.1.1.tar.gz
+[2024-04-24 13:14:06] INFO root fetch - processPackages [jaycopilot_client]: executing diffoscope
+[2024-04-24 13:14:06] INFO root fetch - processPackages [jaycopilot_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaycopilot_client-0.1.0.tar.gz tmp/jaycopilot_client-0.1.1.tar.gz --markdown 20240424/j/jaycopilot_client/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 13:14:06] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2382.0.tar.gz]
+[2024-04-24 13:14:06] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2383.0.tar.gz]
+[2024-04-24 13:14:06] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-04-24 13:14:06] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-24 13:14:06] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240424/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-24 13:14:06] INFO root fetch - processPackages [invariantkernels]: Remove: archive file [/home/abi/fetcher/tmp/invariantkernels-0.0.8.tar.gz]
+[2024-04-24 13:14:06] INFO root fetch - processPackages [invariantkernels]: Remove: archive file [/home/abi/fetcher/tmp/invariantkernels-0.0.9.tar.gz]
+[2024-04-24 13:14:06] INFO root fetch - main [MainThread]: End processing [invariantkernels]: success
+[2024-04-24 13:14:06] INFO root fetch - processPackages [nonebot-plugin-bard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bard-0.5.0.tar.gz]
+[2024-04-24 13:14:06] INFO root fetch - processPackages [nonebot-plugin-bard]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bard-0.5.1.tar.gz]
+[2024-04-24 13:14:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bard]: success
+[2024-04-24 13:14:07] INFO root fetch - processPackages [jaycopilot_client]: Remove: archive file [/home/abi/fetcher/tmp/jaycopilot_client-0.1.0.tar.gz]
+[2024-04-24 13:14:07] INFO root fetch - processPackages [jaycopilot_client]: Remove: archive file [/home/abi/fetcher/tmp/jaycopilot_client-0.1.1.tar.gz]
+[2024-04-24 13:14:07] INFO root fetch - main [MainThread]: End processing [jaycopilot_client]: success
+[2024-04-24 13:14:07] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-24 13:14:07] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-24 13:14:07] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-24 13:14:08] INFO root fetch - processPackages [OctoPrint]: Remove: archive file [/home/abi/fetcher/tmp/OctoPrint-1.9.2.tar.gz]
+[2024-04-24 13:14:08] INFO root fetch - processPackages [OctoPrint]: Remove: archive file [/home/abi/fetcher/tmp/OctoPrint-1.9.3.tar.gz]
+[2024-04-24 13:14:08] INFO root fetch - main [MainThread]: End processing [OctoPrint]: success
+[2024-04-24 13:14:08] INFO root fetch - main [MainThread]: Store serial: [22911043]
