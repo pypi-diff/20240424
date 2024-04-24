@@ -14326,3 +14326,68 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 09:55:06] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.33-py3-none-any.whl.zip]
 [2024-04-24 09:55:06] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-04-24 09:55:06] INFO root fetch - main [MainThread]: Store serial: [22908722]
+[2024-04-24 09:57:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908722]
+[2024-04-24 09:57:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: github-custom-actions
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretvalidator
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mxcubecore
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yarrowformat
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxsim
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-klayers
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ubitlogger
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fdamages
+[2024-04-24 09:57:16] INFO root fetch - processPackages [secretvalidator]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ubitlogger]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-24 09:57:16] INFO root fetch - processPackages [fdamages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 09:57:16] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-04-24 09:57:16] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/c1/0c/7d243a551f3f325c65b4e9abf41e6af739f60deb881c244ad6cc3b82038b/secretvalidator-0.1.8.tar.gz
+[2024-04-24 09:57:16] INFO root fetch - processPackages [ubitlogger]: Downloading https://files.pythonhosted.org/packages/bd/8b/a52262e4b14e5ed836e7c7cc9afd3c40799b793dcf5771c22329670444e0/ubitlogger-0.3.0.tar.gz
+[2024-04-24 09:57:16] INFO root fetch - processPackages [yarrowformat]: New version: [2.0.0] Old Version: [1.2.1]
+[2024-04-24 09:57:16] WARNING root fetch - processPackages [cdk-klayers]: Skipping, unable to determine old version
+[2024-04-24 09:57:16] INFO root fetch - main [MainThread]: End processing [cdk-klayers] error
+[2024-04-24 09:57:16] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/f7/47/b073d66da70f033a16648506bf9c8c9bf6bb94a4c2addffde34a57d1029e/fdamages-0.0.8.tar.gz
+[2024-04-24 09:57:16] INFO root fetch - processPackages [mxcubecore]: New version: [1.96.0] Old Version: [1.95.0]
+[2024-04-24 09:57:16] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-04-24 09:57:16] INFO root fetch - processPackages [github-custom-actions]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-24 09:57:17] INFO root fetch - processPackages [secretvalidator]: Downloading https://files.pythonhosted.org/packages/46/26/23b3d02792f2d2eb00039a38f72a84b876b2802557f72d8618e43a8b145d/secretvalidator-0.1.9.tar.gz
+[2024-04-24 09:57:17] INFO root fetch - processPackages [ubitlogger]: Downloading https://files.pythonhosted.org/packages/e7/72/e794d52be65f1e576dfb74855b6232fc308291ad0827165be78a14228a91/ubitlogger-0.4.0.tar.gz
+[2024-04-24 09:57:17] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/36/cc/3d1169aa7147315e3e98d9854325d860e85a23789d389af3b572ccf91036/mxcubecore-1.95.0.tar.gz
+[2024-04-24 09:57:17] INFO root fetch - processPackages [yarrowformat]: Downloading https://files.pythonhosted.org/packages/e1/8c/3d23a0d66167bb2d71159abace04c3fc71acad0bd81c36ccaec66bbfdaf9/yarrowformat-1.2.1.tar.gz
+[2024-04-24 09:57:17] INFO root fetch - processPackages [github-custom-actions]: Downloading https://files.pythonhosted.org/packages/66/44/767dc645b42879ec5741a7782d611749e07a072c924debc55c67982d18de/github_custom_actions-2.0.0.tar.gz
+[2024-04-24 09:57:17] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/c8/91/80a20c426c12fcad2a527baf311c3b6d5f974f223536344ee9c16296a491/fdamages-0.0.9.tar.gz
+[2024-04-24 09:57:17] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-04-24 09:57:17] INFO root fetch - processPackages [secretvalidator]: executing diffoscope
+[2024-04-24 09:57:17] INFO root fetch - processPackages [secretvalidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidator-0.1.8.tar.gz tmp/secretvalidator-0.1.9.tar.gz --markdown 20240424/s/secretvalidator/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 09:57:17] INFO root fetch - processPackages [ubitlogger]: executing diffoscope
+[2024-04-24 09:57:17] INFO root fetch - processPackages [ubitlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubitlogger-0.3.0.tar.gz tmp/ubitlogger-0.4.0.tar.gz --markdown 20240424/u/ubitlogger/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-24 09:57:17] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 30976840>=10485760
+[2024-04-24 09:57:17] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2024-04-24 09:57:17] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-24 09:57:17] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.8.tar.gz tmp/fdamages-0.0.9.tar.gz --markdown 20240424/f/fdamages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:57:17] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-04-24 09:57:17] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240424/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-04-24 09:57:17] INFO root fetch - processPackages [github-custom-actions]: Downloading https://files.pythonhosted.org/packages/a9/ba/dfde88af782e58a97ce6f5f2006d5204d502ddd5ea403f1838b931e36676/github_custom_actions-2.0.1.tar.gz
+[2024-04-24 09:57:17] INFO root fetch - processPackages [yarrowformat]: Downloading https://files.pythonhosted.org/packages/ac/74/6615436e16d27636ca40d5b9fb6e40c8976e7d62dcc66c026d5efef07698/yarrowformat-2.0.0.tar.gz
+[2024-04-24 09:57:17] INFO root fetch - processPackages [yarrowformat]: executing diffoscope
+[2024-04-24 09:57:17] INFO root fetch - processPackages [yarrowformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yarrowformat-1.2.1.tar.gz tmp/yarrowformat-2.0.0.tar.gz --markdown 20240424/y/yarrowformat/1.2.1-2.0.0/README.md --exclude *.pyd
+[2024-04-24 09:57:17] INFO root fetch - processPackages [github-custom-actions]: executing diffoscope
+[2024-04-24 09:57:17] INFO root fetch - processPackages [github-custom-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_custom_actions-2.0.0.tar.gz tmp/github_custom_actions-2.0.1.tar.gz --markdown 20240424/g/github-custom-actions/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-24 09:57:17] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.8.tar.gz]
+[2024-04-24 09:57:17] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.9.tar.gz]
+[2024-04-24 09:57:17] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-24 09:57:18] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.8.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - processPackages [secretvalidator]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidator-0.1.9.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - main [MainThread]: End processing [secretvalidator]: success
+[2024-04-24 09:57:18] INFO root fetch - processPackages [ubitlogger]: Remove: archive file [/home/abi/fetcher/tmp/ubitlogger-0.3.0.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - processPackages [ubitlogger]: Remove: archive file [/home/abi/fetcher/tmp/ubitlogger-0.4.0.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - main [MainThread]: End processing [ubitlogger]: success
+[2024-04-24 09:57:18] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-04-24 09:57:18] INFO root fetch - processPackages [yarrowformat]: Remove: archive file [/home/abi/fetcher/tmp/yarrowformat-1.2.1.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - processPackages [yarrowformat]: Remove: archive file [/home/abi/fetcher/tmp/yarrowformat-2.0.0.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - main [MainThread]: End processing [yarrowformat]: success
+[2024-04-24 09:57:18] INFO root fetch - processPackages [github-custom-actions]: Remove: archive file [/home/abi/fetcher/tmp/github_custom_actions-2.0.0.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - processPackages [github-custom-actions]: Remove: archive file [/home/abi/fetcher/tmp/github_custom_actions-2.0.1.tar.gz]
+[2024-04-24 09:57:18] INFO root fetch - main [MainThread]: End processing [github-custom-actions]: success
+[2024-04-24 09:57:18] INFO root fetch - main [MainThread]: Store serial: [22908746]
