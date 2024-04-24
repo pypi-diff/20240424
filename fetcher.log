@@ -9520,3 +9520,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:00:35] INFO root fetch - processPackages [quaxed]: Remove: archive file [/home/abi/fetcher/tmp/quaxed-0.3.8.tar.gz]
 [2024-04-24 06:00:35] INFO root fetch - main [MainThread]: End processing [quaxed]: success
 [2024-04-24 06:00:35] INFO root fetch - main [MainThread]: Store serial: [22906586]
+[2024-04-24 06:02:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906586]
+[2024-04-24 06:02:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 06:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-xmodules
+[2024-04-24 06:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mosaicmpi
+[2024-04-24 06:02:43] INFO root fetch - processPackages [mojo-xmodules]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-24 06:02:43] INFO root fetch - processPackages [mosaicmpi]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-24 06:02:44] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/35/fc/19a8128466b8d8419aa99f81e56fae265657c652a7314ed32e6770d708e7/mojo_xmodules-1.3.8.tar.gz
+[2024-04-24 06:02:44] INFO root fetch - processPackages [mosaicmpi]: Downloading https://files.pythonhosted.org/packages/76/94/844e49e2a6ae3d79a5d8c41d1020cdcc9500f553fb5ee0a8d2d69507a25a/mosaicmpi-2.4.8.tar.gz
+[2024-04-24 06:02:44] INFO root fetch - processPackages [mosaicmpi]: Downloading https://files.pythonhosted.org/packages/ce/32/d215021fdb65f680d1bffcdc29a0c204cd605c1159acb96a5277ac04d1f9/mosaicmpi-2.4.9.tar.gz
+[2024-04-24 06:02:44] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/96/d0/6cd535c199db02fe9f5d2284c6568b0c368e53e88812598da557212d7a3a/mojo_xmodules-1.3.9.tar.gz
+[2024-04-24 06:02:44] INFO root fetch - processPackages [mosaicmpi]: executing diffoscope
+[2024-04-24 06:02:44] INFO root fetch - processPackages [mosaicmpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicmpi-2.4.8.tar.gz tmp/mosaicmpi-2.4.9.tar.gz --markdown 20240424/m/mosaicmpi/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-24 06:02:44] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2024-04-24 06:02:44] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-1.3.8.tar.gz tmp/mojo_xmodules-1.3.9.tar.gz --markdown 20240424/m/mojo-xmodules/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-24 06:02:45] INFO root fetch - processPackages [mosaicmpi]: Remove: archive file [/home/abi/fetcher/tmp/mosaicmpi-2.4.8.tar.gz]
+[2024-04-24 06:02:45] INFO root fetch - processPackages [mosaicmpi]: Remove: archive file [/home/abi/fetcher/tmp/mosaicmpi-2.4.9.tar.gz]
+[2024-04-24 06:02:45] INFO root fetch - main [MainThread]: End processing [mosaicmpi]: success
+[2024-04-24 06:02:45] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-1.3.8.tar.gz]
+[2024-04-24 06:02:45] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-1.3.9.tar.gz]
+[2024-04-24 06:02:45] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2024-04-24 06:02:45] INFO root fetch - main [MainThread]: Store serial: [22906592]
