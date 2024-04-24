@@ -20026,3 +20026,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:06:57] INFO root fetch - processPackages [miksiai]: Remove: archive file [/home/abi/fetcher/tmp/miksiai-1.0.5-cp310-cp310-win_amd64.whl.zip]
 [2024-04-24 13:06:57] INFO root fetch - main [MainThread]: End processing [miksiai]: success
 [2024-04-24 13:06:57] INFO root fetch - main [MainThread]: Store serial: [22910949]
+[2024-04-24 13:09:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910949]
+[2024-04-24 13:09:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 13:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SPEADI
+[2024-04-24 13:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-24 13:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-manager
+[2024-04-24 13:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ul-db-utils
+[2024-04-24 13:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alert-on-exception
+[2024-04-24 13:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mysqlLibRan
+[2024-04-24 13:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scriptonite
+[2024-04-24 13:09:17] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev5] Old Version: [0.0.6.dev4]
+[2024-04-24 13:09:17] INFO root fetch - processPackages [ul-db-utils]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-24 13:09:17] INFO root fetch - processPackages [alert-on-exception]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 13:09:17] INFO root fetch - processPackages [mysqlLibRan]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 13:09:17] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-24 13:09:17] WARNING root fetch - processPackages [SPEADI]: Skipping, unable to determine old version
+[2024-04-24 13:09:17] INFO root fetch - main [MainThread]: End processing [SPEADI] error
+[2024-04-24 13:09:17] INFO root fetch - processPackages [scriptonite]: New version: [0.9.11] Old Version: [0.9.10]
+[2024-04-24 13:09:17] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/7d/6c/448e0bf6c8118cf274115590f2954036bec2332a93103e579740484bd779/torch_model_manager-0.0.6.dev4.tar.gz
+[2024-04-24 13:09:17] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/55/ae/6dcc4d13fef6ee90aead5ecb64697068f9b128814438a822ec47af996c41/ul-db-utils-3.3.2.tar.gz
+[2024-04-24 13:09:17] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-24 13:09:18] INFO root fetch - processPackages [mysqlLibRan]: Downloading https://files.pythonhosted.org/packages/5c/64/02a9a98808f3bbb18777a949466269468a523fe3b115fd8e40bc75ce9358/mysqllibran-0.0.4.tar.gz
+[2024-04-24 13:09:18] INFO root fetch - processPackages [alert-on-exception]: Downloading https://files.pythonhosted.org/packages/d0/71/e793ca48109340a5b879c57b734a85a3c73cfd063254c95e83057e1f3686/alert_on_exception-0.1.0.tar.gz
+[2024-04-24 13:09:18] INFO root fetch - processPackages [scriptonite]: Downloading https://files.pythonhosted.org/packages/ca/4a/456cb431b83d13d31074670ffc591b88d417f17ffdb76ff860fa586412ad/scriptonite-0.9.10.tar.gz
+[2024-04-24 13:09:18] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-24 13:09:18] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/f7/2a/7addfce99b3b77a048da98b4f86d9a3a4fe0279a29fceba6bcd9e249b87a/torch_model_manager-0.0.6.dev5.tar.gz
+[2024-04-24 13:09:18] INFO root fetch - processPackages [ul-db-utils]: Downloading https://files.pythonhosted.org/packages/23/1b/2c0eb3c06e7ce55681a6853bd349fd034e3aaaae16279b1be9d2e95ba23b/ul-db-utils-3.3.3.tar.gz
+[2024-04-24 13:09:18] ERROR root fetch - processPackages [mysqlLibRan]: Unable to fetch info: No such project/version 'mysqlLibRan' 0.0.5
+[2024-04-24 13:09:18] INFO root fetch - main [MainThread]: End processing [mysqlLibRan] error
+[2024-04-24 13:09:18] INFO root fetch - processPackages [alert-on-exception]: Downloading https://files.pythonhosted.org/packages/3a/db/d25b4cef46a96df525c9f387425bd08cc19dd462f4f9208d4474d0a10db9/alert_on_exception-0.1.1.tar.gz
+[2024-04-24 13:09:18] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-24 13:09:18] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240424/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-24 13:09:18] INFO root fetch - processPackages [ul-db-utils]: executing diffoscope
+[2024-04-24 13:09:18] INFO root fetch - processPackages [ul-db-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-db-utils-3.3.2.tar.gz tmp/ul-db-utils-3.3.3.tar.gz --markdown 20240424/u/ul-db-utils/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-04-24 13:09:18] INFO root fetch - processPackages [scriptonite]: Downloading https://files.pythonhosted.org/packages/14/21/1b79eceeec130556567c691fa4e780f2733c08d262b0c24481a574b44271/scriptonite-0.9.11.tar.gz
+[2024-04-24 13:09:18] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-24 13:09:18] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.0.6.dev4.tar.gz tmp/torch_model_manager-0.0.6.dev5.tar.gz --markdown 20240424/t/torch-model-manager/0.0.6.dev4-0.0.6.dev5/README.md --exclude *.pyd
+[2024-04-24 13:09:18] INFO root fetch - processPackages [alert-on-exception]: executing diffoscope
+[2024-04-24 13:09:18] INFO root fetch - processPackages [alert-on-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alert_on_exception-0.1.0.tar.gz tmp/alert_on_exception-0.1.1.tar.gz --markdown 20240424/a/alert-on-exception/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 13:09:18] INFO root fetch - processPackages [scriptonite]: executing diffoscope
+[2024-04-24 13:09:18] INFO root fetch - processPackages [scriptonite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptonite-0.9.10.tar.gz tmp/scriptonite-0.9.11.tar.gz --markdown 20240424/s/scriptonite/0.9.10-0.9.11/README.md --exclude *.pyd
+[2024-04-24 13:09:19] INFO root fetch - processPackages [alert-on-exception]: Remove: archive file [/home/abi/fetcher/tmp/alert_on_exception-0.1.0.tar.gz]
+[2024-04-24 13:09:19] INFO root fetch - processPackages [alert-on-exception]: Remove: archive file [/home/abi/fetcher/tmp/alert_on_exception-0.1.1.tar.gz]
+[2024-04-24 13:09:19] INFO root fetch - main [MainThread]: End processing [alert-on-exception]: success
+[2024-04-24 13:09:19] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.2.tar.gz]
+[2024-04-24 13:09:19] INFO root fetch - processPackages [ul-db-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-db-utils-3.3.3.tar.gz]
+[2024-04-24 13:09:19] INFO root fetch - main [MainThread]: End processing [ul-db-utils]: success
+[2024-04-24 13:09:19] INFO root fetch - processPackages [scriptonite]: Remove: archive file [/home/abi/fetcher/tmp/scriptonite-0.9.10.tar.gz]
+[2024-04-24 13:09:19] INFO root fetch - processPackages [scriptonite]: Remove: archive file [/home/abi/fetcher/tmp/scriptonite-0.9.11.tar.gz]
+[2024-04-24 13:09:19] INFO root fetch - main [MainThread]: End processing [scriptonite]: success
+[2024-04-24 13:09:19] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev4.tar.gz]
+[2024-04-24 13:09:19] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev5.tar.gz]
+[2024-04-24 13:09:19] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-24 13:09:20] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-24 13:09:20] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-24 13:09:20] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-24 13:09:20] INFO root fetch - main [MainThread]: Store serial: [22910976]
