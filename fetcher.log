@@ -8011,3 +8011,78 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:30:01] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.9.tar.gz]
 [2024-04-24 04:30:01] INFO root fetch - main [MainThread]: End processing [tdf_tool]: success
 [2024-04-24 04:30:01] INFO root fetch - main [MainThread]: Store serial: [22905855]
+[2024-04-24 04:32:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905855]
+[2024-04-24 04:32:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdf_tool
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tweepy-self
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langflow-base
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ugropy
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: timelink
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simular-eth-stubs
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tradingview-indicators
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rich-click
+[2024-04-24 04:32:10] INFO root fetch - processPackages [simular-eth-stubs]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 04:32:10] INFO root fetch - processPackages [rich-click]: New version: [1.8.0.dev6] Old Version: [1.8.0.dev5]
+[2024-04-24 04:32:10] INFO root fetch - processPackages [tradingview-indicators]: New version: [0.3.7.1] Old Version: [0.3.7]
+[2024-04-24 04:32:10] INFO root fetch - processPackages [tdf_tool]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ugropy]: New version: [2.0.5] Old Version: [2.0.0]
+[2024-04-24 04:32:10] INFO root fetch - processPackages [timelink]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-24 04:32:10] INFO root fetch - processPackages [tweepy-self]: New version: [1.9.0] Old Version: [1.6.3]
+[2024-04-24 04:32:10] INFO root fetch - processPackages [langflow-base]: New version: [0.0.37] Old Version: [0.0.36]
+[2024-04-24 04:32:10] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/e2/f9/f56aa61f78d1bb043c5083f0d3ad2d13bd8b5090a3a24104c92b581f145e/tradingview_indicators-0.3.7.tar.gz
+[2024-04-24 04:32:10] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/e2/20/7bd3981f89deedf6ba8fdd42fc8e01b5fa47635732ea90010af530c1cbc2/tdf_tool-2.4.8.tar.gz
+[2024-04-24 04:32:10] INFO root fetch - processPackages [simular-eth-stubs]: Downloading https://files.pythonhosted.org/packages/d9/26/051e6cc543c842537665de37d93fe52b4b2698ba50e71ba02b125788456f/simular-eth-stubs-0.0.1.tar.gz
+[2024-04-24 04:32:10] INFO root fetch - processPackages [rich-click]: Downloading https://files.pythonhosted.org/packages/e9/6f/7b82d6b9555f2ca3158c308a19dade1fee21c81fad6d5fe8e88677e1663a/rich_click-1.8.0.dev5.tar.gz
+[2024-04-24 04:32:10] INFO root fetch - processPackages [ugropy]: Downloading https://files.pythonhosted.org/packages/f8/6f/6bfbdeea1ce1a609135e3647b45f61509faca57c028b78d08e24e68a6245/ugropy-2.0.0.tar.gz
+[2024-04-24 04:32:10] INFO root fetch - processPackages [tweepy-self]: Downloading https://files.pythonhosted.org/packages/65/a0/4c5236d73aa60d3efaa85e702ace6db27efee02c9014c2b09cddd0485730/tweepy_self-1.6.3.tar.gz
+[2024-04-24 04:32:10] INFO root fetch - processPackages [timelink]: Downloading https://files.pythonhosted.org/packages/38/c1/b6d5f195a1230ef36e86cd05f1c86d8a3515eec6c80bf57c54cd963acac8/timelink-1.1.4.tar.gz
+[2024-04-24 04:32:10] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/34/94/559aaf542bae26e01620b2d22de670c4d6f69858f7082f30060b0e553941/langflow_base-0.0.36.tar.gz
+[2024-04-24 04:32:10] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/ce/f6/53647829fb507edc1f76dd4da20c208c38470f566bcb8dccbdcb4930b87a/tradingview_indicators-0.3.7.1.tar.gz
+[2024-04-24 04:32:10] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/0d/fb/edc0ac41f192341d2e9a5ca096da99a3e6e2fcbb2a105e9f80ca47732071/tdf_tool-2.4.9.tar.gz
+[2024-04-24 04:32:11] INFO root fetch - processPackages [tradingview-indicators]: executing diffoscope
+[2024-04-24 04:32:11] INFO root fetch - processPackages [tradingview-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingview_indicators-0.3.7.tar.gz tmp/tradingview_indicators-0.3.7.1.tar.gz --markdown 20240424/t/tradingview-indicators/0.3.7-0.3.7.1/README.md --exclude *.pyd
+[2024-04-24 04:32:11] INFO root fetch - processPackages [simular-eth-stubs]: Downloading https://files.pythonhosted.org/packages/fa/a8/9fd8da8915ba7f58e5dc86db884c4a63c59f572a7f2117654617c937b53d/simular-eth-stubs-0.0.2.tar.gz
+[2024-04-24 04:32:11] INFO root fetch - processPackages [tdf_tool]: executing diffoscope
+[2024-04-24 04:32:11] INFO root fetch - processPackages [tdf_tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdf_tool-2.4.8.tar.gz tmp/tdf_tool-2.4.9.tar.gz --markdown 20240424/t/tdf_tool/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-24 04:32:11] INFO root fetch - processPackages [rich-click]: Downloading https://files.pythonhosted.org/packages/8b/05/14bb70d012c71103999d3335ae4939c5f74d89ffb7f41509b2bf4f6f1bf1/rich_click-1.8.0.dev6.tar.gz
+[2024-04-24 04:32:11] INFO root fetch - processPackages [simular-eth-stubs]: executing diffoscope
+[2024-04-24 04:32:11] INFO root fetch - processPackages [simular-eth-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simular-eth-stubs-0.0.1.tar.gz tmp/simular-eth-stubs-0.0.2.tar.gz --markdown 20240424/s/simular-eth-stubs/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 04:32:11] INFO root fetch - processPackages [ugropy]: Downloading https://files.pythonhosted.org/packages/bc/89/f6d98a834c5c736a9c0a55babcfbb89d0b5d4fa2051900ecb91474ef766a/ugropy-2.0.5.tar.gz
+[2024-04-24 04:32:11] INFO root fetch - processPackages [tweepy-self]: Downloading https://files.pythonhosted.org/packages/fc/62/3a9b5d90f18a45e6605d7943d8cf673c0ee2e8a0d80b219f9b6bac0c7d99/tweepy_self-1.9.0.tar.gz
+[2024-04-24 04:32:11] INFO root fetch - processPackages [rich-click]: executing diffoscope
+[2024-04-24 04:32:11] INFO root fetch - processPackages [rich-click]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_click-1.8.0.dev5.tar.gz tmp/rich_click-1.8.0.dev6.tar.gz --markdown 20240424/r/rich-click/1.8.0.dev5-1.8.0.dev6/README.md --exclude *.pyd
+[2024-04-24 04:32:11] INFO root fetch - processPackages [ugropy]: executing diffoscope
+[2024-04-24 04:32:11] INFO root fetch - processPackages [ugropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ugropy-2.0.0.tar.gz tmp/ugropy-2.0.5.tar.gz --markdown 20240424/u/ugropy/2.0.0-2.0.5/README.md --exclude *.pyd
+[2024-04-24 04:32:11] INFO root fetch - processPackages [tweepy-self]: executing diffoscope
+[2024-04-24 04:32:11] INFO root fetch - processPackages [tweepy-self]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweepy_self-1.6.3.tar.gz tmp/tweepy_self-1.9.0.tar.gz --markdown 20240424/t/tweepy-self/1.6.3-1.9.0/README.md --exclude *.pyd
+[2024-04-24 04:32:11] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/21/6f/c035a5e2269f449b8bd9d1f61a32c428218a1b9cfe3591b7dabc4ede705c/langflow_base-0.0.37.tar.gz
+[2024-04-24 04:32:11] INFO root fetch - processPackages [timelink]: Downloading https://files.pythonhosted.org/packages/f5/11/6936795b47635a710177d16e8b749ab55831c3c15f72444d307a5b2053b1/timelink-1.1.5.tar.gz
+[2024-04-24 04:32:11] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.tar.gz]
+[2024-04-24 04:32:11] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.1.tar.gz]
+[2024-04-24 04:32:11] INFO root fetch - main [MainThread]: End processing [tradingview-indicators]: success
+[2024-04-24 04:32:11] INFO root fetch - processPackages [simular-eth-stubs]: Remove: archive file [/home/abi/fetcher/tmp/simular-eth-stubs-0.0.1.tar.gz]
+[2024-04-24 04:32:11] INFO root fetch - processPackages [simular-eth-stubs]: Remove: archive file [/home/abi/fetcher/tmp/simular-eth-stubs-0.0.2.tar.gz]
+[2024-04-24 04:32:11] INFO root fetch - main [MainThread]: End processing [simular-eth-stubs]: success
+[2024-04-24 04:32:12] INFO root fetch - processPackages [rich-click]: Remove: archive file [/home/abi/fetcher/tmp/rich_click-1.8.0.dev5.tar.gz]
+[2024-04-24 04:32:12] INFO root fetch - processPackages [rich-click]: Remove: archive file [/home/abi/fetcher/tmp/rich_click-1.8.0.dev6.tar.gz]
+[2024-04-24 04:32:12] INFO root fetch - main [MainThread]: End processing [rich-click]: success
+[2024-04-24 04:32:12] INFO root fetch - processPackages [tweepy-self]: Remove: archive file [/home/abi/fetcher/tmp/tweepy_self-1.6.3.tar.gz]
+[2024-04-24 04:32:12] INFO root fetch - processPackages [tweepy-self]: Remove: archive file [/home/abi/fetcher/tmp/tweepy_self-1.9.0.tar.gz]
+[2024-04-24 04:32:12] INFO root fetch - main [MainThread]: End processing [tweepy-self]: success
+[2024-04-24 04:32:12] INFO root fetch - processPackages [langflow-base]: executing diffoscope
+[2024-04-24 04:32:12] INFO root fetch - processPackages [langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow_base-0.0.36.tar.gz tmp/langflow_base-0.0.37.tar.gz --markdown 20240424/l/langflow-base/0.0.36-0.0.37/README.md --exclude *.pyd
+[2024-04-24 04:32:12] INFO root fetch - processPackages [timelink]: executing diffoscope
+[2024-04-24 04:32:12] INFO root fetch - processPackages [timelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timelink-1.1.4.tar.gz tmp/timelink-1.1.5.tar.gz --markdown 20240424/t/timelink/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-24 04:32:12] INFO root fetch - processPackages [ugropy]: Remove: archive file [/home/abi/fetcher/tmp/ugropy-2.0.0.tar.gz]
+[2024-04-24 04:32:12] INFO root fetch - processPackages [ugropy]: Remove: archive file [/home/abi/fetcher/tmp/ugropy-2.0.5.tar.gz]
+[2024-04-24 04:32:12] INFO root fetch - main [MainThread]: End processing [ugropy]: success
+[2024-04-24 04:32:12] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.8.tar.gz]
+[2024-04-24 04:32:12] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.9.tar.gz]
+[2024-04-24 04:32:12] INFO root fetch - main [MainThread]: End processing [tdf_tool]: success
+[2024-04-24 04:32:52] INFO root fetch - processPackages [timelink]: Remove: archive file [/home/abi/fetcher/tmp/timelink-1.1.4.tar.gz]
+[2024-04-24 04:32:52] INFO root fetch - processPackages [timelink]: Remove: archive file [/home/abi/fetcher/tmp/timelink-1.1.5.tar.gz]
+[2024-04-24 04:32:52] INFO root fetch - main [MainThread]: End processing [timelink]: success
+[2024-04-24 04:33:58] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.36.tar.gz]
+[2024-04-24 04:33:58] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.37.tar.gz]
+[2024-04-24 04:33:58] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
+[2024-04-24 04:33:58] INFO root fetch - main [MainThread]: Store serial: [22905878]
