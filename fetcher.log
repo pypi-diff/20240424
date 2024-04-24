@@ -22949,3 +22949,78 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:45:24] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240424-py3-none-win_amd64.whl.zip]
 [2024-04-24 14:45:24] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-04-24 14:45:24] INFO root fetch - main [MainThread]: Store serial: [22912191]
+[2024-04-24 14:47:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912191]
+[2024-04-24 14:47:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmaps-sdk
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfgclasses
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parea-ai
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sheep_lca
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-data-services-lwdp
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinaraX
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botasaurus-driver
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tdi-rust-python-tools
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coveo-settings
+[2024-04-24 14:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mrkutil
+[2024-04-24 14:47:51] INFO root fetch - processPackages [sinaraX]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-24 14:47:51] INFO root fetch - processPackages [parea-ai]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-24 14:47:51] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [3.1.0.0.dev8229401370] Old Version: [3.1.0.0.dev8004481234]
+[2024-04-24 14:47:51] WARNING root fetch - processPackages [sheep_lca]: Skipping, unable to determine old version
+[2024-04-24 14:47:51] INFO root fetch - main [MainThread]: End processing [sheep_lca] error
+[2024-04-24 14:47:51] INFO root fetch - processPackages [cellmaps-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 14:47:51] INFO root fetch - processPackages [sinaraX]: Downloading https://files.pythonhosted.org/packages/97/57/8f3b68e95b3fbfffc2fae53037cef238b15065b683252f6957dcd5e2fa31/sinarax-1.1.5.tar.gz
+[2024-04-24 14:47:51] INFO root fetch - processPackages [cfgclasses]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-24 14:47:51] WARNING root fetch - processPackages [botasaurus-driver]: Skipping, unable to determine old version
+[2024-04-24 14:47:51] INFO root fetch - main [MainThread]: End processing [botasaurus-driver] error
+[2024-04-24 14:47:51] INFO root fetch - processPackages [mrkutil]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-24 14:47:51] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/cd/80/fcef2226405a0fb8e3a9a7fbda2b47a712f63d9294eac7e3fc336bbf5b0f/parea_ai-0.2.98.tar.gz
+[2024-04-24 14:47:51] WARNING root fetch - processPackages [tdi-rust-python-tools]: Skipping, unable to determine old version
+[2024-04-24 14:47:51] INFO root fetch - main [MainThread]: End processing [tdi-rust-python-tools] error
+[2024-04-24 14:47:51] INFO root fetch - processPackages [coveo-settings]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-24 14:47:51] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/7b/17/c331696550b5641a3ce9619d70a825f2a93031b9857b1576eb0871678ced/th2_data_services_lwdp-3.1.0.0.dev8004481234.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [cellmaps-sdk]: Downloading https://files.pythonhosted.org/packages/05/2d/4ced85c84c8748cd34a177d3ec5f9a5ead8766b3b7620372d93f2a8edfd9/cellmaps_sdk-0.0.8.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/75/4f/f78cfaff9c9867bb91a1af4091e56c33c57c4dd5537eee040def1a377e44/mrkutil-1.2.1.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [cfgclasses]: Downloading https://files.pythonhosted.org/packages/00/36/5ec3bff5e45b1908c4b9a390e5cf6251b031a1e0e3e0bcaa5258e1de1dea/cfgclasses-2.1.1.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [sinaraX]: Downloading https://files.pythonhosted.org/packages/e4/fe/99b1483edbf62245aa9331b5b736eeff27d07acaac8825a8091c31ef84db/sinarax-1.1.6.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [coveo-settings]: Downloading https://files.pythonhosted.org/packages/99/37/0b971eb3bf588d486ddebbac6927d1cc6f2fb2f149f990db187001a3a7a6/coveo_settings-2.1.7.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/74/23/7d12bc6d64ad149113cd5db2503a3a73bffb6fe01de2e9834e4467d480b6/th2_data_services_lwdp-3.1.0.0.dev8229401370.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/9d/1c/c389e28a1a12c54ff1c8111a2f00058e77ba07333943eb06d3592659a691/parea_ai-0.2.99.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [sinaraX]: executing diffoscope
+[2024-04-24 14:47:52] INFO root fetch - processPackages [sinaraX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinarax-1.1.5.tar.gz tmp/sinarax-1.1.6.tar.gz --markdown 20240424/s/sinaraX/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-24 14:47:52] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2024-04-24 14:47:52] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-3.1.0.0.dev8004481234.tar.gz tmp/th2_data_services_lwdp-3.1.0.0.dev8229401370.tar.gz --markdown 20240424/t/th2-data-services-lwdp/3.1.0.0.dev8004481234-3.1.0.0.dev8229401370/README.md --exclude *.pyd
+[2024-04-24 14:47:52] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/36/01/e2f6f151e93c934e2896f534262c14f7bed90ef02e0057199f43cb9a07e6/mrkutil-1.3.0.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [cellmaps-sdk]: Downloading https://files.pythonhosted.org/packages/49/c4/661b82d37acbc1b6924818e0dac950853246c0116f251aea99f08abcf16a/cellmaps_sdk-0.0.9.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2024-04-24 14:47:52] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.2.98.tar.gz tmp/parea_ai-0.2.99.tar.gz --markdown 20240424/p/parea-ai/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-24 14:47:52] INFO root fetch - processPackages [cfgclasses]: Downloading https://files.pythonhosted.org/packages/c4/36/0828b690abad771e13a973ae00a35e0abd5dc4da29ddecf4ec18f97a9bc2/cfgclasses-2.2.0.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [coveo-settings]: Downloading https://files.pythonhosted.org/packages/5a/5a/8cfe842f5abc53fe87cf2035bdde795a0b6b1fbf42bf221137742a3d1a74/coveo_settings-2.1.8.tar.gz
+[2024-04-24 14:47:52] INFO root fetch - processPackages [mrkutil]: executing diffoscope
+[2024-04-24 14:47:52] INFO root fetch - processPackages [mrkutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrkutil-1.2.1.tar.gz tmp/mrkutil-1.3.0.tar.gz --markdown 20240424/m/mrkutil/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-04-24 14:47:52] INFO root fetch - processPackages [cellmaps-sdk]: executing diffoscope
+[2024-04-24 14:47:52] INFO root fetch - processPackages [cellmaps-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_sdk-0.0.8.tar.gz tmp/cellmaps_sdk-0.0.9.tar.gz --markdown 20240424/c/cellmaps-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 14:47:52] INFO root fetch - processPackages [cfgclasses]: executing diffoscope
+[2024-04-24 14:47:52] INFO root fetch - processPackages [cfgclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgclasses-2.1.1.tar.gz tmp/cfgclasses-2.2.0.tar.gz --markdown 20240424/c/cfgclasses/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-04-24 14:47:52] INFO root fetch - processPackages [coveo-settings]: executing diffoscope
+[2024-04-24 14:47:52] INFO root fetch - processPackages [coveo-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveo_settings-2.1.7.tar.gz tmp/coveo_settings-2.1.8.tar.gz --markdown 20240424/c/coveo-settings/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-24 14:47:53] INFO root fetch - processPackages [sinaraX]: Remove: archive file [/home/abi/fetcher/tmp/sinarax-1.1.5.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - processPackages [sinaraX]: Remove: archive file [/home/abi/fetcher/tmp/sinarax-1.1.6.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - main [MainThread]: End processing [sinaraX]: success
+[2024-04-24 14:47:53] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-3.1.0.0.dev8004481234.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-3.1.0.0.dev8229401370.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2024-04-24 14:47:53] INFO root fetch - processPackages [cellmaps-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_sdk-0.0.8.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - processPackages [cellmaps-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_sdk-0.0.9.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - main [MainThread]: End processing [cellmaps-sdk]: success
+[2024-04-24 14:47:53] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.2.1.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.3.0.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - main [MainThread]: End processing [mrkutil]: success
+[2024-04-24 14:47:53] INFO root fetch - processPackages [coveo-settings]: Remove: archive file [/home/abi/fetcher/tmp/coveo_settings-2.1.7.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - processPackages [coveo-settings]: Remove: archive file [/home/abi/fetcher/tmp/coveo_settings-2.1.8.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - main [MainThread]: End processing [coveo-settings]: success
+[2024-04-24 14:47:53] INFO root fetch - processPackages [cfgclasses]: Remove: archive file [/home/abi/fetcher/tmp/cfgclasses-2.1.1.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - processPackages [cfgclasses]: Remove: archive file [/home/abi/fetcher/tmp/cfgclasses-2.2.0.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - main [MainThread]: End processing [cfgclasses]: success
+[2024-04-24 14:47:53] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.98.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
+[2024-04-24 14:47:53] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2024-04-24 14:47:53] INFO root fetch - main [MainThread]: Store serial: [22912226]
