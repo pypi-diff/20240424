@@ -21526,3 +21526,118 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 13:58:17] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.1.tar.gz]
 [2024-04-24 13:58:17] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
 [2024-04-24 13:58:17] INFO root fetch - main [MainThread]: Store serial: [22911629]
+[2024-04-24 14:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911629]
+[2024-04-24 14:00:43] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linkture
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: misc-python-utils
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipez
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SAMBA-ilum
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ckanext-files
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-reportbroD
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-aliding20230426
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: halftone-converter
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-aliding20230426-py2
+[2024-04-24 14:00:43] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ckanext-files]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-24 14:00:43] WARNING root fetch - processPackages [SAMBA-ilum]: Skipping, unable to determine old version
+[2024-04-24 14:00:43] INFO root fetch - processPackages [django-reportbroD]: New version: [1.2] Old Version: [1.1.1]
+[2024-04-24 14:00:43] INFO root fetch - processPackages [SAMBA-ilum]: Start processing: odbc2deltalake
+[2024-04-24 14:00:43] INFO root fetch - main [MainThread]: End processing [SAMBA-ilum] error
+[2024-04-24 14:00:43] INFO root fetch - processPackages [alibabacloud-aliding20230426-py2]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-24 14:00:43] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-24 14:00:43] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 14:00:43] INFO root fetch - processPackages [pipez]: New version: [0.0.92] Old Version: [0.0.91]
+[2024-04-24 14:00:43] INFO root fetch - processPackages [alibabacloud-aliding20230426]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-24 14:00:43] INFO root fetch - processPackages [halftone-converter]: New version: [2.5.0] Old Version: [2.4.6]
+[2024-04-24 14:00:43] INFO root fetch - processPackages [misc-python-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 14:00:43] INFO root fetch - processPackages [linkture]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ckanext-files]: Downloading https://files.pythonhosted.org/packages/b0/91/52912ba6f97c55ffdaa1393a417b3fadc1037f3cd80edd40fb5c447c385c/ckanext_files-0.2.5.tar.gz
+[2024-04-24 14:00:43] INFO root fetch - processPackages [django-reportbroD]: Downloading https://files.pythonhosted.org/packages/0b/90/13c19555108242fc599f0ab32c8d782581e8546f7b2cd158dffa7bb191ac/django-reportbroD-1.1.1.tar.gz
+[2024-04-24 14:00:43] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-04-24 14:00:43] INFO root fetch - processPackages [halftone-converter]: Downloading https://files.pythonhosted.org/packages/52/b8/9cd692ec856f31f069618f379dcb0279471cb8ddf2db3da8a1dc0e255813/halftone-converter-2.4.6.tar.gz
+[2024-04-24 14:00:43] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/47/eb/54590ddcba76aaeb5cd76c1e9e184656648abeac916180449cd577be8d38/alibabacloud_aliding20230426-2.8.0.tar.gz
+[2024-04-24 14:00:43] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/4b/bd/ea88605154e7091f2a3191908b2ffddeda0817e17ffc29758cfc7731ceaf/misc_python_utils-0.1.8.tar.gz
+[2024-04-24 14:00:43] INFO root fetch - processPackages [linkture]: Downloading https://files.pythonhosted.org/packages/8b/cc/178123a051733727b0c6205823b32aaf3180f8e6e263946c65ea8ba8518f/linkture-2.5.3.tar.gz
+[2024-04-24 14:00:43] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/e5/ae/26b4e1b86ea1166857dc29953b6985dc638d190d78068fa4f1f209b4b137/pipez-0.0.91.tar.gz
+[2024-04-24 14:00:43] INFO root fetch - processPackages [ckanext-files]: Downloading https://files.pythonhosted.org/packages/3b/ef/8a0b600744a5e87e4cc1125d27aeaf056d8b9e35d9d383c4630793c41492/ckanext_files-0.2.6.tar.gz
+[2024-04-24 14:00:43] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 14:00:43] WARNING root fetch - processPackages [halftone-converter]: Skipping package: exceeds size limit 19404775>=10485760
+[2024-04-24 14:00:43] INFO root fetch - processPackages [halftone-converter]: Start processing: guanin
+[2024-04-24 14:00:43] INFO root fetch - main [MainThread]: End processing [halftone-converter] error
+[2024-04-24 14:00:43] INFO root fetch - processPackages [alibabacloud-aliding20230426-py2]: Downloading https://files.pythonhosted.org/packages/1b/f1/e8b25d43dbad273b4836d52bc7d85026cca63bc7ffcae9bd51502a282fff/alibabacloud_aliding20230426_py2-1.8.0.tar.gz
+[2024-04-24 14:00:44] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 14:00:44] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 14:00:44] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-04-24 14:00:44] INFO root fetch - processPackages [guanin]: New version: [1.2.8] Old Version: [1.2.7.1]
+[2024-04-24 14:00:44] INFO root fetch - processPackages [ckanext-files]: executing diffoscope
+[2024-04-24 14:00:44] INFO root fetch - processPackages [ckanext-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_files-0.2.5.tar.gz tmp/ckanext_files-0.2.6.tar.gz --markdown 20240424/c/ckanext-files/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-24 14:00:44] INFO root fetch - processPackages [django-reportbroD]: Downloading https://files.pythonhosted.org/packages/7d/08/7e54d0de9fbf83c1a845893ed4fa4b9a50517f234397b4b73ab9e2fe5fd5/django-reportbroD-1.2.tar.gz
+[2024-04-24 14:00:44] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-04-24 14:00:44] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240424/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-24 14:00:44] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/57/f1/4625809fcb39f4081b4224a6763539efee7a380db502a5dede93b1c12c2e/misc_python_utils-0.1.9.tar.gz
+[2024-04-24 14:00:44] INFO root fetch - processPackages [linkture]: Downloading https://files.pythonhosted.org/packages/13/08/b3419aaf686c26cb2c551ea235779765adcf37e18ea13c3197b833918efb/linkture-2.5.4.tar.gz
+[2024-04-24 14:00:44] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/0c/a6/4fab85bdf0a7b2360f3d1fc510b11ee93323e3dae3673d5077b9d650492e/alibabacloud_aliding20230426-2.9.0.tar.gz
+[2024-04-24 14:00:44] INFO root fetch - processPackages [django-reportbroD]: executing diffoscope
+[2024-04-24 14:00:44] INFO root fetch - processPackages [django-reportbroD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reportbroD-1.1.1.tar.gz tmp/django-reportbroD-1.2.tar.gz --markdown 20240424/d/django-reportbroD/1.1.1-1.2/README.md --exclude *.pyd
+[2024-04-24 14:00:44] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/4a/7c/db139d40f1932f685e82b50cbcc4ec0ee4ca1a18b8cb58d09053f3865626/guanin-1.2.7.1.tar.gz
+[2024-04-24 14:00:44] INFO root fetch - processPackages [alibabacloud-aliding20230426-py2]: Downloading https://files.pythonhosted.org/packages/7f/4b/c59ed0b75236aaf7a6fa8cba2d7af0d27b06af869b7bf32e6438b26235cf/alibabacloud_aliding20230426_py2-1.9.0.tar.gz
+[2024-04-24 14:00:44] INFO root fetch - processPackages [linkture]: executing diffoscope
+[2024-04-24 14:00:44] INFO root fetch - processPackages [linkture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkture-2.5.3.tar.gz tmp/linkture-2.5.4.tar.gz --markdown 20240424/l/linkture/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-24 14:00:44] INFO root fetch - processPackages [misc-python-utils]: executing diffoscope
+[2024-04-24 14:00:44] INFO root fetch - processPackages [misc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_python_utils-0.1.8.tar.gz tmp/misc_python_utils-0.1.9.tar.gz --markdown 20240424/m/misc-python-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 14:00:44] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a7/49/628e7330b159e82dca5f865fe8b8ae5aed039a0f6c9374d1d6ff6c20037f/pipez-0.0.92.tar.gz
+[2024-04-24 14:00:44] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 10878040>=10485760
+[2024-04-24 14:00:44] INFO root fetch - processPackages [guanin]: Start processing: mixdq-extension
+[2024-04-24 14:00:44] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2024-04-24 14:00:44] INFO root fetch - processPackages [alibabacloud-aliding20230426]: executing diffoscope
+[2024-04-24 14:00:44] INFO root fetch - processPackages [alibabacloud-aliding20230426]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426-2.8.0.tar.gz tmp/alibabacloud_aliding20230426-2.9.0.tar.gz --markdown 20240424/a/alibabacloud-aliding20230426/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-24 14:00:44] INFO root fetch - processPackages [alibabacloud-aliding20230426-py2]: executing diffoscope
+[2024-04-24 14:00:44] INFO root fetch - processPackages [alibabacloud-aliding20230426-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426_py2-1.8.0.tar.gz tmp/alibabacloud_aliding20230426_py2-1.9.0.tar.gz --markdown 20240424/a/alibabacloud-aliding20230426-py2/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-24 14:00:44] INFO root fetch - processPackages [mixdq-extension]: New version: [0.2] Old Version: [0.1]
+[2024-04-24 14:00:44] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-24 14:00:44] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.91.tar.gz tmp/pipez-0.0.92.tar.gz --markdown 20240424/p/pipez/0.0.91-0.0.92/README.md --exclude *.pyd
+[2024-04-24 14:00:44] INFO root fetch - processPackages [mixdq-extension]: Downloading https://files.pythonhosted.org/packages/34/ee/22cda30235253c8e967aa1ab9934174cba677c2a66280919f768b299beb7/mixdq_extension-0.1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-24 14:00:45] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Start processing: tabpfn-client
+[2024-04-24 14:00:45] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 14:00:45] INFO root fetch - processPackages [tabpfn-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-04-24 14:00:45] INFO root fetch - processPackages [tabpfn-client]: Downloading https://files.pythonhosted.org/packages/07/2d/d7888ba411e10c57009789dab962b15b12962a217fa37365548262598b41/tabpfn_client-0.0.8.tar.gz
+[2024-04-24 14:00:45] INFO root fetch - processPackages [ckanext-files]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_files-0.2.5.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [ckanext-files]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_files-0.2.6.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - main [MainThread]: End processing [ckanext-files]: success
+[2024-04-24 14:00:45] INFO root fetch - processPackages [linkture]: Remove: archive file [/home/abi/fetcher/tmp/linkture-2.5.3.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [linkture]: Remove: archive file [/home/abi/fetcher/tmp/linkture-2.5.4.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - main [MainThread]: End processing [linkture]: success
+[2024-04-24 14:00:45] INFO root fetch - processPackages [mixdq-extension]: Downloading https://files.pythonhosted.org/packages/93/3f/390645df0f4d1f0caafac380fb562058fd1057b46cad6addb687d2ff7520/mixdq_extension-0.2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-24 14:00:45] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.8.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.9.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - main [MainThread]: End processing [misc-python-utils]: success
+[2024-04-24 14:00:45] INFO root fetch - processPackages [tabpfn-client]: Downloading https://files.pythonhosted.org/packages/2a/60/e34a10f0159fa3a7d7d73424d387418af37cfb5558aa1c42862467f27835/tabpfn_client-0.0.9.tar.gz
+[2024-04-24 14:00:45] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.8.0.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.9.0.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426]: success
+[2024-04-24 14:00:45] INFO root fetch - processPackages [alibabacloud-aliding20230426-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426_py2-1.8.0.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [alibabacloud-aliding20230426-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426_py2-1.9.0.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426-py2]: success
+[2024-04-24 14:00:45] INFO root fetch - processPackages [tabpfn-client]: executing diffoscope
+[2024-04-24 14:00:45] INFO root fetch - processPackages [tabpfn-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabpfn_client-0.0.8.tar.gz tmp/tabpfn_client-0.0.9.tar.gz --markdown 20240424/t/tabpfn-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 14:00:45] INFO root fetch - processPackages [mixdq-extension]: executing diffoscope
+[2024-04-24 14:00:45] INFO root fetch - processPackages [mixdq-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixdq_extension-0.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/mixdq_extension-0.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240424/m/mixdq-extension/0.1-0.2/README.md --exclude *.pyd
+[2024-04-24 14:00:45] INFO root fetch - processPackages [django-reportbroD]: Remove: archive file [/home/abi/fetcher/tmp/django-reportbroD-1.1.1.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - processPackages [django-reportbroD]: Remove: archive file [/home/abi/fetcher/tmp/django-reportbroD-1.2.tar.gz]
+[2024-04-24 14:00:45] INFO root fetch - main [MainThread]: End processing [django-reportbroD]: success
+[2024-04-24 14:00:46] INFO root fetch - processPackages [tabpfn-client]: Remove: archive file [/home/abi/fetcher/tmp/tabpfn_client-0.0.8.tar.gz]
+[2024-04-24 14:00:46] INFO root fetch - processPackages [tabpfn-client]: Remove: archive file [/home/abi/fetcher/tmp/tabpfn_client-0.0.9.tar.gz]
+[2024-04-24 14:00:46] INFO root fetch - main [MainThread]: End processing [tabpfn-client]: success
+[2024-04-24 14:00:46] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.91.tar.gz]
+[2024-04-24 14:00:46] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.92.tar.gz]
+[2024-04-24 14:00:46] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-24 14:00:57] INFO root fetch - processPackages [mixdq-extension]: Remove: archive file [/home/abi/fetcher/tmp/mixdq_extension-0.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-24 14:00:57] INFO root fetch - processPackages [mixdq-extension]: Remove: archive file [/home/abi/fetcher/tmp/mixdq_extension-0.2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-24 14:00:57] INFO root fetch - main [MainThread]: End processing [mixdq-extension]: success
+[2024-04-24 14:00:57] INFO root fetch - main [MainThread]: Store serial: [22911679]
