@@ -21094,3 +21094,36 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 13:38:42] INFO root fetch - processPackages [sema4ai-action-server]: Remove: archive file [/home/abi/fetcher/tmp/sema4ai_action_server-0.5.1.tar.gz]
 [2024-04-24 13:38:42] INFO root fetch - main [MainThread]: End processing [sema4ai-action-server]: success
 [2024-04-24 13:38:42] INFO root fetch - main [MainThread]: Store serial: [22911430]
+[2024-04-24 13:40:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911430]
+[2024-04-24 13:41:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 13:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pick
+[2024-04-24 13:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clinlp
+[2024-04-24 13:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: websocket-server-lib
+[2024-04-24 13:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phringe
+[2024-04-24 13:41:05] INFO root fetch - processPackages [phringe]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:41:05] INFO root fetch - processPackages [pick]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-24 13:41:05] WARNING root fetch - processPackages [websocket-server-lib]: Skipping, unable to determine old version
+[2024-04-24 13:41:05] INFO root fetch - main [MainThread]: End processing [websocket-server-lib] error
+[2024-04-24 13:41:05] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/7a/6c/f071cba50885da2c0c38dd2f65e60b0b1a3d428c2bf4acc7a24115009243/phringe-0.0.8.tar.gz
+[2024-04-24 13:41:05] INFO root fetch - processPackages [clinlp]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-24 13:41:05] INFO root fetch - processPackages [pick]: Downloading https://files.pythonhosted.org/packages/5f/08/45f5bda20b9ad318c1cbeb911e9995e7357d4ae93cbfaccc8f2e40e96ec4/pick-2.2.0.tar.gz
+[2024-04-24 13:41:05] INFO root fetch - processPackages [clinlp]: Downloading https://files.pythonhosted.org/packages/86/53/fac66d6bd846d57cd9dad2a9ef37563f1624cbc6184ea25af67974e80ac6/clinlp-0.6.4.tar.gz
+[2024-04-24 13:41:05] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/a9/3f/4fae0af86d9be225260c4afd1c1b74017765456017b0dd091b57adba093b/phringe-0.0.9.tar.gz
+[2024-04-24 13:41:05] INFO root fetch - processPackages [pick]: Downloading https://files.pythonhosted.org/packages/12/49/d3dbd91c2fe3937644009cba60a405149622a9b3241044421ef954d0e9a9/pick-2.3.0.tar.gz
+[2024-04-24 13:41:05] INFO root fetch - processPackages [phringe]: executing diffoscope
+[2024-04-24 13:41:05] INFO root fetch - processPackages [phringe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phringe-0.0.8.tar.gz tmp/phringe-0.0.9.tar.gz --markdown 20240424/p/phringe/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:41:05] INFO root fetch - processPackages [clinlp]: Downloading https://files.pythonhosted.org/packages/5e/07/4b075abbd7e646e3d433ab9f36ae1ddadac13b15091c7873f38b108010c7/clinlp-0.6.5.tar.gz
+[2024-04-24 13:41:05] INFO root fetch - processPackages [pick]: executing diffoscope
+[2024-04-24 13:41:05] INFO root fetch - processPackages [pick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pick-2.2.0.tar.gz tmp/pick-2.3.0.tar.gz --markdown 20240424/p/pick/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-24 13:41:05] INFO root fetch - processPackages [clinlp]: executing diffoscope
+[2024-04-24 13:41:05] INFO root fetch - processPackages [clinlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinlp-0.6.4.tar.gz tmp/clinlp-0.6.5.tar.gz --markdown 20240424/c/clinlp/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-24 13:41:06] INFO root fetch - processPackages [pick]: Remove: archive file [/home/abi/fetcher/tmp/pick-2.2.0.tar.gz]
+[2024-04-24 13:41:06] INFO root fetch - processPackages [pick]: Remove: archive file [/home/abi/fetcher/tmp/pick-2.3.0.tar.gz]
+[2024-04-24 13:41:06] INFO root fetch - main [MainThread]: End processing [pick]: success
+[2024-04-24 13:41:06] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.8.tar.gz]
+[2024-04-24 13:41:06] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.9.tar.gz]
+[2024-04-24 13:41:06] INFO root fetch - main [MainThread]: End processing [phringe]: success
+[2024-04-24 13:41:06] INFO root fetch - processPackages [clinlp]: Remove: archive file [/home/abi/fetcher/tmp/clinlp-0.6.4.tar.gz]
+[2024-04-24 13:41:06] INFO root fetch - processPackages [clinlp]: Remove: archive file [/home/abi/fetcher/tmp/clinlp-0.6.5.tar.gz]
+[2024-04-24 13:41:06] INFO root fetch - main [MainThread]: End processing [clinlp]: success
+[2024-04-24 13:41:06] INFO root fetch - main [MainThread]: Store serial: [22911445]
