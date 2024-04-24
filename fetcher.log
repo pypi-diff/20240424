@@ -10697,3 +10697,23 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:06:57] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.19.5.tar.gz]
 [2024-04-24 07:06:57] INFO root fetch - main [MainThread]: End processing [biobear]: success
 [2024-04-24 07:06:57] INFO root fetch - main [MainThread]: Store serial: [22906990]
+[2024-04-24 07:09:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906990]
+[2024-04-24 07:09:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 07:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplepro
+[2024-04-24 07:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarers.aws-secure-cloudfront-origin-bucket
+[2024-04-24 07:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gridworks-debug-cli
+[2024-04-24 07:09:05] ERROR root fetch - processPackages [gammarers.aws-secure-cloudfront-origin-bucket]: Unable to get metadata: No such project 'gammarers.aws-secure-cloudfront-origin-bucket'
+[2024-04-24 07:09:05] INFO root fetch - processPackages [simplepro]: New version: [7.6] Old Version: [7.5]
+[2024-04-24 07:09:05] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-cloudfront-origin-bucket] error
+[2024-04-24 07:09:05] INFO root fetch - processPackages [gridworks-debug-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 07:09:05] INFO root fetch - processPackages [gridworks-debug-cli]: Downloading https://files.pythonhosted.org/packages/21/67/8037694c0555dfd7a859935d9b63a39dab17b6d0179a78311e09e16618e8/gridworks_debug_cli-0.2.8.tar.gz
+[2024-04-24 07:09:05] INFO root fetch - processPackages [simplepro]: Downloading https://files.pythonhosted.org/packages/f6/5b/7293f678a14758d8b907c40d9401235b37658e8ab959243cbfcd96bd5d5b/simplepro-7.5.tar.gz
+[2024-04-24 07:09:06] WARNING root fetch - processPackages [simplepro]: Skipping package: exceeds size limit 17993445>=10485760
+[2024-04-24 07:09:06] INFO root fetch - main [MainThread]: End processing [simplepro] error
+[2024-04-24 07:09:06] INFO root fetch - processPackages [gridworks-debug-cli]: Downloading https://files.pythonhosted.org/packages/94/f0/a15786ae7b64f82aa7ba12defc8be8d0093cdcc42e59b96d1ea1715d914b/gridworks_debug_cli-0.2.9.tar.gz
+[2024-04-24 07:09:06] INFO root fetch - processPackages [gridworks-debug-cli]: executing diffoscope
+[2024-04-24 07:09:06] INFO root fetch - processPackages [gridworks-debug-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_debug_cli-0.2.8.tar.gz tmp/gridworks_debug_cli-0.2.9.tar.gz --markdown 20240424/g/gridworks-debug-cli/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 07:09:06] INFO root fetch - processPackages [gridworks-debug-cli]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_debug_cli-0.2.8.tar.gz]
+[2024-04-24 07:09:06] INFO root fetch - processPackages [gridworks-debug-cli]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_debug_cli-0.2.9.tar.gz]
+[2024-04-24 07:09:06] INFO root fetch - main [MainThread]: End processing [gridworks-debug-cli]: success
+[2024-04-24 07:09:06] INFO root fetch - main [MainThread]: Store serial: [22907000]
