@@ -22281,3 +22281,45 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:20:26] INFO root fetch - processPackages [filip]: Remove: archive file [/home/abi/fetcher/tmp/filip-0.4.1.tar.gz]
 [2024-04-24 14:20:26] INFO root fetch - main [MainThread]: End processing [filip]: success
 [2024-04-24 14:20:26] INFO root fetch - main [MainThread]: Store serial: [22911944]
+[2024-04-24 14:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911944]
+[2024-04-24 14:22:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 14:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecv-python-development
+[2024-04-24 14:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: server-templates
+[2024-04-24 14:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langflow
+[2024-04-24 14:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-core
+[2024-04-24 14:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ripplemapper
+[2024-04-24 14:22:53] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.32] Old Version: [0.0.31]
+[2024-04-24 14:22:53] INFO root fetch - processPackages [server-templates]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 14:22:53] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 14:22:53] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-24 14:22:54] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/5a/78/2f7dc1e40a7e2c439b9cc9f8177cbd440c80951d2886bd7940021441107c/ecv-python-development-0.0.31.tar.gz
+[2024-04-24 14:22:54] WARNING root fetch - processPackages [ripplemapper]: Skipping, unable to determine old version
+[2024-04-24 14:22:54] INFO root fetch - main [MainThread]: End processing [ripplemapper] error
+[2024-04-24 14:22:54] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-04-24 14:22:54] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-04-24 14:22:54] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/59/df/f5673e6af5207982271068cff01271982666f35556ff8fcf33d629e902d6/server_templates-0.2.8.tar.gz
+[2024-04-24 14:22:54] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-04-24 14:22:54] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-04-24 14:22:54] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/11/84/d7da14623575908f087ae536a6c380ca047ec1dbd8e633d855019a35bb7c/server_templates-0.2.9.tar.gz
+[2024-04-24 14:22:54] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/e7/42/3e7e3f1c97c70197b390b444822fc003035b36348887b05ad2181aedb8b0/ecv-python-development-0.0.32.tar.gz
+[2024-04-24 14:22:54] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-04-24 14:22:54] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240424/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-04-24 14:22:54] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-24 14:22:54] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240424/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 14:22:54] INFO root fetch - processPackages [server-templates]: executing diffoscope
+[2024-04-24 14:22:54] INFO root fetch - processPackages [server-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server_templates-0.2.8.tar.gz tmp/server_templates-0.2.9.tar.gz --markdown 20240424/s/server-templates/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 14:22:54] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-24 14:22:54] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.31.tar.gz tmp/ecv-python-development-0.0.32.tar.gz --markdown 20240424/e/ecv-python-development/0.0.31-0.0.32/README.md --exclude *.pyd
+[2024-04-24 14:22:55] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-04-24 14:22:55] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-04-24 14:22:55] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-24 14:22:55] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.8.tar.gz]
+[2024-04-24 14:22:55] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.9.tar.gz]
+[2024-04-24 14:22:55] INFO root fetch - main [MainThread]: End processing [server-templates]: success
+[2024-04-24 14:22:55] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-04-24 14:22:55] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-04-24 14:22:55] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-04-24 14:22:55] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.31.tar.gz]
+[2024-04-24 14:22:55] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.32.tar.gz]
+[2024-04-24 14:22:55] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-24 14:22:55] INFO root fetch - main [MainThread]: Store serial: [22911963]
