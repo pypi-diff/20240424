@@ -13483,3 +13483,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:28:42] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.2.2.tar.gz]
 [2024-04-24 09:28:42] INFO root fetch - main [MainThread]: End processing [cefeste]: success
 [2024-04-24 09:28:42] INFO root fetch - main [MainThread]: Store serial: [22908337]
+[2024-04-24 09:30:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908337]
+[2024-04-24 09:30:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cefeste
+[2024-04-24 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MediaCurator
+[2024-04-24 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mneflow
+[2024-04-24 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: label-convert
+[2024-04-24 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hugchat
+[2024-04-24 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-neat
+[2024-04-24 09:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py3seed
+[2024-04-24 09:30:51] INFO root fetch - processPackages [label-convert]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-24 09:30:51] INFO root fetch - processPackages [cefeste]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-24 09:30:51] INFO root fetch - processPackages [mneflow]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-24 09:30:51] INFO root fetch - processPackages [hugchat]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-24 09:30:51] INFO root fetch - processPackages [cognite-neat]: New version: [0.75.2] Old Version: [0.75.1]
+[2024-04-24 09:30:51] INFO root fetch - processPackages [label-convert]: Downloading https://files.pythonhosted.org/packages/17/2a/36947a642022054b4ca435fc6bbc3a9c43d775d60efffff1ce54099bb3c3/label_convert-0.0.9-py3-none-any.whl
+[2024-04-24 09:30:51] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/43/1e/7e2699bb35b289c41f51890466e399efc9a236c732201d9afe7be506103f/cefeste-1.2.1.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [MediaCurator]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 09:30:51] INFO root fetch - processPackages [mneflow]: Downloading https://files.pythonhosted.org/packages/0a/a3/01ac0bb0e88ff2d3f79d0d68c09ce526fb7fd03b45bda6a05a394e4757e1/mneflow-0.5.6.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/d6/c2/63a2238b9e7135cb523d96c4434f6bc7331be4a2b024b9c4b311e101ed84/cognite_neat-0.75.1.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [py3seed]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-24 09:30:51] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/9a/06/60d708e9e30b79e6a24cf6624793052d893586f79f4317d804902d9b3408/hugchat-0.4.1.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [MediaCurator]: Downloading https://files.pythonhosted.org/packages/7d/a9/ac125a97933e2a15148ae0c1159ed2bc20d51a15bab1cf860ac2e750d03f/MediaCurator-0.0.8.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [label-convert]: Downloading https://files.pythonhosted.org/packages/8f/30/9fe6c95b0be78cddf897a3638e1f29e06a125db057da51381aa252d8fc83/label_convert-0.1.0-py3-none-any.whl
+[2024-04-24 09:30:51] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/a2/7b/b883f079f349b4afba06014309c078ee5f995d63aef761e41426e1ea5a97/cefeste-1.2.2.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [mneflow]: Downloading https://files.pythonhosted.org/packages/bb/97/d476255260fb7c03f9b79531572fe1ea928997c0f139a04cc1afd1312937/mneflow-0.5.7.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/ad/11/91f110fc6a404c23714033cf995c050755bf9b84c5a112e52bfbc27345f7/py3seed-0.6.4.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2024-04-24 09:30:51] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.2.1.tar.gz tmp/cefeste-1.2.2.tar.gz --markdown 20240424/c/cefeste/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-24 09:30:51] INFO root fetch - processPackages [label-convert]: executing diffoscope
+[2024-04-24 09:30:51] INFO root fetch - processPackages [label-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label_convert-0.0.9-py3-none-any.whl.zip tmp/label_convert-0.1.0-py3-none-any.whl.zip --markdown 20240424/l/label-convert/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-24 09:30:51] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/e3/b0/fc3194f6a92afaf822ca59a78acddf16443056f503b8a252156bcb6a53d0/hugchat-0.4.2.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [mneflow]: executing diffoscope
+[2024-04-24 09:30:51] INFO root fetch - processPackages [mneflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mneflow-0.5.6.tar.gz tmp/mneflow-0.5.7.tar.gz --markdown 20240424/m/mneflow/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-24 09:30:51] INFO root fetch - processPackages [MediaCurator]: Downloading https://files.pythonhosted.org/packages/8f/ae/3e64649ff35651fd3b291d6c33b79c5d0e5af07f4ab0d149378d98964e39/MediaCurator-0.0.9.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/8b/11/3c08a4fca802bfc6f77d6af730fbae61df845939ea9c5aea62c4cf878f77/cognite_neat-0.75.2.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [MediaCurator]: executing diffoscope
+[2024-04-24 09:30:51] INFO root fetch - processPackages [MediaCurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MediaCurator-0.0.8.tar.gz tmp/MediaCurator-0.0.9.tar.gz --markdown 20240424/M/MediaCurator/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:30:51] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/30/55/724009947670ffd1680d403efe094cb3dc3561b84debc341f568a637907b/py3seed-0.6.5.tar.gz
+[2024-04-24 09:30:51] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2024-04-24 09:30:51] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.4.1.tar.gz tmp/hugchat-0.4.2.tar.gz --markdown 20240424/h/hugchat/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-24 09:30:52] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2024-04-24 09:30:52] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.6.4.tar.gz tmp/py3seed-0.6.5.tar.gz --markdown 20240424/p/py3seed/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-24 09:30:52] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-24 09:30:52] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.75.1.tar.gz tmp/cognite_neat-0.75.2.tar.gz --markdown 20240424/c/cognite-neat/0.75.1-0.75.2/README.md --exclude *.pyd
+[2024-04-24 09:30:52] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.2.1.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.2.2.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2024-04-24 09:30:52] INFO root fetch - processPackages [label-convert]: Remove: archive file [/home/abi/fetcher/tmp/label_convert-0.0.9-py3-none-any.whl.zip]
+[2024-04-24 09:30:52] INFO root fetch - processPackages [label-convert]: Remove: archive file [/home/abi/fetcher/tmp/label_convert-0.1.0-py3-none-any.whl.zip]
+[2024-04-24 09:30:52] INFO root fetch - main [MainThread]: End processing [label-convert]: success
+[2024-04-24 09:30:52] INFO root fetch - processPackages [MediaCurator]: Remove: archive file [/home/abi/fetcher/tmp/MediaCurator-0.0.8.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - processPackages [MediaCurator]: Remove: archive file [/home/abi/fetcher/tmp/MediaCurator-0.0.9.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - main [MainThread]: End processing [MediaCurator]: success
+[2024-04-24 09:30:52] INFO root fetch - processPackages [mneflow]: Remove: archive file [/home/abi/fetcher/tmp/mneflow-0.5.6.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - processPackages [mneflow]: Remove: archive file [/home/abi/fetcher/tmp/mneflow-0.5.7.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - main [MainThread]: End processing [mneflow]: success
+[2024-04-24 09:30:52] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.4.1.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.4.2.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2024-04-24 09:30:52] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.6.4.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.6.5.tar.gz]
+[2024-04-24 09:30:52] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2024-04-24 09:30:56] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.1.tar.gz]
+[2024-04-24 09:30:56] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.2.tar.gz]
+[2024-04-24 09:30:56] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-24 09:30:56] INFO root fetch - main [MainThread]: Store serial: [22908414]
