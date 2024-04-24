@@ -15701,3 +15701,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:50:33] INFO root fetch - processPackages [ensuro]: Remove: archive file [/home/abi/fetcher/tmp/ensuro-2.8.2.post1.tar.gz]
 [2024-04-24 10:50:33] INFO root fetch - main [MainThread]: End processing [ensuro]: success
 [2024-04-24 10:50:33] INFO root fetch - main [MainThread]: Store serial: [22909265]
+[2024-04-24 10:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909265]
+[2024-04-24 10:52:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rrtask
+[2024-04-24 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantminer
+[2024-04-24 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2024-04-24 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gcp-pal
+[2024-04-24 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tldraw
+[2024-04-24 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rrtask
+[2024-04-24 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mbtiles-util
+[2024-04-24 10:52:42] INFO root fetch - processPackages [mbtiles-util]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-04-24 10:52:42] INFO root fetch - processPackages [quantminer]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-24 10:52:42] INFO root fetch - processPackages [moto]: New version: [5.0.6.dev9] Old Version: [5.0.6.dev8]
+[2024-04-24 10:52:42] INFO root fetch - processPackages [tldraw]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-24 10:52:42] INFO root fetch - processPackages [rrtask]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 10:52:42] INFO root fetch - processPackages [rrtask]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 10:52:42] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 10:52:42] INFO root fetch - processPackages [quantminer]: Downloading https://files.pythonhosted.org/packages/6f/3a/d6e954b54bce41fdf7ac64c17064726bbd6e87e927bf4054f1cf2953f916/quantminer-0.4.2.tar.gz
+[2024-04-24 10:52:42] INFO root fetch - processPackages [mbtiles-util]: Downloading https://files.pythonhosted.org/packages/16/d3/d85479554f5c799a5585e83d9b2baa5f0dc17fd5d02b2d07f2700d67fca3/mbtiles_util-1.0.0.tar.gz
+[2024-04-24 10:52:42] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/cc/b5/00faf7a32b2d43303224e4c85e6ca1586aa38ed6bd7c49336b7ac8cebea7/moto-5.0.6.dev8.tar.gz
+[2024-04-24 10:52:42] INFO root fetch - processPackages [tldraw]: Downloading https://files.pythonhosted.org/packages/38/88/e98905647fe7ae9c1f691a4199a7e8fac97249af81fa0504066dee65da4c/tldraw-2.0.8.tar.gz
+[2024-04-24 10:52:42] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/75/73/85d844d54bc62031fd2ff45b3b442f9e6044de67ab5590584966ff595e9d/gcp_pal-1.0.0.tar.gz
+[2024-04-24 10:52:42] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/95/fb/e1da00d51e7a95946874906a3b8888c7c5b82d27df52e962346f9ba3dfe0/rrtask-0.0.1.tar.gz
+[2024-04-24 10:52:42] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/95/fb/e1da00d51e7a95946874906a3b8888c7c5b82d27df52e962346f9ba3dfe0/rrtask-0.0.1.tar.gz
+[2024-04-24 10:52:42] INFO root fetch - processPackages [mbtiles-util]: Downloading https://files.pythonhosted.org/packages/4c/05/04610f1468a00e854c3c7f090de223b4f750d46176c78f14a70ba0977717/mbtiles_util-1.0.2.tar.gz
+[2024-04-24 10:52:42] INFO root fetch - processPackages [quantminer]: Downloading https://files.pythonhosted.org/packages/4c/95/5759ccaa1b95680861c313c9bc146ec11c686bb010f7441525f0e548811a/quantminer-0.5.0.tar.gz
+[2024-04-24 10:52:42] INFO root fetch - processPackages [mbtiles-util]: executing diffoscope
+[2024-04-24 10:52:42] INFO root fetch - processPackages [mbtiles-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbtiles_util-1.0.0.tar.gz tmp/mbtiles_util-1.0.2.tar.gz --markdown 20240424/m/mbtiles-util/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-04-24 10:52:42] INFO root fetch - processPackages [quantminer]: executing diffoscope
+[2024-04-24 10:52:42] INFO root fetch - processPackages [quantminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantminer-0.4.2.tar.gz tmp/quantminer-0.5.0.tar.gz --markdown 20240424/q/quantminer/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-24 10:52:43] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/67/63/03d8401d8574b4b96cd00404b9b4b0f0791e6dc794bc44ad3730b7dd8e46/moto-5.0.6.dev9.tar.gz
+[2024-04-24 10:52:43] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/ed/ba/6c4ddb6e9bc2f7564a0cf387f8b4b3ce5f066aa3b61d8d7e4bff9a688b06/rrtask-0.0.2.tar.gz
+[2024-04-24 10:52:43] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/91/84/6d022c26474cbd2435b783fd9be014f5e8d1b30cff6d301253f3e3a608ff/gcp_pal-1.0.1.tar.gz
+[2024-04-24 10:52:43] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/ed/ba/6c4ddb6e9bc2f7564a0cf387f8b4b3ce5f066aa3b61d8d7e4bff9a688b06/rrtask-0.0.2.tar.gz
+[2024-04-24 10:52:43] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-04-24 10:52:43] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.0.tar.gz tmp/gcp_pal-1.0.1.tar.gz --markdown 20240424/g/gcp-pal/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 10:52:43] INFO root fetch - processPackages [rrtask]: executing diffoscope
+[2024-04-24 10:52:43] INFO root fetch - processPackages [rrtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rrtask-0.0.1.tar.gz tmp/rrtask-0.0.2.tar.gz --markdown 20240424/r/rrtask/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 10:52:43] INFO root fetch - processPackages [rrtask]: executing diffoscope
+[2024-04-24 10:52:43] INFO root fetch - processPackages [rrtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rrtask-0.0.1.tar.gz tmp/rrtask-0.0.2.tar.gz --markdown 20240424/r/rrtask/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 10:52:43] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-24 10:52:43] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.6.dev8.tar.gz tmp/moto-5.0.6.dev9.tar.gz --markdown 20240424/m/moto/5.0.6.dev8-5.0.6.dev9/README.md --exclude *.pyd
+[2024-04-24 10:52:43] INFO root fetch - processPackages [quantminer]: Remove: archive file [/home/abi/fetcher/tmp/quantminer-0.4.2.tar.gz]
+[2024-04-24 10:52:43] INFO root fetch - processPackages [quantminer]: Remove: archive file [/home/abi/fetcher/tmp/quantminer-0.5.0.tar.gz]
+[2024-04-24 10:52:43] INFO root fetch - main [MainThread]: End processing [quantminer]: success
+[2024-04-24 10:52:43] INFO root fetch - processPackages [mbtiles-util]: Remove: archive file [/home/abi/fetcher/tmp/mbtiles_util-1.0.0.tar.gz]
+[2024-04-24 10:52:43] INFO root fetch - processPackages [mbtiles-util]: Remove: archive file [/home/abi/fetcher/tmp/mbtiles_util-1.0.2.tar.gz]
+[2024-04-24 10:52:43] INFO root fetch - main [MainThread]: End processing [mbtiles-util]: success
+[2024-04-24 10:52:43] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.1.tar.gz]
+[2024-04-24 10:52:43] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.2.tar.gz]
+[2024-04-24 10:52:43] INFO root fetch - main [MainThread]: End processing [rrtask]: success
+[2024-04-24 10:52:43] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.0.tar.gz]
+[2024-04-24 10:52:43] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.1.tar.gz]
+[2024-04-24 10:52:43] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-04-24 10:52:44] INFO root fetch - main [MainThread]: End processing [rrtask]: success
+[2024-04-24 10:52:44] INFO root fetch - processPackages [tldraw]: Downloading https://files.pythonhosted.org/packages/84/c9/551763075c818744f792fe7b2b4b3c7098a18191128a7677de55dbddec6f/tldraw-2.0.9.tar.gz
+[2024-04-24 10:52:44] INFO root fetch - processPackages [tldraw]: executing diffoscope
+[2024-04-24 10:52:44] INFO root fetch - processPackages [tldraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldraw-2.0.8.tar.gz tmp/tldraw-2.0.9.tar.gz --markdown 20240424/t/tldraw/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-24 10:52:46] INFO root fetch - processPackages [tldraw]: Remove: archive file [/home/abi/fetcher/tmp/tldraw-2.0.8.tar.gz]
+[2024-04-24 10:52:46] INFO root fetch - processPackages [tldraw]: Remove: archive file [/home/abi/fetcher/tmp/tldraw-2.0.9.tar.gz]
+[2024-04-24 10:52:46] INFO root fetch - main [MainThread]: End processing [tldraw]: success
+[2024-04-24 10:52:54] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev8.tar.gz]
+[2024-04-24 10:52:54] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev9.tar.gz]
+[2024-04-24 10:52:54] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-24 10:52:54] INFO root fetch - main [MainThread]: Store serial: [22909289]
