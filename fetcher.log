@@ -8086,3 +8086,60 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:33:58] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.37.tar.gz]
 [2024-04-24 04:33:58] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
 [2024-04-24 04:33:58] INFO root fetch - main [MainThread]: Store serial: [22905878]
+[2024-04-24 04:36:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905878]
+[2024-04-24 04:36:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 04:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qai-core
+[2024-04-24 04:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libro
+[2024-04-24 04:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libro-flow
+[2024-04-24 04:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accuhit-db
+[2024-04-24 04:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usvseg
+[2024-04-24 04:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: JayttleProcess
+[2024-04-24 04:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cj-package
+[2024-04-24 04:36:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simular-eth-stubs
+[2024-04-24 04:36:09] WARNING root fetch - processPackages [libro-flow]: Skipping, unable to determine old version
+[2024-04-24 04:36:09] INFO root fetch - main [MainThread]: End processing [libro-flow] error
+[2024-04-24 04:36:09] INFO root fetch - processPackages [simular-eth-stubs]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 04:36:09] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 04:36:09] INFO root fetch - processPackages [libro]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-24 04:36:09] WARNING root fetch - processPackages [usvseg]: Skipping, unable to determine old version
+[2024-04-24 04:36:09] INFO root fetch - main [MainThread]: End processing [usvseg] error
+[2024-04-24 04:36:09] WARNING root fetch - processPackages [accuhit-db]: Skipping, unable to determine old version
+[2024-04-24 04:36:09] INFO root fetch - main [MainThread]: End processing [accuhit-db] error
+[2024-04-24 04:36:09] INFO root fetch - processPackages [JayttleProcess]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-24 04:36:09] INFO root fetch - processPackages [qai-core]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-24 04:36:09] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/c6/37/df9bd416d13887d11271e7a0e9012443578233b0ab327a8e2bd7856cc9de/libro-0.1.4.tar.gz
+[2024-04-24 04:36:09] INFO root fetch - processPackages [simular-eth-stubs]: Downloading https://files.pythonhosted.org/packages/fa/a8/9fd8da8915ba7f58e5dc86db884c4a63c59f572a7f2117654617c937b53d/simular-eth-stubs-0.0.2.tar.gz
+[2024-04-24 04:36:09] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-24 04:36:09] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/e1/75/82853d9db8ccf928ba941492bef2ca0ca8967aa17d9802155eb9fedca50a/JayttleProcess-0.2.2-py3-none-any.whl
+[2024-04-24 04:36:09] INFO root fetch - processPackages [qai-core]: Downloading https://files.pythonhosted.org/packages/07/1b/7d1d4b4c2e88b4d5315d4d8501611ca7d2d38e28ee3e8f96f3c2479e67b3/qai_core-0.1.7.tar.gz
+[2024-04-24 04:36:09] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-24 04:36:09] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-24 04:36:09] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240424/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 04:36:09] INFO root fetch - processPackages [simular-eth-stubs]: Downloading https://files.pythonhosted.org/packages/56/9a/48025890ac5e5170495c581a870c0c18f011707a8ffb8f49aed0cc418a79/simular-eth-stubs-0.0.3.tar.gz
+[2024-04-24 04:36:09] INFO root fetch - processPackages [simular-eth-stubs]: executing diffoscope
+[2024-04-24 04:36:09] INFO root fetch - processPackages [simular-eth-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simular-eth-stubs-0.0.2.tar.gz tmp/simular-eth-stubs-0.0.3.tar.gz --markdown 20240424/s/simular-eth-stubs/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 04:36:09] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/d2/e2/27a650d5ef655963010bbff4291a9f1c8c5dd47b29affacbafdc62c7529b/JayttleProcess-0.2.3-py3-none-any.whl
+[2024-04-24 04:36:09] INFO root fetch - processPackages [qai-core]: Downloading https://files.pythonhosted.org/packages/84/17/26c456f200c7d88e6aa348fbbf857cff81ce7a614f3029d6a63bcdbf82b4/qai_core-0.1.8.tar.gz
+[2024-04-24 04:36:09] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-04-24 04:36:09] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.2.2-py3-none-any.whl.zip tmp/JayttleProcess-0.2.3-py3-none-any.whl.zip --markdown 20240424/J/JayttleProcess/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-24 04:36:09] INFO root fetch - processPackages [qai-core]: executing diffoscope
+[2024-04-24 04:36:09] INFO root fetch - processPackages [qai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_core-0.1.7.tar.gz tmp/qai_core-0.1.8.tar.gz --markdown 20240424/q/qai-core/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-24 04:36:09] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/d5/3b/09c2dfbef59ff615c8eb3374734aa033b0703093c6d180b8085ca6bbded5/libro-0.1.5.tar.gz
+[2024-04-24 04:36:10] INFO root fetch - processPackages [simular-eth-stubs]: Remove: archive file [/home/abi/fetcher/tmp/simular-eth-stubs-0.0.2.tar.gz]
+[2024-04-24 04:36:10] INFO root fetch - processPackages [simular-eth-stubs]: Remove: archive file [/home/abi/fetcher/tmp/simular-eth-stubs-0.0.3.tar.gz]
+[2024-04-24 04:36:10] INFO root fetch - main [MainThread]: End processing [simular-eth-stubs]: success
+[2024-04-24 04:36:10] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-24 04:36:10] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-24 04:36:10] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-24 04:36:10] INFO root fetch - processPackages [libro]: executing diffoscope
+[2024-04-24 04:36:10] INFO root fetch - processPackages [libro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libro-0.1.4.tar.gz tmp/libro-0.1.5.tar.gz --markdown 20240424/l/libro/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-24 04:36:10] INFO root fetch - processPackages [qai-core]: Remove: archive file [/home/abi/fetcher/tmp/qai_core-0.1.7.tar.gz]
+[2024-04-24 04:36:10] INFO root fetch - processPackages [qai-core]: Remove: archive file [/home/abi/fetcher/tmp/qai_core-0.1.8.tar.gz]
+[2024-04-24 04:36:10] INFO root fetch - main [MainThread]: End processing [qai-core]: success
+[2024-04-24 04:36:10] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.2-py3-none-any.whl.zip]
+[2024-04-24 04:36:10] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.3-py3-none-any.whl.zip]
+[2024-04-24 04:36:10] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-04-24 04:38:53] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.4.tar.gz]
+[2024-04-24 04:38:53] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.5.tar.gz]
+[2024-04-24 04:38:53] INFO root fetch - main [MainThread]: End processing [libro]: success
+[2024-04-24 04:38:53] INFO root fetch - main [MainThread]: Store serial: [22905902]
