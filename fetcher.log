@@ -7858,3 +7858,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:21:18] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240423.tar.gz]
 [2024-04-24 04:21:18] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-24 04:21:18] INFO root fetch - main [MainThread]: Store serial: [22905798]
+[2024-04-24 04:23:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905798]
+[2024-04-24 04:23:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 04:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: facehuggershield
+[2024-04-24 04:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpc-obscodes
+[2024-04-24 04:23:26] INFO root fetch - processPackages [facehuggershield]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 04:23:27] INFO root fetch - processPackages [mpc-obscodes]: New version: [2024.4.5] Old Version: [2024.4.24]
+[2024-04-24 04:23:27] INFO root fetch - processPackages [facehuggershield]: Downloading https://files.pythonhosted.org/packages/10/73/18fa07038ce9d46d218a01ef68c3304c5ddadfe8c73916138baa82bb0f38/facehuggershield-0.1.0.tar.gz
+[2024-04-24 04:23:27] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/eb/27/e3ca190e6face1529d4a6c560f321b0dc7f98b7766173628f89dfe13f714/mpc_obscodes-2024.4.24-py3-none-any.whl
+[2024-04-24 04:23:27] INFO root fetch - processPackages [facehuggershield]: Downloading https://files.pythonhosted.org/packages/27/f4/6945bd2d54049146a2afe02c6d743cd4201b822cc5746a3b6f4e93387138/facehuggershield-0.1.1.tar.gz
+[2024-04-24 04:23:27] INFO root fetch - processPackages [facehuggershield]: executing diffoscope
+[2024-04-24 04:23:27] INFO root fetch - processPackages [facehuggershield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facehuggershield-0.1.0.tar.gz tmp/facehuggershield-0.1.1.tar.gz --markdown 20240424/f/facehuggershield/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 04:23:28] INFO root fetch - processPackages [facehuggershield]: Remove: archive file [/home/abi/fetcher/tmp/facehuggershield-0.1.0.tar.gz]
+[2024-04-24 04:23:28] INFO root fetch - processPackages [facehuggershield]: Remove: archive file [/home/abi/fetcher/tmp/facehuggershield-0.1.1.tar.gz]
+[2024-04-24 04:23:28] INFO root fetch - main [MainThread]: End processing [facehuggershield]: success
+[2024-04-24 04:23:28] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/c5/c7/026120cceb75d622414d8a5b26f0bbed6fe5ce3036fcf9be3ddab9297b6d/mpc_obscodes-2024.4.5.tar.gz
+[2024-04-24 04:23:28] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2024-04-24 04:23:28] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2024.4.24-py3-none-any.whl.zip tmp/mpc_obscodes-2024.4.5.tar.gz --markdown 20240424/m/mpc-obscodes/2024.4.24-2024.4.5/README.md --exclude *.pyd
+[2024-04-24 04:23:28] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.4.24-py3-none-any.whl.zip]
+[2024-04-24 04:23:28] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.4.5.tar.gz]
+[2024-04-24 04:23:28] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2024-04-24 04:23:28] INFO root fetch - main [MainThread]: Store serial: [22905801]
