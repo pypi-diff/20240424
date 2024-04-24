@@ -7494,3 +7494,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:50:45] INFO root fetch - processPackages [django-modalds]: Remove: archive file [/home/abi/fetcher/tmp/django_modalds-0.1.2.tar.gz]
 [2024-04-24 03:50:45] INFO root fetch - main [MainThread]: End processing [django-modalds]: success
 [2024-04-24 03:50:45] INFO root fetch - main [MainThread]: Store serial: [22905645]
+[2024-04-24 03:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905645]
+[2024-04-24 03:52:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tools-hjh
+[2024-04-24 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-utilsds
+[2024-04-24 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_herobiz_ds
+[2024-04-24 03:52:53] INFO root fetch - processPackages [tools-hjh]: New version: [2.6.3] Old Version: [2.6.2]
+[2024-04-24 03:52:54] INFO root fetch - processPackages [django_herobiz_ds]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-24 03:52:54] INFO root fetch - processPackages [django-utilsds]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-24 03:52:54] INFO root fetch - processPackages [tools-hjh]: Downloading https://files.pythonhosted.org/packages/23/24/4d785549c888c716ab1c2e66c3ed02de72e33d91b5a98a33ce575c9ac48a/tools_hjh-2.6.2.tar.gz
+[2024-04-24 03:52:54] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/e4/f0/7916fb35db3197cf9346fce19ddde26a6073248f2f271c9bbcfb31eabc94/django_herobiz_ds-2.2.0.tar.gz
+[2024-04-24 03:52:54] INFO root fetch - processPackages [django-utilsds]: Downloading https://files.pythonhosted.org/packages/10/7f/094b9581d360268de2214fd2247e539b6071105134e20409b7489eaed29b/django_utilsds-0.5.1.tar.gz
+[2024-04-24 03:52:54] INFO root fetch - processPackages [tools-hjh]: Downloading https://files.pythonhosted.org/packages/a4/2c/1f8e6bd354c43698fbdebcd27e5a13d7ac5233f725c9f85661a6371714b0/tools_hjh-2.6.3.tar.gz
+[2024-04-24 03:52:54] INFO root fetch - processPackages [django-utilsds]: Downloading https://files.pythonhosted.org/packages/18/66/150eb6f0de06f799d18fa936797b7297fed0a8683e872b6e01ba2392b527/django_utilsds-0.5.2.tar.gz
+[2024-04-24 03:52:54] INFO root fetch - processPackages [tools-hjh]: executing diffoscope
+[2024-04-24 03:52:54] INFO root fetch - processPackages [tools-hjh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tools_hjh-2.6.2.tar.gz tmp/tools_hjh-2.6.3.tar.gz --markdown 20240424/t/tools-hjh/2.6.2-2.6.3/README.md --exclude *.pyd
+[2024-04-24 03:52:54] INFO root fetch - processPackages [django-utilsds]: executing diffoscope
+[2024-04-24 03:52:54] INFO root fetch - processPackages [django-utilsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_utilsds-0.5.1.tar.gz tmp/django_utilsds-0.5.2.tar.gz --markdown 20240424/d/django-utilsds/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-24 03:52:54] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/40/80/1d55aa5111884ea4ef12eb1b36eacc7671a4861134f57eb4ef9f4daf1ee7/django_herobiz_ds-2.2.1.tar.gz
+[2024-04-24 03:52:55] INFO root fetch - processPackages [django-utilsds]: Remove: archive file [/home/abi/fetcher/tmp/django_utilsds-0.5.1.tar.gz]
+[2024-04-24 03:52:55] INFO root fetch - processPackages [django-utilsds]: Remove: archive file [/home/abi/fetcher/tmp/django_utilsds-0.5.2.tar.gz]
+[2024-04-24 03:52:55] INFO root fetch - main [MainThread]: End processing [django-utilsds]: success
+[2024-04-24 03:52:55] INFO root fetch - processPackages [tools-hjh]: Remove: archive file [/home/abi/fetcher/tmp/tools_hjh-2.6.2.tar.gz]
+[2024-04-24 03:52:55] INFO root fetch - processPackages [tools-hjh]: Remove: archive file [/home/abi/fetcher/tmp/tools_hjh-2.6.3.tar.gz]
+[2024-04-24 03:52:55] INFO root fetch - main [MainThread]: End processing [tools-hjh]: success
+[2024-04-24 03:52:56] INFO root fetch - processPackages [django_herobiz_ds]: executing diffoscope
+[2024-04-24 03:52:56] INFO root fetch - processPackages [django_herobiz_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_ds-2.2.0.tar.gz tmp/django_herobiz_ds-2.2.1.tar.gz --markdown 20240424/d/django_herobiz_ds/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-24 03:52:57] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.0.tar.gz]
+[2024-04-24 03:52:57] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.1.tar.gz]
+[2024-04-24 03:52:57] INFO root fetch - main [MainThread]: End processing [django_herobiz_ds]: success
+[2024-04-24 03:52:57] INFO root fetch - main [MainThread]: Store serial: [22905653]
