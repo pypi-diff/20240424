@@ -15765,3 +15765,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:52:54] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev9.tar.gz]
 [2024-04-24 10:52:54] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-24 10:52:54] INFO root fetch - main [MainThread]: Store serial: [22909289]
+[2024-04-24 10:54:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909289]
+[2024-04-24 10:55:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blueetl
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redturtle.prenotazioni
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: schedula
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudstructs
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartcitizen-connector
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TitanDevice
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: schedula-core
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: commitizen-xcodeproj
+[2024-04-24 10:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kso-utils
+[2024-04-24 10:55:03] WARNING root fetch - processPackages [commitizen-xcodeproj]: Skipping, unable to determine old version
+[2024-04-24 10:55:03] INFO root fetch - processPackages [commitizen-xcodeproj]: Start processing: NeuronsMemoryTestPipeline
+[2024-04-24 10:55:03] INFO root fetch - main [MainThread]: End processing [commitizen-xcodeproj] error
+[2024-04-24 10:55:03] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [blueetl]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [kso-utils]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [schedula-core]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/51/73/7ff536765618dbf406fc92e6a78a709a985b0cff0ce5b0c68f1d5b8a75f5/TitanDevice-0.2.7.tar.gz
+[2024-04-24 10:55:03] INFO root fetch - processPackages [smartcitizen-connector]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [schedula]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [cloudstructs]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [qwak-core]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-24 10:55:03] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: Downloading https://files.pythonhosted.org/packages/79/6e/a7cb9c6df418fa4cdd0acdb026dd6d522ac052e5980eaea03b0c97af7975/neuronsmemorytestpipeline-0.0.8.tar.gz
+[2024-04-24 10:55:03] INFO root fetch - processPackages [blueetl]: Downloading https://files.pythonhosted.org/packages/c1/af/210479fbca301416abc25ac327aa2c554ca6cdcc53af01c62c5f28171565/blueetl-0.8.3.tar.gz
+[2024-04-24 10:55:03] WARNING root fetch - processPackages [blueetl]: Skipping package: exceeds size limit 10636832>=10485760
+[2024-04-24 10:55:03] INFO root fetch - processPackages [blueetl]: Start processing: mo-dots
+[2024-04-24 10:55:03] INFO root fetch - main [MainThread]: End processing [blueetl] error
+[2024-04-24 10:55:03] INFO root fetch - processPackages [schedula-core]: Downloading https://files.pythonhosted.org/packages/3c/7c/d27a7b18393733fbd46ff84f26d051077fc6d1c17dd2a80c9420703de910/schedula_core-1.5.7.tar.gz
+[2024-04-24 10:55:03] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/54/64/ab3097fda63c4fec1080d91dd405939df243c796c3450d33b1fa356cd03d/redturtle_prenotazioni-2.6.3.tar.gz
+[2024-04-24 10:55:03] INFO root fetch - processPackages [cloudstructs]: Downloading https://files.pythonhosted.org/packages/14/5a/06a5f2a40ccb5785f6ae8558568898550c8895613dd68f509e7e48fa57f5/cloudstructs-0.9.4.tar.gz
+[2024-04-24 10:55:03] INFO root fetch - processPackages [schedula]: Downloading https://files.pythonhosted.org/packages/7d/6e/96f90bb01e048a5da11b84706fbff5c53b77a4fbffe99e4df5a59e769903/schedula-1.5.7.tar.gz
+[2024-04-24 10:55:03] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/59/3f/bd28e625e13a379a9463795eed9d170cceaf191d98c6ea302e910c4788e1/qwak_core-0.3.98.tar.gz
+[2024-04-24 10:55:03] INFO root fetch - processPackages [smartcitizen-connector]: Downloading https://files.pythonhosted.org/packages/72/b6/12bca61be37d2e24833eda34d9c5aebbc43744094a7bad930c74343b5d50/smartcitizen-connector-1.0.0.tar.gz
+[2024-04-24 10:55:03] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/2b/ff/19d34c968862ce43f99de0560056517547e1e1c376c9be65b1e31069d723/kso_utils-0.2.3.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/18/f1/7c04fd26ef02ba29ec1a1949d1160151f0b85868ae9829c8385050763cec/TitanDevice-0.2.8.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [mo-dots]: New version: [9.601.24115] Old Version: [9.600.24114]
+[2024-04-24 10:55:04] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: Downloading https://files.pythonhosted.org/packages/da/15/e2eefdda710a0f82a38a2718829ce979068150b82894381c432f178bad34/neuronsmemorytestpipeline-0.0.9.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 10:55:04] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.7.tar.gz tmp/TitanDevice-0.2.8.tar.gz --markdown 20240424/T/TitanDevice/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-24 10:55:04] INFO root fetch - processPackages [schedula-core]: Downloading https://files.pythonhosted.org/packages/50/94/75242545c8e73571661d832b743d0f43c4478fb0666695ef1525b534ae08/schedula_core-1.5.8.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/71/27/c696cbe7700b1648c72f99e45498e6ce661dc791a2af82d9efba2de47b15/mo_dots-9.600.24114.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: executing diffoscope
+[2024-04-24 10:55:04] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuronsmemorytestpipeline-0.0.8.tar.gz tmp/neuronsmemorytestpipeline-0.0.9.tar.gz --markdown 20240424/N/NeuronsMemoryTestPipeline/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:55:04] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/6e/67/5bb16d7cb826d843f2247335ab76f09a50b0f22643c608ca570502242c99/kso_utils-0.2.4.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [smartcitizen-connector]: Downloading https://files.pythonhosted.org/packages/99/c6/9a1b602ebeb72c9028210c7dd0afc6c478563e5de859703b7565d08bda59/smartcitizen_connector-1.0.1.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/ae/cc/78305ca17b4cbe23febe2ae66f44fed7b11e85e25ad44f5b829219c1b5fe/redturtle.prenotazioni-2.6.4.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [schedula-core]: executing diffoscope
+[2024-04-24 10:55:04] INFO root fetch - processPackages [schedula-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schedula_core-1.5.7.tar.gz tmp/schedula_core-1.5.8.tar.gz --markdown 20240424/s/schedula-core/1.5.7-1.5.8/README.md --exclude *.pyd
+[2024-04-24 10:55:04] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/71/0e/e7c880c764df31bf9e71679c2a411ac1a48667bfd4caee997236b1cc61fb/qwak_core-0.3.99.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [schedula]: Downloading https://files.pythonhosted.org/packages/79/51/147b5c66af5ea63801353e6f3da13384e6fc994631514d6d77b502d9900e/schedula-1.5.8.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [kso-utils]: executing diffoscope
+[2024-04-24 10:55:04] INFO root fetch - processPackages [kso-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kso_utils-0.2.3.tar.gz tmp/kso_utils-0.2.4.tar.gz --markdown 20240424/k/kso-utils/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-24 10:55:04] INFO root fetch - processPackages [smartcitizen-connector]: executing diffoscope
+[2024-04-24 10:55:04] INFO root fetch - processPackages [smartcitizen-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartcitizen-connector-1.0.0.tar.gz tmp/smartcitizen_connector-1.0.1.tar.gz --markdown 20240424/s/smartcitizen-connector/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 10:55:04] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2024-04-24 10:55:04] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle_prenotazioni-2.6.3.tar.gz tmp/redturtle.prenotazioni-2.6.4.tar.gz --markdown 20240424/r/redturtle.prenotazioni/2.6.3-2.6.4/README.md --exclude *.pyd
+[2024-04-24 10:55:04] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/68/12/b4ccfc0df7e7ff31a25b70492006aa4902d4e2259b8d32a6c92401b53632/mo_dots-9.601.24115.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-04-24 10:55:04] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.3.98.tar.gz tmp/qwak_core-0.3.99.tar.gz --markdown 20240424/q/qwak-core/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-24 10:55:04] INFO root fetch - processPackages [cloudstructs]: Downloading https://files.pythonhosted.org/packages/04/b2/742da2bc425f9c04c04eea061de8977cf5a32f3810fc20c9ebac8900c6d4/cloudstructs-0.9.5.tar.gz
+[2024-04-24 10:55:04] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2024-04-24 10:55:04] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_dots-9.600.24114.tar.gz tmp/mo_dots-9.601.24115.tar.gz --markdown 20240424/m/mo-dots/9.600.24114-9.601.24115/README.md --exclude *.pyd
+[2024-04-24 10:55:04] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.7.tar.gz]
+[2024-04-24 10:55:04] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.8.tar.gz]
+[2024-04-24 10:55:04] INFO root fetch - processPackages [TitanDevice]: Start processing: wizata-dsapi
+[2024-04-24 10:55:04] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 10:55:05] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-24 10:55:05] INFO root fetch - processPackages [schedula]: executing diffoscope
+[2024-04-24 10:55:05] INFO root fetch - processPackages [schedula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schedula-1.5.7.tar.gz tmp/schedula-1.5.8.tar.gz --markdown 20240424/s/schedula/1.5.7-1.5.8/README.md --exclude *.pyd
+[2024-04-24 10:55:05] INFO root fetch - processPackages [cloudstructs]: executing diffoscope
+[2024-04-24 10:55:05] INFO root fetch - processPackages [cloudstructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudstructs-0.9.4.tar.gz tmp/cloudstructs-0.9.5.tar.gz --markdown 20240424/c/cloudstructs/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-24 10:55:05] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f1/0a/0508b1f02ec8c24958430101972d9c902439dc9f16329d030ce8517ea7be/wizata-dsapi-0.4.8.tar.gz
+[2024-04-24 10:55:05] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: Remove: archive file [/home/abi/fetcher/tmp/neuronsmemorytestpipeline-0.0.8.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - processPackages [NeuronsMemoryTestPipeline]: Remove: archive file [/home/abi/fetcher/tmp/neuronsmemorytestpipeline-0.0.9.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - main [MainThread]: End processing [NeuronsMemoryTestPipeline]: success
+[2024-04-24 10:55:05] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/8d/db/a0ae202d1e8bb1b56d320058ac8bef6d9f6ec02eb54e2cc69f637e04a601/wizata-dsapi-0.4.9.tar.gz
+[2024-04-24 10:55:05] INFO root fetch - processPackages [schedula-core]: Remove: archive file [/home/abi/fetcher/tmp/schedula_core-1.5.7.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - processPackages [schedula-core]: Remove: archive file [/home/abi/fetcher/tmp/schedula_core-1.5.8.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - main [MainThread]: End processing [schedula-core]: success
+[2024-04-24 10:55:05] INFO root fetch - processPackages [smartcitizen-connector]: Remove: archive file [/home/abi/fetcher/tmp/smartcitizen-connector-1.0.0.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - processPackages [smartcitizen-connector]: Remove: archive file [/home/abi/fetcher/tmp/smartcitizen_connector-1.0.1.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - main [MainThread]: End processing [smartcitizen-connector]: success
+[2024-04-24 10:55:05] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2024-04-24 10:55:05] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.4.8.tar.gz tmp/wizata-dsapi-0.4.9.tar.gz --markdown 20240424/w/wizata-dsapi/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-24 10:55:05] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.3.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.4.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - main [MainThread]: End processing [kso-utils]: success
+[2024-04-24 10:55:05] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.600.24114.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.601.24115.tar.gz]
+[2024-04-24 10:55:05] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2024-04-24 10:55:06] INFO root fetch - processPackages [cloudstructs]: Remove: archive file [/home/abi/fetcher/tmp/cloudstructs-0.9.4.tar.gz]
+[2024-04-24 10:55:06] INFO root fetch - processPackages [cloudstructs]: Remove: archive file [/home/abi/fetcher/tmp/cloudstructs-0.9.5.tar.gz]
+[2024-04-24 10:55:06] INFO root fetch - main [MainThread]: End processing [cloudstructs]: success
+[2024-04-24 10:55:06] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.4.8.tar.gz]
+[2024-04-24 10:55:06] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.4.9.tar.gz]
+[2024-04-24 10:55:06] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2024-04-24 10:55:06] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle_prenotazioni-2.6.3.tar.gz]
+[2024-04-24 10:55:06] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.4.tar.gz]
+[2024-04-24 10:55:06] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2024-04-24 10:55:06] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.7.tar.gz]
+[2024-04-24 10:55:06] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.8.tar.gz]
+[2024-04-24 10:55:06] INFO root fetch - main [MainThread]: End processing [schedula]: success
+[2024-04-24 10:55:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.98.tar.gz]
+[2024-04-24 10:55:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
+[2024-04-24 10:55:07] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-04-24 10:55:07] INFO root fetch - main [MainThread]: Store serial: [22909327]
