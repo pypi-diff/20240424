@@ -11867,3 +11867,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:16:06] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.5.tar.gz]
 [2024-04-24 08:16:06] INFO root fetch - main [MainThread]: End processing [mns-common]: success
 [2024-04-24 08:16:06] INFO root fetch - main [MainThread]: Store serial: [22907462]
+[2024-04-24 08:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907462]
+[2024-04-24 08:18:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 08:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ul-api-utils
+[2024-04-24 08:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py21cmcast
+[2024-04-24 08:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2024-04-24 08:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module
+[2024-04-24 08:18:14] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240423] Old Version: [20240422]
+[2024-04-24 08:18:14] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240423] Old Version: [20240422]
+[2024-04-24 08:18:15] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/ba/94/42dd34802d9311acf59aee05f7c2736fc485d5e80e905bdf405c97230120/fake_bpy_module-20240422.tar.gz
+[2024-04-24 08:18:15] INFO root fetch - processPackages [py21cmcast]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-24 08:18:15] INFO root fetch - processPackages [ul-api-utils]: New version: [7.9.3] Old Version: [7.9.2]
+[2024-04-24 08:18:15] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/a6/fa/b49ae886f0779b48b24b5a62872053e4f8a96f26a9415736768344482902/fake_bpy_module_latest-20240422.tar.gz
+[2024-04-24 08:18:15] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/cf/ab/7cda34b4572d26d1d08eeb2571834a8afe6ced5ad589c603cac01d3c55ce/ul-api-utils-7.9.2.tar.gz
+[2024-04-24 08:18:15] INFO root fetch - processPackages [py21cmcast]: Downloading https://files.pythonhosted.org/packages/47/d5/d2511deaa9fad819cf95c2c62ef95d3728d882a78f3bc9a97e6a5c8a875a/py21cmcast-1.0.3.tar.gz
+[2024-04-24 08:18:15] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/62/18/f0b152ae84cd7ed80aa9425ac50478408b37ecdd471f609c8852de284514/fake_bpy_module-20240423.tar.gz
+[2024-04-24 08:18:15] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/43/dd/ed945eaad3c628a577d456103fe10da09557c31fe7c98ce241af3c3e2bd6/fake_bpy_module_latest-20240423.tar.gz
+[2024-04-24 08:18:15] INFO root fetch - processPackages [py21cmcast]: Downloading https://files.pythonhosted.org/packages/cb/43/583ea20da8c10d57bb4799874f41d94e415984547c92021189a7217e6c3c/py21cmcast-1.0.4.tar.gz
+[2024-04-24 08:18:15] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/1b/26/bc28db5039bc22a6221a8e40063cad7ac8e6d7dd8ece68fce4a1764ac247/ul-api-utils-7.9.3.tar.gz
+[2024-04-24 08:18:15] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-24 08:18:15] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240422.tar.gz tmp/fake_bpy_module-20240423.tar.gz --markdown 20240424/f/fake-bpy-module/20240422-20240423/README.md --exclude *.pyd
+[2024-04-24 08:18:15] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-24 08:18:15] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240422.tar.gz tmp/fake_bpy_module_latest-20240423.tar.gz --markdown 20240424/f/fake-bpy-module-latest/20240422-20240423/README.md --exclude *.pyd
+[2024-04-24 08:18:15] INFO root fetch - processPackages [py21cmcast]: executing diffoscope
+[2024-04-24 08:18:15] INFO root fetch - processPackages [py21cmcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py21cmcast-1.0.3.tar.gz tmp/py21cmcast-1.0.4.tar.gz --markdown 20240424/p/py21cmcast/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-24 08:18:15] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2024-04-24 08:18:15] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.9.2.tar.gz tmp/ul-api-utils-7.9.3.tar.gz --markdown 20240424/u/ul-api-utils/7.9.2-7.9.3/README.md --exclude *.pyd
+[2024-04-24 08:18:16] INFO root fetch - processPackages [py21cmcast]: Remove: archive file [/home/abi/fetcher/tmp/py21cmcast-1.0.3.tar.gz]
+[2024-04-24 08:18:16] INFO root fetch - processPackages [py21cmcast]: Remove: archive file [/home/abi/fetcher/tmp/py21cmcast-1.0.4.tar.gz]
+[2024-04-24 08:18:16] INFO root fetch - main [MainThread]: End processing [py21cmcast]: success
+[2024-04-24 08:18:16] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.2.tar.gz]
+[2024-04-24 08:18:16] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.3.tar.gz]
+[2024-04-24 08:18:16] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2024-04-24 08:18:23] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240422.tar.gz]
+[2024-04-24 08:18:23] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240423.tar.gz]
+[2024-04-24 08:18:23] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-24 08:18:23] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240422.tar.gz]
+[2024-04-24 08:18:23] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240423.tar.gz]
+[2024-04-24 08:18:23] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-24 08:18:23] INFO root fetch - main [MainThread]: Store serial: [22907475]
