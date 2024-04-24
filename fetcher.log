@@ -18229,3 +18229,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:08:33] INFO root fetch - processPackages [thunderfish]: Remove: archive file [/home/abi/fetcher/tmp/thunderfish-2.0.0.tar.gz]
 [2024-04-24 12:08:33] INFO root fetch - main [MainThread]: End processing [thunderfish]: success
 [2024-04-24 12:08:33] INFO root fetch - main [MainThread]: Store serial: [22910197]
+[2024-04-24 12:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910197]
+[2024-04-24 12:10:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nkululeko
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-ehpcinstant20230701-py2
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TitanDevice
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gocodeo
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robot_descriptions
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-keras-nightly
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: outpostkit
+[2024-04-24 12:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RabbitMQPubSub
+[2024-04-24 12:10:43] INFO root fetch - processPackages [outpostkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-24 12:10:43] INFO root fetch - processPackages [gocodeo]: New version: [0.0.9.2] Old Version: [0.0.9.1]
+[2024-04-24 12:10:43] INFO root fetch - processPackages [TitanDevice]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-24 12:10:43] INFO root fetch - processPackages [nkululeko]: New version: [0.82.1] Old Version: [0.82.0]
+[2024-04-24 12:10:43] INFO root fetch - processPackages [udata]: New version: [8.0.1.dev28859] Old Version: [8.0.0]
+[2024-04-24 12:10:43] INFO root fetch - processPackages [MeUtils]: New version: [2024.4.24.9.41.8] Old Version: [2024.4.24.15.17.56]
+[2024-04-24 12:10:43] WARNING root fetch - processPackages [alibabacloud-ehpcinstant20230701-py2]: Skipping, unable to determine old version
+[2024-04-24 12:10:43] INFO root fetch - processPackages [alibabacloud-ehpcinstant20230701-py2]: Start processing: cognite-neat
+[2024-04-24 12:10:43] INFO root fetch - main [MainThread]: End processing [alibabacloud-ehpcinstant20230701-py2] error
+[2024-04-24 12:10:43] INFO root fetch - processPackages [RabbitMQPubSub]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-24 12:10:43] INFO root fetch - processPackages [robot_descriptions]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-24 12:10:43] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024042409] Old Version: [2.17.0.dev2024042309]
+[2024-04-24 12:10:43] INFO root fetch - processPackages [gocodeo]: Downloading https://files.pythonhosted.org/packages/58/fe/59f55c4817be0ad865d7de440745ab36f969ae9d0e9d70a26a3729ad1214/gocodeo-0.0.9.1.tar.gz
+[2024-04-24 12:10:43] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/e8/20/6f4f3b0edb61dd5f691668605b0901894c58c85e728662fff6913423203c/outpostkit-0.0.7.tar.gz
+[2024-04-24 12:10:43] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/5f/50/c3c24d6d07f4157b43a1b192687a06eb3180ea70345c715346834726641d/TitanDevice-0.3.0.tar.gz
+[2024-04-24 12:10:43] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/29/d1/e242461a6eef1527bbe7e134d27fb3b7f93027d63c4b4d688d128c477972/nkululeko-0.82.0.tar.gz
+[2024-04-24 12:10:43] INFO root fetch - processPackages [cognite-neat]: New version: [0.75.3] Old Version: [0.75.2]
+[2024-04-24 12:10:43] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/49/47/16d5f55e6a97ab31ef8fc3dd3202e1c90d3d68d4819818d2d694ead7e1cd/udata-8.0.0-py2.py3-none-any.whl
+[2024-04-24 12:10:43] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/8e/ca/a7f78491817969a0b5b055e5013e1d4cf564f0115d31ed133538abe0f357/tf_keras_nightly-2.17.0.dev2024042309.tar.gz
+[2024-04-24 12:10:43] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/8b/11/3c08a4fca802bfc6f77d6af730fbae61df845939ea9c5aea62c4cf878f77/cognite_neat-0.75.2.tar.gz
+[2024-04-24 12:10:43] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/80/c5/2019b60451498006db75c14cb3e24caca330bf7b274f50a1d3cf20a41cd1/MeUtils-2024.4.24.15.17.56.tar.gz
+[2024-04-24 12:10:43] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19777815>=10485760
+[2024-04-24 12:10:43] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-24 12:10:43] INFO root fetch - processPackages [robot_descriptions]: Downloading https://files.pythonhosted.org/packages/79/56/d4106a2699d91e320bacbd03c18bf35a3c3ddb309e56abeeb88a05296cb5/robot_descriptions-1.8.1.tar.gz
+[2024-04-24 12:10:43] INFO root fetch - processPackages [RabbitMQPubSub]: Downloading https://files.pythonhosted.org/packages/e4/0f/69d921e8e4478318e3f0dad8235e9ad9de5355456d1125415ec99fd25a0b/rabbitmqpubsub-1.0.0.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/b3/af/8945c62fc6dc5596e5618810b3971a4c11d217517a24d0cd40a10b5b9553/outpostkit-0.0.9.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [gocodeo]: Downloading https://files.pythonhosted.org/packages/90/82/98bc6e0072c3649de6a72274bf2f6fb0787f9023e7444cbb6d040a464cbd/gocodeo-0.0.9.2.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/b8/12/3817b92380f1b95a4c100307ea755e7bf27524b9e4d557f13344d08bac3a/TitanDevice-0.3.1.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/cf/e9/7f26dbea9be9b2f08af8a0d95186434ec955b457b6ded5e24231769c7908/nkululeko-0.82.1.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [outpostkit]: executing diffoscope
+[2024-04-24 12:10:44] INFO root fetch - processPackages [outpostkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostkit-0.0.7.tar.gz tmp/outpostkit-0.0.9.tar.gz --markdown 20240424/o/outpostkit/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-24 12:10:44] INFO root fetch - processPackages [gocodeo]: executing diffoscope
+[2024-04-24 12:10:44] INFO root fetch - processPackages [gocodeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocodeo-0.0.9.1.tar.gz tmp/gocodeo-0.0.9.2.tar.gz --markdown 20240424/g/gocodeo/0.0.9.1-0.0.9.2/README.md --exclude *.pyd
+[2024-04-24 12:10:44] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 12:10:44] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.3.0.tar.gz tmp/TitanDevice-0.3.1.tar.gz --markdown 20240424/T/TitanDevice/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-24 12:10:44] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/52/c7/f8e982ea082959515d06388df4878009379c741e79fc6f95fc3aefc96d9f/tf_keras_nightly-2.17.0.dev2024042409.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [robot_descriptions]: Downloading https://files.pythonhosted.org/packages/a9/a5/a869a45fca8f9315d929ac331bdbd11a03ba9eb616095fd74560424f8821/robot_descriptions-1.9.0.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [RabbitMQPubSub]: Downloading https://files.pythonhosted.org/packages/c9/0c/281de0ee183101308046ae8cff03cebb18d4c36246d6143976b8c6120a9d/rabbitmqpubsub-1.1.0.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-04-24 12:10:44] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.82.0.tar.gz tmp/nkululeko-0.82.1.tar.gz --markdown 20240424/n/nkululeko/0.82.0-0.82.1/README.md --exclude *.pyd
+[2024-04-24 12:10:44] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/95/d1/32eb4b222d17898f04cb93baab513f04ba82f6049d36fc3973cda063aefd/MeUtils-2024.4.24.9.41.8.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [robot_descriptions]: executing diffoscope
+[2024-04-24 12:10:44] INFO root fetch - processPackages [robot_descriptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robot_descriptions-1.8.1.tar.gz tmp/robot_descriptions-1.9.0.tar.gz --markdown 20240424/r/robot_descriptions/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-24 12:10:44] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-24 12:10:44] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024042309.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024042409.tar.gz --markdown 20240424/t/tf-keras-nightly/2.17.0.dev2024042309-2.17.0.dev2024042409/README.md --exclude *.pyd
+[2024-04-24 12:10:44] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/af/12/400f470a0e49430e7cbf406979a3e0a7d187c713f2094b2e366703a5de5d/cognite_neat-0.75.3.tar.gz
+[2024-04-24 12:10:44] INFO root fetch - processPackages [RabbitMQPubSub]: executing diffoscope
+[2024-04-24 12:10:44] INFO root fetch - processPackages [RabbitMQPubSub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbitmqpubsub-1.0.0.tar.gz tmp/rabbitmqpubsub-1.1.0.tar.gz --markdown 20240424/R/RabbitMQPubSub/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-24 12:10:44] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-04-24 12:10:44] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.4.24.15.17.56.tar.gz tmp/MeUtils-2024.4.24.9.41.8.tar.gz --markdown 20240424/M/MeUtils/2024.4.24.15.17.56-2024.4.24.9.41.8/README.md --exclude *.pyd
+[2024-04-24 12:10:44] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-24 12:10:44] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.75.2.tar.gz tmp/cognite_neat-0.75.3.tar.gz --markdown 20240424/c/cognite-neat/0.75.2-0.75.3/README.md --exclude *.pyd
+[2024-04-24 12:10:44] INFO root fetch - processPackages [gocodeo]: Remove: archive file [/home/abi/fetcher/tmp/gocodeo-0.0.9.1.tar.gz]
+[2024-04-24 12:10:44] INFO root fetch - processPackages [gocodeo]: Remove: archive file [/home/abi/fetcher/tmp/gocodeo-0.0.9.2.tar.gz]
+[2024-04-24 12:10:44] INFO root fetch - main [MainThread]: End processing [gocodeo]: success
+[2024-04-24 12:10:45] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.7.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
+[2024-04-24 12:10:45] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.0.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.1.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 12:10:45] INFO root fetch - processPackages [RabbitMQPubSub]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmqpubsub-1.0.0.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - processPackages [RabbitMQPubSub]: Remove: archive file [/home/abi/fetcher/tmp/rabbitmqpubsub-1.1.0.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - main [MainThread]: End processing [RabbitMQPubSub]: success
+[2024-04-24 12:10:45] INFO root fetch - processPackages [robot_descriptions]: Remove: archive file [/home/abi/fetcher/tmp/robot_descriptions-1.8.1.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - processPackages [robot_descriptions]: Remove: archive file [/home/abi/fetcher/tmp/robot_descriptions-1.9.0.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - main [MainThread]: End processing [robot_descriptions]: success
+[2024-04-24 12:10:45] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.82.0.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.82.1.tar.gz]
+[2024-04-24 12:10:45] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-04-24 12:10:46] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.24.15.17.56.tar.gz]
+[2024-04-24 12:10:46] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.24.9.41.8.tar.gz]
+[2024-04-24 12:10:46] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-04-24 12:10:47] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042309.tar.gz]
+[2024-04-24 12:10:47] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042409.tar.gz]
+[2024-04-24 12:10:47] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-24 12:10:49] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.2.tar.gz]
+[2024-04-24 12:10:49] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.3.tar.gz]
+[2024-04-24 12:10:49] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-24 12:10:49] INFO root fetch - main [MainThread]: Store serial: [22910231]
