@@ -10963,3 +10963,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:24:25] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
 [2024-04-24 07:24:25] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-24 07:24:25] INFO root fetch - main [MainThread]: Store serial: [22907164]
+[2024-04-24 07:26:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907164]
+[2024-04-24 07:26:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 07:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GS-Edit
+[2024-04-24 07:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bgtask4django
+[2024-04-24 07:26:34] INFO root fetch - processPackages [bgtask4django]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 07:26:34] INFO root fetch - processPackages [GS-Edit]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-24 07:26:34] INFO root fetch - processPackages [bgtask4django]: Downloading https://files.pythonhosted.org/packages/ce/e6/3ae711c34e2e3a73a49695104c36847447ef9d8719522a1fdd60e77b50c4/bgtask4django-1.0.0.tar.gz
+[2024-04-24 07:26:34] INFO root fetch - processPackages [GS-Edit]: Downloading https://files.pythonhosted.org/packages/b7/5b/e7f3a9cbc3c76dfea9ac124fd453cb48ad66266d61342a3f6f712766ff19/gs_edit-0.2.3.tar.gz
+[2024-04-24 07:26:34] INFO root fetch - processPackages [bgtask4django]: Downloading https://files.pythonhosted.org/packages/d7/bf/6e604cbccb254c9447d3c8749b1cefe425b193562d89804925679dc859b0/bgtask4django-1.0.1.tar.gz
+[2024-04-24 07:26:34] INFO root fetch - processPackages [bgtask4django]: executing diffoscope
+[2024-04-24 07:26:34] INFO root fetch - processPackages [bgtask4django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgtask4django-1.0.0.tar.gz tmp/bgtask4django-1.0.1.tar.gz --markdown 20240424/b/bgtask4django/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 07:26:34] INFO root fetch - processPackages [GS-Edit]: Downloading https://files.pythonhosted.org/packages/0b/e6/114510f6d94ba29aef688b1ccd5d27d3991bc86697d3ac556d78f3eb9ab9/gs_edit-0.2.4.tar.gz
+[2024-04-24 07:26:35] INFO root fetch - processPackages [GS-Edit]: executing diffoscope
+[2024-04-24 07:26:35] INFO root fetch - processPackages [GS-Edit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_edit-0.2.3.tar.gz tmp/gs_edit-0.2.4.tar.gz --markdown 20240424/G/GS-Edit/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-24 07:26:35] INFO root fetch - processPackages [bgtask4django]: Remove: archive file [/home/abi/fetcher/tmp/bgtask4django-1.0.0.tar.gz]
+[2024-04-24 07:26:35] INFO root fetch - processPackages [bgtask4django]: Remove: archive file [/home/abi/fetcher/tmp/bgtask4django-1.0.1.tar.gz]
+[2024-04-24 07:26:35] INFO root fetch - main [MainThread]: End processing [bgtask4django]: success
+[2024-04-24 07:26:35] INFO root fetch - processPackages [GS-Edit]: Remove: archive file [/home/abi/fetcher/tmp/gs_edit-0.2.3.tar.gz]
+[2024-04-24 07:26:35] INFO root fetch - processPackages [GS-Edit]: Remove: archive file [/home/abi/fetcher/tmp/gs_edit-0.2.4.tar.gz]
+[2024-04-24 07:26:35] INFO root fetch - main [MainThread]: End processing [GS-Edit]: success
+[2024-04-24 07:26:35] INFO root fetch - main [MainThread]: Store serial: [22907170]
