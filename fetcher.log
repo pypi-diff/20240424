@@ -10717,3 +10717,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:09:06] INFO root fetch - processPackages [gridworks-debug-cli]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_debug_cli-0.2.9.tar.gz]
 [2024-04-24 07:09:06] INFO root fetch - main [MainThread]: End processing [gridworks-debug-cli]: success
 [2024-04-24 07:09:06] INFO root fetch - main [MainThread]: Store serial: [22907000]
+[2024-04-24 07:11:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907000]
+[2024-04-24 07:11:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 07:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taxref
+[2024-04-24 07:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aanalyticsact-1
+[2024-04-24 07:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prerun
+[2024-04-24 07:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qh3
+[2024-04-24 07:11:15] INFO root fetch - processPackages [aanalyticsact-1]: New version: [0.0.1.50] Old Version: [0.0.1.49]
+[2024-04-24 07:11:15] INFO root fetch - processPackages [taxref]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 07:11:15] INFO root fetch - processPackages [prerun]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-24 07:11:15] INFO root fetch - processPackages [qh3]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-24 07:11:15] INFO root fetch - processPackages [aanalyticsact-1]: Downloading https://files.pythonhosted.org/packages/3f/07/6ff17980bdac4b22a5822fa549ee512a0d63dde97b8b9fb79572856fc338/aanalyticsact_1-0.0.1.49.tar.gz
+[2024-04-24 07:11:15] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/a1/a5/facbe9725296e56c02097e9a00d9c09541bd68d46830d771d9aa9afde463/prerun-1.1.1.tar.gz
+[2024-04-24 07:11:15] INFO root fetch - processPackages [taxref]: Downloading https://files.pythonhosted.org/packages/9f/5c/2987c732082714b33726439b130055759b25344fde879eca9c84fbadba07/taxref-0.0.8.tar.gz
+[2024-04-24 07:11:16] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/20/25/d4e1102aa9a5f1ceb9034f499efa31ad4b401393da6c8bbc6f922d11e3e0/qh3-1.0.3.tar.gz
+[2024-04-24 07:11:16] INFO root fetch - processPackages [aanalyticsact-1]: Downloading https://files.pythonhosted.org/packages/c1/29/2217b0ff7d6e1c450c0fe3532987d9dc186b078e51046c86cbed62b9980d/aanalyticsact_1-0.0.1.50.tar.gz
+[2024-04-24 07:11:16] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/90/86/52f46c1888426d6ab1cee93ff0009b0afb5ed4c1fb7a0d818d26114d602d/prerun-1.1.2.tar.gz
+[2024-04-24 07:11:16] INFO root fetch - processPackages [aanalyticsact-1]: executing diffoscope
+[2024-04-24 07:11:16] INFO root fetch - processPackages [aanalyticsact-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact_1-0.0.1.49.tar.gz tmp/aanalyticsact_1-0.0.1.50.tar.gz --markdown 20240424/a/aanalyticsact-1/0.0.1.49-0.0.1.50/README.md --exclude *.pyd
+[2024-04-24 07:11:16] INFO root fetch - processPackages [taxref]: Downloading https://files.pythonhosted.org/packages/05/46/d3570fb3378093f7ada7947097c04111e89b3cb027f0478fd5ebda049fee/taxref-0.0.9.tar.gz
+[2024-04-24 07:11:16] INFO root fetch - processPackages [prerun]: executing diffoscope
+[2024-04-24 07:11:16] INFO root fetch - processPackages [prerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prerun-1.1.1.tar.gz tmp/prerun-1.1.2.tar.gz --markdown 20240424/p/prerun/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-24 07:11:16] INFO root fetch - processPackages [taxref]: executing diffoscope
+[2024-04-24 07:11:16] INFO root fetch - processPackages [taxref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxref-0.0.8.tar.gz tmp/taxref-0.0.9.tar.gz --markdown 20240424/t/taxref/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 07:11:16] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/ff/4a/2193b6748b6d32971d1048a0f7400ef0d7f4a534911fd3450a6a4deaa03d/qh3-1.0.4-cp37-abi3-musllinux_1_1_x86_64.whl
+[2024-04-24 07:11:16] INFO root fetch - processPackages [aanalyticsact-1]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact_1-0.0.1.49.tar.gz]
+[2024-04-24 07:11:16] INFO root fetch - processPackages [aanalyticsact-1]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact_1-0.0.1.50.tar.gz]
+[2024-04-24 07:11:16] INFO root fetch - main [MainThread]: End processing [aanalyticsact-1]: success
+[2024-04-24 07:11:16] INFO root fetch - processPackages [taxref]: Remove: archive file [/home/abi/fetcher/tmp/taxref-0.0.8.tar.gz]
+[2024-04-24 07:11:16] INFO root fetch - processPackages [taxref]: Remove: archive file [/home/abi/fetcher/tmp/taxref-0.0.9.tar.gz]
+[2024-04-24 07:11:16] INFO root fetch - main [MainThread]: End processing [taxref]: success
+[2024-04-24 07:11:17] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-1.1.1.tar.gz]
+[2024-04-24 07:11:17] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-1.1.2.tar.gz]
+[2024-04-24 07:11:17] INFO root fetch - main [MainThread]: End processing [prerun]: success
+[2024-04-24 07:11:18] INFO root fetch - processPackages [qh3]: executing diffoscope
+[2024-04-24 07:11:18] INFO root fetch - processPackages [qh3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qh3-1.0.3.tar.gz tmp/qh3-1.0.4-cp37-abi3-musllinux_1_1_x86_64.whl.zip --markdown 20240424/q/qh3/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-24 07:11:19] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-1.0.3.tar.gz]
+[2024-04-24 07:11:19] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-1.0.4-cp37-abi3-musllinux_1_1_x86_64.whl.zip]
+[2024-04-24 07:11:19] INFO root fetch - main [MainThread]: End processing [qh3]: success
+[2024-04-24 07:11:19] INFO root fetch - main [MainThread]: Store serial: [22907019]
