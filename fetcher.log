@@ -19387,3 +19387,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:40:54] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-24 12:40:54] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-24 12:40:54] INFO root fetch - main [MainThread]: Store serial: [22910691]
+[2024-04-24 12:43:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910691]
+[2024-04-24 12:43:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 12:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyallinpay
+[2024-04-24 12:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keapi-robotics
+[2024-04-24 12:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsktoolbox
+[2024-04-24 12:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astra-haystack
+[2024-04-24 12:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neo4j-genai
+[2024-04-24 12:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydgn
+[2024-04-24 12:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robocupRAI
+[2024-04-24 12:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netlify-dns-manager
+[2024-04-24 12:43:12] INFO root fetch - processPackages [netlify-dns-manager]: New version: [0.2] Old Version: [0.1]
+[2024-04-24 12:43:12] INFO root fetch - processPackages [pydgn]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-24 12:43:12] INFO root fetch - processPackages [robocupRAI]: New version: [1.6] Old Version: [1.5]
+[2024-04-24 12:43:12] INFO root fetch - processPackages [pyallinpay]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-24 12:43:12] WARNING root fetch - processPackages [neo4j-genai]: Skipping, unable to determine old version
+[2024-04-24 12:43:12] INFO root fetch - main [MainThread]: End processing [neo4j-genai] error
+[2024-04-24 12:43:12] INFO root fetch - processPackages [jsktoolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 12:43:12] INFO root fetch - processPackages [keapi-robotics]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2024-04-24 12:43:12] INFO root fetch - processPackages [pydgn]: Downloading https://files.pythonhosted.org/packages/f9/6e/7825ff53b064110a36835b6f796fb5b11b3308f475e9a7827f5401685735/pydgn-1.5.4.tar.gz
+[2024-04-24 12:43:12] INFO root fetch - processPackages [astra-haystack]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-24 12:43:12] INFO root fetch - processPackages [netlify-dns-manager]: Downloading https://files.pythonhosted.org/packages/0c/c7/1c356bddafb7d282f8da294121b14bf26c3f886609d0036e64e2ed7f9ad7/netlify_dns_manager-0.1.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [robocupRAI]: Downloading https://files.pythonhosted.org/packages/55/3c/7914615290bb480ed7ae76510c1705bcc0273d5b2dc0ece9041bf08596a6/robocuprai-1.5.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [pyallinpay]: Downloading https://files.pythonhosted.org/packages/19/bc/8c28d4cbdc9d792c7ff8c01c893265ebc188e12bd8a6c3fbac44dc91c984/pyallinpay-1.1.8.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [jsktoolbox]: Downloading https://files.pythonhosted.org/packages/41/04/d73980298c34fb79888901943c272271d82f8e030b23578679cc878f5cc9/jsktoolbox-1.0.8.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [keapi-robotics]: Downloading https://files.pythonhosted.org/packages/80/1d/325d2322ba76a3d782300526c0343aebd45d2f7ca40fb1d87826f5695c08/keapi-robotics-1.0.0b2.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [astra-haystack]: Downloading https://files.pythonhosted.org/packages/8e/11/9ced73e74c73fe804a7622349db64caaec7543d479cac3c3e7b6b86cac0a/astra_haystack-0.5.1.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [pydgn]: Downloading https://files.pythonhosted.org/packages/47/1b/78014c24cabcbe770922c82e205d8b86d7752c5bc29e6da80b09de1bb01d/pydgn-1.5.5.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [pydgn]: executing diffoscope
+[2024-04-24 12:43:13] INFO root fetch - processPackages [pydgn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydgn-1.5.4.tar.gz tmp/pydgn-1.5.5.tar.gz --markdown 20240424/p/pydgn/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-04-24 12:43:13] INFO root fetch - processPackages [netlify-dns-manager]: Downloading https://files.pythonhosted.org/packages/45/f7/b9e6c3791f969288ebb03f51d33b510967c2292fcf5e64fe986e0b8a4a1b/netlify_dns_manager-0.2.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [robocupRAI]: Downloading https://files.pythonhosted.org/packages/cd/3e/e4be27afb9315e8120098705602ace69947e8f9f6e55c79f37b0bb804633/robocuprai-1.6.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [netlify-dns-manager]: executing diffoscope
+[2024-04-24 12:43:13] INFO root fetch - processPackages [netlify-dns-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlify_dns_manager-0.1.tar.gz tmp/netlify_dns_manager-0.2.tar.gz --markdown 20240424/n/netlify-dns-manager/0.1-0.2/README.md --exclude *.pyd
+[2024-04-24 12:43:13] INFO root fetch - processPackages [pyallinpay]: Downloading https://files.pythonhosted.org/packages/a0/02/44f23d1a0b91c97884f4c3f37cbd453ac3ec2e12c8238cc6770697a6f8d3/pyallinpay-1.1.9.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [jsktoolbox]: Downloading https://files.pythonhosted.org/packages/4c/9e/7eb20320007eabbd89c5532742f0260e90fece228ba8c62f20214067c7cf/jsktoolbox-1.0.9.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [astra-haystack]: Downloading https://files.pythonhosted.org/packages/ba/80/0d9e189290f5ef571931b4f1a7e47299749f591ac48a9154059631ab11f9/astra_haystack-0.6.0.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [pyallinpay]: executing diffoscope
+[2024-04-24 12:43:13] INFO root fetch - processPackages [pyallinpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyallinpay-1.1.8.tar.gz tmp/pyallinpay-1.1.9.tar.gz --markdown 20240424/p/pyallinpay/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-24 12:43:13] INFO root fetch - processPackages [keapi-robotics]: Downloading https://files.pythonhosted.org/packages/90/c5/f15fc6d5834ae084af9e390c076333ca07f028d216eca883ce7c46ef0743/keapi-robotics-1.0.0b3.tar.gz
+[2024-04-24 12:43:13] INFO root fetch - processPackages [robocupRAI]: executing diffoscope
+[2024-04-24 12:43:13] INFO root fetch - processPackages [robocupRAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocuprai-1.5.tar.gz tmp/robocuprai-1.6.tar.gz --markdown 20240424/r/robocupRAI/1.5-1.6/README.md --exclude *.pyd
+[2024-04-24 12:43:13] INFO root fetch - processPackages [jsktoolbox]: executing diffoscope
+[2024-04-24 12:43:13] INFO root fetch - processPackages [jsktoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsktoolbox-1.0.8.tar.gz tmp/jsktoolbox-1.0.9.tar.gz --markdown 20240424/j/jsktoolbox/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 12:43:13] INFO root fetch - processPackages [astra-haystack]: executing diffoscope
+[2024-04-24 12:43:13] INFO root fetch - processPackages [astra-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astra_haystack-0.5.1.tar.gz tmp/astra_haystack-0.6.0.tar.gz --markdown 20240424/a/astra-haystack/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-24 12:43:13] INFO root fetch - processPackages [keapi-robotics]: executing diffoscope
+[2024-04-24 12:43:13] INFO root fetch - processPackages [keapi-robotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keapi-robotics-1.0.0b2.tar.gz tmp/keapi-robotics-1.0.0b3.tar.gz --markdown 20240424/k/keapi-robotics/1.0.0b2-1.0.0b3/README.md --exclude *.pyd
+[2024-04-24 12:43:14] INFO root fetch - processPackages [pydgn]: Remove: archive file [/home/abi/fetcher/tmp/pydgn-1.5.4.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - processPackages [pydgn]: Remove: archive file [/home/abi/fetcher/tmp/pydgn-1.5.5.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - main [MainThread]: End processing [pydgn]: success
+[2024-04-24 12:43:14] INFO root fetch - processPackages [netlify-dns-manager]: Remove: archive file [/home/abi/fetcher/tmp/netlify_dns_manager-0.1.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - processPackages [netlify-dns-manager]: Remove: archive file [/home/abi/fetcher/tmp/netlify_dns_manager-0.2.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - main [MainThread]: End processing [netlify-dns-manager]: success
+[2024-04-24 12:43:14] INFO root fetch - processPackages [pyallinpay]: Remove: archive file [/home/abi/fetcher/tmp/pyallinpay-1.1.8.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - processPackages [pyallinpay]: Remove: archive file [/home/abi/fetcher/tmp/pyallinpay-1.1.9.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - main [MainThread]: End processing [pyallinpay]: success
+[2024-04-24 12:43:14] INFO root fetch - processPackages [robocupRAI]: Remove: archive file [/home/abi/fetcher/tmp/robocuprai-1.5.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - processPackages [robocupRAI]: Remove: archive file [/home/abi/fetcher/tmp/robocuprai-1.6.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - main [MainThread]: End processing [robocupRAI]: success
+[2024-04-24 12:43:14] INFO root fetch - processPackages [jsktoolbox]: Remove: archive file [/home/abi/fetcher/tmp/jsktoolbox-1.0.8.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - processPackages [jsktoolbox]: Remove: archive file [/home/abi/fetcher/tmp/jsktoolbox-1.0.9.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - main [MainThread]: End processing [jsktoolbox]: success
+[2024-04-24 12:43:14] INFO root fetch - processPackages [keapi-robotics]: Remove: archive file [/home/abi/fetcher/tmp/keapi-robotics-1.0.0b2.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - processPackages [keapi-robotics]: Remove: archive file [/home/abi/fetcher/tmp/keapi-robotics-1.0.0b3.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - main [MainThread]: End processing [keapi-robotics]: success
+[2024-04-24 12:43:14] INFO root fetch - processPackages [astra-haystack]: Remove: archive file [/home/abi/fetcher/tmp/astra_haystack-0.5.1.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - processPackages [astra-haystack]: Remove: archive file [/home/abi/fetcher/tmp/astra_haystack-0.6.0.tar.gz]
+[2024-04-24 12:43:14] INFO root fetch - main [MainThread]: End processing [astra-haystack]: success
+[2024-04-24 12:43:14] INFO root fetch - main [MainThread]: Store serial: [22910718]
