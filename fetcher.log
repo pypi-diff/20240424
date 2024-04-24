@@ -11023,3 +11023,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:28:45] INFO root fetch - processPackages [graphlit-client]: Remove: archive file [/home/abi/fetcher/tmp/graphlit_client-1.0.20240423001.tar.gz]
 [2024-04-24 07:28:45] INFO root fetch - main [MainThread]: End processing [graphlit-client]: success
 [2024-04-24 07:28:45] INFO root fetch - main [MainThread]: Store serial: [22907181]
+[2024-04-24 07:30:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907181]
+[2024-04-24 07:30:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 07:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bec-widgets
+[2024-04-24 07:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MediaSwift
+[2024-04-24 07:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-landed-cost
+[2024-04-24 07:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lifx-photons-core
+[2024-04-24 07:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-reorder-control
+[2024-04-24 07:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otpcr
+[2024-04-24 07:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-procurement-purchase-no-grouping
+[2024-04-24 07:30:54] WARNING root fetch - processPackages [odoo-addon-purchase-reorder-control]: Skipping, unable to determine old version
+[2024-04-24 07:30:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-reorder-control] error
+[2024-04-24 07:30:54] INFO root fetch - processPackages [bec-widgets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-24 07:30:54] INFO root fetch - processPackages [otpcr]: New version: [5] Old Version: [4]
+[2024-04-24 07:30:54] INFO root fetch - processPackages [lifx-photons-core]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-24 07:30:54] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-04-24 07:30:54] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/d4/a4/036c9cedb9f9879c6b5fee42a6aa51583c18be1eaa61ffbad1171b243b07/bec_widgets-0.8.1.tar.gz
+[2024-04-24 07:30:54] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/c9/ca/c334820aa6ff971be5ba7f4311ae8f8756ccd543c3cee00bf556059db26f/otpcr-4.tar.gz
+[2024-04-24 07:30:54] INFO root fetch - processPackages [MediaSwift]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-24 07:30:54] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-24 07:30:54] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/fd/f7/4839ce79680956e29cc030a1ff645888ce24f7261083bc26048821ceb3d1/odoo_addon_purchase_landed_cost-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 07:30:54] INFO root fetch - processPackages [lifx-photons-core]: Downloading https://files.pythonhosted.org/packages/b3/35/070bc67c5be318871ed66c837959cbbc3404167586e774a1cd37ab54e6fd/lifx-photons-core-0.9.4.tar.gz
+[2024-04-24 07:30:55] INFO root fetch - processPackages [MediaSwift]: Downloading https://files.pythonhosted.org/packages/0a/35/a01dd737c7a106f3d164bec5bab5c33cc75f611b3e5fc1ef641cac3ef234/MediaSwift-2.4.1.tar.gz
+[2024-04-24 07:30:55] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/7b/e6/68a9811ec8510a320cd3cd5f47b87f8dd777a4f16143aeb7bd115645485b/bec_widgets-0.9.0.tar.gz
+[2024-04-24 07:30:55] WARNING root fetch - processPackages [MediaSwift]: Skipping package: exceeds size limit 64989269>=10485760
+[2024-04-24 07:30:55] INFO root fetch - main [MainThread]: End processing [MediaSwift] error
+[2024-04-24 07:30:55] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Downloading https://files.pythonhosted.org/packages/92/a6/936c0449e61003601eec8efee374ff11927d34a6e90e09325414c074a2c4/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 07:30:55] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/d4/e5/910d45033bdb4eb9a95d27bb3a42421a14eeecc8c566cb8b8d6e1a6db169/otpcr-5.tar.gz
+[2024-04-24 07:30:55] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2024-04-24 07:30:55] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.8.1.tar.gz tmp/bec_widgets-0.9.0.tar.gz --markdown 20240424/b/bec-widgets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-24 07:30:55] INFO root fetch - processPackages [otpcr]: executing diffoscope
+[2024-04-24 07:30:55] INFO root fetch - processPackages [otpcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpcr-4.tar.gz tmp/otpcr-5.tar.gz --markdown 20240424/o/otpcr/4-5/README.md --exclude *.pyd
+[2024-04-24 07:30:55] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/54/2c/ac51535f17ed5c43f3b15d99f2ce02e44a1ab86b9bcbb8da0bac4042bc93/odoo_addon_purchase_landed_cost-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 07:30:55] INFO root fetch - processPackages [lifx-photons-core]: Downloading https://files.pythonhosted.org/packages/61/0f/c52959589afb87ecd5f4eace4923b4600f3683868dee2e39e8f36f7ffd44/lifx-photons-core-0.9.5.tar.gz
+[2024-04-24 07:30:55] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Downloading https://files.pythonhosted.org/packages/70/57/3bc22667cf34278ff02d4048d170a474c5a8809db56a78e9adf8b52f9638/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 07:30:55] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: executing diffoscope
+[2024-04-24 07:30:55] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_landed_cost-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_purchase_landed_cost-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-purchase-landed-cost/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 07:30:55] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.8.1.tar.gz]
+[2024-04-24 07:30:55] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.9.0.tar.gz]
+[2024-04-24 07:30:55] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2024-04-24 07:30:55] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-4.tar.gz]
+[2024-04-24 07:30:55] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-5.tar.gz]
+[2024-04-24 07:30:55] INFO root fetch - main [MainThread]: End processing [otpcr]: success
+[2024-04-24 07:30:56] INFO root fetch - processPackages [lifx-photons-core]: executing diffoscope
+[2024-04-24 07:30:56] INFO root fetch - processPackages [lifx-photons-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifx-photons-core-0.9.4.tar.gz tmp/lifx-photons-core-0.9.5.tar.gz --markdown 20240424/l/lifx-photons-core/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-24 07:30:56] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: executing diffoscope
+[2024-04-24 07:30:56] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-procurement-purchase-no-grouping/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 07:30:56] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_landed_cost-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 07:30:56] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_landed_cost-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 07:30:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-landed-cost]: success
+[2024-04-24 07:30:56] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 07:30:56] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 07:30:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-procurement-purchase-no-grouping]: success
+[2024-04-24 07:30:56] INFO root fetch - processPackages [lifx-photons-core]: Remove: archive file [/home/abi/fetcher/tmp/lifx-photons-core-0.9.4.tar.gz]
+[2024-04-24 07:30:56] INFO root fetch - processPackages [lifx-photons-core]: Remove: archive file [/home/abi/fetcher/tmp/lifx-photons-core-0.9.5.tar.gz]
+[2024-04-24 07:30:56] INFO root fetch - main [MainThread]: End processing [lifx-photons-core]: success
+[2024-04-24 07:30:56] INFO root fetch - main [MainThread]: Store serial: [22907196]
