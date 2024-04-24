@@ -2585,3 +2585,79 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:23:55] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.8.tar.gz]
 [2024-04-24 02:23:55] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
 [2024-04-24 02:23:55] INFO root fetch - main [MainThread]: Store serial: [22903834]
+[2024-04-24 02:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903834]
+[2024-04-24 02:26:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-cr-constructs
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NMODL-nightly
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fusion-blossom
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exetimer
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-certbot-dns-route53
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MVComp
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: picodi
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-tweet-queue
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenGeode-core
+[2024-04-24 02:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cs2-battle-bot-api-client
+[2024-04-24 02:26:04] WARNING root fetch - processPackages [exetimer]: Skipping, unable to determine old version
+[2024-04-24 02:26:04] INFO root fetch - main [MainThread]: End processing [exetimer] error
+[2024-04-24 02:26:04] INFO root fetch - processPackages [picodi]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cs2-battle-bot-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.436] Old Version: [2.1.435]
+[2024-04-24 02:26:04] INFO root fetch - processPackages [MVComp]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/03/df/b7441418a2c92e54f467823096a59228bd44b86e3d3cabbf00bf422e840b/cs2_battle_bot_api_client-0.0.8.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [fusion-blossom]: New version: [0.2.9] Old Version: [0.2.6]
+[2024-04-24 02:26:04] INFO root fetch - processPackages [picodi]: Downloading https://files.pythonhosted.org/packages/8b/fa/4311914aea952f91c5d616d0cb91349da570deb73e15319e7a12f78a9b2a/picodi-0.1.0.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.19.2rc1]
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.98] Old Version: [0.6.93]
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/5a/cd/62aab5ecceee18b4b8532e9afdd2c0e0f4657da55a50ca1916eac0c8ffaf/cdk-cr-constructs-2.1.435.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [MVComp]: Downloading https://files.pythonhosted.org/packages/5a/b3/e42edacffd16de5f0c26284da18d5f76fd21be17568291f7acebea497a34/MVComp-0.9.3.tar.gz
+[2024-04-24 02:26:04] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15128908>=10485760
+[2024-04-24 02:26:04] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-24 02:26:04] INFO root fetch - processPackages [fusion-blossom]: Downloading https://files.pythonhosted.org/packages/0b/17/67efa969fa7f895b6265fc692f19038351bf50cf483e0f5acf41a484826f/fusion_blossom-0.2.6.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/ff/e9/823513f92a8e055ccad97402f467f493ff5036d9b8deafa26a5719870b07/OpenGeode_core-14.19.2rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 02:26:04] INFO root fetch - processPackages [picodi]: Downloading https://files.pythonhosted.org/packages/98/ad/beb328d6396bea573ca9d585048c764c6f8536f3010c625e3a5f211a8233/picodi-0.1.1.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/94/bf/65d51cf0f3bd818482bc6d015444c6fa5effd03ea78ae4a494c1f1a2d189/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Downloading https://files.pythonhosted.org/packages/77/08/3e7b110a5c7ca73d5a2f0ae6b0262f4ffff4556c60ed50870a60f5aad63e/cs2_battle_bot_api_client-0.0.9.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [picodi]: executing diffoscope
+[2024-04-24 02:26:04] INFO root fetch - processPackages [picodi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picodi-0.1.0.tar.gz tmp/picodi-0.1.1.tar.gz --markdown 20240424/p/picodi/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 02:26:04] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11733262>=10485760
+[2024-04-24 02:26:04] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240424/c/cdk-tweet-queue/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cs2-battle-bot-api-client]: executing diffoscope
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cs2-battle-bot-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2_battle_bot_api_client-0.0.8.tar.gz tmp/cs2_battle_bot_api_client-0.0.9.tar.gz --markdown 20240424/c/cs2-battle-bot-api-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-24 02:26:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240424/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-24 02:26:04] INFO root fetch - processPackages [MVComp]: Downloading https://files.pythonhosted.org/packages/8a/cc/75b986abe7186e48e8fe367e286d49df64b52928816d01c7d58a3b88d0d8/MVComp-0.9.4.tar.gz
+[2024-04-24 02:26:04] INFO root fetch - processPackages [MVComp]: executing diffoscope
+[2024-04-24 02:26:04] INFO root fetch - processPackages [MVComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MVComp-0.9.3.tar.gz tmp/MVComp-0.9.4.tar.gz --markdown 20240424/M/MVComp/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-24 02:26:05] INFO root fetch - processPackages [fusion-blossom]: Downloading https://files.pythonhosted.org/packages/6a/a8/1f1c36e843b8afc083758a7e0c395daf1c74db9fd72aef43fc29f55520a2/fusion_blossom-0.2.9-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-24 02:26:05] INFO root fetch - processPackages [picodi]: Remove: archive file [/home/abi/fetcher/tmp/picodi-0.1.0.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - processPackages [picodi]: Remove: archive file [/home/abi/fetcher/tmp/picodi-0.1.1.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - main [MainThread]: End processing [picodi]: success
+[2024-04-24 02:26:05] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-24 02:26:05] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-24 02:26:05] INFO root fetch - processPackages [MVComp]: Remove: archive file [/home/abi/fetcher/tmp/MVComp-0.9.3.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - processPackages [MVComp]: Remove: archive file [/home/abi/fetcher/tmp/MVComp-0.9.4.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - main [MainThread]: End processing [MVComp]: success
+[2024-04-24 02:26:05] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/e7/74/0082eac701e2e33195753774345536580724cd74e073c135ec8f5e9fd1a9/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-24 02:26:05] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.8.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - processPackages [cs2-battle-bot-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cs2_battle_bot_api_client-0.0.9.tar.gz]
+[2024-04-24 02:26:05] INFO root fetch - main [MainThread]: End processing [cs2-battle-bot-api-client]: success
+[2024-04-24 02:26:05] WARNING root fetch - processPackages [fusion-blossom]: Skipping package: exceeds size limit 13258330>=10485760
+[2024-04-24 02:26:05] INFO root fetch - main [MainThread]: End processing [fusion-blossom] error
+[2024-04-24 02:26:07] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-04-24 02:26:07] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240424/N/NMODL-nightly/0.6.93-0.6.98/README.md --exclude *.pyd
+[2024-04-24 02:27:58] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-24 02:27:58] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-24 02:27:58] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-04-24 02:27:58] INFO root fetch - main [MainThread]: Store serial: [22903869]
