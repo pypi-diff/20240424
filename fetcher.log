@@ -15630,3 +15630,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:46:10] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2024-04-24 10:46:10] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2024-04-24 10:46:10] INFO root fetch - main [MainThread]: Store serial: [22909235]
+[2024-04-24 10:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909235]
+[2024-04-24 10:48:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 10:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-connect
+[2024-04-24 10:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2024-04-24 10:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-04-24 10:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zho-tts
+[2024-04-24 10:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TitanDevice
+[2024-04-24 10:48:20] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-24 10:48:20] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-24 10:48:20] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/9b/9f/7320142fdc184baf4f868257540e72d880e1a809d30fdd6420ab95bb00bb/TitanDevice-0.2.6.tar.gz
+[2024-04-24 10:48:20] WARNING root fetch - processPackages [discovery-connect]: Skipping, unable to determine old version
+[2024-04-24 10:48:20] INFO root fetch - main [MainThread]: End processing [discovery-connect] error
+[2024-04-24 10:48:20] INFO root fetch - processPackages [zho-tts]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 10:48:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-24 10:48:20] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240424] Old Version: [2.17.0.dev20240423]
+[2024-04-24 10:48:20] INFO root fetch - processPackages [zho-tts]: Downloading https://files.pythonhosted.org/packages/7d/3a/8835945f47582bc8fe92389c3a1767a87e84927b499ae08c54f1182f7422/zho-tts-0.0.1.tar.gz
+[2024-04-24 10:48:20] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/4f/24/bad8be1d061903691abf1bec072f7f19949ba84bb295a48ca9741df8d2b6/tf_nightly_cpu-2.17.0.dev20240423-cp39-cp39-win_amd64.whl
+[2024-04-24 10:48:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-24 10:48:20] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/51/73/7ff536765618dbf406fc92e6a78a709a985b0cff0ce5b0c68f1d5b8a75f5/TitanDevice-0.2.7.tar.gz
+[2024-04-24 10:48:20] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 10:48:20] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.6.tar.gz tmp/TitanDevice-0.2.7.tar.gz --markdown 20240424/T/TitanDevice/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-24 10:48:20] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/a2/5f/4757bdcb28a4a325c00df300dc3fd785175b557eb56615fd21b4c95cea6f/tf_nightly_cpu-2.17.0.dev20240424-cp39-cp39-win_amd64.whl
+[2024-04-24 10:48:20] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-24 10:48:20] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240424/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-24 10:48:20] INFO root fetch - processPackages [zho-tts]: Downloading https://files.pythonhosted.org/packages/0c/c3/1f84c3b66afca7bec93554961bfe069d6c82ae8b95b6e0e4cbcc9891052c/zho_tts-0.0.2.tar.gz
+[2024-04-24 10:48:21] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-24 10:48:21] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240423-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240424-cp39-cp39-win_amd64.whl.zip --markdown 20240424/t/tf-nightly-cpu/2.17.0.dev20240423-2.17.0.dev20240424/README.md --exclude *.pyd
+[2024-04-24 10:48:21] INFO root fetch - processPackages [zho-tts]: executing diffoscope
+[2024-04-24 10:48:21] INFO root fetch - processPackages [zho-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zho-tts-0.0.1.tar.gz tmp/zho_tts-0.0.2.tar.gz --markdown 20240424/z/zho-tts/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 10:48:21] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.6.tar.gz]
+[2024-04-24 10:48:21] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.7.tar.gz]
+[2024-04-24 10:48:21] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 10:48:21] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240423-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 10:48:21] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240424-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 10:48:21] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-24 10:48:22] INFO root fetch - processPackages [zho-tts]: Remove: archive file [/home/abi/fetcher/tmp/zho-tts-0.0.1.tar.gz]
+[2024-04-24 10:48:22] INFO root fetch - processPackages [zho-tts]: Remove: archive file [/home/abi/fetcher/tmp/zho_tts-0.0.2.tar.gz]
+[2024-04-24 10:48:22] INFO root fetch - main [MainThread]: End processing [zho-tts]: success
+[2024-04-24 10:48:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-24 10:48:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-24 10:48:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-24 10:48:22] INFO root fetch - main [MainThread]: Store serial: [22909251]
