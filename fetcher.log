@@ -7524,3 +7524,15 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:52:57] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.1.tar.gz]
 [2024-04-24 03:52:57] INFO root fetch - main [MainThread]: End processing [django_herobiz_ds]: success
 [2024-04-24 03:52:57] INFO root fetch - main [MainThread]: Store serial: [22905653]
+[2024-04-24 03:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905653]
+[2024-04-24 03:55:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 03:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django_herobiz_dental
+[2024-04-24 03:55:06] INFO root fetch - processPackages [django_herobiz_dental]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 03:55:06] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/37/16/c06b9325caa9fd6e2d976aef3bbcffa414dfce09e97e2188ea3bd531184f/django_herobiz_dental-1.0.0.tar.gz
+[2024-04-24 03:55:06] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/04/fb/a781d89ac3077db9784a7e6c6fe5c1be3d866f00741d3477afef224143ff/django_herobiz_dental-1.0.1.tar.gz
+[2024-04-24 03:55:07] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-04-24 03:55:07] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-1.0.0.tar.gz tmp/django_herobiz_dental-1.0.1.tar.gz --markdown 20240424/d/django_herobiz_dental/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 03:55:08] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.0.tar.gz]
+[2024-04-24 03:55:08] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.1.tar.gz]
+[2024-04-24 03:55:08] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-04-24 03:55:08] INFO root fetch - main [MainThread]: Store serial: [22905656]
