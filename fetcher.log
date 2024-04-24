@@ -10915,3 +10915,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:22:11] INFO root fetch - processPackages [hatch]: Remove: archive file [/home/abi/fetcher/tmp/hatch-1rc6.tar.gz]
 [2024-04-24 07:22:11] INFO root fetch - main [MainThread]: End processing [hatch]: success
 [2024-04-24 07:22:11] INFO root fetch - main [MainThread]: Store serial: [22907150]
+[2024-04-24 07:24:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907150]
+[2024-04-24 07:24:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 07:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyJsBitwise
+[2024-04-24 07:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gridworks
+[2024-04-24 07:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygpt-net
+[2024-04-24 07:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wizlib
+[2024-04-24 07:24:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpg-workflows
+[2024-04-24 07:24:21] INFO root fetch - processPackages [PyJsBitwise]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 07:24:21] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-24 07:24:21] INFO root fetch - processPackages [gridworks]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 07:24:21] INFO root fetch - processPackages [PyJsBitwise]: Downloading https://files.pythonhosted.org/packages/1e/33/25fc52e6306996d458dd8c26449f269e2a88ad34dd7275d0720af5518d92/PyJsBitwise-1.0.1.tar.gz
+[2024-04-24 07:24:21] INFO root fetch - processPackages [wizlib]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-24 07:24:21] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-24 07:24:22] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-24 07:24:22] INFO root fetch - processPackages [gridworks]: Downloading https://files.pythonhosted.org/packages/88/a7/d4701bfe156cb1f2d78a081cb8752d77b05c19350ec68c4ff38da439b777/gridworks-0.2.8.tar.gz
+[2024-04-24 07:24:22] INFO root fetch - processPackages [PyJsBitwise]: Downloading https://files.pythonhosted.org/packages/86/8c/6cce6be8e27a4f1aa0d29b3222c8dba24004e8e036794aaa4583c405350b/pyjsbitwise-1.0.2.tar.gz
+[2024-04-24 07:24:22] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-24 07:24:22] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/c7/29/35737ce7846bb14f7d77201bdbf44cacd38f08ab24172460c788074062b1/wizlib-2.0.8.tar.gz
+[2024-04-24 07:24:22] INFO root fetch - processPackages [PyJsBitwise]: executing diffoscope
+[2024-04-24 07:24:22] INFO root fetch - processPackages [PyJsBitwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyJsBitwise-1.0.1.tar.gz tmp/pyjsbitwise-1.0.2.tar.gz --markdown 20240424/P/PyJsBitwise/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-24 07:24:22] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-24 07:24:22] INFO root fetch - processPackages [gridworks]: Downloading https://files.pythonhosted.org/packages/3c/b1/c5f988bd5d39c7b307fbb53a87a57cfbd1681b4f3eb6ff92c241ba30cd47/gridworks-0.2.9.tar.gz
+[2024-04-24 07:24:22] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/31/ce/96f81a7e7d0ed4536b0497ca69767df2257151675cb7d3422fb66cb5d42f/wizlib-2.0.9.tar.gz
+[2024-04-24 07:24:22] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-24 07:24:22] INFO root fetch - processPackages [gridworks]: executing diffoscope
+[2024-04-24 07:24:22] INFO root fetch - processPackages [gridworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks-0.2.8.tar.gz tmp/gridworks-0.2.9.tar.gz --markdown 20240424/g/gridworks/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 07:24:22] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-24 07:24:22] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240424/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-24 07:24:22] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2024-04-24 07:24:22] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-2.0.8.tar.gz tmp/wizlib-2.0.9.tar.gz --markdown 20240424/w/wizlib/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-24 07:24:22] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-24 07:24:22] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240424/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-24 07:24:22] INFO root fetch - processPackages [PyJsBitwise]: Remove: archive file [/home/abi/fetcher/tmp/PyJsBitwise-1.0.1.tar.gz]
+[2024-04-24 07:24:22] INFO root fetch - processPackages [PyJsBitwise]: Remove: archive file [/home/abi/fetcher/tmp/pyjsbitwise-1.0.2.tar.gz]
+[2024-04-24 07:24:22] INFO root fetch - main [MainThread]: End processing [PyJsBitwise]: success
+[2024-04-24 07:24:23] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-2.0.8.tar.gz]
+[2024-04-24 07:24:23] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-2.0.9.tar.gz]
+[2024-04-24 07:24:23] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2024-04-24 07:24:23] INFO root fetch - processPackages [gridworks]: Remove: archive file [/home/abi/fetcher/tmp/gridworks-0.2.8.tar.gz]
+[2024-04-24 07:24:23] INFO root fetch - processPackages [gridworks]: Remove: archive file [/home/abi/fetcher/tmp/gridworks-0.2.9.tar.gz]
+[2024-04-24 07:24:23] INFO root fetch - main [MainThread]: End processing [gridworks]: success
+[2024-04-24 07:24:23] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-24 07:24:23] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-24 07:24:23] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-24 07:24:25] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-24 07:24:25] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-24 07:24:25] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-24 07:24:25] INFO root fetch - main [MainThread]: Store serial: [22907164]
