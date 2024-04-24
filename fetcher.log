@@ -11772,3 +11772,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:09:31] INFO root fetch - processPackages [vite-transporter]: Remove: archive file [/home/abi/fetcher/tmp/vite_transporter-0.4.2.tar.gz]
 [2024-04-24 08:09:31] INFO root fetch - main [MainThread]: End processing [vite-transporter]: success
 [2024-04-24 08:09:31] INFO root fetch - main [MainThread]: Store serial: [22907436]
+[2024-04-24 08:11:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907436]
+[2024-04-24 08:11:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 08:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-spreadsheet-oca
+[2024-04-24 08:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: git-reviewers
+[2024-04-24 08:11:41] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: New version: [16.0.1.2.1.9] Old Version: [16.0.1.2.1.4]
+[2024-04-24 08:11:41] INFO root fetch - processPackages [git-reviewers]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 08:11:41] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/b0/74/8b71c9b5c2c57746f43ca90322a7377f8384c5b50d2d4f777a306d37ddf6/odoo_addon_spreadsheet_oca-16.0.1.2.1.4-py3-none-any.whl
+[2024-04-24 08:11:41] INFO root fetch - processPackages [git-reviewers]: Downloading https://files.pythonhosted.org/packages/ff/72/9115640cd00862e4e6f79eaf228cab591a0bf31b76f9c3119b7158175eaa/git-reviewers-0.8.0.tar.gz
+[2024-04-24 08:11:41] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/2f/40/02710ee09dd560121c199bb5210ef2191d8194d7ff4fe150d877088f7006/odoo_addon_spreadsheet_oca-16.0.1.2.1.9-py3-none-any.whl
+[2024-04-24 08:11:41] INFO root fetch - processPackages [git-reviewers]: Downloading https://files.pythonhosted.org/packages/d4/1c/ba44359dc3cd19b496b684de7d9ad0828772d6918119691fda186247ac00/git-reviewers-0.9.0.tar.gz
+[2024-04-24 08:11:41] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: executing diffoscope
+[2024-04-24 08:11:41] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_oca-16.0.1.2.1.4-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_oca-16.0.1.2.1.9-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-spreadsheet-oca/16.0.1.2.1.4-16.0.1.2.1.9/README.md --exclude *.pyd
+[2024-04-24 08:11:41] INFO root fetch - processPackages [git-reviewers]: executing diffoscope
+[2024-04-24 08:11:41] INFO root fetch - processPackages [git-reviewers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-reviewers-0.8.0.tar.gz tmp/git-reviewers-0.9.0.tar.gz --markdown 20240424/g/git-reviewers/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 08:11:42] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.2.1.4-py3-none-any.whl.zip]
+[2024-04-24 08:11:42] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.2.1.9-py3-none-any.whl.zip]
+[2024-04-24 08:11:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-oca]: success
+[2024-04-24 08:11:42] INFO root fetch - processPackages [git-reviewers]: Remove: archive file [/home/abi/fetcher/tmp/git-reviewers-0.8.0.tar.gz]
+[2024-04-24 08:11:42] INFO root fetch - processPackages [git-reviewers]: Remove: archive file [/home/abi/fetcher/tmp/git-reviewers-0.9.0.tar.gz]
+[2024-04-24 08:11:42] INFO root fetch - main [MainThread]: End processing [git-reviewers]: success
+[2024-04-24 08:11:42] INFO root fetch - main [MainThread]: Store serial: [22907441]
