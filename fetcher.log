@@ -12319,3 +12319,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:46:48] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-24 08:46:48] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-24 08:46:48] INFO root fetch - main [MainThread]: Store serial: [22907627]
+[2024-04-24 08:48:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907627]
+[2024-04-24 08:48:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 08:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TitanDevice
+[2024-04-24 08:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ggvlib
+[2024-04-24 08:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flexible-semantic-kernel
+[2024-04-24 08:48:57] WARNING root fetch - processPackages [flexible-semantic-kernel]: Skipping, unable to determine old version
+[2024-04-24 08:48:57] INFO root fetch - main [MainThread]: End processing [flexible-semantic-kernel] error
+[2024-04-24 08:48:57] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-24 08:48:57] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/83/bb/e1304c52cef075134038a797eb21c13b86439e90b594e3a9ba5235170d9b/TitanDevice-0.2.0.tar.gz
+[2024-04-24 08:48:57] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 08:48:57] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/c8/a4/76d1f8bec5b3584ef0e86ce8e53ab63916ffc36fcb0d2d8b4f0d337700c3/ggvlib-0.2.8.tar.gz
+[2024-04-24 08:48:57] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/37/1c/c5bf637d66e8beca3a91343d55729235ee07d6b181eadcfde5865ee2ab20/TitanDevice-0.2.1.tar.gz
+[2024-04-24 08:48:57] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 08:48:57] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.0.tar.gz tmp/TitanDevice-0.2.1.tar.gz --markdown 20240424/T/TitanDevice/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-24 08:48:57] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/34/94/a276f716d8fabdf90cef3cc2a1fccf75e3e71e43c098bb84478fc31b0ff6/ggvlib-0.2.9.tar.gz
+[2024-04-24 08:48:57] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2024-04-24 08:48:57] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20240424/g/ggvlib/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 08:48:58] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.0.tar.gz]
+[2024-04-24 08:48:58] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.1.tar.gz]
+[2024-04-24 08:48:58] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 08:48:58] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.8.tar.gz]
+[2024-04-24 08:48:58] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.9.tar.gz]
+[2024-04-24 08:48:58] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2024-04-24 08:48:58] INFO root fetch - main [MainThread]: Store serial: [22907643]
