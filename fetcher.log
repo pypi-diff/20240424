@@ -23678,3 +23678,87 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 15:10:24] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-24 15:10:24] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-24 15:10:24] INFO root fetch - main [MainThread]: Store serial: [22912496]
+[2024-04-24 15:12:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912496]
+[2024-04-24 15:12:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aporacle
+[2024-04-24 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-langchain
+[2024-04-24 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-cdktf-resolver
+[2024-04-24 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-autogen
+[2024-04-24 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: allocmd
+[2024-04-24 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alida-dataset
+[2024-04-24 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tesci
+[2024-04-24 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-crewai
+[2024-04-24 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openobd-protocol
+[2024-04-24 15:12:50] INFO root fetch - processPackages [alida-dataset]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 15:12:50] INFO root fetch - processPackages [aporacle]: New version: [0.0.142] Old Version: [0.0.141]
+[2024-04-24 15:12:50] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 15:12:50] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 15:12:50] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 15:12:50] INFO root fetch - processPackages [allocmd]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-24 15:12:50] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 15:12:50] INFO root fetch - processPackages [tesci]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 15:12:50] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/08/36/89168ee984b391e88516ff4769e18088a9c7fe41c18919b9cf54683581dc/aporacle-0.0.141.tar.gz
+[2024-04-24 15:12:50] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-04-24 15:12:50] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-04-24 15:12:50] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-04-24 15:12:50] INFO root fetch - processPackages [openobd-protocol]: New version: [0.0.40] Old Version: [0.0.39]
+[2024-04-24 15:12:50] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/6d/7e/da7a8879fe73553275183a3aee001deed0a4329fd64ea6325f23b671fc81/allocmd-0.3.8.tar.gz
+[2024-04-24 15:12:50] INFO root fetch - processPackages [alida-dataset]: Downloading https://files.pythonhosted.org/packages/92/ae/7df6336fa9ca00282dedd5748441a5528f77536a715dbc3345b2312134e1/alida-dataset-0.0.1.tar.gz
+[2024-04-24 15:12:50] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/d0/7b/6e241c141aee876e6231c607ad885acbb3d93f3e8d6215bf20ad4718a568/cdk8s-cdktf-resolver-0.0.8.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [tesci]: Downloading https://files.pythonhosted.org/packages/d4/1d/eb57e2fe7f81ea5d79f8c3bfe9243f7e4032165546f79627d146df163ca5/tesci-1.0.0.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/72/12/10702d38797966c2fcf2d07db42f01b6f92e9b335dfbbd2f0b0bc034566a/openobd_protocol-0.0.39.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/62/90/9b598a475847e52acca70f1dab4f70f5828e236ad083b4cc83804993c63a/allocmd-0.3.9.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/01/eb/c7f98c68704552d978f12ab7d3f289f09a3b6d485c8fff0d5632dcc7e052/aporacle-0.0.142.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-24 15:12:51] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240424/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 15:12:51] INFO root fetch - processPackages [alida-dataset]: Downloading https://files.pythonhosted.org/packages/2c/51/43c1424ab5dd28bea120b58113195f000308ac00378aa631eafd0dbd8bb5/alida-dataset-0.0.2.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-24 15:12:51] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240424/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 15:12:51] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-24 15:12:51] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240424/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 15:12:51] INFO root fetch - processPackages [allocmd]: executing diffoscope
+[2024-04-24 15:12:51] INFO root fetch - processPackages [allocmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allocmd-0.3.8.tar.gz tmp/allocmd-0.3.9.tar.gz --markdown 20240424/a/allocmd/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-24 15:12:51] INFO root fetch - processPackages [aporacle]: executing diffoscope
+[2024-04-24 15:12:51] INFO root fetch - processPackages [aporacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporacle-0.0.141.tar.gz tmp/aporacle-0.0.142.tar.gz --markdown 20240424/a/aporacle/0.0.141-0.0.142/README.md --exclude *.pyd
+[2024-04-24 15:12:51] INFO root fetch - processPackages [alida-dataset]: executing diffoscope
+[2024-04-24 15:12:51] INFO root fetch - processPackages [alida-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alida-dataset-0.0.1.tar.gz tmp/alida-dataset-0.0.2.tar.gz --markdown 20240424/a/alida-dataset/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 15:12:51] INFO root fetch - processPackages [tesci]: Downloading https://files.pythonhosted.org/packages/6f/07/49ac64a1159c0c4a0c7a5ba5d190500353b02a822d01ac8d5efa2aedce5d/tesci-1.0.1.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/17/4d/78b8350a2cb674183d85f673cae768cba8891cc6c1031b4c61aa54af2f42/cdk8s-cdktf-resolver-0.0.9.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/73/fd/633ca753706cec9abec92be1d198f435e681248850f1acbbb0f66cc5e555/openobd_protocol-0.0.40.tar.gz
+[2024-04-24 15:12:51] INFO root fetch - processPackages [tesci]: executing diffoscope
+[2024-04-24 15:12:51] INFO root fetch - processPackages [tesci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesci-1.0.0.tar.gz tmp/tesci-1.0.1.tar.gz --markdown 20240424/t/tesci/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 15:12:51] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: executing diffoscope
+[2024-04-24 15:12:51] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz --markdown 20240424/c/cdk8s-cdktf-resolver/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 15:12:51] INFO root fetch - processPackages [openobd-protocol]: executing diffoscope
+[2024-04-24 15:12:51] INFO root fetch - processPackages [openobd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd_protocol-0.0.39.tar.gz tmp/openobd_protocol-0.0.40.tar.gz --markdown 20240424/o/openobd-protocol/0.0.39-0.0.40/README.md --exclude *.pyd
+[2024-04-24 15:12:52] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-24 15:12:52] INFO root fetch - processPackages [alida-dataset]: Remove: archive file [/home/abi/fetcher/tmp/alida-dataset-0.0.1.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - processPackages [alida-dataset]: Remove: archive file [/home/abi/fetcher/tmp/alida-dataset-0.0.2.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [alida-dataset]: success
+[2024-04-24 15:12:52] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-24 15:12:52] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-24 15:12:52] INFO root fetch - processPackages [tesci]: Remove: archive file [/home/abi/fetcher/tmp/tesci-1.0.0.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - processPackages [tesci]: Remove: archive file [/home/abi/fetcher/tmp/tesci-1.0.1.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [tesci]: success
+[2024-04-24 15:12:52] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [cdk8s-cdktf-resolver]: success
+[2024-04-24 15:12:52] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.141.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.142.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [aporacle]: success
+[2024-04-24 15:12:52] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.39.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.40.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [openobd-protocol]: success
+[2024-04-24 15:12:52] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.3.8.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.3.9.tar.gz]
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: End processing [allocmd]: success
+[2024-04-24 15:12:52] INFO root fetch - main [MainThread]: Store serial: [22912522]
