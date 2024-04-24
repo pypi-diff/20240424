@@ -14934,3 +14934,90 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:23:50] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-device-support-plugin-0.0.9.tar.gz]
 [2024-04-24 10:23:50] INFO root fetch - main [MainThread]: End processing [netbox-device-support-plugin]: success
 [2024-04-24 10:23:50] INFO root fetch - main [MainThread]: Store serial: [22908983]
+[2024-04-24 10:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908983]
+[2024-04-24 10:25:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autotrain-advanced
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFisca-France-Local
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manifast
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rime-sdk
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mctech-cloud
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mctech-core
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mctech-discovery
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discovery-connect
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chamco-ragbot
+[2024-04-24 10:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lazyad
+[2024-04-24 10:25:58] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 10:25:58] INFO root fetch - processPackages [OpenFisca-France-Local]: New version: [6.9.0] Old Version: [6.8.0]
+[2024-04-24 10:25:58] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-24 10:25:58] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc7] Old Version: [2.8.0rc6]
+[2024-04-24 10:25:58] INFO root fetch - processPackages [manifast]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 10:25:58] INFO root fetch - processPackages [mctech-discovery]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-24 10:25:58] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 10:25:58] INFO root fetch - processPackages [mctech-core]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-24 10:25:58] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-24 10:25:58] WARNING root fetch - processPackages [discovery-connect]: Skipping, unable to determine old version
+[2024-04-24 10:25:58] INFO root fetch - main [MainThread]: End processing [discovery-connect] error
+[2024-04-24 10:25:58] INFO root fetch - processPackages [mctech-cloud]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-24 10:25:58] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/4f/d4/447ea333c018d513ef7e46f218d9e3afc73140558307045c60738c905bd2/OpenFisca-France-Local-6.8.0.tar.gz
+[2024-04-24 10:25:58] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-24 10:25:58] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/88/70/33a5625cc7a152fd92917d25ca7a9e7be74751d2a1c022c38e06d621ccb6/rime_sdk-2.8.0rc6.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/28/24/217618cc94e5d20215b780cc06e8b8ea901198fa7e2ab0f9ae59576698af/chamco_ragbot-0.1.8.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-core]: Downloading https://files.pythonhosted.org/packages/9e/a7/dd63fe385ee5c040961b828e4c101ac86e236c11722b7321fb34b05aa843/mctech_core-1.0.1.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-discovery]: Downloading https://files.pythonhosted.org/packages/5b/08/099b8b5b0adb9c73ea7aa94895881cb4ad9fcc5c82d7d6b2a703c05e4496/mctech_discovery-1.1.8.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/81/64/b9fb5b4730295428c2c14d9aa6a89eba2dc6f59a264f7ee694a6733b622d/manifast-0.0.8.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-cloud]: Downloading https://files.pythonhosted.org/packages/ad/d8/7eceb4222e008963506c7a9670f47175eebc2f443d1cbb917f3e0e995e31/mctech_cloud-1.0.2.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/6d/2f/b0cfb668429f9c2cc9bbd78a2a429261023e9941169dc50b7905e48db0ac/chamco_ragbot-0.1.9.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-24 10:25:59] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240424/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:25:59] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/98/00/866b11652ca9f9f50c23b121f8b5c217cc35f15c5c362810c5e3399a9e70/rime_sdk-2.8.0rc7.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-core]: Downloading https://files.pythonhosted.org/packages/0f/ff/e9b4abd46fb76b7f292da13a445ba37d90d1e4e55a760845057b92f4cfa4/mctech_core-1.0.2.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-discovery]: Downloading https://files.pythonhosted.org/packages/2c/43/3102853f1877465afc242247e53d9d5ea10cccdc13414b0002f754aa87a1/mctech_discovery-1.1.9.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.8.tar.gz tmp/chamco_ragbot-0.1.9.tar.gz --markdown 20240424/c/chamco-ragbot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 10:25:59] INFO root fetch - processPackages [manifast]: Downloading https://files.pythonhosted.org/packages/57/ba/b199fd85bb13cb9c3846d1f9b76e0d143d4ef55451056b4cc69a454abf2e/manifast-0.0.9.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-24 10:25:59] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240424/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-cloud]: Downloading https://files.pythonhosted.org/packages/c0/03/3be4c0c23c590826584a487919476883171a983e104e73abaec76a76c3c5/mctech_cloud-1.0.3.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/cb/e1/8517ee72841ff0154b3d6fa68449b5fcb91284aef4baeb223a52d549010c/OpenFisca-France-Local-6.9.0.tar.gz
+[2024-04-24 10:25:59] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-24 10:25:59] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc6.tar.gz tmp/rime_sdk-2.8.0rc7.tar.gz --markdown 20240424/r/rime-sdk/2.8.0rc6-2.8.0rc7/README.md --exclude *.pyd
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-core]: executing diffoscope
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctech_core-1.0.1.tar.gz tmp/mctech_core-1.0.2.tar.gz --markdown 20240424/m/mctech-core/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-discovery]: executing diffoscope
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctech_discovery-1.1.8.tar.gz tmp/mctech_discovery-1.1.9.tar.gz --markdown 20240424/m/mctech-discovery/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-24 10:25:59] INFO root fetch - processPackages [manifast]: executing diffoscope
+[2024-04-24 10:25:59] INFO root fetch - processPackages [manifast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifast-0.0.8.tar.gz tmp/manifast-0.0.9.tar.gz --markdown 20240424/m/manifast/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-cloud]: executing diffoscope
+[2024-04-24 10:25:59] INFO root fetch - processPackages [mctech-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctech_cloud-1.0.2.tar.gz tmp/mctech_cloud-1.0.3.tar.gz --markdown 20240424/m/mctech-cloud/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-24 10:26:00] INFO root fetch - processPackages [OpenFisca-France-Local]: executing diffoscope
+[2024-04-24 10:26:00] INFO root fetch - processPackages [OpenFisca-France-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Local-6.8.0.tar.gz tmp/OpenFisca-France-Local-6.9.0.tar.gz --markdown 20240424/O/OpenFisca-France-Local/6.8.0-6.9.0/README.md --exclude *.pyd
+[2024-04-24 10:26:00] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-24 10:26:00] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.8.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.9.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-24 10:26:00] INFO root fetch - processPackages [mctech-core]: Remove: archive file [/home/abi/fetcher/tmp/mctech_core-1.0.1.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - processPackages [mctech-core]: Remove: archive file [/home/abi/fetcher/tmp/mctech_core-1.0.2.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - main [MainThread]: End processing [mctech-core]: success
+[2024-04-24 10:26:00] INFO root fetch - processPackages [mctech-cloud]: Remove: archive file [/home/abi/fetcher/tmp/mctech_cloud-1.0.2.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - processPackages [mctech-cloud]: Remove: archive file [/home/abi/fetcher/tmp/mctech_cloud-1.0.3.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - main [MainThread]: End processing [mctech-cloud]: success
+[2024-04-24 10:26:00] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.8.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - processPackages [manifast]: Remove: archive file [/home/abi/fetcher/tmp/manifast-0.0.9.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - main [MainThread]: End processing [manifast]: success
+[2024-04-24 10:26:00] INFO root fetch - processPackages [mctech-discovery]: Remove: archive file [/home/abi/fetcher/tmp/mctech_discovery-1.1.8.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - processPackages [mctech-discovery]: Remove: archive file [/home/abi/fetcher/tmp/mctech_discovery-1.1.9.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - main [MainThread]: End processing [mctech-discovery]: success
+[2024-04-24 10:26:00] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-24 10:26:00] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-24 10:26:02] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc6.tar.gz]
+[2024-04-24 10:26:02] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc7.tar.gz]
+[2024-04-24 10:26:02] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-24 10:26:04] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-6.8.0.tar.gz]
+[2024-04-24 10:26:04] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-6.9.0.tar.gz]
+[2024-04-24 10:26:04] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
+[2024-04-24 10:26:04] INFO root fetch - main [MainThread]: Store serial: [22909014]
