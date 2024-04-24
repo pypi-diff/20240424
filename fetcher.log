@@ -7697,3 +7697,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:12:30] INFO root fetch - processPackages [cryptopian-infra]: Remove: archive file [/home/abi/fetcher/tmp/cryptopian_infra-0.1.5.tar.gz]
 [2024-04-24 04:12:30] INFO root fetch - main [MainThread]: End processing [cryptopian-infra]: success
 [2024-04-24 04:12:30] INFO root fetch - main [MainThread]: Store serial: [22905740]
+[2024-04-24 04:14:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905740]
+[2024-04-24 04:14:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 04:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DAJIN2
+[2024-04-24 04:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_bocor_ds
+[2024-04-24 04:14:38] INFO root fetch - processPackages [DAJIN2]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-24 04:14:38] INFO root fetch - processPackages [DAJIN2]: Downloading https://files.pythonhosted.org/packages/e8/50/e112ac9a289522e1469d51d5cd6b492f5d209aba4d4a06367b2fb305bfbd/DAJIN2-0.4.3.zip
+[2024-04-24 04:14:38] INFO root fetch - processPackages [django_bocor_ds]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-24 04:14:38] INFO root fetch - processPackages [DAJIN2]: Downloading https://files.pythonhosted.org/packages/7a/0e/925ce56c17d3bedac91c9511d339373e0eab9ee103d08b0f60cadabe73d7/dajin2-0.4.4.zip
+[2024-04-24 04:14:38] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/a8/fe/49e4c03dad840231d2b906c2ee5aff012040a5341bcb82ac9604243041da/django_bocor_ds-2.0.5.tar.gz
+[2024-04-24 04:14:38] INFO root fetch - processPackages [DAJIN2]: executing diffoscope
+[2024-04-24 04:14:38] INFO root fetch - processPackages [DAJIN2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DAJIN2-0.4.3.zip tmp/dajin2-0.4.4.zip --markdown 20240424/D/DAJIN2/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-24 04:14:39] INFO root fetch - processPackages [django_bocor_ds]: Downloading https://files.pythonhosted.org/packages/76/ec/cb4ebe29142b70f3969ac7696f0126371a3d0d36ed99de93b55a3641a8db/django_bocor_ds-2.0.6-py2.py3-none-any.whl
+[2024-04-24 04:14:39] INFO root fetch - processPackages [DAJIN2]: Remove: archive file [/home/abi/fetcher/tmp/DAJIN2-0.4.3.zip]
+[2024-04-24 04:14:39] INFO root fetch - processPackages [DAJIN2]: Remove: archive file [/home/abi/fetcher/tmp/dajin2-0.4.4.zip]
+[2024-04-24 04:14:39] INFO root fetch - main [MainThread]: End processing [DAJIN2]: success
+[2024-04-24 04:14:41] INFO root fetch - processPackages [django_bocor_ds]: executing diffoscope
+[2024-04-24 04:14:41] INFO root fetch - processPackages [django_bocor_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_bocor_ds-2.0.5.tar.gz tmp/django_bocor_ds-2.0.6-py2.py3-none-any.whl.zip --markdown 20240424/d/django_bocor_ds/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-04-24 04:14:42] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.0.5.tar.gz]
+[2024-04-24 04:14:42] INFO root fetch - processPackages [django_bocor_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_bocor_ds-2.0.6-py2.py3-none-any.whl.zip]
+[2024-04-24 04:14:42] INFO root fetch - main [MainThread]: End processing [django_bocor_ds]: success
+[2024-04-24 04:14:42] INFO root fetch - main [MainThread]: Store serial: [22905744]
