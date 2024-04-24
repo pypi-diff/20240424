@@ -13549,3 +13549,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:30:56] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.75.2.tar.gz]
 [2024-04-24 09:30:56] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-04-24 09:30:56] INFO root fetch - main [MainThread]: Store serial: [22908414]
+[2024-04-24 09:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908414]
+[2024-04-24 09:33:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skillbridge
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyad
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TitanDevice
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: npc_sessions
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: outpostkit
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hermitage
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hebill
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kojo
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zoltraak
+[2024-04-24 09:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py2docfx
+[2024-04-24 09:33:05] INFO root fetch - processPackages [hebill]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-24 09:33:05] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 09:33:05] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-24 09:33:05] INFO root fetch - processPackages [zoltraak]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-24 09:33:05] INFO root fetch - processPackages [npc_sessions]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-24 09:33:05] INFO root fetch - processPackages [skillbridge]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-24 09:33:05] INFO root fetch - processPackages [outpostkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-24 09:33:05] INFO root fetch - processPackages [kojo]: New version: [0.18.0] Old Version: [0.17.0]
+[2024-04-24 09:33:05] INFO root fetch - processPackages [hermitage]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-24 09:33:05] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/cf/f6/658d1fe50d9b469881bb07589b7fb15a2131414954c2a7c97185a01c1d71/hebill-1.2.3.tar.gz
+[2024-04-24 09:33:05] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/5c/c1/8374c6714bde36f6ffd6da4b3657239b41702887f8745d234896dd976cb7/zoltraak-0.1.7.tar.gz
+[2024-04-24 09:33:05] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-24 09:33:05] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/89/c0/afb2f055f798cac99272a8359901d58bb7b7e6034814fe704652e6882f65/TitanDevice-0.2.5.tar.gz
+[2024-04-24 09:33:05] INFO root fetch - processPackages [py2docfx]: New version: [0.1.4rc1691271] Old Version: [0.1.4rc1690176]
+[2024-04-24 09:33:06] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/b8/93/bc9b7a7dd0ef6f49e1a89dbd69042819d6a945d3ccc9906feb172a29ba15/npc_sessions-0.0.98.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/e8/20/6f4f3b0edb61dd5f691668605b0901894c58c85e728662fff6913423203c/outpostkit-0.0.7.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [skillbridge]: Downloading https://files.pythonhosted.org/packages/c5/0d/7a46ccd565dfd602f2c68041e092f14ddb9bfcee3fa9e080cf9d54216c0f/skillbridge-1.7.1.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/72/3b/b9428c02c0d5bf18bb3a14cd7aa16ca3145d15cdbf61ba8485c47fad22b1/hermitage-0.1.3.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/b5/4a/1be645889fd60d7fe4e6451df0a453708e775456cfa2a5181cd535631876/kojo-0.17.0.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/8a/89/92fad384f2155a5bd7d53e077137cbde350759805d3d8ffca87f25c05e42/py2docfx-0.1.4rc1690176-py3-none-any.whl
+[2024-04-24 09:33:06] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/9b/9f/7320142fdc184baf4f868257540e72d880e1a809d30fdd6420ab95bb00bb/TitanDevice-0.2.6.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/ee/54/1532f568a44c35c382e96f6975eca109050d6ead58e2a77104b0a42a2083/hebill-1.2.4.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240424/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:33:06] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.5.tar.gz tmp/TitanDevice-0.2.6.tar.gz --markdown 20240424/T/TitanDevice/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-24 09:33:06] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/1b/65/bf57b9c6ee648973d846c99ebd5e2954d44af7aee6a3272e3710494205b1/npc_sessions-0.0.99.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.2.3.tar.gz tmp/hebill-1.2.4.tar.gz --markdown 20240424/h/hebill/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-24 09:33:06] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/b3/af/8945c62fc6dc5596e5618810b3971a4c11d217517a24d0cd40a10b5b9553/outpostkit-0.0.9.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [skillbridge]: Downloading https://files.pythonhosted.org/packages/69/4d/1960de50615e7c90f58a36f7a29a332851146c8994b15d1520281d7f3c13/skillbridge-1.7.2.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/8f/11/68b164fd6b4d949782fbde6ee047344646549d8e08dd772a84dd5a751637/kojo-0.18.0.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/04/91/559f77bc8378930f1f59ecd61b4ceb5df9658d51a0f6e8bb1a5ed2bccff2/hermitage-0.1.4.tar.gz
+[2024-04-24 09:33:06] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.7.tar.gz tmp/zoltraak-0.1.8.tar.gz --markdown 20240424/z/zoltraak/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-24 09:33:06] INFO root fetch - processPackages [npc_sessions]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [npc_sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_sessions-0.0.98.tar.gz tmp/npc_sessions-0.0.99.tar.gz --markdown 20240424/n/npc_sessions/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-24 09:33:06] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/6a/92/92480e7691e788f1a4b4b6bda5ed1554bd4a3549c36b56d1f9e72b2123ad/py2docfx-0.1.4rc1691271-py3-none-any.whl
+[2024-04-24 09:33:06] INFO root fetch - processPackages [outpostkit]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [outpostkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostkit-0.0.7.tar.gz tmp/outpostkit-0.0.9.tar.gz --markdown 20240424/o/outpostkit/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:33:06] INFO root fetch - processPackages [skillbridge]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [skillbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillbridge-1.7.1.tar.gz tmp/skillbridge-1.7.2.tar.gz --markdown 20240424/s/skillbridge/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-04-24 09:33:06] INFO root fetch - processPackages [hermitage]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [hermitage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage-0.1.3.tar.gz tmp/hermitage-0.1.4.tar.gz --markdown 20240424/h/hermitage/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-24 09:33:06] INFO root fetch - processPackages [kojo]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [kojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kojo-0.17.0.tar.gz tmp/kojo-0.18.0.tar.gz --markdown 20240424/k/kojo/0.17.0-0.18.0/README.md --exclude *.pyd
+[2024-04-24 09:33:06] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-24 09:33:06] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip tmp/py2docfx-0.1.4rc1691271-py3-none-any.whl.zip --markdown 20240424/p/py2docfx/0.1.4rc1690176-0.1.4rc1691271/README.md --exclude *.pyd
+[2024-04-24 09:33:07] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.5.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.6.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 09:33:07] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-24 09:33:07] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.2.3.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.2.4.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-24 09:33:07] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.7.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 09:33:07] INFO root fetch - processPackages [skillbridge]: Remove: archive file [/home/abi/fetcher/tmp/skillbridge-1.7.1.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - processPackages [skillbridge]: Remove: archive file [/home/abi/fetcher/tmp/skillbridge-1.7.2.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - main [MainThread]: End processing [skillbridge]: success
+[2024-04-24 09:33:07] INFO root fetch - processPackages [kojo]: Remove: archive file [/home/abi/fetcher/tmp/kojo-0.17.0.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - processPackages [kojo]: Remove: archive file [/home/abi/fetcher/tmp/kojo-0.18.0.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - main [MainThread]: End processing [kojo]: success
+[2024-04-24 09:33:07] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.7.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
+[2024-04-24 09:33:07] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
+[2024-04-24 09:33:08] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.1.3.tar.gz]
+[2024-04-24 09:33:08] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.1.4.tar.gz]
+[2024-04-24 09:33:08] INFO root fetch - main [MainThread]: End processing [hermitage]: success
+[2024-04-24 09:33:08] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.98.tar.gz]
+[2024-04-24 09:33:08] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
+[2024-04-24 09:33:08] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
+[2024-04-24 09:33:08] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip]
+[2024-04-24 09:33:08] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1691271-py3-none-any.whl.zip]
+[2024-04-24 09:33:08] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-24 09:33:08] INFO root fetch - main [MainThread]: Store serial: [22908471]
