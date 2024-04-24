@@ -11390,3 +11390,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:48:50] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-24 07:48:50] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-24 07:48:50] INFO root fetch - main [MainThread]: Store serial: [22907316]
+[2024-04-24 07:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907316]
+[2024-04-24 07:50:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 07:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataidea
+[2024-04-24 07:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-order-lot-selection
+[2024-04-24 07:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pantos-service-node
+[2024-04-24 07:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localcosmos-app-kit
+[2024-04-24 07:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mmpbsa-analysis-software
+[2024-04-24 07:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotframework-parrot-qrcodescanner
+[2024-04-24 07:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-interop
+[2024-04-24 07:51:00] INFO root fetch - processPackages [localcosmos-app-kit]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-24 07:51:00] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: New version: [14.0.1.1.1.dev9] Old Version: [14.0.1.1.1.dev8]
+[2024-04-24 07:51:00] INFO root fetch - processPackages [mojo-interop]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-24 07:51:00] INFO root fetch - processPackages [pantos-service-node]: New version: [1.6.0] Old Version: [1.5.3]
+[2024-04-24 07:51:00] INFO root fetch - processPackages [dataidea]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-24 07:51:00] INFO root fetch - processPackages [localcosmos-app-kit]: Downloading https://files.pythonhosted.org/packages/59/19/054e2d8ec62e992b1dfc87c39ad7c0dd1cda6c1d59efdf329f6bea53385d/localcosmos_app_kit-0.2.2.tar.gz
+[2024-04-24 07:51:00] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: Downloading https://files.pythonhosted.org/packages/7b/8d/6622948fe885762b412ea0ede9c3597751d083b95e1cd01ef1a44dc99fac/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev8-py3-none-any.whl
+[2024-04-24 07:51:00] WARNING root fetch - processPackages [mmpbsa-analysis-software]: Skipping, unable to determine old version
+[2024-04-24 07:51:00] INFO root fetch - main [MainThread]: End processing [mmpbsa-analysis-software] error
+[2024-04-24 07:51:00] INFO root fetch - processPackages [robotframework-parrot-qrcodescanner]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 07:51:00] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ab/a3/0b2448c3a7eaadce81ead97a0284b9eadde7fc11421c8a8ada144f88abe0/mojo_interop-1.3.8.tar.gz
+[2024-04-24 07:51:00] INFO root fetch - processPackages [pantos-service-node]: Downloading https://files.pythonhosted.org/packages/b1/9f/481496a1b92443b78cba35a189341ce9756a4c4be15184c1a363a2d98050/pantos_service_node-1.5.3-py3-none-any.whl
+[2024-04-24 07:51:00] INFO root fetch - processPackages [dataidea]: Downloading https://files.pythonhosted.org/packages/b1/25/3ed1bda587a342706ccb1eeb3c890cebb5ff8001971700d0d9b1f1387938/dataidea-0.2.4.tar.gz
+[2024-04-24 07:51:00] INFO root fetch - processPackages [robotframework-parrot-qrcodescanner]: Downloading https://files.pythonhosted.org/packages/1b/35/7bb7919e5d46e6e656b9b635934d0aecf2065eb352e6529a874d7b6ae486/robotframework_parrot_qrcodescanner-1.0.0.tar.gz
+[2024-04-24 07:51:00] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: Downloading https://files.pythonhosted.org/packages/3a/42/8996298c16df95fa3575776a0fe71a2fe526f4cc160bd46b8a250ab8bcfd/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev9-py3-none-any.whl
+[2024-04-24 07:51:00] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/87/86/ce6cbddd16154ffb5e383dbb481e623cb803fa9711c753daaa0ee1b22cef/mojo_interop-1.3.9.tar.gz
+[2024-04-24 07:51:00] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: executing diffoscope
+[2024-04-24 07:51:00] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20240424/o/odoo14-addon-sale-order-lot-selection/14.0.1.1.1.dev8-14.0.1.1.1.dev9/README.md --exclude *.pyd
+[2024-04-24 07:51:00] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2024-04-24 07:51:00] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-1.3.8.tar.gz tmp/mojo_interop-1.3.9.tar.gz --markdown 20240424/m/mojo-interop/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-24 07:51:00] INFO root fetch - processPackages [robotframework-parrot-qrcodescanner]: Downloading https://files.pythonhosted.org/packages/1f/f9/779cb304ceec64d53ad82ba79b6b61e0c42e80fc4d9a4a81771c16ca0e32/robotframework_parrot_qrcodescanner-1.0.1.tar.gz
+[2024-04-24 07:51:00] INFO root fetch - processPackages [pantos-service-node]: Downloading https://files.pythonhosted.org/packages/c0/af/69acdd3b9309086b2100ed3b11ec43b679b88c0d2a4fffc9860319d7b390/pantos_service_node-1.6.0-py3-none-any.whl
+[2024-04-24 07:51:00] INFO root fetch - processPackages [dataidea]: Downloading https://files.pythonhosted.org/packages/d3/b1/a70cca141bbb14e80a360efc8abd7bbe62c4201f3c9ace77dedb3bf9e31c/dataidea-0.2.5.tar.gz
+[2024-04-24 07:51:00] INFO root fetch - processPackages [robotframework-parrot-qrcodescanner]: executing diffoscope
+[2024-04-24 07:51:00] INFO root fetch - processPackages [robotframework-parrot-qrcodescanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_parrot_qrcodescanner-1.0.0.tar.gz tmp/robotframework_parrot_qrcodescanner-1.0.1.tar.gz --markdown 20240424/r/robotframework-parrot-qrcodescanner/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 07:51:00] INFO root fetch - processPackages [pantos-service-node]: executing diffoscope
+[2024-04-24 07:51:00] INFO root fetch - processPackages [pantos-service-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantos_service_node-1.5.3-py3-none-any.whl.zip tmp/pantos_service_node-1.6.0-py3-none-any.whl.zip --markdown 20240424/p/pantos-service-node/1.5.3-1.6.0/README.md --exclude *.pyd
+[2024-04-24 07:51:01] INFO root fetch - processPackages [localcosmos-app-kit]: Downloading https://files.pythonhosted.org/packages/ac/77/eb2756d96ef3476befa02432ba091b15e1ebd3551e809066735cab0dcc85/localcosmos_app_kit-0.2.3.tar.gz
+[2024-04-24 07:51:01] INFO root fetch - processPackages [dataidea]: executing diffoscope
+[2024-04-24 07:51:01] INFO root fetch - processPackages [dataidea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataidea-0.2.4.tar.gz tmp/dataidea-0.2.5.tar.gz --markdown 20240424/d/dataidea/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-24 07:51:01] INFO root fetch - processPackages [localcosmos-app-kit]: executing diffoscope
+[2024-04-24 07:51:01] INFO root fetch - processPackages [localcosmos-app-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_app_kit-0.2.2.tar.gz tmp/localcosmos_app_kit-0.2.3.tar.gz --markdown 20240424/l/localcosmos-app-kit/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-24 07:51:01] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2024-04-24 07:51:01] INFO root fetch - processPackages [odoo14-addon-sale-order-lot-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_lot_selection-14.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2024-04-24 07:51:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-lot-selection]: success
+[2024-04-24 07:51:01] INFO root fetch - processPackages [robotframework-parrot-qrcodescanner]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_qrcodescanner-1.0.0.tar.gz]
+[2024-04-24 07:51:01] INFO root fetch - processPackages [robotframework-parrot-qrcodescanner]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_qrcodescanner-1.0.1.tar.gz]
+[2024-04-24 07:51:01] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-qrcodescanner]: success
+[2024-04-24 07:51:01] INFO root fetch - processPackages [dataidea]: Remove: archive file [/home/abi/fetcher/tmp/dataidea-0.2.4.tar.gz]
+[2024-04-24 07:51:01] INFO root fetch - processPackages [dataidea]: Remove: archive file [/home/abi/fetcher/tmp/dataidea-0.2.5.tar.gz]
+[2024-04-24 07:51:01] INFO root fetch - main [MainThread]: End processing [dataidea]: success
+[2024-04-24 07:51:02] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-1.3.8.tar.gz]
+[2024-04-24 07:51:02] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-1.3.9.tar.gz]
+[2024-04-24 07:51:02] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2024-04-24 07:51:03] INFO root fetch - processPackages [pantos-service-node]: Remove: archive file [/home/abi/fetcher/tmp/pantos_service_node-1.5.3-py3-none-any.whl.zip]
+[2024-04-24 07:51:03] INFO root fetch - processPackages [pantos-service-node]: Remove: archive file [/home/abi/fetcher/tmp/pantos_service_node-1.6.0-py3-none-any.whl.zip]
+[2024-04-24 07:51:03] INFO root fetch - main [MainThread]: End processing [pantos-service-node]: success
+[2024-04-24 07:51:06] INFO root fetch - processPackages [localcosmos-app-kit]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit-0.2.2.tar.gz]
+[2024-04-24 07:51:06] INFO root fetch - processPackages [localcosmos-app-kit]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit-0.2.3.tar.gz]
+[2024-04-24 07:51:06] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit]: success
+[2024-04-24 07:51:06] INFO root fetch - main [MainThread]: Store serial: [22907336]
