@@ -16004,3 +16004,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:57:20] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.5.tar.gz]
 [2024-04-24 10:57:20] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
 [2024-04-24 10:57:20] INFO root fetch - main [MainThread]: Store serial: [22909366]
+[2024-04-24 10:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909366]
+[2024-04-24 10:59:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rats-pipelines
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-apps
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-processors
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dmk-packages
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bleuio
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-math
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragons96-tools
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: profilecard
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: retriever-search
+[2024-04-24 10:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rrtask
+[2024-04-24 10:59:30] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-24 10:59:30] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-24 10:59:30] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-24 10:59:30] WARNING root fetch - processPackages [retriever-search]: Skipping, unable to determine old version
+[2024-04-24 10:59:30] INFO root fetch - processPackages [retriever-search]: Start processing: labelme-ytu
+[2024-04-24 10:59:30] INFO root fetch - main [MainThread]: End processing [retriever-search] error
+[2024-04-24 10:59:30] INFO root fetch - processPackages [profilecard]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-24 10:59:31] INFO root fetch - processPackages [bleuio]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rrtask]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-24 10:59:31] INFO root fetch - processPackages [dmk-packages]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-24 10:59:31] INFO root fetch - processPackages [dragons96-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-24 10:59:31] INFO root fetch - processPackages [mo-math]: New version: [7.601.24115] Old Version: [7.600.24114]
+[2024-04-24 10:59:31] WARNING root fetch - processPackages [labelme-ytu]: Skipping, unable to determine old version
+[2024-04-24 10:59:31] INFO root fetch - processPackages [labelme-ytu]: Start processing: kungfupanda
+[2024-04-24 10:59:31] INFO root fetch - main [MainThread]: End processing [labelme-ytu] error
+[2024-04-24 10:59:31] INFO root fetch - processPackages [profilecard]: Downloading https://files.pythonhosted.org/packages/7a/09/2b4eaa13a157884fb434ccbaa2fd1270f9beb74da78f5e8719e2a7a64138/profilecard-1.0.3.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [bleuio]: Downloading https://files.pythonhosted.org/packages/eb/0a/dec1fd8658ce9ea430ed5d95302c5e47b72c380ecd9d7744aa39414d57c8/bleuio-1.3.1-py3-none-any.whl
+[2024-04-24 10:59:31] INFO root fetch - processPackages [kungfupanda]: New version: [0.22] Old Version: [0.21]
+[2024-04-24 10:59:31] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/01/43/1c295b96bd6c2b16ad8ff7c25cb80a5fd52d73bd4f45aa8ba31620557af6/dmk_packages-0.6.5.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/ed/ba/6c4ddb6e9bc2f7564a0cf387f8b4b3ce5f066aa3b61d8d7e4bff9a688b06/rrtask-0.0.2.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/f1/91/e028c01de6211d44041bf09c3d12627739cdc43ceca34b65367f7eda479e/mo_math-7.600.24114.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/a3/35/4f02f0f12780bf7b791989ab642ec21f06b9fd66e4025906bb9c6a5af6a4/dragons96_tools-0.0.8.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-24 10:59:31] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/67/0f/85868844e791d6da52f5170b5ed3051a0c5e71f1ba0413d6c7fa6a644158/kungfupanda-0.21.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240424/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-24 10:59:31] INFO root fetch - processPackages [profilecard]: Downloading https://files.pythonhosted.org/packages/41/a2/fb8f6c7287c1ea9a3f228e29fd8acf95e77ec5be015e6a671f1ce2c719aa/profilecard-1.0.4.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [bleuio]: Downloading https://files.pythonhosted.org/packages/dd/f6/0c952712bb11df5828aee98bc80b2e838be1606665d116fcd754fc38a0f9/bleuio-1.4.0-py3-none-any.whl
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240424/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240424/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-24 10:59:31] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/f3/8a/1d12297b808a8d4cce65a22c70441fef6e85909c35c708548e6be1383f20/dmk_packages-0.6.6.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/70/6b/f8eee41fd04d3b2e40c816116c3dc3f5252229ab2fb603f96b49da946c8a/rrtask-0.0.3.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [profilecard]: executing diffoscope
+[2024-04-24 10:59:31] INFO root fetch - processPackages [profilecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profilecard-1.0.3.tar.gz tmp/profilecard-1.0.4.tar.gz --markdown 20240424/p/profilecard/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-24 10:59:31] INFO root fetch - processPackages [bleuio]: executing diffoscope
+[2024-04-24 10:59:31] INFO root fetch - processPackages [bleuio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bleuio-1.3.1-py3-none-any.whl.zip tmp/bleuio-1.4.0-py3-none-any.whl.zip --markdown 20240424/b/bleuio/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-24 10:59:31] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/b8/d1/131a159259d84c9728c345e93424c6f2cb02d3364c4984079422e4d31179/mo_math-7.601.24115.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/ac/7c/813105da4cb1a3a4e0403b37ea632347837dd95f4dabad1c6224360f1284/dragons96_tools-0.0.9.tar.gz
+[2024-04-24 10:59:31] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-04-24 10:59:31] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.6.5.tar.gz tmp/dmk_packages-0.6.6.tar.gz --markdown 20240424/d/dmk-packages/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rrtask]: executing diffoscope
+[2024-04-24 10:59:31] INFO root fetch - processPackages [rrtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rrtask-0.0.2.tar.gz tmp/rrtask-0.0.3.tar.gz --markdown 20240424/r/rrtask/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 10:59:31] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2024-04-24 10:59:31] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_math-7.600.24114.tar.gz tmp/mo_math-7.601.24115.tar.gz --markdown 20240424/m/mo-math/7.600.24114-7.601.24115/README.md --exclude *.pyd
+[2024-04-24 10:59:32] INFO root fetch - processPackages [dragons96-tools]: executing diffoscope
+[2024-04-24 10:59:32] INFO root fetch - processPackages [dragons96-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragons96_tools-0.0.8.tar.gz tmp/dragons96_tools-0.0.9.tar.gz --markdown 20240424/d/dragons96-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:59:32] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/d7/2a/c12708c3c0b6dedff51aebc74eb8f9e0d3f5dca957d8b2b4776564233690/kungfupanda-0.22.tar.gz
+[2024-04-24 10:59:32] INFO root fetch - processPackages [kungfupanda]: executing diffoscope
+[2024-04-24 10:59:32] INFO root fetch - processPackages [kungfupanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kungfupanda-0.21.tar.gz tmp/kungfupanda-0.22.tar.gz --markdown 20240424/k/kungfupanda/0.21-0.22/README.md --exclude *.pyd
+[2024-04-24 10:59:32] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-24 10:59:32] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-24 10:59:32] INFO root fetch - processPackages [rats-apps]: Start processing: python-recentx
+[2024-04-24 10:59:32] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-24 10:59:32] WARNING root fetch - processPackages [python-recentx]: Skipping, unable to determine old version
+[2024-04-24 10:59:32] INFO root fetch - main [MainThread]: End processing [python-recentx] error
+[2024-04-24 10:59:32] INFO root fetch - processPackages [profilecard]: Remove: archive file [/home/abi/fetcher/tmp/profilecard-1.0.3.tar.gz]
+[2024-04-24 10:59:32] INFO root fetch - processPackages [profilecard]: Remove: archive file [/home/abi/fetcher/tmp/profilecard-1.0.4.tar.gz]
+[2024-04-24 10:59:32] INFO root fetch - main [MainThread]: End processing [profilecard]: success
+[2024-04-24 10:59:32] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.5.tar.gz]
+[2024-04-24 10:59:32] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.6.tar.gz]
+[2024-04-24 10:59:32] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-04-24 10:59:33] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-24 10:59:33] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-24 10:59:33] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-24 10:59:33] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-24 10:59:33] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-24 10:59:33] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-24 10:59:33] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.2.tar.gz]
+[2024-04-24 10:59:33] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.3.tar.gz]
+[2024-04-24 10:59:33] INFO root fetch - main [MainThread]: End processing [rrtask]: success
+[2024-04-24 10:59:33] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.600.24114.tar.gz]
+[2024-04-24 10:59:33] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.601.24115.tar.gz]
+[2024-04-24 10:59:33] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2024-04-24 10:59:33] INFO root fetch - processPackages [bleuio]: Remove: archive file [/home/abi/fetcher/tmp/bleuio-1.3.1-py3-none-any.whl.zip]
+[2024-04-24 10:59:33] INFO root fetch - processPackages [bleuio]: Remove: archive file [/home/abi/fetcher/tmp/bleuio-1.4.0-py3-none-any.whl.zip]
+[2024-04-24 10:59:33] INFO root fetch - main [MainThread]: End processing [bleuio]: success
+[2024-04-24 10:59:33] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.8.tar.gz]
+[2024-04-24 10:59:33] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
+[2024-04-24 10:59:33] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
+[2024-04-24 10:59:33] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.21.tar.gz]
+[2024-04-24 10:59:33] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.22.tar.gz]
+[2024-04-24 10:59:33] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
+[2024-04-24 10:59:33] INFO root fetch - main [MainThread]: Store serial: [22909406]
