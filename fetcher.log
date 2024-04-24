@@ -18761,3 +18761,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:21:58] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.2.tar.gz]
 [2024-04-24 12:21:58] INFO root fetch - main [MainThread]: End processing [opensafely]: success
 [2024-04-24 12:21:58] INFO root fetch - main [MainThread]: Store serial: [22910380]
+[2024-04-24 12:24:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910380]
+[2024-04-24 12:24:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 12:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-utils-dev
+[2024-04-24 12:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaggle_waggle
+[2024-04-24 12:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: outpostkit
+[2024-04-24 12:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygame-ce
+[2024-04-24 12:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarers.aws-frontend-web-app-deploy-stack
+[2024-04-24 12:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-json
+[2024-04-24 12:24:10] INFO root fetch - processPackages [kaggle_waggle]: New version: [1.6.12a9] Old Version: [1.6.12a8]
+[2024-04-24 12:24:10] WARNING root fetch - processPackages [gammarers.aws-frontend-web-app-deploy-stack]: Skipping, unable to determine old version
+[2024-04-24 12:24:10] INFO root fetch - main [MainThread]: End processing [gammarers.aws-frontend-web-app-deploy-stack] error
+[2024-04-24 12:24:10] INFO root fetch - processPackages [outpostkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-24 12:24:10] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-24 12:24:10] INFO root fetch - processPackages [mo-json]: New version: [6.601.24115] Old Version: [6.600.24114]
+[2024-04-24 12:24:10] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-04-24 12:24:10] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/e8/20/6f4f3b0edb61dd5f691668605b0901894c58c85e728662fff6913423203c/outpostkit-0.0.7.tar.gz
+[2024-04-24 12:24:10] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/51/87/ef46fe6c17bab32b5c54951d1b17c18460353545a0b859e130c1c18845fc/mo_json-6.600.24114.tar.gz
+[2024-04-24 12:24:10] INFO root fetch - processPackages [kaggle_waggle]: Downloading https://files.pythonhosted.org/packages/80/14/f0b007b79c62a5a535d1fa50166f6d49cb4ea1ea8c1d41847a8aaa1eebf7/kaggle_waggle-1.6.12a8.tar.gz
+[2024-04-24 12:24:10] WARNING root fetch - processPackages [kaggle_waggle]: Skipping package: exceeds size limit 24460840>=10485760
+[2024-04-24 12:24:10] INFO root fetch - main [MainThread]: End processing [kaggle_waggle] error
+[2024-04-24 12:24:10] INFO root fetch - processPackages [pygame-ce]: New version: [2.5.0.dev2] Old Version: [2.4.1]
+[2024-04-24 12:24:10] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/b3/af/8945c62fc6dc5596e5618810b3971a4c11d217517a24d0cd40a10b5b9553/outpostkit-0.0.9.tar.gz
+[2024-04-24 12:24:10] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-04-24 12:24:10] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/76/30/d0287425177f8b4a32d85a47d50e1a024fdec9e4864c9efb6b648c3db29c/mo_json-6.601.24115.tar.gz
+[2024-04-24 12:24:10] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-24 12:24:10] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240424/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-24 12:24:10] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2024-04-24 12:24:10] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.600.24114.tar.gz tmp/mo_json-6.601.24115.tar.gz --markdown 20240424/m/mo-json/6.600.24114-6.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:24:10] INFO root fetch - processPackages [outpostkit]: executing diffoscope
+[2024-04-24 12:24:10] INFO root fetch - processPackages [outpostkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostkit-0.0.7.tar.gz tmp/outpostkit-0.0.9.tar.gz --markdown 20240424/o/outpostkit/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-24 12:24:10] INFO root fetch - processPackages [pygame-ce]: Downloading https://files.pythonhosted.org/packages/dc/b1/64fffc2c8664497ae82b2afb4f5efe0130d38b39f2d25af0288c4261df3e/pygame-ce-2.4.1.tar.gz
+[2024-04-24 12:24:10] WARNING root fetch - processPackages [pygame-ce]: Skipping package: exceeds size limit 14196840>=10485760
+[2024-04-24 12:24:10] INFO root fetch - main [MainThread]: End processing [pygame-ce] error
+[2024-04-24 12:24:11] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.600.24114.tar.gz]
+[2024-04-24 12:24:11] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.601.24115.tar.gz]
+[2024-04-24 12:24:11] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2024-04-24 12:24:11] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-04-24 12:24:11] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-04-24 12:24:11] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-24 12:24:11] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.7.tar.gz]
+[2024-04-24 12:24:11] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
+[2024-04-24 12:24:11] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
+[2024-04-24 12:24:11] INFO root fetch - main [MainThread]: Store serial: [22910425]
