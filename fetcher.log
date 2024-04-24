@@ -17326,3 +17326,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:40:00] INFO root fetch - processPackages [omero-py]: Remove: archive file [/home/abi/fetcher/tmp/omero-py-5.9.3.tar.gz]
 [2024-04-24 11:40:00] INFO root fetch - main [MainThread]: End processing [omero-py]: success
 [2024-04-24 11:40:00] INFO root fetch - main [MainThread]: Store serial: [22909894]
+[2024-04-24 11:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909894]
+[2024-04-24 11:42:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenFisca-Survey-Manager
+[2024-04-24 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mure
+[2024-04-24 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-toothfairy-annotator
+[2024-04-24 11:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Project-DataPrepKit
+[2024-04-24 11:42:09] INFO root fetch - processPackages [Project-DataPrepKit]: New version: [0.2] Old Version: [0.1]
+[2024-04-24 11:42:09] INFO root fetch - processPackages [napari-toothfairy-annotator]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 11:42:09] INFO root fetch - processPackages [mure]: New version: [1.0.0a3] Old Version: [1.0.0a0]
+[2024-04-24 11:42:09] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-24 11:42:10] INFO root fetch - processPackages [mure]: Downloading https://files.pythonhosted.org/packages/a6/b2/e5865442b9a034856105844b461cab1ea2aa546f73e7a0ebff76c98132bc/mure-1.0.0a0.tar.gz
+[2024-04-24 11:42:10] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/f7/cb/17259a113f9d9938f55e013bf6f160d8468f7fd9af2d89791df7b74af3b4/napari-toothfairy-annotator-0.0.8.tar.gz
+[2024-04-24 11:42:10] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/cd/8a/13930cd94a827140663779e68feaff6ce4f0adecc09bfab7b1dd955b45e6/OpenFisca-Survey-Manager-2.2.0.tar.gz
+[2024-04-24 11:42:10] INFO root fetch - processPackages [Project-DataPrepKit]: Downloading https://files.pythonhosted.org/packages/65/4e/32efffcc2f00aa62590fa3b57134c5423556cf9c98045983ee479205109c/Project_DataPrepKit-0.1.tar.gz
+[2024-04-24 11:42:10] INFO root fetch - processPackages [mure]: Downloading https://files.pythonhosted.org/packages/95/a4/c6d8b4034e98febccde3947a125056bb79e4f57abfe0b3ad92f3bab3a94d/mure-1.0.0a3.tar.gz
+[2024-04-24 11:42:10] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/f5/8a/8bd11194691603ce2bfead148fbf0a4bdcfeb82e49d90cf27de34b12ac21/napari-toothfairy-annotator-0.0.9.tar.gz
+[2024-04-24 11:42:10] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/4d/a1/a8a87c05dc06d8fb23fd096647a6829ef5765d5476fd57a1b34dadbd9cc5/openfisca_survey_manager-2.2.1.tar.gz
+[2024-04-24 11:42:10] INFO root fetch - processPackages [napari-toothfairy-annotator]: executing diffoscope
+[2024-04-24 11:42:10] INFO root fetch - processPackages [napari-toothfairy-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-toothfairy-annotator-0.0.8.tar.gz tmp/napari-toothfairy-annotator-0.0.9.tar.gz --markdown 20240424/n/napari-toothfairy-annotator/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 11:42:10] INFO root fetch - processPackages [mure]: executing diffoscope
+[2024-04-24 11:42:10] INFO root fetch - processPackages [mure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mure-1.0.0a0.tar.gz tmp/mure-1.0.0a3.tar.gz --markdown 20240424/m/mure/1.0.0a0-1.0.0a3/README.md --exclude *.pyd
+[2024-04-24 11:42:10] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: executing diffoscope
+[2024-04-24 11:42:10] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-Survey-Manager-2.2.0.tar.gz tmp/openfisca_survey_manager-2.2.1.tar.gz --markdown 20240424/O/OpenFisca-Survey-Manager/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-24 11:42:10] INFO root fetch - processPackages [Project-DataPrepKit]: Downloading https://files.pythonhosted.org/packages/89/d1/103c18b0ac51078d44632686bf149fbebd9df5c2ac9f7d5bdfcad27f107f/Project_DataPrepKit-0.2.tar.gz
+[2024-04-24 11:42:10] INFO root fetch - processPackages [Project-DataPrepKit]: executing diffoscope
+[2024-04-24 11:42:10] INFO root fetch - processPackages [Project-DataPrepKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Project_DataPrepKit-0.1.tar.gz tmp/Project_DataPrepKit-0.2.tar.gz --markdown 20240424/P/Project-DataPrepKit/0.1-0.2/README.md --exclude *.pyd
+[2024-04-24 11:42:11] INFO root fetch - processPackages [mure]: Remove: archive file [/home/abi/fetcher/tmp/mure-1.0.0a0.tar.gz]
+[2024-04-24 11:42:11] INFO root fetch - processPackages [mure]: Remove: archive file [/home/abi/fetcher/tmp/mure-1.0.0a3.tar.gz]
+[2024-04-24 11:42:11] INFO root fetch - main [MainThread]: End processing [mure]: success
+[2024-04-24 11:42:11] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.8.tar.gz]
+[2024-04-24 11:42:11] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.9.tar.gz]
+[2024-04-24 11:42:11] INFO root fetch - main [MainThread]: End processing [napari-toothfairy-annotator]: success
+[2024-04-24 11:42:11] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-2.2.0.tar.gz]
+[2024-04-24 11:42:11] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/openfisca_survey_manager-2.2.1.tar.gz]
+[2024-04-24 11:42:11] INFO root fetch - main [MainThread]: End processing [OpenFisca-Survey-Manager]: success
+[2024-04-24 11:42:11] INFO root fetch - processPackages [Project-DataPrepKit]: Remove: archive file [/home/abi/fetcher/tmp/Project_DataPrepKit-0.1.tar.gz]
+[2024-04-24 11:42:11] INFO root fetch - processPackages [Project-DataPrepKit]: Remove: archive file [/home/abi/fetcher/tmp/Project_DataPrepKit-0.2.tar.gz]
+[2024-04-24 11:42:11] INFO root fetch - main [MainThread]: End processing [Project-DataPrepKit]: success
+[2024-04-24 11:42:11] INFO root fetch - main [MainThread]: Store serial: [22909907]
