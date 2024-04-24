@@ -23608,3 +23608,73 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 15:07:56] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
 [2024-04-24 15:07:56] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
 [2024-04-24 15:07:56] INFO root fetch - main [MainThread]: Store serial: [22912464]
+[2024-04-24 15:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912464]
+[2024-04-24 15:10:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SteamedBread
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ontopint
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stadb
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frequenz-client-dispatch
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-lib3mf
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-awscdk-resolver
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: animdl2
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mteb
+[2024-04-24 15:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mediapipe-nightly
+[2024-04-24 15:10:21] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-24 15:10:21] WARNING root fetch - processPackages [animdl2]: Skipping, unable to determine old version
+[2024-04-24 15:10:21] INFO root fetch - processPackages [animdl2]: Start processing: composio-core
+[2024-04-24 15:10:21] INFO root fetch - main [MainThread]: End processing [animdl2] error
+[2024-04-24 15:10:21] WARNING root fetch - processPackages [ontopint]: Skipping, unable to determine old version
+[2024-04-24 15:10:21] INFO root fetch - main [MainThread]: End processing [ontopint] error
+[2024-04-24 15:10:21] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-24 15:10:21] INFO root fetch - processPackages [SteamedBread]: New version: [0.1.7.7] Old Version: [0.1.7.5]
+[2024-04-24 15:10:21] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 15:10:21] INFO root fetch - processPackages [stadb]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 15:10:21] WARNING root fetch - processPackages [frequenz-client-dispatch]: Skipping, unable to determine old version
+[2024-04-24 15:10:21] INFO root fetch - main [MainThread]: End processing [frequenz-client-dispatch] error
+[2024-04-24 15:10:21] WARNING root fetch - processPackages [test-lib3mf]: Skipping, unable to determine old version
+[2024-04-24 15:10:21] INFO root fetch - main [MainThread]: End processing [test-lib3mf] error
+[2024-04-24 15:10:21] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-24 15:10:21] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.9] Old Version: [0.0.87]
+[2024-04-24 15:10:21] INFO root fetch - processPackages [mediapipe-nightly]: New version: [0.10.13.post20240424] Old Version: [0.10.13.post20240423]
+[2024-04-24 15:10:22] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-24 15:10:22] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-04-24 15:10:22] INFO root fetch - processPackages [SteamedBread]: Downloading https://files.pythonhosted.org/packages/9a/c2/971a62b8a995fce23df432167428267a15950334f24af695bbef5dbb8877/SteamedBread-0.1.7.5.tar.gz
+[2024-04-24 15:10:22] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/7f/16/75bad44bfb702cea2db8c72e3f638a11b7714b96898de6a2fd6273241cbf/cdk8s-awscdk-resolver-0.0.87.tar.gz
+[2024-04-24 15:10:22] WARNING root fetch - processPackages [SteamedBread]: Skipping package: exceeds size limit 16656124>=10485760
+[2024-04-24 15:10:22] INFO root fetch - main [MainThread]: End processing [SteamedBread] error
+[2024-04-24 15:10:22] INFO root fetch - processPackages [mediapipe-nightly]: Downloading https://files.pythonhosted.org/packages/52/6a/54fe2713d559b272005ad1b5eb14f8acac369bdf78a41f5f6df0ad1e2ea0/mediapipe_nightly-0.10.13.post20240423-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-04-24 15:10:22] INFO root fetch - processPackages [stadb]: Downloading https://files.pythonhosted.org/packages/f4/66/f09f8444882f873e85b8f69f98b721ea7869695ccce28547f5e706dd25b6/stadb-0.0.4.tar.gz
+[2024-04-24 15:10:22] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-04-24 15:10:22] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-24 15:10:22] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-24 15:10:22] WARNING root fetch - processPackages [mediapipe-nightly]: Skipping package: exceeds size limit 49979140>=10485760
+[2024-04-24 15:10:22] INFO root fetch - main [MainThread]: End processing [mediapipe-nightly] error
+[2024-04-24 15:10:22] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-24 15:10:22] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240424/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 15:10:22] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-24 15:10:22] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240424/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-24 15:10:22] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-24 15:10:22] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240424/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-24 15:10:22] INFO root fetch - processPackages [stadb]: Downloading https://files.pythonhosted.org/packages/ef/30/16da7d8037f058f5ceff873d5b7b283877382ad9cf0c84297fbeab2a0772/stadb-0.0.5.tar.gz
+[2024-04-24 15:10:22] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-24 15:10:22] INFO root fetch - processPackages [stadb]: executing diffoscope
+[2024-04-24 15:10:22] INFO root fetch - processPackages [stadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadb-0.0.4.tar.gz tmp/stadb-0.0.5.tar.gz --markdown 20240424/s/stadb/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-24 15:10:22] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-24 15:10:22] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.87.tar.gz tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz --markdown 20240424/c/cdk8s-awscdk-resolver/0.0.87-0.0.9/README.md --exclude *.pyd
+[2024-04-24 15:10:23] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-24 15:10:23] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-24 15:10:23] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-24 15:10:23] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-04-24 15:10:23] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-04-24 15:10:23] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-24 15:10:23] INFO root fetch - processPackages [stadb]: Remove: archive file [/home/abi/fetcher/tmp/stadb-0.0.4.tar.gz]
+[2024-04-24 15:10:23] INFO root fetch - processPackages [stadb]: Remove: archive file [/home/abi/fetcher/tmp/stadb-0.0.5.tar.gz]
+[2024-04-24 15:10:23] INFO root fetch - main [MainThread]: End processing [stadb]: success
+[2024-04-24 15:10:23] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.87.tar.gz]
+[2024-04-24 15:10:23] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-24 15:10:23] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-24 15:10:24] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-24 15:10:24] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-24 15:10:24] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-24 15:10:24] INFO root fetch - main [MainThread]: Store serial: [22912496]
