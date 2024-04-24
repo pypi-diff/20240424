@@ -17121,3 +17121,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:33:22] INFO root fetch - processPackages [mipkit]: Remove: archive file [/home/abi/fetcher/tmp/mipkit-1.6.4-py3-none-any.whl.zip]
 [2024-04-24 11:33:22] INFO root fetch - main [MainThread]: End processing [mipkit]: success
 [2024-04-24 11:33:22] INFO root fetch - main [MainThread]: Store serial: [22909816]
+[2024-04-24 11:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909816]
+[2024-04-24 11:35:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-sale-order-mitxelena
+[2024-04-24 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: megfile
+[2024-04-24 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyQtUIkit
+[2024-04-24 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miniscons
+[2024-04-24 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discovery-connect
+[2024-04-24 11:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamerate
+[2024-04-24 11:35:32] INFO root fetch - processPackages [odoo14-addon-sale-order-mitxelena]: New version: [14.0.1.0.7] Old Version: [14.0.1.0.6]
+[2024-04-24 11:35:32] INFO root fetch - processPackages [streamerate]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-04-24 11:35:32] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.7.4] Old Version: [2.7.3]
+[2024-04-24 11:35:32] INFO root fetch - processPackages [miniscons]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-24 11:35:32] WARNING root fetch - processPackages [discovery-connect]: Skipping, unable to determine old version
+[2024-04-24 11:35:32] INFO root fetch - main [MainThread]: End processing [discovery-connect] error
+[2024-04-24 11:35:32] INFO root fetch - processPackages [megfile]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-24 11:35:33] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/1d/57/195815f0e89cbdbe31a232804abc5a040c4364670ba4698278d76e72a78f/PyQtUIkit-2.7.3.tar.gz
+[2024-04-24 11:35:33] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/e7/8b/dfa9d450d26eacbc3baa1f0ada7410ad49f7497ea1ab2015b2f96a3c898f/megfile-3.0.1-py3-none-any.whl
+[2024-04-24 11:35:33] INFO root fetch - processPackages [streamerate]: Downloading https://files.pythonhosted.org/packages/c9/14/5f7686b5e85c6ac5a9d78aa0a2537e7b67880a09cdebe74378f8fa93b8fd/streamerate-1.0.5-py3-none-any.whl
+[2024-04-24 11:35:33] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/c8/19/0e1cd144f9ae0c63c7ffb39cf8f2e6c0ce6b65dc9244cd486c8ac7c93d03/miniscons-0.8.1.tar.gz
+[2024-04-24 11:35:33] INFO root fetch - processPackages [odoo14-addon-sale-order-mitxelena]: Downloading https://files.pythonhosted.org/packages/f2/a5/aa35ac03aa767f78eb42804deb0ee0039b7fa18738ec24cb279d7b45ee83/odoo14-addon-sale_order_mitxelena-14.0.1.0.6.tar.gz
+[2024-04-24 11:35:33] INFO root fetch - processPackages [streamerate]: Downloading https://files.pythonhosted.org/packages/ac/25/8dd1790d14299814b0ac1ac1903d3e857e31930634b3132b190eb0b169c4/streamerate-1.1.0.tar.gz
+[2024-04-24 11:35:33] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/99/b3/5b5df2bbdd9464ea87f25ed15e6d012213891a1282b5bf7ac607fc4eab34/miniscons-0.9.0.tar.gz
+[2024-04-24 11:35:33] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/f2/c5/c1ec78b74d3c7025b450c1087a0689058e5d534d6688c769db6e258faf5a/megfile-3.0.2-py3-none-any.whl
+[2024-04-24 11:35:33] INFO root fetch - processPackages [odoo14-addon-sale-order-mitxelena]: Downloading https://files.pythonhosted.org/packages/68/8e/e3d438b311b1e4ff4b0d000d4a185f8eec30907f50f45b6fe75ea664b3df/odoo14-addon-sale_order_mitxelena-14.0.1.0.7.tar.gz
+[2024-04-24 11:35:33] INFO root fetch - processPackages [miniscons]: executing diffoscope
+[2024-04-24 11:35:33] INFO root fetch - processPackages [miniscons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscons-0.8.1.tar.gz tmp/miniscons-0.9.0.tar.gz --markdown 20240424/m/miniscons/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-24 11:35:33] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2024-04-24 11:35:33] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-3.0.1-py3-none-any.whl.zip tmp/megfile-3.0.2-py3-none-any.whl.zip --markdown 20240424/m/megfile/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-24 11:35:33] INFO root fetch - processPackages [streamerate]: executing diffoscope
+[2024-04-24 11:35:33] INFO root fetch - processPackages [streamerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamerate-1.0.5-py3-none-any.whl.zip tmp/streamerate-1.1.0.tar.gz --markdown 20240424/s/streamerate/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-04-24 11:35:33] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/b3/5a/c9df6833d21cab200765991f7601df7adc8f085ea0ac24cbf9249d54e851/PyQtUIkit-2.7.4.tar.gz
+[2024-04-24 11:35:33] INFO root fetch - processPackages [odoo14-addon-sale-order-mitxelena]: executing diffoscope
+[2024-04-24 11:35:33] INFO root fetch - processPackages [odoo14-addon-sale-order-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-sale_order_mitxelena-14.0.1.0.6.tar.gz tmp/odoo14-addon-sale_order_mitxelena-14.0.1.0.7.tar.gz --markdown 20240424/o/odoo14-addon-sale-order-mitxelena/14.0.1.0.6-14.0.1.0.7/README.md --exclude *.pyd
+[2024-04-24 11:35:33] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-24 11:35:33] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.7.3.tar.gz tmp/PyQtUIkit-2.7.4.tar.gz --markdown 20240424/P/PyQtUIkit/2.7.3-2.7.4/README.md --exclude *.pyd
+[2024-04-24 11:35:34] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.8.1.tar.gz]
+[2024-04-24 11:35:34] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.9.0.tar.gz]
+[2024-04-24 11:35:34] INFO root fetch - main [MainThread]: End processing [miniscons]: success
+[2024-04-24 11:35:34] INFO root fetch - processPackages [streamerate]: Remove: archive file [/home/abi/fetcher/tmp/streamerate-1.0.5-py3-none-any.whl.zip]
+[2024-04-24 11:35:34] INFO root fetch - processPackages [streamerate]: Remove: archive file [/home/abi/fetcher/tmp/streamerate-1.1.0.tar.gz]
+[2024-04-24 11:35:34] INFO root fetch - main [MainThread]: End processing [streamerate]: success
+[2024-04-24 11:35:34] INFO root fetch - processPackages [odoo14-addon-sale-order-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-sale_order_mitxelena-14.0.1.0.6.tar.gz]
+[2024-04-24 11:35:34] INFO root fetch - processPackages [odoo14-addon-sale-order-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-sale_order_mitxelena-14.0.1.0.7.tar.gz]
+[2024-04-24 11:35:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-mitxelena]: success
+[2024-04-24 11:35:34] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-3.0.1-py3-none-any.whl.zip]
+[2024-04-24 11:35:34] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-3.0.2-py3-none-any.whl.zip]
+[2024-04-24 11:35:34] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2024-04-24 11:35:35] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.3.tar.gz]
+[2024-04-24 11:35:35] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.4.tar.gz]
+[2024-04-24 11:35:35] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-24 11:35:35] INFO root fetch - main [MainThread]: Store serial: [22909834]
