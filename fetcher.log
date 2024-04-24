@@ -7075,3 +7075,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:21:50] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
 [2024-04-24 03:21:50] INFO root fetch - main [MainThread]: End processing [lense]: success
 [2024-04-24 03:21:50] INFO root fetch - main [MainThread]: Store serial: [22905156]
+[2024-04-24 03:23:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905156]
+[2024-04-24 03:23:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 03:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: draggable-charts
+[2024-04-24 03:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuralnetlib
+[2024-04-24 03:23:59] INFO root fetch - processPackages [neuralnetlib]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-24 03:23:59] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/3c/7a/c26b57e4c7d77b4066918c593def23be9159a5d50c10fec95b37ca1c9518/neuralnetlib-2.3.0.tar.gz
+[2024-04-24 03:23:59] INFO root fetch - processPackages [draggable-charts]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 03:23:59] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/fe/ea/bc713ee3fee37a2c50d67eb637b055bebe5f2e62bba054a4af3c6bb211a6/draggable-charts-1.0.0.tar.gz
+[2024-04-24 03:23:59] INFO root fetch - processPackages [neuralnetlib]: Downloading https://files.pythonhosted.org/packages/57/82/43bc0e1e7a97f0ec8ad052ccde9f840e197e6f7e214846d535c8ae10d96d/neuralnetlib-2.3.1.tar.gz
+[2024-04-24 03:24:00] INFO root fetch - processPackages [neuralnetlib]: executing diffoscope
+[2024-04-24 03:24:00] INFO root fetch - processPackages [neuralnetlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralnetlib-2.3.0.tar.gz tmp/neuralnetlib-2.3.1.tar.gz --markdown 20240424/n/neuralnetlib/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-04-24 03:24:00] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/2c/c0/2d844ee4fc44936c64c0533df6f9be985dd5207324aa8fbcc0db348fa944/draggable-charts-1.0.1.tar.gz
+[2024-04-24 03:24:00] INFO root fetch - processPackages [draggable-charts]: executing diffoscope
+[2024-04-24 03:24:00] INFO root fetch - processPackages [draggable-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggable-charts-1.0.0.tar.gz tmp/draggable-charts-1.0.1.tar.gz --markdown 20240424/d/draggable-charts/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 03:24:00] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.3.0.tar.gz]
+[2024-04-24 03:24:00] INFO root fetch - processPackages [neuralnetlib]: Remove: archive file [/home/abi/fetcher/tmp/neuralnetlib-2.3.1.tar.gz]
+[2024-04-24 03:24:00] INFO root fetch - main [MainThread]: End processing [neuralnetlib]: success
+[2024-04-24 03:24:01] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.0.0.tar.gz]
+[2024-04-24 03:24:01] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.0.1.tar.gz]
+[2024-04-24 03:24:01] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
+[2024-04-24 03:24:01] INFO root fetch - main [MainThread]: Store serial: [22905225]
