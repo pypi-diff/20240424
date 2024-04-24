@@ -14622,3 +14622,45 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:08:33] INFO root fetch - processPackages [ar-ex-sys-worker]: Remove: archive file [/home/abi/fetcher/tmp/ar_ex_sys_worker-1.9.4-py3-none-any.whl.zip]
 [2024-04-24 10:08:33] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
 [2024-04-24 10:08:33] INFO root fetch - main [MainThread]: Store serial: [22908839]
+[2024-04-24 10:10:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908839]
+[2024-04-24 10:10:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 10:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2024-04-24 10:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twelvelabs
+[2024-04-24 10:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fs-attestation-safe-cli
+[2024-04-24 10:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbnlp
+[2024-04-24 10:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: contrastive-ne
+[2024-04-24 10:10:42] INFO root fetch - processPackages [contrastive-ne]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-24 10:10:42] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240423] Old Version: [0.4.5.dev20240422]
+[2024-04-24 10:10:42] INFO root fetch - processPackages [contrastive-ne]: Downloading https://files.pythonhosted.org/packages/1c/dc/cfe7459c2a0a3dd063127daa2e5de753155265825e81a974dd0f3e7cad9c/contrastive_ne-0.3.5.tar.gz
+[2024-04-24 10:10:42] INFO root fetch - processPackages [nbnlp]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-04-24 10:10:42] WARNING root fetch - processPackages [fs-attestation-safe-cli]: Skipping, unable to determine old version
+[2024-04-24 10:10:42] INFO root fetch - main [MainThread]: End processing [fs-attestation-safe-cli] error
+[2024-04-24 10:10:42] INFO root fetch - processPackages [twelvelabs]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-04-24 10:10:42] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/d0/9c/3f923732156c1e01f39e396e6473d7c10ed9d7ca01ca07534cab54024240/pyglove-0.4.5.dev20240422.tar.gz
+[2024-04-24 10:10:42] INFO root fetch - processPackages [nbnlp]: Downloading https://files.pythonhosted.org/packages/06/91/8b7267732ccd01fb29531671f4e5e68f66c0495e31fb2c013d36f5228e6a/nbnlp-2.0.0.tar.gz
+[2024-04-24 10:10:42] INFO root fetch - processPackages [twelvelabs]: Downloading https://files.pythonhosted.org/packages/08/78/bd819066dae9b59b3914d16608523bca597e2ebdcd1f3bfcd534f708414f/twelvelabs-0.1.21.tar.gz
+[2024-04-24 10:10:42] INFO root fetch - processPackages [contrastive-ne]: Downloading https://files.pythonhosted.org/packages/bf/c4/296d7f3eeff1362e1e4f0439a6bc2bb4c38ad3740c0692c34a3b1f62a9e9/contrastive_ne-0.3.6.tar.gz
+[2024-04-24 10:10:42] INFO root fetch - processPackages [contrastive-ne]: executing diffoscope
+[2024-04-24 10:10:42] INFO root fetch - processPackages [contrastive-ne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contrastive_ne-0.3.5.tar.gz tmp/contrastive_ne-0.3.6.tar.gz --markdown 20240424/c/contrastive-ne/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-24 10:10:42] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/1f/4e/5353b20539d3de863051bb5815a574f8fe8927f20932d53a0e833c2a700c/pyglove-0.4.5.dev20240423.tar.gz
+[2024-04-24 10:10:42] INFO root fetch - processPackages [twelvelabs]: Downloading https://files.pythonhosted.org/packages/07/c7/0719fbafa7a109cc451db85f2d81b0fbc9e5aafc5287395438c44fd1c7cd/twelvelabs-0.1.22.tar.gz
+[2024-04-24 10:10:42] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-24 10:10:42] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240422.tar.gz tmp/pyglove-0.4.5.dev20240423.tar.gz --markdown 20240424/p/pyglove/0.4.5.dev20240422-0.4.5.dev20240423/README.md --exclude *.pyd
+[2024-04-24 10:10:42] INFO root fetch - processPackages [nbnlp]: Downloading https://files.pythonhosted.org/packages/bf/85/a23dfe9b5c4707cfccbf4596b3d1ea86d45cb980d2527f49368cfa3cca87/nbnlp-3.0.0.tar.gz
+[2024-04-24 10:10:42] INFO root fetch - processPackages [twelvelabs]: executing diffoscope
+[2024-04-24 10:10:42] INFO root fetch - processPackages [twelvelabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twelvelabs-0.1.21.tar.gz tmp/twelvelabs-0.1.22.tar.gz --markdown 20240424/t/twelvelabs/0.1.21-0.1.22/README.md --exclude *.pyd
+[2024-04-24 10:10:42] INFO root fetch - processPackages [nbnlp]: executing diffoscope
+[2024-04-24 10:10:42] INFO root fetch - processPackages [nbnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbnlp-2.0.0.tar.gz tmp/nbnlp-3.0.0.tar.gz --markdown 20240424/n/nbnlp/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-04-24 10:10:43] INFO root fetch - processPackages [contrastive-ne]: Remove: archive file [/home/abi/fetcher/tmp/contrastive_ne-0.3.5.tar.gz]
+[2024-04-24 10:10:43] INFO root fetch - processPackages [contrastive-ne]: Remove: archive file [/home/abi/fetcher/tmp/contrastive_ne-0.3.6.tar.gz]
+[2024-04-24 10:10:43] INFO root fetch - main [MainThread]: End processing [contrastive-ne]: success
+[2024-04-24 10:10:43] INFO root fetch - processPackages [twelvelabs]: Remove: archive file [/home/abi/fetcher/tmp/twelvelabs-0.1.21.tar.gz]
+[2024-04-24 10:10:43] INFO root fetch - processPackages [twelvelabs]: Remove: archive file [/home/abi/fetcher/tmp/twelvelabs-0.1.22.tar.gz]
+[2024-04-24 10:10:43] INFO root fetch - main [MainThread]: End processing [twelvelabs]: success
+[2024-04-24 10:10:43] INFO root fetch - processPackages [nbnlp]: Remove: archive file [/home/abi/fetcher/tmp/nbnlp-2.0.0.tar.gz]
+[2024-04-24 10:10:43] INFO root fetch - processPackages [nbnlp]: Remove: archive file [/home/abi/fetcher/tmp/nbnlp-3.0.0.tar.gz]
+[2024-04-24 10:10:43] INFO root fetch - main [MainThread]: End processing [nbnlp]: success
+[2024-04-24 10:10:44] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240422.tar.gz]
+[2024-04-24 10:10:44] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240423.tar.gz]
+[2024-04-24 10:10:44] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-24 10:10:44] INFO root fetch - main [MainThread]: Store serial: [22908859]
