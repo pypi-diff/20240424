@@ -12343,3 +12343,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:48:58] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.9.tar.gz]
 [2024-04-24 08:48:58] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
 [2024-04-24 08:48:58] INFO root fetch - main [MainThread]: Store serial: [22907643]
+[2024-04-24 08:51:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907643]
+[2024-04-24 08:51:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 08:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phringe
+[2024-04-24 08:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dimples
+[2024-04-24 08:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: referencing
+[2024-04-24 08:51:07] INFO root fetch - processPackages [phringe]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 08:51:07] INFO root fetch - processPackages [dimples]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-04-24 08:51:07] INFO root fetch - processPackages [referencing]: New version: [0.9.2] Old Version: [0.8.9]
+[2024-04-24 08:51:07] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/7a/6c/f071cba50885da2c0c38dd2f65e60b0b1a3d428c2bf4acc7a24115009243/phringe-0.0.8.tar.gz
+[2024-04-24 08:51:07] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/d8/c0/5f61dd37fdc8d601b65a7da37bf78beaf8df967a412606c73ed49584fdea/dimples-0.5.3.tar.gz
+[2024-04-24 08:51:07] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/2b/ed/f98bc7032a95aa20012ccefb729c1908f6acc9c6c6f88e038ac0a93750cb/referencing-0.8.9.tar.gz
+[2024-04-24 08:51:07] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/a9/3f/4fae0af86d9be225260c4afd1c1b74017765456017b0dd091b57adba093b/phringe-0.0.9.tar.gz
+[2024-04-24 08:51:07] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/cc/0c/6937553f31e7a20a7397c9e7e241d610870700016a8b441e6c3089b916fe/dimples-0.5.5.tar.gz
+[2024-04-24 08:51:07] INFO root fetch - processPackages [dimples]: executing diffoscope
+[2024-04-24 08:51:07] INFO root fetch - processPackages [dimples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimples-0.5.3.tar.gz tmp/dimples-0.5.5.tar.gz --markdown 20240424/d/dimples/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-04-24 08:51:07] INFO root fetch - processPackages [phringe]: executing diffoscope
+[2024-04-24 08:51:07] INFO root fetch - processPackages [phringe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phringe-0.0.8.tar.gz tmp/phringe-0.0.9.tar.gz --markdown 20240424/p/phringe/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 08:51:07] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/3a/2c/6c5c6451d2818adfd99b87a8aa1c5147f6d9097d31cfee6a020418f9b02c/referencing-0.9.2.tar.gz
+[2024-04-24 08:51:08] INFO root fetch - processPackages [referencing]: executing diffoscope
+[2024-04-24 08:51:08] INFO root fetch - processPackages [referencing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing-0.8.9.tar.gz tmp/referencing-0.9.2.tar.gz --markdown 20240424/r/referencing/0.8.9-0.9.2/README.md --exclude *.pyd
+[2024-04-24 08:51:08] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.8.tar.gz]
+[2024-04-24 08:51:08] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.9.tar.gz]
+[2024-04-24 08:51:08] INFO root fetch - main [MainThread]: End processing [phringe]: success
+[2024-04-24 08:51:08] INFO root fetch - processPackages [referencing]: Remove: archive file [/home/abi/fetcher/tmp/referencing-0.8.9.tar.gz]
+[2024-04-24 08:51:08] INFO root fetch - processPackages [referencing]: Remove: archive file [/home/abi/fetcher/tmp/referencing-0.9.2.tar.gz]
+[2024-04-24 08:51:08] INFO root fetch - main [MainThread]: End processing [referencing]: success
+[2024-04-24 08:51:08] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.3.tar.gz]
+[2024-04-24 08:51:08] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.5.tar.gz]
+[2024-04-24 08:51:08] INFO root fetch - main [MainThread]: End processing [dimples]: success
+[2024-04-24 08:51:08] INFO root fetch - main [MainThread]: Store serial: [22907655]
