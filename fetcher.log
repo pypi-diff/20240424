@@ -2873,3 +2873,45 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:34:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
 [2024-04-24 02:34:33] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
 [2024-04-24 02:34:33] INFO root fetch - main [MainThread]: Store serial: [22903997]
+[2024-04-24 02:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903997]
+[2024-04-24 02:36:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 02:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jillw
+[2024-04-24 02:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doctran_openai
+[2024-04-24 02:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exetimer
+[2024-04-24 02:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kayalab
+[2024-04-24 02:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Common
+[2024-04-24 02:36:42] INFO root fetch - processPackages [doctran_openai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 02:36:42] WARNING root fetch - processPackages [exetimer]: Skipping, unable to determine old version
+[2024-04-24 02:36:42] INFO root fetch - main [MainThread]: End processing [exetimer] error
+[2024-04-24 02:36:42] INFO root fetch - processPackages [jillw]: New version: [0.3.2rc1] Old Version: [0.3.1]
+[2024-04-24 02:36:42] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-04-24 02:36:42] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/cf/ee/05034545d75a841e008b92e49c2b144b94ab265f8b8878a39626222b7677/doctran_openai-0.0.8.tar.gz
+[2024-04-24 02:36:42] INFO root fetch - processPackages [Geode-Common]: New version: [31.0.8rc1] Old Version: [31.0.8]
+[2024-04-24 02:36:42] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-04-24 02:36:42] INFO root fetch - processPackages [jillw]: Downloading https://files.pythonhosted.org/packages/b1/c4/662532bfedf97a78f9ce29e7920e5aa08e434e662c1ca8172e6229a649f8/jillw-0.3.1.tar.gz
+[2024-04-24 02:36:42] INFO root fetch - processPackages [doctran_openai]: Downloading https://files.pythonhosted.org/packages/bf/57/6123b8227a48d42aa4dc92614deefd2fb96be6aa7d4e4d9a03e12fbde0cb/doctran_openai-0.0.9.tar.gz
+[2024-04-24 02:36:42] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/1e/a6/00779c1c69f8b3f8b6cf525dd04fb318af9bffe20f889105c098c6613720/Geode_Common-31.0.8-cp38-cp38-manylinux2014_x86_64.whl
+[2024-04-24 02:36:42] INFO root fetch - processPackages [doctran_openai]: executing diffoscope
+[2024-04-24 02:36:42] INFO root fetch - processPackages [doctran_openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran_openai-0.0.8.tar.gz tmp/doctran_openai-0.0.9.tar.gz --markdown 20240424/d/doctran_openai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 02:36:42] INFO root fetch - processPackages [jillw]: Downloading https://files.pythonhosted.org/packages/2b/cd/680935ceb5e825c5381ca75a552dc8d25185cb677ea0f03d7b77d14464d7/jillw-0.3.2rc1.tar.gz
+[2024-04-24 02:36:42] INFO root fetch - processPackages [jillw]: executing diffoscope
+[2024-04-24 02:36:42] INFO root fetch - processPackages [jillw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jillw-0.3.1.tar.gz tmp/jillw-0.3.2rc1.tar.gz --markdown 20240424/j/jillw/0.3.1-0.3.2rc1/README.md --exclude *.pyd
+[2024-04-24 02:36:42] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-04-24 02:36:43] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.8.tar.gz]
+[2024-04-24 02:36:43] INFO root fetch - processPackages [doctran_openai]: Remove: archive file [/home/abi/fetcher/tmp/doctran_openai-0.0.9.tar.gz]
+[2024-04-24 02:36:43] INFO root fetch - main [MainThread]: End processing [doctran_openai]: success
+[2024-04-24 02:36:43] INFO root fetch - processPackages [jillw]: Remove: archive file [/home/abi/fetcher/tmp/jillw-0.3.1.tar.gz]
+[2024-04-24 02:36:43] INFO root fetch - processPackages [jillw]: Remove: archive file [/home/abi/fetcher/tmp/jillw-0.3.2rc1.tar.gz]
+[2024-04-24 02:36:43] INFO root fetch - main [MainThread]: End processing [jillw]: success
+[2024-04-24 02:36:43] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-04-24 02:36:43] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240424/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-04-24 02:36:44] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/1d/cb/332316b4ab83ab9b691b0e18aab102a7f1b453e5d9b887dc9b97f68aab04/Geode_Common-31.0.8rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 02:36:44] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2024-04-24 02:36:44] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-31.0.8-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/Geode_Common-31.0.8rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240424/G/Geode-Common/31.0.8-31.0.8rc1/README.md --exclude *.pyd
+[2024-04-24 02:36:45] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.8-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2024-04-24 02:36:45] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 02:36:45] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2024-04-24 02:36:46] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-04-24 02:36:46] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-04-24 02:36:46] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-04-24 02:36:46] INFO root fetch - main [MainThread]: Store serial: [22904014]
