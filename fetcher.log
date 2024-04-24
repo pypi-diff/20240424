@@ -20622,3 +20622,122 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:26:10] INFO root fetch - processPackages [goreverselookup]: Remove: archive file [/home/abi/fetcher/tmp/goreverselookup-1.0.9.tar.gz]
 [2024-04-24 13:26:10] INFO root fetch - main [MainThread]: End processing [goreverselookup]: success
 [2024-04-24 13:26:10] INFO root fetch - main [MainThread]: Store serial: [22911181]
+[2024-04-24 13:28:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911181]
+[2024-04-24 13:28:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capsule-manager-sdk
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchx-nightly
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freechat-sdk
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiboa-cli
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: YnExchangePY
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchrl-nightly
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fluxlib
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cargo-zigbuild
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hddm-s
+[2024-04-24 13:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mo-json
+[2024-04-24 13:28:30] INFO root fetch - processPackages [YnExchangePY]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [hddm-s]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.23] Old Version: [2024.4.22]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [YnExchangePY]: Downloading https://files.pythonhosted.org/packages/e3/ac/ae89bc88499867427f77812665b60dab5c8913cc7efc7767e3319eff92d6/YnExchangePY-3.2.1.tar.gz
+[2024-04-24 13:28:30] INFO root fetch - processPackages [mo-json]: New version: [6.602.24115] Old Version: [6.601.24115]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [fiboa-cli]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [capsule-manager-sdk]: New version: [0.2.0.dev20240424] Old Version: [0.2.0.dev20240411]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [freechat-sdk]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [fluxlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.4.3] Old Version: [2024.4.24]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/c7/15/051d8248dd680cc83687b776c06944bb75f8bcddabc05f270b5c65549a26/hddm_s-1.0.7.tar.gz
+[2024-04-24 13:28:30] INFO root fetch - processPackages [cargo-zigbuild]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-04-24 13:28:30] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/6e/74/9e86e7652f67274dd61ed61b72bb1a40347cbd82243c9d9cbf2776172b3a/torchx_nightly-2024.4.22-py3-none-any.whl
+[2024-04-24 13:28:30] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/76/30/d0287425177f8b4a32d85a47d50e1a024fdec9e4864c9efb6b648c3db29c/mo_json-6.601.24115.tar.gz
+[2024-04-24 13:28:30] INFO root fetch - processPackages [fiboa-cli]: Downloading https://files.pythonhosted.org/packages/f8/25/51aabb292eb0e350519f98fce6f69be83a150476d6b8f1f33a63940b40f6/fiboa_cli-0.3.5.tar.gz
+[2024-04-24 13:28:30] INFO root fetch - processPackages [capsule-manager-sdk]: Downloading https://files.pythonhosted.org/packages/3b/d0/862d86aa44b9c45cba8f0db8a9466d7ba03d80c1677ba357450b57c8ad91/capsule_manager_sdk-0.2.0.dev20240411-py3-none-manylinux2014_x86_64.whl
+[2024-04-24 13:28:30] INFO root fetch - processPackages [fluxlib]: Downloading https://files.pythonhosted.org/packages/78/de/839d7d34e16ef676a6e1482b1eb32e2a0fe36e0b39b17e5c6ac814604e1d/fluxlib-0.0.8.tar.gz
+[2024-04-24 13:28:30] INFO root fetch - processPackages [freechat-sdk]: Downloading https://files.pythonhosted.org/packages/df/4d/38c9e8a49dc7357e19e5b2ef2ecd1ee6262d148cb2d60b945046372f77f3/freechat_sdk-0.1.0-py3-none-any.whl
+[2024-04-24 13:28:30] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/64/43/11afa7a4e42b0b972bf79ff05d0cb4f5b982c46cfe2d019815f572d6fbe0/torchrl_nightly-2024.4.24-cp39-cp39-manylinux1_x86_64.whl
+[2024-04-24 13:28:30] INFO root fetch - processPackages [cargo-zigbuild]: Downloading https://files.pythonhosted.org/packages/32/ce/65eccbdc2e10dcf359bfee8ccf7e1522568bcb898a0c3306da22188a93e1/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl
+[2024-04-24 13:28:30] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/d2/24/0bac70948a0f916016590dddfc7e17148c466fa4b02e8bd2d4f3119e1816/hddm_s-1.0.9.tar.gz
+[2024-04-24 13:28:30] INFO root fetch - processPackages [YnExchangePY]: Downloading https://files.pythonhosted.org/packages/78/dd/43965596dd2b7de26da03f1a12e21ea992dd537c35efff1ad7d44e804357/YnExchangePY-3.2.2.tar.gz
+[2024-04-24 13:28:31] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-24 13:28:31] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.7.tar.gz tmp/hddm_s-1.0.9.tar.gz --markdown 20240424/h/hddm-s/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-24 13:28:31] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/19/56/8b63a99c5ca27f83b21d0c8c3a107b22984b59542ea922b5a2adabd235b0/mo_json-6.602.24115.tar.gz
+[2024-04-24 13:28:31] INFO root fetch - processPackages [YnExchangePY]: executing diffoscope
+[2024-04-24 13:28:31] INFO root fetch - processPackages [YnExchangePY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YnExchangePY-3.2.1.tar.gz tmp/YnExchangePY-3.2.2.tar.gz --markdown 20240424/Y/YnExchangePY/3.2.1-3.2.2/README.md --exclude *.pyd
+[2024-04-24 13:28:31] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/e7/8d/ad94d6d4dcb2e922e45355d2fe623ecfb2e34ef0c78e9f6524b21f5838a1/torchx_nightly-2024.4.23-py3-none-any.whl
+[2024-04-24 13:28:31] INFO root fetch - processPackages [capsule-manager-sdk]: Downloading https://files.pythonhosted.org/packages/0a/12/fcaa7235badbaac4c88c3c64649d794cd03ebeeb9a2f44446353ddd95d2b/capsule_manager_sdk-0.2.0.dev20240424-py3-none-manylinux2014_x86_64.whl
+[2024-04-24 13:28:31] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2024-04-24 13:28:31] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.601.24115.tar.gz tmp/mo_json-6.602.24115.tar.gz --markdown 20240424/m/mo-json/6.601.24115-6.602.24115/README.md --exclude *.pyd
+[2024-04-24 13:28:31] INFO root fetch - processPackages [freechat-sdk]: Downloading https://files.pythonhosted.org/packages/fd/b2/f8ddc4170b29a97dcf6cabe09ba19ec2b90c938b0f3e5bdcc63822fc4fd8/freechat_sdk-1.0.0-py3-none-any.whl
+[2024-04-24 13:28:31] INFO root fetch - processPackages [fiboa-cli]: Downloading https://files.pythonhosted.org/packages/55/89/adc54f9d5e108ffe496e2f04c93b118786b059b6fcfa5e34e60b8d33e93d/fiboa_cli-0.3.6.tar.gz
+[2024-04-24 13:28:31] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-04-24 13:28:31] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.22-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.23-py3-none-any.whl.zip --markdown 20240424/t/torchx-nightly/2024.4.22-2024.4.23/README.md --exclude *.pyd
+[2024-04-24 13:28:31] INFO root fetch - processPackages [capsule-manager-sdk]: executing diffoscope
+[2024-04-24 13:28:31] INFO root fetch - processPackages [capsule-manager-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsule_manager_sdk-0.2.0.dev20240411-py3-none-manylinux2014_x86_64.whl.zip tmp/capsule_manager_sdk-0.2.0.dev20240424-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240424/c/capsule-manager-sdk/0.2.0.dev20240411-0.2.0.dev20240424/README.md --exclude *.pyd
+[2024-04-24 13:28:31] INFO root fetch - processPackages [fluxlib]: Downloading https://files.pythonhosted.org/packages/99/62/dfa9a606c84e4a6ec2dec53cf69146778f67155b8d1306d63cfead251406/fluxlib-0.0.9.tar.gz
+[2024-04-24 13:28:31] INFO root fetch - processPackages [freechat-sdk]: executing diffoscope
+[2024-04-24 13:28:31] INFO root fetch - processPackages [freechat-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freechat_sdk-0.1.0-py3-none-any.whl.zip tmp/freechat_sdk-1.0.0-py3-none-any.whl.zip --markdown 20240424/f/freechat-sdk/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-04-24 13:28:31] INFO root fetch - processPackages [cargo-zigbuild]: Downloading https://files.pythonhosted.org/packages/e0/c4/785516a9ca5e58d15cb5c210a2aaaf1aa39d58ae869c0a6b3181b4e57115/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl
+[2024-04-24 13:28:31] INFO root fetch - processPackages [fluxlib]: executing diffoscope
+[2024-04-24 13:28:31] INFO root fetch - processPackages [fluxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxlib-0.0.8.tar.gz tmp/fluxlib-0.0.9.tar.gz --markdown 20240424/f/fluxlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:28:31] INFO root fetch - processPackages [fiboa-cli]: executing diffoscope
+[2024-04-24 13:28:31] INFO root fetch - processPackages [fiboa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiboa_cli-0.3.5.tar.gz tmp/fiboa_cli-0.3.6.tar.gz --markdown 20240424/f/fiboa-cli/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-24 13:28:31] INFO root fetch - processPackages [cargo-zigbuild]: executing diffoscope
+[2024-04-24 13:28:31] INFO root fetch - processPackages [cargo-zigbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl.zip tmp/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl.zip --markdown 20240424/c/cargo-zigbuild/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-04-24 13:28:31] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.7.tar.gz]
+[2024-04-24 13:28:31] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.9.tar.gz]
+[2024-04-24 13:28:31] INFO root fetch - processPackages [hddm-s]: Start processing: libqasm
+[2024-04-24 13:28:31] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-24 13:28:31] INFO root fetch - processPackages [libqasm]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [libqasm]: Downloading https://files.pythonhosted.org/packages/9d/ad/371c8bcd16988cd5f9847afe39d4ac766b91d27277862bc50c0a46976552/libqasm-0.6.3-cp39-cp39-win_amd64.whl
+[2024-04-24 13:28:32] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.601.24115.tar.gz]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo_json-6.602.24115.tar.gz]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [mo-json]: Start processing: rooms-shared-services
+[2024-04-24 13:28:32] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2024-04-24 13:28:32] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [YnExchangePY]: Remove: archive file [/home/abi/fetcher/tmp/YnExchangePY-3.2.1.tar.gz]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [YnExchangePY]: Remove: archive file [/home/abi/fetcher/tmp/YnExchangePY-3.2.2.tar.gz]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [YnExchangePY]: Start processing: open-mastr
+[2024-04-24 13:28:32] INFO root fetch - main [MainThread]: End processing [YnExchangePY]: success
+[2024-04-24 13:28:32] INFO root fetch - processPackages [capsule-manager-sdk]: Remove: archive file [/home/abi/fetcher/tmp/capsule_manager_sdk-0.2.0.dev20240411-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [capsule-manager-sdk]: Remove: archive file [/home/abi/fetcher/tmp/capsule_manager_sdk-0.2.0.dev20240424-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-04-24 13:28:32] INFO root fetch - main [MainThread]: End processing [capsule-manager-sdk]: success
+[2024-04-24 13:28:32] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-24 13:28:32] INFO root fetch - processPackages [open-mastr]: New version: [0.14.3] Old Version: [0.14.1]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [libqasm]: Downloading https://files.pythonhosted.org/packages/d1/b5/7ef79a213d94e545b2161d6ee13c97b0b89006ccce683a2929a31a94b7f2/libqasm-0.6.4-cp39-cp39-win_amd64.whl
+[2024-04-24 13:28:32] INFO root fetch - processPackages [fiboa-cli]: Remove: archive file [/home/abi/fetcher/tmp/fiboa_cli-0.3.5.tar.gz]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [fiboa-cli]: Remove: archive file [/home/abi/fetcher/tmp/fiboa_cli-0.3.6.tar.gz]
+[2024-04-24 13:28:32] INFO root fetch - main [MainThread]: End processing [fiboa-cli]: success
+[2024-04-24 13:28:32] INFO root fetch - processPackages [fluxlib]: Remove: archive file [/home/abi/fetcher/tmp/fluxlib-0.0.8.tar.gz]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [fluxlib]: Remove: archive file [/home/abi/fetcher/tmp/fluxlib-0.0.9.tar.gz]
+[2024-04-24 13:28:32] INFO root fetch - main [MainThread]: End processing [fluxlib]: success
+[2024-04-24 13:28:32] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-24 13:28:32] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/0a/bc/2c07e7175cc502c87c076a48a470ce3f477b2d7db9811311b3cedcc2e17b/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl
+[2024-04-24 13:28:32] INFO root fetch - processPackages [open-mastr]: Downloading https://files.pythonhosted.org/packages/79/6a/27908324b7521bbf62d335b18b298b06d468f64bfd59061bec7f21e605fe/open_mastr-0.14.1.tar.gz
+[2024-04-24 13:28:32] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.22-py3-none-any.whl.zip]
+[2024-04-24 13:28:32] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.23-py3-none-any.whl.zip]
+[2024-04-24 13:28:32] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-04-24 13:28:32] INFO root fetch - processPackages [libqasm]: executing diffoscope
+[2024-04-24 13:28:32] INFO root fetch - processPackages [libqasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libqasm-0.6.3-cp39-cp39-win_amd64.whl.zip tmp/libqasm-0.6.4-cp39-cp39-win_amd64.whl.zip --markdown 20240424/l/libqasm/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-24 13:28:32] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-24 13:28:32] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240424/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-24 13:28:32] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-04-24 13:28:32] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.4.24-cp39-cp39-manylinux1_x86_64.whl.zip tmp/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl.zip --markdown 20240424/t/torchrl-nightly/2024.4.24-2024.4.3/README.md --exclude *.pyd
+[2024-04-24 13:28:32] INFO root fetch - processPackages [open-mastr]: Downloading https://files.pythonhosted.org/packages/93/7f/4c9a2b2908a05bb5a62de55f716a2d0d17f1a4753df058f7a4a1e18a949c/open_mastr-0.14.3.tar.gz
+[2024-04-24 13:28:33] INFO root fetch - processPackages [freechat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/freechat_sdk-0.1.0-py3-none-any.whl.zip]
+[2024-04-24 13:28:33] INFO root fetch - processPackages [freechat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/freechat_sdk-1.0.0-py3-none-any.whl.zip]
+[2024-04-24 13:28:33] INFO root fetch - main [MainThread]: End processing [freechat-sdk]: success
+[2024-04-24 13:28:33] INFO root fetch - processPackages [libqasm]: Remove: archive file [/home/abi/fetcher/tmp/libqasm-0.6.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 13:28:33] INFO root fetch - processPackages [libqasm]: Remove: archive file [/home/abi/fetcher/tmp/libqasm-0.6.4-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 13:28:33] INFO root fetch - main [MainThread]: End processing [libqasm]: success
+[2024-04-24 13:28:33] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-24 13:28:33] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-24 13:28:33] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-24 13:28:34] INFO root fetch - processPackages [open-mastr]: executing diffoscope
+[2024-04-24 13:28:34] INFO root fetch - processPackages [open-mastr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_mastr-0.14.1.tar.gz tmp/open_mastr-0.14.3.tar.gz --markdown 20240424/o/open-mastr/0.14.1-0.14.3/README.md --exclude *.pyd
+[2024-04-24 13:28:36] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.24-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-04-24 13:28:36] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 13:28:36] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-04-24 13:28:36] INFO root fetch - processPackages [open-mastr]: Remove: archive file [/home/abi/fetcher/tmp/open_mastr-0.14.1.tar.gz]
+[2024-04-24 13:28:36] INFO root fetch - processPackages [open-mastr]: Remove: archive file [/home/abi/fetcher/tmp/open_mastr-0.14.3.tar.gz]
+[2024-04-24 13:28:36] INFO root fetch - main [MainThread]: End processing [open-mastr]: success
+[2024-04-24 13:31:31] ERROR root fetch - processPackages [cargo-zigbuild]: Timeout during execution of pkgdiff
+[2024-04-24 13:31:31] INFO root fetch - main [MainThread]: End processing [cargo-zigbuild] error
+[2024-04-24 13:31:31] INFO root fetch - main [MainThread]: Store serial: [22911292]
