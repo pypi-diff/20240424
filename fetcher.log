@@ -19319,3 +19319,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:38:32] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.7.tar.gz]
 [2024-04-24 12:38:32] INFO root fetch - main [MainThread]: End processing [maling]: success
 [2024-04-24 12:38:32] INFO root fetch - main [MainThread]: Store serial: [22910657]
+[2024-04-24 12:40:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910657]
+[2024-04-24 12:40:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-04-24 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rm-cmt-time
+[2024-04-24 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmsis-stream
+[2024-04-24 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot-nightly
+[2024-04-24 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nodify
+[2024-04-24 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simo
+[2024-04-24 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2024-04-24 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymemgpt-nightly
+[2024-04-24 12:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Fr1997v011
+[2024-04-24 12:40:51] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-24 12:40:51] INFO root fetch - processPackages [Fr1997v011]: New version: [1.3.0] Old Version: [1.2.8]
+[2024-04-24 12:40:51] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-24 12:40:51] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-24 12:40:51] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240423] Old Version: [1.0.0.dev20240422]
+[2024-04-24 12:40:51] WARNING root fetch - processPackages [nodify]: Skipping, unable to determine old version
+[2024-04-24 12:40:51] INFO root fetch - main [MainThread]: End processing [nodify] error
+[2024-04-24 12:40:51] INFO root fetch - processPackages [cmsis-stream]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-24 12:40:51] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-04-24 12:40:51] WARNING root fetch - processPackages [rm-cmt-time]: Skipping, unable to determine old version
+[2024-04-24 12:40:51] INFO root fetch - main [MainThread]: End processing [rm-cmt-time] error
+[2024-04-24 12:40:51] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-24 12:40:51] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/fa/f1/7beafd0239cf415eb57a3e2e2efbc171f14db418fc9c46f102e4ee8c5dde/Fr1997v011-1.2.8.tar.gz
+[2024-04-24 12:40:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-24 12:40:51] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-24 12:40:51] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/e7/c9/913b14ae18ecb32736ebde0a8f5129adf5bf1f39d3d620dc3f6f7f1f230b/skypilot_nightly-1.0.0.dev20240422.tar.gz
+[2024-04-24 12:40:51] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-04-24 12:40:51] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-04-24 12:40:51] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b9/28/f38218f2a95f4af219e9b95ddcc6904d9b9766d24b663b44ff4c5a206b8d/cmsis_stream-1.9.1-py3-none-any.whl
+[2024-04-24 12:40:51] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-24 12:40:51] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/66/33/9fcda572be50a1c8d72493964298a18876d15b5baa0f68eb434367bc2063/Fr1997v011-1.3.0.tar.gz
+[2024-04-24 12:40:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-24 12:40:51] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-24 12:40:51] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/7e/e4/ca8dc39baefddebaf5e9d79a88b9fe41563c2914d35a90541ecd2c2cb5bc/skypilot_nightly-1.0.0.dev20240423.tar.gz
+[2024-04-24 12:40:51] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-04-24 12:40:51] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.2.8.tar.gz tmp/Fr1997v011-1.3.0.tar.gz --markdown 20240424/F/Fr1997v011/1.2.8-1.3.0/README.md --exclude *.pyd
+[2024-04-24 12:40:51] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b2/66/0d1e34c99fc8cbcab3c6e39ea3afccb5712e15ffb480b0b617395533814b/cmsis_stream-1.9.2-py3-none-any.whl
+[2024-04-24 12:40:51] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-24 12:40:51] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240424/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-24 12:40:51] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-24 12:40:51] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240422.tar.gz tmp/skypilot_nightly-1.0.0.dev20240423.tar.gz --markdown 20240424/s/skypilot-nightly/1.0.0.dev20240422-1.0.0.dev20240423/README.md --exclude *.pyd
+[2024-04-24 12:40:51] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-24 12:40:51] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240424/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-24 12:40:51] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2024-04-24 12:40:51] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip --markdown 20240424/c/cmsis-stream/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-24 12:40:51] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-24 12:40:52] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-24 12:40:52] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240424/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-24 12:40:52] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.2.8.tar.gz]
+[2024-04-24 12:40:52] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.3.0.tar.gz]
+[2024-04-24 12:40:52] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-04-24 12:40:52] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip]
+[2024-04-24 12:40:52] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip]
+[2024-04-24 12:40:52] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2024-04-24 12:40:53] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-24 12:40:53] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-24 12:40:53] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-24 12:40:53] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240422.tar.gz]
+[2024-04-24 12:40:53] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240423.tar.gz]
+[2024-04-24 12:40:53] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-24 12:40:54] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-24 12:40:54] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-24 12:40:54] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-24 12:40:54] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-24 12:40:54] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-24 12:40:54] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-24 12:40:54] INFO root fetch - main [MainThread]: Store serial: [22910691]
