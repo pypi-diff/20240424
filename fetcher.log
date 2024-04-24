@@ -13222,3 +13222,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:22:07] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-24 09:22:07] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-24 09:22:07] INFO root fetch - main [MainThread]: Store serial: [22908084]
+[2024-04-24 09:24:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908084]
+[2024-04-24 09:24:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web3db
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dytnsapi20200217-py2
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cppiniter
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bookcache
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecv-python-development
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djangorestframework-ext
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fog-x
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mysql-server-has-gone
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-dytnsapi20200217
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-ro-vat-on-payment
+[2024-04-24 09:24:16] INFO root fetch - processPackages [bookcache]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.26] Old Version: [0.0.25]
+[2024-04-24 09:24:16] INFO root fetch - processPackages [mysql-server-has-gone]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-24 09:24:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: New version: [16.0.1.9.0] Old Version: [16.0.1.8.0]
+[2024-04-24 09:24:16] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217-py2]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-24 09:24:16] INFO root fetch - processPackages [bookcache]: Downloading https://files.pythonhosted.org/packages/81/80/e5a83fe0e8aaa599445a5c34e13a8603f21853f69aeba5b575fd2d8b53fb/bookcache-0.0.2.tar.gz
+[2024-04-24 09:24:16] INFO root fetch - processPackages [mysql-server-has-gone]: Downloading https://files.pythonhosted.org/packages/0c/17/a0e281c1e059533e259882041a10531dc32d586ce5eef98bcb81c68f00de/mysql_server_has_gone-2.0.3.tar.gz
+[2024-04-24 09:24:16] INFO root fetch - processPackages [cppiniter]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-24 09:24:16] INFO root fetch - processPackages [web3db]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-24 09:24:16] INFO root fetch - processPackages [djangorestframework-ext]: New version: [0.9] Old Version: [0.8]
+[2024-04-24 09:24:16] WARNING root fetch - processPackages [fog-x]: Skipping, unable to determine old version
+[2024-04-24 09:24:16] INFO root fetch - processPackages [fog-x]: Start processing: odoo-addon-l10n-ro-account-edi-ubl
+[2024-04-24 09:24:16] INFO root fetch - main [MainThread]: End processing [fog-x] error
+[2024-04-24 09:24:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/c2/13/49243e42cbb413d604006e0dde8afaf06be158d4ec2c6826ad274a29678c/odoo_addon_l10n_ro_vat_on_payment-16.0.1.8.0-py3-none-any.whl
+[2024-04-24 09:24:16] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-04-24 09:24:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: New version: [16.0.1.48.0.1] Old Version: [16.0.1.48.0]
+[2024-04-24 09:24:16] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/e3/9f/a6d1e2d844fa8838f5b0b79a50212088606899a10a7820b7f3562e658020/ecv-python-development-0.0.25.tar.gz
+[2024-04-24 09:24:16] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217-py2]: Downloading https://files.pythonhosted.org/packages/f8/0f/586727eb01c8466b1a535b88fee583864ab8a8bcf410266cb5e6370b6004/alibabacloud_dytnsapi20200217_py2-1.6.0.tar.gz
+[2024-04-24 09:24:16] INFO root fetch - processPackages [cppiniter]: Downloading https://files.pythonhosted.org/packages/93/34/3197d374719ad4abf56eecd2a24adcb35bc6f97676bf0164446d3b033099/cppiniter-1.1.8.tar.gz
+[2024-04-24 09:24:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/01/32/2701100a1b045fcd022f4ae8738004d7ec882046c739854fbae16b5929b6/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0-py3-none-any.whl
+[2024-04-24 09:24:16] INFO root fetch - processPackages [web3db]: Downloading https://files.pythonhosted.org/packages/b4/fe/bc6d2e8b6d7964965796fdee44952f7daee3ec808562080b4795d7c812c5/web3db-1.0.3.tar.gz
+[2024-04-24 09:24:16] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/b8/e1/18ccc4dbc00c383572545ad0645998366ea3b15318b9df3ad88178111e90/alibabacloud_dytnsapi20200217-2.6.0.tar.gz
+[2024-04-24 09:24:16] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/d6/be/76ec8844c998542b4bdda0eaf61bc3babcd7c9909cfabfb92ad236e7d7fe/djangorestframework-ext-0.8.tar.gz
+[2024-04-24 09:24:16] INFO root fetch - processPackages [bookcache]: Downloading https://files.pythonhosted.org/packages/7e/07/df42aa56cf7a09ec8bb2a8cc8fe544bb66b82bee353d3c62565f680536e5/bookcache-0.0.3.tar.gz
+[2024-04-24 09:24:17] INFO root fetch - processPackages [mysql-server-has-gone]: Downloading https://files.pythonhosted.org/packages/ab/22/9e2557275559554d15f5c66cf8a0b35bd49cce4d736e539b1b52da97f142/mysql_server_has_gone-2.0.4.tar.gz
+[2024-04-24 09:24:17] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/5e/81/966da08714efc3d30d83b83c789a17346da96eac9177b624564cfb9a81b7/ecv-python-development-0.0.26.tar.gz
+[2024-04-24 09:24:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217-py2]: Downloading https://files.pythonhosted.org/packages/27/dc/9d19d81effb0d255bd4c9bd2b09080666ddcd12dee9a904daa277a63d1e8/alibabacloud_dytnsapi20200217_py2-1.7.0.tar.gz
+[2024-04-24 09:24:17] INFO root fetch - processPackages [bookcache]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [bookcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookcache-0.0.2.tar.gz tmp/bookcache-0.0.3.tar.gz --markdown 20240424/b/bookcache/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 09:24:17] INFO root fetch - processPackages [mysql-server-has-gone]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [mysql-server-has-gone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_server_has_gone-2.0.3.tar.gz tmp/mysql_server_has_gone-2.0.4.tar.gz --markdown 20240424/m/mysql-server-has-gone/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-24 09:24:17] INFO root fetch - processPackages [web3db]: Downloading https://files.pythonhosted.org/packages/68/fd/86caf82ceba50a1e46039a501d06c320ca2e9ce4635240bb06a50c868d08/web3db-1.0.4.tar.gz
+[2024-04-24 09:24:17] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.25.tar.gz tmp/ecv-python-development-0.0.26.tar.gz --markdown 20240424/e/ecv-python-development/0.0.25-0.0.26/README.md --exclude *.pyd
+[2024-04-24 09:24:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Downloading https://files.pythonhosted.org/packages/d4/0f/32e7b56e06da9ac5de42a14b1c7f4fd2f717704cae18fee93b0213965cbe/odoo_addon_l10n_ro_vat_on_payment-16.0.1.9.0-py3-none-any.whl
+[2024-04-24 09:24:17] INFO root fetch - processPackages [cppiniter]: Downloading https://files.pythonhosted.org/packages/69/18/ba3f779f3a2f178f14fd502c2e24ca68e0bd2d3e356d27a4ac8682f43b06/cppiniter-1.1.9.tar.gz
+[2024-04-24 09:24:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217-py2]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dytnsapi20200217_py2-1.6.0.tar.gz tmp/alibabacloud_dytnsapi20200217_py2-1.7.0.tar.gz --markdown 20240424/a/alibabacloud-dytnsapi20200217-py2/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-24 09:24:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/09/9f/86e934fbfcec690144ffd65bd5faa975ba2dbf1896364cbaad21f36d0be6/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl
+[2024-04-24 09:24:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/e3/ff/3ed45fb3d0df6a5eb5dda4e0432d6106ad0f670396860819fe6a1549fa6c/alibabacloud_dytnsapi20200217-2.7.0.tar.gz
+[2024-04-24 09:24:17] INFO root fetch - processPackages [web3db]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [web3db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3db-1.0.3.tar.gz tmp/web3db-1.0.4.tar.gz --markdown 20240424/w/web3db/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-24 09:24:17] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/68/7f/a0089289d4ec8908e1a1eb790688de9d770b056bc9785f48187b30f6178b/djangorestframework-ext-0.9.tar.gz
+[2024-04-24 09:24:17] INFO root fetch - processPackages [cppiniter]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [cppiniter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppiniter-1.1.8.tar.gz tmp/cppiniter-1.1.9.tar.gz --markdown 20240424/c/cppiniter/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-24 09:24:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-l10n-ro-account-edi-ubl/16.0.1.48.0-16.0.1.48.0.1/README.md --exclude *.pyd
+[2024-04-24 09:24:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dytnsapi20200217-2.6.0.tar.gz tmp/alibabacloud_dytnsapi20200217-2.7.0.tar.gz --markdown 20240424/a/alibabacloud-dytnsapi20200217/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-04-24 09:24:17] INFO root fetch - processPackages [djangorestframework-ext]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [djangorestframework-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-ext-0.8.tar.gz tmp/djangorestframework-ext-0.9.tar.gz --markdown 20240424/d/djangorestframework-ext/0.8-0.9/README.md --exclude *.pyd
+[2024-04-24 09:24:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: executing diffoscope
+[2024-04-24 09:24:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.8.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.9.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-l10n-ro-vat-on-payment/16.0.1.8.0-16.0.1.9.0/README.md --exclude *.pyd
+[2024-04-24 09:24:18] INFO root fetch - processPackages [bookcache]: Remove: archive file [/home/abi/fetcher/tmp/bookcache-0.0.2.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [bookcache]: Remove: archive file [/home/abi/fetcher/tmp/bookcache-0.0.3.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [bookcache]: Start processing: odoo-addon-l10n-ro-account-anaf-sync
+[2024-04-24 09:24:18] INFO root fetch - main [MainThread]: End processing [bookcache]: success
+[2024-04-24 09:24:18] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.25.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.26.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [ecv-python-development]: Start processing: odoo-addon-l10n-ro-config
+[2024-04-24 09:24:18] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.0]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [mysql-server-has-gone]: Remove: archive file [/home/abi/fetcher/tmp/mysql_server_has_gone-2.0.3.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [mysql-server-has-gone]: Remove: archive file [/home/abi/fetcher/tmp/mysql_server_has_gone-2.0.4.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [mysql-server-has-gone]: Start processing: odoo-addon-l10n-ro-partner-create-by-vat
+[2024-04-24 09:24:18] INFO root fetch - main [MainThread]: End processing [mysql-server-has-gone]: success
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.0.1]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: New version: [17.0.1.1.0] Old Version: [16.0.1.6.0]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [cppiniter]: Remove: archive file [/home/abi/fetcher/tmp/cppiniter-1.1.8.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [cppiniter]: Remove: archive file [/home/abi/fetcher/tmp/cppiniter-1.1.9.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - main [MainThread]: End processing [cppiniter]: success
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/e1/01/cad54e6247fee3fa680c4349baa1a986e5cd794f72813b6b8fdf8d09c099/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-24 09:24:18] INFO root fetch - processPackages [web3db]: Remove: archive file [/home/abi/fetcher/tmp/web3db-1.0.3.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [web3db]: Remove: archive file [/home/abi/fetcher/tmp/web3db-1.0.4.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - main [MainThread]: End processing [web3db]: success
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/e2/7c/e7390a7257cac98223dfff04df0ba30d32e9f42488bd3d393f634d7aa65f/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.6.0-py3-none-any.whl
+[2024-04-24 09:24:18] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20200217_py2-1.6.0.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20200217_py2-1.7.0.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20200217-py2]: success
+[2024-04-24 09:24:18] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.8.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.9.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - main [MainThread]: End processing [djangorestframework-ext]: success
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/0e/65/af5372e6d9af9fb916145a3c89e9555317c34a45ed7ff0c51d2b06bd3dd2/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.1.0-py3-none-any.whl
+[2024-04-24 09:24:18] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20200217-2.6.0.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dytnsapi20200217-2.7.0.tar.gz]
+[2024-04-24 09:24:18] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20200217]: success
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/f0/d2/af952f7cc92d686329de051179e5f7321668ba5f18ed8bbd911e2766160b/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/33/28/46d9581facef35c2ce3f135aa75f77cb3e3965eb42833347b9473e0bb6a3/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.0-py3-none-any.whl
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0-py3-none-any.whl.zip]
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl.zip]
+[2024-04-24 09:24:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-edi-ubl]: success
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: executing diffoscope
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.6.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-l10n-ro-partner-create-by-vat/16.0.1.6.0-17.0.1.1.0/README.md --exclude *.pyd
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: executing diffoscope
+[2024-04-24 09:24:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-l10n-ro-config/17.0.1.1.0.1-17.0.1.2.0/README.md --exclude *.pyd
+[2024-04-24 09:24:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-24 09:24:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-vat-on-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_vat_on_payment-16.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-24 09:24:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-vat-on-payment]: success
+[2024-04-24 09:24:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/dc/d2/4b51a031062b619584ca223bba98308ebf2ea9cedb7b70f5146bb8ee005a/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl
+[2024-04-24 09:24:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.6.0-py3-none-any.whl.zip]
+[2024-04-24 09:24:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_partner_create_by_vat-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-24 09:24:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-partner-create-by-vat]: success
+[2024-04-24 09:24:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-24 09:24:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-24 09:24:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-config]: success
+[2024-04-24 09:24:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: executing diffoscope
+[2024-04-24 09:24:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-l10n-ro-account-anaf-sync/17.0.1.1.0-17.0.1.2.0/README.md --exclude *.pyd
+[2024-04-24 09:24:20] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-24 09:24:20] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-24 09:24:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-anaf-sync]: success
+[2024-04-24 09:24:20] INFO root fetch - main [MainThread]: Store serial: [22908193]
