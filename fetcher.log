@@ -2275,3 +2275,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:08:37] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
 [2024-04-24 02:08:37] INFO root fetch - main [MainThread]: End processing [zcmds]: success
 [2024-04-24 02:08:37] INFO root fetch - main [MainThread]: Store serial: [22903719]
+[2024-04-24 02:10:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903719]
+[2024-04-24 02:10:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 02:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-04-24 02:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-nightly
+[2024-04-24 02:10:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-quantizers-nightly
+[2024-04-24 02:10:46] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240423.post1045] Old Version: [1.5.0.20240422.post1119]
+[2024-04-24 02:10:46] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-24 02:10:46] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202404230010] Old Version: [4.1.7.dev202404220010]
+[2024-04-24 02:10:46] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/79/b4/6b4b413a08968a0e72e08a0847abdbd408ec40c75db5de4a4aabc27c805d/mct-quantizers-nightly-1.5.0.20240422.post1119.tar.gz
+[2024-04-24 02:10:46] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-24 02:10:46] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/48/b1/a55a0b906a32312bd80dbc755f3b2fd6c892adeb01b89d05af7894f7305f/openbb_nightly-4.1.7.dev202404220010.tar.gz
+[2024-04-24 02:10:46] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/9d/a8/64a9a3e042664d2c9c6a03a7b14b4718325b14d9091f2b7e7f98b772710a/mct-quantizers-nightly-1.5.0.20240423.post1045.tar.gz
+[2024-04-24 02:10:46] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-24 02:10:46] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-24 02:10:46] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240422.post1119.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240423.post1045.tar.gz --markdown 20240424/m/mct-quantizers-nightly/1.5.0.20240422.post1119-1.5.0.20240423.post1045/README.md --exclude *.pyd
+[2024-04-24 02:10:46] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/f3/a7/0ab893cb97ee1a63c28470de1ac7ad49359829e65d3ccdcb9497a9a8ca3f/openbb_nightly-4.1.7.dev202404230010.tar.gz
+[2024-04-24 02:10:47] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-24 02:10:47] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240424/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-24 02:10:47] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-24 02:10:47] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202404220010.tar.gz tmp/openbb_nightly-4.1.7.dev202404230010.tar.gz --markdown 20240424/o/openbb-nightly/4.1.7.dev202404220010-4.1.7.dev202404230010/README.md --exclude *.pyd
+[2024-04-24 02:10:47] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240422.post1119.tar.gz]
+[2024-04-24 02:10:47] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240423.post1045.tar.gz]
+[2024-04-24 02:10:47] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-24 02:10:47] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-24 02:10:47] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-24 02:10:47] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-24 02:10:50] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404220010.tar.gz]
+[2024-04-24 02:10:50] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404230010.tar.gz]
+[2024-04-24 02:10:50] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-24 02:10:50] INFO root fetch - main [MainThread]: Store serial: [22903728]
