@@ -11127,3 +11127,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:33:07] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.9b2.tar.gz]
 [2024-04-24 07:33:07] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
 [2024-04-24 07:33:07] INFO root fetch - main [MainThread]: Store serial: [22907209]
+[2024-04-24 07:35:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907209]
+[2024-04-24 07:35:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 07:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2024-04-24 07:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lifx-photons-interactor
+[2024-04-24 07:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: byzerllm
+[2024-04-24 07:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dyff-audit
+[2024-04-24 07:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-coder
+[2024-04-24 07:35:16] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 07:35:16] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 07:35:16] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-24 07:35:16] INFO root fetch - processPackages [dyff-audit]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-24 07:35:16] INFO root fetch - processPackages [lifx-photons-interactor]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-24 07:35:16] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240423] Old Version: [2.17.0.dev20240422]
+[2024-04-24 07:35:16] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-24 07:35:16] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/29/2f/4a7366e1f6ad6ec6eebe2c58c1b632806237fe412e7d3620b5bb68dc8c58/dyff-audit-0.3.0.tar.gz
+[2024-04-24 07:35:16] INFO root fetch - processPackages [lifx-photons-interactor]: Downloading https://files.pythonhosted.org/packages/63/c1/044584c09611d5449e82fa5f912b14d22b742e12dd911816014a34ba5f71/lifx-photons-interactor-0.9.0.tar.gz
+[2024-04-24 07:35:17] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/a6/ea/37a659f86e5333f2e2c2e2cbfcd7b648c0f3c72d85fdb88948b083e2512b/tflite_runtime_nightly-2.17.0.dev20240422-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-24 07:35:17] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-24 07:35:17] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-24 07:35:17] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-24 07:35:17] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240424/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 07:35:17] INFO root fetch - processPackages [lifx-photons-interactor]: Downloading https://files.pythonhosted.org/packages/0d/10/6cc771f1ffa15a8bcf24086b17209385736e0dac82a0273761c062637ba5/lifx-photons-interactor-0.9.1.tar.gz
+[2024-04-24 07:35:17] INFO root fetch - processPackages [dyff-audit]: Downloading https://files.pythonhosted.org/packages/68/60/07897e5eaf0edc46df98a5076aebbcbdf28e620e88f85c2fc4e11e70fb94/dyff_audit-0.3.1.tar.gz
+[2024-04-24 07:35:17] INFO root fetch - processPackages [dyff-audit]: executing diffoscope
+[2024-04-24 07:35:17] INFO root fetch - processPackages [dyff-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-audit-0.3.0.tar.gz tmp/dyff_audit-0.3.1.tar.gz --markdown 20240424/d/dyff-audit/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-24 07:35:17] INFO root fetch - processPackages [lifx-photons-interactor]: executing diffoscope
+[2024-04-24 07:35:17] INFO root fetch - processPackages [lifx-photons-interactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifx-photons-interactor-0.9.0.tar.gz tmp/lifx-photons-interactor-0.9.1.tar.gz --markdown 20240424/l/lifx-photons-interactor/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-24 07:35:17] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/3e/d7/1b83e271f197628c89af7a047f7760974fe6821f45af527e3596b56fa5bb/tflite_runtime_nightly-2.17.0.dev20240423-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-24 07:35:17] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-24 07:35:17] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-24 07:35:17] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-24 07:35:18] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff-audit-0.3.0.tar.gz]
+[2024-04-24 07:35:18] INFO root fetch - processPackages [dyff-audit]: Remove: archive file [/home/abi/fetcher/tmp/dyff_audit-0.3.1.tar.gz]
+[2024-04-24 07:35:18] INFO root fetch - main [MainThread]: End processing [dyff-audit]: success
+[2024-04-24 07:35:18] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-04-24 07:35:18] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240422-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240423-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240424/t/tflite-runtime-nightly/2.17.0.dev20240422-2.17.0.dev20240423/README.md --exclude *.pyd
+[2024-04-24 07:35:18] INFO root fetch - processPackages [lifx-photons-interactor]: Remove: archive file [/home/abi/fetcher/tmp/lifx-photons-interactor-0.9.0.tar.gz]
+[2024-04-24 07:35:18] INFO root fetch - processPackages [lifx-photons-interactor]: Remove: archive file [/home/abi/fetcher/tmp/lifx-photons-interactor-0.9.1.tar.gz]
+[2024-04-24 07:35:18] INFO root fetch - main [MainThread]: End processing [lifx-photons-interactor]: success
+[2024-04-24 07:35:18] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-24 07:35:18] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240424/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 07:35:20] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-24 07:35:20] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-24 07:35:20] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-24 07:35:40] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240422-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-24 07:35:40] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240423-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-24 07:35:40] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-04-24 07:35:40] INFO root fetch - main [MainThread]: Store serial: [22907233]
