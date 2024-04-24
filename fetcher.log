@@ -19238,3 +19238,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:36:12] INFO root fetch - processPackages [dash-extensions]: Remove: archive file [/home/abi/fetcher/tmp/dash_extensions-1.0.9.tar.gz]
 [2024-04-24 12:36:12] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
 [2024-04-24 12:36:12] INFO root fetch - main [MainThread]: Store serial: [22910618]
+[2024-04-24 12:38:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910618]
+[2024-04-24 12:38:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lldb-python
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fixinventory-plugin-slack
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fixinventory-plugin-posthog
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maling
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atomcache
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: websocket-server-lib
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mergecraft
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fixinventory-plugin-k8s
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: insight-plugin
+[2024-04-24 12:38:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mo-streams
+[2024-04-24 12:38:29] INFO root fetch - processPackages [mergecraft]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 12:38:29] INFO root fetch - processPackages [mo-streams]: New version: [1.601.24115] Old Version: [1.600.24114]
+[2024-04-24 12:38:29] INFO root fetch - processPackages [maling]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-24 12:38:29] INFO root fetch - processPackages [fixinventory-plugin-slack]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:38:29] INFO root fetch - processPackages [atomcache]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-24 12:38:29] INFO root fetch - processPackages [fixinventory-plugin-posthog]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:38:29] WARNING root fetch - processPackages [lldb-python]: Skipping, unable to determine old version
+[2024-04-24 12:38:29] INFO root fetch - main [MainThread]: End processing [lldb-python] error
+[2024-04-24 12:38:29] WARNING root fetch - processPackages [websocket-server-lib]: Skipping, unable to determine old version
+[2024-04-24 12:38:29] INFO root fetch - main [MainThread]: End processing [websocket-server-lib] error
+[2024-04-24 12:38:29] INFO root fetch - processPackages [fixinventory-plugin-k8s]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:38:29] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/2c/dc/eda8eabb4786b43bb54c8d1d05fd03822dc380028fc5026b1c30dc99afdf/mergecraft-0.0.8.tar.gz
+[2024-04-24 12:38:29] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/e1/e5/e5c2b7e7324073c2668281ead40fd1e0232a7d2da11ab8ac3f11fecd8b19/maling-2.1.6.tar.gz
+[2024-04-24 12:38:29] INFO root fetch - processPackages [insight-plugin]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-24 12:38:29] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/85/1b/fb6514d7b19b1108e978b647f7d2e0c7522a3226036836b498898622f687/mo_streams-1.600.24114.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [atomcache]: Downloading https://files.pythonhosted.org/packages/1a/42/5020c4d397c105b5e8c34c1a43e32c62f7bb27825948600336fd55eb6259/atomcache-0.7.5.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-slack]: Downloading https://files.pythonhosted.org/packages/b5/b7/1829f39b01478ec386c6416b384638efa2e4e3a44cce49145092ded76b4a/fixinventory-plugin-slack-4.0.2.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-posthog]: Downloading https://files.pythonhosted.org/packages/85/bb/633461d928f59d790d24f7066fbdbc62af3635c9e755cdf1bcd800176327/fixinventory-plugin-posthog-4.0.2.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/03/0b/328fe1b1234d9ac34d5744a340570a6bea833a6b17084086d34e03625edd/insight_plugin-1.2.0.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-k8s]: Downloading https://files.pythonhosted.org/packages/80/df/ce93ae53f8de4c06914a479932948953749ba003af31bb911f5e136c1068/fixinventory-plugin-k8s-4.0.2.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/52/a4/138db8ad1b833f5315cc67d9f1834f5ff4eb3415ff1ec89156548aa721a6/mo_streams-1.601.24115.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/9f/96/9f3f3d0772dd0ddc681c7e93efac2f2ed536937c6c4ebabe606d603922c6/maling-2.1.7.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/b1/19/49721c56549a045fee9e8e59d3497aa3c48b0fe0a9cf5832fc4380e42804/mergecraft-0.0.9.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [mo-streams]: executing diffoscope
+[2024-04-24 12:38:30] INFO root fetch - processPackages [mo-streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_streams-1.600.24114.tar.gz tmp/mo_streams-1.601.24115.tar.gz --markdown 20240424/m/mo-streams/1.600.24114-1.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:38:30] INFO root fetch - processPackages [mergecraft]: executing diffoscope
+[2024-04-24 12:38:30] INFO root fetch - processPackages [mergecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergecraft-0.0.8.tar.gz tmp/mergecraft-0.0.9.tar.gz --markdown 20240424/m/mergecraft/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 12:38:30] INFO root fetch - processPackages [atomcache]: Downloading https://files.pythonhosted.org/packages/7a/a5/5703c4ed070a79bb600f90c9fba5ebdae76c5988ec6053b9f950a8c99f59/atomcache-0.7.6.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [maling]: executing diffoscope
+[2024-04-24 12:38:30] INFO root fetch - processPackages [maling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maling-2.1.6.tar.gz tmp/maling-2.1.7.tar.gz --markdown 20240424/m/maling/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-slack]: Downloading https://files.pythonhosted.org/packages/c4/f9/cdb5048beeadb88e2f4ced32a0c8a2be662b84057c72f3e7e2cd35beb8e2/fixinventory_plugin_slack-4.0.3.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-k8s]: Downloading https://files.pythonhosted.org/packages/df/95/8b0f554cea96dcd0255649a17afebb5f851ff183d9c969bb92ee6b586909/fixinventory_plugin_k8s-4.0.3.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-posthog]: Downloading https://files.pythonhosted.org/packages/25/fd/0bdcdccc90aa0de9e881984e0c5ed7cb665c0d51796ec0cc73b82797e290/fixinventory_plugin_posthog-4.0.3.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [insight-plugin]: Downloading https://files.pythonhosted.org/packages/e2/64/35bbfdeba8ecad1a3beed06f488ba6b5d48ca967ec642a618feb8cd134de/insight_plugin-1.3.0.tar.gz
+[2024-04-24 12:38:30] INFO root fetch - processPackages [atomcache]: executing diffoscope
+[2024-04-24 12:38:30] INFO root fetch - processPackages [atomcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomcache-0.7.5.tar.gz tmp/atomcache-0.7.6.tar.gz --markdown 20240424/a/atomcache/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-slack]: executing diffoscope
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-slack-4.0.2.tar.gz tmp/fixinventory_plugin_slack-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-slack/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-k8s]: executing diffoscope
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-posthog]: executing diffoscope
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-k8s-4.0.2.tar.gz tmp/fixinventory_plugin_k8s-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-k8s/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:38:30] INFO root fetch - processPackages [fixinventory-plugin-posthog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-posthog-4.0.2.tar.gz tmp/fixinventory_plugin_posthog-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-posthog/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:38:30] INFO root fetch - processPackages [insight-plugin]: executing diffoscope
+[2024-04-24 12:38:30] INFO root fetch - processPackages [insight-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insight_plugin-1.2.0.tar.gz tmp/insight_plugin-1.3.0.tar.gz --markdown 20240424/i/insight-plugin/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-24 12:38:31] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.600.24114.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.601.24115.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - main [MainThread]: End processing [mo-streams]: success
+[2024-04-24 12:38:31] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.8.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.9.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - main [MainThread]: End processing [mergecraft]: success
+[2024-04-24 12:38:31] INFO root fetch - processPackages [fixinventory-plugin-k8s]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-k8s-4.0.2.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - processPackages [fixinventory-plugin-k8s]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_k8s-4.0.3.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-k8s]: success
+[2024-04-24 12:38:31] INFO root fetch - processPackages [atomcache]: Remove: archive file [/home/abi/fetcher/tmp/atomcache-0.7.5.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - processPackages [atomcache]: Remove: archive file [/home/abi/fetcher/tmp/atomcache-0.7.6.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - main [MainThread]: End processing [atomcache]: success
+[2024-04-24 12:38:31] INFO root fetch - processPackages [fixinventory-plugin-posthog]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-posthog-4.0.2.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - processPackages [fixinventory-plugin-posthog]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_posthog-4.0.3.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-posthog]: success
+[2024-04-24 12:38:31] INFO root fetch - processPackages [fixinventory-plugin-slack]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-slack-4.0.2.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - processPackages [fixinventory-plugin-slack]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_slack-4.0.3.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-slack]: success
+[2024-04-24 12:38:31] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.2.0.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - processPackages [insight-plugin]: Remove: archive file [/home/abi/fetcher/tmp/insight_plugin-1.3.0.tar.gz]
+[2024-04-24 12:38:31] INFO root fetch - main [MainThread]: End processing [insight-plugin]: success
+[2024-04-24 12:38:32] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.6.tar.gz]
+[2024-04-24 12:38:32] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.7.tar.gz]
+[2024-04-24 12:38:32] INFO root fetch - main [MainThread]: End processing [maling]: success
+[2024-04-24 12:38:32] INFO root fetch - main [MainThread]: Store serial: [22910657]
