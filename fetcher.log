@@ -7832,3 +7832,29 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:19:04] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.16.0.20240423.tar.gz]
 [2024-04-24 04:19:04] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
 [2024-04-24 04:19:04] INFO root fetch - main [MainThread]: Store serial: [22905787]
+[2024-04-24 04:21:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905787]
+[2024-04-24 04:21:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 04:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ApiLogicServer
+[2024-04-24 04:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2024-04-24 04:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OZI
+[2024-04-24 04:21:12] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240423] Old Version: [1.2.20240422]
+[2024-04-24 04:21:12] INFO root fetch - processPackages [OZI]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-24 04:21:12] INFO root fetch - processPackages [ApiLogicServer]: New version: [9.6.0] Old Version: [9.5.8]
+[2024-04-24 04:21:12] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/42/d8/88b3a458d0e3480ca44473a06950313d20e64f5fcf09f4123ca4e4dbc670/iam_actions-1.2.20240422.tar.gz
+[2024-04-24 04:21:12] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/c2/fe/a2a17289ce60ba836cf9c81925a8e2f2b7bcedd1330f5a3a4c0faf1ec7f5/OZI-1.1.0.tar.gz
+[2024-04-24 04:21:13] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/30/ab/b352cb7220c50fdd164e96db4f5755c4edf3b910a15853f19eb32d998666/ApiLogicServer-9.5.8.tar.gz
+[2024-04-24 04:21:13] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4b/83/f693a55152235ee164328fa0b919f0352ee50edacb1a98aab2728a52a6ad/OZI-1.1.1.tar.gz
+[2024-04-24 04:21:13] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/bd/48/569f09f6de3ffbe58b324d7206646b35729a8e1d10440147bbe80e45d96e/iam_actions-1.2.20240423.tar.gz
+[2024-04-24 04:21:13] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-24 04:21:13] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.1.0.tar.gz tmp/OZI-1.1.1.tar.gz --markdown 20240424/O/OZI/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-24 04:21:13] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-24 04:21:13] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240422.tar.gz tmp/iam_actions-1.2.20240423.tar.gz --markdown 20240424/i/iam-actions/1.2.20240422-1.2.20240423/README.md --exclude *.pyd
+[2024-04-24 04:21:13] WARNING root fetch - processPackages [ApiLogicServer]: Skipping package: exceeds size limit 10730132>=10485760
+[2024-04-24 04:21:13] INFO root fetch - main [MainThread]: End processing [ApiLogicServer] error
+[2024-04-24 04:21:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.1.0.tar.gz]
+[2024-04-24 04:21:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.1.1.tar.gz]
+[2024-04-24 04:21:14] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-24 04:21:18] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240422.tar.gz]
+[2024-04-24 04:21:18] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240423.tar.gz]
+[2024-04-24 04:21:18] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-24 04:21:18] INFO root fetch - main [MainThread]: Store serial: [22905798]
