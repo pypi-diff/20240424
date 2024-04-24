@@ -19717,3 +19717,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:57:21] INFO root fetch - processPackages [werk24]: Remove: archive file [/home/abi/fetcher/tmp/werk24-1.9.0.tar.gz]
 [2024-04-24 12:57:21] INFO root fetch - main [MainThread]: End processing [werk24]: success
 [2024-04-24 12:57:21] INFO root fetch - main [MainThread]: Store serial: [22910838]
+[2024-04-24 12:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910838]
+[2024-04-24 12:59:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 12:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-04-24 12:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aau-ais-validate
+[2024-04-24 12:59:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getai
+[2024-04-24 12:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-04-24 12:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: valmi-connector-lib
+[2024-04-24 12:59:39] INFO root fetch - processPackages [getai]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-24 12:59:39] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev2] Old Version: [0.0.6.dev1]
+[2024-04-24 12:59:39] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 12:59:39] WARNING root fetch - processPackages [aau-ais-validate]: Skipping, unable to determine old version
+[2024-04-24 12:59:39] INFO root fetch - main [MainThread]: End processing [aau-ais-validate] error
+[2024-04-24 12:59:39] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/30/81/0ebcf1ae6f5fc264a479a98edf1d5d717d59832a5624e0f02274dc8cae09/getai-0.0.4.tar.gz
+[2024-04-24 12:59:39] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 12:59:39] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-24 12:59:39] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/b3/4c/ce155247c501c96a8376d2d90235ccf5f6b08511a7747e1b40a879f4e3d7/torch_model_manager-0.0.6.dev1.tar.gz
+[2024-04-24 12:59:39] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-24 12:59:39] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-24 12:59:39] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/00/62/77eca8b2c9f5d99214307c88cbc3d843ea9093b9e38291e15b1b7a548f3f/torch_model_manager-0.0.6.dev2.tar.gz
+[2024-04-24 12:59:39] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/92/2d/7d0dc220fa16dba94df03aa18ebd0e5494f7f9504b4217154afe968a6b11/getai-0.0.5.tar.gz
+[2024-04-24 12:59:39] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-24 12:59:39] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240424/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 12:59:39] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-24 12:59:39] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.0.6.dev1.tar.gz tmp/torch_model_manager-0.0.6.dev2.tar.gz --markdown 20240424/t/torch-model-manager/0.0.6.dev1-0.0.6.dev2/README.md --exclude *.pyd
+[2024-04-24 12:59:39] INFO root fetch - processPackages [getai]: executing diffoscope
+[2024-04-24 12:59:39] INFO root fetch - processPackages [getai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getai-0.0.4.tar.gz tmp/getai-0.0.5.tar.gz --markdown 20240424/g/getai/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-24 12:59:39] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-24 12:59:40] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-24 12:59:40] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240424/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 12:59:40] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.4.tar.gz]
+[2024-04-24 12:59:40] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.5.tar.gz]
+[2024-04-24 12:59:40] INFO root fetch - main [MainThread]: End processing [getai]: success
+[2024-04-24 12:59:40] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-24 12:59:40] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-24 12:59:40] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-24 12:59:40] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev1.tar.gz]
+[2024-04-24 12:59:40] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev2.tar.gz]
+[2024-04-24 12:59:40] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-24 12:59:40] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-24 12:59:40] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-24 12:59:40] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-24 12:59:40] INFO root fetch - main [MainThread]: Store serial: [22910855]
