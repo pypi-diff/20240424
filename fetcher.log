@@ -15186,3 +15186,94 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:32:44] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-3.0.0.tar.gz]
 [2024-04-24 10:32:44] INFO root fetch - main [MainThread]: End processing [jiebanlp]: success
 [2024-04-24 10:32:44] INFO root fetch - main [MainThread]: Store serial: [22909067]
+[2024-04-24 10:34:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909067]
+[2024-04-24 10:34:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbluemind4
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minet
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kungfupanda
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: networklab
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: org.iplatform
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lambkid
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netsim-tools
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py2docfx
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aruba-dero
+[2024-04-24 10:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: org.iplatform
+[2024-04-24 10:34:54] INFO root fetch - processPackages [kungfupanda]: New version: [0.8] Old Version: [0.7]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [py2docfx]: New version: [0.1.4rc1691271] Old Version: [0.1.4rc1690176]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [netbluemind4]: New version: [4.9.3534] Old Version: [4.9.3498]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [org.iplatform]: New version: [0.2] Old Version: [0.1]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [org.iplatform]: New version: [0.2] Old Version: [0.1]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [networklab]: New version: [1.8.1.post1] Old Version: [1.8.1]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [aruba-dero]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [netsim-tools]: New version: [1.8.1.post1] Old Version: [1.8.1]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [minet]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-24 10:34:54] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/8a/89/92fad384f2155a5bd7d53e077137cbde350759805d3d8ffca87f25c05e42/py2docfx-0.1.4rc1690176-py3-none-any.whl
+[2024-04-24 10:34:54] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/11/fb/fd59ec0d032da628a6fcc52ced808c72f4d541f577922bdfc358c982aaec/kungfupanda-0.7.tar.gz
+[2024-04-24 10:34:54] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-04-24 10:34:54] INFO root fetch - processPackages [org.iplatform]: Downloading https://files.pythonhosted.org/packages/7b/12/88990f3f5246bee7dfdb6844ebb9a3991379186390c25268c7f4a5d7dda9/org.iplatform-0.1-py3-none-any.whl
+[2024-04-24 10:34:54] INFO root fetch - processPackages [org.iplatform]: Downloading https://files.pythonhosted.org/packages/7b/12/88990f3f5246bee7dfdb6844ebb9a3991379186390c25268c7f4a5d7dda9/org.iplatform-0.1-py3-none-any.whl
+[2024-04-24 10:34:54] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/36/85/f1f6445855ff953db528f2ea923c422549e344429222b7268785edbc3c06/netbluemind4-4.9.3498.tar.gz
+[2024-04-24 10:34:54] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/af/ab/74d955eb67c3e8a12a4986e1734b43511e57d69a59adf1614f62062285b0/netsim-tools-1.8.1.tar.gz
+[2024-04-24 10:34:54] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/9f/8d/7a73fdb98381ff72bad9e36351a7dd8e476403c60fafe5e6ddbceceec051/networklab-1.8.1.tar.gz
+[2024-04-24 10:34:54] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/70/33/307d9a2203ce14dbf07f87cc035714de56e4feb7eaaf39963a1d55d67410/minet-2.0.2.tar.gz
+[2024-04-24 10:34:54] INFO root fetch - processPackages [kungfupanda]: Downloading https://files.pythonhosted.org/packages/02/cb/b9219e37ade9ea6f620e1945533ff6c73489069eb538d791044b5f612eb4/kungfupanda-0.8.tar.gz
+[2024-04-24 10:34:54] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/b7/82/d50bcc31dc6e331858771c5ffc6f66a8d703315d2ed1ac5474559b71cde5/aruba_dero-1.0.6.tar.gz
+[2024-04-24 10:34:55] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-04-24 10:34:55] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/6a/92/92480e7691e788f1a4b4b6bda5ed1554bd4a3549c36b56d1f9e72b2123ad/py2docfx-0.1.4rc1691271-py3-none-any.whl
+[2024-04-24 10:34:55] INFO root fetch - processPackages [kungfupanda]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [kungfupanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kungfupanda-0.7.tar.gz tmp/kungfupanda-0.8.tar.gz --markdown 20240424/k/kungfupanda/0.7-0.8/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240424/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip tmp/py2docfx-0.1.4rc1691271-py3-none-any.whl.zip --markdown 20240424/p/py2docfx/0.1.4rc1690176-0.1.4rc1691271/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [org.iplatform]: Downloading https://files.pythonhosted.org/packages/ca/f2/b9ffa4935d855715339329800b8d22f7d51c302b2df93e5236c392886185/org.iplatform-0.2-py3-none-any.whl
+[2024-04-24 10:34:55] INFO root fetch - processPackages [org.iplatform]: Downloading https://files.pythonhosted.org/packages/ca/f2/b9ffa4935d855715339329800b8d22f7d51c302b2df93e5236c392886185/org.iplatform-0.2-py3-none-any.whl
+[2024-04-24 10:34:55] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/24/2a/d028aed18ab4061629acc6d866aa2a627b294aab0b269d9bc0782d22c829/minet-2.0.3.tar.gz
+[2024-04-24 10:34:55] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/4d/13/834f3cd758467cbcc273e55d4415c93add7e7ad5a9dbb0c3466af7ed1b13/netbluemind4-4.9.3534.tar.gz
+[2024-04-24 10:34:55] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/21/62/eeff7bc4056489d44e32a2c8554b4e9585daac26efe170b6cf5a11041620/networklab-1.8.1.post1.tar.gz
+[2024-04-24 10:34:55] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/ad/be/1415b7a7d473a13b8429a34dcd9e0c91a261585dc3b859b4b65423198cff/aruba_dero-1.0.7.tar.gz
+[2024-04-24 10:34:55] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/06/fe/4413ab8267e5a1421c450aaedfcbf259832289e9b8bd1813402b1ebf6b6c/netsim_tools-1.8.1.post1.tar.gz
+[2024-04-24 10:34:55] INFO root fetch - processPackages [org.iplatform]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [org.iplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/org.iplatform-0.1-py3-none-any.whl.zip tmp/org.iplatform-0.2-py3-none-any.whl.zip --markdown 20240424/o/org.iplatform/0.1-0.2/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [org.iplatform]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [org.iplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/org.iplatform-0.1-py3-none-any.whl.zip tmp/org.iplatform-0.2-py3-none-any.whl.zip --markdown 20240424/o/org.iplatform/0.1-0.2/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [netbluemind4]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [netbluemind4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind4-4.9.3498.tar.gz tmp/netbluemind4-4.9.3534.tar.gz --markdown 20240424/n/netbluemind4/4.9.3498-4.9.3534/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [minet]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-2.0.2.tar.gz tmp/minet-2.0.3.tar.gz --markdown 20240424/m/minet/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [netsim-tools]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [netsim-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsim-tools-1.8.1.tar.gz tmp/netsim_tools-1.8.1.post1.tar.gz --markdown 20240424/n/netsim-tools/1.8.1-1.8.1.post1/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [networklab]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [networklab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networklab-1.8.1.tar.gz tmp/networklab-1.8.1.post1.tar.gz --markdown 20240424/n/networklab/1.8.1-1.8.1.post1/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [aruba-dero]: executing diffoscope
+[2024-04-24 10:34:55] INFO root fetch - processPackages [aruba-dero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aruba_dero-1.0.6.tar.gz tmp/aruba_dero-1.0.7.tar.gz --markdown 20240424/a/aruba-dero/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-24 10:34:55] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-04-24 10:34:55] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-04-24 10:34:55] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-24 10:34:56] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.7.tar.gz]
+[2024-04-24 10:34:56] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.8.tar.gz]
+[2024-04-24 10:34:56] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
+[2024-04-24 10:34:56] INFO root fetch - processPackages [netsim-tools]: Remove: archive file [/home/abi/fetcher/tmp/netsim-tools-1.8.1.tar.gz]
+[2024-04-24 10:34:56] INFO root fetch - processPackages [netsim-tools]: Remove: archive file [/home/abi/fetcher/tmp/netsim_tools-1.8.1.post1.tar.gz]
+[2024-04-24 10:34:56] INFO root fetch - main [MainThread]: End processing [netsim-tools]: success
+[2024-04-24 10:34:56] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1690176-py3-none-any.whl.zip]
+[2024-04-24 10:34:56] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1691271-py3-none-any.whl.zip]
+[2024-04-24 10:34:56] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-24 10:34:56] INFO root fetch - processPackages [org.iplatform]: Remove: archive file [/home/abi/fetcher/tmp/org.iplatform-0.1-py3-none-any.whl.zip]
+[2024-04-24 10:34:56] INFO root fetch - processPackages [org.iplatform]: Remove: archive file [/home/abi/fetcher/tmp/org.iplatform-0.2-py3-none-any.whl.zip]
+[2024-04-24 10:34:56] INFO root fetch - main [MainThread]: End processing [org.iplatform]: success
+[2024-04-24 10:34:56] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.6.tar.gz]
+[2024-04-24 10:34:56] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.7.tar.gz]
+[2024-04-24 10:34:56] INFO root fetch - main [MainThread]: End processing [aruba-dero]: success
+[2024-04-24 10:34:56] INFO root fetch - main [MainThread]: End processing [org.iplatform]: success
+[2024-04-24 10:34:57] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-2.0.2.tar.gz]
+[2024-04-24 10:34:57] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-2.0.3.tar.gz]
+[2024-04-24 10:34:57] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2024-04-24 10:34:58] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.3498.tar.gz]
+[2024-04-24 10:34:58] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.3534.tar.gz]
+[2024-04-24 10:34:58] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
+[2024-04-24 10:34:58] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.8.1.tar.gz]
+[2024-04-24 10:34:58] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.8.1.post1.tar.gz]
+[2024-04-24 10:34:58] INFO root fetch - main [MainThread]: End processing [networklab]: success
+[2024-04-24 10:34:58] INFO root fetch - main [MainThread]: Store serial: [22909098]
