@@ -8196,3 +8196,45 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:41:08] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.9.tar.gz]
 [2024-04-24 04:41:08] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2024-04-24 04:41:08] INFO root fetch - main [MainThread]: Store serial: [22905920]
+[2024-04-24 04:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905920]
+[2024-04-24 04:43:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kolena
+[2024-04-24 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantminer
+[2024-04-24 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kolena-client
+[2024-04-24 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accuhit-pyutils
+[2024-04-24 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ndvi-trends
+[2024-04-24 04:43:17] WARNING root fetch - processPackages [accuhit-pyutils]: Skipping, unable to determine old version
+[2024-04-24 04:43:17] INFO root fetch - main [MainThread]: End processing [accuhit-pyutils] error
+[2024-04-24 04:43:17] INFO root fetch - processPackages [ndvi-trends]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-24 04:43:17] INFO root fetch - processPackages [kolena]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-24 04:43:17] INFO root fetch - processPackages [quantminer]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-24 04:43:17] INFO root fetch - processPackages [kolena-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-24 04:43:17] INFO root fetch - processPackages [quantminer]: Downloading https://files.pythonhosted.org/packages/6f/3a/d6e954b54bce41fdf7ac64c17064726bbd6e87e927bf4054f1cf2953f916/quantminer-0.4.2.tar.gz
+[2024-04-24 04:43:17] INFO root fetch - processPackages [ndvi-trends]: Downloading https://files.pythonhosted.org/packages/58/77/ecb7af711f9f35980be9013a7b72e492a91716ef64773d40ac10feb07de4/ndvi_trends-0.0.6.tar.gz
+[2024-04-24 04:43:17] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/0a/d6/97de9a0f80beba1be7fdf36a7755d95f269a93c86487a35a70f230bccde6/kolena-1.8.0.tar.gz
+[2024-04-24 04:43:17] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a3/a7/78d5afa11fb61ba1e3a48b56f90523118e38fe1c910a463478fb21a82f79/kolena_client-1.8.0.tar.gz
+[2024-04-24 04:43:18] INFO root fetch - processPackages [ndvi-trends]: Downloading https://files.pythonhosted.org/packages/44/26/2838a5e4464ebde7615b7185729d447f82562ecd897ef9e3d979f51fc68c/ndvi_trends-0.0.7.tar.gz
+[2024-04-24 04:43:18] INFO root fetch - processPackages [quantminer]: Downloading https://files.pythonhosted.org/packages/4c/95/5759ccaa1b95680861c313c9bc146ec11c686bb010f7441525f0e548811a/quantminer-0.5.0.tar.gz
+[2024-04-24 04:43:18] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/96/79/bb655005ebffcb47a9d4a3150f2e8aa233b1219d02d5c56c170ff171f870/kolena-1.9.0.tar.gz
+[2024-04-24 04:43:18] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a8/f0/873193dc29f6f975d384cd4650275c9264bfdf09d2bbeb4e617d8aec3d61/kolena_client-1.9.0.tar.gz
+[2024-04-24 04:43:18] INFO root fetch - processPackages [quantminer]: executing diffoscope
+[2024-04-24 04:43:18] INFO root fetch - processPackages [quantminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantminer-0.4.2.tar.gz tmp/quantminer-0.5.0.tar.gz --markdown 20240424/q/quantminer/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-24 04:43:18] INFO root fetch - processPackages [ndvi-trends]: executing diffoscope
+[2024-04-24 04:43:18] INFO root fetch - processPackages [ndvi-trends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndvi_trends-0.0.6.tar.gz tmp/ndvi_trends-0.0.7.tar.gz --markdown 20240424/n/ndvi-trends/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-24 04:43:18] INFO root fetch - processPackages [kolena]: executing diffoscope
+[2024-04-24 04:43:18] INFO root fetch - processPackages [kolena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena-1.8.0.tar.gz tmp/kolena-1.9.0.tar.gz --markdown 20240424/k/kolena/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-24 04:43:18] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2024-04-24 04:43:18] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-1.8.0.tar.gz tmp/kolena_client-1.9.0.tar.gz --markdown 20240424/k/kolena-client/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-24 04:43:18] INFO root fetch - processPackages [quantminer]: Remove: archive file [/home/abi/fetcher/tmp/quantminer-0.4.2.tar.gz]
+[2024-04-24 04:43:18] INFO root fetch - processPackages [quantminer]: Remove: archive file [/home/abi/fetcher/tmp/quantminer-0.5.0.tar.gz]
+[2024-04-24 04:43:18] INFO root fetch - main [MainThread]: End processing [quantminer]: success
+[2024-04-24 04:43:18] INFO root fetch - processPackages [ndvi-trends]: Remove: archive file [/home/abi/fetcher/tmp/ndvi_trends-0.0.6.tar.gz]
+[2024-04-24 04:43:18] INFO root fetch - processPackages [ndvi-trends]: Remove: archive file [/home/abi/fetcher/tmp/ndvi_trends-0.0.7.tar.gz]
+[2024-04-24 04:43:18] INFO root fetch - main [MainThread]: End processing [ndvi-trends]: success
+[2024-04-24 04:43:19] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.8.0.tar.gz]
+[2024-04-24 04:43:19] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.9.0.tar.gz]
+[2024-04-24 04:43:19] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2024-04-24 04:43:19] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.8.0.tar.gz]
+[2024-04-24 04:43:19] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.9.0.tar.gz]
+[2024-04-24 04:43:19] INFO root fetch - main [MainThread]: End processing [kolena]: success
+[2024-04-24 04:43:19] INFO root fetch - main [MainThread]: Store serial: [22905935]
