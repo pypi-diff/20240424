@@ -9313,3 +9313,42 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:49:42] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.9.tar.gz]
 [2024-04-24 05:49:42] INFO root fetch - main [MainThread]: End processing [bgpy-pkg]: success
 [2024-04-24 05:49:42] INFO root fetch - main [MainThread]: Store serial: [22906519]
+[2024-04-24 05:51:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906519]
+[2024-04-24 05:51:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 05:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simular-eth-stubs
+[2024-04-24 05:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-errors
+[2024-04-24 05:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-collections
+[2024-04-24 05:51:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OZI
+[2024-04-24 05:51:51] INFO root fetch - processPackages [simular-eth-stubs]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-04-24 05:51:51] INFO root fetch - processPackages [OZI]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-24 05:51:51] INFO root fetch - processPackages [mojo-collections]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-04-24 05:51:51] INFO root fetch - processPackages [simular-eth-stubs]: Downloading https://files.pythonhosted.org/packages/05/93/6cd17effecd8ba897e82c90b4fb11a9c77457f97391ddc763f5684ee2ea1/simular-eth-stubs-0.0.4.tar.gz
+[2024-04-24 05:51:51] INFO root fetch - processPackages [mojo-errors]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-24 05:51:51] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4b/83/f693a55152235ee164328fa0b919f0352ee50edacb1a98aab2728a52a6ad/OZI-1.1.1.tar.gz
+[2024-04-24 05:51:51] INFO root fetch - processPackages [mojo-collections]: Downloading https://files.pythonhosted.org/packages/b9/6b/1eb2bc007942e3de6c8a734665abdee741ca0686a36e6322104c866f4391/mojo_collections-1.3.6.tar.gz
+[2024-04-24 05:51:51] INFO root fetch - processPackages [mojo-errors]: Downloading https://files.pythonhosted.org/packages/8d/d4/8a364e9304979bf292da65fbb0c4c14ccfdd9cd3b022ddda8c4cd6e266aa/mojo_errors-1.3.5.tar.gz
+[2024-04-24 05:51:51] INFO root fetch - processPackages [simular-eth-stubs]: Downloading https://files.pythonhosted.org/packages/ec/67/9757af914b675fa1cdce522b8f13358faf335bb51a67f97ae34c140c6f09/simular-eth-stubs-0.0.6.tar.gz
+[2024-04-24 05:51:51] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/01/0f/ec75dc0c1db5327f1da02921f7cba504d1e4d2ea70fa035a23d6065480ef/OZI-1.1.2.tar.gz
+[2024-04-24 05:51:52] INFO root fetch - processPackages [simular-eth-stubs]: executing diffoscope
+[2024-04-24 05:51:52] INFO root fetch - processPackages [simular-eth-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simular-eth-stubs-0.0.4.tar.gz tmp/simular-eth-stubs-0.0.6.tar.gz --markdown 20240424/s/simular-eth-stubs/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-errors]: Downloading https://files.pythonhosted.org/packages/aa/1d/3d9cfd0f0fd63fd24921d0c60553becd43f8727f5882339e1a061f94ac0b/mojo_errors-1.3.6.tar.gz
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-collections]: Downloading https://files.pythonhosted.org/packages/2a/89/2b4e40b3d8508143823ff7eaaed896cdf680380baea48aa3404f9c3c1c9a/mojo_collections-1.3.7.tar.gz
+[2024-04-24 05:51:52] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-24 05:51:52] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.1.1.tar.gz tmp/OZI-1.1.2.tar.gz --markdown 20240424/O/OZI/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-errors]: executing diffoscope
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_errors-1.3.5.tar.gz tmp/mojo_errors-1.3.6.tar.gz --markdown 20240424/m/mojo-errors/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-collections]: executing diffoscope
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_collections-1.3.6.tar.gz tmp/mojo_collections-1.3.7.tar.gz --markdown 20240424/m/mojo-collections/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-04-24 05:51:52] INFO root fetch - processPackages [simular-eth-stubs]: Remove: archive file [/home/abi/fetcher/tmp/simular-eth-stubs-0.0.4.tar.gz]
+[2024-04-24 05:51:52] INFO root fetch - processPackages [simular-eth-stubs]: Remove: archive file [/home/abi/fetcher/tmp/simular-eth-stubs-0.0.6.tar.gz]
+[2024-04-24 05:51:52] INFO root fetch - main [MainThread]: End processing [simular-eth-stubs]: success
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-errors]: Remove: archive file [/home/abi/fetcher/tmp/mojo_errors-1.3.5.tar.gz]
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-errors]: Remove: archive file [/home/abi/fetcher/tmp/mojo_errors-1.3.6.tar.gz]
+[2024-04-24 05:51:52] INFO root fetch - main [MainThread]: End processing [mojo-errors]: success
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mojo_collections-1.3.6.tar.gz]
+[2024-04-24 05:51:52] INFO root fetch - processPackages [mojo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mojo_collections-1.3.7.tar.gz]
+[2024-04-24 05:51:52] INFO root fetch - main [MainThread]: End processing [mojo-collections]: success
+[2024-04-24 05:51:53] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.1.1.tar.gz]
+[2024-04-24 05:51:53] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.1.2.tar.gz]
+[2024-04-24 05:51:53] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-24 05:51:53] INFO root fetch - main [MainThread]: Store serial: [22906532]
