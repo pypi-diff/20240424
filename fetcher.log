@@ -2063,3 +2063,36 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 01:59:51] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
 [2024-04-24 01:59:51] INFO root fetch - main [MainThread]: End processing [kayalab]: success
 [2024-04-24 01:59:51] INFO root fetch - main [MainThread]: Store serial: [22903589]
+[2024-04-24 02:01:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903589]
+[2024-04-24 02:01:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rime-sdk
+[2024-04-24 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdss-pymangle
+[2024-04-24 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kayalab
+[2024-04-24 02:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fudstop
+[2024-04-24 02:01:59] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-04-24 02:01:59] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc6] Old Version: [2.8.0rc4]
+[2024-04-24 02:01:59] INFO root fetch - processPackages [fudstop]: New version: [2.5.5] Old Version: [2.5.3]
+[2024-04-24 02:01:59] WARNING root fetch - processPackages [sdss-pymangle]: Skipping, unable to determine old version
+[2024-04-24 02:01:59] INFO root fetch - main [MainThread]: End processing [sdss-pymangle] error
+[2024-04-24 02:01:59] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/1d/d7/4edf22efe8fd0775c578cbabfbc65b8e2d745fb85213ea35ac7044c2e47e/fudstop-2.5.3.tar.gz
+[2024-04-24 02:01:59] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-04-24 02:01:59] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/d8/e5/f8773b988dbeeab44697eb468b65379e93b668a57299304a100f6938db8a/rime_sdk-2.8.0rc4.tar.gz
+[2024-04-24 02:01:59] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/bd/4b/a01fffdfeaa498340b0f5de57dc358d8c9aa262ca90ce725be16d9e61921/fudstop-2.5.5.tar.gz
+[2024-04-24 02:01:59] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/88/70/33a5625cc7a152fd92917d25ca7a9e7be74751d2a1c022c38e06d621ccb6/rime_sdk-2.8.0rc6.tar.gz
+[2024-04-24 02:02:00] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-24 02:02:00] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc4.tar.gz tmp/rime_sdk-2.8.0rc6.tar.gz --markdown 20240424/r/rime-sdk/2.8.0rc4-2.8.0rc6/README.md --exclude *.pyd
+[2024-04-24 02:02:00] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-04-24 02:02:00] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.5.3.tar.gz tmp/fudstop-2.5.5.tar.gz --markdown 20240424/f/fudstop/2.5.3-2.5.5/README.md --exclude *.pyd
+[2024-04-24 02:02:00] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-04-24 02:02:00] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-04-24 02:02:00] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240424/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-04-24 02:02:01] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.3.tar.gz]
+[2024-04-24 02:02:01] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.5.tar.gz]
+[2024-04-24 02:02:01] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-04-24 02:02:02] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc4.tar.gz]
+[2024-04-24 02:02:02] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc6.tar.gz]
+[2024-04-24 02:02:02] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-24 02:02:03] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-04-24 02:02:03] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-04-24 02:02:03] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-04-24 02:02:03] INFO root fetch - main [MainThread]: Store serial: [22903654]
