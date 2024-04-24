@@ -21127,3 +21127,24 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 13:41:06] INFO root fetch - processPackages [clinlp]: Remove: archive file [/home/abi/fetcher/tmp/clinlp-0.6.5.tar.gz]
 [2024-04-24 13:41:06] INFO root fetch - main [MainThread]: End processing [clinlp]: success
 [2024-04-24 13:41:06] INFO root fetch - main [MainThread]: Store serial: [22911445]
+[2024-04-24 13:43:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911445]
+[2024-04-24 13:43:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 13:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deltachat-rpc-client
+[2024-04-24 13:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-04-24 13:43:27] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 13:43:27] INFO root fetch - processPackages [deltachat-rpc-client]: New version: [1.137.4] Old Version: [1.137.3]
+[2024-04-24 13:43:28] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-24 13:43:28] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/66/df/600caca6a6e17e0f879962b34ffe2b8db6e95ab438e1c9359dd18b4dc8d3/deltachat_rpc_client-1.137.3.tar.gz
+[2024-04-24 13:43:28] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-24 13:43:28] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-24 13:43:28] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240424/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 13:43:28] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/f0/60/4fe5869e17b2999b01c4a8bcd22299d8e05e196d15d2f7c81453049250b7/deltachat_rpc_client-1.137.4.tar.gz
+[2024-04-24 13:43:28] INFO root fetch - processPackages [deltachat-rpc-client]: executing diffoscope
+[2024-04-24 13:43:28] INFO root fetch - processPackages [deltachat-rpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat_rpc_client-1.137.3.tar.gz tmp/deltachat_rpc_client-1.137.4.tar.gz --markdown 20240424/d/deltachat-rpc-client/1.137.3-1.137.4/README.md --exclude *.pyd
+[2024-04-24 13:43:29] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_rpc_client-1.137.3.tar.gz]
+[2024-04-24 13:43:29] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_rpc_client-1.137.4.tar.gz]
+[2024-04-24 13:43:29] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-client]: success
+[2024-04-24 13:43:29] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-24 13:43:29] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-24 13:43:29] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-24 13:43:29] INFO root fetch - main [MainThread]: Store serial: [22911455]
