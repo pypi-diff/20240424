@@ -11706,3 +11706,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:07:21] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.1.1-py3-none-any.whl.zip]
 [2024-04-24 08:07:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
 [2024-04-24 08:07:21] INFO root fetch - main [MainThread]: Store serial: [22907416]
+[2024-04-24 08:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907416]
+[2024-04-24 08:09:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 08:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxsharp
+[2024-04-24 08:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vite-transporter
+[2024-04-24 08:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipxu
+[2024-04-24 08:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: donetools
+[2024-04-24 08:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yuanfen
+[2024-04-24 08:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fetch-sitemap
+[2024-04-24 08:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 08:09:29] INFO root fetch - processPackages [onnxsharp]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 08:09:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 08:09:29] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-24 08:09:29] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 08:09:29] INFO root fetch - processPackages [vite-transporter]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-24 08:09:29] INFO root fetch - processPackages [pipxu]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 08:09:29] INFO root fetch - processPackages [yuanfen]: New version: [2024.4.24.1] Old Version: [2024.3.8.1]
+[2024-04-24 08:09:29] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/a5/a5/ce9c11ae34998c536cb230bf91a4a816c34697dfe829d606355d94f778cb/onnxsharp-0.0.3-py2.py3-none-any.whl
+[2024-04-24 08:09:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 08:09:29] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-24 08:09:29] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-24 08:09:29] INFO root fetch - processPackages [vite-transporter]: Downloading https://files.pythonhosted.org/packages/4e/03/b8c485b405af9afb91381a8b8ebd774c5257b4d65f829c69e5b77d9ac0ca/vite_transporter-0.4.1.tar.gz
+[2024-04-24 08:09:29] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/cc/eb/3ab46d9459683b712238c934e0771e68d18f501630f0c699727047a9291f/pipxu-1.8.tar.gz
+[2024-04-24 08:09:29] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/4b/f9/5c14234dbdec574dfa4b295c8f42c6bab5e58cab659846e3b6fa13ad1796/yuanfen-2024.3.8.1.tar.gz
+[2024-04-24 08:09:30] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 08:09:30] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-24 08:09:30] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/f6/66/107e23e1e54f1b837d13cc555c8ed187654a8d60898c9087015354901dfe/onnxsharp-0.0.4-py2.py3-none-any.whl
+[2024-04-24 08:09:30] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-24 08:09:30] INFO root fetch - processPackages [vite-transporter]: Downloading https://files.pythonhosted.org/packages/cb/09/086e7cb42df9cf66d841dd2086fd7e756d099e928f27327a01e516461d27/vite_transporter-0.4.2.tar.gz
+[2024-04-24 08:09:30] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 08:09:30] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 08:09:30] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-24 08:09:30] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240424/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-24 08:09:30] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/8a/eb/90f5309214385256434dc7b634f8eee8a63edf311279c03abb59bc54c556/pipxu-1.9.tar.gz
+[2024-04-24 08:09:30] INFO root fetch - processPackages [onnxsharp]: executing diffoscope
+[2024-04-24 08:09:30] INFO root fetch - processPackages [onnxsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxsharp-0.0.3-py2.py3-none-any.whl.zip tmp/onnxsharp-0.0.4-py2.py3-none-any.whl.zip --markdown 20240424/o/onnxsharp/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 08:09:30] INFO root fetch - processPackages [vite-transporter]: executing diffoscope
+[2024-04-24 08:09:30] INFO root fetch - processPackages [vite-transporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vite_transporter-0.4.1.tar.gz tmp/vite_transporter-0.4.2.tar.gz --markdown 20240424/v/vite-transporter/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-24 08:09:30] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/23/78/510a3f3d9e8b5bc94f3545545e5080fc15bc3f0ffc4415ebb3f382fa7281/yuanfen-2024.4.24.1.tar.gz
+[2024-04-24 08:09:30] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-24 08:09:30] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240424/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 08:09:30] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-04-24 08:09:30] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.8.tar.gz tmp/pipxu-1.9.tar.gz --markdown 20240424/p/pipxu/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 08:09:30] INFO root fetch - processPackages [yuanfen]: executing diffoscope
+[2024-04-24 08:09:30] INFO root fetch - processPackages [yuanfen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuanfen-2024.3.8.1.tar.gz tmp/yuanfen-2024.4.24.1.tar.gz --markdown 20240424/y/yuanfen/2024.3.8.1-2024.4.24.1/README.md --exclude *.pyd
+[2024-04-24 08:09:31] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-24 08:09:31] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 08:09:31] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 08:09:31] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 08:09:31] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-24 08:09:31] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.3-py2.py3-none-any.whl.zip]
+[2024-04-24 08:09:31] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.4-py2.py3-none-any.whl.zip]
+[2024-04-24 08:09:31] INFO root fetch - main [MainThread]: End processing [onnxsharp]: success
+[2024-04-24 08:09:31] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.8.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-04-24 08:09:31] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.3.8.1.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.4.24.1.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - main [MainThread]: End processing [yuanfen]: success
+[2024-04-24 08:09:31] INFO root fetch - processPackages [vite-transporter]: Remove: archive file [/home/abi/fetcher/tmp/vite_transporter-0.4.1.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - processPackages [vite-transporter]: Remove: archive file [/home/abi/fetcher/tmp/vite_transporter-0.4.2.tar.gz]
+[2024-04-24 08:09:31] INFO root fetch - main [MainThread]: End processing [vite-transporter]: success
+[2024-04-24 08:09:31] INFO root fetch - main [MainThread]: Store serial: [22907436]
