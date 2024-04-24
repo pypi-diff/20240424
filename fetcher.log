@@ -18492,3 +18492,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:15:16] INFO root fetch - processPackages [redisbench-admin]: Remove: archive file [/home/abi/fetcher/tmp/redisbench-admin-0.9.9.tar.gz]
 [2024-04-24 12:15:16] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
 [2024-04-24 12:15:16] INFO root fetch - main [MainThread]: Store serial: [22910285]
+[2024-04-24 12:17:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910285]
+[2024-04-24 12:17:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TitanDevice
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mergecraft
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windmill-api
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-blossom
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wmill
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-sdk
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: primers
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: primers
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wmill-pg
+[2024-04-24 12:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autofeather-dash-mantine-components
+[2024-04-24 12:17:26] INFO root fetch - processPackages [mergecraft]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-24 12:17:26] INFO root fetch - processPackages [primers]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-24 12:17:26] INFO root fetch - processPackages [primers]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-24 12:17:26] INFO root fetch - processPackages [TitanDevice]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-24 12:17:26] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-24 12:17:26] INFO root fetch - processPackages [autofeather-dash-mantine-components]: New version: [0.14.3] Old Version: [0.14.2]
+[2024-04-24 12:17:26] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-24 12:17:26] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-24 12:17:26] INFO root fetch - processPackages [napari-blossom]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-24 12:17:26] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/16/6b/730522a31c4aa348fe9a587b598a8c5ea81075967887563ebf881992c6ed/mergecraft-0.0.5.tar.gz
+[2024-04-24 12:17:26] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/ff/ba/ce73081366650cfd44edc09c878c78f63b6657072c3ef6ca03cbbb44afc9/primers-0.5.7-py3-none-any.whl
+[2024-04-24 12:17:27] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-04-24 12:17:27] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/ff/ba/ce73081366650cfd44edc09c878c78f63b6657072c3ef6ca03cbbb44afc9/primers-0.5.7-py3-none-any.whl
+[2024-04-24 12:17:27] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/b8/12/3817b92380f1b95a4c100307ea755e7bf27524b9e4d557f13344d08bac3a/TitanDevice-0.3.1.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/aa/3d/610df690da47ebb21f5a7f6e5f2df23ee6bab9c0b758e64aeadcbbe1ec95/autofeather_dash_mantine_components-0.14.2-py3-none-any.whl
+[2024-04-24 12:17:27] INFO root fetch - processPackages [napari-blossom]: Downloading https://files.pythonhosted.org/packages/fc/7e/34f0ec313bf83ce24caca9d40af79bb3859c09a1795fb8a4d6a8dae7af80/napari-blossom-0.1.5.tar.gz
+[2024-04-24 12:17:27] WARNING root fetch - processPackages [napari-blossom]: Skipping package: exceeds size limit 15191234>=10485760
+[2024-04-24 12:17:27] INFO root fetch - processPackages [napari-blossom]: Start processing: CustomerFrequency
+[2024-04-24 12:17:27] INFO root fetch - main [MainThread]: End processing [napari-blossom] error
+[2024-04-24 12:17:27] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/f2/7d/73a28cdd7ed19b5db4c46e73b7e214c2769aeff92e0372990b3649e349b2/primers-0.5.8-py3-none-any.whl
+[2024-04-24 12:17:27] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [primers]: Downloading https://files.pythonhosted.org/packages/f2/7d/73a28cdd7ed19b5db4c46e73b7e214c2769aeff92e0372990b3649e349b2/primers-0.5.8-py3-none-any.whl
+[2024-04-24 12:17:27] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/3d/60/58b692fe3f023a874144db8ba24e6d69cf789af68023d501d0e111cbaff3/mergecraft-0.0.6.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [primers]: executing diffoscope
+[2024-04-24 12:17:27] INFO root fetch - processPackages [primers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primers-0.5.7-py3-none-any.whl.zip tmp/primers-0.5.8-py3-none-any.whl.zip --markdown 20240424/p/primers/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-24 12:17:27] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/5d/5e/e39c2e47960ba6d8f842343732c8324f26bcb5312bc4f7685f99fb261a41/TitanDevice-0.3.2.tar.gz
+[2024-04-24 12:17:27] WARNING root fetch - processPackages [CustomerFrequency]: Skipping, unable to determine old version
+[2024-04-24 12:17:27] INFO root fetch - processPackages [CustomerFrequency]: Start processing: outpostkit
+[2024-04-24 12:17:27] INFO root fetch - main [MainThread]: End processing [CustomerFrequency] error
+[2024-04-24 12:17:27] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-24 12:17:27] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240424/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-24 12:17:27] INFO root fetch - processPackages [primers]: executing diffoscope
+[2024-04-24 12:17:27] INFO root fetch - processPackages [primers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primers-0.5.7-py3-none-any.whl.zip tmp/primers-0.5.8-py3-none-any.whl.zip --markdown 20240424/p/primers/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-24 12:17:27] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-24 12:17:27] INFO root fetch - processPackages [mergecraft]: executing diffoscope
+[2024-04-24 12:17:27] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240424/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-24 12:17:27] INFO root fetch - processPackages [mergecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergecraft-0.0.5.tar.gz tmp/mergecraft-0.0.6.tar.gz --markdown 20240424/m/mergecraft/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-24 12:17:27] INFO root fetch - processPackages [outpostkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-24 12:17:27] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 12:17:27] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.3.1.tar.gz tmp/TitanDevice-0.3.2.tar.gz --markdown 20240424/T/TitanDevice/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-24 12:17:27] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-24 12:17:27] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240424/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-24 12:17:27] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/9d/c6/3e793263389bff2eeb22aa310853ff3ff2f8f148b6f97945071af23e205d/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl
+[2024-04-24 12:17:27] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/e8/20/6f4f3b0edb61dd5f691668605b0901894c58c85e728662fff6913423203c/outpostkit-0.0.7.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [autofeather-dash-mantine-components]: executing diffoscope
+[2024-04-24 12:17:27] INFO root fetch - processPackages [autofeather-dash-mantine-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofeather_dash_mantine_components-0.14.2-py3-none-any.whl.zip tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip --markdown 20240424/a/autofeather-dash-mantine-components/0.14.2-0.14.3/README.md --exclude *.pyd
+[2024-04-24 12:17:27] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-04-24 12:17:27] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/b3/af/8945c62fc6dc5596e5618810b3971a4c11d217517a24d0cd40a10b5b9553/outpostkit-0.0.9.tar.gz
+[2024-04-24 12:17:28] INFO root fetch - processPackages [outpostkit]: executing diffoscope
+[2024-04-24 12:17:28] INFO root fetch - processPackages [outpostkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostkit-0.0.7.tar.gz tmp/outpostkit-0.0.9.tar.gz --markdown 20240424/o/outpostkit/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-24 12:17:28] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-04-24 12:17:28] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240424/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-04-24 12:17:28] INFO root fetch - processPackages [primers]: Remove: archive file [/home/abi/fetcher/tmp/primers-0.5.7-py3-none-any.whl.zip]
+[2024-04-24 12:17:28] INFO root fetch - processPackages [primers]: Remove: archive file [/home/abi/fetcher/tmp/primers-0.5.8-py3-none-any.whl.zip]
+[2024-04-24 12:17:28] INFO root fetch - processPackages [primers]: Start processing: odoo-addon-rma-sale-mrp
+[2024-04-24 12:17:28] INFO root fetch - main [MainThread]: End processing [primers]: success
+[2024-04-24 12:17:28] INFO root fetch - processPackages [primers]: Start processing: odoo-addon-sales-team-security
+[2024-04-24 12:17:28] INFO root fetch - main [MainThread]: End processing [primers]: success
+[2024-04-24 12:17:28] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-24 12:17:28] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-24 12:17:28] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: New version: [16.0.1.1.0.7] Old Version: [16.0.1.1.0.4]
+[2024-04-24 12:17:28] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.5.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.6.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - main [MainThread]: End processing [mergecraft]: success
+[2024-04-24 12:17:28] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.1.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.3.2.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 12:17:28] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: Downloading https://files.pythonhosted.org/packages/e4/d7/deb5f6616f10158ae69a3d5a4b20cdbc5663747b5e9205c69d41e1c1c519/odoo_addon_rma_sale_mrp-16.0.1.1.0.4-py3-none-any.whl
+[2024-04-24 12:17:28] INFO root fetch - processPackages [odoo-addon-sales-team-security]: New version: [17.0.1.0.0.3] Old Version: [16.0.1.0.0.6]
+[2024-04-24 12:17:28] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.7.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
+[2024-04-24 12:17:28] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
+[2024-04-24 12:17:29] INFO root fetch - processPackages [odoo-addon-sales-team-security]: Downloading https://files.pythonhosted.org/packages/79/f3/6aa3d3e43c852fb327bf22b9e739c2b99c97c15e1f36ea7637eefb9ae5ac/odoo_addon_sales_team_security-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-24 12:17:29] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: Downloading https://files.pythonhosted.org/packages/10/e3/e35a26819fdb12d855ca95128a1eee0181c06f530e89225e29fb1d5ec6ca/odoo_addon_rma_sale_mrp-16.0.1.1.0.7-py3-none-any.whl
+[2024-04-24 12:17:29] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-04-24 12:17:29] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-04-24 12:17:29] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-04-24 12:17:29] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: executing diffoscope
+[2024-04-24 12:17:29] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma_sale_mrp-16.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_rma_sale_mrp-16.0.1.1.0.7-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-rma-sale-mrp/16.0.1.1.0.4-16.0.1.1.0.7/README.md --exclude *.pyd
+[2024-04-24 12:17:29] INFO root fetch - processPackages [odoo-addon-sales-team-security]: Downloading https://files.pythonhosted.org/packages/e7/40/7b5303c797b60e628abd969928eeeafe13f8413f5e224ed9930d1a604442/odoo_addon_sales_team_security-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-24 12:17:29] INFO root fetch - processPackages [odoo-addon-sales-team-security]: executing diffoscope
+[2024-04-24 12:17:29] INFO root fetch - processPackages [odoo-addon-sales-team-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sales_team_security-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_sales_team_security-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-sales-team-security/16.0.1.0.0.6-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-24 12:17:30] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma_sale_mrp-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-04-24 12:17:30] INFO root fetch - processPackages [odoo-addon-rma-sale-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma_sale_mrp-16.0.1.1.0.7-py3-none-any.whl.zip]
+[2024-04-24 12:17:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma-sale-mrp]: success
+[2024-04-24 12:17:30] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.2-py3-none-any.whl.zip]
+[2024-04-24 12:17:30] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip]
+[2024-04-24 12:17:30] INFO root fetch - main [MainThread]: End processing [autofeather-dash-mantine-components]: success
+[2024-04-24 12:17:30] INFO root fetch - processPackages [odoo-addon-sales-team-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sales_team_security-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-24 12:17:30] INFO root fetch - processPackages [odoo-addon-sales-team-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sales_team_security-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-24 12:17:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-sales-team-security]: success
+[2024-04-24 12:17:32] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-24 12:17:32] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-24 12:17:32] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-24 12:17:32] INFO root fetch - main [MainThread]: Store serial: [22910325]
