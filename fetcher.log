@@ -14439,3 +14439,63 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 09:59:31] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-24 09:59:31] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-24 09:59:31] INFO root fetch - main [MainThread]: Store serial: [22908765]
+[2024-04-24 10:01:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908765]
+[2024-04-24 10:01:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 10:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyjedai
+[2024-04-24 10:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly
+[2024-04-24 10:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LLMEasyTools
+[2024-04-24 10:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boxcounting
+[2024-04-24 10:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lyrebird
+[2024-04-24 10:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ursus-ssg
+[2024-04-24 10:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rex-password-manager
+[2024-04-24 10:01:40] INFO root fetch - processPackages [boxcounting]: New version: [1.0.0.3] Old Version: [1.0.0.2]
+[2024-04-24 10:01:40] INFO root fetch - processPackages [pyjedai]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-24 10:01:40] WARNING root fetch - processPackages [rex-password-manager]: Skipping, unable to determine old version
+[2024-04-24 10:01:40] INFO root fetch - main [MainThread]: End processing [rex-password-manager] error
+[2024-04-24 10:01:40] INFO root fetch - processPackages [ursus-ssg]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-24 10:01:40] INFO root fetch - processPackages [lyrebird]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-24 10:01:40] INFO root fetch - processPackages [LLMEasyTools]: New version: [0.9] Old Version: [0.8]
+[2024-04-24 10:01:40] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240424] Old Version: [2.17.0.dev20240423]
+[2024-04-24 10:01:40] INFO root fetch - processPackages [boxcounting]: Downloading https://files.pythonhosted.org/packages/f6/24/8b94d0e4990bad01ce82661d64e8674e991c615175a91a7d2a4a69ae8c41/boxcounting-1.0.0.2.tar.gz
+[2024-04-24 10:01:40] INFO root fetch - processPackages [ursus-ssg]: Downloading https://files.pythonhosted.org/packages/cd/91/47e5a02012ea25f747eceaeaa34b7498f1126a858e3e90212e5bb854433e/ursus_ssg-1.1.1.tar.gz
+[2024-04-24 10:01:40] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/06/13/4ab9bba5638766ee4616a2f79ef2b14a6cc420f30ee45746325841de3068/lyrebird-2.9.1.tar.gz
+[2024-04-24 10:01:40] INFO root fetch - processPackages [pyjedai]: Downloading https://files.pythonhosted.org/packages/9d/b8/650d86fde784ee6b0da5211a0d6f2f0e44e232067e4f91de023964d31ab6/pyjedai-0.1.6.tar.gz
+[2024-04-24 10:01:40] INFO root fetch - processPackages [LLMEasyTools]: Downloading https://files.pythonhosted.org/packages/82/92/3b67230d7ddb3b80cc3c61e5bd7678372c21db75cd4249fc296e1e48663c/LLMEasyTools-0.8.tar.gz
+[2024-04-24 10:01:40] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/fb/9b/dccc9fbf92bc2c9c280ac4d90372f9d5594370b5389234fff64990e78493/tf_nightly-2.17.0.dev20240423-cp39-cp39-win_amd64.whl
+[2024-04-24 10:01:41] INFO root fetch - processPackages [boxcounting]: Downloading https://files.pythonhosted.org/packages/18/a0/daaf8767d19858ab145ef8761bf06ed8674f7b072e5c567f9d7381f48804/boxcounting-1.0.0.3.tar.gz
+[2024-04-24 10:01:41] INFO root fetch - processPackages [ursus-ssg]: Downloading https://files.pythonhosted.org/packages/68/db/32338909cd43c5d56e5113c1446a39cb4ecc4382dc34973f086b909d9fc8/ursus_ssg-1.2.0.tar.gz
+[2024-04-24 10:01:41] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/32/f9/cb734bcb76abca9da425105f863162bdd056862f91ea750ace5100b54cf2/tf_nightly-2.17.0.dev20240424-cp39-cp39-win_amd64.whl
+[2024-04-24 10:01:41] INFO root fetch - processPackages [pyjedai]: Downloading https://files.pythonhosted.org/packages/12/e7/5d0aaad219db78d1e74733794693a6a75b8625c865dfa8cd743a74f0b17d/pyjedai-0.1.7.tar.gz
+[2024-04-24 10:01:41] INFO root fetch - processPackages [boxcounting]: executing diffoscope
+[2024-04-24 10:01:41] INFO root fetch - processPackages [boxcounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxcounting-1.0.0.2.tar.gz tmp/boxcounting-1.0.0.3.tar.gz --markdown 20240424/b/boxcounting/1.0.0.2-1.0.0.3/README.md --exclude *.pyd
+[2024-04-24 10:01:41] INFO root fetch - processPackages [LLMEasyTools]: Downloading https://files.pythonhosted.org/packages/72/a3/c49ac0fb7ddf156d6a831d2b908fcf1ca4c36f2081aec1178176f19d3958/LLMEasyTools-0.9.tar.gz
+[2024-04-24 10:01:41] INFO root fetch - processPackages [ursus-ssg]: executing diffoscope
+[2024-04-24 10:01:41] INFO root fetch - processPackages [ursus-ssg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ursus_ssg-1.1.1.tar.gz tmp/ursus_ssg-1.2.0.tar.gz --markdown 20240424/u/ursus-ssg/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-24 10:01:41] INFO root fetch - processPackages [LLMEasyTools]: executing diffoscope
+[2024-04-24 10:01:41] INFO root fetch - processPackages [LLMEasyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLMEasyTools-0.8.tar.gz tmp/LLMEasyTools-0.9.tar.gz --markdown 20240424/L/LLMEasyTools/0.8-0.9/README.md --exclude *.pyd
+[2024-04-24 10:01:41] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-24 10:01:41] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240423-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240424-cp39-cp39-win_amd64.whl.zip --markdown 20240424/t/tf-nightly/2.17.0.dev20240423-2.17.0.dev20240424/README.md --exclude *.pyd
+[2024-04-24 10:01:41] INFO root fetch - processPackages [pyjedai]: executing diffoscope
+[2024-04-24 10:01:41] INFO root fetch - processPackages [pyjedai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjedai-0.1.6.tar.gz tmp/pyjedai-0.1.7.tar.gz --markdown 20240424/p/pyjedai/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-24 10:01:42] INFO root fetch - processPackages [boxcounting]: Remove: archive file [/home/abi/fetcher/tmp/boxcounting-1.0.0.2.tar.gz]
+[2024-04-24 10:01:42] INFO root fetch - processPackages [boxcounting]: Remove: archive file [/home/abi/fetcher/tmp/boxcounting-1.0.0.3.tar.gz]
+[2024-04-24 10:01:42] INFO root fetch - main [MainThread]: End processing [boxcounting]: success
+[2024-04-24 10:01:42] INFO root fetch - processPackages [ursus-ssg]: Remove: archive file [/home/abi/fetcher/tmp/ursus_ssg-1.1.1.tar.gz]
+[2024-04-24 10:01:42] INFO root fetch - processPackages [ursus-ssg]: Remove: archive file [/home/abi/fetcher/tmp/ursus_ssg-1.2.0.tar.gz]
+[2024-04-24 10:01:42] INFO root fetch - main [MainThread]: End processing [ursus-ssg]: success
+[2024-04-24 10:01:42] INFO root fetch - processPackages [LLMEasyTools]: Remove: archive file [/home/abi/fetcher/tmp/LLMEasyTools-0.8.tar.gz]
+[2024-04-24 10:01:42] INFO root fetch - processPackages [LLMEasyTools]: Remove: archive file [/home/abi/fetcher/tmp/LLMEasyTools-0.9.tar.gz]
+[2024-04-24 10:01:42] INFO root fetch - main [MainThread]: End processing [LLMEasyTools]: success
+[2024-04-24 10:01:42] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240423-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 10:01:42] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240424-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 10:01:42] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-24 10:01:42] INFO root fetch - processPackages [pyjedai]: Remove: archive file [/home/abi/fetcher/tmp/pyjedai-0.1.6.tar.gz]
+[2024-04-24 10:01:42] INFO root fetch - processPackages [pyjedai]: Remove: archive file [/home/abi/fetcher/tmp/pyjedai-0.1.7.tar.gz]
+[2024-04-24 10:01:42] INFO root fetch - main [MainThread]: End processing [pyjedai]: success
+[2024-04-24 10:01:43] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/77/cb/ae987ef021622334d287593ae7760a4c9bac044e030a96acf5a262910328/lyrebird-2.9.2.tar.gz
+[2024-04-24 10:01:44] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2024-04-24 10:01:44] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-2.9.1.tar.gz tmp/lyrebird-2.9.2.tar.gz --markdown 20240424/l/lyrebird/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-24 10:01:46] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.1.tar.gz]
+[2024-04-24 10:01:46] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
+[2024-04-24 10:01:46] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2024-04-24 10:01:46] INFO root fetch - main [MainThread]: Store serial: [22908789]
