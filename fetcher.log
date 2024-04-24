@@ -8470,3 +8470,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:57:00] INFO root fetch - processPackages [linalgebralib]: Remove: archive file [/home/abi/fetcher/tmp/linalgebralib-0.0.31.tar.gz]
 [2024-04-24 04:57:00] INFO root fetch - main [MainThread]: End processing [linalgebralib]: success
 [2024-04-24 04:57:00] INFO root fetch - main [MainThread]: Store serial: [22906156]
+[2024-04-24 04:59:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906156]
+[2024-04-24 04:59:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 04:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansi-string
+[2024-04-24 04:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Background
+[2024-04-24 04:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdf_tool
+[2024-04-24 04:59:08] INFO root fetch - processPackages [tdf_tool]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-24 04:59:08] INFO root fetch - processPackages [Geode-Background]: New version: [7.9.7rc1] Old Version: [7.9.6rc1]
+[2024-04-24 04:59:08] INFO root fetch - processPackages [ansi-string]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-24 04:59:08] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/e2/20/7bd3981f89deedf6ba8fdd42fc8e01b5fa47635732ea90010af530c1cbc2/tdf_tool-2.4.8.tar.gz
+[2024-04-24 04:59:08] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/7d/a4/c1be1784446e52e1be3d18364c62336681d5bf7f9d463a341183735cc890/Geode_Background-7.9.6rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 04:59:09] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/25/b4/c9df3d0bb1b6a499c066fb7c0ab739455835fbb39a1d2a031c0c88f2d1df/ansi-string-1.0.3.tar.gz
+[2024-04-24 04:59:09] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/0d/fb/edc0ac41f192341d2e9a5ca096da99a3e6e2fcbb2a105e9f80ca47732071/tdf_tool-2.4.9.tar.gz
+[2024-04-24 04:59:09] INFO root fetch - processPackages [tdf_tool]: executing diffoscope
+[2024-04-24 04:59:09] INFO root fetch - processPackages [tdf_tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdf_tool-2.4.8.tar.gz tmp/tdf_tool-2.4.9.tar.gz --markdown 20240424/t/tdf_tool/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-24 04:59:09] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/4a/02/46f65c9be2ec2fa1fd996a9c54a40d43b2bc30d2d2d1f10496d7b2960968/ansi-string-1.0.4.tar.gz
+[2024-04-24 04:59:09] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/79/1c/8de87be7be8fe931c4930bb8a18733e8cf05b51743f852690377e3993a89/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 04:59:09] INFO root fetch - processPackages [ansi-string]: executing diffoscope
+[2024-04-24 04:59:09] INFO root fetch - processPackages [ansi-string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansi-string-1.0.3.tar.gz tmp/ansi-string-1.0.4.tar.gz --markdown 20240424/a/ansi-string/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-24 04:59:09] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2024-04-24 04:59:09] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.9.6rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240424/G/Geode-Background/7.9.6rc1-7.9.7rc1/README.md --exclude *.pyd
+[2024-04-24 04:59:10] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-1.0.3.tar.gz]
+[2024-04-24 04:59:10] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-1.0.4.tar.gz]
+[2024-04-24 04:59:10] INFO root fetch - main [MainThread]: End processing [ansi-string]: success
+[2024-04-24 04:59:10] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.8.tar.gz]
+[2024-04-24 04:59:10] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.9.tar.gz]
+[2024-04-24 04:59:10] INFO root fetch - main [MainThread]: End processing [tdf_tool]: success
+[2024-04-24 04:59:44] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 04:59:44] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 04:59:44] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2024-04-24 04:59:44] INFO root fetch - main [MainThread]: Store serial: [22906168]
