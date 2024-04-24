@@ -16980,3 +16980,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:26:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.9-py3-none-any.whl.zip]
 [2024-04-24 11:26:47] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-24 11:26:47] INFO root fetch - main [MainThread]: Store serial: [22909763]
+[2024-04-24 11:28:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909763]
+[2024-04-24 11:28:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 11:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Project-DataPrepKit
+[2024-04-24 11:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perun.proxygui
+[2024-04-24 11:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsugu-api-python
+[2024-04-24 11:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lynxius
+[2024-04-24 11:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zoltraak
+[2024-04-24 11:28:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fdamages
+[2024-04-24 11:28:56] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 11:28:56] WARNING root fetch - processPackages [Project-DataPrepKit]: Skipping, unable to determine old version
+[2024-04-24 11:28:56] INFO root fetch - main [MainThread]: End processing [Project-DataPrepKit] error
+[2024-04-24 11:28:56] INFO root fetch - processPackages [fdamages]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 11:28:56] INFO root fetch - processPackages [perun.proxygui]: New version: [5.0.2] Old Version: [5.0.1]
+[2024-04-24 11:28:56] ERROR root fetch - processPackages [tsugu-api-python]: Unable to get metadata: No such project 'tsugu-api-python'
+[2024-04-24 11:28:56] INFO root fetch - main [MainThread]: End processing [tsugu-api-python] error
+[2024-04-24 11:28:56] WARNING root fetch - processPackages [lynxius]: Skipping, unable to determine old version
+[2024-04-24 11:28:56] INFO root fetch - main [MainThread]: End processing [lynxius] error
+[2024-04-24 11:28:56] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-04-24 11:28:56] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/f7/47/b073d66da70f033a16648506bf9c8c9bf6bb94a4c2addffde34a57d1029e/fdamages-0.0.8.tar.gz
+[2024-04-24 11:28:56] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/c4/82/11c92d0e5250434a88b7d546f2401582005c35fb06f9cc7a975289116871/perun.proxygui-5.0.1.tar.gz
+[2024-04-24 11:28:56] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/c8/91/80a20c426c12fcad2a527baf311c3b6d5f974f223536344ee9c16296a491/fdamages-0.0.9.tar.gz
+[2024-04-24 11:28:56] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-04-24 11:28:56] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-24 11:28:56] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.8.tar.gz tmp/fdamages-0.0.9.tar.gz --markdown 20240424/f/fdamages/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 11:28:56] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-24 11:28:56] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240424/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 11:28:57] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/19/e8/761e252d696790e786c33e9ab465b72e3951f29bca699392815d5d19fbc6/perun.proxygui-5.0.2.tar.gz
+[2024-04-24 11:28:57] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.8.tar.gz]
+[2024-04-24 11:28:57] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.9.tar.gz]
+[2024-04-24 11:28:57] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-24 11:28:57] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-04-24 11:28:57] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-04-24 11:28:57] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-24 11:28:57] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-04-24 11:28:57] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-5.0.1.tar.gz tmp/perun.proxygui-5.0.2.tar.gz --markdown 20240424/p/perun.proxygui/5.0.1-5.0.2/README.md --exclude *.pyd
+[2024-04-24 11:29:00] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.0.1.tar.gz]
+[2024-04-24 11:29:00] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.0.2.tar.gz]
+[2024-04-24 11:29:00] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-04-24 11:29:00] INFO root fetch - main [MainThread]: Store serial: [22909781]
