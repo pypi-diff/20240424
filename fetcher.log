@@ -2427,3 +2427,60 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:17:23] INFO root fetch - processPackages [dogma-data]: Remove: archive file [/home/abi/fetcher/tmp/dogma_data-0.2.9.tar.gz]
 [2024-04-24 02:17:23] INFO root fetch - main [MainThread]: End processing [dogma-data]: success
 [2024-04-24 02:17:23] INFO root fetch - main [MainThread]: Store serial: [22903780]
+[2024-04-24 02:19:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903780]
+[2024-04-24 02:19:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 02:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-24 02:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-gitlab-runner
+[2024-04-24 02:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vision-agent
+[2024-04-24 02:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-skylight
+[2024-04-24 02:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-24 02:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchao-nightly
+[2024-04-24 02:19:31] INFO root fetch - processPackages [vision-agent]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-24 02:19:31] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-24 02:19:31] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/24/df/35e2ba24da68e31e68c868793b05abba7d2809d29b5cee452d3b82108851/vision_agent-0.2.1.tar.gz
+[2024-04-24 02:19:31] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-24 02:19:31] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240424/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240424/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-24 02:19:32] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/ef/09/6c016c9e8eb78c2da677327bbc6cc075139fc0533f4c68cd853a1f3f40ab/vision_agent-0.2.2.tar.gz
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240424/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-24 02:19:32] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240424/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-24 02:19:32] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-24 02:19:32] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240424/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-24 02:19:32] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-04-24 02:19:32] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.1.tar.gz tmp/vision_agent-0.2.2.tar.gz --markdown 20240424/v/vision-agent/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-24 02:19:32] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-04-24 02:19:32] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-24 02:19:32] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-24 02:19:32] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-24 02:19:32] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-24 02:19:33] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-24 02:19:33] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-24 02:19:33] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-24 02:19:33] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.1.tar.gz]
+[2024-04-24 02:19:33] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.2.tar.gz]
+[2024-04-24 02:19:33] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-04-24 02:19:33] INFO root fetch - main [MainThread]: Store serial: [22903799]
