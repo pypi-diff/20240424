@@ -19597,3 +19597,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:50:20] INFO root fetch - processPackages [kungfupanda]: Remove: archive file [/home/abi/fetcher/tmp/kungfupanda-0.24.tar.gz]
 [2024-04-24 12:50:20] INFO root fetch - main [MainThread]: End processing [kungfupanda]: success
 [2024-04-24 12:50:20] INFO root fetch - main [MainThread]: Store serial: [22910798]
+[2024-04-24 12:52:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910798]
+[2024-04-24 12:52:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pvsite-datamodel
+[2024-04-24 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinjected
+[2024-04-24 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clusterfudge
+[2024-04-24 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SEVtras
+[2024-04-24 12:52:38] INFO root fetch - processPackages [clusterfudge]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 12:52:38] INFO root fetch - processPackages [pinjected]: New version: [0.2.43] Old Version: [0.2.42]
+[2024-04-24 12:52:38] INFO root fetch - processPackages [pvsite-datamodel]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-24 12:52:38] INFO root fetch - processPackages [SEVtras]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 12:52:38] INFO root fetch - processPackages [clusterfudge]: Downloading https://files.pythonhosted.org/packages/5c/35/cebbfc54b4264e1a9322762888c118308ba25fcbf02b45f1c5e313a3e216/clusterfudge-0.8.0.tar.gz
+[2024-04-24 12:52:38] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/9a/36/54019590fbea2530d3e660c865e08547d928c974c0dacf0f6e8a0e97713c/pinjected-0.2.42.tar.gz
+[2024-04-24 12:52:38] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/4f/94/17d9ce3de61a220e5960639e6088e95f0a697c74ba8a19f612cfe429b4a9/pvsite_datamodel-1.0.8.tar.gz
+[2024-04-24 12:52:39] INFO root fetch - processPackages [SEVtras]: Downloading https://files.pythonhosted.org/packages/a6/a4/69c5b72916fe8cf12f45251e23a2526836e4b293954f85f0320902ed1356/SEVtras-0.2.8.tar.gz
+[2024-04-24 12:52:39] INFO root fetch - processPackages [clusterfudge]: Downloading https://files.pythonhosted.org/packages/f0/ca/90782725b83d2037573c9ae7467cc5d96cc6dde495224232482bd1025b38/clusterfudge-0.9.0.tar.gz
+[2024-04-24 12:52:39] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/df/bf/a8849177632bb6293e5a097a80b80c34faea779af735c811015a173874c4/pinjected-0.2.43.tar.gz
+[2024-04-24 12:52:39] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/09/05/b1d02e4bce0bada9effc1c581a0762ec56c98c169d8463fc2bedefa2893d/pvsite_datamodel-1.0.9.tar.gz
+[2024-04-24 12:52:39] INFO root fetch - processPackages [clusterfudge]: executing diffoscope
+[2024-04-24 12:52:39] INFO root fetch - processPackages [clusterfudge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clusterfudge-0.8.0.tar.gz tmp/clusterfudge-0.9.0.tar.gz --markdown 20240424/c/clusterfudge/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 12:52:39] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-24 12:52:39] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.42.tar.gz tmp/pinjected-0.2.43.tar.gz --markdown 20240424/p/pinjected/0.2.42-0.2.43/README.md --exclude *.pyd
+[2024-04-24 12:52:39] INFO root fetch - processPackages [pvsite-datamodel]: executing diffoscope
+[2024-04-24 12:52:39] INFO root fetch - processPackages [pvsite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvsite_datamodel-1.0.8.tar.gz tmp/pvsite_datamodel-1.0.9.tar.gz --markdown 20240424/p/pvsite-datamodel/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-24 12:52:39] INFO root fetch - processPackages [SEVtras]: Downloading https://files.pythonhosted.org/packages/d4/37/53a0e35afa37ad59ae017cd74f6bacfb08449ca6a87f07dfe43e7f5540d9/SEVtras-0.2.9-py3-none-any.whl
+[2024-04-24 12:52:40] INFO root fetch - processPackages [clusterfudge]: Remove: archive file [/home/abi/fetcher/tmp/clusterfudge-0.8.0.tar.gz]
+[2024-04-24 12:52:40] INFO root fetch - processPackages [clusterfudge]: Remove: archive file [/home/abi/fetcher/tmp/clusterfudge-0.9.0.tar.gz]
+[2024-04-24 12:52:40] INFO root fetch - main [MainThread]: End processing [clusterfudge]: success
+[2024-04-24 12:52:40] INFO root fetch - processPackages [SEVtras]: executing diffoscope
+[2024-04-24 12:52:40] INFO root fetch - processPackages [SEVtras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SEVtras-0.2.8.tar.gz tmp/SEVtras-0.2.9-py3-none-any.whl.zip --markdown 20240424/S/SEVtras/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 12:52:40] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.42.tar.gz]
+[2024-04-24 12:52:40] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.43.tar.gz]
+[2024-04-24 12:52:40] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-24 12:52:40] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.8.tar.gz]
+[2024-04-24 12:52:40] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.9.tar.gz]
+[2024-04-24 12:52:40] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
+[2024-04-24 12:52:41] INFO root fetch - processPackages [SEVtras]: Remove: archive file [/home/abi/fetcher/tmp/SEVtras-0.2.8.tar.gz]
+[2024-04-24 12:52:41] INFO root fetch - processPackages [SEVtras]: Remove: archive file [/home/abi/fetcher/tmp/SEVtras-0.2.9-py3-none-any.whl.zip]
+[2024-04-24 12:52:41] INFO root fetch - main [MainThread]: End processing [SEVtras]: success
+[2024-04-24 12:52:41] INFO root fetch - main [MainThread]: Store serial: [22910810]
