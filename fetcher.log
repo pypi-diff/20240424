@@ -20741,3 +20741,175 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:31:31] ERROR root fetch - processPackages [cargo-zigbuild]: Timeout during execution of pkgdiff
 [2024-04-24 13:31:31] INFO root fetch - main [MainThread]: End processing [cargo-zigbuild] error
 [2024-04-24 13:31:31] INFO root fetch - main [MainThread]: Store serial: [22911292]
+[2024-04-24 13:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911292]
+[2024-04-24 13:33:52] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: damnit
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p-template-generator
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perfassess
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-threads
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: packg
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syneto_api
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotframework-parrot-usbswitchcontroller
+[2024-04-24 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-reportbroD
+[2024-04-24 13:33:52] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [mo-threads]: New version: [6.602.24115] Old Version: [6.601.24115]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [perfassess]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [damnit]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/1b/e2/18bf2530d5e8cc85b69fe71288a3d78ca91633769a6bf358b0d1c5191fe4/mo_threads-6.601.24115.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [syneto_api]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [packg]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: Downloading https://files.pythonhosted.org/packages/fa/a9/88438ab81deada6a10a9ed0139bfae6b7fd4828134fd37f5bfb578530891/robotframework_parrot_usbswitchcontroller-1.0.0.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/5c/a2/02f0b3cf41b76949deb937b95c8970f032447d82aa090fc0b68084fc59df/p-template-generator-0.1.98.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [perfassess]: Downloading https://files.pythonhosted.org/packages/da/ec/1265169bf3ecca2f1c1c1f717f9324fe74ae7d3a32bbb8435f77ee53c1bb/perfassess-0.0.3.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [django-reportbroD]: New version: [1.2] Old Version: [1.1.1]
+[2024-04-24 13:33:52] INFO root fetch - processPackages [damnit]: Downloading https://files.pythonhosted.org/packages/c3/a3/58806a90db3927f0658807f48802c708a398f261689d0fed5fe25feebeda/damnit-0.1.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [syneto_api]: Downloading https://files.pythonhosted.org/packages/1c/19/06bd4b683f8e92860f1ad9ee3006afc60538679617a3a88b511fe71ce48f/syneto_api-0.2.8.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/35/f5/de411f4b1201d757eb0aab94b26e1480689d8322ab6621ed887351575c73/packg-0.9.2.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: Downloading https://files.pythonhosted.org/packages/e8/e3/24efab2cd3d66b9a8cfec431d52ec773c16db3ddffbd58f1dee9c80df4bc/robotframework_parrot_usbswitchcontroller-1.0.1.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-24 13:33:52] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-24 13:33:53] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/66/89/2e6a8956bd30fa2b88450e35dcffca7c3330ad6b08ae57eeb9bcb4836782/mo_threads-6.602.24115.tar.gz
+[2024-04-24 13:33:53] INFO root fetch - processPackages [django-reportbroD]: Downloading https://files.pythonhosted.org/packages/0b/90/13c19555108242fc599f0ab32c8d782581e8546f7b2cd158dffa7bb191ac/django-reportbroD-1.1.1.tar.gz
+[2024-04-24 13:33:53] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: executing diffoscope
+[2024-04-24 13:33:53] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_parrot_usbswitchcontroller-1.0.0.tar.gz tmp/robotframework_parrot_usbswitchcontroller-1.0.1.tar.gz --markdown 20240424/r/robotframework-parrot-usbswitchcontroller/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 13:33:53] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-24 13:33:53] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240424/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-24 13:33:53] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-24 13:33:53] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240424/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 13:33:53] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2024-04-24 13:33:53] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_threads-6.601.24115.tar.gz tmp/mo_threads-6.602.24115.tar.gz --markdown 20240424/m/mo-threads/6.601.24115-6.602.24115/README.md --exclude *.pyd
+[2024-04-24 13:33:53] INFO root fetch - processPackages [damnit]: Downloading https://files.pythonhosted.org/packages/df/8c/ef1895e7d49f27f6b4a65ab9c59623a52921130951321d202d2d294b8db8/damnit-0.1.1.tar.gz
+[2024-04-24 13:33:53] INFO root fetch - processPackages [syneto_api]: Downloading https://files.pythonhosted.org/packages/c1/37/c2e3cad26eda82eb1d8ed0bb5d82f6730c5c42d7b34e3cf1579f56cffc7f/syneto_api-0.2.9.tar.gz
+[2024-04-24 13:33:53] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/9a/d2/c8c96c46c7352d8d450cd3603781f17a1c2fb55e67cb7758cfe016ed7bad/packg-0.9.3.tar.gz
+[2024-04-24 13:33:53] INFO root fetch - processPackages [damnit]: executing diffoscope
+[2024-04-24 13:33:53] INFO root fetch - processPackages [damnit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damnit-0.1.tar.gz tmp/damnit-0.1.1.tar.gz --markdown 20240424/d/damnit/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-24 13:33:53] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-04-24 13:33:53] INFO root fetch - processPackages [packg]: executing diffoscope
+[2024-04-24 13:33:53] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.9.2.tar.gz tmp/packg-0.9.3.tar.gz --markdown 20240424/p/packg/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-24 13:33:53] INFO root fetch - processPackages [syneto_api]: executing diffoscope
+[2024-04-24 13:33:53] INFO root fetch - processPackages [syneto_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syneto_api-0.2.8.tar.gz tmp/syneto_api-0.2.9.tar.gz --markdown 20240424/s/syneto_api/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 13:33:53] INFO root fetch - processPackages [django-reportbroD]: Downloading https://files.pythonhosted.org/packages/7d/08/7e54d0de9fbf83c1a845893ed4fa4b9a50517f234397b4b73ab9e2fe5fd5/django-reportbroD-1.2.tar.gz
+[2024-04-24 13:33:53] INFO root fetch - processPackages [perfassess]: Downloading https://files.pythonhosted.org/packages/d3/cc/36ce8b361d81a6c0c0bfb6dcc163994bbd81308a6c31357a61d78c639239/perfassess-0.0.4.tar.gz
+[2024-04-24 13:33:53] INFO root fetch - processPackages [django-reportbroD]: executing diffoscope
+[2024-04-24 13:33:53] INFO root fetch - processPackages [django-reportbroD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reportbroD-1.1.1.tar.gz tmp/django-reportbroD-1.2.tar.gz --markdown 20240424/d/django-reportbroD/1.1.1-1.2/README.md --exclude *.pyd
+[2024-04-24 13:33:53] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_usbswitchcontroller-1.0.0.tar.gz]
+[2024-04-24 13:33:53] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_usbswitchcontroller-1.0.1.tar.gz]
+[2024-04-24 13:33:53] INFO root fetch - processPackages [robotframework-parrot-usbswitchcontroller]: Start processing: Quanthon
+[2024-04-24 13:33:53] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-usbswitchcontroller]: success
+[2024-04-24 13:33:54] INFO root fetch - processPackages [Quanthon]: New version: [0.3.6] Old Version: [0.3.5.3]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [specklia]: Start processing: dataset-tools
+[2024-04-24 13:33:54] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-24 13:33:54] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/45/22/2951c45e6e416bf5f64f1ff48dd1b78820aa28739b3aed43b655c001952c/Quanthon-0.3.5.3.tar.gz
+[2024-04-24 13:33:54] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [perfassess]: executing diffoscope
+[2024-04-24 13:33:54] INFO root fetch - processPackages [perfassess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perfassess-0.0.3.tar.gz tmp/perfassess-0.0.4.tar.gz --markdown 20240424/p/perfassess/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 13:33:54] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.601.24115.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.602.24115.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [mo-threads]: Start processing: lamindb
+[2024-04-24 13:33:54] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2024-04-24 13:33:54] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-04-24 13:33:54] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240424/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 13:33:54] INFO root fetch - processPackages [damnit]: Remove: archive file [/home/abi/fetcher/tmp/damnit-0.1.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [damnit]: Remove: archive file [/home/abi/fetcher/tmp/damnit-0.1.1.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [damnit]: Start processing: maling
+[2024-04-24 13:33:54] INFO root fetch - main [MainThread]: End processing [damnit]: success
+[2024-04-24 13:33:54] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/ba/0c/bb60755b43f39ca7331274f07442ea1f0093adb6a45687c8a4765f932a91/Quanthon-0.3.6.tar.gz
+[2024-04-24 13:33:54] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-24 13:33:54] INFO root fetch - processPackages [maling]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [yeref]: Start processing: bigdl-core-xe
+[2024-04-24 13:33:54] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-24 13:33:54] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-24 13:33:54] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quanthon-0.3.5.3.tar.gz tmp/Quanthon-0.3.6.tar.gz --markdown 20240424/Q/Quanthon/0.3.5.3-0.3.6/README.md --exclude *.pyd
+[2024-04-24 13:33:54] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/9f/96/9f3f3d0772dd0ddc681c7e93efac2f2ed536937c6c4ebabe606d603922c6/maling-2.1.7.tar.gz
+[2024-04-24 13:33:54] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.2.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.9.3.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [packg]: Start processing: my-stub-package
+[2024-04-24 13:33:54] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2024-04-24 13:33:54] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240424] Old Version: [2.5.0b20240423]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2024-04-24 13:33:54] WARNING root fetch - processPackages [my-stub-package]: Skipping, unable to determine old version
+[2024-04-24 13:33:54] INFO root fetch - processPackages [my-stub-package]: Start processing: mo-files
+[2024-04-24 13:33:54] INFO root fetch - main [MainThread]: End processing [my-stub-package] error
+[2024-04-24 13:33:54] INFO root fetch - processPackages [mo-files]: New version: [6.602.24115] Old Version: [6.601.24115]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-24 13:33:54] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/81/c0/9518666e64aee694bcbf88e0d9997a57f585c279ccc81a027794e92979ab/bigdl_core_xe-2.5.0b20240423-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-24 13:33:54] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/00/ac/779ee18f4b80c6e53a68f0182a03c8b8012ece67d01cc854eafa600ff098/mo_files-6.601.24115.tar.gz
+[2024-04-24 13:33:54] INFO root fetch - processPackages [syneto_api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.8.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [syneto_api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.9.tar.gz]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [syneto_api]: Start processing: p-template-generator
+[2024-04-24 13:33:54] INFO root fetch - main [MainThread]: End processing [syneto_api]: success
+[2024-04-24 13:33:54] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-24 13:33:54] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 13:33:54] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240424/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:33:55] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/51/e3/22c3a8f039ac23cf33a28a34921dcf9948d685abe72f0aeb3715185a9c43/maling-2.1.8.tar.gz
+[2024-04-24 13:33:55] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105358652>=10485760
+[2024-04-24 13:33:55] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-24 13:33:55] INFO root fetch - processPackages [maling]: executing diffoscope
+[2024-04-24 13:33:55] INFO root fetch - processPackages [maling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maling-2.1.7.tar.gz tmp/maling-2.1.8.tar.gz --markdown 20240424/m/maling/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-24 13:33:55] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-04-24 13:33:55] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240424/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 13:33:55] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2024-04-24 13:33:55] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.5.3.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/Quanthon-0.3.6.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-24 13:33:55] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/c8/ad/b68ffbc32bc11cbfd5cccacd159f3b24cd9b931e2b7c43f158662595ec6e/mo_files-6.602.24115.tar.gz
+[2024-04-24 13:33:55] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2024-04-24 13:33:55] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20240424/l/lamindb/0.9.4-0.9.6/README.md --exclude *.pyd
+[2024-04-24 13:33:55] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2024-04-24 13:33:55] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.601.24115.tar.gz tmp/mo_files-6.602.24115.tar.gz --markdown 20240424/m/mo-files/6.601.24115-6.602.24115/README.md --exclude *.pyd
+[2024-04-24 13:33:55] INFO root fetch - processPackages [django-reportbroD]: Remove: archive file [/home/abi/fetcher/tmp/django-reportbroD-1.1.1.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - processPackages [django-reportbroD]: Remove: archive file [/home/abi/fetcher/tmp/django-reportbroD-1.2.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - main [MainThread]: End processing [django-reportbroD]: success
+[2024-04-24 13:33:55] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.98.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-04-24 13:33:55] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-24 13:33:55] ERROR root fetch - processPackages [p-template-generator]: Diffoscope failed: time="2024-04-24T13:33:55+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
+
+[2024-04-24 13:33:55] INFO root fetch - main [MainThread]: End processing [p-template-generator] error
+[2024-04-24 13:33:55] INFO root fetch - processPackages [perfassess]: Remove: archive file [/home/abi/fetcher/tmp/perfassess-0.0.3.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - processPackages [perfassess]: Remove: archive file [/home/abi/fetcher/tmp/perfassess-0.0.4.tar.gz]
+[2024-04-24 13:33:55] INFO root fetch - main [MainThread]: End processing [perfassess]: success
+[2024-04-24 13:33:56] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.601.24115.tar.gz]
+[2024-04-24 13:33:56] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.602.24115.tar.gz]
+[2024-04-24 13:33:56] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2024-04-24 13:33:56] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2024-04-24 13:33:56] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2024-04-24 13:33:56] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2024-04-24 13:33:57] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.7.tar.gz]
+[2024-04-24 13:33:57] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.8.tar.gz]
+[2024-04-24 13:33:57] INFO root fetch - main [MainThread]: End processing [maling]: success
+[2024-04-24 13:33:57] INFO root fetch - main [MainThread]: Store serial: [22911366]
