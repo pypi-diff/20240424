@@ -18933,3 +18933,161 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:30:48] INFO root fetch - processPackages [apipe]: Remove: archive file [/home/abi/fetcher/tmp/apipe-0.1.8.tar.gz]
 [2024-04-24 12:30:48] INFO root fetch - main [MainThread]: End processing [apipe]: success
 [2024-04-24 12:30:48] INFO root fetch - main [MainThread]: Store serial: [22910514]
+[2024-04-24 12:32:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910514]
+[2024-04-24 12:32:59] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hddm-s
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netlify-dns-manager
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: axem-dem
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-sql
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parse-web
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fixinventory-plugin-onprem
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: momonga
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CNRL-CoNeX
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: paddlenlp
+[2024-04-24 12:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fixinventory-plugin-example-collector
+[2024-04-24 12:32:59] INFO root fetch - processPackages [CNRL-CoNeX]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 12:32:59] WARNING root fetch - processPackages [netlify-dns-manager]: Skipping, unable to determine old version
+[2024-04-24 12:32:59] INFO root fetch - processPackages [netlify-dns-manager]: Start processing: fixinventory-plugin-random
+[2024-04-24 12:32:59] INFO root fetch - main [MainThread]: End processing [netlify-dns-manager] error
+[2024-04-24 12:32:59] INFO root fetch - processPackages [hddm-s]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-24 12:32:59] INFO root fetch - processPackages [mo-sql]: New version: [4.601.24115] Old Version: [4.600.24114]
+[2024-04-24 12:32:59] INFO root fetch - processPackages [axem-dem]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-24 12:32:59] INFO root fetch - processPackages [CNRL-CoNeX]: Downloading https://files.pythonhosted.org/packages/53/0c/36c17cdfaa85c083d8874540d2645501019fae13948400fc86e8af3cf3a8/cnrl_conex-0.1.1.tar.gz
+[2024-04-24 12:32:59] INFO root fetch - processPackages [momonga]: New version: [0.0.5] Old Version: [0.0.1]
+[2024-04-24 12:32:59] INFO root fetch - processPackages [fixinventory-plugin-onprem]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:32:59] WARNING root fetch - processPackages [parse-web]: Skipping, unable to determine old version
+[2024-04-24 12:32:59] INFO root fetch - processPackages [parse-web]: Start processing: fixinventory-plugin-github
+[2024-04-24 12:32:59] INFO root fetch - main [MainThread]: End processing [parse-web] error
+[2024-04-24 12:32:59] INFO root fetch - processPackages [fixinventory-plugin-example-collector]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:32:59] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/c7/15/051d8248dd680cc83687b776c06944bb75f8bcddabc05f270b5c65549a26/hddm_s-1.0.7.tar.gz
+[2024-04-24 12:32:59] INFO root fetch - processPackages [paddlenlp]: New version: [2.8.0] Old Version: [2.7.2]
+[2024-04-24 12:32:59] INFO root fetch - processPackages [fixinventory-plugin-random]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:32:59] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/65/d5/6427504859b3df0f311a3e6a62501aaeb95e730fc0561fb2dc0e0313878a/mo_sql-4.600.24114.tar.gz
+[2024-04-24 12:32:59] INFO root fetch - processPackages [fixinventory-plugin-github]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:32:59] INFO root fetch - processPackages [momonga]: Downloading https://files.pythonhosted.org/packages/88/74/1c0d453e8b43a9bc22de47acb6874d876b40779203032e8f407b071714a2/momonga-0.0.1-py3-none-any.whl
+[2024-04-24 12:32:59] INFO root fetch - processPackages [fixinventory-plugin-onprem]: Downloading https://files.pythonhosted.org/packages/aa/da/f1c9025a82ed7b95ad102239b44d8ed1bce01461644a50956d33d03a95a3/fixinventory-plugin-onprem-4.0.2.tar.gz
+[2024-04-24 12:32:59] INFO root fetch - processPackages [axem-dem]: Downloading https://files.pythonhosted.org/packages/22/f9/631a2a1be40863651ea5326124656e5d87463b870065b5a7bab115a4d890/axem_dem-0.4.0.tar.gz
+[2024-04-24 12:32:59] INFO root fetch - processPackages [paddlenlp]: Downloading https://files.pythonhosted.org/packages/6b/fd/97494be9c18475c0c9660fef945898ba5e5a0152c19760e18c567b1ffb2b/paddlenlp-2.7.2.tar.gz
+[2024-04-24 12:32:59] INFO root fetch - processPackages [fixinventory-plugin-random]: Downloading https://files.pythonhosted.org/packages/95/a7/af9370299ba8a9f302a68f6c958f337745fc9411bb58d203bd5786aa4aef/fixinventory-plugin-random-4.0.2.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [CNRL-CoNeX]: Downloading https://files.pythonhosted.org/packages/09/d1/15e266c63988cfc4c7b3209973ed606efab53e5bee0781dc1359da1513c3/cnrl_conex-0.1.2.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-example-collector]: Downloading https://files.pythonhosted.org/packages/6a/86/408c5672a132e8a3f41426cc811c98ef4d243e39ae3e97eb26aa054c064b/fixinventory-plugin-example-collector-4.0.2.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/d2/24/0bac70948a0f916016590dddfc7e17148c466fa4b02e8bd2d4f3119e1816/hddm_s-1.0.9.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-github]: Downloading https://files.pythonhosted.org/packages/bb/a9/b37f3cefcb978062091051ffeddd3232843af38a787cabf1c7c35f64268f/fixinventory-plugin-github-4.0.2.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/b7/b1/a66349ce3100715df85bca4bd600076e941fd3f00d85804075a28f329ab1/mo_sql-4.601.24115.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [CNRL-CoNeX]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [CNRL-CoNeX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnrl_conex-0.1.1.tar.gz tmp/cnrl_conex-0.1.2.tar.gz --markdown 20240424/C/CNRL-CoNeX/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 12:33:00] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.7.tar.gz tmp/hddm_s-1.0.9.tar.gz --markdown 20240424/h/hddm-s/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-24 12:33:00] INFO root fetch - processPackages [mo-sql]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [mo-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql-4.600.24114.tar.gz tmp/mo_sql-4.601.24115.tar.gz --markdown 20240424/m/mo-sql/4.600.24114-4.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:33:00] INFO root fetch - processPackages [momonga]: Downloading https://files.pythonhosted.org/packages/44/1e/cf3af1d4f4448958de4eb313ae6e3579d46b515afc131c2fa38fb216d09a/momonga-0.0.5-py3-none-any.whl
+[2024-04-24 12:33:00] INFO root fetch - processPackages [axem-dem]: Downloading https://files.pythonhosted.org/packages/1c/28/6a292dfdeaa2da19d33404d40322cf989720352cacc1ce24a4655f86686f/axem_dem-0.5.0.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-onprem]: Downloading https://files.pythonhosted.org/packages/4a/d4/b730a23033d5d57580d5e7292e91918f7a8f4481bda148e5e27e73b9e7ab/fixinventory_plugin_onprem-4.0.3.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-example-collector]: Downloading https://files.pythonhosted.org/packages/64/ed/33e0da67946a27daaa64f1d32696045486faf167af713da0263bc738fcb7/fixinventory_plugin_example_collector-4.0.3.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-github]: Downloading https://files.pythonhosted.org/packages/25/22/9f0f75a60755f1567d9299ed87024658ca38a4594c17929f3377d71804e5/fixinventory_plugin_github-4.0.3.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-random]: Downloading https://files.pythonhosted.org/packages/21/bc/7f38818bc1d2a64fa32b66f33a315df4288b773ff70b58cd610a7e41dff9/fixinventory_plugin_random-4.0.3.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [momonga]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [momonga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momonga-0.0.1-py3-none-any.whl.zip tmp/momonga-0.0.5-py3-none-any.whl.zip --markdown 20240424/m/momonga/0.0.1-0.0.5/README.md --exclude *.pyd
+[2024-04-24 12:33:00] INFO root fetch - processPackages [axem-dem]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [axem-dem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axem_dem-0.4.0.tar.gz tmp/axem_dem-0.5.0.tar.gz --markdown 20240424/a/axem-dem/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-onprem]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-onprem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-onprem-4.0.2.tar.gz tmp/fixinventory_plugin_onprem-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-onprem/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-example-collector]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-example-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-example-collector-4.0.2.tar.gz tmp/fixinventory_plugin_example_collector-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-example-collector/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-github]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-github-4.0.2.tar.gz tmp/fixinventory_plugin_github-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-github/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-random]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [fixinventory-plugin-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-random-4.0.2.tar.gz tmp/fixinventory_plugin_random-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-random/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:33:00] INFO root fetch - processPackages [paddlenlp]: Downloading https://files.pythonhosted.org/packages/1c/63/20e6b3ddc7c894b8e486aae77bb18247c26f5f67ff4f593855cc638afe98/paddlenlp-2.8.0.tar.gz
+[2024-04-24 12:33:00] INFO root fetch - processPackages [paddlenlp]: executing diffoscope
+[2024-04-24 12:33:00] INFO root fetch - processPackages [paddlenlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddlenlp-2.7.2.tar.gz tmp/paddlenlp-2.8.0.tar.gz --markdown 20240424/p/paddlenlp/2.7.2-2.8.0/README.md --exclude *.pyd
+[2024-04-24 12:33:01] INFO root fetch - processPackages [CNRL-CoNeX]: Remove: archive file [/home/abi/fetcher/tmp/cnrl_conex-0.1.1.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [CNRL-CoNeX]: Remove: archive file [/home/abi/fetcher/tmp/cnrl_conex-0.1.2.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [CNRL-CoNeX]: Start processing: aiojlrpy
+[2024-04-24 12:33:01] INFO root fetch - main [MainThread]: End processing [CNRL-CoNeX]: success
+[2024-04-24 12:33:01] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.7.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.9.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [hddm-s]: Start processing: fixinventory-plugin-dockerhub
+[2024-04-24 12:33:01] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-24 12:33:01] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.600.24114.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql-4.601.24115.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [mo-sql]: Start processing: fixinventory-plugin-scarf
+[2024-04-24 12:33:01] INFO root fetch - main [MainThread]: End processing [mo-sql]: success
+[2024-04-24 12:33:01] INFO root fetch - processPackages [aiojlrpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-dockerhub]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-scarf]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [aiojlrpy]: Downloading https://files.pythonhosted.org/packages/f5/dc/e419d27fed14f8853d487da3827905b9dccb3f4bc9958ae0bbce20805f22/aiojlrpy-0.1.4.tar.gz
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-dockerhub]: Downloading https://files.pythonhosted.org/packages/05/64/06ab49c88dad4863006fb523fac8789bb196e2c9933e48aa2337babaeb5b/fixinventory-plugin-dockerhub-4.0.2.tar.gz
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-onprem]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-onprem-4.0.2.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-onprem]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_onprem-4.0.3.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-onprem]: Start processing: fixinventorymetrics
+[2024-04-24 12:33:01] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-onprem]: success
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-scarf]: Downloading https://files.pythonhosted.org/packages/69/95/98296e6d6ebaf43176056874cb407725a57beae647c06fb3a95590af0166/fixinventory-plugin-scarf-4.0.2.tar.gz
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-example-collector]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-example-collector-4.0.2.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-example-collector]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_example_collector-4.0.3.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-example-collector]: Start processing: fixinventory-plugin-onelogin
+[2024-04-24 12:33:01] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-example-collector]: success
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-github]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-github-4.0.2.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-github]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_github-4.0.3.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-github]: Start processing: fixinventory-plugin-vsphere
+[2024-04-24 12:33:01] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-github]: success
+[2024-04-24 12:33:01] INFO root fetch - processPackages [momonga]: Remove: archive file [/home/abi/fetcher/tmp/momonga-0.0.1-py3-none-any.whl.zip]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [momonga]: Remove: archive file [/home/abi/fetcher/tmp/momonga-0.0.5-py3-none-any.whl.zip]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [momonga]: Start processing: netgen-mesher
+[2024-04-24 12:33:01] INFO root fetch - main [MainThread]: End processing [momonga]: success
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventorymetrics]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-onelogin]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-random]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-random-4.0.2.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-random]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_random-4.0.3.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-random]: success
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-vsphere]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [axem-dem]: Remove: archive file [/home/abi/fetcher/tmp/axem_dem-0.4.0.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [axem-dem]: Remove: archive file [/home/abi/fetcher/tmp/axem_dem-0.5.0.tar.gz]
+[2024-04-24 12:33:01] INFO root fetch - main [MainThread]: End processing [axem-dem]: success
+[2024-04-24 12:33:01] INFO root fetch - processPackages [aiojlrpy]: Downloading https://files.pythonhosted.org/packages/d8/69/7242214ce0930d275f9ca38a0a6d52af11de53e2faae5a45feae1d9b3919/aiojlrpy-0.1.5.tar.gz
+[2024-04-24 12:33:01] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2402.post41.dev0] Old Version: [6.2.2402.post37.dev0]
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-dockerhub]: Downloading https://files.pythonhosted.org/packages/c0/e7/f838d1c2206df94211a2c09af516f5e4f884860446cdb94c7a345983cf6c/fixinventory_plugin_dockerhub-4.0.3.tar.gz
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-scarf]: Downloading https://files.pythonhosted.org/packages/8c/5c/ecab3819d9f10a303d184656518be2e0433a3511f25cbc26373fe325e46c/fixinventory_plugin_scarf-4.0.3.tar.gz
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventorymetrics]: Downloading https://files.pythonhosted.org/packages/96/40/639c7b9d305b3eb32257dcd556ec9071858a6a8eeb2c419c8fcf4f2b6b45/fixinventorymetrics-4.0.2.tar.gz
+[2024-04-24 12:33:01] INFO root fetch - processPackages [aiojlrpy]: executing diffoscope
+[2024-04-24 12:33:01] INFO root fetch - processPackages [aiojlrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiojlrpy-0.1.4.tar.gz tmp/aiojlrpy-0.1.5.tar.gz --markdown 20240424/a/aiojlrpy/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-dockerhub]: executing diffoscope
+[2024-04-24 12:33:01] INFO root fetch - processPackages [fixinventory-plugin-dockerhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-dockerhub-4.0.2.tar.gz tmp/fixinventory_plugin_dockerhub-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-dockerhub/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-onelogin]: Downloading https://files.pythonhosted.org/packages/8e/07/6fbe984d09a8b5035ca77b18c192bcd438609e882ddeaa3b49d3e5e22eb4/fixinventory-plugin-onelogin-4.0.2.tar.gz
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-vsphere]: Downloading https://files.pythonhosted.org/packages/f9/1a/e9010b1ac954cf386d7d524f5db71c6853ea4dc4d33eaf42a596bf46e8cc/fixinventory-plugin-vsphere-4.0.2.tar.gz
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-scarf]: executing diffoscope
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-scarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-scarf-4.0.2.tar.gz tmp/fixinventory_plugin_scarf-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-scarf/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:33:02] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/f6/b3/4ed9c679daf30786e49004214425a6116256055d6ed85e0a7f13ca11fa44/netgen_mesher-6.2.2402.post37.dev0-cp39-cp39-win_amd64.whl
+[2024-04-24 12:33:02] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20240892>=10485760
+[2024-04-24 12:33:02] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventorymetrics]: Downloading https://files.pythonhosted.org/packages/e4/b6/025304ed271b28f03b4d6380dc3584b323886f82366afb8ac4b6dd18a65e/fixinventorymetrics-4.0.3.tar.gz
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-onelogin]: Downloading https://files.pythonhosted.org/packages/be/71/7d357f805c92fefe32a9ee2211be429c4cad29b1aad9334976a3b7c356dd/fixinventory_plugin_onelogin-4.0.3.tar.gz
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-vsphere]: Downloading https://files.pythonhosted.org/packages/24/29/b27d19d27a54abab29c6cd37b60315f99778f668cdb3ec7defdcd76edf29/fixinventory_plugin_vsphere-4.0.3.tar.gz
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventorymetrics]: executing diffoscope
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventorymetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventorymetrics-4.0.2.tar.gz tmp/fixinventorymetrics-4.0.3.tar.gz --markdown 20240424/f/fixinventorymetrics/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-vsphere]: executing diffoscope
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-vsphere-4.0.2.tar.gz tmp/fixinventory_plugin_vsphere-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-vsphere/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-onelogin]: executing diffoscope
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-onelogin-4.0.2.tar.gz tmp/fixinventory_plugin_onelogin-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-onelogin/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:33:02] INFO root fetch - processPackages [aiojlrpy]: Remove: archive file [/home/abi/fetcher/tmp/aiojlrpy-0.1.4.tar.gz]
+[2024-04-24 12:33:02] INFO root fetch - processPackages [aiojlrpy]: Remove: archive file [/home/abi/fetcher/tmp/aiojlrpy-0.1.5.tar.gz]
+[2024-04-24 12:33:02] INFO root fetch - main [MainThread]: End processing [aiojlrpy]: success
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-scarf]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-scarf-4.0.2.tar.gz]
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-dockerhub]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-dockerhub-4.0.2.tar.gz]
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-scarf]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_scarf-4.0.3.tar.gz]
+[2024-04-24 12:33:02] INFO root fetch - processPackages [fixinventory-plugin-dockerhub]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_dockerhub-4.0.3.tar.gz]
+[2024-04-24 12:33:02] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-scarf]: success
+[2024-04-24 12:33:02] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-dockerhub]: success
+[2024-04-24 12:33:03] INFO root fetch - processPackages [fixinventorymetrics]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorymetrics-4.0.2.tar.gz]
+[2024-04-24 12:33:03] INFO root fetch - processPackages [fixinventorymetrics]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorymetrics-4.0.3.tar.gz]
+[2024-04-24 12:33:03] INFO root fetch - main [MainThread]: End processing [fixinventorymetrics]: success
+[2024-04-24 12:33:03] INFO root fetch - processPackages [fixinventory-plugin-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-vsphere-4.0.2.tar.gz]
+[2024-04-24 12:33:03] INFO root fetch - processPackages [fixinventory-plugin-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_vsphere-4.0.3.tar.gz]
+[2024-04-24 12:33:03] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-vsphere]: success
+[2024-04-24 12:33:03] INFO root fetch - processPackages [fixinventory-plugin-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-onelogin-4.0.2.tar.gz]
+[2024-04-24 12:33:03] INFO root fetch - processPackages [fixinventory-plugin-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_onelogin-4.0.3.tar.gz]
+[2024-04-24 12:33:03] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-onelogin]: success
+[2024-04-24 12:33:11] INFO root fetch - processPackages [paddlenlp]: Remove: archive file [/home/abi/fetcher/tmp/paddlenlp-2.7.2.tar.gz]
+[2024-04-24 12:33:11] INFO root fetch - processPackages [paddlenlp]: Remove: archive file [/home/abi/fetcher/tmp/paddlenlp-2.8.0.tar.gz]
+[2024-04-24 12:33:11] INFO root fetch - main [MainThread]: End processing [paddlenlp]: success
+[2024-04-24 12:33:11] INFO root fetch - main [MainThread]: Store serial: [22910572]
