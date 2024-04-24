@@ -13642,3 +13642,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:33:08] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1691271-py3-none-any.whl.zip]
 [2024-04-24 09:33:08] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
 [2024-04-24 09:33:08] INFO root fetch - main [MainThread]: Store serial: [22908471]
+[2024-04-24 09:35:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908471]
+[2024-04-24 09:35:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 09:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: internal
+[2024-04-24 09:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyad
+[2024-04-24 09:35:16] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 09:35:16] INFO root fetch - processPackages [internal]: New version: [1.0.0] Old Version: [0.1.99]
+[2024-04-24 09:35:16] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/83/0e/6b90d16c18351fc8fbb7314a9d842080e630b70a81a38ae91df78c413c48/internal-0.1.99.tar.gz
+[2024-04-24 09:35:16] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-24 09:35:17] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-24 09:35:17] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/2a/e1/afaf2471030464bf591e21c40d01757696ef666be810d8758ee9096f3691/internal-1.0.0.tar.gz
+[2024-04-24 09:35:17] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-24 09:35:17] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240424/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:35:17] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-04-24 09:35:17] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-0.1.99.tar.gz tmp/internal-1.0.0.tar.gz --markdown 20240424/i/internal/0.1.99-1.0.0/README.md --exclude *.pyd
+[2024-04-24 09:35:17] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.99.tar.gz]
+[2024-04-24 09:35:17] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-1.0.0.tar.gz]
+[2024-04-24 09:35:17] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-04-24 09:35:17] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-24 09:35:17] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-24 09:35:17] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-24 09:35:17] INFO root fetch - main [MainThread]: Store serial: [22908478]
