@@ -21356,3 +21356,82 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 13:48:20] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.3.0.tar.gz]
 [2024-04-24 13:48:20] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-24 13:48:20] INFO root fetch - main [MainThread]: Store serial: [22911550]
+[2024-04-24 13:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911550]
+[2024-04-24 13:50:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decthings-model
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycheops
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dclab
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PVNet
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinjected
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbfrs
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ng-data-pipelines-sdk
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyKinovaGen3
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bio2zarr
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-core-xe-21
+[2024-04-24 13:50:52] WARNING root fetch - processPackages [dbfrs]: Skipping, unable to determine old version
+[2024-04-24 13:50:52] INFO root fetch - main [MainThread]: End processing [dbfrs] error
+[2024-04-24 13:50:52] INFO root fetch - processPackages [pinjected]: New version: [0.2.45] Old Version: [0.2.44]
+[2024-04-24 13:50:52] INFO root fetch - processPackages [decthings-model]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 13:50:52] INFO root fetch - processPackages [pycheops]: New version: [1.1.9] Old Version: [1.1.7]
+[2024-04-24 13:50:52] INFO root fetch - processPackages [pyKinovaGen3]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-24 13:50:52] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/2a/14/cf3c20da5f558c9550945f5c38825eb21ccf7c95dcbd9a3c0bca1023eac9/pinjected-0.2.44.tar.gz
+[2024-04-24 13:50:52] INFO root fetch - processPackages [ng-data-pipelines-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 13:50:52] INFO root fetch - processPackages [bio2zarr]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-24 13:50:52] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-24 13:50:52] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240424] Old Version: [2.5.0b20240423]
+[2024-04-24 13:50:52] INFO root fetch - processPackages [decthings-model]: Downloading https://files.pythonhosted.org/packages/d6/2b/ef48f9ca2874e3ed9f235fc975d6df9cfe653229a8e5b4157c0579fc4037/decthings_model-0.0.3.tar.gz
+[2024-04-24 13:50:52] INFO root fetch - processPackages [pycheops]: Downloading https://files.pythonhosted.org/packages/89/a4/855206d362b84dacc839b70f920f73dfc462c7d622fb0db36a34291f6667/pycheops-1.1.7.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [dclab]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-24 13:50:53] WARNING root fetch - processPackages [pycheops]: Skipping package: exceeds size limit 14908327>=10485760
+[2024-04-24 13:50:53] INFO root fetch - main [MainThread]: End processing [pycheops] error
+[2024-04-24 13:50:53] INFO root fetch - processPackages [pyKinovaGen3]: Downloading https://files.pythonhosted.org/packages/64/bc/24d24447f0b5a406697708542917f1c590e4c6f1d8bb9087d08625c9d4b6/pyKinovaGen3-0.1.0.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/92/93/904681ee732581545813ff40e5c8835b76ad0b2e829baf3785350aaee651/ng_data_pipelines_sdk-0.1.8.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [bio2zarr]: Downloading https://files.pythonhosted.org/packages/49/4c/525ec6f91052757776dec32115b87a7c0146b06a5cfeae3c9c5bd64d49ad/bio2zarr-0.0.5.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/12/0b/7c7992a06fce4de7c45d6d6f02083e6e7ee092159e27d7d4ad0c11ce04dd/bigdl_core_xe_21-2.5.0b20240423-cp39-cp39-win_amd64.whl
+[2024-04-24 13:50:53] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/a8/7b/ed94af6af9562204a247e33170a03248a673cba8e1f9923d80fc287d63a3/pinjected-0.2.45.tar.gz
+[2024-04-24 13:50:53] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28703399>=10485760
+[2024-04-24 13:50:53] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-24 13:50:53] INFO root fetch - processPackages [decthings-model]: Downloading https://files.pythonhosted.org/packages/50/f5/423c2ffce6201957ebbe0cfcc41abc0894cd11e2a1873d01ee7ae9fa6a91/decthings_model-0.0.4.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/7c/85/1e39b909a273589478001e4ea5a3df8fd5923e2dbc48bc5ded42f984a58f/dclab-0.9.0.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-24 13:50:53] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.44.tar.gz tmp/pinjected-0.2.45.tar.gz --markdown 20240424/p/pinjected/0.2.44-0.2.45/README.md --exclude *.pyd
+[2024-04-24 13:50:53] INFO root fetch - processPackages [pyKinovaGen3]: Downloading https://files.pythonhosted.org/packages/02/8d/61b8565aaaac8a388497de264d3ebe3448e0c38abc6ed9de5cef3e5088b5/pykinovagen3-0.2.0.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [decthings-model]: executing diffoscope
+[2024-04-24 13:50:53] INFO root fetch - processPackages [decthings-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decthings_model-0.0.3.tar.gz tmp/decthings_model-0.0.4.tar.gz --markdown 20240424/d/decthings-model/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 13:50:53] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/14/43/cb1770312014d4487f88701d6a7ed55b552c63e92c20fc8ffff1c3ff3d71/ng_data_pipelines_sdk-0.1.9.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [bio2zarr]: Downloading https://files.pythonhosted.org/packages/b8/d4/be75e2248ac2cfb7cde6bce498235f825ba4f34a54456d6742668085d40f/bio2zarr-0.0.6.tar.gz
+[2024-04-24 13:50:53] INFO root fetch - processPackages [pyKinovaGen3]: executing diffoscope
+[2024-04-24 13:50:53] INFO root fetch - processPackages [pyKinovaGen3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyKinovaGen3-0.1.0.tar.gz tmp/pykinovagen3-0.2.0.tar.gz --markdown 20240424/p/pyKinovaGen3/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-24 13:50:53] INFO root fetch - processPackages [ng-data-pipelines-sdk]: executing diffoscope
+[2024-04-24 13:50:53] INFO root fetch - processPackages [ng-data-pipelines-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ng_data_pipelines_sdk-0.1.8.tar.gz tmp/ng_data_pipelines_sdk-0.1.9.tar.gz --markdown 20240424/n/ng-data-pipelines-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 13:50:53] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-04-24 13:50:53] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240424/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-24 13:50:53] INFO root fetch - processPackages [bio2zarr]: executing diffoscope
+[2024-04-24 13:50:53] INFO root fetch - processPackages [bio2zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio2zarr-0.0.5.tar.gz tmp/bio2zarr-0.0.6.tar.gz --markdown 20240424/b/bio2zarr/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-24 13:50:53] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/b7/8f/20dd68d6e832776bab24a9ec17e74b4480bdf3b960f989ada95f9a4387cc/dclab-0.9.1.tar.gz
+[2024-04-24 13:50:54] INFO root fetch - processPackages [dclab]: executing diffoscope
+[2024-04-24 13:50:54] INFO root fetch - processPackages [dclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclab-0.9.0.tar.gz tmp/dclab-0.9.1.tar.gz --markdown 20240424/d/dclab/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-24 13:50:54] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.44.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.45.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-24 13:50:54] INFO root fetch - processPackages [decthings-model]: Remove: archive file [/home/abi/fetcher/tmp/decthings_model-0.0.3.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - processPackages [decthings-model]: Remove: archive file [/home/abi/fetcher/tmp/decthings_model-0.0.4.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - main [MainThread]: End processing [decthings-model]: success
+[2024-04-24 13:50:54] INFO root fetch - processPackages [pyKinovaGen3]: Remove: archive file [/home/abi/fetcher/tmp/pyKinovaGen3-0.1.0.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - processPackages [pyKinovaGen3]: Remove: archive file [/home/abi/fetcher/tmp/pykinovagen3-0.2.0.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - main [MainThread]: End processing [pyKinovaGen3]: success
+[2024-04-24 13:50:54] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.1.8.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-0.1.9.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - main [MainThread]: End processing [ng-data-pipelines-sdk]: success
+[2024-04-24 13:50:54] INFO root fetch - processPackages [bio2zarr]: Remove: archive file [/home/abi/fetcher/tmp/bio2zarr-0.0.5.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - processPackages [bio2zarr]: Remove: archive file [/home/abi/fetcher/tmp/bio2zarr-0.0.6.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - main [MainThread]: End processing [bio2zarr]: success
+[2024-04-24 13:50:54] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-04-24 13:50:54] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-04-24 13:50:55] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.0.tar.gz]
+[2024-04-24 13:50:55] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.1.tar.gz]
+[2024-04-24 13:50:55] INFO root fetch - main [MainThread]: End processing [dclab]: success
+[2024-04-24 13:50:55] INFO root fetch - main [MainThread]: Store serial: [22911578]
