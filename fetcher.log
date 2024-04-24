@@ -17172,3 +17172,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:35:35] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.7.4.tar.gz]
 [2024-04-24 11:35:35] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
 [2024-04-24 11:35:35] INFO root fetch - main [MainThread]: Store serial: [22909834]
+[2024-04-24 11:37:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909834]
+[2024-04-24 11:37:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 11:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiftyone-pipeline-cloudrequestengine
+[2024-04-24 11:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiftyone-pipeline-core
+[2024-04-24 11:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fiftyone-pipeline-engines-fiftyone
+[2024-04-24 11:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiftyone-pipeline-engines
+[2024-04-24 11:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tolvera
+[2024-04-24 11:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-apple
+[2024-04-24 11:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hep-ml-lab
+[2024-04-24 11:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: 2b4cad69c8f0478caa92a512e57b735aba978d0e
+[2024-04-24 11:37:44] WARNING root fetch - processPackages [tolvera]: Skipping, unable to determine old version
+[2024-04-24 11:37:44] INFO root fetch - main [MainThread]: End processing [tolvera] error
+[2024-04-24 11:37:44] INFO root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-engines]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-04-24 11:37:44] INFO root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: Downloading https://files.pythonhosted.org/packages/01/41/db784ddc21401cdfc90cf5135c9c817ed309e3b065cae306f76fcd8c0455/2b4cad69c8f0478caa92a512e57b735aba978d0e-0.1.8.tar.gz
+[2024-04-24 11:37:44] INFO root fetch - processPackages [napari-apple]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-24 11:37:44] INFO root fetch - processPackages [hep-ml-lab]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-core]: New version: [4.4.9.0] Old Version: [4.4.8.0]
+[2024-04-24 11:37:44] WARNING root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: Skipping package: exceeds size limit 27722932>=10485760
+[2024-04-24 11:37:44] INFO root fetch - main [MainThread]: End processing [2b4cad69c8f0478caa92a512e57b735aba978d0e] error
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/6b/95/db65322b6bc7c0e4e2cb94c839191565def3d46ed1ee559f0ca6d588e227/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/4e/a3/500d24c2165afbd2f3f48b2636467d8441bc9649a45121c4b1313d6721f2/fiftyone_pipeline_engines-4.4.8.0.tar.gz
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/57/0b/5043a75732cdb4f3894eee095bccca4eca3f291f2e64ebee5fcb716b24f2/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/76/d6/b34fc7d1d074a71df816c77ccb53905048f4ae560a2a70978ca29e3134f7/fiftyone_pipeline_core-4.4.8.0.tar.gz
+[2024-04-24 11:37:44] INFO root fetch - processPackages [hep-ml-lab]: Downloading https://files.pythonhosted.org/packages/4a/62/d8bcf6611758d83780e916f3707cc324737dd9944733bf239389ec2ea267/hep_ml_lab-0.4.0.tar.gz
+[2024-04-24 11:37:44] INFO root fetch - processPackages [napari-apple]: Downloading https://files.pythonhosted.org/packages/e8/7f/4c8ad3039a8fcbaee5af4d0d1324b8a37a88e6c97d04a9e6f08f11f7474f/napari-apple-0.0.5.tar.gz
+[2024-04-24 11:37:44] WARNING root fetch - processPackages [napari-apple]: Skipping package: exceeds size limit 21885160>=10485760
+[2024-04-24 11:37:44] INFO root fetch - main [MainThread]: End processing [napari-apple] error
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Downloading https://files.pythonhosted.org/packages/8f/08/ccc77f7100f8f3db59fa2f751fe41a249e04249113f00c5e1ff61774197e/fiftyone_pipeline_engines-4.4.9.0.tar.gz
+[2024-04-24 11:37:44] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Downloading https://files.pythonhosted.org/packages/5c/0e/bb656280fc3dfa6b4b69e17ab2e2d2e256d4300cdb60e8cb5e81a4fcf331/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Downloading https://files.pythonhosted.org/packages/23/7a/370305d5cf4106a6fed8cfa73f299a087c38edf5aea1e577829f23d4a332/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-core]: Downloading https://files.pythonhosted.org/packages/01/0e/99e6212222e48ed13b12487df5c23221264e2d9ccf67adcb8902624547fc/fiftyone_pipeline_core-4.4.9.0.tar.gz
+[2024-04-24 11:37:45] INFO root fetch - processPackages [hep-ml-lab]: Downloading https://files.pythonhosted.org/packages/b1/a5/b1a629f1319cfb18769e1c2faaac355764cd6ab4cc8511d075c59d566a39/hep_ml_lab-0.4.1.tar.gz
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-engines]: executing diffoscope
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-engines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz --markdown 20240424/f/fiftyone-pipeline-engines/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: executing diffoscope
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz --markdown 20240424/f/fiftyone-pipeline-cloudrequestengine/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-04-24 11:37:45] INFO root fetch - processPackages [hep-ml-lab]: executing diffoscope
+[2024-04-24 11:37:45] INFO root fetch - processPackages [hep-ml-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hep_ml_lab-0.4.0.tar.gz tmp/hep_ml_lab-0.4.1.tar.gz --markdown 20240424/h/hep-ml-lab/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: executing diffoscope
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz --markdown 20240424/f/fiftyone-pipeline-engines-fiftyone/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-core]: executing diffoscope
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz --markdown 20240424/f/fiftyone-pipeline-core/4.4.8.0-4.4.9.0/README.md --exclude *.pyd
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.8.0.tar.gz]
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-cloudrequestengine]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_cloudrequestengine-4.4.9.0.tar.gz]
+[2024-04-24 11:37:45] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-cloudrequestengine]: success
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.8.0.tar.gz]
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-engines]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines-4.4.9.0.tar.gz]
+[2024-04-24 11:37:45] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines]: success
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.8.0.tar.gz]
+[2024-04-24 11:37:45] INFO root fetch - processPackages [fiftyone-pipeline-engines-fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_engines_fiftyone-4.4.9.0.tar.gz]
+[2024-04-24 11:37:46] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-engines-fiftyone]: success
+[2024-04-24 11:37:46] INFO root fetch - processPackages [hep-ml-lab]: Remove: archive file [/home/abi/fetcher/tmp/hep_ml_lab-0.4.0.tar.gz]
+[2024-04-24 11:37:46] INFO root fetch - processPackages [hep-ml-lab]: Remove: archive file [/home/abi/fetcher/tmp/hep_ml_lab-0.4.1.tar.gz]
+[2024-04-24 11:37:46] INFO root fetch - main [MainThread]: End processing [hep-ml-lab]: success
+[2024-04-24 11:37:46] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.8.0.tar.gz]
+[2024-04-24 11:37:46] INFO root fetch - processPackages [fiftyone-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_pipeline_core-4.4.9.0.tar.gz]
+[2024-04-24 11:37:46] INFO root fetch - main [MainThread]: End processing [fiftyone-pipeline-core]: success
+[2024-04-24 11:37:46] INFO root fetch - main [MainThread]: Store serial: [22909865]
