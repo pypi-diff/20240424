@@ -11079,3 +11079,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:30:56] INFO root fetch - processPackages [lifx-photons-core]: Remove: archive file [/home/abi/fetcher/tmp/lifx-photons-core-0.9.5.tar.gz]
 [2024-04-24 07:30:56] INFO root fetch - main [MainThread]: End processing [lifx-photons-core]: success
 [2024-04-24 07:30:56] INFO root fetch - main [MainThread]: Store serial: [22907196]
+[2024-04-24 07:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907196]
+[2024-04-24 07:33:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-procurement-purchase-no-grouping
+[2024-04-24 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bgtask4django
+[2024-04-24 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-purchase-workflow
+[2024-04-24 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stac-fastapi.elasticsearch
+[2024-04-24 07:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hahomematic
+[2024-04-24 07:33:05] INFO root fetch - processPackages [bgtask4django]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 07:33:05] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-24 07:33:06] INFO root fetch - processPackages [stac-fastapi.elasticsearch]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-24 07:33:06] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Downloading https://files.pythonhosted.org/packages/92/a6/936c0449e61003601eec8efee374ff11927d34a6e90e09325414c074a2c4/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 07:33:06] INFO root fetch - processPackages [bgtask4django]: Downloading https://files.pythonhosted.org/packages/ce/e6/3ae711c34e2e3a73a49695104c36847447ef9d8719522a1fdd60e77b50c4/bgtask4django-1.0.0.tar.gz
+[2024-04-24 07:33:06] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20240423.0] Old Version: [16.0.20240411.0]
+[2024-04-24 07:33:06] INFO root fetch - processPackages [hahomematic]: New version: [2024.4.9b2] Old Version: [2024.4.9b1]
+[2024-04-24 07:33:06] INFO root fetch - processPackages [stac-fastapi.elasticsearch]: Downloading https://files.pythonhosted.org/packages/27/3c/a901f8333826a876cbd5080cc2f4c795d0c42d2b9b7fafec379a38074c67/stac-fastapi.elasticsearch-2.2.0.tar.gz
+[2024-04-24 07:33:06] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/df/f0/8ad3fbab399e664167d3a7d3cae6dfd453005fcf1e0e1f657a9af9c7bd76/odoo_addons_oca_purchase_workflow-16.0.20240411.0-py3-none-any.whl
+[2024-04-24 07:33:06] INFO root fetch - processPackages [bgtask4django]: Downloading https://files.pythonhosted.org/packages/d7/bf/6e604cbccb254c9447d3c8749b1cefe425b193562d89804925679dc859b0/bgtask4django-1.0.1.tar.gz
+[2024-04-24 07:33:06] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Downloading https://files.pythonhosted.org/packages/70/57/3bc22667cf34278ff02d4048d170a474c5a8809db56a78e9adf8b52f9638/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 07:33:06] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/81/91/9891c6832e1587efb47c6d50c612a5cc7e0eec02825d6413ac1f4b16abf6/hahomematic-2024.4.9b1.tar.gz
+[2024-04-24 07:33:06] INFO root fetch - processPackages [bgtask4django]: executing diffoscope
+[2024-04-24 07:33:06] INFO root fetch - processPackages [bgtask4django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgtask4django-1.0.0.tar.gz tmp/bgtask4django-1.0.1.tar.gz --markdown 20240424/b/bgtask4django/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 07:33:06] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: executing diffoscope
+[2024-04-24 07:33:06] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-procurement-purchase-no-grouping/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 07:33:06] INFO root fetch - processPackages [stac-fastapi.elasticsearch]: Downloading https://files.pythonhosted.org/packages/c2/8a/23e5d7896da022665ef75537786a948785dabc30667e4cdcc3d8df18dd05/stac_fastapi_elasticsearch-2.3.0.tar.gz
+[2024-04-24 07:33:06] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/79/0c/2a29adda5a01dc18d84456fc46a43393abdfc98735a0dc02a1d983925e81/odoo_addons_oca_purchase_workflow-16.0.20240423.0-py3-none-any.whl
+[2024-04-24 07:33:06] INFO root fetch - processPackages [stac-fastapi.elasticsearch]: executing diffoscope
+[2024-04-24 07:33:06] INFO root fetch - processPackages [stac-fastapi.elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-fastapi.elasticsearch-2.2.0.tar.gz tmp/stac_fastapi_elasticsearch-2.3.0.tar.gz --markdown 20240424/s/stac-fastapi.elasticsearch/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-24 07:33:06] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/73/77/08a504d8e21c3618788a1df0dcbcdc32d48ae1fbeb07845b788563829933/hahomematic-2024.4.9b2.tar.gz
+[2024-04-24 07:33:06] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2024-04-24 07:33:06] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20240411.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20240423.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addons-oca-purchase-workflow/16.0.20240411.0-16.0.20240423.0/README.md --exclude *.pyd
+[2024-04-24 07:33:06] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-04-24 07:33:06] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.4.9b1.tar.gz tmp/hahomematic-2024.4.9b2.tar.gz --markdown 20240424/h/hahomematic/2024.4.9b1-2024.4.9b2/README.md --exclude *.pyd
+[2024-04-24 07:33:07] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 07:33:07] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 07:33:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-procurement-purchase-no-grouping]: success
+[2024-04-24 07:33:07] INFO root fetch - processPackages [bgtask4django]: Remove: archive file [/home/abi/fetcher/tmp/bgtask4django-1.0.0.tar.gz]
+[2024-04-24 07:33:07] INFO root fetch - processPackages [bgtask4django]: Remove: archive file [/home/abi/fetcher/tmp/bgtask4django-1.0.1.tar.gz]
+[2024-04-24 07:33:07] INFO root fetch - main [MainThread]: End processing [bgtask4django]: success
+[2024-04-24 07:33:07] INFO root fetch - processPackages [stac-fastapi.elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/stac-fastapi.elasticsearch-2.2.0.tar.gz]
+[2024-04-24 07:33:07] INFO root fetch - processPackages [stac-fastapi.elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_elasticsearch-2.3.0.tar.gz]
+[2024-04-24 07:33:07] INFO root fetch - main [MainThread]: End processing [stac-fastapi.elasticsearch]: success
+[2024-04-24 07:33:07] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20240411.0-py3-none-any.whl.zip]
+[2024-04-24 07:33:07] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20240423.0-py3-none-any.whl.zip]
+[2024-04-24 07:33:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2024-04-24 07:33:07] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.9b1.tar.gz]
+[2024-04-24 07:33:07] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.9b2.tar.gz]
+[2024-04-24 07:33:07] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-04-24 07:33:07] INFO root fetch - main [MainThread]: Store serial: [22907209]
