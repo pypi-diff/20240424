@@ -10214,3 +10214,33 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:42:18] INFO root fetch - processPackages [receipt-enhancer]: Remove: archive file [/home/abi/fetcher/tmp/receipt_enhancer-0.1.4.tar.gz]
 [2024-04-24 06:42:18] INFO root fetch - main [MainThread]: End processing [receipt-enhancer]: success
 [2024-04-24 06:42:18] INFO root fetch - main [MainThread]: Store serial: [22906834]
+[2024-04-24 06:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906834]
+[2024-04-24 06:44:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 06:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fileformats-medimage
+[2024-04-24 06:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fileformats-medimage-extras
+[2024-04-24 06:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ziya
+[2024-04-24 06:44:27] INFO root fetch - processPackages [fileformats-medimage]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-24 06:44:27] INFO root fetch - processPackages [fileformats-medimage-extras]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-24 06:44:27] INFO root fetch - processPackages [ziya]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 06:44:27] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/09/6e/5dcf5d358694c265761f72daaf8330182e14799386df3ed6f881686aeafd/fileformats_medimage-0.6.7.tar.gz
+[2024-04-24 06:44:27] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/64/c7/642b4e3b6bf75bc1543134bb1eab127d55e580079938f10789f297f7f07d/fileformats_medimage_extras-0.6.7.tar.gz
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/10/63/4457a91ccb6c426aa557155cf4948544fd434a79c48ecff452362285d238/fileformats_medimage_extras-0.7.0.tar.gz
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/19/b9/cc5e79796ae0ce65a9713804c0612a1ed333d032eb6f0c86fdad8a988e27/fileformats_medimage-0.7.0.tar.gz
+[2024-04-24 06:44:28] INFO root fetch - processPackages [ziya]: Downloading https://files.pythonhosted.org/packages/36/a9/a9e1f899f1d05ffaaa9f7d305d3048c3a94229809c2291dee5224c97890c/ziya-0.1.1.tar.gz
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage-extras]: executing diffoscope
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_extras-0.6.7.tar.gz tmp/fileformats_medimage_extras-0.7.0.tar.gz --markdown 20240424/f/fileformats-medimage-extras/0.6.7-0.7.0/README.md --exclude *.pyd
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage]: executing diffoscope
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage-0.6.7.tar.gz tmp/fileformats_medimage-0.7.0.tar.gz --markdown 20240424/f/fileformats-medimage/0.6.7-0.7.0/README.md --exclude *.pyd
+[2024-04-24 06:44:28] INFO root fetch - processPackages [ziya]: Downloading https://files.pythonhosted.org/packages/cf/3b/1f75aa89b312d037b2315d8b89e6dd78fd04408bd9e6cf70a81e10809afd/ziya-0.1.2.tar.gz
+[2024-04-24 06:44:28] INFO root fetch - processPackages [ziya]: executing diffoscope
+[2024-04-24 06:44:28] INFO root fetch - processPackages [ziya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziya-0.1.1.tar.gz tmp/ziya-0.1.2.tar.gz --markdown 20240424/z/ziya/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.6.7.tar.gz]
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.7.0.tar.gz]
+[2024-04-24 06:44:28] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-extras]: success
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.6.7.tar.gz]
+[2024-04-24 06:44:28] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.7.0.tar.gz]
+[2024-04-24 06:44:28] INFO root fetch - main [MainThread]: End processing [fileformats-medimage]: success
+[2024-04-24 06:44:29] INFO root fetch - processPackages [ziya]: Remove: archive file [/home/abi/fetcher/tmp/ziya-0.1.1.tar.gz]
+[2024-04-24 06:44:29] INFO root fetch - processPackages [ziya]: Remove: archive file [/home/abi/fetcher/tmp/ziya-0.1.2.tar.gz]
+[2024-04-24 06:44:29] INFO root fetch - main [MainThread]: End processing [ziya]: success
+[2024-04-24 06:44:29] INFO root fetch - main [MainThread]: Store serial: [22906843]
