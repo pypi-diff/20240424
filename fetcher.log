@@ -7425,3 +7425,51 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:46:24] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-04-24 03:46:24] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-04-24 03:46:24] INFO root fetch - main [MainThread]: Store serial: [22905624]
+[2024-04-24 03:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905624]
+[2024-04-24 03:48:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loamy
+[2024-04-24 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-polardb
+[2024-04-24 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-polardb20170801-py2
+[2024-04-24 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-analyticsds
+[2024-04-24 03:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-polardb20170801
+[2024-04-24 03:48:33] INFO root fetch - processPackages [loamy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-24 03:48:33] INFO root fetch - processPackages [loamy]: Downloading https://files.pythonhosted.org/packages/44/44/313f6ce8aa682300826c72037d2eb7700af805269639fd037c029bb59ff8/loamy-0.0.6.tar.gz
+[2024-04-24 03:48:33] INFO root fetch - processPackages [django-analyticsds]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-24 03:48:33] INFO root fetch - processPackages [alibabacloud-polardb20170801]: New version: [5.1.0] Old Version: [5.0.8]
+[2024-04-24 03:48:33] INFO root fetch - processPackages [alibabacloud-polardb20170801-py2]: New version: [4.1.0] Old Version: [4.0.8]
+[2024-04-24 03:48:33] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-24 03:48:33] INFO root fetch - processPackages [loamy]: Downloading https://files.pythonhosted.org/packages/d7/69/2e7a7985ae48ed6bcb7d89cff74818bcd83165b8f90b46128f29986b55d1/loamy-0.0.7.tar.gz
+[2024-04-24 03:48:33] INFO root fetch - processPackages [django-analyticsds]: Downloading https://files.pythonhosted.org/packages/02/dd/de17bc1ad6353076f628656b8a885b2ca3768e0a3428ee3eddef3d6ec169/django_analyticsds-0.3.2.tar.gz
+[2024-04-24 03:48:33] INFO root fetch - processPackages [alibabacloud-polardb20170801-py2]: Downloading https://files.pythonhosted.org/packages/27/c5/656cb21ca853247d934b99cdfc358d7d5d1d9b4c1163e6c4919680b7ab07/alibabacloud_polardb20170801_py2-4.0.8.tar.gz
+[2024-04-24 03:48:33] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2024-04-24 03:48:33] INFO root fetch - processPackages [alibabacloud-polardb20170801]: Downloading https://files.pythonhosted.org/packages/d3/33/0ae9914ed4978e46946c210d8b3fe3ab692736b9f32ae12b43ab0e744041/alibabacloud_polardb20170801-5.0.8.tar.gz
+[2024-04-24 03:48:33] INFO root fetch - processPackages [loamy]: executing diffoscope
+[2024-04-24 03:48:33] INFO root fetch - processPackages [loamy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loamy-0.0.6.tar.gz tmp/loamy-0.0.7.tar.gz --markdown 20240424/l/loamy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-24 03:48:33] INFO root fetch - processPackages [django-analyticsds]: Downloading https://files.pythonhosted.org/packages/a4/1d/acef21b8a9a56dc4144b60c750aba4c65191176dbaa6b94c911b0781dd34/django_analyticsds-0.3.3.tar.gz
+[2024-04-24 03:48:33] INFO root fetch - processPackages [alibabacloud-polardb20170801-py2]: Downloading https://files.pythonhosted.org/packages/cb/11/a1c2d62b88304f414b7a8ff4796cd5e477aaf91b77230ee76a6727d96e34/alibabacloud_polardb20170801_py2-4.1.0.tar.gz
+[2024-04-24 03:48:33] INFO root fetch - processPackages [alibabacloud-polardb20170801]: Downloading https://files.pythonhosted.org/packages/81/78/029e2c56f934bb99ccd76a874689e17fa69bb8c48ed67d61ffa005b02472/alibabacloud_polardb20170801-5.1.0.tar.gz
+[2024-04-24 03:48:33] INFO root fetch - processPackages [django-analyticsds]: executing diffoscope
+[2024-04-24 03:48:33] INFO root fetch - processPackages [django-analyticsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_analyticsds-0.3.2.tar.gz tmp/django_analyticsds-0.3.3.tar.gz --markdown 20240424/d/django-analyticsds/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-24 03:48:33] INFO root fetch - processPackages [alibabacloud-polardb20170801-py2]: executing diffoscope
+[2024-04-24 03:48:33] INFO root fetch - processPackages [alibabacloud-polardb20170801-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_polardb20170801_py2-4.0.8.tar.gz tmp/alibabacloud_polardb20170801_py2-4.1.0.tar.gz --markdown 20240424/a/alibabacloud-polardb20170801-py2/4.0.8-4.1.0/README.md --exclude *.pyd
+[2024-04-24 03:48:34] INFO root fetch - processPackages [alibabacloud-polardb20170801]: executing diffoscope
+[2024-04-24 03:48:34] INFO root fetch - processPackages [alibabacloud-polardb20170801]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_polardb20170801-5.0.8.tar.gz tmp/alibabacloud_polardb20170801-5.1.0.tar.gz --markdown 20240424/a/alibabacloud-polardb20170801/5.0.8-5.1.0/README.md --exclude *.pyd
+[2024-04-24 03:48:34] INFO root fetch - processPackages [loamy]: Remove: archive file [/home/abi/fetcher/tmp/loamy-0.0.6.tar.gz]
+[2024-04-24 03:48:34] INFO root fetch - processPackages [loamy]: Remove: archive file [/home/abi/fetcher/tmp/loamy-0.0.7.tar.gz]
+[2024-04-24 03:48:34] INFO root fetch - main [MainThread]: End processing [loamy]: success
+[2024-04-24 03:48:34] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2024-04-24 03:48:34] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2024-04-24 03:48:34] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20240424/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-24 03:48:34] INFO root fetch - processPackages [django-analyticsds]: Remove: archive file [/home/abi/fetcher/tmp/django_analyticsds-0.3.2.tar.gz]
+[2024-04-24 03:48:34] INFO root fetch - processPackages [django-analyticsds]: Remove: archive file [/home/abi/fetcher/tmp/django_analyticsds-0.3.3.tar.gz]
+[2024-04-24 03:48:34] INFO root fetch - main [MainThread]: End processing [django-analyticsds]: success
+[2024-04-24 03:48:35] INFO root fetch - processPackages [alibabacloud-polardb20170801-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_polardb20170801_py2-4.0.8.tar.gz]
+[2024-04-24 03:48:35] INFO root fetch - processPackages [alibabacloud-polardb20170801-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_polardb20170801_py2-4.1.0.tar.gz]
+[2024-04-24 03:48:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-polardb20170801-py2]: success
+[2024-04-24 03:48:35] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz]
+[2024-04-24 03:48:35] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
+[2024-04-24 03:48:35] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2024-04-24 03:48:35] INFO root fetch - processPackages [alibabacloud-polardb20170801]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_polardb20170801-5.0.8.tar.gz]
+[2024-04-24 03:48:35] INFO root fetch - processPackages [alibabacloud-polardb20170801]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_polardb20170801-5.1.0.tar.gz]
+[2024-04-24 03:48:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-polardb20170801]: success
+[2024-04-24 03:48:35] INFO root fetch - main [MainThread]: Store serial: [22905639]
