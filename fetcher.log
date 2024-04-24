@@ -23481,3 +23481,54 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 15:02:57] INFO root fetch - processPackages [inewave]: Remove: archive file [/home/abi/fetcher/tmp/inewave-1.8.0.tar.gz]
 [2024-04-24 15:02:57] INFO root fetch - main [MainThread]: End processing [inewave]: success
 [2024-04-24 15:02:57] INFO root fetch - main [MainThread]: Store serial: [22912417]
+[2024-04-24 15:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912417]
+[2024-04-24 15:05:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 15:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alaspo
+[2024-04-24 15:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rooms-shared-services
+[2024-04-24 15:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-authorization
+[2024-04-24 15:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perun.proxygui
+[2024-04-24 15:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcnodes-opencv
+[2024-04-24 15:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-cycle-count
+[2024-04-24 15:05:23] INFO root fetch - processPackages [funcnodes-opencv]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 15:05:23] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-24 15:05:23] INFO root fetch - processPackages [perun.proxygui]: New version: [5.1.1] Old Version: [5.1.0]
+[2024-04-24 15:05:23] INFO root fetch - processPackages [alaspo]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-24 15:05:23] INFO root fetch - processPackages [django-authorization]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-24 15:05:23] WARNING root fetch - processPackages [odoo-addon-stock-cycle-count]: Skipping, unable to determine old version
+[2024-04-24 15:05:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-cycle-count] error
+[2024-04-24 15:05:23] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/12/03/e3b8277099212572cb2cd9e5f93bc311437f12caa63ef5fce26a174cc1d5/perun.proxygui-5.1.0.tar.gz
+[2024-04-24 15:05:23] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-24 15:05:23] INFO root fetch - processPackages [funcnodes-opencv]: Downloading https://files.pythonhosted.org/packages/9e/4a/e560f6cc3cb5cffc258b817610ff64b18bd20b62f4c564f88b4471d42594/funcnodes_opencv-0.1.0.tar.gz
+[2024-04-24 15:05:24] INFO root fetch - processPackages [django-authorization]: Downloading https://files.pythonhosted.org/packages/99/09/c3014a5f20aac13658fc64770966e07488afd1e0c2478d981fa9a9a4745a/django-authorization-1.2.1.tar.gz
+[2024-04-24 15:05:24] INFO root fetch - processPackages [alaspo]: Downloading https://files.pythonhosted.org/packages/78/8a/090da3f9267e58b5759d9ab8e06778eb9772936c1a1baaa502213a480e90/alaspo-0.2.5.tar.gz
+[2024-04-24 15:05:24] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-24 15:05:24] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-24 15:05:24] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240424/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-24 15:05:24] INFO root fetch - processPackages [funcnodes-opencv]: Downloading https://files.pythonhosted.org/packages/da/45/d67a8dbb99ccb23ad45ef78bf37406be1f3927d347df6fc0eec486d7e165/funcnodes_opencv-0.1.1.tar.gz
+[2024-04-24 15:05:24] INFO root fetch - processPackages [alaspo]: Downloading https://files.pythonhosted.org/packages/d8/a9/913944af0be7e964abb94f57654f82ba49700e07f7a0484fc1804ca9c9da/alaspo-0.2.6.tar.gz
+[2024-04-24 15:05:24] INFO root fetch - processPackages [funcnodes-opencv]: executing diffoscope
+[2024-04-24 15:05:24] INFO root fetch - processPackages [funcnodes-opencv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_opencv-0.1.0.tar.gz tmp/funcnodes_opencv-0.1.1.tar.gz --markdown 20240424/f/funcnodes-opencv/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 15:05:24] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/2b/e3/8d1435a8925706b3e5ec5f9f563261913c5d135206540df265cbc26b0be4/perun.proxygui-5.1.1.tar.gz
+[2024-04-24 15:05:24] INFO root fetch - processPackages [alaspo]: executing diffoscope
+[2024-04-24 15:05:24] INFO root fetch - processPackages [alaspo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alaspo-0.2.5.tar.gz tmp/alaspo-0.2.6.tar.gz --markdown 20240424/a/alaspo/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-24 15:05:24] INFO root fetch - processPackages [django-authorization]: Downloading https://files.pythonhosted.org/packages/fa/be/f2858c3305e04cb6e43445ce1022ac5ed47011060302e06011068fad1d93/django_authorization-1.3.0.tar.gz
+[2024-04-24 15:05:24] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-04-24 15:05:24] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-5.1.0.tar.gz tmp/perun.proxygui-5.1.1.tar.gz --markdown 20240424/p/perun.proxygui/5.1.0-5.1.1/README.md --exclude *.pyd
+[2024-04-24 15:05:24] INFO root fetch - processPackages [django-authorization]: executing diffoscope
+[2024-04-24 15:05:24] INFO root fetch - processPackages [django-authorization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-authorization-1.2.1.tar.gz tmp/django_authorization-1.3.0.tar.gz --markdown 20240424/d/django-authorization/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-04-24 15:05:25] INFO root fetch - processPackages [funcnodes-opencv]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_opencv-0.1.0.tar.gz]
+[2024-04-24 15:05:25] INFO root fetch - processPackages [funcnodes-opencv]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_opencv-0.1.1.tar.gz]
+[2024-04-24 15:05:25] INFO root fetch - main [MainThread]: End processing [funcnodes-opencv]: success
+[2024-04-24 15:05:25] INFO root fetch - processPackages [alaspo]: Remove: archive file [/home/abi/fetcher/tmp/alaspo-0.2.5.tar.gz]
+[2024-04-24 15:05:25] INFO root fetch - processPackages [alaspo]: Remove: archive file [/home/abi/fetcher/tmp/alaspo-0.2.6.tar.gz]
+[2024-04-24 15:05:25] INFO root fetch - main [MainThread]: End processing [alaspo]: success
+[2024-04-24 15:05:25] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-24 15:05:25] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-24 15:05:25] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-24 15:05:26] INFO root fetch - processPackages [django-authorization]: Remove: archive file [/home/abi/fetcher/tmp/django-authorization-1.2.1.tar.gz]
+[2024-04-24 15:05:26] INFO root fetch - processPackages [django-authorization]: Remove: archive file [/home/abi/fetcher/tmp/django_authorization-1.3.0.tar.gz]
+[2024-04-24 15:05:26] INFO root fetch - main [MainThread]: End processing [django-authorization]: success
+[2024-04-24 15:05:27] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.0.tar.gz]
+[2024-04-24 15:05:27] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.1.tar.gz]
+[2024-04-24 15:05:27] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-04-24 15:05:27] INFO root fetch - main [MainThread]: Store serial: [22912437]
