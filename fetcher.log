@@ -16422,3 +16422,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:09:05] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-24 11:09:05] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
 [2024-04-24 11:09:05] INFO root fetch - main [MainThread]: Store serial: [22909544]
+[2024-04-24 11:11:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909544]
+[2024-04-24 11:11:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 11:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PokedexWal2
+[2024-04-24 11:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gocodeo
+[2024-04-24 11:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apipe
+[2024-04-24 11:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-threads
+[2024-04-24 11:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LnT-HR-AI
+[2024-04-24 11:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-manager
+[2024-04-24 11:11:15] WARNING root fetch - processPackages [LnT-HR-AI]: Skipping, unable to determine old version
+[2024-04-24 11:11:15] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev1] Old Version: [0.0.5]
+[2024-04-24 11:11:15] INFO root fetch - main [MainThread]: End processing [LnT-HR-AI] error
+[2024-04-24 11:11:15] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/b7/e1/9ce8b0ab59a6d94ab09568d8c5093e563060e786479d45611aa31344302d/torch-model-manager-0.0.5.tar.gz
+[2024-04-24 11:11:15] INFO root fetch - processPackages [gocodeo]: New version: [0.0.9.2] Old Version: [0.0.9.1]
+[2024-04-24 11:11:15] WARNING root fetch - processPackages [PokedexWal2]: Skipping, unable to determine old version
+[2024-04-24 11:11:15] INFO root fetch - main [MainThread]: End processing [PokedexWal2] error
+[2024-04-24 11:11:15] INFO root fetch - processPackages [apipe]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-24 11:11:15] INFO root fetch - processPackages [mo-threads]: New version: [6.601.24115] Old Version: [6.600.24114]
+[2024-04-24 11:11:15] INFO root fetch - processPackages [apipe]: Downloading https://files.pythonhosted.org/packages/34/64/5540d37aca1e2e3941508f9853ab80e8dbb630fe62edc78d0d5dc9880cec/apipe-0.1.5.tar.gz
+[2024-04-24 11:11:15] INFO root fetch - processPackages [gocodeo]: Downloading https://files.pythonhosted.org/packages/58/fe/59f55c4817be0ad865d7de440745ab36f969ae9d0e9d70a26a3729ad1214/gocodeo-0.0.9.1.tar.gz
+[2024-04-24 11:11:15] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/b3/4c/ce155247c501c96a8376d2d90235ccf5f6b08511a7747e1b40a879f4e3d7/torch_model_manager-0.0.6.dev1.tar.gz
+[2024-04-24 11:11:15] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/4f/f4/ebacd6f89d26e89b19fc9e801dafaaccff96d22b8a3f8925a2d0b3405bf6/mo_threads-6.600.24114.tar.gz
+[2024-04-24 11:11:15] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-24 11:11:15] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-model-manager-0.0.5.tar.gz tmp/torch_model_manager-0.0.6.dev1.tar.gz --markdown 20240424/t/torch-model-manager/0.0.5-0.0.6.dev1/README.md --exclude *.pyd
+[2024-04-24 11:11:15] INFO root fetch - processPackages [apipe]: Downloading https://files.pythonhosted.org/packages/e7/23/4e050ad0269e7615ad2d54afc69c7bc358cc7200ded9c72a68fcf5d2c7b2/apipe-0.1.6.tar.gz
+[2024-04-24 11:11:15] INFO root fetch - processPackages [gocodeo]: Downloading https://files.pythonhosted.org/packages/90/82/98bc6e0072c3649de6a72274bf2f6fb0787f9023e7444cbb6d040a464cbd/gocodeo-0.0.9.2.tar.gz
+[2024-04-24 11:11:15] INFO root fetch - processPackages [apipe]: executing diffoscope
+[2024-04-24 11:11:15] INFO root fetch - processPackages [apipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apipe-0.1.5.tar.gz tmp/apipe-0.1.6.tar.gz --markdown 20240424/a/apipe/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-24 11:11:15] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/1b/e2/18bf2530d5e8cc85b69fe71288a3d78ca91633769a6bf358b0d1c5191fe4/mo_threads-6.601.24115.tar.gz
+[2024-04-24 11:11:16] INFO root fetch - processPackages [gocodeo]: executing diffoscope
+[2024-04-24 11:11:16] INFO root fetch - processPackages [gocodeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocodeo-0.0.9.1.tar.gz tmp/gocodeo-0.0.9.2.tar.gz --markdown 20240424/g/gocodeo/0.0.9.1-0.0.9.2/README.md --exclude *.pyd
+[2024-04-24 11:11:16] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2024-04-24 11:11:16] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_threads-6.600.24114.tar.gz tmp/mo_threads-6.601.24115.tar.gz --markdown 20240424/m/mo-threads/6.600.24114-6.601.24115/README.md --exclude *.pyd
+[2024-04-24 11:11:16] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch-model-manager-0.0.5.tar.gz]
+[2024-04-24 11:11:16] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev1.tar.gz]
+[2024-04-24 11:11:16] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-24 11:11:16] INFO root fetch - processPackages [apipe]: Remove: archive file [/home/abi/fetcher/tmp/apipe-0.1.5.tar.gz]
+[2024-04-24 11:11:16] INFO root fetch - processPackages [apipe]: Remove: archive file [/home/abi/fetcher/tmp/apipe-0.1.6.tar.gz]
+[2024-04-24 11:11:16] INFO root fetch - main [MainThread]: End processing [apipe]: success
+[2024-04-24 11:11:16] INFO root fetch - processPackages [gocodeo]: Remove: archive file [/home/abi/fetcher/tmp/gocodeo-0.0.9.1.tar.gz]
+[2024-04-24 11:11:16] INFO root fetch - processPackages [gocodeo]: Remove: archive file [/home/abi/fetcher/tmp/gocodeo-0.0.9.2.tar.gz]
+[2024-04-24 11:11:16] INFO root fetch - main [MainThread]: End processing [gocodeo]: success
+[2024-04-24 11:11:16] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.600.24114.tar.gz]
+[2024-04-24 11:11:16] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.601.24115.tar.gz]
+[2024-04-24 11:11:16] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2024-04-24 11:11:16] INFO root fetch - main [MainThread]: Store serial: [22909562]
