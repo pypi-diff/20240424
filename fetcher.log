@@ -16654,3 +16654,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:15:43] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.9-py3-none-any.whl.zip]
 [2024-04-24 11:15:43] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-24 11:15:43] INFO root fetch - main [MainThread]: Store serial: [22909643]
+[2024-04-24 11:17:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909643]
+[2024-04-24 11:17:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 11:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gspc
+[2024-04-24 11:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nkululeko
+[2024-04-24 11:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py2docfx
+[2024-04-24 11:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-recentx
+[2024-04-24 11:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bgpy-pkg
+[2024-04-24 11:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragons96-tools
+[2024-04-24 11:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mo-json-config
+[2024-04-24 11:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swarmauri-developer
+[2024-04-24 11:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sae-lens
+[2024-04-24 11:17:52] INFO root fetch - processPackages [dragons96-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 11:17:52] INFO root fetch - processPackages [python-recentx]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-24 11:17:52] INFO root fetch - processPackages [py2docfx]: New version: [0.1.4rc1704856] Old Version: [0.1.4rc1691271]
+[2024-04-24 11:17:52] INFO root fetch - processPackages [bgpy-pkg]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-24 11:17:52] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/a3/35/4f02f0f12780bf7b791989ab642ec21f06b9fd66e4025906bb9c6a5af6a4/dragons96_tools-0.0.8.tar.gz
+[2024-04-24 11:17:52] WARNING root fetch - processPackages [swarmauri-developer]: Skipping, unable to determine old version
+[2024-04-24 11:17:53] INFO root fetch - main [MainThread]: End processing [swarmauri-developer] error
+[2024-04-24 11:17:53] INFO root fetch - processPackages [gspc]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-24 11:17:53] INFO root fetch - processPackages [mo-json-config]: New version: [4.601.24115] Old Version: [4.600.24114]
+[2024-04-24 11:17:53] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/ea/3b/2e8e24281b70b883948dc5daab1f255de513ebd1982d30ee634848a49ce0/bgpy_pkg-7.0.8.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [sae-lens]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-24 11:17:53] INFO root fetch - processPackages [nkululeko]: New version: [0.82.1] Old Version: [0.82.0]
+[2024-04-24 11:17:53] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/6a/92/92480e7691e788f1a4b4b6bda5ed1554bd4a3549c36b56d1f9e72b2123ad/py2docfx-0.1.4rc1691271-py3-none-any.whl
+[2024-04-24 11:17:53] INFO root fetch - processPackages [python-recentx]: Downloading https://files.pythonhosted.org/packages/fc/72/ec35944e3ca1fddd1692707cb1b47b09bd092fd3297c701ce72f17b1f83c/python_recentx-1.4.0.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [gspc]: Downloading https://files.pythonhosted.org/packages/4f/b2/1fbf4d61b43eef921e462f66ccbf19d73fd091b4dc369810e9c5c77f256a/gspc-0.0.1.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/ac/7c/813105da4cb1a3a4e0403b37ea632347837dd95f4dabad1c6224360f1284/dragons96_tools-0.0.9.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/d5/dd/6e067a8d0771e80b63f00623b76bc84781e8d1f3ccb3d2a8a86366cdbb77/bgpy_pkg-7.0.9.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/18/3d/714ae995dca38e849ed4c922b89d5a066a2865f4ba4962a44e07a52318b6/sae_lens-0.6.0.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/29/d1/e242461a6eef1527bbe7e134d27fb3b7f93027d63c4b4d688d128c477972/nkululeko-0.82.0.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/30/6e/66280595565912c740e24c18db78dabfb9ad2fd410bd901f02e3c89e0ec7/mo_json_config-4.600.24114.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [dragons96-tools]: executing diffoscope
+[2024-04-24 11:17:53] INFO root fetch - processPackages [dragons96-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragons96_tools-0.0.8.tar.gz tmp/dragons96_tools-0.0.9.tar.gz --markdown 20240424/d/dragons96-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 11:17:53] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/21/07/05e5bf96d21954a6007d7f9e75793c0fcbf89501920902be1a249187fe19/py2docfx-0.1.4rc1704856-py3-none-any.whl
+[2024-04-24 11:17:53] INFO root fetch - processPackages [bgpy-pkg]: executing diffoscope
+[2024-04-24 11:17:53] INFO root fetch - processPackages [bgpy-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgpy_pkg-7.0.8.tar.gz tmp/bgpy_pkg-7.0.9.tar.gz --markdown 20240424/b/bgpy-pkg/7.0.8-7.0.9/README.md --exclude *.pyd
+[2024-04-24 11:17:53] INFO root fetch - processPackages [gspc]: Downloading https://files.pythonhosted.org/packages/33/78/ba8c2ff344b9f4b071243970cba854f10e14a9069702313671858ea1e2a6/gspc-0.0.2.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [python-recentx]: Downloading https://files.pythonhosted.org/packages/80/55/63029f69cca523683ee0168b8cae995909a5aac1bee0160713e1a1fd52ff/python_recentx-1.4.1.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-24 11:17:53] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.4rc1691271-py3-none-any.whl.zip tmp/py2docfx-0.1.4rc1704856-py3-none-any.whl.zip --markdown 20240424/p/py2docfx/0.1.4rc1691271-0.1.4rc1704856/README.md --exclude *.pyd
+[2024-04-24 11:17:53] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/9b/c9/bd667c29a81c3ee6cd89a4e3f33f2c55779448c5bfa49b37cabf02459fda/sae_lens-0.7.0.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/cf/e9/7f26dbea9be9b2f08af8a0d95186434ec955b457b6ded5e24231769c7908/nkululeko-0.82.1.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [gspc]: executing diffoscope
+[2024-04-24 11:17:53] INFO root fetch - processPackages [gspc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspc-0.0.1.tar.gz tmp/gspc-0.0.2.tar.gz --markdown 20240424/g/gspc/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-24 11:17:53] INFO root fetch - processPackages [python-recentx]: executing diffoscope
+[2024-04-24 11:17:53] INFO root fetch - processPackages [python-recentx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_recentx-1.4.0.tar.gz tmp/python_recentx-1.4.1.tar.gz --markdown 20240424/p/python-recentx/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-24 11:17:53] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/7e/7c/e5e00a529eba224c0cb83a48f922f1c06c6a49b061a41f6010188d06b0d1/mo_json_config-4.601.24115.tar.gz
+[2024-04-24 11:17:53] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-04-24 11:17:53] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.82.0.tar.gz tmp/nkululeko-0.82.1.tar.gz --markdown 20240424/n/nkululeko/0.82.0-0.82.1/README.md --exclude *.pyd
+[2024-04-24 11:17:53] INFO root fetch - processPackages [sae-lens]: executing diffoscope
+[2024-04-24 11:17:53] INFO root fetch - processPackages [sae-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sae_lens-0.6.0.tar.gz tmp/sae_lens-0.7.0.tar.gz --markdown 20240424/s/sae-lens/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-24 11:17:53] INFO root fetch - processPackages [mo-json-config]: executing diffoscope
+[2024-04-24 11:17:53] INFO root fetch - processPackages [mo-json-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json_config-4.600.24114.tar.gz tmp/mo_json_config-4.601.24115.tar.gz --markdown 20240424/m/mo-json-config/4.600.24114-4.601.24115/README.md --exclude *.pyd
+[2024-04-24 11:17:54] INFO root fetch - processPackages [gspc]: Remove: archive file [/home/abi/fetcher/tmp/gspc-0.0.1.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - processPackages [gspc]: Remove: archive file [/home/abi/fetcher/tmp/gspc-0.0.2.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - main [MainThread]: End processing [gspc]: success
+[2024-04-24 11:17:54] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.8.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
+[2024-04-24 11:17:54] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.8.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.9.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - main [MainThread]: End processing [bgpy-pkg]: success
+[2024-04-24 11:17:54] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.600.24114.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.601.24115.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
+[2024-04-24 11:17:54] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1691271-py3-none-any.whl.zip]
+[2024-04-24 11:17:54] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.4rc1704856-py3-none-any.whl.zip]
+[2024-04-24 11:17:54] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-24 11:17:54] INFO root fetch - processPackages [python-recentx]: Remove: archive file [/home/abi/fetcher/tmp/python_recentx-1.4.0.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - processPackages [python-recentx]: Remove: archive file [/home/abi/fetcher/tmp/python_recentx-1.4.1.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - main [MainThread]: End processing [python-recentx]: success
+[2024-04-24 11:17:54] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-0.6.0.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-0.7.0.tar.gz]
+[2024-04-24 11:17:54] INFO root fetch - main [MainThread]: End processing [sae-lens]: success
+[2024-04-24 11:17:55] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.82.0.tar.gz]
+[2024-04-24 11:17:55] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.82.1.tar.gz]
+[2024-04-24 11:17:55] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-04-24 11:17:55] INFO root fetch - main [MainThread]: Store serial: [22909671]
