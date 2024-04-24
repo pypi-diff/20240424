@@ -10855,3 +10855,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:17:50] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
 [2024-04-24 07:17:50] INFO root fetch - main [MainThread]: End processing [donetools]: success
 [2024-04-24 07:17:50] INFO root fetch - main [MainThread]: Store serial: [22907110]
+[2024-04-24 07:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907110]
+[2024-04-24 07:19:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: donetools
+[2024-04-24 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pxutil
+[2024-04-24 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-category-hr-department
+[2024-04-24 07:19:59] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 07:19:59] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-24 07:19:59] INFO root fetch - processPackages [odoo-addon-product-category-hr-department]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2024-04-24 07:19:59] INFO root fetch - processPackages [pxutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 07:19:59] INFO root fetch - processPackages [odoo-addon-product-category-hr-department]: Downloading https://files.pythonhosted.org/packages/4a/27/a9d57224af39405dd67203805ffda653ab2af32cd279177854f01a286c5f/odoo_addon_product_category_hr_department-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 07:19:59] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-24 07:19:59] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/08/08/a20d5bafe5968608bb243365578c4b4de4dc08e5854c8490951b1e38dcab/pxutil-0.0.8.tar.gz
+[2024-04-24 07:19:59] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-24 07:19:59] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240424/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 07:20:00] INFO root fetch - processPackages [odoo-addon-product-category-hr-department]: Downloading https://files.pythonhosted.org/packages/ea/bb/6032ec6ed9a40a2d3df2a41df7f5df974a1e0ddd78470cd929d2b4d9a648/odoo_addon_product_category_hr_department-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-24 07:20:00] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/90/df/f60fc33beb2bac107f453dbd7493779ff1208cbe453c0c76ddf0888645ff/pxutil-0.0.9.tar.gz
+[2024-04-24 07:20:00] INFO root fetch - processPackages [odoo-addon-product-category-hr-department]: executing diffoscope
+[2024-04-24 07:20:00] INFO root fetch - processPackages [odoo-addon-product-category-hr-department]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_category_hr_department-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_product_category_hr_department-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-product-category-hr-department/16.0.1.0.0.5-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-04-24 07:20:00] INFO root fetch - processPackages [pxutil]: executing diffoscope
+[2024-04-24 07:20:00] INFO root fetch - processPackages [pxutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxutil-0.0.8.tar.gz tmp/pxutil-0.0.9.tar.gz --markdown 20240424/p/pxutil/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 07:20:00] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-24 07:20:00] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-24 07:20:00] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-24 07:20:00] INFO root fetch - processPackages [odoo-addon-product-category-hr-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_category_hr_department-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 07:20:00] INFO root fetch - processPackages [odoo-addon-product-category-hr-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_category_hr_department-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-24 07:20:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-category-hr-department]: success
+[2024-04-24 07:20:00] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.8.tar.gz]
+[2024-04-24 07:20:00] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
+[2024-04-24 07:20:00] INFO root fetch - main [MainThread]: End processing [pxutil]: success
+[2024-04-24 07:20:00] INFO root fetch - main [MainThread]: Store serial: [22907143]
