@@ -13144,3 +13144,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:19:55] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.4.24.9.41.8.tar.gz]
 [2024-04-24 09:19:55] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-04-24 09:19:55] INFO root fetch - main [MainThread]: Store serial: [22907969]
+[2024-04-24 09:21:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907969]
+[2024-04-24 09:22:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlab-projects-settings
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tolvera
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ggvlib
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wttch-train-helper
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TitanDevice
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-helpdesk-automatic-stage-changes
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-helpdesk-cc-and-to-text
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-helpdesk-ticket-massive-creation
+[2024-04-24 09:22:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-mail-cc-and-to-text
+[2024-04-24 09:22:04] WARNING root fetch - processPackages [gitlab-projects-settings]: Skipping, unable to determine old version
+[2024-04-24 09:22:04] INFO root fetch - processPackages [gitlab-projects-settings]: Start processing: xblock-sdk
+[2024-04-24 09:22:04] INFO root fetch - main [MainThread]: End processing [gitlab-projects-settings] error
+[2024-04-24 09:22:04] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-24 09:22:05] WARNING root fetch - processPackages [odoo12-addon-helpdesk-automatic-stage-changes]: Skipping, unable to determine old version
+[2024-04-24 09:22:05] INFO root fetch - processPackages [wttch-train-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 09:22:05] INFO root fetch - processPackages [odoo12-addon-helpdesk-automatic-stage-changes]: Start processing: odoo12-addon-widget-list-limit-cell
+[2024-04-24 09:22:05] INFO root fetch - main [MainThread]: End processing [odoo12-addon-helpdesk-automatic-stage-changes] error
+[2024-04-24 09:22:05] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 09:22:05] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-24 09:22:05] WARNING root fetch - processPackages [tolvera]: Skipping, unable to determine old version
+[2024-04-24 09:22:05] INFO root fetch - processPackages [tolvera]: Start processing: odoo12-addon-widget-list-row-color
+[2024-04-24 09:22:05] INFO root fetch - main [MainThread]: End processing [tolvera] error
+[2024-04-24 09:22:05] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/58/12/501c42ce1d08588b87a76af2280db8e0e5887f221c755f31f4562d07ece7/TitanDevice-0.2.3.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [odoo12-addon-helpdesk-ticket-massive-creation]: New version: [12.0.0.3.0] Old Version: [12.0.0.2.0.99.dev1]
+[2024-04-24 09:22:05] ERROR root fetch - processPackages [odoo12-addon-helpdesk-cc-and-to-text]: Unable to get metadata: No such project 'odoo12-addon-helpdesk-cc-and-to-text'
+[2024-04-24 09:22:05] INFO root fetch - main [MainThread]: End processing [odoo12-addon-helpdesk-cc-and-to-text] error
+[2024-04-24 09:22:05] ERROR root fetch - processPackages [odoo12-addon-mail-cc-and-to-text]: Unable to get metadata: No such project 'odoo12-addon-mail-cc-and-to-text'
+[2024-04-24 09:22:05] INFO root fetch - main [MainThread]: End processing [odoo12-addon-mail-cc-and-to-text] error
+[2024-04-24 09:22:05] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/3b/39/20b37adf77ac5d3a1c29fac307c5b35603437a19b4e9ccfdf3da730c7734/wttch-train-helper-0.0.8.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [xblock-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 09:22:05] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/c8/a4/76d1f8bec5b3584ef0e86ce8e53ab63916ffc36fcb0d2d8b4f0d337700c3/ggvlib-0.2.8.tar.gz
+[2024-04-24 09:22:05] ERROR root fetch - processPackages [odoo12-addon-widget-list-limit-cell]: Unable to get metadata: No such project 'odoo12-addon-widget-list-limit-cell'
+[2024-04-24 09:22:05] INFO root fetch - main [MainThread]: End processing [odoo12-addon-widget-list-limit-cell] error
+[2024-04-24 09:22:05] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-24 09:22:05] ERROR root fetch - processPackages [odoo12-addon-widget-list-row-color]: Unable to get metadata: No such project 'odoo12-addon-widget-list-row-color'
+[2024-04-24 09:22:05] INFO root fetch - main [MainThread]: End processing [odoo12-addon-widget-list-row-color] error
+[2024-04-24 09:22:05] INFO root fetch - processPackages [odoo12-addon-helpdesk-ticket-massive-creation]: Downloading https://files.pythonhosted.org/packages/3f/9c/3ee679281729978660f78d9d5762251e0489e149c71f770dacd42d5d4e37/odoo12-addon-helpdesk_ticket_massive_creation-12.0.0.2.0.99.dev1.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [xblock-sdk]: Downloading https://files.pythonhosted.org/packages/9c/93/2108f6916d44c343f1706de0d0f9a944d392466e1544f512ee957f5e17fb/xblock-sdk-0.8.0.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [wttch-train-helper]: Downloading https://files.pythonhosted.org/packages/06/f1/4c3862ff8dfa72e0261e6a5f5e8fb8722a335c9adec2134db760cf92c16a/wttch-train-helper-0.0.9.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/34/94/a276f716d8fabdf90cef3cc2a1fccf75e3e71e43c098bb84478fc31b0ff6/ggvlib-0.2.9.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/c8/be/5d04125a943988c5fcaa15b43bbc08e8d391aa723df0ea8b641954bac231/TitanDevice-0.2.4.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [wttch-train-helper]: executing diffoscope
+[2024-04-24 09:22:05] INFO root fetch - processPackages [wttch-train-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wttch-train-helper-0.0.8.tar.gz tmp/wttch-train-helper-0.0.9.tar.gz --markdown 20240424/w/wttch-train-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:22:05] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2024-04-24 09:22:05] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20240424/g/ggvlib/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 09:22:05] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 09:22:05] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.3.tar.gz tmp/TitanDevice-0.2.4.tar.gz --markdown 20240424/T/TitanDevice/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-24 09:22:05] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-24 09:22:05] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240424/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-24 09:22:05] INFO root fetch - processPackages [odoo12-addon-helpdesk-ticket-massive-creation]: Downloading https://files.pythonhosted.org/packages/91/e9/c4962617e0bf240eef8fe6671ba76bfe3d577f86cf584c11c47dedc16a07/odoo12-addon-helpdesk_ticket_massive_creation-12.0.0.3.0.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [xblock-sdk]: Downloading https://files.pythonhosted.org/packages/d7/c9/45994964908d6236d0ebcc5a540c0f8e4cd3ea6bc2ed61a65990cc8d567d/xblock-sdk-0.9.0.tar.gz
+[2024-04-24 09:22:05] INFO root fetch - processPackages [odoo12-addon-helpdesk-ticket-massive-creation]: executing diffoscope
+[2024-04-24 09:22:05] INFO root fetch - processPackages [odoo12-addon-helpdesk-ticket-massive-creation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12-addon-helpdesk_ticket_massive_creation-12.0.0.2.0.99.dev1.tar.gz tmp/odoo12-addon-helpdesk_ticket_massive_creation-12.0.0.3.0.tar.gz --markdown 20240424/o/odoo12-addon-helpdesk-ticket-massive-creation/12.0.0.2.0.99.dev1-12.0.0.3.0/README.md --exclude *.pyd
+[2024-04-24 09:22:06] INFO root fetch - processPackages [xblock-sdk]: executing diffoscope
+[2024-04-24 09:22:06] INFO root fetch - processPackages [xblock-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-sdk-0.8.0.tar.gz tmp/xblock-sdk-0.9.0.tar.gz --markdown 20240424/x/xblock-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 09:22:06] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.3.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.4.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 09:22:06] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.8.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.9.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2024-04-24 09:22:06] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.8.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - processPackages [wttch-train-helper]: Remove: archive file [/home/abi/fetcher/tmp/wttch-train-helper-0.0.9.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - main [MainThread]: End processing [wttch-train-helper]: success
+[2024-04-24 09:22:06] INFO root fetch - processPackages [odoo12-addon-helpdesk-ticket-massive-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-helpdesk_ticket_massive_creation-12.0.0.2.0.99.dev1.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - processPackages [odoo12-addon-helpdesk-ticket-massive-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-helpdesk_ticket_massive_creation-12.0.0.3.0.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - main [MainThread]: End processing [odoo12-addon-helpdesk-ticket-massive-creation]: success
+[2024-04-24 09:22:06] INFO root fetch - processPackages [xblock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xblock-sdk-0.8.0.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - processPackages [xblock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xblock-sdk-0.9.0.tar.gz]
+[2024-04-24 09:22:06] INFO root fetch - main [MainThread]: End processing [xblock-sdk]: success
+[2024-04-24 09:22:07] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-24 09:22:07] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-24 09:22:07] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-24 09:22:07] INFO root fetch - main [MainThread]: Store serial: [22908084]
