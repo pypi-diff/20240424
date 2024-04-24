@@ -11631,3 +11631,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:00:50] INFO root fetch - processPackages [tensorflow-data-validation]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_data_validation-1.9.0-cp39-cp39-win_amd64.whl.zip]
 [2024-04-24 08:00:50] INFO root fetch - main [MainThread]: End processing [tensorflow-data-validation]: success
 [2024-04-24 08:00:50] INFO root fetch - main [MainThread]: Store serial: [22907391]
+[2024-04-24 08:02:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907391]
+[2024-04-24 08:02:59] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 08:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plantuml-markdown
+[2024-04-24 08:02:59] INFO root fetch - processPackages [plantuml-markdown]: New version: [3.9.6] Old Version: [3.9.5]
+[2024-04-24 08:02:59] INFO root fetch - processPackages [plantuml-markdown]: Downloading https://files.pythonhosted.org/packages/03/a1/8b9d88531c726e60b077b49cc0d9f6f358a9243706efae36d9fc10ee7f78/plantuml-markdown-3.9.5.tar.gz
+[2024-04-24 08:03:00] INFO root fetch - processPackages [plantuml-markdown]: Downloading https://files.pythonhosted.org/packages/f5/2c/e5e9c639f33f63e3c52e1b0c3b1104ad3b56bbb25de25c6af8cf243879ab/plantuml-markdown-3.9.6.tar.gz
+[2024-04-24 08:03:00] INFO root fetch - processPackages [plantuml-markdown]: executing diffoscope
+[2024-04-24 08:03:00] INFO root fetch - processPackages [plantuml-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantuml-markdown-3.9.5.tar.gz tmp/plantuml-markdown-3.9.6.tar.gz --markdown 20240424/p/plantuml-markdown/3.9.5-3.9.6/README.md --exclude *.pyd
+[2024-04-24 08:03:00] INFO root fetch - processPackages [plantuml-markdown]: Remove: archive file [/home/abi/fetcher/tmp/plantuml-markdown-3.9.5.tar.gz]
+[2024-04-24 08:03:00] INFO root fetch - processPackages [plantuml-markdown]: Remove: archive file [/home/abi/fetcher/tmp/plantuml-markdown-3.9.6.tar.gz]
+[2024-04-24 08:03:00] INFO root fetch - main [MainThread]: End processing [plantuml-markdown]: success
+[2024-04-24 08:03:00] INFO root fetch - main [MainThread]: Store serial: [22907394]
