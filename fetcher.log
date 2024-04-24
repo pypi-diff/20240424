@@ -9866,3 +9866,36 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:18:01] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
 [2024-04-24 06:18:01] INFO root fetch - main [MainThread]: End processing [pypipr]: success
 [2024-04-24 06:18:01] INFO root fetch - main [MainThread]: Store serial: [22906714]
+[2024-04-24 06:20:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906714]
+[2024-04-24 06:20:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 06:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxsp
+[2024-04-24 06:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experiment-lab
+[2024-04-24 06:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PetsisDevUtils
+[2024-04-24 06:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xnatuploader
+[2024-04-24 06:20:09] INFO root fetch - processPackages [experiment-lab]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-24 06:20:09] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/05/5f/16964a5ff10f7d423e39c3dbcbcfbe967c05d983002f411b2ef7202ea02a/experiment_lab-1.1.5.tar.gz
+[2024-04-24 06:20:09] WARNING root fetch - processPackages [PetsisDevUtils]: Skipping, unable to determine old version
+[2024-04-24 06:20:09] INFO root fetch - main [MainThread]: End processing [PetsisDevUtils] error
+[2024-04-24 06:20:09] INFO root fetch - processPackages [xnatuploader]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-24 06:20:09] INFO root fetch - processPackages [dxsp]: New version: [9.0.7] Old Version: [9.0.6]
+[2024-04-24 06:20:09] INFO root fetch - processPackages [xnatuploader]: Downloading https://files.pythonhosted.org/packages/66/41/0f0a0baa41d6bb73fbf2c9e3076165551ac2954def96d2ab0a8b26f1b901/xnatuploader-1.1.7.tar.gz
+[2024-04-24 06:20:09] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/ca/b5/623c1be69853b5d9f38f910aa16aa6bfa8a1cb15738be57d75384a33c2ef/experiment_lab-1.1.6.tar.gz
+[2024-04-24 06:20:09] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a1/1f/4b20f69e5b75066726b10760e4d553170d395263325ba26fe170c2978d0b/dxsp-9.0.6.tar.gz
+[2024-04-24 06:20:10] INFO root fetch - processPackages [experiment-lab]: executing diffoscope
+[2024-04-24 06:20:10] INFO root fetch - processPackages [experiment-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_lab-1.1.5.tar.gz tmp/experiment_lab-1.1.6.tar.gz --markdown 20240424/e/experiment-lab/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-24 06:20:10] INFO root fetch - processPackages [xnatuploader]: Downloading https://files.pythonhosted.org/packages/5c/1b/7d2263579fdff75c40396599c3edf9c293d9e3eb34811af08749c3a79c9b/xnatuploader-1.1.8.tar.gz
+[2024-04-24 06:20:10] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/c1/02/3119800c1eceb087f71694d8f6d21bce46ec401d2511bf92ed3ee83d9db4/dxsp-9.0.7.tar.gz
+[2024-04-24 06:20:10] INFO root fetch - processPackages [xnatuploader]: executing diffoscope
+[2024-04-24 06:20:10] INFO root fetch - processPackages [xnatuploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnatuploader-1.1.7.tar.gz tmp/xnatuploader-1.1.8.tar.gz --markdown 20240424/x/xnatuploader/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-24 06:20:10] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2024-04-24 06:20:10] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-9.0.6.tar.gz tmp/dxsp-9.0.7.tar.gz --markdown 20240424/d/dxsp/9.0.6-9.0.7/README.md --exclude *.pyd
+[2024-04-24 06:20:10] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment_lab-1.1.5.tar.gz]
+[2024-04-24 06:20:10] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment_lab-1.1.6.tar.gz]
+[2024-04-24 06:20:10] INFO root fetch - main [MainThread]: End processing [experiment-lab]: success
+[2024-04-24 06:20:10] INFO root fetch - processPackages [xnatuploader]: Remove: archive file [/home/abi/fetcher/tmp/xnatuploader-1.1.7.tar.gz]
+[2024-04-24 06:20:10] INFO root fetch - processPackages [xnatuploader]: Remove: archive file [/home/abi/fetcher/tmp/xnatuploader-1.1.8.tar.gz]
+[2024-04-24 06:20:10] INFO root fetch - main [MainThread]: End processing [xnatuploader]: success
+[2024-04-24 06:20:10] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.6.tar.gz]
+[2024-04-24 06:20:10] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
+[2024-04-24 06:20:10] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2024-04-24 06:20:10] INFO root fetch - main [MainThread]: Store serial: [22906726]
