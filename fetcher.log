@@ -12029,3 +12029,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:25:07] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev1.tar.gz]
 [2024-04-24 08:25:07] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
 [2024-04-24 08:25:07] INFO root fetch - main [MainThread]: Store serial: [22907523]
+[2024-04-24 08:27:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907523]
+[2024-04-24 08:27:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 08:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vite-transporter
+[2024-04-24 08:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JayttleProcess
+[2024-04-24 08:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-split-picking
+[2024-04-24 08:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-no-negative
+[2024-04-24 08:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fosslight-util
+[2024-04-24 08:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: load-envfile
+[2024-04-24 08:27:16] INFO root fetch - processPackages [load-envfile]: New version: [0.3] Old Version: [0.2]
+[2024-04-24 08:27:16] INFO root fetch - processPackages [vite-transporter]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-24 08:27:16] INFO root fetch - processPackages [JayttleProcess]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-24 08:27:16] INFO root fetch - processPackages [load-envfile]: Downloading https://files.pythonhosted.org/packages/d7/57/f1dccbd4b5685b7623f453a70797157e5d7f73c97352256645b615540d34/load_envfile-0.2.tar.gz
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-24 08:27:16] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/e1/75/82853d9db8ccf928ba941492bef2ca0ca8967aa17d9802155eb9fedca50a/JayttleProcess-0.2.2-py3-none-any.whl
+[2024-04-24 08:27:16] INFO root fetch - processPackages [vite-transporter]: Downloading https://files.pythonhosted.org/packages/cb/09/086e7cb42df9cf66d841dd2086fd7e756d099e928f27327a01e516461d27/vite_transporter-0.4.2.tar.gz
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-24 08:27:16] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/80/90/e12ae0d4ac44eb29bad22b9c834ffd53b1118411be806880180c1d3d0b9f/odoo_addon_stock_split_picking-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: Downloading https://files.pythonhosted.org/packages/7d/4e/524f94ef00d79bad2dc0c555f8a050b6b3ccae40088dbafda1b009b1e80f/odoo_addon_stock_no_negative-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-24 08:27:16] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/d0/ca/3238ee41727edc3bd327f6beb7ef97f2d92d986227f3bf775259a3e223ae/fosslight_util-1.4.8.tar.gz
+[2024-04-24 08:27:16] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/d2/e2/27a650d5ef655963010bbff4291a9f1c8c5dd47b29affacbafdc62c7529b/JayttleProcess-0.2.3-py3-none-any.whl
+[2024-04-24 08:27:16] INFO root fetch - processPackages [load-envfile]: Downloading https://files.pythonhosted.org/packages/e7/28/be12c0ddbb7735325e148a22f703b1ce0d97619d2acf10d462c9cb3c5322/load_envfile-0.3.tar.gz
+[2024-04-24 08:27:16] INFO root fetch - processPackages [vite-transporter]: Downloading https://files.pythonhosted.org/packages/c9/6e/fb41f71f238f67c0eb422ae65452fb5183c7f79625a34e7e921bd72e38a7/vite_transporter-0.5.0.tar.gz
+[2024-04-24 08:27:16] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-04-24 08:27:16] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.2.2-py3-none-any.whl.zip tmp/JayttleProcess-0.2.3-py3-none-any.whl.zip --markdown 20240424/J/JayttleProcess/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-24 08:27:16] INFO root fetch - processPackages [load-envfile]: executing diffoscope
+[2024-04-24 08:27:16] INFO root fetch - processPackages [load-envfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/load_envfile-0.2.tar.gz tmp/load_envfile-0.3.tar.gz --markdown 20240424/l/load-envfile/0.2-0.3/README.md --exclude *.pyd
+[2024-04-24 08:27:16] INFO root fetch - processPackages [vite-transporter]: executing diffoscope
+[2024-04-24 08:27:16] INFO root fetch - processPackages [vite-transporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vite_transporter-0.4.2.tar.gz tmp/vite_transporter-0.5.0.tar.gz --markdown 20240424/v/vite-transporter/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/9d/71/91aa33ef15508461a64704c119d08481b6292ddd2b2831ba429ac9690c37/odoo_addon_stock_split_picking-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: Downloading https://files.pythonhosted.org/packages/ce/77/487c920679ae80138e162f248a08ef8b78ccd67b3f0dc266db21584e9d70/odoo_addon_stock_no_negative-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: executing diffoscope
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_split_picking-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_split_picking-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-stock-split-picking/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: executing diffoscope
+[2024-04-24 08:27:16] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_no_negative-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_no_negative-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-stock-no-negative/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-24 08:27:17] INFO root fetch - processPackages [load-envfile]: Remove: archive file [/home/abi/fetcher/tmp/load_envfile-0.2.tar.gz]
+[2024-04-24 08:27:17] INFO root fetch - processPackages [load-envfile]: Remove: archive file [/home/abi/fetcher/tmp/load_envfile-0.3.tar.gz]
+[2024-04-24 08:27:17] INFO root fetch - main [MainThread]: End processing [load-envfile]: success
+[2024-04-24 08:27:17] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/2d/d2/e674ac0c05f462aeb548384d4b1f6351624dd534bb73301158868691826c/fosslight_util-1.4.9.tar.gz
+[2024-04-24 08:27:17] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.2-py3-none-any.whl.zip]
+[2024-04-24 08:27:17] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.3-py3-none-any.whl.zip]
+[2024-04-24 08:27:17] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-04-24 08:27:17] INFO root fetch - processPackages [vite-transporter]: Remove: archive file [/home/abi/fetcher/tmp/vite_transporter-0.4.2.tar.gz]
+[2024-04-24 08:27:17] INFO root fetch - processPackages [vite-transporter]: Remove: archive file [/home/abi/fetcher/tmp/vite_transporter-0.5.0.tar.gz]
+[2024-04-24 08:27:17] INFO root fetch - main [MainThread]: End processing [vite-transporter]: success
+[2024-04-24 08:27:17] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_no_negative-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-24 08:27:17] INFO root fetch - processPackages [odoo-addon-stock-no-negative]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_no_negative-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 08:27:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-no-negative]: success
+[2024-04-24 08:27:17] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_split_picking-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-24 08:27:17] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_split_picking-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-24 08:27:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-split-picking]: success
+[2024-04-24 08:27:17] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2024-04-24 08:27:17] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20240424/f/fosslight-util/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-24 08:27:18] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.8.tar.gz]
+[2024-04-24 08:27:18] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.9.tar.gz]
+[2024-04-24 08:27:18] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2024-04-24 08:27:18] INFO root fetch - main [MainThread]: Store serial: [22907538]
