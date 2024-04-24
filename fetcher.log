@@ -2228,3 +2228,50 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:06:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240424.359.tar.gz]
 [2024-04-24 02:06:27] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-24 02:06:27] INFO root fetch - main [MainThread]: Store serial: [22903698]
+[2024-04-24 02:08:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903698]
+[2024-04-24 02:08:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxutils-nightly
+[2024-04-24 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gguf-core
+[2024-04-24 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zcmds
+[2024-04-24 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: message-db-py
+[2024-04-24 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-py
+[2024-04-24 02:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: factorlib
+[2024-04-24 02:08:35] WARNING root fetch - processPackages [factorlib]: Skipping, unable to determine old version
+[2024-04-24 02:08:35] INFO root fetch - main [MainThread]: End processing [factorlib] error
+[2024-04-24 02:08:35] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240423] Old Version: [0.0.8.dev20240422]
+[2024-04-24 02:08:35] INFO root fetch - processPackages [gguf-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 02:08:35] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c6/d0/dab93e4934a1d24d80775cfb7fe3d12d633362ea5dcaf2698406b660d01c/jaxutils-nightly-0.0.8.dev20240422.tar.gz
+[2024-04-24 02:08:35] INFO root fetch - processPackages [chromedriver-py]: New version: [99.0.4844.51] Old Version: [99.0.4844.35]
+[2024-04-24 02:08:35] INFO root fetch - processPackages [message-db-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 02:08:35] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-24 02:08:35] INFO root fetch - processPackages [gguf-core]: Downloading https://files.pythonhosted.org/packages/e3/22/b112370662b7849991fe26c5088b1a37924b8a799a5bec34f379c0beffef/gguf_core-0.0.8.tar.gz
+[2024-04-24 02:08:35] INFO root fetch - processPackages [chromedriver-py]: Downloading https://files.pythonhosted.org/packages/39/03/f1ac791b3c69bd62af64eb3b4f2f0c942828a41ad7eb4840f42ff715c79a/chromedriver-py-99.0.4844.35.tar.gz
+[2024-04-24 02:08:36] WARNING root fetch - processPackages [chromedriver-py]: Skipping package: exceeds size limit 29238079>=10485760
+[2024-04-24 02:08:36] INFO root fetch - main [MainThread]: End processing [chromedriver-py] error
+[2024-04-24 02:08:36] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2024-04-24 02:08:36] INFO root fetch - processPackages [message-db-py]: Downloading https://files.pythonhosted.org/packages/41/e9/05300c5e54091e3d68642fe4ce62034e29622883872c1477a6b2e776c7d5/message-db-py-0.1.2.tar.gz
+[2024-04-24 02:08:36] INFO root fetch - processPackages [gguf-core]: Downloading https://files.pythonhosted.org/packages/10/70/abcac777519a7aefa6b88d44ece74e4a1a0351373fd96bd381d192638052/gguf_core-0.0.9.tar.gz
+[2024-04-24 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/9f/3e/3e4890bef5f80fd45936f9068c44f51d515643ec7aecbbad69bce8087c0c/jaxutils-nightly-0.0.8.dev20240423.tar.gz
+[2024-04-24 02:08:36] INFO root fetch - processPackages [gguf-core]: executing diffoscope
+[2024-04-24 02:08:36] INFO root fetch - processPackages [gguf-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gguf_core-0.0.8.tar.gz tmp/gguf_core-0.0.9.tar.gz --markdown 20240424/g/gguf-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-24 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240422.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240423.tar.gz --markdown 20240424/j/jaxutils-nightly/0.0.8.dev20240422-0.0.8.dev20240423/README.md --exclude *.pyd
+[2024-04-24 02:08:36] INFO root fetch - processPackages [message-db-py]: Downloading https://files.pythonhosted.org/packages/94/19/9066d82a96c4989591ad477ac152a70be7b309cb1f41d41b87cf8c6da130/message_db_py-0.1.3.tar.gz
+[2024-04-24 02:08:36] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-04-24 02:08:36] INFO root fetch - processPackages [message-db-py]: executing diffoscope
+[2024-04-24 02:08:36] INFO root fetch - processPackages [message-db-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-db-py-0.1.2.tar.gz tmp/message_db_py-0.1.3.tar.gz --markdown 20240424/m/message-db-py/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 02:08:36] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-04-24 02:08:36] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240424/z/zcmds/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-24 02:08:36] INFO root fetch - processPackages [gguf-core]: Remove: archive file [/home/abi/fetcher/tmp/gguf_core-0.0.8.tar.gz]
+[2024-04-24 02:08:36] INFO root fetch - processPackages [gguf-core]: Remove: archive file [/home/abi/fetcher/tmp/gguf_core-0.0.9.tar.gz]
+[2024-04-24 02:08:36] INFO root fetch - main [MainThread]: End processing [gguf-core]: success
+[2024-04-24 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240422.tar.gz]
+[2024-04-24 02:08:36] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240423.tar.gz]
+[2024-04-24 02:08:36] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-24 02:08:37] INFO root fetch - processPackages [message-db-py]: Remove: archive file [/home/abi/fetcher/tmp/message-db-py-0.1.2.tar.gz]
+[2024-04-24 02:08:37] INFO root fetch - processPackages [message-db-py]: Remove: archive file [/home/abi/fetcher/tmp/message_db_py-0.1.3.tar.gz]
+[2024-04-24 02:08:37] INFO root fetch - main [MainThread]: End processing [message-db-py]: success
+[2024-04-24 02:08:37] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2024-04-24 02:08:37] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-04-24 02:08:37] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-04-24 02:08:37] INFO root fetch - main [MainThread]: Store serial: [22903719]
