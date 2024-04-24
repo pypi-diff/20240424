@@ -13036,3 +13036,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:15:19] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-1.0.2.tar.gz]
 [2024-04-24 09:15:19] INFO root fetch - main [MainThread]: End processing [vvm-lib]: success
 [2024-04-24 09:15:19] INFO root fetch - main [MainThread]: Store serial: [22907893]
+[2024-04-24 09:17:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907893]
+[2024-04-24 09:17:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snk
+[2024-04-24 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everai
+[2024-04-24 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nestipy-dynamic-module
+[2024-04-24 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TitanDevice
+[2024-04-24 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-admin-assets
+[2024-04-24 09:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: niaaml
+[2024-04-24 09:17:28] INFO root fetch - processPackages [everai]: New version: [0.1.31] Old Version: [0.1.30]
+[2024-04-24 09:17:28] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-24 09:17:28] WARNING root fetch - processPackages [nestipy-dynamic-module]: Skipping, unable to determine old version
+[2024-04-24 09:17:28] INFO root fetch - main [MainThread]: End processing [nestipy-dynamic-module] error
+[2024-04-24 09:17:28] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 09:17:28] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1509] Old Version: [1.0.0.post1507]
+[2024-04-24 09:17:28] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/a6/11/ce2449b40522e956bb227ebae7520cf9430fe734af9acdc62f24e2e3b321/everai-0.1.30-py3-none-any.whl
+[2024-04-24 09:17:28] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/0f/c8/f5016124fde6480c93850c514c6dc784c91e2c416fb1a4001efc17597343/TitanDevice-0.2.2.tar.gz
+[2024-04-24 09:17:28] INFO root fetch - processPackages [niaaml]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-04-24 09:17:28] INFO root fetch - processPackages [snk]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-24 09:17:28] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 09:17:28] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/be/9b/09580d9d32f8bf517540f37aa99eba2c5dceb85cda52a12b61f72252ca26/nucliadb_admin_assets-1.0.0.post1507-py3-none-any.whl
+[2024-04-24 09:17:28] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/54/33/ed6257a47eacf50e2ac7965bb117827af5a1e5eddb02d20dc3f15cc9a81a/snk-0.9.2.tar.gz
+[2024-04-24 09:17:28] INFO root fetch - processPackages [niaaml]: Downloading https://files.pythonhosted.org/packages/f2/5d/b87a92b967f7b0e3dd0f867a96949dc5c4857b4a06ceae7e491fc72842c1/niaaml-1.2.0.tar.gz
+[2024-04-24 09:17:28] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 09:17:28] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/58/12/501c42ce1d08588b87a76af2280db8e0e5887f221c755f31f4562d07ece7/TitanDevice-0.2.3.tar.gz
+[2024-04-24 09:17:28] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 09:17:28] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 09:17:28] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/6b/dc/9b21d8c096138dde4909ac6a3ee735d2534622b286a9cbc4b75dc36fcc47/everai-0.1.31-py3-none-any.whl
+[2024-04-24 09:17:28] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 09:17:28] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.2.2.tar.gz tmp/TitanDevice-0.2.3.tar.gz --markdown 20240424/T/TitanDevice/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-24 09:17:28] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1c/e9/336f86dec3e01b44b3e34cc162ca9a0ca4108fb07244fd97031ad3205df1/snk-0.9.3.tar.gz
+[2024-04-24 09:17:28] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/d4/2b/4d0d67bfb21c9958e99c7d356ab18827150f8400601675709bbdec45d6b5/nucliadb_admin_assets-1.0.0.post1509-py3-none-any.whl
+[2024-04-24 09:17:28] INFO root fetch - processPackages [niaaml]: Downloading https://files.pythonhosted.org/packages/73/08/c90811246d0822645d0d8158da79ba27e900e148d26a78abfcdc5e87b1e2/niaaml-2.0.0.tar.gz
+[2024-04-24 09:17:28] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-24 09:17:28] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.30-py3-none-any.whl.zip tmp/everai-0.1.31-py3-none-any.whl.zip --markdown 20240424/e/everai/0.1.30-0.1.31/README.md --exclude *.pyd
+[2024-04-24 09:17:28] INFO root fetch - processPackages [snk]: executing diffoscope
+[2024-04-24 09:17:28] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.2.tar.gz tmp/snk-0.9.3.tar.gz --markdown 20240424/s/snk/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-24 09:17:28] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-24 09:17:28] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1507-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1509-py3-none-any.whl.zip --markdown 20240424/n/nucliadb-admin-assets/1.0.0.post1507-1.0.0.post1509/README.md --exclude *.pyd
+[2024-04-24 09:17:29] INFO root fetch - processPackages [niaaml]: executing diffoscope
+[2024-04-24 09:17:29] INFO root fetch - processPackages [niaaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niaaml-1.2.0.tar.gz tmp/niaaml-2.0.0.tar.gz --markdown 20240424/n/niaaml/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-04-24 09:17:29] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.2.tar.gz]
+[2024-04-24 09:17:29] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.3.tar.gz]
+[2024-04-24 09:17:29] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 09:17:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 09:17:29] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 09:17:29] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 09:17:29] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.2.tar.gz]
+[2024-04-24 09:17:29] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.3.tar.gz]
+[2024-04-24 09:17:29] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2024-04-24 09:17:29] INFO root fetch - processPackages [niaaml]: Remove: archive file [/home/abi/fetcher/tmp/niaaml-1.2.0.tar.gz]
+[2024-04-24 09:17:29] INFO root fetch - processPackages [niaaml]: Remove: archive file [/home/abi/fetcher/tmp/niaaml-2.0.0.tar.gz]
+[2024-04-24 09:17:29] INFO root fetch - main [MainThread]: End processing [niaaml]: success
+[2024-04-24 09:17:30] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.30-py3-none-any.whl.zip]
+[2024-04-24 09:17:30] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.31-py3-none-any.whl.zip]
+[2024-04-24 09:17:30] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-24 09:17:43] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1507-py3-none-any.whl.zip]
+[2024-04-24 09:17:43] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1509-py3-none-any.whl.zip]
+[2024-04-24 09:17:43] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-24 09:17:43] INFO root fetch - main [MainThread]: Store serial: [22907910]
