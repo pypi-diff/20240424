@@ -15875,3 +15875,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:55:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
 [2024-04-24 10:55:07] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-04-24 10:55:07] INFO root fetch - main [MainThread]: Store serial: [22909327]
+[2024-04-24 10:57:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909327]
+[2024-04-24 10:57:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commitizen-lrplugin
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: survival-data-handler
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ICIW-Plots
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynatrace-opentelemetry-azure-functions
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynatrace-opentelemetry-core
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynatrace-opentelemetry-gcf
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: organoids
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: outpostkit
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mo-kwargs
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-model-manager
+[2024-04-24 10:57:16] INFO root fetch - processPackages [survival-data-handler]: New version: [2024.1.2] Old Version: [2024.1.1]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [outpostkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ICIW-Plots]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [commitizen-lrplugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: New version: [1.289.2] Old Version: [1.287.2]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/9b/c3/4c2b0c0c021bcbb223785eb53237804a8e21e2c9a3ad5514c731aa89233b/survival_data_handler-2024.1.1.tar.gz
+[2024-04-24 10:57:16] INFO root fetch - processPackages [organoids]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: New version: [1.289.2] Old Version: [1.287.2]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev1] Old Version: [0.0.5]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: New version: [1.289.2] Old Version: [1.287.2]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [mo-kwargs]: New version: [7.601.24115] Old Version: [7.600.24114]
+[2024-04-24 10:57:16] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/e8/20/6f4f3b0edb61dd5f691668605b0901894c58c85e728662fff6913423203c/outpostkit-0.0.7.tar.gz
+[2024-04-24 10:57:16] INFO root fetch - processPackages [ICIW-Plots]: Downloading https://files.pythonhosted.org/packages/49/3a/a43f6029fd9ef9ae61c0e835b02778e168a3175f74af464f79cce4b861ad/ICIW_Plots-1.0.6.tar.gz
+[2024-04-24 10:57:16] INFO root fetch - processPackages [commitizen-lrplugin]: Downloading https://files.pythonhosted.org/packages/08/b0/e8fda9fba4712f2ae36d941408cc3ccf63016303ac82cfb24475a032d5a7/commitizen_lrplugin-0.1.0.tar.gz
+[2024-04-24 10:57:16] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Downloading https://files.pythonhosted.org/packages/d4/e4/82c853c7fead1d366938e3ccddd0641be6d4b23bef8b977aa0d3d56bf64f/dynatrace_opentelemetry_gcf-1.287.2-py3-none-any.whl
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Downloading https://files.pythonhosted.org/packages/4c/38/14f3b9c94ed793d6a55df798460ddbd56acd04d25d58ec9023284a176077/dynatrace_opentelemetry_core-1.287.2-py3-none-any.whl
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Downloading https://files.pythonhosted.org/packages/b2/88/5b61f181d1651cde4b4580ed99677a38ed231387453c2d60bac575b2faf7/dynatrace_opentelemetry_azure_functions-1.287.2-py3-none-any.whl
+[2024-04-24 10:57:17] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/55/66/dab7bc0ebbca6d11ed7f71bdb3acf6e13b5f5e8d09682a495cee7ec88c75/survival_data_handler-2024.1.2.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [organoids]: Downloading https://files.pythonhosted.org/packages/6f/81/f1305f060db79a4706ca2a477f7604edc178f43d0960337ecb28231148d3/organoids-1.1.0.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/b7/e1/9ce8b0ab59a6d94ab09568d8c5093e563060e786479d45611aa31344302d/torch-model-manager-0.0.5.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/80/4c/847906178a11d4eec08fc0596c886ec4b37bb43a34bc5915542ef9174e98/mo_kwargs-7.600.24114.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/b3/af/8945c62fc6dc5596e5618810b3971a4c11d217517a24d0cd40a10b5b9553/outpostkit-0.0.9.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [survival-data-handler]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [survival-data-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survival_data_handler-2024.1.1.tar.gz tmp/survival_data_handler-2024.1.2.tar.gz --markdown 20240424/s/survival-data-handler/2024.1.1-2024.1.2/README.md --exclude *.pyd
+[2024-04-24 10:57:17] INFO root fetch - processPackages [outpostkit]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [outpostkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostkit-0.0.7.tar.gz tmp/outpostkit-0.0.9.tar.gz --markdown 20240424/o/outpostkit/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:57:17] INFO root fetch - processPackages [ICIW-Plots]: Downloading https://files.pythonhosted.org/packages/14/25/a5540a229c5fa44acc386f6afb533359ddb0c8d28425bf19ebc02a21b1f8/ICIW_Plots-1.0.7.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [commitizen-lrplugin]: Downloading https://files.pythonhosted.org/packages/e0/00/56ff2bb07cdb9ba9373ec5bd0c5372f1042a2aec218ce17dfa1c9b9cdbd0/commitizen_lrplugin-0.1.1.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Downloading https://files.pythonhosted.org/packages/2f/95/6d8e1c14fb950ec5666c343c11201142f85755b37c1f3e99fef61e06d998/dynatrace_opentelemetry_gcf-1.289.2-py3-none-any.whl
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Downloading https://files.pythonhosted.org/packages/bb/fc/caaf056e8eecbb28e629bf234ad13f6da08325a39eb3ee9762fccc3c9c03/dynatrace_opentelemetry_azure_functions-1.289.2-py3-none-any.whl
+[2024-04-24 10:57:17] INFO root fetch - processPackages [ICIW-Plots]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [ICIW-Plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICIW_Plots-1.0.6.tar.gz tmp/ICIW_Plots-1.0.7.tar.gz --markdown 20240424/I/ICIW-Plots/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Downloading https://files.pythonhosted.org/packages/c3/4e/2088c731b8b7b2fb224e9631021d99f22dd16c1d8aaa34cfe7043c6cc2ec/dynatrace_opentelemetry_core-1.289.2-py3-none-any.whl
+[2024-04-24 10:57:17] INFO root fetch - processPackages [organoids]: Downloading https://files.pythonhosted.org/packages/48/94/b41f2785fcc98723ef2e681226d37c75196d4595cb91803d4bdba9f020a9/organoids-1.2.0.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/b3/4c/ce155247c501c96a8376d2d90235ccf5f6b08511a7747e1b40a879f4e3d7/torch_model_manager-0.0.6.dev1.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/42/4d/39745e090919d8b235891c40f46b2a760a7dcb1eb606dac9f1866d2eb565/mo_kwargs-7.601.24115.tar.gz
+[2024-04-24 10:57:17] INFO root fetch - processPackages [commitizen-lrplugin]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [commitizen-lrplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen_lrplugin-0.1.0.tar.gz tmp/commitizen_lrplugin-0.1.1.tar.gz --markdown 20240424/c/commitizen-lrplugin/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynatrace_opentelemetry_gcf-1.287.2-py3-none-any.whl.zip tmp/dynatrace_opentelemetry_gcf-1.289.2-py3-none-any.whl.zip --markdown 20240424/d/dynatrace-opentelemetry-gcf/1.287.2-1.289.2/README.md --exclude *.pyd
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynatrace_opentelemetry_azure_functions-1.287.2-py3-none-any.whl.zip tmp/dynatrace_opentelemetry_azure_functions-1.289.2-py3-none-any.whl.zip --markdown 20240424/d/dynatrace-opentelemetry-azure-functions/1.287.2-1.289.2/README.md --exclude *.pyd
+[2024-04-24 10:57:17] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [organoids]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [organoids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organoids-1.1.0.tar.gz tmp/organoids-1.2.0.tar.gz --markdown 20240424/o/organoids/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-24 10:57:17] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_kwargs-7.600.24114.tar.gz tmp/mo_kwargs-7.601.24115.tar.gz --markdown 20240424/m/mo-kwargs/7.600.24114-7.601.24115/README.md --exclude *.pyd
+[2024-04-24 10:57:17] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-model-manager-0.0.5.tar.gz tmp/torch_model_manager-0.0.6.dev1.tar.gz --markdown 20240424/t/torch-model-manager/0.0.5-0.0.6.dev1/README.md --exclude *.pyd
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: executing diffoscope
+[2024-04-24 10:57:17] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynatrace_opentelemetry_core-1.287.2-py3-none-any.whl.zip tmp/dynatrace_opentelemetry_core-1.289.2-py3-none-any.whl.zip --markdown 20240424/d/dynatrace-opentelemetry-core/1.287.2-1.289.2/README.md --exclude *.pyd
+[2024-04-24 10:57:18] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.1.1.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.1.2.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [survival-data-handler]: Start processing: hqq
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [survival-data-handler]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.7.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [outpostkit]: Start processing: redturtle.prenotazioni
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [hqq]: New version: [0.1.7] Old Version: [0.1.6.post2]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [commitizen-lrplugin]: Remove: archive file [/home/abi/fetcher/tmp/commitizen_lrplugin-0.1.0.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [commitizen-lrplugin]: Remove: archive file [/home/abi/fetcher/tmp/commitizen_lrplugin-0.1.1.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [commitizen-lrplugin]: Start processing: mns-common
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [commitizen-lrplugin]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.5.6] Old Version: [1.0.7.5.5]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/ae/cc/78305ca17b4cbe23febe2ae66f44fed7b11e85e25ad44f5b829219c1b5fe/redturtle.prenotazioni-2.6.4.tar.gz
+[2024-04-24 10:57:18] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch-model-manager-0.0.5.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev1.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [torch-model-manager]: Start processing: pulumi-awsx
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_gcf-1.287.2-py3-none-any.whl.zip]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [dynatrace-opentelemetry-gcf]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_gcf-1.289.2-py3-none-any.whl.zip]
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [dynatrace-opentelemetry-gcf]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/c2/ed/0f992559826dbddc6708f76825e26406757f119d2145fa323d0c4774bce5/mns_common-1.0.7.5.5.tar.gz
+[2024-04-24 10:57:18] INFO root fetch - processPackages [hqq]: Downloading https://files.pythonhosted.org/packages/db/36/07fa018c686bd8e8241249b78bad2edceb64811378ee032b90b4cb677e77/hqq-0.1.6.post2.tar.gz
+[2024-04-24 10:57:18] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.600.24114.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.601.24115.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [ICIW-Plots]: Remove: archive file [/home/abi/fetcher/tmp/ICIW_Plots-1.0.6.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [ICIW-Plots]: Remove: archive file [/home/abi/fetcher/tmp/ICIW_Plots-1.0.7.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [ICIW-Plots]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [organoids]: Remove: archive file [/home/abi/fetcher/tmp/organoids-1.1.0.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [organoids]: Remove: archive file [/home/abi/fetcher/tmp/organoids-1.2.0.tar.gz]
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [organoids]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [pulumi-awsx]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_azure_functions-1.287.2-py3-none-any.whl.zip]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [dynatrace-opentelemetry-azure-functions]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_azure_functions-1.289.2-py3-none-any.whl.zip]
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [dynatrace-opentelemetry-azure-functions]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_core-1.287.2-py3-none-any.whl.zip]
+[2024-04-24 10:57:18] INFO root fetch - processPackages [dynatrace-opentelemetry-core]: Remove: archive file [/home/abi/fetcher/tmp/dynatrace_opentelemetry_core-1.289.2-py3-none-any.whl.zip]
+[2024-04-24 10:57:18] INFO root fetch - main [MainThread]: End processing [dynatrace-opentelemetry-core]: success
+[2024-04-24 10:57:18] INFO root fetch - processPackages [hqq]: Downloading https://files.pythonhosted.org/packages/d4/e7/243017b6ae7c9a91b0cb5f179d5dce28df9fafe7bdba08a459ad42561b97/hqq-0.1.7.tar.gz
+[2024-04-24 10:57:18] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/d8/c8/9e76947c1f03e34e923a09f9c7fe81de06a4c126c76a0ff25212ec24ed7d/redturtle.prenotazioni-2.6.5.tar.gz
+[2024-04-24 10:57:18] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/a6/cc/eb3fc6abaaff6dc67e773ceda0898d76ba112afaf1e2f750245c1f170033/mns_common-1.0.7.5.6.tar.gz
+[2024-04-24 10:57:18] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/45/71/f94bc0e9f2b3da76595e8a55e513ff2cee6f324628d3a6421e53aa6ed29f/pulumi_awsx-2.7.0.tar.gz
+[2024-04-24 10:57:19] INFO root fetch - processPackages [hqq]: executing diffoscope
+[2024-04-24 10:57:19] INFO root fetch - processPackages [hqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hqq-0.1.6.post2.tar.gz tmp/hqq-0.1.7.tar.gz --markdown 20240424/h/hqq/0.1.6.post2-0.1.7/README.md --exclude *.pyd
+[2024-04-24 10:57:19] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-24 10:57:19] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.5.5.tar.gz tmp/mns_common-1.0.7.5.6.tar.gz --markdown 20240424/m/mns-common/1.0.7.5.5-1.0.7.5.6/README.md --exclude *.pyd
+[2024-04-24 10:57:19] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2024-04-24 10:57:19] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-2.6.4.tar.gz tmp/redturtle.prenotazioni-2.6.5.tar.gz --markdown 20240424/r/redturtle.prenotazioni/2.6.4-2.6.5/README.md --exclude *.pyd
+[2024-04-24 10:57:19] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/6b/5e/e31a330b971722a3f5990a97b8aba2709ff5b0752e314d861fc58a3efb95/pulumi_awsx-2.8.0.tar.gz
+[2024-04-24 10:57:19] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2024-04-24 10:57:19] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-2.7.0.tar.gz tmp/pulumi_awsx-2.8.0.tar.gz --markdown 20240424/p/pulumi-awsx/2.7.0-2.8.0/README.md --exclude *.pyd
+[2024-04-24 10:57:19] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.5.tar.gz]
+[2024-04-24 10:57:19] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.5.6.tar.gz]
+[2024-04-24 10:57:19] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-24 10:57:19] INFO root fetch - processPackages [hqq]: Remove: archive file [/home/abi/fetcher/tmp/hqq-0.1.6.post2.tar.gz]
+[2024-04-24 10:57:19] INFO root fetch - processPackages [hqq]: Remove: archive file [/home/abi/fetcher/tmp/hqq-0.1.7.tar.gz]
+[2024-04-24 10:57:19] INFO root fetch - main [MainThread]: End processing [hqq]: success
+[2024-04-24 10:57:20] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.7.0.tar.gz]
+[2024-04-24 10:57:20] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.8.0.tar.gz]
+[2024-04-24 10:57:20] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2024-04-24 10:57:20] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.4.tar.gz]
+[2024-04-24 10:57:20] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.5.tar.gz]
+[2024-04-24 10:57:20] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2024-04-24 10:57:20] INFO root fetch - main [MainThread]: Store serial: [22909366]
