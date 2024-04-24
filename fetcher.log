@@ -2484,3 +2484,87 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:19:33] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.2.tar.gz]
 [2024-04-24 02:19:33] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
 [2024-04-24 02:19:33] INFO root fetch - main [MainThread]: Store serial: [22903799]
+[2024-04-24 02:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22903799]
+[2024-04-24 02:21:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 02:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-budibase
+[2024-04-24 02:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akasha-terminal
+[2024-04-24 02:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lastmile-eval
+[2024-04-24 02:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2024-04-24 02:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-vector-stores-qdrant
+[2024-04-24 02:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: effect-edc
+[2024-04-24 02:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-24 02:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zha-quirks
+[2024-04-24 02:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytorch-ignite
+[2024-04-24 02:21:41] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-24 02:21:41] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-24 02:21:41] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-24 02:21:41] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-24 02:21:41] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-24 02:21:41] INFO root fetch - processPackages [zha-quirks]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-24 02:21:41] INFO root fetch - processPackages [akasha-terminal]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-24 02:21:41] INFO root fetch - processPackages [effect-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 02:21:42] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/5f/eaa8c53cc1857a1e835ad32892f28b3fa98a02c5409d7c53012941237304/lastmile_eval-0.0.7.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Downloading https://files.pythonhosted.org/packages/61/ce/1659b9c7a5c813828e27ad7b2e74109a1fc6b0e0cfae2a6d274aed034404/llama_index_vector_stores_qdrant-0.2.5.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [effect-edc]: Downloading https://files.pythonhosted.org/packages/60/d3/fdc9151a861c28e4c2d0619159468ecb856c2e24c92b928e1ad1495dd0f2/effect-edc-0.1.8.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [zha-quirks]: Downloading https://files.pythonhosted.org/packages/3d/b4/3d3e08d12bf7dff4b892cebb44a84d481cc00db92653001f96bfa39edf18/zha-quirks-0.0.98.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/44/ba/ad1af60540b73410a76351edea1ffacfe2c1e951eed2d58a4031be3ad8fc/akasha-terminal-0.8.8.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/82/d9/5b33fa58ced21ee69c2876303b4babbb7449325885a320341f99edabf464/lastmile_eval-0.0.8.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-04-24 02:21:42] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile_eval-0.0.7.tar.gz tmp/lastmile_eval-0.0.8.tar.gz --markdown 20240424/l/lastmile-eval/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240424/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240424/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-24 02:21:42] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240424] Old Version: [0.6.0.dev20240423]
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-24 02:21:42] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240424/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-24 02:21:42] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Downloading https://files.pythonhosted.org/packages/d2/b9/1a77a553d0d81224a212ff3e9e57330efb9b1f1d7f45624dfff18cd565a3/llama_index_vector_stores_qdrant-0.2.6-py3-none-any.whl
+[2024-04-24 02:21:42] INFO root fetch - processPackages [effect-edc]: Downloading https://files.pythonhosted.org/packages/d4/a9/c249648fe69cf380547e0fe9146aecec08f8689d51ea9a4c1a85df9a347a/effect-edc-0.1.9.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [zha-quirks]: Downloading https://files.pythonhosted.org/packages/13/82/9a15ab6eaab849ad93c6668230e8044c632016eb797c7044230702e32d12/zha-quirks-0.0.99.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: executing diffoscope
+[2024-04-24 02:21:42] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_qdrant-0.2.5.tar.gz tmp/llama_index_vector_stores_qdrant-0.2.6-py3-none-any.whl.zip --markdown 20240424/l/llama-index-vector-stores-qdrant/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-24 02:21:42] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/34/57/56ac9107ce21960044296b846a98f4e76bf7e5bc298df2b17b7eb681af92/pytorch-ignite-0.6.0.dev20240423.tar.gz
+[2024-04-24 02:21:42] INFO root fetch - processPackages [effect-edc]: executing diffoscope
+[2024-04-24 02:21:42] INFO root fetch - processPackages [effect-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effect-edc-0.1.8.tar.gz tmp/effect-edc-0.1.9.tar.gz --markdown 20240424/e/effect-edc/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 02:21:42] INFO root fetch - processPackages [zha-quirks]: executing diffoscope
+[2024-04-24 02:21:42] INFO root fetch - processPackages [zha-quirks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zha-quirks-0.0.98.tar.gz tmp/zha-quirks-0.0.99.tar.gz --markdown 20240424/z/zha-quirks/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-24 02:21:43] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/22/cd/bc4da2cd3d8a9b0bdd6542c2a920f376fc7abf8fa3d60f48b60bd6f3f13e/akasha-terminal-0.8.9.tar.gz
+[2024-04-24 02:21:43] INFO root fetch - processPackages [akasha-terminal]: executing diffoscope
+[2024-04-24 02:21:43] INFO root fetch - processPackages [akasha-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasha-terminal-0.8.8.tar.gz tmp/akasha-terminal-0.8.9.tar.gz --markdown 20240424/a/akasha-terminal/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-24 02:21:43] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-24 02:21:43] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-24 02:21:43] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-24 02:21:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-24 02:21:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-24 02:21:43] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-24 02:21:43] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/57/83/bd32696b3eb447544dc8b3ff6cef69b103e2e76e1ba66f4d36501bb65ab6/pytorch_ignite-0.6.0.dev20240424-py3-none-any.whl
+[2024-04-24 02:21:43] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-24 02:21:43] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-24 02:21:43] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-24 02:21:43] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.7.tar.gz]
+[2024-04-24 02:21:43] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.8.tar.gz]
+[2024-04-24 02:21:43] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-04-24 02:21:43] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_qdrant-0.2.5.tar.gz]
+[2024-04-24 02:21:43] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_qdrant-0.2.6-py3-none-any.whl.zip]
+[2024-04-24 02:21:43] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-qdrant]: success
+[2024-04-24 02:21:43] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-24 02:21:43] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240423.tar.gz tmp/pytorch_ignite-0.6.0.dev20240424-py3-none-any.whl.zip --markdown 20240424/p/pytorch-ignite/0.6.0.dev20240423-0.6.0.dev20240424/README.md --exclude *.pyd
+[2024-04-24 02:21:44] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.8.tar.gz]
+[2024-04-24 02:21:44] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.9.tar.gz]
+[2024-04-24 02:21:44] INFO root fetch - main [MainThread]: End processing [akasha-terminal]: success
+[2024-04-24 02:21:44] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240423.tar.gz]
+[2024-04-24 02:21:44] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240424-py3-none-any.whl.zip]
+[2024-04-24 02:21:44] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-24 02:21:44] INFO root fetch - processPackages [zha-quirks]: Remove: archive file [/home/abi/fetcher/tmp/zha-quirks-0.0.98.tar.gz]
+[2024-04-24 02:21:44] INFO root fetch - processPackages [zha-quirks]: Remove: archive file [/home/abi/fetcher/tmp/zha-quirks-0.0.99.tar.gz]
+[2024-04-24 02:21:44] INFO root fetch - main [MainThread]: End processing [zha-quirks]: success
+[2024-04-24 02:21:44] INFO root fetch - processPackages [effect-edc]: Remove: archive file [/home/abi/fetcher/tmp/effect-edc-0.1.8.tar.gz]
+[2024-04-24 02:21:44] INFO root fetch - processPackages [effect-edc]: Remove: archive file [/home/abi/fetcher/tmp/effect-edc-0.1.9.tar.gz]
+[2024-04-24 02:21:44] INFO root fetch - main [MainThread]: End processing [effect-edc]: success
+[2024-04-24 02:21:44] INFO root fetch - main [MainThread]: Store serial: [22903824]
