@@ -14536,3 +14536,63 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:03:57] INFO root fetch - processPackages [mbtiles-util]: Remove: archive file [/home/abi/fetcher/tmp/mbtiles_util-1.0.2.tar.gz]
 [2024-04-24 10:03:57] INFO root fetch - main [MainThread]: End processing [mbtiles-util]: success
 [2024-04-24 10:03:57] INFO root fetch - main [MainThread]: Store serial: [22908809]
+[2024-04-24 10:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908809]
+[2024-04-24 10:06:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 10:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minder.research-data-snapshots
+[2024-04-24 10:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langfun
+[2024-04-24 10:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypipr
+[2024-04-24 10:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tablinum
+[2024-04-24 10:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openssa
+[2024-04-24 10:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenFisca-France-Local
+[2024-04-24 10:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vfunc
+[2024-04-24 10:06:07] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240423] Old Version: [0.0.2.dev20240422]
+[2024-04-24 10:06:07] INFO root fetch - processPackages [pypipr]: New version: [1.0.91] Old Version: [1.0.90]
+[2024-04-24 10:06:07] INFO root fetch - processPackages [minder.research-data-snapshots]: New version: [0.9] Old Version: [0.8]
+[2024-04-24 10:06:07] WARNING root fetch - processPackages [vfunc]: Skipping, unable to determine old version
+[2024-04-24 10:06:07] INFO root fetch - main [MainThread]: End processing [vfunc] error
+[2024-04-24 10:06:07] INFO root fetch - processPackages [OpenFisca-France-Local]: New version: [6.9.0] Old Version: [6.8.0]
+[2024-04-24 10:06:07] INFO root fetch - processPackages [openssa]: New version: [0.24.4.24] Old Version: [0.24.3.6]
+[2024-04-24 10:06:07] INFO root fetch - processPackages [tablinum]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-24 10:06:07] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/f5/de/b60024c22602d14ac6a7ba1789fbe41f8d5a85eebb2eed6add13d130d0ce/langfun-0.0.2.dev20240422.tar.gz
+[2024-04-24 10:06:07] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ca/87/64f0a2a68198383aaf2be9cc1ebca9f70d79ff91c851ea5eae98ebde6f78/pypipr-1.0.90.tar.gz
+[2024-04-24 10:06:07] INFO root fetch - processPackages [minder.research-data-snapshots]: Downloading https://files.pythonhosted.org/packages/c6/38/3fa44b6c1901ce0ba70d393c6908e0d45fa3827f2ad9a003de4c8ca966e1/minder.research_data_snapshots-0.8-py3-none-any.whl
+[2024-04-24 10:06:08] INFO root fetch - processPackages [openssa]: Downloading https://files.pythonhosted.org/packages/e7/46/ca7ca214e144270750f0b5c0ae9ee4a0e0fbb8be54e007e9648c7a4b7235/openssa-0.24.3.6.tar.gz
+[2024-04-24 10:06:08] INFO root fetch - processPackages [tablinum]: Downloading https://files.pythonhosted.org/packages/e9/cd/f66a56e438bfe84698276b1344a9b72070b7eeb1ccde10d968dc54a89174/tablinum-0.1.1.tar.gz
+[2024-04-24 10:06:08] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/4f/d4/447ea333c018d513ef7e46f218d9e3afc73140558307045c60738c905bd2/OpenFisca-France-Local-6.8.0.tar.gz
+[2024-04-24 10:06:08] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/21/57/3dca3dc124f2f97c44b09f40e3e5a414aed5c7ce97d5554f6831ce10e531/pypipr-1.0.91.tar.gz
+[2024-04-24 10:06:08] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/6e/d7/39c7f907165f345fe343356fa8fdb02ed05b831c5fc8b68ddd3dbd06c647/langfun-0.0.2.dev20240423.tar.gz
+[2024-04-24 10:06:08] INFO root fetch - processPackages [minder.research-data-snapshots]: Downloading https://files.pythonhosted.org/packages/dc/c6/079395b01c2b1d7255c758bfb0dc554b6b5ce44b80725b38c54f42f90407/minder.research_data_snapshots-0.9-py3-none-any.whl
+[2024-04-24 10:06:08] INFO root fetch - processPackages [tablinum]: Downloading https://files.pythonhosted.org/packages/25/62/2a101defa32c0b8c46d052e77e86d291a6b0100e83ac9a679fc1870a8e0e/tablinum-0.1.2.tar.gz
+[2024-04-24 10:06:08] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-24 10:06:08] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.90.tar.gz tmp/pypipr-1.0.91.tar.gz --markdown 20240424/p/pypipr/1.0.90-1.0.91/README.md --exclude *.pyd
+[2024-04-24 10:06:08] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-24 10:06:08] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240422.tar.gz tmp/langfun-0.0.2.dev20240423.tar.gz --markdown 20240424/l/langfun/0.0.2.dev20240422-0.0.2.dev20240423/README.md --exclude *.pyd
+[2024-04-24 10:06:08] INFO root fetch - processPackages [openssa]: Downloading https://files.pythonhosted.org/packages/ca/23/be453e21a217f838dd380fd78e9d132fce5cd7e02e7724b088516eae36c2/openssa-0.24.4.24.tar.gz
+[2024-04-24 10:06:08] INFO root fetch - processPackages [minder.research-data-snapshots]: executing diffoscope
+[2024-04-24 10:06:08] INFO root fetch - processPackages [minder.research-data-snapshots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minder.research_data_snapshots-0.8-py3-none-any.whl.zip tmp/minder.research_data_snapshots-0.9-py3-none-any.whl.zip --markdown 20240424/m/minder.research-data-snapshots/0.8-0.9/README.md --exclude *.pyd
+[2024-04-24 10:06:08] INFO root fetch - processPackages [tablinum]: executing diffoscope
+[2024-04-24 10:06:08] INFO root fetch - processPackages [tablinum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablinum-0.1.1.tar.gz tmp/tablinum-0.1.2.tar.gz --markdown 20240424/t/tablinum/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-24 10:06:08] INFO root fetch - processPackages [openssa]: executing diffoscope
+[2024-04-24 10:06:08] INFO root fetch - processPackages [openssa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openssa-0.24.3.6.tar.gz tmp/openssa-0.24.4.24.tar.gz --markdown 20240424/o/openssa/0.24.3.6-0.24.4.24/README.md --exclude *.pyd
+[2024-04-24 10:06:09] INFO root fetch - processPackages [minder.research-data-snapshots]: Remove: archive file [/home/abi/fetcher/tmp/minder.research_data_snapshots-0.8-py3-none-any.whl.zip]
+[2024-04-24 10:06:09] INFO root fetch - processPackages [minder.research-data-snapshots]: Remove: archive file [/home/abi/fetcher/tmp/minder.research_data_snapshots-0.9-py3-none-any.whl.zip]
+[2024-04-24 10:06:09] INFO root fetch - main [MainThread]: End processing [minder.research-data-snapshots]: success
+[2024-04-24 10:06:09] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.90.tar.gz]
+[2024-04-24 10:06:09] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.91.tar.gz]
+[2024-04-24 10:06:09] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-24 10:06:09] INFO root fetch - processPackages [tablinum]: Remove: archive file [/home/abi/fetcher/tmp/tablinum-0.1.1.tar.gz]
+[2024-04-24 10:06:09] INFO root fetch - processPackages [tablinum]: Remove: archive file [/home/abi/fetcher/tmp/tablinum-0.1.2.tar.gz]
+[2024-04-24 10:06:09] INFO root fetch - main [MainThread]: End processing [tablinum]: success
+[2024-04-24 10:06:09] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/cb/e1/8517ee72841ff0154b3d6fa68449b5fcb91284aef4baeb223a52d549010c/OpenFisca-France-Local-6.9.0.tar.gz
+[2024-04-24 10:06:09] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240422.tar.gz]
+[2024-04-24 10:06:09] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240423.tar.gz]
+[2024-04-24 10:06:09] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-24 10:06:09] INFO root fetch - processPackages [openssa]: Remove: archive file [/home/abi/fetcher/tmp/openssa-0.24.3.6.tar.gz]
+[2024-04-24 10:06:09] INFO root fetch - processPackages [openssa]: Remove: archive file [/home/abi/fetcher/tmp/openssa-0.24.4.24.tar.gz]
+[2024-04-24 10:06:09] INFO root fetch - main [MainThread]: End processing [openssa]: success
+[2024-04-24 10:06:10] INFO root fetch - processPackages [OpenFisca-France-Local]: executing diffoscope
+[2024-04-24 10:06:10] INFO root fetch - processPackages [OpenFisca-France-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Local-6.8.0.tar.gz tmp/OpenFisca-France-Local-6.9.0.tar.gz --markdown 20240424/O/OpenFisca-France-Local/6.8.0-6.9.0/README.md --exclude *.pyd
+[2024-04-24 10:06:14] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-6.8.0.tar.gz]
+[2024-04-24 10:06:14] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-6.9.0.tar.gz]
+[2024-04-24 10:06:14] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
+[2024-04-24 10:06:14] INFO root fetch - main [MainThread]: Store serial: [22908832]
