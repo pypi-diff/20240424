@@ -7228,3 +7228,54 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:32:57] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
 [2024-04-24 03:32:57] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
 [2024-04-24 03:32:57] INFO root fetch - main [MainThread]: Store serial: [22905504]
+[2024-04-24 03:35:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905504]
+[2024-04-24 03:35:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 03:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-04-24 03:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elytra-ms
+[2024-04-24 03:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gtdbtk
+[2024-04-24 03:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chia-rs
+[2024-04-24 03:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bgpy-pkg
+[2024-04-24 03:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: darklock
+[2024-04-24 03:35:06] INFO root fetch - processPackages [elytra-ms]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-24 03:35:06] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/f5/b0/a3a1a2c780f8aba0bd93c8f5bda648235a978ccb26429598934647cdc0c9/elytra_ms-0.4.0.tar.gz
+[2024-04-24 03:35:06] INFO root fetch - processPackages [gtdbtk]: New version: [2.4.0] Old Version: [2.3.2]
+[2024-04-24 03:35:06] INFO root fetch - processPackages [bgpy-pkg]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-24 03:35:06] WARNING root fetch - processPackages [darklock]: Skipping, unable to determine old version
+[2024-04-24 03:35:06] INFO root fetch - main [MainThread]: End processing [darklock] error
+[2024-04-24 03:35:06] INFO root fetch - processPackages [elytra-ms]: Downloading https://files.pythonhosted.org/packages/28/cf/9882835f60e22bec0bf305471c0489d6060269e1612fe1c3347bc5dae4cc/elytra_ms-0.5.0.tar.gz
+[2024-04-24 03:35:06] INFO root fetch - processPackages [chia-rs]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-24 03:35:06] INFO root fetch - processPackages [gtdbtk]: Downloading https://files.pythonhosted.org/packages/5a/4b/2ed5ee6a35a0f9b4ec896e0b796aeb931824d82b9ca236665e5839b9a7a7/gtdbtk-2.3.2.tar.gz
+[2024-04-24 03:35:06] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/ea/3b/2e8e24281b70b883948dc5daab1f255de513ebd1982d30ee634848a49ce0/bgpy_pkg-7.0.8.tar.gz
+[2024-04-24 03:35:06] INFO root fetch - processPackages [elytra-ms]: executing diffoscope
+[2024-04-24 03:35:06] INFO root fetch - processPackages [elytra-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elytra_ms-0.4.0.tar.gz tmp/elytra_ms-0.5.0.tar.gz --markdown 20240424/e/elytra-ms/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-24 03:35:06] INFO root fetch - processPackages [chia-rs]: Downloading https://files.pythonhosted.org/packages/9c/b0/b85685c9aa6dcbabbb2da633b0d70548e0f99c84709eda301cf8e7ee5282/chia_rs-0.6.1.tar.gz
+[2024-04-24 03:35:07] INFO root fetch - processPackages [bgpy-pkg]: Downloading https://files.pythonhosted.org/packages/d5/dd/6e067a8d0771e80b63f00623b76bc84781e8d1f3ccb3d2a8a86366cdbb77/bgpy_pkg-7.0.9.tar.gz
+[2024-04-24 03:35:07] INFO root fetch - processPackages [gtdbtk]: Downloading https://files.pythonhosted.org/packages/c6/bd/b66510b12e1b143fcd6fd45a78a8c50cf8750e95d98ebcb5b496421ab279/gtdbtk-2.4.0.tar.gz
+[2024-04-24 03:35:07] INFO root fetch - processPackages [bgpy-pkg]: executing diffoscope
+[2024-04-24 03:35:07] INFO root fetch - processPackages [bgpy-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgpy_pkg-7.0.8.tar.gz tmp/bgpy_pkg-7.0.9.tar.gz --markdown 20240424/b/bgpy-pkg/7.0.8-7.0.9/README.md --exclude *.pyd
+[2024-04-24 03:35:07] INFO root fetch - processPackages [chia-rs]: Downloading https://files.pythonhosted.org/packages/cd/8e/08adda88b143f37558c1375f34b79c71dcd876aa029da67999786b23ac82/chia_rs-0.7.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-24 03:35:07] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.4.0.tar.gz]
+[2024-04-24 03:35:07] INFO root fetch - processPackages [elytra-ms]: Remove: archive file [/home/abi/fetcher/tmp/elytra_ms-0.5.0.tar.gz]
+[2024-04-24 03:35:07] INFO root fetch - main [MainThread]: End processing [elytra-ms]: success
+[2024-04-24 03:35:07] INFO root fetch - processPackages [gtdbtk]: executing diffoscope
+[2024-04-24 03:35:07] INFO root fetch - processPackages [gtdbtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtdbtk-2.3.2.tar.gz tmp/gtdbtk-2.4.0.tar.gz --markdown 20240424/g/gtdbtk/2.3.2-2.4.0/README.md --exclude *.pyd
+[2024-04-24 03:35:07] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-24 03:35:07] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-24 03:35:08] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.8.tar.gz]
+[2024-04-24 03:35:08] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.0.9.tar.gz]
+[2024-04-24 03:35:08] INFO root fetch - main [MainThread]: End processing [bgpy-pkg]: success
+[2024-04-24 03:35:08] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-24 03:35:08] INFO root fetch - processPackages [gtdbtk]: Remove: archive file [/home/abi/fetcher/tmp/gtdbtk-2.3.2.tar.gz]
+[2024-04-24 03:35:08] INFO root fetch - processPackages [gtdbtk]: Remove: archive file [/home/abi/fetcher/tmp/gtdbtk-2.4.0.tar.gz]
+[2024-04-24 03:35:08] INFO root fetch - main [MainThread]: End processing [gtdbtk]: success
+[2024-04-24 03:35:08] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-24 03:35:08] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240424/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-04-24 03:35:09] INFO root fetch - processPackages [chia-rs]: executing diffoscope
+[2024-04-24 03:35:09] INFO root fetch - processPackages [chia-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia_rs-0.6.1.tar.gz tmp/chia_rs-0.7.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240424/c/chia-rs/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-24 03:35:09] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 03:35:09] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 03:35:09] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-24 03:35:09] INFO root fetch - processPackages [chia-rs]: Remove: archive file [/home/abi/fetcher/tmp/chia_rs-0.6.1.tar.gz]
+[2024-04-24 03:35:09] INFO root fetch - processPackages [chia-rs]: Remove: archive file [/home/abi/fetcher/tmp/chia_rs-0.7.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-24 03:35:09] INFO root fetch - main [MainThread]: End processing [chia-rs]: success
+[2024-04-24 03:35:09] INFO root fetch - main [MainThread]: Store serial: [22905566]
