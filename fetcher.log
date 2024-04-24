@@ -16732,3 +16732,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:17:55] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.82.1.tar.gz]
 [2024-04-24 11:17:55] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
 [2024-04-24 11:17:55] INFO root fetch - main [MainThread]: Store serial: [22909671]
+[2024-04-24 11:20:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909671]
+[2024-04-24 11:20:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sae-lens
+[2024-04-24 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-24 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaggle_waggle
+[2024-04-24 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tabpfn-client
+[2024-04-24 11:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: murfey
+[2024-04-24 11:20:05] INFO root fetch - processPackages [sae-lens]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-24 11:20:05] INFO root fetch - processPackages [kaggle_waggle]: New version: [1.6.12a7] Old Version: [1.6.12a6]
+[2024-04-24 11:20:05] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-24 11:20:05] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/18/3d/714ae995dca38e849ed4c922b89d5a066a2865f4ba4962a44e07a52318b6/sae_lens-0.6.0.tar.gz
+[2024-04-24 11:20:05] INFO root fetch - processPackages [murfey]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 11:20:05] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-24 11:20:05] INFO root fetch - processPackages [tabpfn-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 11:20:05] INFO root fetch - processPackages [kaggle_waggle]: Downloading https://files.pythonhosted.org/packages/4b/2e/a8604b8bc7a2eeaae15e2193dcbf7ced35f75402e3cac5bebe9eb0f03bc7/kaggle_waggle-1.6.12a6.tar.gz
+[2024-04-24 11:20:05] WARNING root fetch - processPackages [kaggle_waggle]: Skipping package: exceeds size limit 24460952>=10485760
+[2024-04-24 11:20:05] INFO root fetch - main [MainThread]: End processing [kaggle_waggle] error
+[2024-04-24 11:20:05] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/9b/c9/bd667c29a81c3ee6cd89a4e3f33f2c55779448c5bfa49b37cabf02459fda/sae_lens-0.7.0.tar.gz
+[2024-04-24 11:20:05] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/80/b3/2a63cf17e883ec2bfb25a7e07bb4b569260172bd03d466bebbbd1c1b2545/murfey-0.9.8.tar.gz
+[2024-04-24 11:20:05] INFO root fetch - processPackages [tabpfn-client]: Downloading https://files.pythonhosted.org/packages/07/2d/d7888ba411e10c57009789dab962b15b12962a217fa37365548262598b41/tabpfn_client-0.0.8.tar.gz
+[2024-04-24 11:20:05] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-24 11:20:05] INFO root fetch - processPackages [sae-lens]: executing diffoscope
+[2024-04-24 11:20:05] INFO root fetch - processPackages [sae-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sae_lens-0.6.0.tar.gz tmp/sae_lens-0.7.0.tar.gz --markdown 20240424/s/sae-lens/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-24 11:20:05] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-24 11:20:05] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240424/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-24 11:20:05] INFO root fetch - processPackages [tabpfn-client]: Downloading https://files.pythonhosted.org/packages/2a/60/e34a10f0159fa3a7d7d73424d387418af37cfb5558aa1c42862467f27835/tabpfn_client-0.0.9.tar.gz
+[2024-04-24 11:20:05] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/41/36/17b8c3b4dd1ba8e5f1dccd6d6eaa0ccf95a84030a1a9869912aada70795e/murfey-0.9.9.tar.gz
+[2024-04-24 11:20:05] INFO root fetch - processPackages [tabpfn-client]: executing diffoscope
+[2024-04-24 11:20:05] INFO root fetch - processPackages [tabpfn-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabpfn_client-0.0.8.tar.gz tmp/tabpfn_client-0.0.9.tar.gz --markdown 20240424/t/tabpfn-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 11:20:06] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-0.6.0.tar.gz]
+[2024-04-24 11:20:06] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-0.7.0.tar.gz]
+[2024-04-24 11:20:06] INFO root fetch - main [MainThread]: End processing [sae-lens]: success
+[2024-04-24 11:20:06] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2024-04-24 11:20:06] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.9.8.tar.gz tmp/murfey-0.9.9.tar.gz --markdown 20240424/m/murfey/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 11:20:06] INFO root fetch - processPackages [tabpfn-client]: Remove: archive file [/home/abi/fetcher/tmp/tabpfn_client-0.0.8.tar.gz]
+[2024-04-24 11:20:06] INFO root fetch - processPackages [tabpfn-client]: Remove: archive file [/home/abi/fetcher/tmp/tabpfn_client-0.0.9.tar.gz]
+[2024-04-24 11:20:06] INFO root fetch - main [MainThread]: End processing [tabpfn-client]: success
+[2024-04-24 11:20:07] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.8.tar.gz]
+[2024-04-24 11:20:07] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.9.tar.gz]
+[2024-04-24 11:20:07] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2024-04-24 11:20:07] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-24 11:20:07] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-24 11:20:07] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-24 11:20:07] INFO root fetch - main [MainThread]: Store serial: [22909693]
