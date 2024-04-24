@@ -22323,3 +22323,96 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:22:55] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.32.tar.gz]
 [2024-04-24 14:22:55] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
 [2024-04-24 14:22:55] INFO root fetch - main [MainThread]: Store serial: [22911963]
+[2024-04-24 14:25:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911963]
+[2024-04-24 14:25:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windmill-api
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-langchain
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill-pg
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finml-utils
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightningtoolkit
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-autogen
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-admin-assets
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-crewai
+[2024-04-24 14:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyscript-ltk
+[2024-04-24 14:25:20] INFO root fetch - processPackages [finml-utils]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [pyscript-ltk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1510] Old Version: [1.0.0.post1509]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [finml-utils]: Downloading https://files.pythonhosted.org/packages/87/fd/ebe045b4f4e167dbbccc25b642730f25a1a53bfb99b3324ee0d98757b616/finml_utils-2.1.7.tar.gz
+[2024-04-24 14:25:20] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [lightningtoolkit]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 14:25:20] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [pyscript-ltk]: Downloading https://files.pythonhosted.org/packages/28/6e/96be52ee89b9a24fc42d6a4a18618ca41a2b1437aed89200641a3ad7cc13/pyscript-ltk-0.1.8.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/d4/2b/4d0d67bfb21c9958e99c7d356ab18827150f8400601675709bbdec45d6b5/nucliadb_admin_assets-1.0.0.post1509-py3-none-any.whl
+[2024-04-24 14:25:21] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [lightningtoolkit]: Downloading https://files.pythonhosted.org/packages/d4/90/6006ee827ba80da4e802a701627696944b4f8d406f8081d9e64335b0162c/lightningtoolkit-1.0.0-py3-none-any.whl
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [finml-utils]: Downloading https://files.pythonhosted.org/packages/f9/17/93f92d9e4c3d59d765aa482b70499155d3117a2ca9846682bc336947e463/finml_utils-2.1.8.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [pyscript-ltk]: Downloading https://files.pythonhosted.org/packages/a3/ee/ecb05ed84434f45a5ad24d6b5fdb04a89d83f6efe69dd691866b7eaee6e9/pyscript-ltk-0.1.9.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240424/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 14:25:21] INFO root fetch - processPackages [finml-utils]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [finml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finml_utils-2.1.7.tar.gz tmp/finml_utils-2.1.8.tar.gz --markdown 20240424/f/finml-utils/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-24 14:25:21] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/87/0e/04ceb86b6feed90b278a683df607e41269d60cc42156da5a18a11b1363b1/nucliadb_admin_assets-1.0.0.post1510-py3-none-any.whl
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240424/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 14:25:21] INFO root fetch - processPackages [pyscript-ltk]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [pyscript-ltk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscript-ltk-0.1.8.tar.gz tmp/pyscript-ltk-0.1.9.tar.gz --markdown 20240424/p/pyscript-ltk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 14:25:21] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240424/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240424/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 14:25:21] INFO root fetch - processPackages [lightningtoolkit]: Downloading https://files.pythonhosted.org/packages/c9/48/27f3dbcf9185e3363c938d83e8d033d0bafd4b870aaa7e15eda0306bc928/lightningtoolkit-1.0.1.tar.gz
+[2024-04-24 14:25:21] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240424/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-24 14:25:21] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240424/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-24 14:25:21] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1509-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1510-py3-none-any.whl.zip --markdown 20240424/n/nucliadb-admin-assets/1.0.0.post1509-1.0.0.post1510/README.md --exclude *.pyd
+[2024-04-24 14:25:21] INFO root fetch - processPackages [lightningtoolkit]: executing diffoscope
+[2024-04-24 14:25:21] INFO root fetch - processPackages [lightningtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningtoolkit-1.0.0-py3-none-any.whl.zip tmp/lightningtoolkit-1.0.1.tar.gz --markdown 20240424/l/lightningtoolkit/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 14:25:22] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-24 14:25:22] INFO root fetch - processPackages [finml-utils]: Remove: archive file [/home/abi/fetcher/tmp/finml_utils-2.1.7.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - processPackages [finml-utils]: Remove: archive file [/home/abi/fetcher/tmp/finml_utils-2.1.8.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - main [MainThread]: End processing [finml-utils]: success
+[2024-04-24 14:25:22] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-24 14:25:22] INFO root fetch - processPackages [lightningtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/lightningtoolkit-1.0.0-py3-none-any.whl.zip]
+[2024-04-24 14:25:22] INFO root fetch - processPackages [lightningtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/lightningtoolkit-1.0.1.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - main [MainThread]: End processing [lightningtoolkit]: success
+[2024-04-24 14:25:22] INFO root fetch - processPackages [pyscript-ltk]: Remove: archive file [/home/abi/fetcher/tmp/pyscript-ltk-0.1.8.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - processPackages [pyscript-ltk]: Remove: archive file [/home/abi/fetcher/tmp/pyscript-ltk-0.1.9.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - main [MainThread]: End processing [pyscript-ltk]: success
+[2024-04-24 14:25:22] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-24 14:25:22] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-24 14:25:22] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-24 14:25:22] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-24 14:25:25] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-24 14:25:25] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-24 14:25:25] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-24 14:25:36] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1509-py3-none-any.whl.zip]
+[2024-04-24 14:25:36] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1510-py3-none-any.whl.zip]
+[2024-04-24 14:25:36] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-24 14:25:36] INFO root fetch - main [MainThread]: Store serial: [22911993]
