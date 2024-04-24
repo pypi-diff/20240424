@@ -9065,3 +9065,27 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:28:01] INFO root fetch - processPackages [pyleniumio]: Remove: archive file [/home/abi/fetcher/tmp/pyleniumio-1.9.8.tar.gz]
 [2024-04-24 05:28:01] INFO root fetch - main [MainThread]: End processing [pyleniumio]: success
 [2024-04-24 05:28:01] INFO root fetch - main [MainThread]: Store serial: [22906419]
+[2024-04-24 05:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906419]
+[2024-04-24 05:30:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 05:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp-nightly
+[2024-04-24 05:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batchtk
+[2024-04-24 05:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-xlibrary
+[2024-04-24 05:30:09] WARNING root fetch - processPackages [batchtk]: Skipping, unable to determine old version
+[2024-04-24 05:30:09] INFO root fetch - main [MainThread]: End processing [batchtk] error
+[2024-04-24 05:30:09] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [11.0.4] Old Version: [11.0.3]
+[2024-04-24 05:30:09] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/55/bf/e4fcdb20b4c37ee27bd6107be7076a78b17022740834b8b5373a1902ac06/robotframework-xlibrary-11.0.3.tar.gz
+[2024-04-24 05:30:09] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-04-24 05:30:09] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/39/9a/8f691edd5dacc88cf7817a53b0a412c522b34a3c116664e4b7884d1d0ea2/robotframework-xlibrary-11.0.4.tar.gz
+[2024-04-24 05:30:09] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-04-24 05:30:10] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-04-24 05:30:10] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-11.0.3.tar.gz tmp/robotframework-xlibrary-11.0.4.tar.gz --markdown 20240424/r/robotframework-xlibrary/11.0.3-11.0.4/README.md --exclude *.pyd
+[2024-04-24 05:30:10] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-04-24 05:30:10] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-24 05:30:10] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240424/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-04-24 05:30:10] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.3.tar.gz]
+[2024-04-24 05:30:10] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.4.tar.gz]
+[2024-04-24 05:30:10] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-04-24 05:30:11] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-04-24 05:30:11] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-04-24 05:30:11] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-24 05:30:11] INFO root fetch - main [MainThread]: Store serial: [22906428]
