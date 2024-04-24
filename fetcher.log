@@ -11793,3 +11793,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:11:42] INFO root fetch - processPackages [git-reviewers]: Remove: archive file [/home/abi/fetcher/tmp/git-reviewers-0.9.0.tar.gz]
 [2024-04-24 08:11:42] INFO root fetch - main [MainThread]: End processing [git-reviewers]: success
 [2024-04-24 08:11:42] INFO root fetch - main [MainThread]: Store serial: [22907441]
+[2024-04-24 08:13:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907441]
+[2024-04-24 08:13:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elody
+[2024-04-24 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npc_lims
+[2024-04-24 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-stock-logistics-orderpoint
+[2024-04-24 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-test-common
+[2024-04-24 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyg-nightly
+[2024-04-24 08:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-average-daily-sale
+[2024-04-24 08:13:51] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240423] Old Version: [2.6.0.dev20240422]
+[2024-04-24 08:13:51] INFO root fetch - processPackages [odoo-addon-stock-average-daily-sale]: New version: [16.0.1.0.0.18] Old Version: [16.0.1.0.0.17]
+[2024-04-24 08:13:51] INFO root fetch - processPackages [npc_lims]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 08:13:51] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-orderpoint]: New version: [16.0.20240423.0] Old Version: [16.0.20231113.0]
+[2024-04-24 08:13:51] INFO root fetch - processPackages [auto-test-common]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-24 08:13:51] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 08:13:51] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7c/85/418d01c7b7528ff67976d9f5415a8339eea452e695fd44cb8a90dad6fe59/pyg_nightly-2.6.0.dev20240422.tar.gz
+[2024-04-24 08:13:51] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/eb/a3/a72478dcef25d9b46c35b7730c5c9a426e07354369fb652045cc1befbe7e/npc_lims-0.1.98.tar.gz
+[2024-04-24 08:13:51] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-orderpoint]: Downloading https://files.pythonhosted.org/packages/8a/68/2c68dabeab0fc0c97390f3ff036cc03d8b1d65e234b92e17ce43ff9c327f/odoo_addons_oca_stock_logistics_orderpoint-16.0.20231113.0-py3-none-any.whl
+[2024-04-24 08:13:51] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/b2/af/5515000445751ddaece2e1b3afa4ac1fa7364bcd03ad38ba19a9b7c7c63a/auto-test-common-2.0.0.tar.gz
+[2024-04-24 08:13:51] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2024-04-24 08:13:51] INFO root fetch - processPackages [odoo-addon-stock-average-daily-sale]: Downloading https://files.pythonhosted.org/packages/83/14/3f08ce26fafcdfda6226ce8c0f320452b1d40484f56aa728b22effe74ca5/odoo_addon_stock_average_daily_sale-16.0.1.0.0.17-py3-none-any.whl
+[2024-04-24 08:13:52] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/84/f1/043f1a94e0cd8ca4294d0e4b474438f8d6de60ad8aa15211a23cb27e3aaf/pyg_nightly-2.6.0.dev20240423.tar.gz
+[2024-04-24 08:13:52] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/20/8f/2a3ef0e71c09fd01ba3685a9f92c448766eab8a9e83f1e03e62e90091e0a/npc_lims-0.1.99.tar.gz
+[2024-04-24 08:13:52] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2024-04-24 08:13:52] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-orderpoint]: Downloading https://files.pythonhosted.org/packages/47/56/3527623983d8e489a8266d8c97f367e5317ce5e670b41a502aca5329c4c9/odoo_addons_oca_stock_logistics_orderpoint-16.0.20240423.0-py3-none-any.whl
+[2024-04-24 08:13:52] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/d0/c5/d6ee84c5835c2f74e148ac45b556fc222a16ca4e6d9e8cca375893490b92/auto-test-common-2.0.1.tar.gz
+[2024-04-24 08:13:52] INFO root fetch - processPackages [odoo-addon-stock-average-daily-sale]: Downloading https://files.pythonhosted.org/packages/cf/fd/3a643b7d3a669316ed50f2f126cb99d63644fcf8b7d0d9e5db2d3f39142d/odoo_addon_stock_average_daily_sale-16.0.1.0.0.18-py3-none-any.whl
+[2024-04-24 08:13:52] INFO root fetch - processPackages [npc_lims]: executing diffoscope
+[2024-04-24 08:13:52] INFO root fetch - processPackages [npc_lims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_lims-0.1.98.tar.gz tmp/npc_lims-0.1.99.tar.gz --markdown 20240424/n/npc_lims/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 08:13:52] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-orderpoint]: executing diffoscope
+[2024-04-24 08:13:52] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-orderpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_orderpoint-16.0.20231113.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_orderpoint-16.0.20240423.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addons-oca-stock-logistics-orderpoint/16.0.20231113.0-16.0.20240423.0/README.md --exclude *.pyd
+[2024-04-24 08:13:52] INFO root fetch - processPackages [elody]: executing diffoscope
+[2024-04-24 08:13:52] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20240424/e/elody/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 08:13:52] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-24 08:13:52] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240422.tar.gz tmp/pyg_nightly-2.6.0.dev20240423.tar.gz --markdown 20240424/p/pyg-nightly/2.6.0.dev20240422-2.6.0.dev20240423/README.md --exclude *.pyd
+[2024-04-24 08:13:52] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-04-24 08:13:52] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-2.0.0.tar.gz tmp/auto-test-common-2.0.1.tar.gz --markdown 20240424/a/auto-test-common/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-24 08:13:52] INFO root fetch - processPackages [odoo-addon-stock-average-daily-sale]: executing diffoscope
+[2024-04-24 08:13:52] INFO root fetch - processPackages [odoo-addon-stock-average-daily-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_average_daily_sale-16.0.1.0.0.17-py3-none-any.whl.zip tmp/odoo_addon_stock_average_daily_sale-16.0.1.0.0.18-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-stock-average-daily-sale/16.0.1.0.0.17-16.0.1.0.0.18/README.md --exclude *.pyd
+[2024-04-24 08:13:53] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_orderpoint-16.0.20231113.0-py3-none-any.whl.zip]
+[2024-04-24 08:13:53] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_orderpoint-16.0.20240423.0-py3-none-any.whl.zip]
+[2024-04-24 08:13:53] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-orderpoint]: success
+[2024-04-24 08:13:53] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2024-04-24 08:13:53] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2024-04-24 08:13:53] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2024-04-24 08:13:53] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.98.tar.gz]
+[2024-04-24 08:13:53] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.99.tar.gz]
+[2024-04-24 08:13:53] INFO root fetch - main [MainThread]: End processing [npc_lims]: success
+[2024-04-24 08:13:53] INFO root fetch - processPackages [odoo-addon-stock-average-daily-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_average_daily_sale-16.0.1.0.0.17-py3-none-any.whl.zip]
+[2024-04-24 08:13:53] INFO root fetch - processPackages [odoo-addon-stock-average-daily-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_average_daily_sale-16.0.1.0.0.18-py3-none-any.whl.zip]
+[2024-04-24 08:13:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-average-daily-sale]: success
+[2024-04-24 08:13:53] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.0.tar.gz]
+[2024-04-24 08:13:53] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.1.tar.gz]
+[2024-04-24 08:13:53] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-04-24 08:13:54] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240422.tar.gz]
+[2024-04-24 08:13:54] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240423.tar.gz]
+[2024-04-24 08:13:54] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-24 08:13:54] INFO root fetch - main [MainThread]: Store serial: [22907456]
