@@ -8289,3 +8289,57 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:45:29] INFO root fetch - processPackages [python-configuration]: Remove: archive file [/home/abi/fetcher/tmp/python_configuration-0.9.1.tar.gz]
 [2024-04-24 04:45:29] INFO root fetch - main [MainThread]: End processing [python-configuration]: success
 [2024-04-24 04:45:29] INFO root fetch - main [MainThread]: Store serial: [22905954]
+[2024-04-24 04:47:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905954]
+[2024-04-24 04:47:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldjcourse
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docugami-langchain
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linktools
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkle-log
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wavelink
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: defendatron
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: darklock
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ldjcourse]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-04-24 04:47:39] WARNING root fetch - processPackages [darklock]: Skipping, unable to determine old version
+[2024-04-24 04:47:39] INFO root fetch - main [MainThread]: End processing [darklock] error
+[2024-04-24 04:47:39] INFO root fetch - processPackages [defendatron]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/3a/31/944ae63f69490efebbc2f4556eb2ac64676a29db8789c6251853b8cf45a2/ldjcourse-0.0.7.8.tar.gz
+[2024-04-24 04:47:39] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.7rc9] Old Version: [0.0.7rc8]
+[2024-04-24 04:47:39] WARNING root fetch - processPackages [sparkle-log]: Skipping, unable to determine old version
+[2024-04-24 04:47:39] INFO root fetch - main [MainThread]: End processing [sparkle-log] error
+[2024-04-24 04:47:39] INFO root fetch - processPackages [linktools]: New version: [0.8.5rc0] Old Version: [0.8.4rc0]
+[2024-04-24 04:47:39] INFO root fetch - processPackages [wavelink]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-24 04:47:39] INFO root fetch - processPackages [defendatron]: Downloading https://files.pythonhosted.org/packages/08/17/0c29872bc827d9fd08202236664553dc759ede1275a0ce3e86bdc5fc2d24/defendatron-0.1.0.tar.gz
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ldjcourse]: Downloading https://files.pythonhosted.org/packages/b4/fa/c89a3aa31269ae21e83af15a6525b1a74639b9340e4abaf00fe86c9ceb50/ldjcourse-0.0.7.9.tar.gz
+[2024-04-24 04:47:39] INFO root fetch - processPackages [wavelink]: Downloading https://files.pythonhosted.org/packages/48/f9/44a4e491057bf876ba8c279d17c727ed401c67b7a469a258701275da0680/wavelink-3.2.0.tar.gz
+[2024-04-24 04:47:39] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/61/fb/e065e9733519fa7f9c379746d05be5069415a0888c754b8d12a4b7595069/docugami_langchain-0.0.7rc8.tar.gz
+[2024-04-24 04:47:39] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/ea/8f/f75ab09c8009bca4ef2dc843f5eaef4897808e23208ca089f5e2ded27836/linktools-0.8.4rc0.tar.gz
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ldjcourse]: executing diffoscope
+[2024-04-24 04:47:39] INFO root fetch - processPackages [ldjcourse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldjcourse-0.0.7.8.tar.gz tmp/ldjcourse-0.0.7.9.tar.gz --markdown 20240424/l/ldjcourse/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-04-24 04:47:39] INFO root fetch - processPackages [defendatron]: Downloading https://files.pythonhosted.org/packages/ba/df/7228ad091ba898677a37bae216decd81bf490adee7660661140a204989e7/defendatron-0.1.1.tar.gz
+[2024-04-24 04:47:39] INFO root fetch - processPackages [defendatron]: executing diffoscope
+[2024-04-24 04:47:39] INFO root fetch - processPackages [defendatron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defendatron-0.1.0.tar.gz tmp/defendatron-0.1.1.tar.gz --markdown 20240424/d/defendatron/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 04:47:39] INFO root fetch - processPackages [wavelink]: Downloading https://files.pythonhosted.org/packages/12/84/07af16bed7f34189a53048c3ffde3b8efb7567d626a9080a2499c4b2adaa/wavelink-3.3.0.tar.gz
+[2024-04-24 04:47:40] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/7f/9c/846b236d27fedf1793667f5bdd5f984b4ede9b2f7d8cc9c0120bb3b50b02/linktools-0.8.5rc0.tar.gz
+[2024-04-24 04:47:40] INFO root fetch - processPackages [wavelink]: executing diffoscope
+[2024-04-24 04:47:40] INFO root fetch - processPackages [wavelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wavelink-3.2.0.tar.gz tmp/wavelink-3.3.0.tar.gz --markdown 20240424/w/wavelink/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-04-24 04:47:40] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/d3/dc/ebfc94d3428173a7827916947f5e84317c665bab439e99dd9fd634dcc60f/docugami_langchain-0.0.7rc9.tar.gz
+[2024-04-24 04:47:40] INFO root fetch - processPackages [linktools]: executing diffoscope
+[2024-04-24 04:47:40] INFO root fetch - processPackages [linktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktools-0.8.4rc0.tar.gz tmp/linktools-0.8.5rc0.tar.gz --markdown 20240424/l/linktools/0.8.4rc0-0.8.5rc0/README.md --exclude *.pyd
+[2024-04-24 04:47:40] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-04-24 04:47:40] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.7rc8.tar.gz tmp/docugami_langchain-0.0.7rc9.tar.gz --markdown 20240424/d/docugami-langchain/0.0.7rc8-0.0.7rc9/README.md --exclude *.pyd
+[2024-04-24 04:47:40] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.8.tar.gz]
+[2024-04-24 04:47:40] INFO root fetch - processPackages [ldjcourse]: Remove: archive file [/home/abi/fetcher/tmp/ldjcourse-0.0.7.9.tar.gz]
+[2024-04-24 04:47:40] INFO root fetch - main [MainThread]: End processing [ldjcourse]: success
+[2024-04-24 04:47:40] INFO root fetch - processPackages [defendatron]: Remove: archive file [/home/abi/fetcher/tmp/defendatron-0.1.0.tar.gz]
+[2024-04-24 04:47:40] INFO root fetch - processPackages [defendatron]: Remove: archive file [/home/abi/fetcher/tmp/defendatron-0.1.1.tar.gz]
+[2024-04-24 04:47:40] INFO root fetch - main [MainThread]: End processing [defendatron]: success
+[2024-04-24 04:47:40] INFO root fetch - processPackages [wavelink]: Remove: archive file [/home/abi/fetcher/tmp/wavelink-3.2.0.tar.gz]
+[2024-04-24 04:47:40] INFO root fetch - processPackages [wavelink]: Remove: archive file [/home/abi/fetcher/tmp/wavelink-3.3.0.tar.gz]
+[2024-04-24 04:47:40] INFO root fetch - main [MainThread]: End processing [wavelink]: success
+[2024-04-24 04:47:40] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.7rc8.tar.gz]
+[2024-04-24 04:47:40] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.7rc9.tar.gz]
+[2024-04-24 04:47:40] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-04-24 04:47:41] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.4rc0.tar.gz]
+[2024-04-24 04:47:41] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.5rc0.tar.gz]
+[2024-04-24 04:47:41] INFO root fetch - main [MainThread]: End processing [linktools]: success
+[2024-04-24 04:47:41] INFO root fetch - main [MainThread]: Store serial: [22906072]
