@@ -18804,3 +18804,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:24:11] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
 [2024-04-24 12:24:11] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
 [2024-04-24 12:24:11] INFO root fetch - main [MainThread]: Store serial: [22910425]
+[2024-04-24 12:28:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910425]
+[2024-04-24 12:28:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profilecard
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gliner
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybfbc2stats
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ragstack-ai-colbert
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webex-bot
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feyn
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mo-threads
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mergecraft
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chess2vec
+[2024-04-24 12:28:32] INFO root fetch - processPackages [profilecard]: New version: [1.0.6] Old Version: [1.0.4]
+[2024-04-24 12:28:32] WARNING root fetch - processPackages [ctrip-app-ui]: Skipping, unable to determine old version
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ctrip-app-ui]: Start processing: SilverStreamingApplicationPoC
+[2024-04-24 12:28:32] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui] error
+[2024-04-24 12:28:32] INFO root fetch - processPackages [chess2vec]: New version: [0.3.2b1] Old Version: [0.3.2]
+[2024-04-24 12:28:32] INFO root fetch - processPackages [pybfbc2stats]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-04-24 12:28:32] INFO root fetch - processPackages [mergecraft]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-24 12:28:32] INFO root fetch - processPackages [mo-threads]: New version: [6.601.24115] Old Version: [6.600.24114]
+[2024-04-24 12:28:32] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: New version: [1.9] Old Version: [1.8]
+[2024-04-24 12:28:32] WARNING root fetch - processPackages [ragstack-ai-colbert]: Skipping, unable to determine old version
+[2024-04-24 12:28:32] INFO root fetch - processPackages [ragstack-ai-colbert]: Start processing: panasonic-viera
+[2024-04-24 12:28:32] INFO root fetch - main [MainThread]: End processing [ragstack-ai-colbert] error
+[2024-04-24 12:28:32] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/a4/33/b918e51bc033a5da96065dd6e383f913c05827e6e61826153a12ee029164/chess2vec-0.3.2.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [webex-bot]: New version: [0.4.6] Old Version: [0.4.1]
+[2024-04-24 12:28:32] INFO root fetch - processPackages [profilecard]: Downloading https://files.pythonhosted.org/packages/41/a2/fb8f6c7287c1ea9a3f228e29fd8acf95e77ec5be015e6a671f1ce2c719aa/profilecard-1.0.4.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [gliner]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 12:28:32] INFO root fetch - processPackages [feyn]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-24 12:28:32] INFO root fetch - processPackages [pybfbc2stats]: Downloading https://files.pythonhosted.org/packages/7a/9e/9beea54b741631bd0b6207af43cdf485a09e4034149509c867421916f349/pybfbc2stats-0.7.2.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/4f/f4/ebacd6f89d26e89b19fc9e801dafaaccff96d22b8a3f8925a2d0b3405bf6/mo_threads-6.600.24114.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/3e/79/6bd5cd58779babe514976ab9ee5dea77faa1968cb2b205686a90b885f49c/SilverStreamingApplicationPoC-1.8-py3-none-any.whl
+[2024-04-24 12:28:32] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/3d/60/58b692fe3f023a874144db8ba24e6d69cf789af68023d501d0e111cbaff3/mergecraft-0.0.6.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [panasonic-viera]: New version: [0.4.2] Old Version: [0.4.0]
+[2024-04-24 12:28:32] INFO root fetch - processPackages [webex-bot]: Downloading https://files.pythonhosted.org/packages/ad/33/0dd88a5364a3e939bec14c61edeb4b4016393043cb62e5c03395c7d3964d/webex_bot-0.4.1.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [gliner]: Downloading https://files.pythonhosted.org/packages/4a/ee/c794dd4d843e1b869cfa087fb4f5065174e23201cb216a6920ae919a0702/gliner-0.1.8.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [feyn]: Downloading https://files.pythonhosted.org/packages/d8/72/c7136d87d82d0d693a2551e45e9258f7e3dfe9713bf21a413d999c8b54b1/feyn-3.3.0-cp39-cp39-win_amd64.whl
+[2024-04-24 12:28:32] INFO root fetch - processPackages [panasonic-viera]: Downloading https://files.pythonhosted.org/packages/2f/5e/56368d657f5d7f1b40e91de5437cb35863ea9ff0767e5c49e1c3b366e9fa/panasonic_viera-0.4.0.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [pybfbc2stats]: Downloading https://files.pythonhosted.org/packages/c6/ca/ead9364c480359ec8fe0e609e74f77c0c2694efaf5a591f35a72f6718c4f/pybfbc2stats-0.8.0.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [profilecard]: Downloading https://files.pythonhosted.org/packages/d3/dd/6e7dec8a968e18c9c062f84bc7c35dba81994a27d8a5b32f2a8e2c1522e5/profilecard-1.0.6.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/03/00/a4653059a0d5f91fcc7c1c2d1f088d25922246384d933009197d09bf7d09/chess2vec-0.3.2b1.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/1b/e2/18bf2530d5e8cc85b69fe71288a3d78ca91633769a6bf358b0d1c5191fe4/mo_threads-6.601.24115.tar.gz
+[2024-04-24 12:28:32] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Downloading https://files.pythonhosted.org/packages/fd/62/6d1a597c3f271b42757dc7ccb835feea26243fba3268aa446f97ff638149/SilverStreamingApplicationPoC-1.9-py3-none-any.whl
+[2024-04-24 12:28:33] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/2f/6d/30a55a3e2e0a4ec1993d75ea02d097b935bf00edd133ae677b0b3c828e62/mergecraft-0.0.7.tar.gz
+[2024-04-24 12:28:33] INFO root fetch - processPackages [pybfbc2stats]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [pybfbc2stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybfbc2stats-0.7.2.tar.gz tmp/pybfbc2stats-0.8.0.tar.gz --markdown 20240424/p/pybfbc2stats/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-04-24 12:28:33] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_threads-6.600.24114.tar.gz tmp/mo_threads-6.601.24115.tar.gz --markdown 20240424/m/mo-threads/6.600.24114-6.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:28:33] INFO root fetch - processPackages [profilecard]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [profilecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profilecard-1.0.4.tar.gz tmp/profilecard-1.0.6.tar.gz --markdown 20240424/p/profilecard/1.0.4-1.0.6/README.md --exclude *.pyd
+[2024-04-24 12:28:33] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.3.2.tar.gz tmp/chess2vec-0.3.2b1.tar.gz --markdown 20240424/c/chess2vec/0.3.2-0.3.2b1/README.md --exclude *.pyd
+[2024-04-24 12:28:33] INFO root fetch - processPackages [webex-bot]: Downloading https://files.pythonhosted.org/packages/9f/30/952e60d4f938254c7f92fd56dd912a0a0459c753bc42e9b83a25762e77d5/webex_bot-0.4.6.tar.gz
+[2024-04-24 12:28:33] INFO root fetch - processPackages [gliner]: Downloading https://files.pythonhosted.org/packages/54/53/182c5c1b761ab40ca0d4b9b3dfdd6aa606d105eb3ad7d4c743fbcca13471/gliner-0.1.9.tar.gz
+[2024-04-24 12:28:33] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip --markdown 20240424/S/SilverStreamingApplicationPoC/1.8-1.9/README.md --exclude *.pyd
+[2024-04-24 12:28:33] INFO root fetch - processPackages [feyn]: Downloading https://files.pythonhosted.org/packages/e4/88/f767b75e562ecc0c988a3f12e57169c4d888d0cbf26313f982cb670ae9d9/feyn-3.3.1-cp39-cp39-win_amd64.whl
+[2024-04-24 12:28:33] INFO root fetch - processPackages [mergecraft]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [mergecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergecraft-0.0.6.tar.gz tmp/mergecraft-0.0.7.tar.gz --markdown 20240424/m/mergecraft/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-24 12:28:33] INFO root fetch - processPackages [webex-bot]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [webex-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webex_bot-0.4.1.tar.gz tmp/webex_bot-0.4.6.tar.gz --markdown 20240424/w/webex-bot/0.4.1-0.4.6/README.md --exclude *.pyd
+[2024-04-24 12:28:33] INFO root fetch - processPackages [panasonic-viera]: Downloading https://files.pythonhosted.org/packages/ff/6c/1ff31d78c4392b901a8f55a0e76be1a61bea04019b5ef0c226dec7a5d7e3/panasonic_viera-0.4.2.tar.gz
+[2024-04-24 12:28:33] INFO root fetch - processPackages [gliner]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [gliner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gliner-0.1.8.tar.gz tmp/gliner-0.1.9.tar.gz --markdown 20240424/g/gliner/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 12:28:33] INFO root fetch - processPackages [panasonic-viera]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [panasonic-viera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panasonic_viera-0.4.0.tar.gz tmp/panasonic_viera-0.4.2.tar.gz --markdown 20240424/p/panasonic-viera/0.4.0-0.4.2/README.md --exclude *.pyd
+[2024-04-24 12:28:33] INFO root fetch - processPackages [feyn]: executing diffoscope
+[2024-04-24 12:28:33] INFO root fetch - processPackages [feyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feyn-3.3.0-cp39-cp39-win_amd64.whl.zip tmp/feyn-3.3.1-cp39-cp39-win_amd64.whl.zip --markdown 20240424/f/feyn/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-04-24 12:28:34] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.3.2.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.3.2b1.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [chess2vec]: Start processing: recsyslearn
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-24 12:28:34] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.6.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.7.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.8-py3-none-any.whl.zip]
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [mergecraft]: success
+[2024-04-24 12:28:34] INFO root fetch - processPackages [SilverStreamingApplicationPoC]: Remove: archive file [/home/abi/fetcher/tmp/SilverStreamingApplicationPoC-1.9-py3-none-any.whl.zip]
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [SilverStreamingApplicationPoC]: success
+[2024-04-24 12:28:34] INFO root fetch - processPackages [profilecard]: Remove: archive file [/home/abi/fetcher/tmp/profilecard-1.0.4.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [profilecard]: Remove: archive file [/home/abi/fetcher/tmp/profilecard-1.0.6.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [profilecard]: success
+[2024-04-24 12:28:34] INFO root fetch - processPackages [pybfbc2stats]: Remove: archive file [/home/abi/fetcher/tmp/pybfbc2stats-0.7.2.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [pybfbc2stats]: Remove: archive file [/home/abi/fetcher/tmp/pybfbc2stats-0.8.0.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [pybfbc2stats]: success
+[2024-04-24 12:28:34] INFO root fetch - processPackages [panasonic-viera]: Remove: archive file [/home/abi/fetcher/tmp/panasonic_viera-0.4.0.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [panasonic-viera]: Remove: archive file [/home/abi/fetcher/tmp/panasonic_viera-0.4.2.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [panasonic-viera]: success
+[2024-04-24 12:28:34] INFO root fetch - processPackages [recsyslearn]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [webex-bot]: Remove: archive file [/home/abi/fetcher/tmp/webex_bot-0.4.1.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.600.24114.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [webex-bot]: Remove: archive file [/home/abi/fetcher/tmp/webex_bot-0.4.6.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.601.24115.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [webex-bot]: success
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2024-04-24 12:28:34] INFO root fetch - processPackages [gliner]: Remove: archive file [/home/abi/fetcher/tmp/gliner-0.1.8.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [gliner]: Remove: archive file [/home/abi/fetcher/tmp/gliner-0.1.9.tar.gz]
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [gliner]: success
+[2024-04-24 12:28:34] INFO root fetch - processPackages [recsyslearn]: Downloading https://files.pythonhosted.org/packages/69/86/4f6dac632c340ad2c9a246a06dae5a4a136c8b7e87b29c47f82434ee3e4b/recsyslearn-2.0.0.tar.gz
+[2024-04-24 12:28:34] INFO root fetch - processPackages [feyn]: Remove: archive file [/home/abi/fetcher/tmp/feyn-3.3.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 12:28:34] INFO root fetch - processPackages [feyn]: Remove: archive file [/home/abi/fetcher/tmp/feyn-3.3.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 12:28:34] INFO root fetch - main [MainThread]: End processing [feyn]: success
+[2024-04-24 12:28:35] INFO root fetch - processPackages [recsyslearn]: Downloading https://files.pythonhosted.org/packages/c0/7a/48bdb7a0d76727946b5c0cbf3e562f9edeb1d539b896046b58c634ecd0c0/recsyslearn-2.0.1.tar.gz
+[2024-04-24 12:28:35] INFO root fetch - processPackages [recsyslearn]: executing diffoscope
+[2024-04-24 12:28:35] INFO root fetch - processPackages [recsyslearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recsyslearn-2.0.0.tar.gz tmp/recsyslearn-2.0.1.tar.gz --markdown 20240424/r/recsyslearn/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-24 12:28:36] INFO root fetch - processPackages [recsyslearn]: Remove: archive file [/home/abi/fetcher/tmp/recsyslearn-2.0.0.tar.gz]
+[2024-04-24 12:28:36] INFO root fetch - processPackages [recsyslearn]: Remove: archive file [/home/abi/fetcher/tmp/recsyslearn-2.0.1.tar.gz]
+[2024-04-24 12:28:36] INFO root fetch - main [MainThread]: End processing [recsyslearn]: success
+[2024-04-24 12:28:36] INFO root fetch - main [MainThread]: Store serial: [22910507]
