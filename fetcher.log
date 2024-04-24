@@ -11984,3 +11984,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:22:56] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0.3-py3-none-any.whl.zip]
 [2024-04-24 08:22:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
 [2024-04-24 08:22:56] INFO root fetch - main [MainThread]: Store serial: [22907502]
+[2024-04-24 08:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907502]
+[2024-04-24 08:25:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarers.aws-secure-frontend-web-app-cloudfront-distribution
+[2024-04-24 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th-influx-sdk
+[2024-04-24 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rcquant-sdk
+[2024-04-24 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinybird-cli
+[2024-04-24 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paraforge
+[2024-04-24 08:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TitanDevice
+[2024-04-24 08:25:06] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 08:25:06] INFO root fetch - processPackages [TitanDevice]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-24 08:25:06] WARNING root fetch - processPackages [paraforge]: Skipping, unable to determine old version
+[2024-04-24 08:25:06] INFO root fetch - main [MainThread]: End processing [paraforge] error
+[2024-04-24 08:25:06] INFO root fetch - processPackages [tinybird-cli]: New version: [3.9.1.dev1] Old Version: [3.8.2.dev2]
+[2024-04-24 08:25:06] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-24 08:25:06] INFO root fetch - processPackages [th-influx-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-24 08:25:06] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/c1/d6/b18446924aaada0d0bc84fa476a81c36f3f35efe205e9cbb9048be7d569c/TitanDevice-0.1.9.tar.gz
+[2024-04-24 08:25:06] WARNING root fetch - processPackages [gammarers.aws-secure-frontend-web-app-cloudfront-distribution]: Skipping, unable to determine old version
+[2024-04-24 08:25:06] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-frontend-web-app-cloudfront-distribution] error
+[2024-04-24 08:25:06] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/fb/b4/324b2d324a77c9ef64a8b6162833dc5cd4183969da6f74a9e68df31f9556/tinybird-cli-3.8.2.dev2.tar.gz
+[2024-04-24 08:25:06] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/6e/34/6f4e128c3f6189d6d74d476d8ebbfaa3612d63e5b5560199148276bd1350/th-influx-sdk-1.0.3.tar.gz
+[2024-04-24 08:25:06] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-24 08:25:06] INFO root fetch - processPackages [TitanDevice]: Downloading https://files.pythonhosted.org/packages/83/bb/e1304c52cef075134038a797eb21c13b86439e90b594e3a9ba5235170d9b/TitanDevice-0.2.0.tar.gz
+[2024-04-24 08:25:06] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/ad/f6/2959d608c8b5066689f297d4ebba807ec540f3ed3f8741a2847159dca8e6/tinybird-cli-3.9.1.dev1.tar.gz
+[2024-04-24 08:25:06] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-24 08:25:06] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240424/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 08:25:06] INFO root fetch - processPackages [TitanDevice]: executing diffoscope
+[2024-04-24 08:25:06] INFO root fetch - processPackages [TitanDevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TitanDevice-0.1.9.tar.gz tmp/TitanDevice-0.2.0.tar.gz --markdown 20240424/T/TitanDevice/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-24 08:25:06] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/0d/b4/012bc23d80ce3ccbf8bc3a2179a0f31e5cca7c9ebf0d3df9ea32b1d74507/th-influx-sdk-1.0.4.tar.gz
+[2024-04-24 08:25:06] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-04-24 08:25:06] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.8.2.dev2.tar.gz tmp/tinybird-cli-3.9.1.dev1.tar.gz --markdown 20240424/t/tinybird-cli/3.8.2.dev2-3.9.1.dev1/README.md --exclude *.pyd
+[2024-04-24 08:25:06] INFO root fetch - processPackages [th-influx-sdk]: executing diffoscope
+[2024-04-24 08:25:06] INFO root fetch - processPackages [th-influx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th-influx-sdk-1.0.3.tar.gz tmp/th-influx-sdk-1.0.4.tar.gz --markdown 20240424/t/th-influx-sdk/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-24 08:25:07] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.1.9.tar.gz]
+[2024-04-24 08:25:07] INFO root fetch - processPackages [TitanDevice]: Remove: archive file [/home/abi/fetcher/tmp/TitanDevice-0.2.0.tar.gz]
+[2024-04-24 08:25:07] INFO root fetch - main [MainThread]: End processing [TitanDevice]: success
+[2024-04-24 08:25:07] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-24 08:25:07] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-24 08:25:07] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-24 08:25:07] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.3.tar.gz]
+[2024-04-24 08:25:07] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.4.tar.gz]
+[2024-04-24 08:25:07] INFO root fetch - main [MainThread]: End processing [th-influx-sdk]: success
+[2024-04-24 08:25:07] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.8.2.dev2.tar.gz]
+[2024-04-24 08:25:07] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev1.tar.gz]
+[2024-04-24 08:25:07] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-04-24 08:25:07] INFO root fetch - main [MainThread]: Store serial: [22907523]
