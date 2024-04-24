@@ -3102,3 +3102,38 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:46:02] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404240044.tar.gz]
 [2024-04-24 02:46:02] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-24 02:46:02] INFO root fetch - main [MainThread]: Store serial: [22904104]
+[2024-04-24 02:48:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22904104]
+[2024-04-24 02:48:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 02:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domolibrary
+[2024-04-24 02:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nm-magic-wand-nightly
+[2024-04-24 02:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metamist
+[2024-04-24 02:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2024-04-24 02:48:10] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240423] Old Version: [0.2.2.20240422]
+[2024-04-24 02:48:10] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-24 02:48:10] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/70/97/4488e7e86425331f7b7317a26c6734b0d20ca2a38cf5e61f9febaafbd5a8/nm_magic_wand_nightly-0.2.2.20240422-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-24 02:48:10] INFO root fetch - processPackages [domolibrary]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-24 02:48:10] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-24 02:48:10] INFO root fetch - processPackages [metamist]: New version: [6.9.1] Old Version: [6.9.0]
+[2024-04-24 02:48:10] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76592067>=10485760
+[2024-04-24 02:48:11] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-24 02:48:11] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/95/f3/6c9c1bcece92c131f243b06ce2ea786b42aac014c102edd4142844b5d688/domolibrary-4.0.8.tar.gz
+[2024-04-24 02:48:11] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/29/55/77615bacd555115a0485aa104e8f1d14957ee9a495478067bd37f6b142bc/metamist-6.9.0.tar.gz
+[2024-04-24 02:48:11] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/20/04/03f981a99262a7143a6a063a2e2f6e7ef8f7e8783b38fbaac09ad11e2cdd/domolibrary-4.0.9.tar.gz
+[2024-04-24 02:48:11] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-24 02:48:11] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2024-04-24 02:48:11] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-4.0.8.tar.gz tmp/domolibrary-4.0.9.tar.gz --markdown 20240424/d/domolibrary/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-04-24 02:48:11] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-24 02:48:11] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240424/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-24 02:48:11] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/4b/72/e1bc6d293dedf2878eaaec17f90d95b929e5eb8dfd9a25b19410e5a4b21f/metamist-6.9.1.tar.gz
+[2024-04-24 02:48:11] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2024-04-24 02:48:11] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.9.0.tar.gz tmp/metamist-6.9.1.tar.gz --markdown 20240424/m/metamist/6.9.0-6.9.1/README.md --exclude *.pyd
+[2024-04-24 02:48:12] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.8.tar.gz]
+[2024-04-24 02:48:12] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-4.0.9.tar.gz]
+[2024-04-24 02:48:12] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2024-04-24 02:48:13] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.0.tar.gz]
+[2024-04-24 02:48:13] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.1.tar.gz]
+[2024-04-24 02:48:13] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2024-04-24 02:48:30] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-24 02:48:30] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-24 02:48:30] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-24 02:48:30] INFO root fetch - main [MainThread]: Store serial: [22904120]
