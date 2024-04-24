@@ -12141,3 +12141,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:31:38] INFO root fetch - processPackages [shuangchentools]: Remove: archive file [/home/abi/fetcher/tmp/shuangchentools-0.0.3.tar.gz]
 [2024-04-24 08:31:38] INFO root fetch - main [MainThread]: End processing [shuangchentools]: success
 [2024-04-24 08:31:38] INFO root fetch - main [MainThread]: Store serial: [22907570]
+[2024-04-24 08:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907570]
+[2024-04-24 08:33:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 08:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: licensespring
+[2024-04-24 08:33:47] INFO root fetch - processPackages [licensespring]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-24 08:33:47] INFO root fetch - processPackages [licensespring]: Downloading https://files.pythonhosted.org/packages/83/18/d7514fb8a10e1514f5a8a3120fccf1f8cf01c5c703e8f6aba5859982642c/licensespring-2.0.0.tar.gz
+[2024-04-24 08:33:47] INFO root fetch - processPackages [licensespring]: Downloading https://files.pythonhosted.org/packages/0d/2d/38451fd045f7f72512736118c0e131cd24d4b213b073159582e0bea25e51/licensespring-2.0.1.tar.gz
+[2024-04-24 08:33:47] INFO root fetch - processPackages [licensespring]: executing diffoscope
+[2024-04-24 08:33:47] INFO root fetch - processPackages [licensespring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensespring-2.0.0.tar.gz tmp/licensespring-2.0.1.tar.gz --markdown 20240424/l/licensespring/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-24 08:33:48] INFO root fetch - processPackages [licensespring]: Remove: archive file [/home/abi/fetcher/tmp/licensespring-2.0.0.tar.gz]
+[2024-04-24 08:33:48] INFO root fetch - processPackages [licensespring]: Remove: archive file [/home/abi/fetcher/tmp/licensespring-2.0.1.tar.gz]
+[2024-04-24 08:33:48] INFO root fetch - main [MainThread]: End processing [licensespring]: success
+[2024-04-24 08:33:48] INFO root fetch - main [MainThread]: Store serial: [22907573]
