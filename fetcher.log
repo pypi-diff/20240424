@@ -23168,3 +23168,71 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:50:23] INFO root fetch - processPackages [frequenz-api-reporting]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-reporting-0.2.0.tar.gz]
 [2024-04-24 14:50:23] INFO root fetch - main [MainThread]: End processing [frequenz-api-reporting]: success
 [2024-04-24 14:50:23] INFO root fetch - main [MainThread]: Store serial: [22912276]
+[2024-04-24 14:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912276]
+[2024-04-24 14:52:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 14:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowkit-jwt-generator
+[2024-04-24 14:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: village-data-analysis
+[2024-04-24 14:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: allocmd
+[2024-04-24 14:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccs-govuk-frontend-jinja
+[2024-04-24 14:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Tooldelta
+[2024-04-24 14:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tasktiger
+[2024-04-24 14:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fractal-server
+[2024-04-24 14:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightningtoolkit
+[2024-04-24 14:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: halftone-converter
+[2024-04-24 14:52:49] INFO root fetch - processPackages [tasktiger]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-24 14:52:49] WARNING root fetch - processPackages [village-data-analysis]: Skipping, unable to determine old version
+[2024-04-24 14:52:49] INFO root fetch - main [MainThread]: End processing [village-data-analysis] error
+[2024-04-24 14:52:49] INFO root fetch - processPackages [allocmd]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-24 14:52:49] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.24.0.post0.dev77] Old Version: [1.24.0.post0.dev65]
+[2024-04-24 14:52:49] INFO root fetch - processPackages [halftone-converter]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-04-24 14:52:49] INFO root fetch - processPackages [tasktiger]: Downloading https://files.pythonhosted.org/packages/ed/fe/e705e018c566994b44ef14a1466e41b66732ae3ba82aa3771b27a0a0103c/tasktiger-0.9.5.tar.gz
+[2024-04-24 14:52:49] WARNING root fetch - processPackages [ccs-govuk-frontend-jinja]: Skipping, unable to determine old version
+[2024-04-24 14:52:49] INFO root fetch - main [MainThread]: End processing [ccs-govuk-frontend-jinja] error
+[2024-04-24 14:52:49] INFO root fetch - processPackages [Tooldelta]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-24 14:52:49] INFO root fetch - processPackages [lightningtoolkit]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-04-24 14:52:49] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/01/55/89dd8343d38a10a2b214e05f0fbbc9aeaaaccb483fa7edd012eaa909240e/flowkit_jwt_generator-1.24.0.post0.dev65-py3-none-any.whl
+[2024-04-24 14:52:49] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/6d/7e/da7a8879fe73553275183a3aee001deed0a4329fd64ea6325f23b671fc81/allocmd-0.3.8.tar.gz
+[2024-04-24 14:52:49] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2024-04-24 14:52:49] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/cc/aa/c3229b3ff6858204e84f37e963adbe3d344fa0ee1ae9cd78312a928f962e/tooldelta-0.5.8.tar.gz
+[2024-04-24 14:52:49] INFO root fetch - processPackages [halftone-converter]: Downloading https://files.pythonhosted.org/packages/35/bc/3bc78327726fed0448904d836ade5c39c7623b8ae6b70e5cbde6cfa76179/halftone_converter-2.5.0.tar.gz
+[2024-04-24 14:52:49] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/f8/12/2335911669aec79c0cce439c399ad2e0c9d58f6b47d866cbef3122364b97/fractal_server-2.0.0a8.tar.gz
+[2024-04-24 14:52:49] INFO root fetch - processPackages [lightningtoolkit]: Downloading https://files.pythonhosted.org/packages/be/55/03015819fafc950f0bb4603de2bdeb720042181a30662cb8574c568f9cdc/lightningtoolkit-1.0.2.tar.gz
+[2024-04-24 14:52:49] WARNING root fetch - processPackages [halftone-converter]: Skipping package: exceeds size limit 19404900>=10485760
+[2024-04-24 14:52:49] INFO root fetch - main [MainThread]: End processing [halftone-converter] error
+[2024-04-24 14:52:50] INFO root fetch - processPackages [allocmd]: Downloading https://files.pythonhosted.org/packages/62/90/9b598a475847e52acca70f1dab4f70f5828e236ad083b4cc83804993c63a/allocmd-0.3.9.tar.gz
+[2024-04-24 14:52:50] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/0e/01/9a1136b58f54df114e7c42ffc71bdb2a7772bf83f7b4c92cebeef1d19102/flowkit_jwt_generator-1.24.0.post0.dev77-py3-none-any.whl
+[2024-04-24 14:52:50] INFO root fetch - processPackages [tasktiger]: Downloading https://files.pythonhosted.org/packages/2c/4d/b280e11ac9cfdfb92acf2348b02eff85498fe444293a7443496f96e1e779/tasktiger-0.9.6.tar.gz
+[2024-04-24 14:52:50] INFO root fetch - processPackages [allocmd]: executing diffoscope
+[2024-04-24 14:52:50] INFO root fetch - processPackages [allocmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allocmd-0.3.8.tar.gz tmp/allocmd-0.3.9.tar.gz --markdown 20240424/a/allocmd/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-24 14:52:50] INFO root fetch - processPackages [tasktiger]: executing diffoscope
+[2024-04-24 14:52:50] INFO root fetch - processPackages [tasktiger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasktiger-0.9.5.tar.gz tmp/tasktiger-0.9.6.tar.gz --markdown 20240424/t/tasktiger/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-24 14:52:50] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-04-24 14:52:50] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.24.0.post0.dev65-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.24.0.post0.dev77-py3-none-any.whl.zip --markdown 20240424/f/flowkit-jwt-generator/1.24.0.post0.dev65-1.24.0.post0.dev77/README.md --exclude *.pyd
+[2024-04-24 14:52:50] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/e1/11/c50f2ee24d502a125d09f509013222be273073e73cb56e5592108e8a8ea6/tooldelta-0.5.9.tar.gz
+[2024-04-24 14:52:50] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/ef/ad/58405ebb44f6559aefa712288e9ea086594faec7a4f37e2c8eaf19359168/fractal_server-2.0.0a9.tar.gz
+[2024-04-24 14:52:50] INFO root fetch - processPackages [lightningtoolkit]: Downloading https://files.pythonhosted.org/packages/85/4b/2801d950ce699887a380d85f7f06333964deb59367d260b13598df4ccb1f/lightningtoolkit-1.0.4.tar.gz
+[2024-04-24 14:52:50] INFO root fetch - processPackages [Tooldelta]: executing diffoscope
+[2024-04-24 14:52:50] INFO root fetch - processPackages [Tooldelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooldelta-0.5.8.tar.gz tmp/tooldelta-0.5.9.tar.gz --markdown 20240424/T/Tooldelta/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-24 14:52:50] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-24 14:52:50] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a8.tar.gz tmp/fractal_server-2.0.0a9.tar.gz --markdown 20240424/f/fractal-server/2.0.0a8-2.0.0a9/README.md --exclude *.pyd
+[2024-04-24 14:52:50] INFO root fetch - processPackages [lightningtoolkit]: executing diffoscope
+[2024-04-24 14:52:50] INFO root fetch - processPackages [lightningtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningtoolkit-1.0.2.tar.gz tmp/lightningtoolkit-1.0.4.tar.gz --markdown 20240424/l/lightningtoolkit/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-04-24 14:52:50] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.3.8.tar.gz]
+[2024-04-24 14:52:50] INFO root fetch - processPackages [allocmd]: Remove: archive file [/home/abi/fetcher/tmp/allocmd-0.3.9.tar.gz]
+[2024-04-24 14:52:50] INFO root fetch - main [MainThread]: End processing [allocmd]: success
+[2024-04-24 14:52:50] INFO root fetch - processPackages [tasktiger]: Remove: archive file [/home/abi/fetcher/tmp/tasktiger-0.9.5.tar.gz]
+[2024-04-24 14:52:50] INFO root fetch - processPackages [tasktiger]: Remove: archive file [/home/abi/fetcher/tmp/tasktiger-0.9.6.tar.gz]
+[2024-04-24 14:52:50] INFO root fetch - main [MainThread]: End processing [tasktiger]: success
+[2024-04-24 14:52:51] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.24.0.post0.dev65-py3-none-any.whl.zip]
+[2024-04-24 14:52:51] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.24.0.post0.dev77-py3-none-any.whl.zip]
+[2024-04-24 14:52:51] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-04-24 14:52:51] INFO root fetch - processPackages [lightningtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/lightningtoolkit-1.0.2.tar.gz]
+[2024-04-24 14:52:51] INFO root fetch - processPackages [lightningtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/lightningtoolkit-1.0.4.tar.gz]
+[2024-04-24 14:52:51] INFO root fetch - main [MainThread]: End processing [lightningtoolkit]: success
+[2024-04-24 14:52:51] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.5.8.tar.gz]
+[2024-04-24 14:52:51] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.5.9.tar.gz]
+[2024-04-24 14:52:51] INFO root fetch - main [MainThread]: End processing [Tooldelta]: success
+[2024-04-24 14:52:51] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a8.tar.gz]
+[2024-04-24 14:52:51] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a9.tar.gz]
+[2024-04-24 14:52:51] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-24 14:52:51] INFO root fetch - main [MainThread]: Store serial: [22912308]
