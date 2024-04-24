@@ -19456,3 +19456,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:43:14] INFO root fetch - processPackages [astra-haystack]: Remove: archive file [/home/abi/fetcher/tmp/astra_haystack-0.6.0.tar.gz]
 [2024-04-24 12:43:14] INFO root fetch - main [MainThread]: End processing [astra-haystack]: success
 [2024-04-24 12:43:14] INFO root fetch - main [MainThread]: Store serial: [22910718]
+[2024-04-24 12:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910718]
+[2024-04-24 12:45:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-24 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remotivelabs-cli
+[2024-04-24 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vite-transporter
+[2024-04-24 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaycopilot_client
+[2024-04-24 12:45:37] INFO root fetch - processPackages [vite-transporter]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-24 12:45:37] INFO root fetch - processPackages [vite-transporter]: Downloading https://files.pythonhosted.org/packages/c9/6e/fb41f71f238f67c0eb422ae65452fb5183c7f79625a34e7e921bd72e38a7/vite_transporter-0.5.0.tar.gz
+[2024-04-24 12:45:37] WARNING root fetch - processPackages [jaycopilot_client]: Skipping, unable to determine old version
+[2024-04-24 12:45:37] INFO root fetch - main [MainThread]: End processing [jaycopilot_client] error
+[2024-04-24 12:45:37] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 12:45:38] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/3b/fd/79e7ba716a05f515a6a688ad2370dff4d07c2222729e76ae6c60674682da/remotivelabs_cli-0.0.8.tar.gz
+[2024-04-24 12:45:38] INFO root fetch - processPackages [vite-transporter]: Downloading https://files.pythonhosted.org/packages/f3/7b/a8759cda4ae3fc7583361f2cf225efe7d9dd63419743a26699454e92f157/vite_transporter-0.6.0.tar.gz
+[2024-04-24 12:45:38] INFO root fetch - processPackages [vite-transporter]: executing diffoscope
+[2024-04-24 12:45:38] INFO root fetch - processPackages [vite-transporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vite_transporter-0.5.0.tar.gz tmp/vite_transporter-0.6.0.tar.gz --markdown 20240424/v/vite-transporter/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-24 12:45:38] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/0c/3e/84ff7ca9531958216971482f3794fba3c060ca8d5817d6d05e8b1fefdfa4/remotivelabs_cli-0.0.9.tar.gz
+[2024-04-24 12:45:38] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2024-04-24 12:45:38] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.8.tar.gz tmp/remotivelabs_cli-0.0.9.tar.gz --markdown 20240424/r/remotivelabs-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 12:45:39] INFO root fetch - processPackages [vite-transporter]: Remove: archive file [/home/abi/fetcher/tmp/vite_transporter-0.5.0.tar.gz]
+[2024-04-24 12:45:39] INFO root fetch - processPackages [vite-transporter]: Remove: archive file [/home/abi/fetcher/tmp/vite_transporter-0.6.0.tar.gz]
+[2024-04-24 12:45:39] INFO root fetch - main [MainThread]: End processing [vite-transporter]: success
+[2024-04-24 12:45:39] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.8.tar.gz]
+[2024-04-24 12:45:39] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.9.tar.gz]
+[2024-04-24 12:45:39] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2024-04-24 12:45:39] INFO root fetch - main [MainThread]: Store serial: [22910742]
