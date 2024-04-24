@@ -9541,3 +9541,54 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:02:45] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-1.3.9.tar.gz]
 [2024-04-24 06:02:45] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
 [2024-04-24 06:02:45] INFO root fetch - main [MainThread]: Store serial: [22906592]
+[2024-04-24 06:04:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906592]
+[2024-04-24 06:04:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 06:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wisio
+[2024-04-24 06:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paebot
+[2024-04-24 06:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: experiment-lab
+[2024-04-24 06:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-interfaces
+[2024-04-24 06:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazyops
+[2024-04-24 06:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: npgsm
+[2024-04-24 06:04:54] INFO root fetch - processPackages [paebot]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 06:04:54] INFO root fetch - processPackages [paebot]: Downloading https://files.pythonhosted.org/packages/b8/a5/004c0975ab8d9f9cff6e3ef3812596de3ddd477ba14a9b0856b5bea7179b/paebot-0.1.0.tar.gz
+[2024-04-24 06:04:54] INFO root fetch - processPackages [experiment-lab]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-24 06:04:54] WARNING root fetch - processPackages [wisio]: Skipping, unable to determine old version
+[2024-04-24 06:04:54] INFO root fetch - main [MainThread]: End processing [wisio] error
+[2024-04-24 06:04:54] INFO root fetch - processPackages [mojo-interfaces]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-24 06:04:54] INFO root fetch - processPackages [npgsm]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-24 06:04:54] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/05/5f/16964a5ff10f7d423e39c3dbcbcfbe967c05d983002f411b2ef7202ea02a/experiment_lab-1.1.5.tar.gz
+[2024-04-24 06:04:54] INFO root fetch - processPackages [mojo-interfaces]: Downloading https://files.pythonhosted.org/packages/ac/54/2374202adccf0ffbf6b848a75b4bdb13255a3b02142a09cc1a35d7bd1025/mojo_interfaces-1.3.1.tar.gz
+[2024-04-24 06:04:54] INFO root fetch - processPackages [lazyops]: New version: [0.2.9] Old Version: [0.2.82]
+[2024-04-24 06:04:54] INFO root fetch - processPackages [npgsm]: Downloading https://files.pythonhosted.org/packages/6a/6c/a523e6bc0e2ecab1a63670b054ac2de8972fa417b32e8a70d80067ec8c35/npgsm-1.0.4.tar.gz
+[2024-04-24 06:04:54] INFO root fetch - processPackages [paebot]: Downloading https://files.pythonhosted.org/packages/89/81/a7651324e6a07186732d5ddda739ba4e747e6878f8ee6a9b1bb3ea6bb97f/paebot-0.1.1.tar.gz
+[2024-04-24 06:04:54] INFO root fetch - processPackages [paebot]: executing diffoscope
+[2024-04-24 06:04:54] INFO root fetch - processPackages [paebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paebot-0.1.0.tar.gz tmp/paebot-0.1.1.tar.gz --markdown 20240424/p/paebot/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 06:04:54] INFO root fetch - processPackages [lazyops]: Downloading https://files.pythonhosted.org/packages/38/7e/f93e2a029b677c007b7a43cbf92228b3a2970d234993cb1e01498ddfaafc/lazyops-0.2.82.tar.gz
+[2024-04-24 06:04:54] INFO root fetch - processPackages [experiment-lab]: Downloading https://files.pythonhosted.org/packages/ca/b5/623c1be69853b5d9f38f910aa16aa6bfa8a1cb15738be57d75384a33c2ef/experiment_lab-1.1.6.tar.gz
+[2024-04-24 06:04:54] INFO root fetch - processPackages [npgsm]: Downloading https://files.pythonhosted.org/packages/51/28/ab58dd05741efb72e0c70c725c6fc42a30196ccb0c1a89da36d0ed28a126/npgsm-1.0.5.tar.gz
+[2024-04-24 06:04:54] INFO root fetch - processPackages [mojo-interfaces]: Downloading https://files.pythonhosted.org/packages/93/b1/e1062be6c12bdbe5f7fafc4ede59b47544393e25d0f3bccf9c74bd46cd64/mojo_interfaces-1.3.2.tar.gz
+[2024-04-24 06:04:54] INFO root fetch - processPackages [experiment-lab]: executing diffoscope
+[2024-04-24 06:04:54] INFO root fetch - processPackages [experiment-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_lab-1.1.5.tar.gz tmp/experiment_lab-1.1.6.tar.gz --markdown 20240424/e/experiment-lab/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-24 06:04:54] INFO root fetch - processPackages [mojo-interfaces]: executing diffoscope
+[2024-04-24 06:04:54] INFO root fetch - processPackages [mojo-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interfaces-1.3.1.tar.gz tmp/mojo_interfaces-1.3.2.tar.gz --markdown 20240424/m/mojo-interfaces/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-24 06:04:54] INFO root fetch - processPackages [npgsm]: executing diffoscope
+[2024-04-24 06:04:54] INFO root fetch - processPackages [npgsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npgsm-1.0.4.tar.gz tmp/npgsm-1.0.5.tar.gz --markdown 20240424/n/npgsm/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-24 06:04:54] INFO root fetch - processPackages [lazyops]: Downloading https://files.pythonhosted.org/packages/5c/4b/a0da4a3f0d07056d36ddb331660d472e167596d93e76e6c1c193f20bb4bf/lazyops-0.2.9.tar.gz
+[2024-04-24 06:04:55] INFO root fetch - processPackages [lazyops]: executing diffoscope
+[2024-04-24 06:04:55] INFO root fetch - processPackages [lazyops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyops-0.2.82.tar.gz tmp/lazyops-0.2.9.tar.gz --markdown 20240424/l/lazyops/0.2.82-0.2.9/README.md --exclude *.pyd
+[2024-04-24 06:04:55] INFO root fetch - processPackages [paebot]: Remove: archive file [/home/abi/fetcher/tmp/paebot-0.1.0.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - processPackages [paebot]: Remove: archive file [/home/abi/fetcher/tmp/paebot-0.1.1.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - main [MainThread]: End processing [paebot]: success
+[2024-04-24 06:04:55] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment_lab-1.1.5.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - processPackages [experiment-lab]: Remove: archive file [/home/abi/fetcher/tmp/experiment_lab-1.1.6.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - main [MainThread]: End processing [experiment-lab]: success
+[2024-04-24 06:04:55] INFO root fetch - processPackages [mojo-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interfaces-1.3.1.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - processPackages [mojo-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interfaces-1.3.2.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - main [MainThread]: End processing [mojo-interfaces]: success
+[2024-04-24 06:04:55] INFO root fetch - processPackages [npgsm]: Remove: archive file [/home/abi/fetcher/tmp/npgsm-1.0.4.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - processPackages [npgsm]: Remove: archive file [/home/abi/fetcher/tmp/npgsm-1.0.5.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - main [MainThread]: End processing [npgsm]: success
+[2024-04-24 06:04:55] INFO root fetch - processPackages [lazyops]: Remove: archive file [/home/abi/fetcher/tmp/lazyops-0.2.82.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - processPackages [lazyops]: Remove: archive file [/home/abi/fetcher/tmp/lazyops-0.2.9.tar.gz]
+[2024-04-24 06:04:55] INFO root fetch - main [MainThread]: End processing [lazyops]: success
+[2024-04-24 06:04:55] INFO root fetch - main [MainThread]: Store serial: [22906611]
