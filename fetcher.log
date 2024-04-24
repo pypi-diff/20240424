@@ -21766,3 +21766,84 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:05:58] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
 [2024-04-24 14:05:58] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2024-04-24 14:05:58] INFO root fetch - main [MainThread]: Store serial: [22911733]
+[2024-04-24 14:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911733]
+[2024-04-24 14:08:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ckanext-files
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclomonitor
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gleweather
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kso-utils
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mymath-stubs
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DockerBuildManagement
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nitrain-image
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remotion-lambda
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mo-streams
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: optimum
+[2024-04-24 14:08:22] INFO root fetch - processPackages [kso-utils]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ckanext-files]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-24 14:08:22] INFO root fetch - processPackages [gleweather]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 14:08:22] WARNING root fetch - processPackages [mymath-stubs]: Skipping, unable to determine old version
+[2024-04-24 14:08:22] INFO root fetch - main [MainThread]: End processing [mymath-stubs] error
+[2024-04-24 14:08:22] INFO root fetch - processPackages [mo-streams]: New version: [1.602.24115] Old Version: [1.601.24115]
+[2024-04-24 14:08:22] INFO root fetch - processPackages [optimum]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-24 14:08:22] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/6e/67/5bb16d7cb826d843f2247335ab76f09a50b0f22643c608ca570502242c99/kso_utils-0.2.4.tar.gz
+[2024-04-24 14:08:22] INFO root fetch - processPackages [ckanext-files]: Downloading https://files.pythonhosted.org/packages/b0/91/52912ba6f97c55ffdaa1393a417b3fadc1037f3cd80edd40fb5c447c385c/ckanext_files-0.2.5.tar.gz
+[2024-04-24 14:08:22] WARNING root fetch - processPackages [nitrain-image]: Skipping, unable to determine old version
+[2024-04-24 14:08:22] INFO root fetch - main [MainThread]: End processing [nitrain-image] error
+[2024-04-24 14:08:22] INFO root fetch - processPackages [DockerBuildManagement]: New version: [0.0.91] Old Version: [0.0.90]
+[2024-04-24 14:08:23] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-04-24 14:08:23] INFO root fetch - processPackages [gleweather]: Downloading https://files.pythonhosted.org/packages/35/1b/22c95d5a52d41b9933f4afa3aa6b4ac94c3b371f3703447317d42fc43374/gleweather-0.1.2.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [cyclomonitor]: New version: [2024.4.24] Old Version: [2024.4.19]
+[2024-04-24 14:08:23] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/52/a4/138db8ad1b833f5315cc67d9f1834f5ff4eb3415ff1ec89156548aa721a6/mo_streams-1.601.24115.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/a7/24/410e1ddb5012dee559f2eaca7a0f04688b8817501ac63d08eac5dc5d2f97/optimum-1.9.0.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [cyclomonitor]: Downloading https://files.pythonhosted.org/packages/54/89/283b3f8405dc157ef5af02d68f78faa46525eaa9041fc519b279ccfd4ba9/cyclomonitor-2024.4.19.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [gleweather]: Downloading https://files.pythonhosted.org/packages/32/e0/d7e0710d38fd76833dae81ffc5f3eecbe925fbcddf0b5561c0ab0ade51e8/gleweather-0.1.3.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [ckanext-files]: Downloading https://files.pythonhosted.org/packages/3b/ef/8a0b600744a5e87e4cc1125d27aeaf056d8b9e35d9d383c4630793c41492/ckanext_files-0.2.6.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [DockerBuildManagement]: Downloading https://files.pythonhosted.org/packages/03/9e/ed18f962bf4d538c6e44ee74992a97acc823209521a3c63003e542a12170/DockerBuildManagement-0.0.90-py2.py3-none-any.whl
+[2024-04-24 14:08:23] INFO root fetch - processPackages [kso-utils]: Downloading https://files.pythonhosted.org/packages/b7/8f/f85c2434f0ef0550965f7d2db0d60297c1d84eea94e26080dc56187bff60/kso_utils-0.2.5.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/1c/09/e271ed6e1e6b84f169bde10ca99ff300862c6eaa7eb5c26a5c6bb0b1bf0c/mo_streams-1.602.24115.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [gleweather]: executing diffoscope
+[2024-04-24 14:08:23] INFO root fetch - processPackages [gleweather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gleweather-0.1.2.tar.gz tmp/gleweather-0.1.3.tar.gz --markdown 20240424/g/gleweather/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 14:08:23] INFO root fetch - processPackages [ckanext-files]: executing diffoscope
+[2024-04-24 14:08:23] INFO root fetch - processPackages [ckanext-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_files-0.2.5.tar.gz tmp/ckanext_files-0.2.6.tar.gz --markdown 20240424/c/ckanext-files/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-24 14:08:23] INFO root fetch - processPackages [mo-streams]: executing diffoscope
+[2024-04-24 14:08:23] INFO root fetch - processPackages [mo-streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_streams-1.601.24115.tar.gz tmp/mo_streams-1.602.24115.tar.gz --markdown 20240424/m/mo-streams/1.601.24115-1.602.24115/README.md --exclude *.pyd
+[2024-04-24 14:08:23] INFO root fetch - processPackages [kso-utils]: executing diffoscope
+[2024-04-24 14:08:23] INFO root fetch - processPackages [kso-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kso_utils-0.2.4.tar.gz tmp/kso_utils-0.2.5.tar.gz --markdown 20240424/k/kso-utils/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-24 14:08:23] INFO root fetch - processPackages [cyclomonitor]: Downloading https://files.pythonhosted.org/packages/6e/92/974c44d7d30aee7157ca3dda7ea8437cd0f1630bdd405bf15e559885f3ac/cyclomonitor-2024.4.24.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/26/9c/afc49f230da15aa18ff17f6fc4290263455100ca8de672984a9917131a88/optimum-1.9.1.tar.gz
+[2024-04-24 14:08:23] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-04-24 14:08:23] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240424/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-04-24 14:08:23] INFO root fetch - processPackages [cyclomonitor]: executing diffoscope
+[2024-04-24 14:08:23] INFO root fetch - processPackages [cyclomonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclomonitor-2024.4.19.tar.gz tmp/cyclomonitor-2024.4.24.tar.gz --markdown 20240424/c/cyclomonitor/2024.4.19-2024.4.24/README.md --exclude *.pyd
+[2024-04-24 14:08:23] INFO root fetch - processPackages [optimum]: executing diffoscope
+[2024-04-24 14:08:23] INFO root fetch - processPackages [optimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-1.9.0.tar.gz tmp/optimum-1.9.1.tar.gz --markdown 20240424/o/optimum/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-24 14:08:23] INFO root fetch - processPackages [DockerBuildManagement]: Downloading https://files.pythonhosted.org/packages/f9/3c/6a426bd7f2301e79c9380ed177faceceef68f5921b9017e0eb49584ce097/DockerBuildManagement-0.0.91-py2.py3-none-any.whl
+[2024-04-24 14:08:24] INFO root fetch - processPackages [DockerBuildManagement]: executing diffoscope
+[2024-04-24 14:08:24] INFO root fetch - processPackages [DockerBuildManagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DockerBuildManagement-0.0.90-py2.py3-none-any.whl.zip tmp/DockerBuildManagement-0.0.91-py2.py3-none-any.whl.zip --markdown 20240424/D/DockerBuildManagement/0.0.90-0.0.91/README.md --exclude *.pyd
+[2024-04-24 14:08:24] INFO root fetch - processPackages [gleweather]: Remove: archive file [/home/abi/fetcher/tmp/gleweather-0.1.2.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - processPackages [gleweather]: Remove: archive file [/home/abi/fetcher/tmp/gleweather-0.1.3.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - main [MainThread]: End processing [gleweather]: success
+[2024-04-24 14:08:24] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.601.24115.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.602.24115.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - main [MainThread]: End processing [mo-streams]: success
+[2024-04-24 14:08:24] INFO root fetch - processPackages [DockerBuildManagement]: Remove: archive file [/home/abi/fetcher/tmp/DockerBuildManagement-0.0.90-py2.py3-none-any.whl.zip]
+[2024-04-24 14:08:24] INFO root fetch - processPackages [DockerBuildManagement]: Remove: archive file [/home/abi/fetcher/tmp/DockerBuildManagement-0.0.91-py2.py3-none-any.whl.zip]
+[2024-04-24 14:08:24] INFO root fetch - main [MainThread]: End processing [DockerBuildManagement]: success
+[2024-04-24 14:08:24] INFO root fetch - processPackages [ckanext-files]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_files-0.2.5.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - processPackages [ckanext-files]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_files-0.2.6.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - main [MainThread]: End processing [ckanext-files]: success
+[2024-04-24 14:08:24] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.4.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - processPackages [kso-utils]: Remove: archive file [/home/abi/fetcher/tmp/kso_utils-0.2.5.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - main [MainThread]: End processing [kso-utils]: success
+[2024-04-24 14:08:24] INFO root fetch - processPackages [cyclomonitor]: Remove: archive file [/home/abi/fetcher/tmp/cyclomonitor-2024.4.19.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - processPackages [cyclomonitor]: Remove: archive file [/home/abi/fetcher/tmp/cyclomonitor-2024.4.24.tar.gz]
+[2024-04-24 14:08:24] INFO root fetch - main [MainThread]: End processing [cyclomonitor]: success
+[2024-04-24 14:08:25] INFO root fetch - processPackages [optimum]: Remove: archive file [/home/abi/fetcher/tmp/optimum-1.9.0.tar.gz]
+[2024-04-24 14:08:25] INFO root fetch - processPackages [optimum]: Remove: archive file [/home/abi/fetcher/tmp/optimum-1.9.1.tar.gz]
+[2024-04-24 14:08:25] INFO root fetch - main [MainThread]: End processing [optimum]: success
+[2024-04-24 14:08:25] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-04-24 14:08:25] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-04-24 14:08:25] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-04-24 14:08:25] INFO root fetch - main [MainThread]: Store serial: [22911768]
