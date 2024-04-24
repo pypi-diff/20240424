@@ -7279,3 +7279,30 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:35:09] INFO root fetch - processPackages [chia-rs]: Remove: archive file [/home/abi/fetcher/tmp/chia_rs-0.7.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-04-24 03:35:09] INFO root fetch - main [MainThread]: End processing [chia-rs]: success
 [2024-04-24 03:35:09] INFO root fetch - main [MainThread]: Store serial: [22905566]
+[2024-04-24 03:37:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905566]
+[2024-04-24 03:37:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeassistant-stubs
+[2024-04-24 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitlab-projects-settings
+[2024-04-24 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-optimized-inference
+[2024-04-24 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rfc1751
+[2024-04-24 03:37:18] INFO root fetch - processPackages [llm-optimized-inference]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-24 03:37:18] WARNING root fetch - processPackages [rfc1751]: Skipping, unable to determine old version
+[2024-04-24 03:37:18] INFO root fetch - main [MainThread]: End processing [rfc1751] error
+[2024-04-24 03:37:18] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-24 03:37:18] WARNING root fetch - processPackages [gitlab-projects-settings]: Skipping, unable to determine old version
+[2024-04-24 03:37:18] INFO root fetch - main [MainThread]: End processing [gitlab-projects-settings] error
+[2024-04-24 03:37:18] INFO root fetch - processPackages [llm-optimized-inference]: Downloading https://files.pythonhosted.org/packages/60/e3/a03be3cf5df7390e975fb23e427d5f9e332f45b7cb3ebbbba69128966f78/llm_optimized_inference-0.1.4-py3-none-any.whl
+[2024-04-24 03:37:18] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/b5/b4/fa2ffc3ccd366bbd1dc3aa9684864b67f4f8c623b06d1e6e8fcf0a389d48/homeassistant_stubs-2024.4.3.tar.gz
+[2024-04-24 03:37:18] INFO root fetch - processPackages [llm-optimized-inference]: Downloading https://files.pythonhosted.org/packages/c9/2d/411afc852c19272ddc4a120d9c0a51253b923a4795120c0d81fab3f3e80a/llm_optimized_inference-0.1.5-py3-none-any.whl
+[2024-04-24 03:37:18] INFO root fetch - processPackages [llm-optimized-inference]: executing diffoscope
+[2024-04-24 03:37:18] INFO root fetch - processPackages [llm-optimized-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_optimized_inference-0.1.4-py3-none-any.whl.zip tmp/llm_optimized_inference-0.1.5-py3-none-any.whl.zip --markdown 20240424/l/llm-optimized-inference/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-24 03:37:18] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/44/81/e0b427cd40750d199f8a7fe8b5a19bf3ddb74b3eb6fd7783dcfeda383ae6/homeassistant_stubs-2024.4.4.tar.gz
+[2024-04-24 03:37:19] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-04-24 03:37:19] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.4.3.tar.gz tmp/homeassistant_stubs-2024.4.4.tar.gz --markdown 20240424/h/homeassistant-stubs/2024.4.3-2024.4.4/README.md --exclude *.pyd
+[2024-04-24 03:37:19] INFO root fetch - processPackages [llm-optimized-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_optimized_inference-0.1.4-py3-none-any.whl.zip]
+[2024-04-24 03:37:19] INFO root fetch - processPackages [llm-optimized-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_optimized_inference-0.1.5-py3-none-any.whl.zip]
+[2024-04-24 03:37:19] INFO root fetch - main [MainThread]: End processing [llm-optimized-inference]: success
+[2024-04-24 03:37:31] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.3.tar.gz]
+[2024-04-24 03:37:31] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.4.tar.gz]
+[2024-04-24 03:37:31] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-04-24 03:37:31] INFO root fetch - main [MainThread]: Store serial: [22905586]
