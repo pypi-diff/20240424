@@ -9352,3 +9352,51 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:51:53] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.1.2.tar.gz]
 [2024-04-24 05:51:53] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-04-24 05:51:53] INFO root fetch - main [MainThread]: Store serial: [22906532]
+[2024-04-24 05:53:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906532]
+[2024-04-24 05:54:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gearsllm
+[2024-04-24 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-waiting
+[2024-04-24 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hspylib-setman
+[2024-04-24 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TopDownHockey-Scraper
+[2024-04-24 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-helpdesk-mgmt
+[2024-04-24 05:54:02] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.9.1.dev6] Old Version: [14.0.2.9.1.dev5]
+[2024-04-24 05:54:02] INFO root fetch - processPackages [mojo-waiting]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-24 05:54:02] INFO root fetch - processPackages [gearsllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 05:54:02] INFO root fetch - processPackages [hspylib-setman]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-24 05:54:02] INFO root fetch - processPackages [TopDownHockey-Scraper]: New version: [3.2.1] Old Version: [3.1.2]
+[2024-04-24 05:54:02] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/b1/38/4b75975869d917a86b1699095d04a9b059c4716a5b0788e911a4bcc17651/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl
+[2024-04-24 05:54:02] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/d4/a2/0687c5f8865e7fd066846289fd27a5bf1c319b505e2287c9d6ddbe8cf895/gearsllm-0.1.8.tar.gz
+[2024-04-24 05:54:02] INFO root fetch - processPackages [mojo-waiting]: Downloading https://files.pythonhosted.org/packages/04/92/8a95303dcbee552aaa6a3e81ebfbae085c4c2decc1fd35307431ef2f2150/mojo_waiting-1.3.0.tar.gz
+[2024-04-24 05:54:02] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/ca/86/d4c00d36772f3c810863e8a8facf2b40913eb2af79eed33bd695d81a8a66/hspylib-setman-0.9.8.tar.gz
+[2024-04-24 05:54:02] INFO root fetch - processPackages [TopDownHockey-Scraper]: Downloading https://files.pythonhosted.org/packages/2b/f4/769902b41e766900e281ac619e8bdf2f640aad72b8c5f66c60b83e3a1613/TopDownHockey_Scraper-3.1.2.tar.gz
+[2024-04-24 05:54:02] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/d7/78/98d41e46b809fea6d59b3d084399ad90800b6eac86cdef51a200e5a9777b/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl
+[2024-04-24 05:54:02] INFO root fetch - processPackages [gearsllm]: Downloading https://files.pythonhosted.org/packages/0e/f8/6abc4e6811387a0f9bcd70790e57a9ed2d019e847c391914880502a2febc/gearsllm-0.1.9.tar.gz
+[2024-04-24 05:54:02] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-24 05:54:02] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip --markdown 20240424/o/odoo14-addon-helpdesk-mgmt/14.0.2.9.1.dev5-14.0.2.9.1.dev6/README.md --exclude *.pyd
+[2024-04-24 05:54:02] INFO root fetch - processPackages [mojo-waiting]: Downloading https://files.pythonhosted.org/packages/cc/ca/63c1622458e5113c831d90d06902ac0fbdf4086114c722bb967ccc5bf2ea/mojo_waiting-1.3.1.tar.gz
+[2024-04-24 05:54:02] INFO root fetch - processPackages [mojo-waiting]: executing diffoscope
+[2024-04-24 05:54:02] INFO root fetch - processPackages [mojo-waiting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_waiting-1.3.0.tar.gz tmp/mojo_waiting-1.3.1.tar.gz --markdown 20240424/m/mojo-waiting/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-24 05:54:02] INFO root fetch - processPackages [TopDownHockey-Scraper]: Downloading https://files.pythonhosted.org/packages/ac/35/c29d3e55e86423dc0539487255a11549654bfe114b66af140ef784a75be8/topdownhockey_scraper-3.2.1.tar.gz
+[2024-04-24 05:54:02] INFO root fetch - processPackages [hspylib-setman]: Downloading https://files.pythonhosted.org/packages/c5/a4/722debaef60a0f54fbee575ca41fa122ec39cd3fab91b4b8ddebc1dc8232/hspylib-setman-0.9.9.tar.gz
+[2024-04-24 05:54:02] INFO root fetch - processPackages [gearsllm]: executing diffoscope
+[2024-04-24 05:54:02] INFO root fetch - processPackages [gearsllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gearsllm-0.1.8.tar.gz tmp/gearsllm-0.1.9.tar.gz --markdown 20240424/g/gearsllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-24 05:54:03] INFO root fetch - processPackages [TopDownHockey-Scraper]: executing diffoscope
+[2024-04-24 05:54:03] INFO root fetch - processPackages [TopDownHockey-Scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TopDownHockey_Scraper-3.1.2.tar.gz tmp/topdownhockey_scraper-3.2.1.tar.gz --markdown 20240424/T/TopDownHockey-Scraper/3.1.2-3.2.1/README.md --exclude *.pyd
+[2024-04-24 05:54:03] INFO root fetch - processPackages [hspylib-setman]: executing diffoscope
+[2024-04-24 05:54:03] INFO root fetch - processPackages [hspylib-setman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-setman-0.9.8.tar.gz tmp/hspylib-setman-0.9.9.tar.gz --markdown 20240424/h/hspylib-setman/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-24 05:54:03] INFO root fetch - processPackages [mojo-waiting]: Remove: archive file [/home/abi/fetcher/tmp/mojo_waiting-1.3.0.tar.gz]
+[2024-04-24 05:54:03] INFO root fetch - processPackages [mojo-waiting]: Remove: archive file [/home/abi/fetcher/tmp/mojo_waiting-1.3.1.tar.gz]
+[2024-04-24 05:54:03] INFO root fetch - main [MainThread]: End processing [mojo-waiting]: success
+[2024-04-24 05:54:03] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip]
+[2024-04-24 05:54:03] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip]
+[2024-04-24 05:54:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2024-04-24 05:54:03] INFO root fetch - processPackages [TopDownHockey-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/TopDownHockey_Scraper-3.1.2.tar.gz]
+[2024-04-24 05:54:03] INFO root fetch - processPackages [TopDownHockey-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/topdownhockey_scraper-3.2.1.tar.gz]
+[2024-04-24 05:54:03] INFO root fetch - main [MainThread]: End processing [TopDownHockey-Scraper]: success
+[2024-04-24 05:54:03] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.8.tar.gz]
+[2024-04-24 05:54:03] INFO root fetch - processPackages [gearsllm]: Remove: archive file [/home/abi/fetcher/tmp/gearsllm-0.1.9.tar.gz]
+[2024-04-24 05:54:03] INFO root fetch - main [MainThread]: End processing [gearsllm]: success
+[2024-04-24 05:54:03] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.8.tar.gz]
+[2024-04-24 05:54:03] INFO root fetch - processPackages [hspylib-setman]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-setman-0.9.9.tar.gz]
+[2024-04-24 05:54:03] INFO root fetch - main [MainThread]: End processing [hspylib-setman]: success
+[2024-04-24 05:54:03] INFO root fetch - main [MainThread]: Store serial: [22906546]
