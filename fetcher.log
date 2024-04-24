@@ -11906,3 +11906,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 08:18:23] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240423.tar.gz]
 [2024-04-24 08:18:23] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-04-24 08:18:23] INFO root fetch - main [MainThread]: Store serial: [22907475]
+[2024-04-24 08:20:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907475]
+[2024-04-24 08:20:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinybird-cli
+[2024-04-24 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gable
+[2024-04-24 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlrover
+[2024-04-24 08:20:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-inventory
+[2024-04-24 08:20:42] INFO root fetch - processPackages [odoo-addon-stock-inventory]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-04-24 08:20:42] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/77/ff/b556488bc34cff50749e40cf9df3454a8da57802005bbac930adbbd52293/odoo_addon_stock_inventory-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-24 08:20:42] INFO root fetch - processPackages [dlrover]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-24 08:20:42] INFO root fetch - processPackages [gable]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-04-24 08:20:42] INFO root fetch - processPackages [tinybird-cli]: New version: [3.9.1.dev1] Old Version: [3.8.2.dev2]
+[2024-04-24 08:20:42] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/3c/25/205ee4d565d0bf0f974e4b429be2eb6f978c964647c940357bfa9601db85/gable-0.9.0a2.tar.gz
+[2024-04-24 08:20:42] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Downloading https://files.pythonhosted.org/packages/4a/82/df10b291e0306fa4b8841152dda4d61fcb7ced1db9a8ed57843ece790670/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-24 08:20:42] INFO root fetch - processPackages [dlrover]: Downloading https://files.pythonhosted.org/packages/12/94/967f55448be6138437a256d8b040cde8fee643448cd5555101e1f8a99044/dlrover-0.3.5-py3-none-any.whl
+[2024-04-24 08:20:42] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/fb/b4/324b2d324a77c9ef64a8b6162833dc5cd4183969da6f74a9e68df31f9556/tinybird-cli-3.8.2.dev2.tar.gz
+[2024-04-24 08:20:43] INFO root fetch - processPackages [odoo-addon-stock-inventory]: executing diffoscope
+[2024-04-24 08:20:43] INFO root fetch - processPackages [odoo-addon-stock-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_inventory-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-stock-inventory/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-04-24 08:20:43] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/df/19/7ed3e403c062cfa539ddfa26caecd22d3365e387d62ab3f2a6db2e30ac8a/gable-0.9.0a3.tar.gz
+[2024-04-24 08:20:43] INFO root fetch - processPackages [dlrover]: Downloading https://files.pythonhosted.org/packages/7b/8c/0b84fc49667ec16c7c0e45f6e7c3eb49dedb868510b71aba1109cba8ccd0/dlrover-0.3.6-py3-none-any.whl
+[2024-04-24 08:20:43] INFO root fetch - processPackages [gable]: executing diffoscope
+[2024-04-24 08:20:43] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.9.0a2.tar.gz tmp/gable-0.9.0a3.tar.gz --markdown 20240424/g/gable/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-04-24 08:20:43] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/ad/f6/2959d608c8b5066689f297d4ebba807ec540f3ed3f8741a2847159dca8e6/tinybird-cli-3.9.1.dev1.tar.gz
+[2024-04-24 08:20:43] INFO root fetch - processPackages [dlrover]: executing diffoscope
+[2024-04-24 08:20:43] INFO root fetch - processPackages [dlrover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlrover-0.3.5-py3-none-any.whl.zip tmp/dlrover-0.3.6-py3-none-any.whl.zip --markdown 20240424/d/dlrover/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-24 08:20:43] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-04-24 08:20:43] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.8.2.dev2.tar.gz tmp/tinybird-cli-3.9.1.dev1.tar.gz --markdown 20240424/t/tinybird-cli/3.8.2.dev2-3.9.1.dev1/README.md --exclude *.pyd
+[2024-04-24 08:20:43] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-24 08:20:43] INFO root fetch - processPackages [odoo-addon-stock-inventory]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_inventory-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-24 08:20:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-inventory]: success
+[2024-04-24 08:20:44] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a2.tar.gz]
+[2024-04-24 08:20:44] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
+[2024-04-24 08:20:44] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2024-04-24 08:20:44] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.8.2.dev2.tar.gz]
+[2024-04-24 08:20:44] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev1.tar.gz]
+[2024-04-24 08:20:44] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-04-24 08:20:45] INFO root fetch - processPackages [dlrover]: Remove: archive file [/home/abi/fetcher/tmp/dlrover-0.3.5-py3-none-any.whl.zip]
+[2024-04-24 08:20:45] INFO root fetch - processPackages [dlrover]: Remove: archive file [/home/abi/fetcher/tmp/dlrover-0.3.6-py3-none-any.whl.zip]
+[2024-04-24 08:20:45] INFO root fetch - main [MainThread]: End processing [dlrover]: success
+[2024-04-24 08:20:45] INFO root fetch - main [MainThread]: Store serial: [22907489]
