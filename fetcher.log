@@ -22506,3 +22506,56 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:28:09] INFO root fetch - processPackages [pywb]: Remove: archive file [/home/abi/fetcher/tmp/pywb-2.8.0.tar.gz]
 [2024-04-24 14:28:09] INFO root fetch - main [MainThread]: End processing [pywb]: success
 [2024-04-24 14:28:09] INFO root fetch - main [MainThread]: Store serial: [22912031]
+[2024-04-24 14:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912031]
+[2024-04-24 14:30:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmdata
+[2024-04-24 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltachat-rpc-server
+[2024-04-24 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramodels
+[2024-04-24 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aporacle
+[2024-04-24 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2024-04-24 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmd-ai
+[2024-04-24 14:30:33] INFO root fetch - processPackages [aporacle]: New version: [0.0.140] Old Version: [0.0.139]
+[2024-04-24 14:30:33] INFO root fetch - processPackages [cmdata]: New version: [1.0.3b0] Old Version: [1.0.0]
+[2024-04-24 14:30:33] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-24 14:30:33] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-04-24 14:30:33] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/9d/78/92d30c8a0a5a5f923831198d05983e204ea3fbe4688f88fcecaa218d0f9b/aporacle-0.0.139.tar.gz
+[2024-04-24 14:30:33] INFO root fetch - processPackages [cmd-ai]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-24 14:30:33] INFO root fetch - processPackages [deltachat-rpc-server]: New version: [1.137.4] Old Version: [1.137.1]
+[2024-04-24 14:30:33] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-24 14:30:33] INFO root fetch - processPackages [cmdata]: Downloading https://files.pythonhosted.org/packages/f4/06/ae5574ae641fea55598d05d7c5ac5a949ce33fb4dc21649d40f1ec594d18/cmdata-1.0.0.tar.gz
+[2024-04-24 14:30:33] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-04-24 14:30:34] INFO root fetch - processPackages [deltachat-rpc-server]: Downloading https://files.pythonhosted.org/packages/27/b5/d520c8a234e5eebfce218af64fd3b3bb1d2d70aad52982a499ace4c285ed/deltachat-rpc-server-1.137.1.tar.gz
+[2024-04-24 14:30:34] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/34/f6/91147c4f906c6f81e04189e69c69a0f54d2c54a491577e0b2a6d485c38a0/aporacle-0.0.140.tar.gz
+[2024-04-24 14:30:34] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-24 14:30:34] INFO root fetch - processPackages [cmd-ai]: Downloading https://files.pythonhosted.org/packages/f4/87/9a64358d4527f065f136d98bf6f2cbc82bf0a7433e536aae0b9ee8d237a9/cmd_ai-0.2.1.tar.gz
+[2024-04-24 14:30:34] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-04-24 14:30:34] ERROR root fetch - processPackages [cmdata]: Unable to fetch info: No such project/version 'cmdata' 1.0.3b0
+[2024-04-24 14:30:34] INFO root fetch - main [MainThread]: End processing [cmdata] error
+[2024-04-24 14:30:34] INFO root fetch - processPackages [aporacle]: executing diffoscope
+[2024-04-24 14:30:34] INFO root fetch - processPackages [aporacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporacle-0.0.139.tar.gz tmp/aporacle-0.0.140.tar.gz --markdown 20240424/a/aporacle/0.0.139-0.0.140/README.md --exclude *.pyd
+[2024-04-24 14:30:34] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-24 14:30:34] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240424/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-24 14:30:34] INFO root fetch - processPackages [deltachat-rpc-server]: Downloading https://files.pythonhosted.org/packages/da/f7/3ec26c9561cae4ab7969f93c7d79adb6e3a48e2f11b3c93f82e602456d9b/deltachat-rpc-server-1.137.4.tar.gz
+[2024-04-24 14:30:34] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-04-24 14:30:34] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240424/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-04-24 14:30:34] INFO root fetch - processPackages [cmd-ai]: Downloading https://files.pythonhosted.org/packages/fb/63/357cc70cd29f77bfdd7320c9f37b6a8f35378c34918e24f1da163c1722c5/cmd_ai-0.2.2.tar.gz
+[2024-04-24 14:30:34] INFO root fetch - processPackages [deltachat-rpc-server]: executing diffoscope
+[2024-04-24 14:30:34] INFO root fetch - processPackages [deltachat-rpc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat-rpc-server-1.137.1.tar.gz tmp/deltachat-rpc-server-1.137.4.tar.gz --markdown 20240424/d/deltachat-rpc-server/1.137.1-1.137.4/README.md --exclude *.pyd
+[2024-04-24 14:30:34] INFO root fetch - processPackages [cmd-ai]: executing diffoscope
+[2024-04-24 14:30:34] INFO root fetch - processPackages [cmd-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmd_ai-0.2.1.tar.gz tmp/cmd_ai-0.2.2.tar.gz --markdown 20240424/c/cmd-ai/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-24 14:30:34] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.139.tar.gz]
+[2024-04-24 14:30:34] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.140.tar.gz]
+[2024-04-24 14:30:34] INFO root fetch - main [MainThread]: End processing [aporacle]: success
+[2024-04-24 14:30:35] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-24 14:30:35] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-24 14:30:35] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-24 14:30:35] INFO root fetch - processPackages [deltachat-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-server-1.137.1.tar.gz]
+[2024-04-24 14:30:35] INFO root fetch - processPackages [deltachat-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-server-1.137.4.tar.gz]
+[2024-04-24 14:30:35] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-server]: success
+[2024-04-24 14:30:35] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-04-24 14:30:35] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-04-24 14:30:35] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-04-24 14:30:35] INFO root fetch - processPackages [cmd-ai]: Remove: archive file [/home/abi/fetcher/tmp/cmd_ai-0.2.1.tar.gz]
+[2024-04-24 14:30:35] INFO root fetch - processPackages [cmd-ai]: Remove: archive file [/home/abi/fetcher/tmp/cmd_ai-0.2.2.tar.gz]
+[2024-04-24 14:30:35] INFO root fetch - main [MainThread]: End processing [cmd-ai]: success
+[2024-04-24 14:30:35] INFO root fetch - main [MainThread]: Store serial: [22912056]
