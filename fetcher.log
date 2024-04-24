@@ -9170,3 +9170,24 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:36:45] INFO root fetch - processPackages [django-pgtransaction]: Remove: archive file [/home/abi/fetcher/tmp/django_pgtransaction-1.3.2.tar.gz]
 [2024-04-24 05:36:45] INFO root fetch - main [MainThread]: End processing [django-pgtransaction]: success
 [2024-04-24 05:36:45] INFO root fetch - main [MainThread]: Store serial: [22906463]
+[2024-04-24 05:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906463]
+[2024-04-24 05:38:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 05:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygpt-net
+[2024-04-24 05:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simular-eth-stubs
+[2024-04-24 05:38:53] INFO root fetch - processPackages [simular-eth-stubs]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 05:38:54] INFO root fetch - processPackages [simular-eth-stubs]: Downloading https://files.pythonhosted.org/packages/56/9a/48025890ac5e5170495c581a870c0c18f011707a8ffb8f49aed0cc418a79/simular-eth-stubs-0.0.3.tar.gz
+[2024-04-24 05:38:54] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-24 05:38:54] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-24 05:38:54] INFO root fetch - processPackages [simular-eth-stubs]: Downloading https://files.pythonhosted.org/packages/05/93/6cd17effecd8ba897e82c90b4fb11a9c77457f97391ddc763f5684ee2ea1/simular-eth-stubs-0.0.4.tar.gz
+[2024-04-24 05:38:54] INFO root fetch - processPackages [simular-eth-stubs]: executing diffoscope
+[2024-04-24 05:38:54] INFO root fetch - processPackages [simular-eth-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simular-eth-stubs-0.0.3.tar.gz tmp/simular-eth-stubs-0.0.4.tar.gz --markdown 20240424/s/simular-eth-stubs/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 05:38:54] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-24 05:38:54] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-24 05:38:54] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240424/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-24 05:38:54] INFO root fetch - processPackages [simular-eth-stubs]: Remove: archive file [/home/abi/fetcher/tmp/simular-eth-stubs-0.0.3.tar.gz]
+[2024-04-24 05:38:54] INFO root fetch - processPackages [simular-eth-stubs]: Remove: archive file [/home/abi/fetcher/tmp/simular-eth-stubs-0.0.4.tar.gz]
+[2024-04-24 05:38:54] INFO root fetch - main [MainThread]: End processing [simular-eth-stubs]: success
+[2024-04-24 05:38:57] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-24 05:38:57] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-24 05:38:57] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-24 05:38:57] INFO root fetch - main [MainThread]: Store serial: [22906471]
