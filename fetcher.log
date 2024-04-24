@@ -8143,3 +8143,56 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 04:38:53] INFO root fetch - processPackages [libro]: Remove: archive file [/home/abi/fetcher/tmp/libro-0.1.5.tar.gz]
 [2024-04-24 04:38:53] INFO root fetch - main [MainThread]: End processing [libro]: success
 [2024-04-24 04:38:53] INFO root fetch - main [MainThread]: Store serial: [22905902]
+[2024-04-24 04:41:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905902]
+[2024-04-24 04:41:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalk-harness
+[2024-04-24 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-financial-report
+[2024-04-24 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-financial-report
+[2024-04-24 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funboost
+[2024-04-24 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-financial-report
+[2024-04-24 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: statementskeleton
+[2024-04-24 04:41:05] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.13]
+[2024-04-24 04:41:05] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.13]
+[2024-04-24 04:41:05] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.13]
+[2024-04-24 04:41:05] INFO root fetch - processPackages [statementskeleton]: New version: [1.2] Old Version: [1.1]
+[2024-04-24 04:41:05] INFO root fetch - processPackages [chalk-harness]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-24 04:41:05] INFO root fetch - processPackages [funboost]: New version: [43.9] Old Version: [43.8]
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/fe/af/2009aad913107eee05ed9bf13d3e06aad62c0201d27c05ab1d2b0b6e67c9/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/fe/af/2009aad913107eee05ed9bf13d3e06aad62c0201d27c05ab1d2b0b6e67c9/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/fe/af/2009aad913107eee05ed9bf13d3e06aad62c0201d27c05ab1d2b0b6e67c9/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl
+[2024-04-24 04:41:06] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/04/cf/7b5f46fcb7ff618c41cba126b21c03047ab357635bab1cb1fa76c6c31081/chalk-harness-1.9.8.tar.gz
+[2024-04-24 04:41:06] INFO root fetch - processPackages [statementskeleton]: Downloading https://files.pythonhosted.org/packages/12/70/3fedf6be6db8301c2eb446c310c48faa7259c6aee63f5b18b6bb550a75f2/statementskeleton-1.1.tar.gz
+[2024-04-24 04:41:06] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/08/9f/61476553d230e649dd55747483b0ca235a224c5715c8d996ce336ce512a0/funboost-43.8.tar.gz
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/44/8d/3b508753c214ac5b8549054893686102c8948d6adf45eef94086067d7780/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/44/8d/3b508753c214ac5b8549054893686102c8948d6adf45eef94086067d7780/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/44/8d/3b508753c214ac5b8549054893686102c8948d6adf45eef94086067d7780/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl
+[2024-04-24 04:41:06] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/71/ea/d40dc649c4c8238582eeede1c8cfae5807f94913301efa0c34aff4e959f8/chalk-harness-1.9.9.tar.gz
+[2024-04-24 04:41:06] INFO root fetch - processPackages [statementskeleton]: Downloading https://files.pythonhosted.org/packages/d6/4f/10297fe4bf6d8358a91510d0bf31efbf3023ea27c26cffc6dfcd2216bb90/statementskeleton-1.2.tar.gz
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-account-financial-report/17.0.1.0.0.13-17.0.1.1.0/README.md --exclude *.pyd
+[2024-04-24 04:41:06] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/19/0c/2a35700238a39bb295c848b1011335e87ede7490986597c7c3a82eeb04c2/funboost-43.9.tar.gz
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-account-financial-report/17.0.1.0.0.13-17.0.1.1.0/README.md --exclude *.pyd
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-24 04:41:06] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240424/o/odoo-addon-account-financial-report/17.0.1.0.0.13-17.0.1.1.0/README.md --exclude *.pyd
+[2024-04-24 04:41:06] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2024-04-24 04:41:06] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.9.8.tar.gz tmp/chalk-harness-1.9.9.tar.gz --markdown 20240424/c/chalk-harness/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-24 04:41:06] INFO root fetch - processPackages [statementskeleton]: executing diffoscope
+[2024-04-24 04:41:06] INFO root fetch - processPackages [statementskeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statementskeleton-1.1.tar.gz tmp/statementskeleton-1.2.tar.gz --markdown 20240424/s/statementskeleton/1.1-1.2/README.md --exclude *.pyd
+[2024-04-24 04:41:07] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2024-04-24 04:41:07] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-43.8.tar.gz tmp/funboost-43.9.tar.gz --markdown 20240424/f/funboost/43.8-43.9/README.md --exclude *.pyd
+[2024-04-24 04:41:07] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.8.tar.gz]
+[2024-04-24 04:41:07] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.9.tar.gz]
+[2024-04-24 04:41:07] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2024-04-24 04:41:07] INFO root fetch - processPackages [statementskeleton]: Remove: archive file [/home/abi/fetcher/tmp/statementskeleton-1.1.tar.gz]
+[2024-04-24 04:41:07] INFO root fetch - processPackages [statementskeleton]: Remove: archive file [/home/abi/fetcher/tmp/statementskeleton-1.2.tar.gz]
+[2024-04-24 04:41:07] INFO root fetch - main [MainThread]: End processing [statementskeleton]: success
+[2024-04-24 04:41:07] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.0.0.13-py3-none-any.whl.zip]
+[2024-04-24 04:41:07] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-24 04:41:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-24 04:41:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-24 04:41:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-24 04:41:08] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.8.tar.gz]
+[2024-04-24 04:41:08] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.9.tar.gz]
+[2024-04-24 04:41:08] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2024-04-24 04:41:08] INFO root fetch - main [MainThread]: Store serial: [22905920]
