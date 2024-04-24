@@ -11202,3 +11202,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 07:37:54] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.9.9.tar.gz]
 [2024-04-24 07:37:54] INFO root fetch - main [MainThread]: End processing [dassana]: success
 [2024-04-24 07:37:54] INFO root fetch - main [MainThread]: Store serial: [22907248]
+[2024-04-24 07:39:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22907248]
+[2024-04-24 07:40:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-24 07:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gwaslab
+[2024-04-24 07:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-parrot-adbcontroller
+[2024-04-24 07:40:03] INFO root fetch - processPackages [robotframework-parrot-adbcontroller]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 07:40:03] INFO root fetch - processPackages [gwaslab]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-04-24 07:40:03] INFO root fetch - processPackages [robotframework-parrot-adbcontroller]: Downloading https://files.pythonhosted.org/packages/80/b5/712289123f4f5d36c7c73a7bd0255d4215fa5a420d779b6d4abe6b6a1f0e/robotframework-parrot-adbcontroller-1.0.0.tar.gz
+[2024-04-24 07:40:03] INFO root fetch - processPackages [gwaslab]: Downloading https://files.pythonhosted.org/packages/57/4a/4ed921d4b6c0927c23727a987f62eeb1ab91df90b0b500b48e6f96b93fb1/gwaslab-3.4.8.tar.gz
+[2024-04-24 07:40:03] INFO root fetch - processPackages [robotframework-parrot-adbcontroller]: Downloading https://files.pythonhosted.org/packages/bd/df/7feab0e9ea0600cbd59c3155211a62bf525a84d8ce93a4660ed4146cfdac/robotframework_parrot_adbcontroller-1.0.1.tar.gz
+[2024-04-24 07:40:04] INFO root fetch - processPackages [robotframework-parrot-adbcontroller]: executing diffoscope
+[2024-04-24 07:40:04] INFO root fetch - processPackages [robotframework-parrot-adbcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-parrot-adbcontroller-1.0.0.tar.gz tmp/robotframework_parrot_adbcontroller-1.0.1.tar.gz --markdown 20240424/r/robotframework-parrot-adbcontroller/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 07:40:04] INFO root fetch - processPackages [robotframework-parrot-adbcontroller]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-parrot-adbcontroller-1.0.0.tar.gz]
+[2024-04-24 07:40:04] INFO root fetch - processPackages [robotframework-parrot-adbcontroller]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_parrot_adbcontroller-1.0.1.tar.gz]
+[2024-04-24 07:40:04] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-adbcontroller]: success
+[2024-04-24 07:40:04] WARNING root fetch - processPackages [gwaslab]: Skipping package: exceeds size limit 20618587>=10485760
+[2024-04-24 07:40:04] INFO root fetch - main [MainThread]: End processing [gwaslab] error
+[2024-04-24 07:40:04] INFO root fetch - main [MainThread]: Store serial: [22907254]
