@@ -19480,3 +19480,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:45:39] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.9.tar.gz]
 [2024-04-24 12:45:39] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
 [2024-04-24 12:45:39] INFO root fetch - main [MainThread]: Store serial: [22910742]
+[2024-04-24 12:47:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910742]
+[2024-04-24 12:47:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-24 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2024-04-24 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamindb_setup
+[2024-04-24 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinjected
+[2024-04-24 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-base
+[2024-04-24 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hui-tools
+[2024-04-24 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nodify
+[2024-04-24 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: celitech-sdk
+[2024-04-24 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynetgene
+[2024-04-24 12:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-gemini-api
+[2024-04-24 12:47:57] WARNING root fetch - processPackages [nodify]: Skipping, unable to determine old version
+[2024-04-24 12:47:57] INFO root fetch - main [MainThread]: End processing [nodify] error
+[2024-04-24 12:47:57] INFO root fetch - processPackages [pinjected]: New version: [0.2.42] Old Version: [0.2.41]
+[2024-04-24 12:47:57] INFO root fetch - processPackages [python-gemini-api]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-04-24 12:47:57] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-24 12:47:57] WARNING root fetch - processPackages [pynetgene]: Skipping, unable to determine old version
+[2024-04-24 12:47:57] INFO root fetch - processPackages [hui-tools]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-24 12:47:57] INFO root fetch - main [MainThread]: End processing [pynetgene] error
+[2024-04-24 12:47:57] INFO root fetch - processPackages [celitech-sdk]: New version: [1.1.53] Old Version: [1.1.51]
+[2024-04-24 12:47:57] INFO root fetch - processPackages [pyg-base]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 12:47:57] INFO root fetch - processPackages [lamindb_setup]: New version: [0.70.0] Old Version: [0.69.5]
+[2024-04-24 12:47:57] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/38/51/d3a761d5842c285f367942935a5c07c3e1cbc1d0ee125f61dfd66c20de5c/python-gemini-api-2.4.2.tar.gz
+[2024-04-24 12:47:57] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/4d/ab/ec08107f68411dce1fb3c137220cf39654871c418cb362c86ee1df427785/pinjected-0.2.41.tar.gz
+[2024-04-24 12:47:57] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/e5/9e/493b7764c911efe5a4695363defc1bc97bc1dd77d81362ca0b3bf84ff196/lamindb_setup-0.69.5.tar.gz
+[2024-04-24 12:47:57] INFO root fetch - processPackages [hui-tools]: Downloading https://files.pythonhosted.org/packages/51/e8/20c1379b77d49f1d6ef834b8eed7ced18e247ab941bd294ad3c31c3ed4c2/hui-tools-0.3.2.tar.gz
+[2024-04-24 12:47:57] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-04-24 12:47:57] INFO root fetch - processPackages [pyg-base]: Downloading https://files.pythonhosted.org/packages/77/0b/d6dfa3dfd92b1f6dbaaf93929591af001b83588ce6bd02de60b4805e8a20/pyg-base-0.0.8.tar.gz
+[2024-04-24 12:47:57] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/1a/6e/e587cc8a212109d9e129939ccc137de930d1ce0970a1714ff2d48932a796/celitech_sdk-1.1.51.tar.gz
+[2024-04-24 12:47:57] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/b3/1a/5880bd4020c9e37605c40f1466b9d8c0b3f02061f7571c43e23dc3e22c82/python_gemini_api-2.4.3.tar.gz
+[2024-04-24 12:47:58] INFO root fetch - processPackages [python-gemini-api]: executing diffoscope
+[2024-04-24 12:47:58] INFO root fetch - processPackages [python-gemini-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gemini-api-2.4.2.tar.gz tmp/python_gemini_api-2.4.3.tar.gz --markdown 20240424/p/python-gemini-api/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-04-24 12:47:58] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/9a/36/54019590fbea2530d3e660c865e08547d928c974c0dacf0f6e8a0e97713c/pinjected-0.2.42.tar.gz
+[2024-04-24 12:47:58] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/b1/2b/ad2b0b49cd7927dd0e3da9407b86761327e59cbaed0b41c5abb8a28e568b/lamindb_setup-0.70.0.tar.gz
+[2024-04-24 12:47:58] INFO root fetch - processPackages [hui-tools]: Downloading https://files.pythonhosted.org/packages/12/f4/015d0db47d74fd81bff8705e218b10cefbb450b6deffc9b414b295eefd05/hui-tools-0.4.0.tar.gz
+[2024-04-24 12:47:58] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/c3/cf/c90822a554c9da04123912a99117732762182e19fa718797d181cd049dee/celitech_sdk-1.1.53.tar.gz
+[2024-04-24 12:47:58] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2024-04-24 12:47:58] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.69.5.tar.gz tmp/lamindb_setup-0.70.0.tar.gz --markdown 20240424/l/lamindb_setup/0.69.5-0.70.0/README.md --exclude *.pyd
+[2024-04-24 12:47:58] INFO root fetch - processPackages [celitech-sdk]: executing diffoscope
+[2024-04-24 12:47:58] INFO root fetch - processPackages [celitech-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celitech_sdk-1.1.51.tar.gz tmp/celitech_sdk-1.1.53.tar.gz --markdown 20240424/c/celitech-sdk/1.1.51-1.1.53/README.md --exclude *.pyd
+[2024-04-24 12:47:58] INFO root fetch - processPackages [hui-tools]: executing diffoscope
+[2024-04-24 12:47:58] INFO root fetch - processPackages [hui-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hui-tools-0.3.2.tar.gz tmp/hui-tools-0.4.0.tar.gz --markdown 20240424/h/hui-tools/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-24 12:47:58] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-24 12:47:58] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.41.tar.gz tmp/pinjected-0.2.42.tar.gz --markdown 20240424/p/pinjected/0.2.41-0.2.42/README.md --exclude *.pyd
+[2024-04-24 12:47:58] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-04-24 12:47:58] INFO root fetch - processPackages [pyg-base]: Downloading https://files.pythonhosted.org/packages/62/2a/7d62008098256d4f1313f067f8989ac56fcff51624e9460441ac056d8369/pyg-base-0.0.9.tar.gz
+[2024-04-24 12:47:58] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-04-24 12:47:58] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240424/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-24 12:47:58] INFO root fetch - processPackages [pyg-base]: executing diffoscope
+[2024-04-24 12:47:58] INFO root fetch - processPackages [pyg-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-base-0.0.8.tar.gz tmp/pyg-base-0.0.9.tar.gz --markdown 20240424/p/pyg-base/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 12:47:58] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gemini-api-2.4.2.tar.gz]
+[2024-04-24 12:47:58] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.3.tar.gz]
+[2024-04-24 12:47:58] INFO root fetch - main [MainThread]: End processing [python-gemini-api]: success
+[2024-04-24 12:47:59] INFO root fetch - processPackages [hui-tools]: Remove: archive file [/home/abi/fetcher/tmp/hui-tools-0.3.2.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - processPackages [hui-tools]: Remove: archive file [/home/abi/fetcher/tmp/hui-tools-0.4.0.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - main [MainThread]: End processing [hui-tools]: success
+[2024-04-24 12:47:59] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech_sdk-1.1.51.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech_sdk-1.1.53.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - main [MainThread]: End processing [celitech-sdk]: success
+[2024-04-24 12:47:59] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.41.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.42.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-24 12:47:59] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.69.5.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.70.0.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2024-04-24 12:47:59] INFO root fetch - processPackages [pyg-base]: Remove: archive file [/home/abi/fetcher/tmp/pyg-base-0.0.8.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - processPackages [pyg-base]: Remove: archive file [/home/abi/fetcher/tmp/pyg-base-0.0.9.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - main [MainThread]: End processing [pyg-base]: success
+[2024-04-24 12:47:59] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-04-24 12:47:59] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-04-24 12:47:59] INFO root fetch - main [MainThread]: Store serial: [22910772]
