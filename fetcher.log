@@ -17927,3 +17927,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2024-04-24 11:57:32] INFO root fetch - main [MainThread]: End processing [spectacularAI] error
 [2024-04-24 11:57:32] INFO root fetch - main [MainThread]: Store serial: [22910097]
+[2024-04-24 11:59:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910097]
+[2024-04-24 11:59:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hddm-s
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-radiance-postprocess
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perun.proxygui
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-core
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Project-DataPrepKit
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-horizon-sdk
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tromero-tailor
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alert-on-exception
+[2024-04-24 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-langchain
+[2024-04-24 11:59:42] INFO root fetch - processPackages [tromero-tailor]: New version: [0.0.9] Old Version: [0.0.11]
+[2024-04-24 11:59:42] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 11:59:42] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-24 11:59:42] INFO root fetch - processPackages [perun.proxygui]: New version: [5.1.0] Old Version: [5.0.2]
+[2024-04-24 11:59:42] INFO root fetch - processPackages [Project-DataPrepKit]: New version: [0.4] Old Version: [0.3]
+[2024-04-24 11:59:42] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-24 11:59:42] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-04-24 11:59:42] INFO root fetch - processPackages [hddm-s]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-04-24 11:59:42] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-24 11:59:42] WARNING root fetch - processPackages [alert-on-exception]: Skipping, unable to determine old version
+[2024-04-24 11:59:42] INFO root fetch - main [MainThread]: End processing [alert-on-exception] error
+[2024-04-24 11:59:42] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [Project-DataPrepKit]: Downloading https://files.pythonhosted.org/packages/a4/3e/a9cd1cd449f059c6cf63439ef66359cb3e74a47fb97bd657f792f0f2d98a/Project_DataPrepKit-0.3.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/19/e8/761e252d696790e786c33e9ab465b72e3951f29bca699392815d5d19fbc6/perun.proxygui-5.0.2.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/92/19/c43bf13bc42d9610d722e0b65d92011c0c2a4e18dfefad52070081ddcf1e/tromero_tailor-0.0.11.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/c7/15/051d8248dd680cc83687b776c06944bb75f8bcddabc05f270b5c65549a26/hddm_s-1.0.7.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/9c/20/2a8738e39bb786f740532e875ee86a9882fc942fc9f36c314dbc75bbe9cf/finbourne_horizon_sdk-2.1.7.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [Project-DataPrepKit]: Downloading https://files.pythonhosted.org/packages/43/e0/6dffcdcc97a17be31644819bdbe9712362b677bb6026418baeefd9227863/Project_DataPrepKit-0.4.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-04-24 11:59:42] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-24 11:59:43] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/33/6f/7c44bdeb103d43247b3904658b7ebada8ee85b34af2668d399e35b6a438f/tromero_tailor-0.0.9.tar.gz
+[2024-04-24 11:59:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2024-04-24 11:59:43] INFO root fetch - processPackages [Project-DataPrepKit]: executing diffoscope
+[2024-04-24 11:59:43] INFO root fetch - processPackages [Project-DataPrepKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Project_DataPrepKit-0.3.tar.gz tmp/Project_DataPrepKit-0.4.tar.gz --markdown 20240424/P/Project-DataPrepKit/0.3-0.4/README.md --exclude *.pyd
+[2024-04-24 11:59:43] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-24 11:59:43] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240424/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 11:59:43] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-24 11:59:43] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240424/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-24 11:59:43] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-24 11:59:43] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240424/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-04-24 11:59:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2024-04-24 11:59:43] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20240424/h/honeybee-radiance-postprocess/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-04-24 11:59:43] INFO root fetch - processPackages [tromero-tailor]: executing diffoscope
+[2024-04-24 11:59:43] INFO root fetch - processPackages [tromero-tailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tromero_tailor-0.0.11.tar.gz tmp/tromero_tailor-0.0.9.tar.gz --markdown 20240424/t/tromero-tailor/0.0.11-0.0.9/README.md --exclude *.pyd
+[2024-04-24 11:59:43] INFO root fetch - processPackages [hddm-s]: Downloading https://files.pythonhosted.org/packages/d2/24/0bac70948a0f916016590dddfc7e17148c466fa4b02e8bd2d4f3119e1816/hddm_s-1.0.9.tar.gz
+[2024-04-24 11:59:43] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-04-24 11:59:43] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/12/03/e3b8277099212572cb2cd9e5f93bc311437f12caa63ef5fce26a174cc1d5/perun.proxygui-5.1.0.tar.gz
+[2024-04-24 11:59:43] INFO root fetch - processPackages [hddm-s]: executing diffoscope
+[2024-04-24 11:59:43] INFO root fetch - processPackages [hddm-s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddm_s-1.0.7.tar.gz tmp/hddm_s-1.0.9.tar.gz --markdown 20240424/h/hddm-s/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-04-24 11:59:43] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-04-24 11:59:43] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.7.tar.gz tmp/finbourne_horizon_sdk-2.1.8.tar.gz --markdown 20240424/f/finbourne-horizon-sdk/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-24 11:59:43] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-04-24 11:59:43] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-5.0.2.tar.gz tmp/perun.proxygui-5.1.0.tar.gz --markdown 20240424/p/perun.proxygui/5.0.2-5.1.0/README.md --exclude *.pyd
+[2024-04-24 11:59:43] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-04-24 11:59:43] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-04-24 11:59:43] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-24 11:59:43] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-24 11:59:43] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-24 11:59:43] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-24 11:59:44] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-24 11:59:44] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.11.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.9.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - main [MainThread]: End processing [tromero-tailor]: success
+[2024-04-24 11:59:44] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2024-04-24 11:59:44] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.7.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - processPackages [hddm-s]: Remove: archive file [/home/abi/fetcher/tmp/hddm_s-1.0.9.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - main [MainThread]: End processing [hddm-s]: success
+[2024-04-24 11:59:44] INFO root fetch - processPackages [Project-DataPrepKit]: Remove: archive file [/home/abi/fetcher/tmp/Project_DataPrepKit-0.3.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - processPackages [Project-DataPrepKit]: Remove: archive file [/home/abi/fetcher/tmp/Project_DataPrepKit-0.4.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - main [MainThread]: End processing [Project-DataPrepKit]: success
+[2024-04-24 11:59:44] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.7.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-04-24 11:59:44] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-04-24 11:59:46] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.0.2.tar.gz]
+[2024-04-24 11:59:46] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.1.0.tar.gz]
+[2024-04-24 11:59:46] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-04-24 11:59:46] INFO root fetch - main [MainThread]: Store serial: [22910127]
