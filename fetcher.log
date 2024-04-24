@@ -20425,3 +20425,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:18:57] INFO root fetch - processPackages [imt-ring]: Remove: archive file [/home/abi/fetcher/tmp/imt_ring-1.2.2.tar.gz]
 [2024-04-24 13:18:57] INFO root fetch - main [MainThread]: End processing [imt-ring]: success
 [2024-04-24 13:18:57] INFO root fetch - main [MainThread]: Store serial: [22911092]
+[2024-04-24 13:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911092]
+[2024-04-24 13:21:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 13:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imt-ring
+[2024-04-24 13:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autofeather-dash-mantine-components
+[2024-04-24 13:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imt-ring
+[2024-04-24 13:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-math
+[2024-04-24 13:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymonday
+[2024-04-24 13:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hotsos
+[2024-04-24 13:21:18] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-24 13:21:18] INFO root fetch - processPackages [autofeather-dash-mantine-components]: New version: [0.14.3] Old Version: [0.14.2]
+[2024-04-24 13:21:18] INFO root fetch - processPackages [imt-ring]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-24 13:21:18] INFO root fetch - processPackages [imt-ring]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-24 13:21:18] INFO root fetch - processPackages [mo-math]: New version: [7.602.24115] Old Version: [7.601.24115]
+[2024-04-24 13:21:19] INFO root fetch - processPackages [pymonday]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-24 13:21:19] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/aa/3d/610df690da47ebb21f5a7f6e5f2df23ee6bab9c0b758e64aeadcbbe1ec95/autofeather_dash_mantine_components-0.14.2-py3-none-any.whl
+[2024-04-24 13:21:19] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [imt-ring]: Downloading https://files.pythonhosted.org/packages/7a/07/1c678a542276a052b62a1ab9fc7cc142d51adb56560e891b785292f83e56/imt-ring-1.2.1.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [imt-ring]: Downloading https://files.pythonhosted.org/packages/7a/07/1c678a542276a052b62a1ab9fc7cc142d51adb56560e891b785292f83e56/imt-ring-1.2.1.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/b8/d1/131a159259d84c9728c345e93424c6f2cb02d3364c4984079422e4d31179/mo_math-7.601.24115.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [pymonday]: Downloading https://files.pythonhosted.org/packages/c8/37/cb698033398adf67c129940affe6f4ac7beb4bad1baf270c7031c0b94a11/pymonday-2.1.2.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Downloading https://files.pythonhosted.org/packages/9d/c6/3e793263389bff2eeb22aa310853ff3ff2f8f148b6f97945071af23e205d/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl
+[2024-04-24 13:21:19] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/2b/e8/b031ef3ef45953c42134ebe62fc826ba15b66b4073a53359d8f8844856d4/mo_math-7.602.24115.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [autofeather-dash-mantine-components]: executing diffoscope
+[2024-04-24 13:21:19] INFO root fetch - processPackages [autofeather-dash-mantine-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofeather_dash_mantine_components-0.14.2-py3-none-any.whl.zip tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip --markdown 20240424/a/autofeather-dash-mantine-components/0.14.2-0.14.3/README.md --exclude *.pyd
+[2024-04-24 13:21:19] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-24 13:21:19] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240424/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-24 13:21:19] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2024-04-24 13:21:19] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_math-7.601.24115.tar.gz tmp/mo_math-7.602.24115.tar.gz --markdown 20240424/m/mo-math/7.601.24115-7.602.24115/README.md --exclude *.pyd
+[2024-04-24 13:21:19] INFO root fetch - processPackages [pymonday]: Downloading https://files.pythonhosted.org/packages/0a/19/08fff9470aeb3a6c87ea94b8bd194fb55f0eac031ae558ce25659b554924/pymonday-2.1.3.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [imt-ring]: Downloading https://files.pythonhosted.org/packages/8a/be/05e597d19f3627a0483b49de752b12ba6d473569d24e4b18227affb4397f/imt_ring-1.2.2.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [imt-ring]: Downloading https://files.pythonhosted.org/packages/8a/be/05e597d19f3627a0483b49de752b12ba6d473569d24e4b18227affb4397f/imt_ring-1.2.2.tar.gz
+[2024-04-24 13:21:19] INFO root fetch - processPackages [pymonday]: executing diffoscope
+[2024-04-24 13:21:19] INFO root fetch - processPackages [pymonday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonday-2.1.2.tar.gz tmp/pymonday-2.1.3.tar.gz --markdown 20240424/p/pymonday/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-24 13:21:20] INFO root fetch - processPackages [imt-ring]: executing diffoscope
+[2024-04-24 13:21:20] INFO root fetch - processPackages [imt-ring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imt-ring-1.2.1.tar.gz tmp/imt_ring-1.2.2.tar.gz --markdown 20240424/i/imt-ring/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-24 13:21:20] INFO root fetch - processPackages [imt-ring]: executing diffoscope
+[2024-04-24 13:21:20] INFO root fetch - processPackages [imt-ring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imt-ring-1.2.1.tar.gz tmp/imt_ring-1.2.2.tar.gz --markdown 20240424/i/imt-ring/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-24 13:21:20] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.601.24115.tar.gz]
+[2024-04-24 13:21:20] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.602.24115.tar.gz]
+[2024-04-24 13:21:20] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2024-04-24 13:21:20] INFO root fetch - processPackages [pymonday]: Remove: archive file [/home/abi/fetcher/tmp/pymonday-2.1.2.tar.gz]
+[2024-04-24 13:21:20] INFO root fetch - processPackages [pymonday]: Remove: archive file [/home/abi/fetcher/tmp/pymonday-2.1.3.tar.gz]
+[2024-04-24 13:21:20] INFO root fetch - main [MainThread]: End processing [pymonday]: success
+[2024-04-24 13:21:21] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-24 13:21:21] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-24 13:21:21] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-24 13:21:21] INFO root fetch - processPackages [imt-ring]: Remove: archive file [/home/abi/fetcher/tmp/imt-ring-1.2.1.tar.gz]
+[2024-04-24 13:21:21] INFO root fetch - processPackages [imt-ring]: Remove: archive file [/home/abi/fetcher/tmp/imt_ring-1.2.2.tar.gz]
+[2024-04-24 13:21:21] INFO root fetch - main [MainThread]: End processing [imt-ring]: success
+[2024-04-24 13:21:21] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.2-py3-none-any.whl.zip]
+[2024-04-24 13:21:21] INFO root fetch - processPackages [autofeather-dash-mantine-components]: Remove: archive file [/home/abi/fetcher/tmp/autofeather_dash_mantine_components-0.14.3-py3-none-any.whl.zip]
+[2024-04-24 13:21:21] INFO root fetch - main [MainThread]: End processing [autofeather-dash-mantine-components]: success
+[2024-04-24 13:21:22] INFO root fetch - main [MainThread]: End processing [imt-ring]: success
+[2024-04-24 13:21:22] INFO root fetch - main [MainThread]: Store serial: [22911116]
