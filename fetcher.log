@@ -9191,3 +9191,15 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:38:57] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
 [2024-04-24 05:38:57] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-24 05:38:57] INFO root fetch - main [MainThread]: Store serial: [22906471]
+[2024-04-24 05:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906471]
+[2024-04-24 05:41:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 05:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarkstudio
+[2024-04-24 05:41:06] INFO root fetch - processPackages [quarkstudio]: New version: [6.6.2.19] Old Version: [6.6.2.18]
+[2024-04-24 05:41:06] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/74/df/feec4fdbad34915f7adb0a52f2cc3e0bfe1750690103540f370caef290ea/quarkstudio-6.6.2.18-cp312-none-win_amd64.whl
+[2024-04-24 05:41:06] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/d7/3d/eb04b9a90ca017f54c0f9204df4844243f2320994a6fafd223ae8790fa71/quarkstudio-6.6.2.19-cp312-none-win_amd64.whl
+[2024-04-24 05:41:06] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2024-04-24 05:41:06] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.6.2.18-cp312-none-win_amd64.whl.zip tmp/quarkstudio-6.6.2.19-cp312-none-win_amd64.whl.zip --markdown 20240424/q/quarkstudio/6.6.2.18-6.6.2.19/README.md --exclude *.pyd
+[2024-04-24 05:41:07] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.18-cp312-none-win_amd64.whl.zip]
+[2024-04-24 05:41:07] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.19-cp312-none-win_amd64.whl.zip]
+[2024-04-24 05:41:07] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2024-04-24 05:41:07] INFO root fetch - main [MainThread]: Store serial: [22906484]
