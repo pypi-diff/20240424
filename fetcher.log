@@ -3179,3 +3179,36 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 02:50:41] INFO root fetch - processPackages [codeanim]: Remove: archive file [/home/abi/fetcher/tmp/codeanim-0.0.9.tar.gz]
 [2024-04-24 02:50:41] INFO root fetch - main [MainThread]: End processing [codeanim]: success
 [2024-04-24 02:50:41] INFO root fetch - main [MainThread]: Store serial: [22904136]
+[2024-04-24 02:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22904136]
+[2024-04-24 02:52:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 02:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeanim
+[2024-04-24 02:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oakvar
+[2024-04-24 02:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradedangerous
+[2024-04-24 02:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nullscream
+[2024-04-24 02:52:49] INFO root fetch - processPackages [codeanim]: New version: [0.0.9] Old Version: [0.0.14]
+[2024-04-24 02:52:49] INFO root fetch - processPackages [tradedangerous]: New version: [10.9.8] Old Version: [10.9.7]
+[2024-04-24 02:52:49] INFO root fetch - processPackages [oakvar]: New version: [2.9.99] Old Version: [2.9.98]
+[2024-04-24 02:52:49] WARNING root fetch - processPackages [nullscream]: Skipping, unable to determine old version
+[2024-04-24 02:52:49] INFO root fetch - main [MainThread]: End processing [nullscream] error
+[2024-04-24 02:52:49] INFO root fetch - processPackages [codeanim]: Downloading https://files.pythonhosted.org/packages/aa/b3/1575d5bff7e2d539eb19966f660cbb6e77744e09b3e535dcf93ab2656563/codeanim-0.0.14.tar.gz
+[2024-04-24 02:52:49] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/a3/ce/6968cab51f4cb7b955287af8ac7062bbc3d7ecfca4110e778aca096983b8/oakvar-2.9.98.tar.gz
+[2024-04-24 02:52:49] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/f0/71/5c26485ec7d39c61db0e0eff321b9fcd6656ad98bae9dd80db18336dc73d/tradedangerous-10.9.7.tar.gz
+[2024-04-24 02:52:49] INFO root fetch - processPackages [codeanim]: Downloading https://files.pythonhosted.org/packages/0d/0a/113fb1061a227875dba0e8349c9477a7eb7d1b7d9bf479b7bbc7157fc9a1/codeanim-0.0.9.tar.gz
+[2024-04-24 02:52:49] INFO root fetch - processPackages [codeanim]: executing diffoscope
+[2024-04-24 02:52:49] INFO root fetch - processPackages [codeanim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeanim-0.0.14.tar.gz tmp/codeanim-0.0.9.tar.gz --markdown 20240424/c/codeanim/0.0.14-0.0.9/README.md --exclude *.pyd
+[2024-04-24 02:52:49] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/d9/11/d9ffad5dfc88cd5ec054cd2e82b8477ba81df779f293f62a341c1dbd90cd/tradedangerous-10.9.8.tar.gz
+[2024-04-24 02:52:50] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/cf/2a/de8e0ae3bf287725294b151b3a458f4350c6be98fc7b2c5896e98a2a82a5/oakvar-2.9.99.tar.gz
+[2024-04-24 02:52:50] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-04-24 02:52:50] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-10.9.7.tar.gz tmp/tradedangerous-10.9.8.tar.gz --markdown 20240424/t/tradedangerous/10.9.7-10.9.8/README.md --exclude *.pyd
+[2024-04-24 02:52:50] INFO root fetch - processPackages [codeanim]: Remove: archive file [/home/abi/fetcher/tmp/codeanim-0.0.14.tar.gz]
+[2024-04-24 02:52:50] INFO root fetch - processPackages [codeanim]: Remove: archive file [/home/abi/fetcher/tmp/codeanim-0.0.9.tar.gz]
+[2024-04-24 02:52:50] INFO root fetch - main [MainThread]: End processing [codeanim]: success
+[2024-04-24 02:52:50] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-04-24 02:52:50] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.98.tar.gz tmp/oakvar-2.9.99.tar.gz --markdown 20240424/o/oakvar/2.9.98-2.9.99/README.md --exclude *.pyd
+[2024-04-24 02:52:51] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.7.tar.gz]
+[2024-04-24 02:52:51] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.8.tar.gz]
+[2024-04-24 02:52:51] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-04-24 02:52:53] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.98.tar.gz]
+[2024-04-24 02:52:53] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
+[2024-04-24 02:52:53] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-04-24 02:52:53] INFO root fetch - main [MainThread]: Store serial: [22904149]
