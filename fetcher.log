@@ -9119,3 +9119,42 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:32:24] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.29.tar.gz]
 [2024-04-24 05:32:24] INFO root fetch - main [MainThread]: End processing [adelie]: success
 [2024-04-24 05:32:24] INFO root fetch - main [MainThread]: Store serial: [22906448]
+[2024-04-24 05:34:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906448]
+[2024-04-24 05:34:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 05:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emtl
+[2024-04-24 05:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-04-24 05:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testsolar-testtool-sdk-py2
+[2024-04-24 05:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-mio
+[2024-04-24 05:34:33] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-24 05:34:33] INFO root fetch - processPackages [emtl]: New version: [0.1.5.dev1] Old Version: [0.1.4.dev1]
+[2024-04-24 05:34:33] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Downloading https://files.pythonhosted.org/packages/64/56/d44684bd1d61aaf3e42f70496bc6d7276a05a116ccfb5a9fdb60c78a1a1b/testsolar-testtool-sdk-py2-0.1.7.tar.gz
+[2024-04-24 05:34:33] INFO root fetch - processPackages [emtl]: Downloading https://files.pythonhosted.org/packages/ce/ef/4f04b88d9c6b61e20e58bb0602e97c368ad4b9a1a2c59bcae7036b98ada9/emtl-0.1.4.dev1.tar.gz
+[2024-04-24 05:34:33] INFO root fetch - processPackages [pih-mio]: New version: [0.29.2] Old Version: [0.29.1]
+[2024-04-24 05:34:33] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.80]
+[2024-04-24 05:34:33] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/a1/32/695ceb4f61469aca4bdc39b7d3ea42f78a64a35be54d4820decc3a0b543c/pih-mio-0.29.1.tar.gz
+[2024-04-24 05:34:33] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/ae/65/d0f01afed8cb4b0ae1ecba3a87029edf13d678e0d7163963186770217af8/swarmauri-0.1.80.tar.gz
+[2024-04-24 05:34:33] INFO root fetch - processPackages [emtl]: Downloading https://files.pythonhosted.org/packages/b1/f4/147d76b0eb357a826649b21f2385e4eab07faea171b30529ed0b922941ce/emtl-0.1.5.dev1.tar.gz
+[2024-04-24 05:34:33] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Downloading https://files.pythonhosted.org/packages/5e/f9/eacdec0e1b0753264f6bb9a7c53b1b295025e64e096e877e90075f617ea1/testsolar-testtool-sdk-py2-0.1.8.tar.gz
+[2024-04-24 05:34:33] INFO root fetch - processPackages [emtl]: executing diffoscope
+[2024-04-24 05:34:33] INFO root fetch - processPackages [emtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emtl-0.1.4.dev1.tar.gz tmp/emtl-0.1.5.dev1.tar.gz --markdown 20240424/e/emtl/0.1.4.dev1-0.1.5.dev1/README.md --exclude *.pyd
+[2024-04-24 05:34:33] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: executing diffoscope
+[2024-04-24 05:34:33] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-py2-0.1.7.tar.gz tmp/testsolar-testtool-sdk-py2-0.1.8.tar.gz --markdown 20240424/t/testsolar-testtool-sdk-py2/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-24 05:34:33] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/d5/e5/97559581228aa87d59670db1576b10a59765ec2cab5bf4786afbfbd3592d/pih-mio-0.29.2.tar.gz
+[2024-04-24 05:34:33] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-24 05:34:33] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2024-04-24 05:34:33] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-0.29.1.tar.gz tmp/pih-mio-0.29.2.tar.gz --markdown 20240424/p/pih-mio/0.29.1-0.29.2/README.md --exclude *.pyd
+[2024-04-24 05:34:33] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-24 05:34:33] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.80.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240424/s/swarmauri/0.1.80-0.1.9/README.md --exclude *.pyd
+[2024-04-24 05:34:34] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-py2-0.1.7.tar.gz]
+[2024-04-24 05:34:34] INFO root fetch - processPackages [testsolar-testtool-sdk-py2]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-py2-0.1.8.tar.gz]
+[2024-04-24 05:34:34] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk-py2]: success
+[2024-04-24 05:34:34] INFO root fetch - processPackages [emtl]: Remove: archive file [/home/abi/fetcher/tmp/emtl-0.1.4.dev1.tar.gz]
+[2024-04-24 05:34:34] INFO root fetch - processPackages [emtl]: Remove: archive file [/home/abi/fetcher/tmp/emtl-0.1.5.dev1.tar.gz]
+[2024-04-24 05:34:34] INFO root fetch - main [MainThread]: End processing [emtl]: success
+[2024-04-24 05:34:34] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.29.1.tar.gz]
+[2024-04-24 05:34:34] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.29.2.tar.gz]
+[2024-04-24 05:34:34] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2024-04-24 05:34:35] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.80.tar.gz]
+[2024-04-24 05:34:35] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-24 05:34:35] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-24 05:34:35] INFO root fetch - main [MainThread]: Store serial: [22906460]
