@@ -14867,3 +14867,47 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:19:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-24 10:19:28] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-24 10:19:28] INFO root fetch - main [MainThread]: Store serial: [22908952]
+[2024-04-24 10:21:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908952]
+[2024-04-24 10:21:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynest-api
+[2024-04-24 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaggle_waggle
+[2024-04-24 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: expressmoney
+[2024-04-24 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jacksung
+[2024-04-24 10:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedn
+[2024-04-24 10:21:37] INFO root fetch - processPackages [jacksung]: New version: [0.0.2.99] Old Version: [0.0.2.98]
+[2024-04-24 10:21:37] INFO root fetch - processPackages [kaggle_waggle]: New version: [1.6.12a2] Old Version: [1.6.12a1]
+[2024-04-24 10:21:37] INFO root fetch - processPackages [expressmoney]: New version: [9.9.1] Old Version: [9.9.0]
+[2024-04-24 10:21:37] INFO root fetch - processPackages [fedn]: New version: [0.9.1] Old Version: [0.9.0b2]
+[2024-04-24 10:21:37] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/53/49/29d6064a8fb6ccc0f6823e713582dc73298157d8802aa60a65240347ef14/jacksung-0.0.2.98.tar.gz
+[2024-04-24 10:21:37] INFO root fetch - processPackages [pynest-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-24 10:21:37] INFO root fetch - processPackages [kaggle_waggle]: Downloading https://files.pythonhosted.org/packages/ee/78/cb6062dd466350542ea2ee02a75fddc098e1eb1d20b8d5a7cec6e45ad770/kaggle_waggle-1.6.12a1.tar.gz
+[2024-04-24 10:21:37] INFO root fetch - processPackages [expressmoney]: Downloading https://files.pythonhosted.org/packages/66/33/8e08f8dddb0b22a27da61c435f93c7d8f5ea098532ef8a9e21aba17fd4e9/expressmoney-9.9.0.tar.gz
+[2024-04-24 10:21:37] WARNING root fetch - processPackages [kaggle_waggle]: Skipping package: exceeds size limit 13217120>=10485760
+[2024-04-24 10:21:37] INFO root fetch - main [MainThread]: End processing [kaggle_waggle] error
+[2024-04-24 10:21:37] INFO root fetch - processPackages [pynest-api]: Downloading https://files.pythonhosted.org/packages/a1/d9/04e417336b0648a56e1dd8a8b5036e3121117158b715a633a0cf5f36701b/pynest_api-0.2.1.tar.gz
+[2024-04-24 10:21:37] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/b5/22/0dfab66df22ada378e333e97f6287eef4c68d06fd84d4bc9a8d76c3ba65e/jacksung-0.0.2.99.tar.gz
+[2024-04-24 10:21:37] INFO root fetch - processPackages [fedn]: Downloading https://files.pythonhosted.org/packages/6f/70/5e7e86577a585df6cca7a00cb0d4b20266dc328560c80f11cc12b6cdd74c/fedn-0.9.0b2.tar.gz
+[2024-04-24 10:21:37] INFO root fetch - processPackages [expressmoney]: Downloading https://files.pythonhosted.org/packages/68/85/baf2ff28a5cd675870802f90fab795c8d2bf16c7e6137edf5b738fc98d54/expressmoney-9.9.1.tar.gz
+[2024-04-24 10:21:38] INFO root fetch - processPackages [jacksung]: executing diffoscope
+[2024-04-24 10:21:38] INFO root fetch - processPackages [jacksung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacksung-0.0.2.98.tar.gz tmp/jacksung-0.0.2.99.tar.gz --markdown 20240424/j/jacksung/0.0.2.98-0.0.2.99/README.md --exclude *.pyd
+[2024-04-24 10:21:38] INFO root fetch - processPackages [expressmoney]: executing diffoscope
+[2024-04-24 10:21:38] INFO root fetch - processPackages [expressmoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expressmoney-9.9.0.tar.gz tmp/expressmoney-9.9.1.tar.gz --markdown 20240424/e/expressmoney/9.9.0-9.9.1/README.md --exclude *.pyd
+[2024-04-24 10:21:38] INFO root fetch - processPackages [pynest-api]: Downloading https://files.pythonhosted.org/packages/f2/be/bd93fea0f8cd08a19e5ab4f94f64e2263e5b7196c1aad775cfe4bbe04607/pynest_api-0.2.2.tar.gz
+[2024-04-24 10:21:38] INFO root fetch - processPackages [fedn]: Downloading https://files.pythonhosted.org/packages/de/8b/015d6cf2973630cf58fb4d7bfbf32a15a6e45001eb0162418615381bdb9e/fedn-0.9.1.tar.gz
+[2024-04-24 10:21:38] INFO root fetch - processPackages [pynest-api]: executing diffoscope
+[2024-04-24 10:21:38] INFO root fetch - processPackages [pynest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynest_api-0.2.1.tar.gz tmp/pynest_api-0.2.2.tar.gz --markdown 20240424/p/pynest-api/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-24 10:21:38] INFO root fetch - processPackages [fedn]: executing diffoscope
+[2024-04-24 10:21:38] INFO root fetch - processPackages [fedn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedn-0.9.0b2.tar.gz tmp/fedn-0.9.1.tar.gz --markdown 20240424/f/fedn/0.9.0b2-0.9.1/README.md --exclude *.pyd
+[2024-04-24 10:21:38] INFO root fetch - processPackages [expressmoney]: Remove: archive file [/home/abi/fetcher/tmp/expressmoney-9.9.0.tar.gz]
+[2024-04-24 10:21:38] INFO root fetch - processPackages [expressmoney]: Remove: archive file [/home/abi/fetcher/tmp/expressmoney-9.9.1.tar.gz]
+[2024-04-24 10:21:38] INFO root fetch - main [MainThread]: End processing [expressmoney]: success
+[2024-04-24 10:21:38] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.98.tar.gz]
+[2024-04-24 10:21:38] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.99.tar.gz]
+[2024-04-24 10:21:38] INFO root fetch - main [MainThread]: End processing [jacksung]: success
+[2024-04-24 10:21:39] INFO root fetch - processPackages [pynest-api]: Remove: archive file [/home/abi/fetcher/tmp/pynest_api-0.2.1.tar.gz]
+[2024-04-24 10:21:39] INFO root fetch - processPackages [pynest-api]: Remove: archive file [/home/abi/fetcher/tmp/pynest_api-0.2.2.tar.gz]
+[2024-04-24 10:21:39] INFO root fetch - main [MainThread]: End processing [pynest-api]: success
+[2024-04-24 10:21:39] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.9.0b2.tar.gz]
+[2024-04-24 10:21:39] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.9.1.tar.gz]
+[2024-04-24 10:21:39] INFO root fetch - main [MainThread]: End processing [fedn]: success
+[2024-04-24 10:21:39] INFO root fetch - main [MainThread]: Store serial: [22908966]
