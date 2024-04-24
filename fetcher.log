@@ -19759,3 +19759,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:59:40] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
 [2024-04-24 12:59:40] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2024-04-24 12:59:40] INFO root fetch - main [MainThread]: Store serial: [22910855]
+[2024-04-24 13:01:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910855]
+[2024-04-24 13:01:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: views-tensor-utilities
+[2024-04-24 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess2vec
+[2024-04-24 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyright
+[2024-04-24 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scigee
+[2024-04-24 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: igorwriter
+[2024-04-24 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ar-ex-sys-worker
+[2024-04-24 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xarray-ome-ngff
+[2024-04-24 13:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foyou-cli
+[2024-04-24 13:01:59] INFO root fetch - processPackages [views-tensor-utilities]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-24 13:01:59] INFO root fetch - processPackages [xarray-ome-ngff]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-24 13:01:59] INFO root fetch - processPackages [chess2vec]: New version: [0.3.2b2] Old Version: [0.3.2b1]
+[2024-04-24 13:01:59] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-24 13:01:59] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/37/75/311fcaf825812566bfb5c249ceb69da83c4d7f079fe0e0cd15da8e0c8e90/views_tensor_utilities-0.8.1.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [pyright]: New version: [1.1.360] Old Version: [1.1.359]
+[2024-04-24 13:01:59] INFO root fetch - processPackages [scigee]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:01:59] INFO root fetch - processPackages [igorwriter]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-24 13:01:59] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/03/00/a4653059a0d5f91fcc7c1c2d1f088d25922246384d933009197d09bf7d09/chess2vec-0.3.2b1.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [xarray-ome-ngff]: Downloading https://files.pythonhosted.org/packages/e4/61/0ebee10f34712cb1b2040d670b2b3c6ded5ed5f553c8e5e92bdefdcad7b7/xarray_ome_ngff-2.0.0.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/e7/31/439ab1f56b2fd589b369c6910c869da0f4e5ea0ea1aa97f6c963d03288d3/ar_ex_sys_worker-1.9.3-py3-none-any.whl
+[2024-04-24 13:01:59] INFO root fetch - processPackages [foyou-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 13:01:59] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/06/03/480fb5e8190e9d52e1129bd477c7e6fe69e4c76169c8cf24bbce8e8dee5c/pyright-1.1.359.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [views-tensor-utilities]: Downloading https://files.pythonhosted.org/packages/84/ee/66b27742540a8e547fde5e5855c1f7443720ba6b05777a5de8abe394bafa/views_tensor_utilities-0.8.2.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [scigee]: Downloading https://files.pythonhosted.org/packages/05/91/256b6d815c51ea263f8a645e2ab2bd90131ca231d80df127fa71cb9b0170/scigee-0.0.8.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [igorwriter]: Downloading https://files.pythonhosted.org/packages/62/8b/fa1ef546e1b86bd15ba6f8a519a64e0d6941a17e6aa30715a9a52e541932/igorwriter-0.6.0.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [xarray-ome-ngff]: Downloading https://files.pythonhosted.org/packages/3b/f5/6d3b6aeb38bc4b6876ab385bd8291b86705ca19c85fdc9b93ba7349c188d/xarray_ome_ngff-2.1.0.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/55/9a/471532162a823e4d1cac3eb68b7404aadfe65c6ee18b4a95a9c17fdf9abb/foyou-cli-0.0.8.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [chess2vec]: Downloading https://files.pythonhosted.org/packages/9e/e0/358a5772a8aa073734180b1a6f14b2ebefb1ac3663e83289f0bd3c1c7065/chess2vec-0.3.2b2.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [views-tensor-utilities]: executing diffoscope
+[2024-04-24 13:01:59] INFO root fetch - processPackages [views-tensor-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/views_tensor_utilities-0.8.1.tar.gz tmp/views_tensor_utilities-0.8.2.tar.gz --markdown 20240424/v/views-tensor-utilities/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-24 13:01:59] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/ac/33/faffdc46184c5c3edf6493abe5f8f42898af1986dcba1795d6c5ad046148/ar_ex_sys_worker-1.9.4-py3-none-any.whl
+[2024-04-24 13:01:59] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/2f/dd/2da17338f3e7cda1d9f3a849aa25b2619d2b1f1ed682ba08fc26d5d23f43/pyright-1.1.360.tar.gz
+[2024-04-24 13:01:59] INFO root fetch - processPackages [xarray-ome-ngff]: executing diffoscope
+[2024-04-24 13:01:59] INFO root fetch - processPackages [xarray-ome-ngff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray_ome_ngff-2.0.0.tar.gz tmp/xarray_ome_ngff-2.1.0.tar.gz --markdown 20240424/x/xarray-ome-ngff/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-24 13:01:59] INFO root fetch - processPackages [chess2vec]: executing diffoscope
+[2024-04-24 13:01:59] INFO root fetch - processPackages [chess2vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess2vec-0.3.2b1.tar.gz tmp/chess2vec-0.3.2b2.tar.gz --markdown 20240424/c/chess2vec/0.3.2b1-0.3.2b2/README.md --exclude *.pyd
+[2024-04-24 13:01:59] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2024-04-24 13:01:59] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.9.3-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.9.4-py3-none-any.whl.zip --markdown 20240424/a/ar-ex-sys-worker/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-04-24 13:01:59] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2024-04-24 13:01:59] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.359.tar.gz tmp/pyright-1.1.360.tar.gz --markdown 20240424/p/pyright/1.1.359-1.1.360/README.md --exclude *.pyd
+[2024-04-24 13:02:00] INFO root fetch - processPackages [scigee]: Downloading https://files.pythonhosted.org/packages/4b/13/b237023a3fad321f7d284f736f1045bd5fd6d621828d89ee0a7a09f246c7/scigee-0.0.9.tar.gz
+[2024-04-24 13:02:00] INFO root fetch - processPackages [foyou-cli]: Downloading https://files.pythonhosted.org/packages/9a/ac/a25ab426c6eee0f04bab42f3811012d00694a825290384e5ec9f25ae7ad8/foyou-cli-0.0.9.tar.gz
+[2024-04-24 13:02:00] INFO root fetch - processPackages [igorwriter]: Downloading https://files.pythonhosted.org/packages/42/3c/bcf2f0690d922fb944fcf58206963134f755052c21ef2904fae67928a787/igorwriter-0.6.1.tar.gz
+[2024-04-24 13:02:00] INFO root fetch - processPackages [foyou-cli]: executing diffoscope
+[2024-04-24 13:02:00] INFO root fetch - processPackages [foyou-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foyou-cli-0.0.8.tar.gz tmp/foyou-cli-0.0.9.tar.gz --markdown 20240424/f/foyou-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:02:00] INFO root fetch - processPackages [scigee]: executing diffoscope
+[2024-04-24 13:02:00] INFO root fetch - processPackages [scigee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scigee-0.0.8.tar.gz tmp/scigee-0.0.9.tar.gz --markdown 20240424/s/scigee/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 13:02:00] INFO root fetch - processPackages [igorwriter]: executing diffoscope
+[2024-04-24 13:02:00] INFO root fetch - processPackages [igorwriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igorwriter-0.6.0.tar.gz tmp/igorwriter-0.6.1.tar.gz --markdown 20240424/i/igorwriter/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-24 13:02:00] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.1.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - processPackages [views-tensor-utilities]: Remove: archive file [/home/abi/fetcher/tmp/views_tensor_utilities-0.8.2.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - main [MainThread]: End processing [views-tensor-utilities]: success
+[2024-04-24 13:02:00] INFO root fetch - processPackages [ar-ex-sys-worker]: Remove: archive file [/home/abi/fetcher/tmp/ar_ex_sys_worker-1.9.3-py3-none-any.whl.zip]
+[2024-04-24 13:02:00] INFO root fetch - processPackages [ar-ex-sys-worker]: Remove: archive file [/home/abi/fetcher/tmp/ar_ex_sys_worker-1.9.4-py3-none-any.whl.zip]
+[2024-04-24 13:02:00] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2024-04-24 13:02:00] INFO root fetch - processPackages [xarray-ome-ngff]: Remove: archive file [/home/abi/fetcher/tmp/xarray_ome_ngff-2.0.0.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - processPackages [xarray-ome-ngff]: Remove: archive file [/home/abi/fetcher/tmp/xarray_ome_ngff-2.1.0.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - main [MainThread]: End processing [xarray-ome-ngff]: success
+[2024-04-24 13:02:00] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.359.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.360.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2024-04-24 13:02:00] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.3.2b1.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - processPackages [chess2vec]: Remove: archive file [/home/abi/fetcher/tmp/chess2vec-0.3.2b2.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - main [MainThread]: End processing [chess2vec]: success
+[2024-04-24 13:02:00] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.8.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - processPackages [foyou-cli]: Remove: archive file [/home/abi/fetcher/tmp/foyou-cli-0.0.9.tar.gz]
+[2024-04-24 13:02:00] INFO root fetch - main [MainThread]: End processing [foyou-cli]: success
+[2024-04-24 13:02:01] INFO root fetch - processPackages [scigee]: Remove: archive file [/home/abi/fetcher/tmp/scigee-0.0.8.tar.gz]
+[2024-04-24 13:02:01] INFO root fetch - processPackages [scigee]: Remove: archive file [/home/abi/fetcher/tmp/scigee-0.0.9.tar.gz]
+[2024-04-24 13:02:01] INFO root fetch - main [MainThread]: End processing [scigee]: success
+[2024-04-24 13:02:01] INFO root fetch - processPackages [igorwriter]: Remove: archive file [/home/abi/fetcher/tmp/igorwriter-0.6.0.tar.gz]
+[2024-04-24 13:02:01] INFO root fetch - processPackages [igorwriter]: Remove: archive file [/home/abi/fetcher/tmp/igorwriter-0.6.1.tar.gz]
+[2024-04-24 13:02:01] INFO root fetch - main [MainThread]: End processing [igorwriter]: success
+[2024-04-24 13:02:01] INFO root fetch - main [MainThread]: Store serial: [22910876]
