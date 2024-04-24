@@ -19091,3 +19091,150 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:33:11] INFO root fetch - processPackages [paddlenlp]: Remove: archive file [/home/abi/fetcher/tmp/paddlenlp-2.8.0.tar.gz]
 [2024-04-24 12:33:11] INFO root fetch - main [MainThread]: End processing [paddlenlp]: success
 [2024-04-24 12:33:11] INFO root fetch - main [MainThread]: Store serial: [22910572]
+[2024-04-24 12:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910572]
+[2024-04-24 12:35:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-br-account
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-br-fiscal
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fixinventorycore
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fixinventoryshell
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fixinventoryworker
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fixinventory-plugin-digitalocean
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apconfig
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dash-extensions
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fixinventory-plugin-aws
+[2024-04-24 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: winter-cloud
+[2024-04-24 12:35:32] INFO root fetch - processPackages [fixinventoryworker]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:35:32] INFO root fetch - processPackages [fixinventorycore]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:35:32] INFO root fetch - processPackages [dash-extensions]: New version: [1.0.9] Old Version: [1.0.8rc2]
+[2024-04-24 12:35:32] INFO root fetch - processPackages [apconfig]: New version: [0.0.107] Old Version: [0.0.106]
+[2024-04-24 12:35:32] INFO root fetch - processPackages [fixinventory-plugin-digitalocean]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:35:32] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2024-04-24 12:35:32] INFO root fetch - processPackages [fixinventoryshell]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:35:32] INFO root fetch - processPackages [fixinventory-plugin-aws]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:35:32] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.9.3.0] Old Version: [14.0.9.2.0]
+[2024-04-24 12:35:33] INFO root fetch - processPackages [winter-cloud]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventoryworker]: Downloading https://files.pythonhosted.org/packages/c8/07/322f38f4082b9b0e89270d074a897782be671745391550a7026e04b5d315/fixinventoryworker-4.0.2.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventorycore]: Downloading https://files.pythonhosted.org/packages/c8/c5/62a4f48aa16a3bbee3a6fffe16125f944a88d297b1a0145a65d37ea33d24/fixinventorycore-4.0.2.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2024-04-24 12:35:33] INFO root fetch - processPackages [apconfig]: Downloading https://files.pythonhosted.org/packages/b7/71/66bb25d894183390b4c7b9ebffec9daf13c21d8cf885fef0a5c989764312/apconfig-0.0.106.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventory-plugin-digitalocean]: Downloading https://files.pythonhosted.org/packages/67/e6/dbf88134733ffbf3c7625879353c4ee5c57c7c5f27c907706546920e04b6/fixinventory-plugin-digitalocean-4.0.2.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventoryshell]: Downloading https://files.pythonhosted.org/packages/ef/fc/872817c55f22d85266622ee9ce387869846563d5912cf7a4060f819098f9/fixinventoryshell-4.0.2.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [winter-cloud]: Downloading https://files.pythonhosted.org/packages/3d/04/f8f5e49041c83c57e9070ef4de736a8366d4bac9d7a9689b95e4a1c6108d/winter_cloud-0.1.7.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventory-plugin-aws]: Downloading https://files.pythonhosted.org/packages/5e/fa/8eede4742026765e687486ae9ba65be942e90e2a458b6b7bed52e6894152/fixinventory-plugin-aws-4.0.2.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/c1/b2/6ea970bb4862d3d0a9718e949629809447e0feb2b236982d1a017c244e6f/odoo14_addon_l10n_br_account-14.0.9.2.0-py3-none-any.whl
+[2024-04-24 12:35:33] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/90/bf/520c9147ab71abc1f0767745c2d2975c9d4d0642417c596ca28877805f25/dash_extensions-1.0.8rc2.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventoryworker]: Downloading https://files.pythonhosted.org/packages/0a/4c/b910151aa0809c888837f7ff4542225b4e69a295672462b1c65cdc12b249/fixinventoryworker-4.0.3.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventory-plugin-digitalocean]: Downloading https://files.pythonhosted.org/packages/c6/b8/74401e69abbf81cf81d800cc030d489ff4c27417728fce6e39f07e39bca8/fixinventory_plugin_digitalocean-4.0.3.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventory-plugin-aws]: Downloading https://files.pythonhosted.org/packages/f6/b2/c69ba3ac097538ff7c2b65c8a9fe3ab75eb1cbeb5b2368215b27a28ec861/fixinventory_plugin_aws-4.0.3.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [winter-cloud]: Downloading https://files.pythonhosted.org/packages/4f/ac/7daf202b9373e6865a8fa9f2aa1bae56e4683ebc41259c349c3089a96253/winter_cloud-0.1.8.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventoryshell]: Downloading https://files.pythonhosted.org/packages/39/32/14a7c3455ba0ccf65b94ac2b1ff6c27e4f8243183dc2412b895b7157cc57/fixinventoryshell-4.0.3.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/6e/f7/d34dd8f08d8a9f15f129170695efb0999d57be4dd43c55729e57c59498b6/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl
+[2024-04-24 12:35:33] INFO root fetch - processPackages [apconfig]: Downloading https://files.pythonhosted.org/packages/67/87/b35215ca95f19ed17c4f93db3c9c29a7ca4f71a640878ce211a6a0929b6a/apconfig-0.0.107.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventory-plugin-digitalocean]: executing diffoscope
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventory-plugin-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-digitalocean-4.0.2.tar.gz tmp/fixinventory_plugin_digitalocean-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-digitalocean/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventoryworker]: executing diffoscope
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventoryworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventoryworker-4.0.2.tar.gz tmp/fixinventoryworker-4.0.3.tar.gz --markdown 20240424/f/fixinventoryworker/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventoryshell]: executing diffoscope
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventoryshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventoryshell-4.0.2.tar.gz tmp/fixinventoryshell-4.0.3.tar.gz --markdown 20240424/f/fixinventoryshell/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:35:33] INFO root fetch - processPackages [winter-cloud]: executing diffoscope
+[2024-04-24 12:35:33] INFO root fetch - processPackages [winter-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winter_cloud-0.1.7.tar.gz tmp/winter_cloud-0.1.8.tar.gz --markdown 20240424/w/winter-cloud/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-24 12:35:33] INFO root fetch - processPackages [apconfig]: executing diffoscope
+[2024-04-24 12:35:33] INFO root fetch - processPackages [apconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apconfig-0.0.106.tar.gz tmp/apconfig-0.0.107.tar.gz --markdown 20240424/a/apconfig/0.0.106-0.0.107/README.md --exclude *.pyd
+[2024-04-24 12:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2024-04-24 12:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.9.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl.zip --markdown 20240424/o/odoo14-addon-l10n-br-account/14.0.9.2.0-14.0.9.3.0/README.md --exclude *.pyd
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventory-plugin-aws]: executing diffoscope
+[2024-04-24 12:35:33] INFO root fetch - processPackages [fixinventory-plugin-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-aws-4.0.2.tar.gz tmp/fixinventory_plugin_aws-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-aws/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:35:33] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/7f/63/564061f316598022f17cdd48ab443dfc7d05ab959799a2a196f52b2921a1/dash_extensions-1.0.9.tar.gz
+[2024-04-24 12:35:33] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2024-04-24 12:35:34] INFO root fetch - processPackages [dash-extensions]: executing diffoscope
+[2024-04-24 12:35:34] INFO root fetch - processPackages [dash-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_extensions-1.0.8rc2.tar.gz tmp/dash_extensions-1.0.9.tar.gz --markdown 20240424/d/dash-extensions/1.0.8rc2-1.0.9/README.md --exclude *.pyd
+[2024-04-24 12:35:34] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2024-04-24 12:35:34] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20240424/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/README.md --exclude *.pyd
+[2024-04-24 12:35:34] INFO root fetch - processPackages [fixinventorycore]: Downloading https://files.pythonhosted.org/packages/b0/db/dfc09a9ab090ca486f860a2bc54040f1f532a3351afd92336fb60bc520d4/fixinventorycore-4.0.3.tar.gz
+[2024-04-24 12:35:34] INFO root fetch - processPackages [fixinventorycore]: executing diffoscope
+[2024-04-24 12:35:34] INFO root fetch - processPackages [fixinventorycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventorycore-4.0.2.tar.gz tmp/fixinventorycore-4.0.3.tar.gz --markdown 20240424/f/fixinventorycore/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:35:35] INFO root fetch - processPackages [apconfig]: Remove: archive file [/home/abi/fetcher/tmp/apconfig-0.0.106.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [apconfig]: Remove: archive file [/home/abi/fetcher/tmp/apconfig-0.0.107.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [apconfig]: Start processing: fixinventory-plugin-azure
+[2024-04-24 12:35:35] INFO root fetch - main [MainThread]: End processing [apconfig]: success
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-digitalocean-4.0.2.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_digitalocean-4.0.3.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-digitalocean]: Start processing: fixinventorylib
+[2024-04-24 12:35:35] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-digitalocean]: success
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-azure]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventoryworker]: Remove: archive file [/home/abi/fetcher/tmp/fixinventoryworker-4.0.2.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventoryworker]: Remove: archive file [/home/abi/fetcher/tmp/fixinventoryworker-4.0.3.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventoryworker]: Start processing: fixinventory-plugin-gcp
+[2024-04-24 12:35:35] INFO root fetch - main [MainThread]: End processing [fixinventoryworker]: success
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventorylib]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-azure]: Downloading https://files.pythonhosted.org/packages/d0/dc/7fc8fc65e0cc96637aa2c395b75f5843ead64080bec3c1067fc61f280380/fixinventory-plugin-azure-4.0.2.tar.gz
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-gcp]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventoryshell]: Remove: archive file [/home/abi/fetcher/tmp/fixinventoryshell-4.0.2.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventoryshell]: Remove: archive file [/home/abi/fetcher/tmp/fixinventoryshell-4.0.3.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventoryshell]: Start processing: mo-json-config
+[2024-04-24 12:35:35] INFO root fetch - main [MainThread]: End processing [fixinventoryshell]: success
+[2024-04-24 12:35:35] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.2.0-py3-none-any.whl.zip]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl.zip]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Start processing: mergecraft
+[2024-04-24 12:35:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventorylib]: Downloading https://files.pythonhosted.org/packages/5b/21/7f1bba30a0138209b8e523b2ad5dd3ecb62af0cdbd4ffae0effcf182ff8b/fixinventorylib-4.0.2.tar.gz
+[2024-04-24 12:35:35] INFO root fetch - processPackages [winter-cloud]: Remove: archive file [/home/abi/fetcher/tmp/winter_cloud-0.1.7.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [winter-cloud]: Remove: archive file [/home/abi/fetcher/tmp/winter_cloud-0.1.8.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [winter-cloud]: Start processing: topsearch
+[2024-04-24 12:35:35] INFO root fetch - main [MainThread]: End processing [winter-cloud]: success
+[2024-04-24 12:35:35] INFO root fetch - processPackages [mergecraft]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [mo-json-config]: New version: [4.602.24115] Old Version: [4.601.24115]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-gcp]: Downloading https://files.pythonhosted.org/packages/29/aa/37fa1de46f2920e86a35a951295a44179cc4814aed916e12a7fa2502f634/fixinventory-plugin-gcp-4.0.2.tar.gz
+[2024-04-24 12:35:35] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/2f/6d/30a55a3e2e0a4ec1993d75ea02d097b935bf00edd133ae677b0b3c828e62/mergecraft-0.0.7.tar.gz
+[2024-04-24 12:35:35] INFO root fetch - processPackages [topsearch]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/7e/7c/e5e00a529eba224c0cb83a48f922f1c06c6a49b061a41f6010188d06b0d1/mo_json_config-4.601.24115.tar.gz
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-aws]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-aws-4.0.2.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-aws]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_aws-4.0.3.tar.gz]
+[2024-04-24 12:35:35] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-aws]: success
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventory-plugin-azure]: Downloading https://files.pythonhosted.org/packages/f0/b5/1f6e7fd378c07203f7b032e75748774ee9e00898c5cbd0bcb479a939dd1b/fixinventory_plugin_azure-4.0.3.tar.gz
+[2024-04-24 12:35:35] INFO root fetch - processPackages [fixinventorylib]: Downloading https://files.pythonhosted.org/packages/34/93/ca8c2a94eb9dd0b654b40757966981c4f75b8bc53c05d7bd26f71e67d7cc/fixinventorylib-4.0.3.tar.gz
+[2024-04-24 12:35:36] INFO root fetch - processPackages [topsearch]: Downloading https://files.pythonhosted.org/packages/43/ff/c6dcfdefc3e517dfacbac51e3b9f317f0c0c172bf9d7837d5d522e48e9cc/topsearch-0.0.2.tar.gz
+[2024-04-24 12:35:36] INFO root fetch - processPackages [fixinventory-plugin-azure]: executing diffoscope
+[2024-04-24 12:35:36] INFO root fetch - processPackages [fixinventory-plugin-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-azure-4.0.2.tar.gz tmp/fixinventory_plugin_azure-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-azure/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:35:36] INFO root fetch - processPackages [mergecraft]: Downloading https://files.pythonhosted.org/packages/2c/dc/eda8eabb4786b43bb54c8d1d05fd03822dc380028fc5026b1c30dc99afdf/mergecraft-0.0.8.tar.gz
+[2024-04-24 12:35:36] INFO root fetch - processPackages [fixinventory-plugin-gcp]: Downloading https://files.pythonhosted.org/packages/98/b1/4da79a0524b7dd64689cdfa219bdeb80fd076d57f4b14e648ef944873246/fixinventory_plugin_gcp-4.0.3.tar.gz
+[2024-04-24 12:35:36] INFO root fetch - processPackages [fixinventorylib]: executing diffoscope
+[2024-04-24 12:35:36] INFO root fetch - processPackages [fixinventorylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventorylib-4.0.2.tar.gz tmp/fixinventorylib-4.0.3.tar.gz --markdown 20240424/f/fixinventorylib/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:35:36] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/9e/64/16b926d93d24cbdd00b9b5a8184bbdb5b2686e65bbd56295d0809ab0339c/mo_json_config-4.602.24115.tar.gz
+[2024-04-24 12:35:36] INFO root fetch - processPackages [mergecraft]: executing diffoscope
+[2024-04-24 12:35:36] INFO root fetch - processPackages [mergecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergecraft-0.0.7.tar.gz tmp/mergecraft-0.0.8.tar.gz --markdown 20240424/m/mergecraft/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-24 12:35:36] INFO root fetch - processPackages [fixinventory-plugin-gcp]: executing diffoscope
+[2024-04-24 12:35:36] INFO root fetch - processPackages [fixinventory-plugin-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventory-plugin-gcp-4.0.2.tar.gz tmp/fixinventory_plugin_gcp-4.0.3.tar.gz --markdown 20240424/f/fixinventory-plugin-gcp/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-24 12:35:36] INFO root fetch - processPackages [mo-json-config]: executing diffoscope
+[2024-04-24 12:35:36] INFO root fetch - processPackages [mo-json-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json_config-4.601.24115.tar.gz tmp/mo_json_config-4.602.24115.tar.gz --markdown 20240424/m/mo-json-config/4.601.24115-4.602.24115/README.md --exclude *.pyd
+[2024-04-24 12:35:36] INFO root fetch - processPackages [topsearch]: Downloading https://files.pythonhosted.org/packages/9c/80/426162326716baf631863c4a679d1853945acb957f12f84be0d75d134cb4/topsearch-0.0.3.tar.gz
+[2024-04-24 12:35:36] INFO root fetch - processPackages [topsearch]: executing diffoscope
+[2024-04-24 12:35:36] INFO root fetch - processPackages [topsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topsearch-0.0.2.tar.gz tmp/topsearch-0.0.3.tar.gz --markdown 20240424/t/topsearch/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-24 12:35:37] INFO root fetch - processPackages [fixinventory-plugin-azure]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-azure-4.0.2.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - processPackages [fixinventory-plugin-azure]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_azure-4.0.3.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-azure]: success
+[2024-04-24 12:35:37] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2024-04-24 12:35:37] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2024-04-24 12:35:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2024-04-24 12:35:37] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.601.24115.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.602.24115.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
+[2024-04-24 12:35:37] INFO root fetch - processPackages [fixinventorylib]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorylib-4.0.2.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - processPackages [fixinventorylib]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorylib-4.0.3.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - main [MainThread]: End processing [fixinventorylib]: success
+[2024-04-24 12:35:37] INFO root fetch - processPackages [fixinventory-plugin-gcp]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory-plugin-gcp-4.0.2.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - processPackages [fixinventory-plugin-gcp]: Remove: archive file [/home/abi/fetcher/tmp/fixinventory_plugin_gcp-4.0.3.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - main [MainThread]: End processing [fixinventory-plugin-gcp]: success
+[2024-04-24 12:35:37] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.7.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - processPackages [mergecraft]: Remove: archive file [/home/abi/fetcher/tmp/mergecraft-0.0.8.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - main [MainThread]: End processing [mergecraft]: success
+[2024-04-24 12:35:37] INFO root fetch - processPackages [topsearch]: Remove: archive file [/home/abi/fetcher/tmp/topsearch-0.0.2.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - processPackages [topsearch]: Remove: archive file [/home/abi/fetcher/tmp/topsearch-0.0.3.tar.gz]
+[2024-04-24 12:35:37] INFO root fetch - main [MainThread]: End processing [topsearch]: success
+[2024-04-24 12:35:39] INFO root fetch - processPackages [fixinventorycore]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorycore-4.0.2.tar.gz]
+[2024-04-24 12:35:39] INFO root fetch - processPackages [fixinventorycore]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorycore-4.0.3.tar.gz]
+[2024-04-24 12:35:39] INFO root fetch - main [MainThread]: End processing [fixinventorycore]: success
+[2024-04-24 12:36:12] INFO root fetch - processPackages [dash-extensions]: Remove: archive file [/home/abi/fetcher/tmp/dash_extensions-1.0.8rc2.tar.gz]
+[2024-04-24 12:36:12] INFO root fetch - processPackages [dash-extensions]: Remove: archive file [/home/abi/fetcher/tmp/dash_extensions-1.0.9.tar.gz]
+[2024-04-24 12:36:12] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
+[2024-04-24 12:36:12] INFO root fetch - main [MainThread]: Store serial: [22910618]
