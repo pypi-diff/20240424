@@ -10026,3 +10026,15 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:31:09] INFO root fetch - processPackages [amorprot]: Remove: archive file [/home/abi/fetcher/tmp/amorprot-0.0.2-py3-none-any.whl.zip]
 [2024-04-24 06:31:09] INFO root fetch - main [MainThread]: End processing [amorprot]: success
 [2024-04-24 06:31:09] INFO root fetch - main [MainThread]: Store serial: [22906772]
+[2024-04-24 06:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906772]
+[2024-04-24 06:33:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-24 06:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidal-wave
+[2024-04-24 06:33:18] INFO root fetch - processPackages [tidal-wave]: New version: [2024.4.3] Old Version: [2024.4.2]
+[2024-04-24 06:33:18] INFO root fetch - processPackages [tidal-wave]: Downloading https://files.pythonhosted.org/packages/75/de/385bb1c6bec6939cdcb615c2d58888d907438803e563f1dcdcf9ba5ab5f9/tidal-wave-2024.4.2.tar.gz
+[2024-04-24 06:33:18] INFO root fetch - processPackages [tidal-wave]: Downloading https://files.pythonhosted.org/packages/8d/61/d83a77f3dfe4a1da7a0fa9fa3086068c4ec1384232f2ab75af8cf06c8585/tidal_wave-2024.4.3.tar.gz
+[2024-04-24 06:33:18] INFO root fetch - processPackages [tidal-wave]: executing diffoscope
+[2024-04-24 06:33:18] INFO root fetch - processPackages [tidal-wave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal-wave-2024.4.2.tar.gz tmp/tidal_wave-2024.4.3.tar.gz --markdown 20240424/t/tidal-wave/2024.4.2-2024.4.3/README.md --exclude *.pyd
+[2024-04-24 06:33:19] INFO root fetch - processPackages [tidal-wave]: Remove: archive file [/home/abi/fetcher/tmp/tidal-wave-2024.4.2.tar.gz]
+[2024-04-24 06:33:19] INFO root fetch - processPackages [tidal-wave]: Remove: archive file [/home/abi/fetcher/tmp/tidal_wave-2024.4.3.tar.gz]
+[2024-04-24 06:33:19] INFO root fetch - main [MainThread]: End processing [tidal-wave]: success
+[2024-04-24 06:33:19] INFO root fetch - main [MainThread]: Store serial: [22906775]
