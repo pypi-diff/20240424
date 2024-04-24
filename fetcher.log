@@ -10443,3 +10443,152 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 06:57:31] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.4-py3-none-any.whl.zip]
 [2024-04-24 06:57:31] INFO root fetch - main [MainThread]: End processing [finter]: success
 [2024-04-24 06:57:31] INFO root fetch - main [MainThread]: Store serial: [22906906]
+[2024-04-24 06:59:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906906]
+[2024-04-24 06:59:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-24 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-purchase-sale-inter-company
+[2024-04-24 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2024-04-24 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mybox
+[2024-04-24 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clastic
+[2024-04-24 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfgutils
+[2024-04-24 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hermesbaby
+[2024-04-24 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: siat
+[2024-04-24 06:59:41] INFO root fetch - processPackages [hermesbaby]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-24 06:59:41] INFO root fetch - processPackages [policyengine-us]: New version: [0.750.0] Old Version: [0.749.1]
+[2024-04-24 06:59:41] INFO root fetch - processPackages [odoo14-addon-purchase-sale-inter-company]: New version: [14.0.2.2.1.dev2] Old Version: [14.0.2.2.1.dev1]
+[2024-04-24 06:59:41] INFO root fetch - processPackages [hermesbaby]: Downloading https://files.pythonhosted.org/packages/94/da/58d875295c8e803ae629e0c636cac88c56da5408cb41df81f262f428b529/hermesbaby-0.1.3.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [cfgutils]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-24 06:59:41] INFO root fetch - processPackages [mybox]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-24 06:59:41] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5a/13/dfc3de2dca360f6340f6dc0b485aabb47aad6204f9aa42a920f67a946e95/policyengine-us-0.749.1.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [clastic]: New version: [24.0.0] Old Version: [23.1.0]
+[2024-04-24 06:59:41] INFO root fetch - processPackages [siat]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-24 06:59:41] INFO root fetch - processPackages [odoo14-addon-purchase-sale-inter-company]: Downloading https://files.pythonhosted.org/packages/2a/3a/1e1c354a7f289de3f5e2c9d8990e43ee3aca525e03a49593865d43341134/odoo14_addon_purchase_sale_inter_company-14.0.2.2.1.dev1-py3-none-any.whl
+[2024-04-24 06:59:41] INFO root fetch - processPackages [cfgutils]: Downloading https://files.pythonhosted.org/packages/c2/84/5d660bc54e59e697adc5dc867835a208d51530a4110a01c0534dd7ce8767/cfgutils-1.8.1.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/ee/3c/4e3725a425756f0acf57d8ddca13164d946d5e03269ccd191d726c2d1add/mybox-2.0.5.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [clastic]: Downloading https://files.pythonhosted.org/packages/52/f6/0ede5d1f81705ff40d48ed4117e8e21d83a1a08b742a64aaa56a7531724d/clastic-23.1.0.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [hermesbaby]: Downloading https://files.pythonhosted.org/packages/4e/6e/7b506d05745351ea6385507d3516058a42027535eb55355b9ba3b61f6cab/hermesbaby-0.1.4.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [hermesbaby]: executing diffoscope
+[2024-04-24 06:59:41] INFO root fetch - processPackages [hermesbaby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermesbaby-0.1.3.tar.gz tmp/hermesbaby-0.1.4.tar.gz --markdown 20240424/h/hermesbaby/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-24 06:59:41] INFO root fetch - processPackages [odoo14-addon-purchase-sale-inter-company]: Downloading https://files.pythonhosted.org/packages/25/c1/84426e5de1838fe4a8426c0aabdd183b5e2681c99368c907fe9009543743/odoo14_addon_purchase_sale_inter_company-14.0.2.2.1.dev2-py3-none-any.whl
+[2024-04-24 06:59:41] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/0e/39/3f32adb57881e4e85b4192a9fb59f0bc29b5cb37bf208992db39d5972def/policyengine-us-0.750.0.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/29/65/f7e5845cbe2690f3fe871c9bdcfedadaee25cb7d0762c2cc9b651229690e/mybox-2.0.6.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [cfgutils]: Downloading https://files.pythonhosted.org/packages/68/9b/55965b1f3a122fdbd111cb7bb6660811a4ab27b9023f477a0d15cb32ac5a/cfgutils-1.9.0.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-04-24 06:59:41] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.0.3-py3-none-any.whl.zip tmp/siat-3.0.4-py3-none-any.whl.zip --markdown 20240424/s/siat/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-04-24 06:59:41] INFO root fetch - processPackages [clastic]: Downloading https://files.pythonhosted.org/packages/bd/26/a6be5e078e24082ce86af29f0b92cc6f905540d2465279705633db00d55b/clastic-24.0.0.tar.gz
+[2024-04-24 06:59:41] INFO root fetch - processPackages [odoo14-addon-purchase-sale-inter-company]: executing diffoscope
+[2024-04-24 06:59:41] INFO root fetch - processPackages [odoo14-addon-purchase-sale-inter-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_sale_inter_company-14.0.2.2.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_purchase_sale_inter_company-14.0.2.2.1.dev2-py3-none-any.whl.zip --markdown 20240424/o/odoo14-addon-purchase-sale-inter-company/14.0.2.2.1.dev1-14.0.2.2.1.dev2/README.md --exclude *.pyd
+[2024-04-24 06:59:41] INFO root fetch - processPackages [mybox]: executing diffoscope
+[2024-04-24 06:59:41] INFO root fetch - processPackages [mybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybox-2.0.5.tar.gz tmp/mybox-2.0.6.tar.gz --markdown 20240424/m/mybox/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-04-24 06:59:42] INFO root fetch - processPackages [clastic]: executing diffoscope
+[2024-04-24 06:59:42] INFO root fetch - processPackages [clastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clastic-23.1.0.tar.gz tmp/clastic-24.0.0.tar.gz --markdown 20240424/c/clastic/23.1.0-24.0.0/README.md --exclude *.pyd
+[2024-04-24 06:59:42] INFO root fetch - processPackages [cfgutils]: executing diffoscope
+[2024-04-24 06:59:42] INFO root fetch - processPackages [cfgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfgutils-1.8.1.tar.gz tmp/cfgutils-1.9.0.tar.gz --markdown 20240424/c/cfgutils/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-24 06:59:42] INFO root fetch - processPackages [hermesbaby]: Remove: archive file [/home/abi/fetcher/tmp/hermesbaby-0.1.3.tar.gz]
+[2024-04-24 06:59:42] INFO root fetch - processPackages [hermesbaby]: Remove: archive file [/home/abi/fetcher/tmp/hermesbaby-0.1.4.tar.gz]
+[2024-04-24 06:59:42] INFO root fetch - main [MainThread]: End processing [hermesbaby]: success
+[2024-04-24 06:59:42] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-04-24T06:59:41+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-04-24 06:59:42] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-04-24 06:59:42] INFO root fetch - processPackages [odoo14-addon-purchase-sale-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_sale_inter_company-14.0.2.2.1.dev1-py3-none-any.whl.zip]
+[2024-04-24 06:59:42] INFO root fetch - processPackages [odoo14-addon-purchase-sale-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_sale_inter_company-14.0.2.2.1.dev2-py3-none-any.whl.zip]
+[2024-04-24 06:59:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-sale-inter-company]: success
+[2024-04-24 06:59:42] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.5.tar.gz]
+[2024-04-24 06:59:42] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.6.tar.gz]
+[2024-04-24 06:59:42] INFO root fetch - main [MainThread]: End processing [mybox]: success
+[2024-04-24 06:59:42] INFO root fetch - processPackages [cfgutils]: Remove: archive file [/home/abi/fetcher/tmp/cfgutils-1.8.1.tar.gz]
+[2024-04-24 06:59:42] INFO root fetch - processPackages [cfgutils]: Remove: archive file [/home/abi/fetcher/tmp/cfgutils-1.9.0.tar.gz]
+[2024-04-24 06:59:42] INFO root fetch - main [MainThread]: End processing [cfgutils]: success
+[2024-04-24 06:59:42] INFO root fetch - processPackages [clastic]: Remove: archive file [/home/abi/fetcher/tmp/clastic-23.1.0.tar.gz]
+[2024-04-24 06:59:42] INFO root fetch - processPackages [clastic]: Remove: archive file [/home/abi/fetcher/tmp/clastic-24.0.0.tar.gz]
+[2024-04-24 06:59:42] INFO root fetch - main [MainThread]: End processing [clastic]: success
+[2024-04-24 06:59:50] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-24 06:59:50] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.749.1.tar.gz tmp/policyengine-us-0.750.0.tar.gz --markdown 20240424/p/policyengine-us/0.749.1-0.750.0/README.md --exclude *.pyd
+[2024-04-24 07:00:22] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.749.1.tar.gz]
+[2024-04-24 07:00:22] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.750.0.tar.gz]
+[2024-04-24 07:00:22] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-24 07:00:22] INFO root fetch - main [MainThread]: Store serial: [22906925]
