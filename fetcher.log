@@ -7368,3 +7368,60 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 03:44:02] WARNING root fetch - processPackages [pokemon-haru]: Skipping, unable to determine old version
 [2024-04-24 03:44:02] INFO root fetch - main [MainThread]: End processing [pokemon-haru] error
 [2024-04-24 03:44:02] INFO root fetch - main [MainThread]: Store serial: [22905612]
+[2024-04-24 03:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22905612]
+[2024-04-24 03:46:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 03:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-pulumiservice
+[2024-04-24 03:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langroid
+[2024-04-24 03:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellworld-game
+[2024-04-24 03:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-gcp
+[2024-04-24 03:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellworld-gym
+[2024-04-24 03:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loamy
+[2024-04-24 03:46:11] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.9.1a1689804796] Old Version: [0.9.0]
+[2024-04-24 03:46:11] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-24 03:46:11] INFO root fetch - processPackages [cellworld-game]: New version: [0.0.46] Old Version: [0.0.45]
+[2024-04-24 03:46:11] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/7f/2a/9f172c6f432bb1aedfdc2e6f674950d4011b0a5dfb418490d7becd77c215/pulumi_pulumiservice-0.9.0.tar.gz
+[2024-04-24 03:46:11] INFO root fetch - processPackages [cellworld-gym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 03:46:11] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-04-24 03:46:11] INFO root fetch - processPackages [loamy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-24 03:46:11] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-04-24 03:46:11] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/d4/65/a5c97c81173ca91472e7e4806fca2152265fd6dcdbfe510fc94af417c267/cellworld_game-0.0.45.tar.gz
+[2024-04-24 03:46:12] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/0d/88/d9123d1fbed34a277c17acb768dc334c7d111b33c5820b8a76ce41794601/pulumi_pulumiservice-0.9.1a1689804796.tar.gz
+[2024-04-24 03:46:12] INFO root fetch - processPackages [cellworld-gym]: Downloading https://files.pythonhosted.org/packages/84/fa/9ba37e2343349ff8d3480c352c91363e271253e099d3405f70ee14c77022/cellworld_gym-0.0.8.tar.gz
+[2024-04-24 03:46:12] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-04-24 03:46:12] INFO root fetch - processPackages [loamy]: Downloading https://files.pythonhosted.org/packages/44/44/313f6ce8aa682300826c72037d2eb7700af805269639fd037c029bb59ff8/loamy-0.0.6.tar.gz
+[2024-04-24 03:46:12] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-04-24 03:46:12] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2024-04-24 03:46:12] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.9.0.tar.gz tmp/pulumi_pulumiservice-0.9.1a1689804796.tar.gz --markdown 20240424/p/pulumi-pulumiservice/0.9.0-0.9.1a1689804796/README.md --exclude *.pyd
+[2024-04-24 03:46:12] INFO root fetch - processPackages [cellworld-game]: Downloading https://files.pythonhosted.org/packages/85/72/25241e1ea283af3e0bd1f304a3873cc2982b3ee4e561ea07408999da0303/cellworld_game-0.0.46.tar.gz
+[2024-04-24 03:46:12] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-04-24 03:46:12] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240424/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-24 03:46:12] INFO root fetch - processPackages [cellworld-game]: executing diffoscope
+[2024-04-24 03:46:12] INFO root fetch - processPackages [cellworld-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld_game-0.0.45.tar.gz tmp/cellworld_game-0.0.46.tar.gz --markdown 20240424/c/cellworld-game/0.0.45-0.0.46/README.md --exclude *.pyd
+[2024-04-24 03:46:12] INFO root fetch - processPackages [cellworld-gym]: Downloading https://files.pythonhosted.org/packages/9d/53/7082a6dd25f1a1b4bf7e78a266aefe1f1a8f04ca5adb408522f49a869f12/cellworld_gym-0.0.9.tar.gz
+[2024-04-24 03:46:12] INFO root fetch - processPackages [cellworld-gym]: executing diffoscope
+[2024-04-24 03:46:12] INFO root fetch - processPackages [cellworld-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld_gym-0.0.8.tar.gz tmp/cellworld_gym-0.0.9.tar.gz --markdown 20240424/c/cellworld-gym/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 03:46:12] INFO root fetch - processPackages [loamy]: Downloading https://files.pythonhosted.org/packages/d7/69/2e7a7985ae48ed6bcb7d89cff74818bcd83165b8f90b46128f29986b55d1/loamy-0.0.7.tar.gz
+[2024-04-24 03:46:12] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.9.0.tar.gz]
+[2024-04-24 03:46:12] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.9.1a1689804796.tar.gz]
+[2024-04-24 03:46:12] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2024-04-24 03:46:13] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.45.tar.gz]
+[2024-04-24 03:46:13] INFO root fetch - processPackages [cellworld-game]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_game-0.0.46.tar.gz]
+[2024-04-24 03:46:13] INFO root fetch - main [MainThread]: End processing [cellworld-game]: success
+[2024-04-24 03:46:13] INFO root fetch - processPackages [cellworld-gym]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_gym-0.0.8.tar.gz]
+[2024-04-24 03:46:13] INFO root fetch - processPackages [cellworld-gym]: Remove: archive file [/home/abi/fetcher/tmp/cellworld_gym-0.0.9.tar.gz]
+[2024-04-24 03:46:13] INFO root fetch - main [MainThread]: End processing [cellworld-gym]: success
+[2024-04-24 03:46:13] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-04-24 03:46:13] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-04-24 03:46:13] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-04-24 03:46:13] INFO root fetch - processPackages [loamy]: executing diffoscope
+[2024-04-24 03:46:13] INFO root fetch - processPackages [loamy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loamy-0.0.6.tar.gz tmp/loamy-0.0.7.tar.gz --markdown 20240424/l/loamy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-24 03:46:13] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-04-24 03:46:13] INFO root fetch - processPackages [loamy]: Remove: archive file [/home/abi/fetcher/tmp/loamy-0.0.6.tar.gz]
+[2024-04-24 03:46:13] INFO root fetch - processPackages [loamy]: Remove: archive file [/home/abi/fetcher/tmp/loamy-0.0.7.tar.gz]
+[2024-04-24 03:46:13] INFO root fetch - main [MainThread]: End processing [loamy]: success
+[2024-04-24 03:46:14] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-04-24 03:46:14] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240424/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-04-24 03:46:24] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-04-24 03:46:24] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-04-24 03:46:24] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-04-24 03:46:24] INFO root fetch - main [MainThread]: Store serial: [22905624]
