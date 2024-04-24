@@ -8693,3 +8693,72 @@ AssertionError: tmp/sapit-1.0.tar.gz does not exist
 [2024-04-24 05:11:11] INFO root fetch - processPackages [stonksfeed]: Remove: archive file [/home/abi/fetcher/tmp/stonksfeed-0.1.7.tar.gz]
 [2024-04-24 05:11:11] INFO root fetch - main [MainThread]: End processing [stonksfeed]: success
 [2024-04-24 05:11:11] INFO root fetch - main [MainThread]: Store serial: [22906251]
+[2024-04-24 05:13:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22906251]
+[2024-04-24 05:13:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datadrivenquadrature
+[2024-04-24 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statementskeleton
+[2024-04-24 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-digitalocean
+[2024-04-24 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openspg-nn4k
+[2024-04-24 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Implicit
+[2024-04-24 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandas-geojson
+[2024-04-24 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antchain-duanka
+[2024-04-24 05:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: annoworkcli
+[2024-04-24 05:13:20] INFO root fetch - processPackages [statementskeleton]: New version: [1.2] Old Version: [1.1]
+[2024-04-24 05:13:20] INFO root fetch - processPackages [pandas-geojson]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-24 05:13:20] INFO root fetch - processPackages [statementskeleton]: Downloading https://files.pythonhosted.org/packages/12/70/3fedf6be6db8301c2eb446c310c48faa7259c6aee63f5b18b6bb550a75f2/statementskeleton-1.1.tar.gz
+[2024-04-24 05:13:20] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.8.6rc1] Old Version: [2.8.6]
+[2024-04-24 05:13:20] WARNING root fetch - processPackages [datadrivenquadrature]: Skipping, unable to determine old version
+[2024-04-24 05:13:20] INFO root fetch - main [MainThread]: End processing [datadrivenquadrature] error
+[2024-04-24 05:13:20] INFO root fetch - processPackages [annoworkcli]: New version: [3.7.0] Old Version: [3.6.2]
+[2024-04-24 05:13:20] INFO root fetch - processPackages [openspg-nn4k]: New version: [0.0.3b2] Old Version: [0.0.3b1]
+[2024-04-24 05:13:20] INFO root fetch - processPackages [antchain-duanka]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-24 05:13:20] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-04-24 05:13:20] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/f6/2d/c26e994fa5b9b4158818a54c18673dc01407e958b3038d467f1fd4ee29e9/Geode_Implicit-2.8.6-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-24 05:13:20] INFO root fetch - processPackages [pandas-geojson]: Downloading https://files.pythonhosted.org/packages/6c/c0/6aeacc957bfcd7a6b1f71f6d6690ee49b592e1c8440f8d6198675ad38eef/pandas_geojson-2.0.1.tar.gz
+[2024-04-24 05:13:20] INFO root fetch - processPackages [statementskeleton]: Downloading https://files.pythonhosted.org/packages/d6/4f/10297fe4bf6d8358a91510d0bf31efbf3023ea27c26cffc6dfcd2216bb90/statementskeleton-1.2.tar.gz
+[2024-04-24 05:13:20] INFO root fetch - processPackages [annoworkcli]: Downloading https://files.pythonhosted.org/packages/71/bd/b11f68543127b047e7fd64c4a33ab06f12fc3bca6418a62600aa70597081/annoworkcli-3.6.2.tar.gz
+[2024-04-24 05:13:20] INFO root fetch - processPackages [openspg-nn4k]: Downloading https://files.pythonhosted.org/packages/6d/71/9b23f52ea4ee0dbfb6aa3df2ff212c9599805b131ef9202ead53b1837c0a/openspg-nn4k-0.0.3b1.tar.gz
+[2024-04-24 05:13:20] INFO root fetch - processPackages [antchain-duanka]: Downloading https://files.pythonhosted.org/packages/de/7f/d14b246d424ba0a963319fc485258ed6079c52a50c9ac0251fbecc7c4302/antchain_duanka-1.0.6.tar.gz
+[2024-04-24 05:13:20] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/2e/6c/a7df4c4ad7f38f74d32540e1217748e42244e347a42bae8c2279fbd344bd/cdktf-cdktf-provider-digitalocean-9.0.0.tar.gz
+[2024-04-24 05:13:20] INFO root fetch - processPackages [statementskeleton]: executing diffoscope
+[2024-04-24 05:13:20] INFO root fetch - processPackages [statementskeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statementskeleton-1.1.tar.gz tmp/statementskeleton-1.2.tar.gz --markdown 20240424/s/statementskeleton/1.1-1.2/README.md --exclude *.pyd
+[2024-04-24 05:13:21] INFO root fetch - processPackages [pandas-geojson]: Downloading https://files.pythonhosted.org/packages/9a/96/8992a800ef04e0612f3ce51dc1c59620d3be3d4ef8f5c1ecaaf351879302/pandas_geojson-2.1.0.tar.gz
+[2024-04-24 05:13:21] INFO root fetch - processPackages [antchain-duanka]: Downloading https://files.pythonhosted.org/packages/1d/2c/691e861ec6634d1bb078038fda36ddc13c2469d78f27dbe75e62dea044f7/antchain_duanka-1.0.7.tar.gz
+[2024-04-24 05:13:21] INFO root fetch - processPackages [openspg-nn4k]: Downloading https://files.pythonhosted.org/packages/6f/a1/741dc8e6fe4488f536c2ed5f7f6d8692af16868b8848ff5770c1116585a5/openspg-nn4k-0.0.3b2.tar.gz
+[2024-04-24 05:13:21] INFO root fetch - processPackages [annoworkcli]: Downloading https://files.pythonhosted.org/packages/d8/1e/e508ddd9db85524df00593ba5964203b42b088cfb05fe6e6df27c969ac34/annoworkcli-3.7.0.tar.gz
+[2024-04-24 05:13:21] INFO root fetch - processPackages [pandas-geojson]: executing diffoscope
+[2024-04-24 05:13:21] INFO root fetch - processPackages [pandas-geojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_geojson-2.0.1.tar.gz tmp/pandas_geojson-2.1.0.tar.gz --markdown 20240424/p/pandas-geojson/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-24 05:13:21] INFO root fetch - processPackages [antchain-duanka]: executing diffoscope
+[2024-04-24 05:13:21] INFO root fetch - processPackages [antchain-duanka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_duanka-1.0.6.tar.gz tmp/antchain_duanka-1.0.7.tar.gz --markdown 20240424/a/antchain-duanka/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-24 05:13:21] INFO root fetch - processPackages [openspg-nn4k]: executing diffoscope
+[2024-04-24 05:13:21] INFO root fetch - processPackages [openspg-nn4k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openspg-nn4k-0.0.3b1.tar.gz tmp/openspg-nn4k-0.0.3b2.tar.gz --markdown 20240424/o/openspg-nn4k/0.0.3b1-0.0.3b2/README.md --exclude *.pyd
+[2024-04-24 05:13:21] INFO root fetch - processPackages [annoworkcli]: executing diffoscope
+[2024-04-24 05:13:21] INFO root fetch - processPackages [annoworkcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annoworkcli-3.6.2.tar.gz tmp/annoworkcli-3.7.0.tar.gz --markdown 20240424/a/annoworkcli/3.6.2-3.7.0/README.md --exclude *.pyd
+[2024-04-24 05:13:21] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Downloading https://files.pythonhosted.org/packages/37/54/0c54d24323faaeb7a81b959a3875d565f3f927309e36279e4db1165fee68/cdktf-cdktf-provider-digitalocean-9.0.1.tar.gz
+[2024-04-24 05:13:21] INFO root fetch - processPackages [statementskeleton]: Remove: archive file [/home/abi/fetcher/tmp/statementskeleton-1.1.tar.gz]
+[2024-04-24 05:13:21] INFO root fetch - processPackages [statementskeleton]: Remove: archive file [/home/abi/fetcher/tmp/statementskeleton-1.2.tar.gz]
+[2024-04-24 05:13:21] INFO root fetch - main [MainThread]: End processing [statementskeleton]: success
+[2024-04-24 05:13:21] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/7d/60/f125d20070dbb86a86cd6e3a71debb1a04781238df0ff0af71d6f33f6f2b/Geode_Implicit-2.8.6rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 05:13:21] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: executing diffoscope
+[2024-04-24 05:13:21] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-digitalocean-9.0.0.tar.gz tmp/cdktf-cdktf-provider-digitalocean-9.0.1.tar.gz --markdown 20240424/c/cdktf-cdktf-provider-digitalocean/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-04-24 05:13:22] INFO root fetch - processPackages [pandas-geojson]: Remove: archive file [/home/abi/fetcher/tmp/pandas_geojson-2.0.1.tar.gz]
+[2024-04-24 05:13:22] INFO root fetch - processPackages [pandas-geojson]: Remove: archive file [/home/abi/fetcher/tmp/pandas_geojson-2.1.0.tar.gz]
+[2024-04-24 05:13:22] INFO root fetch - main [MainThread]: End processing [pandas-geojson]: success
+[2024-04-24 05:13:22] INFO root fetch - processPackages [openspg-nn4k]: Remove: archive file [/home/abi/fetcher/tmp/openspg-nn4k-0.0.3b1.tar.gz]
+[2024-04-24 05:13:22] INFO root fetch - processPackages [openspg-nn4k]: Remove: archive file [/home/abi/fetcher/tmp/openspg-nn4k-0.0.3b2.tar.gz]
+[2024-04-24 05:13:22] INFO root fetch - main [MainThread]: End processing [openspg-nn4k]: success
+[2024-04-24 05:13:22] INFO root fetch - processPackages [antchain-duanka]: Remove: archive file [/home/abi/fetcher/tmp/antchain_duanka-1.0.6.tar.gz]
+[2024-04-24 05:13:22] INFO root fetch - processPackages [antchain-duanka]: Remove: archive file [/home/abi/fetcher/tmp/antchain_duanka-1.0.7.tar.gz]
+[2024-04-24 05:13:22] INFO root fetch - main [MainThread]: End processing [antchain-duanka]: success
+[2024-04-24 05:13:22] INFO root fetch - processPackages [annoworkcli]: Remove: archive file [/home/abi/fetcher/tmp/annoworkcli-3.6.2.tar.gz]
+[2024-04-24 05:13:22] INFO root fetch - processPackages [annoworkcli]: Remove: archive file [/home/abi/fetcher/tmp/annoworkcli-3.7.0.tar.gz]
+[2024-04-24 05:13:22] INFO root fetch - main [MainThread]: End processing [annoworkcli]: success
+[2024-04-24 05:13:22] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2024-04-24 05:13:22] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.8.6-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Implicit-2.8.6rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240424/G/Geode-Implicit/2.8.6-2.8.6rc1/README.md --exclude *.pyd
+[2024-04-24 05:13:23] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.6-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-24 05:13:23] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 05:13:23] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2024-04-24 05:13:24] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-digitalocean-9.0.0.tar.gz]
+[2024-04-24 05:13:24] INFO root fetch - processPackages [cdktf-cdktf-provider-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-digitalocean-9.0.1.tar.gz]
+[2024-04-24 05:13:24] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-digitalocean]: success
+[2024-04-24 05:13:24] INFO root fetch - main [MainThread]: Store serial: [22906279]
