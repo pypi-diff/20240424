@@ -22684,3 +22684,72 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 14:35:29] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.5.tar.gz]
 [2024-04-24 14:35:29] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
 [2024-04-24 14:35:29] INFO root fetch - main [MainThread]: Store serial: [22912103]
+[2024-04-24 14:37:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22912103]
+[2024-04-24 14:37:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 14:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clean-python
+[2024-04-24 14:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipez
+[2024-04-24 14:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ib-core-lite
+[2024-04-24 14:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paconvert
+[2024-04-24 14:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecv-python-development
+[2024-04-24 14:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyc-pep-perm
+[2024-04-24 14:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tui-dsmt
+[2024-04-24 14:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brynq-sdk-leapsome
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.32] Old Version: [0.0.31]
+[2024-04-24 14:37:55] INFO root fetch - processPackages [pipez]: New version: [0.0.92] Old Version: [0.0.91]
+[2024-04-24 14:37:55] INFO root fetch - processPackages [tui-dsmt]: New version: [202404241206] Old Version: [202404231703]
+[2024-04-24 14:37:55] INFO root fetch - processPackages [clean-python]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ib-core-lite]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 14:37:55] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/e5/ae/26b4e1b86ea1166857dc29953b6985dc638d190d78068fa4f1f209b4b137/pipez-0.0.91.tar.gz
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/5a/78/2f7dc1e40a7e2c439b9cc9f8177cbd440c80951d2886bd7940021441107c/ecv-python-development-0.0.31.tar.gz
+[2024-04-24 14:37:55] INFO root fetch - processPackages [cyc-pep-perm]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-24 14:37:55] WARNING root fetch - processPackages [brynq-sdk-leapsome]: Skipping, unable to determine old version
+[2024-04-24 14:37:55] INFO root fetch - main [MainThread]: End processing [brynq-sdk-leapsome] error
+[2024-04-24 14:37:55] INFO root fetch - processPackages [paconvert]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-04-24 14:37:55] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/bd/c2/cab75fd591a8a0e523710dcd7cb658bc49d11ad336f4c3abd3f825f6e754/clean-python-0.9.5.tar.gz
+[2024-04-24 14:37:55] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/db/9c/31ad9ab894f7cbb4f00c2f4a507dddac4e89cabbe57fceb72007bc1cff3c/tui_dsmt-202404231703-py3-none-any.whl
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ib-core-lite]: Downloading https://files.pythonhosted.org/packages/59/7f/4d106f0624d4c644718de76128a1e8e46fbd685fb5ac520e13cff3084e99/ib_core_lite-1.0.0.tar.gz
+[2024-04-24 14:37:55] INFO root fetch - processPackages [cyc-pep-perm]: Downloading https://files.pythonhosted.org/packages/74/f6/bc5e01e0192c11d5c44fb5c10162b957749675fd6eb57547d7783fd4f432/cyc_pep_perm-0.0.1.tar.gz
+[2024-04-24 14:37:55] INFO root fetch - processPackages [paconvert]: Downloading https://files.pythonhosted.org/packages/fa/7c/80311f049ef3f9e7d03871228807f206da9b62477e661a6d711e5c7c26b7/paconvert-0.3.0-py3-none-any.whl
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/e7/42/3e7e3f1c97c70197b390b444822fc003035b36348887b05ad2181aedb8b0/ecv-python-development-0.0.32.tar.gz
+[2024-04-24 14:37:55] INFO root fetch - processPackages [clean-python]: Downloading https://files.pythonhosted.org/packages/5f/6e/6f96232599f1e881c2a03f70ea85b49e4dbe86d8ac6044cf072d203f8c84/clean-python-0.9.6.tar.gz
+[2024-04-24 14:37:55] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a7/49/628e7330b159e82dca5f865fe8b8ae5aed039a0f6c9374d1d6ff6c20037f/pipez-0.0.92.tar.gz
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.31.tar.gz tmp/ecv-python-development-0.0.32.tar.gz --markdown 20240424/e/ecv-python-development/0.0.31-0.0.32/README.md --exclude *.pyd
+[2024-04-24 14:37:55] INFO root fetch - processPackages [clean-python]: executing diffoscope
+[2024-04-24 14:37:55] INFO root fetch - processPackages [clean-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-python-0.9.5.tar.gz tmp/clean-python-0.9.6.tar.gz --markdown 20240424/c/clean-python/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ib-core-lite]: Downloading https://files.pythonhosted.org/packages/fe/9f/7052884af688739b2f8953d8fce62de0e602e9b52b17c9c5a76dfbd1ade0/ib_core_lite-1.0.1.tar.gz
+[2024-04-24 14:37:55] INFO root fetch - processPackages [paconvert]: Downloading https://files.pythonhosted.org/packages/18/d6/dc18736d3139721b653fc6904b6440c87497cda555e0eeb75e7b6f3cafda/paconvert-1.0.0-py3-none-any.whl
+[2024-04-24 14:37:55] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-24 14:37:55] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.91.tar.gz tmp/pipez-0.0.92.tar.gz --markdown 20240424/p/pipez/0.0.91-0.0.92/README.md --exclude *.pyd
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ib-core-lite]: executing diffoscope
+[2024-04-24 14:37:55] INFO root fetch - processPackages [ib-core-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ib_core_lite-1.0.0.tar.gz tmp/ib_core_lite-1.0.1.tar.gz --markdown 20240424/i/ib-core-lite/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 14:37:55] INFO root fetch - processPackages [paconvert]: executing diffoscope
+[2024-04-24 14:37:55] INFO root fetch - processPackages [paconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paconvert-0.3.0-py3-none-any.whl.zip tmp/paconvert-1.0.0-py3-none-any.whl.zip --markdown 20240424/p/paconvert/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-04-24 14:37:55] INFO root fetch - processPackages [cyc-pep-perm]: Downloading https://files.pythonhosted.org/packages/2f/90/090b353f5d1ec55f8261e178cc67773d8996ab438a76a31de7ae2942ba70/cyc_pep_perm-0.1.0.tar.gz
+[2024-04-24 14:37:56] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/15/40/52833fceb2f6908152d67dd412e9f4d26f41c274185ea4014ac16b7b5cf4/tui_dsmt-202404241206.tar.gz
+[2024-04-24 14:37:56] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-24 14:37:56] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404231703-py3-none-any.whl.zip tmp/tui_dsmt-202404241206.tar.gz --markdown 20240424/t/tui-dsmt/202404231703-202404241206/README.md --exclude *.pyd
+[2024-04-24 14:37:56] INFO root fetch - processPackages [cyc-pep-perm]: executing diffoscope
+[2024-04-24 14:37:56] INFO root fetch - processPackages [cyc-pep-perm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyc_pep_perm-0.0.1.tar.gz tmp/cyc_pep_perm-0.1.0.tar.gz --markdown 20240424/c/cyc-pep-perm/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-24 14:37:56] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.31.tar.gz]
+[2024-04-24 14:37:56] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.32.tar.gz]
+[2024-04-24 14:37:56] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-24 14:37:56] INFO root fetch - processPackages [ib-core-lite]: Remove: archive file [/home/abi/fetcher/tmp/ib_core_lite-1.0.0.tar.gz]
+[2024-04-24 14:37:56] INFO root fetch - processPackages [ib-core-lite]: Remove: archive file [/home/abi/fetcher/tmp/ib_core_lite-1.0.1.tar.gz]
+[2024-04-24 14:37:56] INFO root fetch - main [MainThread]: End processing [ib-core-lite]: success
+[2024-04-24 14:37:56] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.5.tar.gz]
+[2024-04-24 14:37:56] INFO root fetch - processPackages [clean-python]: Remove: archive file [/home/abi/fetcher/tmp/clean-python-0.9.6.tar.gz]
+[2024-04-24 14:37:56] INFO root fetch - main [MainThread]: End processing [clean-python]: success
+[2024-04-24 14:37:56] INFO root fetch - processPackages [paconvert]: Remove: archive file [/home/abi/fetcher/tmp/paconvert-0.3.0-py3-none-any.whl.zip]
+[2024-04-24 14:37:56] INFO root fetch - processPackages [paconvert]: Remove: archive file [/home/abi/fetcher/tmp/paconvert-1.0.0-py3-none-any.whl.zip]
+[2024-04-24 14:37:56] INFO root fetch - main [MainThread]: End processing [paconvert]: success
+[2024-04-24 14:37:57] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404231703-py3-none-any.whl.zip]
+[2024-04-24 14:37:57] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404241206.tar.gz]
+[2024-04-24 14:37:57] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-24 14:37:57] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.91.tar.gz]
+[2024-04-24 14:37:57] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.92.tar.gz]
+[2024-04-24 14:37:57] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-24 14:37:57] INFO root fetch - processPackages [cyc-pep-perm]: Remove: archive file [/home/abi/fetcher/tmp/cyc_pep_perm-0.0.1.tar.gz]
+[2024-04-24 14:37:57] INFO root fetch - processPackages [cyc-pep-perm]: Remove: archive file [/home/abi/fetcher/tmp/cyc_pep_perm-0.1.0.tar.gz]
+[2024-04-24 14:37:57] INFO root fetch - main [MainThread]: End processing [cyc-pep-perm]: success
+[2024-04-24 14:37:57] INFO root fetch - main [MainThread]: Store serial: [22912126]
