@@ -14911,3 +14911,26 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 10:21:39] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.9.1.tar.gz]
 [2024-04-24 10:21:39] INFO root fetch - main [MainThread]: End processing [fedn]: success
 [2024-04-24 10:21:39] INFO root fetch - main [MainThread]: Store serial: [22908966]
+[2024-04-24 10:23:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908966]
+[2024-04-24 10:23:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 10:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: middleware-help-python
+[2024-04-24 10:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whatshow-toolbox
+[2024-04-24 10:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplepro
+[2024-04-24 10:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-device-support-plugin
+[2024-04-24 10:23:49] WARNING root fetch - processPackages [middleware-help-python]: Skipping, unable to determine old version
+[2024-04-24 10:23:49] INFO root fetch - main [MainThread]: End processing [middleware-help-python] error
+[2024-04-24 10:23:49] INFO root fetch - processPackages [netbox-device-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 10:23:49] INFO root fetch - processPackages [simplepro]: New version: [7.6.1] Old Version: [7.6]
+[2024-04-24 10:23:49] WARNING root fetch - processPackages [whatshow-toolbox]: Skipping, unable to determine old version
+[2024-04-24 10:23:49] INFO root fetch - main [MainThread]: End processing [whatshow-toolbox] error
+[2024-04-24 10:23:49] INFO root fetch - processPackages [simplepro]: Downloading https://files.pythonhosted.org/packages/12/4d/b2b0bb5a2c37a82b63672f73b197cbaefbac343c09e8e29569e38485ca2f/simplepro-7.6.tar.gz
+[2024-04-24 10:23:49] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/92/05/870566f7e3f3fbe6ee8f097418076f8d5bd920d67190f6eeb0100aef08c6/netbox-device-support-plugin-0.0.8.tar.gz
+[2024-04-24 10:23:49] WARNING root fetch - processPackages [simplepro]: Skipping package: exceeds size limit 17992629>=10485760
+[2024-04-24 10:23:49] INFO root fetch - main [MainThread]: End processing [simplepro] error
+[2024-04-24 10:23:49] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/bc/73/c18a4c2e7adfa3cb2a184b33f8c5fd7bca2af8fda3abeab9b59400978fa6/netbox-device-support-plugin-0.0.9.tar.gz
+[2024-04-24 10:23:49] INFO root fetch - processPackages [netbox-device-support-plugin]: executing diffoscope
+[2024-04-24 10:23:49] INFO root fetch - processPackages [netbox-device-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-device-support-plugin-0.0.8.tar.gz tmp/netbox-device-support-plugin-0.0.9.tar.gz --markdown 20240424/n/netbox-device-support-plugin/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 10:23:50] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-device-support-plugin-0.0.8.tar.gz]
+[2024-04-24 10:23:50] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-device-support-plugin-0.0.9.tar.gz]
+[2024-04-24 10:23:50] INFO root fetch - main [MainThread]: End processing [netbox-device-support-plugin]: success
+[2024-04-24 10:23:50] INFO root fetch - main [MainThread]: Store serial: [22908983]
