@@ -16467,3 +16467,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:11:16] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo_threads-6.601.24115.tar.gz]
 [2024-04-24 11:11:16] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
 [2024-04-24 11:11:16] INFO root fetch - main [MainThread]: Store serial: [22909562]
+[2024-04-24 11:13:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909562]
+[2024-04-24 11:13:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrx-link-core
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apibook
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kaggle_waggle
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-files
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yuanfen
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Geode-Explicit
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: 2b4cad69c8f0478caa92a512e57b735aba978d0e
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-astradb
+[2024-04-24 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: itakello-logging
+[2024-04-24 11:13:27] INFO root fetch - processPackages [torch-model-manager]: New version: [0.0.6.dev2] Old Version: [0.0.6.dev1]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [kaggle_waggle]: New version: [1.6.12a6] Old Version: [1.6.12a5]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [yuanfen]: New version: [2024.4.24.1] Old Version: [2024.3.8.1]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mrx-link-core]: New version: [1.4.0.dev2] Old Version: [1.4.0.dev1]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [apibook]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [langchain-astradb]: New version: [0.2.0] Old Version: [0.1.0rc1]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [itakello-logging]: New version: [0.2.1.1] Old Version: [0.2.1]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/b3/4c/ce155247c501c96a8376d2d90235ccf5f6b08511a7747e1b40a879f4e3d7/torch_model_manager-0.0.6.dev1.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mo-files]: New version: [6.601.24115] Old Version: [6.600.24114]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.7.5rc1] Old Version: [4.7.4rc1]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: Downloading https://files.pythonhosted.org/packages/01/41/db784ddc21401cdfc90cf5135c9c817ed309e3b065cae306f76fcd8c0455/2b4cad69c8f0478caa92a512e57b735aba978d0e-0.1.8.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/4b/f9/5c14234dbdec574dfa4b295c8f42c6bab5e58cab659846e3b6fa13ad1796/yuanfen-2024.3.8.1.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/74/ef/96950173a054d7b5b323f2fd272771167d477900add2ab27962b137db9a6/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl
+[2024-04-24 11:13:27] INFO root fetch - processPackages [kaggle_waggle]: Downloading https://files.pythonhosted.org/packages/ac/b3/d468af2a53a9512bc8c9e0c57243ed3b7905399638a26dd42f2287e4dc3a/kaggle_waggle-1.6.12a5.tar.gz
+[2024-04-24 11:13:27] WARNING root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: Skipping package: exceeds size limit 27722932>=10485760
+[2024-04-24 11:13:27] INFO root fetch - processPackages [2b4cad69c8f0478caa92a512e57b735aba978d0e]: Start processing: rrtask
+[2024-04-24 11:13:27] INFO root fetch - main [MainThread]: End processing [2b4cad69c8f0478caa92a512e57b735aba978d0e] error
+[2024-04-24 11:13:27] INFO root fetch - processPackages [apibook]: Downloading https://files.pythonhosted.org/packages/43/12/7b9b5e8cccf41fefa1714ba4c8dd463bb0d4b6f26bf6ad09f0df971bdb7e/apibook-0.1.0.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [langchain-astradb]: Downloading https://files.pythonhosted.org/packages/be/34/85450d2f40cf77ca4a63dc26128245b74ca4bfb1540b4cb97448f78095b2/langchain_astradb-0.1.0rc1.tar.gz
+[2024-04-24 11:13:27] WARNING root fetch - processPackages [kaggle_waggle]: Skipping package: exceeds size limit 24460858>=10485760
+[2024-04-24 11:13:27] INFO root fetch - processPackages [kaggle_waggle]: Start processing: python-recentx
+[2024-04-24 11:13:27] INFO root fetch - main [MainThread]: End processing [kaggle_waggle] error
+[2024-04-24 11:13:27] INFO root fetch - processPackages [rrtask]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/7d/9e/08305dbc60e89394f3fe73714c444ee927dca121a707b92eb388ca6e7747/mo_files-6.600.24114.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [itakello-logging]: Downloading https://files.pythonhosted.org/packages/8a/08/899253a9432b196762948c73eb8d4e398a54aaacfa80aac9622592665550/itakello_logging-0.2.1.tar.gz
+[2024-04-24 11:13:27] WARNING root fetch - processPackages [python-recentx]: Skipping, unable to determine old version
+[2024-04-24 11:13:27] INFO root fetch - main [MainThread]: End processing [python-recentx] error
+[2024-04-24 11:13:27] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/89/b8/14f621faa4bfc8388a89bd5bb1661a29596963b4db56c6b0e423949cdee7/Geode_Explicit-4.7.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 11:13:27] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/70/6b/f8eee41fd04d3b2e40c816116c3dc3f5252229ab2fb603f96b49da946c8a/rrtask-0.0.3.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [yuanfen]: Downloading https://files.pythonhosted.org/packages/23/78/510a3f3d9e8b5bc94f3545545e5080fc15bc3f0ffc4415ebb3f382fa7281/yuanfen-2024.4.24.1.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/00/62/77eca8b2c9f5d99214307c88cbc3d843ea9093b9e38291e15b1b7a548f3f/torch_model_manager-0.0.6.dev2.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/e6/64/98604dedf9425e277802a48ebc2e60753864b30ec165a8947eb40764daed/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl
+[2024-04-24 11:13:27] INFO root fetch - processPackages [yuanfen]: executing diffoscope
+[2024-04-24 11:13:27] INFO root fetch - processPackages [yuanfen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuanfen-2024.3.8.1.tar.gz tmp/yuanfen-2024.4.24.1.tar.gz --markdown 20240424/y/yuanfen/2024.3.8.1-2024.4.24.1/README.md --exclude *.pyd
+[2024-04-24 11:13:27] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-24 11:13:27] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.0.6.dev1.tar.gz tmp/torch_model_manager-0.0.6.dev2.tar.gz --markdown 20240424/t/torch-model-manager/0.0.6.dev1-0.0.6.dev2/README.md --exclude *.pyd
+[2024-04-24 11:13:27] INFO root fetch - processPackages [apibook]: Downloading https://files.pythonhosted.org/packages/a1/8b/f7a4dc4b92a1b75dea4c62fddb0cb3bc3b6621da78ba21da493e57a4c7aa/apibook-0.1.1.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [langchain-astradb]: Downloading https://files.pythonhosted.org/packages/7c/06/3ce727572bd5c1472f503bb678792e3539f2bff595a39984dc14bf1c3780/langchain_astradb-0.2.0.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/00/ac/779ee18f4b80c6e53a68f0182a03c8b8012ece67d01cc854eafa600ff098/mo_files-6.601.24115.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [apibook]: executing diffoscope
+[2024-04-24 11:13:27] INFO root fetch - processPackages [apibook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apibook-0.1.0.tar.gz tmp/apibook-0.1.1.tar.gz --markdown 20240424/a/apibook/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 11:13:27] INFO root fetch - processPackages [rrtask]: Downloading https://files.pythonhosted.org/packages/bb/b1/65a9012b21a37dab808be721937a76f5eb179f72fed82b0d6acab2c3610e/rrtask-0.0.4.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [itakello-logging]: Downloading https://files.pythonhosted.org/packages/43/ef/f62674fca073e14dff28b1dd019e4cb0989c5867867bf202170564ad6a89/itakello_logging-0.2.1.1.tar.gz
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl.zip --markdown 20240424/m/mrx-link-core/1.4.0.dev1-1.4.0.dev2/README.md --exclude *.pyd
+[2024-04-24 11:13:27] INFO root fetch - processPackages [langchain-astradb]: executing diffoscope
+[2024-04-24 11:13:27] INFO root fetch - processPackages [langchain-astradb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_astradb-0.1.0rc1.tar.gz tmp/langchain_astradb-0.2.0.tar.gz --markdown 20240424/l/langchain-astradb/0.1.0rc1-0.2.0/README.md --exclude *.pyd
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2024-04-24 11:13:27] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.600.24114.tar.gz tmp/mo_files-6.601.24115.tar.gz --markdown 20240424/m/mo-files/6.600.24114-6.601.24115/README.md --exclude *.pyd
+[2024-04-24 11:13:28] INFO root fetch - processPackages [rrtask]: executing diffoscope
+[2024-04-24 11:13:28] INFO root fetch - processPackages [rrtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rrtask-0.0.3.tar.gz tmp/rrtask-0.0.4.tar.gz --markdown 20240424/r/rrtask/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 11:13:28] INFO root fetch - processPackages [itakello-logging]: executing diffoscope
+[2024-04-24 11:13:28] INFO root fetch - processPackages [itakello-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itakello_logging-0.2.1.tar.gz tmp/itakello_logging-0.2.1.1.tar.gz --markdown 20240424/i/itakello-logging/0.2.1-0.2.1.1/README.md --exclude *.pyd
+[2024-04-24 11:13:28] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/6f/dd/e2ab053af19e9c7de6583d11c0ef03a6406c63ae7d770579c43ff3da5f5c/Geode_Explicit-4.7.5rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-24 11:13:28] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-04-24 11:13:28] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.7.4rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.7.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240424/G/Geode-Explicit/4.7.4rc1-4.7.5rc1/README.md --exclude *.pyd
+[2024-04-24 11:13:28] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.3.8.1.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - processPackages [yuanfen]: Remove: archive file [/home/abi/fetcher/tmp/yuanfen-2024.4.24.1.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - main [MainThread]: End processing [yuanfen]: success
+[2024-04-24 11:13:28] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev1.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.6.dev2.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-24 11:13:28] INFO root fetch - processPackages [apibook]: Remove: archive file [/home/abi/fetcher/tmp/apibook-0.1.0.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - processPackages [apibook]: Remove: archive file [/home/abi/fetcher/tmp/apibook-0.1.1.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - main [MainThread]: End processing [apibook]: success
+[2024-04-24 11:13:28] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.3.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - processPackages [rrtask]: Remove: archive file [/home/abi/fetcher/tmp/rrtask-0.0.4.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - main [MainThread]: End processing [rrtask]: success
+[2024-04-24 11:13:28] INFO root fetch - processPackages [itakello-logging]: Remove: archive file [/home/abi/fetcher/tmp/itakello_logging-0.2.1.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - processPackages [itakello-logging]: Remove: archive file [/home/abi/fetcher/tmp/itakello_logging-0.2.1.1.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - main [MainThread]: End processing [itakello-logging]: success
+[2024-04-24 11:13:28] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.600.24114.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.601.24115.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2024-04-24 11:13:28] INFO root fetch - processPackages [langchain-astradb]: Remove: archive file [/home/abi/fetcher/tmp/langchain_astradb-0.1.0rc1.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - processPackages [langchain-astradb]: Remove: archive file [/home/abi/fetcher/tmp/langchain_astradb-0.2.0.tar.gz]
+[2024-04-24 11:13:28] INFO root fetch - main [MainThread]: End processing [langchain-astradb]: success
+[2024-04-24 11:13:29] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 11:13:29] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 11:13:29] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2024-04-24 11:13:29] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 11:13:29] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-24 11:13:29] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-04-24 11:13:29] INFO root fetch - main [MainThread]: Store serial: [22909615]
