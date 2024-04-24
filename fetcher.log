@@ -18609,3 +18609,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 12:17:32] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-24 12:17:32] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-24 12:17:32] INFO root fetch - main [MainThread]: Store serial: [22910325]
+[2024-04-24 12:19:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22910325]
+[2024-04-24 12:19:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 12:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alert-on-exception
+[2024-04-24 12:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-logs
+[2024-04-24 12:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: misleep
+[2024-04-24 12:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-mapengine
+[2024-04-24 12:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SleepHarmonizer
+[2024-04-24 12:19:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-collections
+[2024-04-24 12:19:43] INFO root fetch - processPackages [misleep]: New version: [0.2.4b0] Old Version: [0.2.3b0]
+[2024-04-24 12:19:43] WARNING root fetch - processPackages [alert-on-exception]: Skipping, unable to determine old version
+[2024-04-24 12:19:43] INFO root fetch - main [MainThread]: End processing [alert-on-exception] error
+[2024-04-24 12:19:43] INFO root fetch - processPackages [SleepHarmonizer]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-collections]: New version: [5.601.24115] Old Version: [5.600.24114]
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-logs]: New version: [8.601.24115] Old Version: [8.600.24114]
+[2024-04-24 12:19:43] INFO root fetch - processPackages [django-mapengine]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-04-24 12:19:43] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/d5/91/9701bd977c08a0c6fd6e85834df6dc3f4f64bec3c662630f3996ab074507/misleep-0.2.3b0.tar.gz
+[2024-04-24 12:19:43] INFO root fetch - processPackages [SleepHarmonizer]: Downloading https://files.pythonhosted.org/packages/37/8d/3cb106cf06df098d5444823c11174be50aad72b3d71c38012c6829de058b/SleepHarmonizer-0.1.2.tar.gz
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/02/4a/fbeebd529d9d51e39e8a88339cd7bd1401ce04e5c4561b0bd4d028b63d6b/mo_collections-5.600.24114.tar.gz
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/37/b0/92676c956af0ad93e6d8aefe518b84138733c21d98853def86472f671762/mo_logs-8.600.24114.tar.gz
+[2024-04-24 12:19:43] INFO root fetch - processPackages [django-mapengine]: Downloading https://files.pythonhosted.org/packages/5c/32/ff12febb0af34f26a44cc8cfab268cfdf49c6f532653b4897223d0622f64/django_mapengine-1.4.1.tar.gz
+[2024-04-24 12:19:43] INFO root fetch - processPackages [SleepHarmonizer]: Downloading https://files.pythonhosted.org/packages/08/38/71890328a446f0bf5371deb73fc9b44e880103597fdfff824bd04103989a/SleepHarmonizer-0.1.3.tar.gz
+[2024-04-24 12:19:43] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/1f/80/3f7e1fff204bd39a8da1ff2bdbf87e12f3f0e006414dcef829955ddbc3ce/misleep-0.2.4b0.tar.gz
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/00/6e/b601b90910778c00903a25e469fbba65196019c9a2851764c8df2d29d4a6/mo_collections-5.601.24115.tar.gz
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/da/90/d87f8b5e8f483e6f734a64ad269bc310876fd110abff32b7070342972c0e/mo_logs-8.601.24115.tar.gz
+[2024-04-24 12:19:43] INFO root fetch - processPackages [SleepHarmonizer]: executing diffoscope
+[2024-04-24 12:19:43] INFO root fetch - processPackages [SleepHarmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SleepHarmonizer-0.1.2.tar.gz tmp/SleepHarmonizer-0.1.3.tar.gz --markdown 20240424/S/SleepHarmonizer/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-collections]: executing diffoscope
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_collections-5.600.24114.tar.gz tmp/mo_collections-5.601.24115.tar.gz --markdown 20240424/m/mo-collections/5.600.24114-5.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:19:43] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-24 12:19:43] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.3b0.tar.gz tmp/misleep-0.2.4b0.tar.gz --markdown 20240424/m/misleep/0.2.3b0-0.2.4b0/README.md --exclude *.pyd
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2024-04-24 12:19:43] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-8.600.24114.tar.gz tmp/mo_logs-8.601.24115.tar.gz --markdown 20240424/m/mo-logs/8.600.24114-8.601.24115/README.md --exclude *.pyd
+[2024-04-24 12:19:43] INFO root fetch - processPackages [django-mapengine]: Downloading https://files.pythonhosted.org/packages/7d/9b/92b1c6647a76491c1eb3320566296cba10e7ca7acd4777fcf544d4753999/django_mapengine-1.5.0.tar.gz
+[2024-04-24 12:19:44] INFO root fetch - processPackages [django-mapengine]: executing diffoscope
+[2024-04-24 12:19:44] INFO root fetch - processPackages [django-mapengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_mapengine-1.4.1.tar.gz tmp/django_mapengine-1.5.0.tar.gz --markdown 20240424/d/django-mapengine/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-04-24 12:19:44] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.600.24114.tar.gz]
+[2024-04-24 12:19:44] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.601.24115.tar.gz]
+[2024-04-24 12:19:44] INFO root fetch - main [MainThread]: End processing [mo-collections]: success
+[2024-04-24 12:19:44] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.600.24114.tar.gz]
+[2024-04-24 12:19:44] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo_logs-8.601.24115.tar.gz]
+[2024-04-24 12:19:44] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2024-04-24 12:19:44] INFO root fetch - processPackages [SleepHarmonizer]: Remove: archive file [/home/abi/fetcher/tmp/SleepHarmonizer-0.1.2.tar.gz]
+[2024-04-24 12:19:44] INFO root fetch - processPackages [SleepHarmonizer]: Remove: archive file [/home/abi/fetcher/tmp/SleepHarmonizer-0.1.3.tar.gz]
+[2024-04-24 12:19:44] INFO root fetch - main [MainThread]: End processing [SleepHarmonizer]: success
+[2024-04-24 12:19:44] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.3b0.tar.gz]
+[2024-04-24 12:19:44] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.4b0.tar.gz]
+[2024-04-24 12:19:44] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-24 12:19:45] INFO root fetch - processPackages [django-mapengine]: Remove: archive file [/home/abi/fetcher/tmp/django_mapengine-1.4.1.tar.gz]
+[2024-04-24 12:19:45] INFO root fetch - processPackages [django-mapengine]: Remove: archive file [/home/abi/fetcher/tmp/django_mapengine-1.5.0.tar.gz]
+[2024-04-24 12:19:45] INFO root fetch - main [MainThread]: End processing [django-mapengine]: success
+[2024-04-24 12:19:45] INFO root fetch - main [MainThread]: Store serial: [22910345]
