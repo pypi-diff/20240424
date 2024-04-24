@@ -13747,3 +13747,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 09:37:30] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post450-py3-none-any.whl.zip]
 [2024-04-24 09:37:30] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-24 09:37:30] INFO root fetch - main [MainThread]: Store serial: [22908500]
+[2024-04-24 09:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908500]
+[2024-04-24 09:39:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-24 09:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lalsuite
+[2024-04-24 09:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sferriol-wamp
+[2024-04-24 09:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sf-apm-lib
+[2024-04-24 09:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ophyd-devices
+[2024-04-24 09:39:38] INFO root fetch - processPackages [sferriol-wamp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sf-apm-lib]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sferriol-wamp]: Downloading https://files.pythonhosted.org/packages/21/dd/e545c0b488c3681c1dbd4d0e51333f2b8cd2621a3743111533f0374c4b03/sferriol_wamp-0.1.0-py3-none-any.whl
+[2024-04-24 09:39:39] INFO root fetch - processPackages [ophyd-devices]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-24 09:39:39] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-24 09:39:39] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-24 09:39:39] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-24 09:39:39] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sf-apm-lib]: Downloading https://files.pythonhosted.org/packages/63/cf/4d843d85008a1be9745b4797d4cc39a065115ce9ba9e855b65bc4e63198b/sf_apm_lib-0.1.5.tar.gz
+[2024-04-24 09:39:39] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/2b/09/1e0a1fc236c9ce64bbf92f29458f9e672c21b97c776e5c9f5d5ae6e23d72/ophyd_devices-0.9.1.tar.gz
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sferriol-wamp]: Downloading https://files.pythonhosted.org/packages/49/61/c46c7a957a63d5de290d5bc91f77ecf3b139193c260ae5aea548164739bc/sferriol_wamp-0.1.1-py3-none-any.whl
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sferriol-wamp]: executing diffoscope
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sferriol-wamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sferriol_wamp-0.1.0-py3-none-any.whl.zip tmp/sferriol_wamp-0.1.1-py3-none-any.whl.zip --markdown 20240424/s/sferriol-wamp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sf-apm-lib]: Downloading https://files.pythonhosted.org/packages/86/ab/251aea058c3080fe08a96ca08cd213ca560a26077b4ab4a35ef3670abad1/sf_apm_lib-0.1.6.tar.gz
+[2024-04-24 09:39:39] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/55/4e/d641ca498a4fba59915a76536e150eb26c82206c4314ac039e51ef8aeae8/ophyd_devices-0.9.2.tar.gz
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sf-apm-lib]: executing diffoscope
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sf-apm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf_apm_lib-0.1.5.tar.gz tmp/sf_apm_lib-0.1.6.tar.gz --markdown 20240424/s/sf-apm-lib/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-24 09:39:39] INFO root fetch - processPackages [ophyd-devices]: executing diffoscope
+[2024-04-24 09:39:39] INFO root fetch - processPackages [ophyd-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_devices-0.9.1.tar.gz tmp/ophyd_devices-0.9.2.tar.gz --markdown 20240424/o/ophyd-devices/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sferriol-wamp]: Remove: archive file [/home/abi/fetcher/tmp/sferriol_wamp-0.1.0-py3-none-any.whl.zip]
+[2024-04-24 09:39:39] INFO root fetch - processPackages [sferriol-wamp]: Remove: archive file [/home/abi/fetcher/tmp/sferriol_wamp-0.1.1-py3-none-any.whl.zip]
+[2024-04-24 09:39:40] INFO root fetch - main [MainThread]: End processing [sferriol-wamp]: success
+[2024-04-24 09:39:40] INFO root fetch - processPackages [sf-apm-lib]: Remove: archive file [/home/abi/fetcher/tmp/sf_apm_lib-0.1.5.tar.gz]
+[2024-04-24 09:39:40] INFO root fetch - processPackages [sf-apm-lib]: Remove: archive file [/home/abi/fetcher/tmp/sf_apm_lib-0.1.6.tar.gz]
+[2024-04-24 09:39:40] INFO root fetch - main [MainThread]: End processing [sf-apm-lib]: success
+[2024-04-24 09:39:40] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-0.9.1.tar.gz]
+[2024-04-24 09:39:40] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-0.9.2.tar.gz]
+[2024-04-24 09:39:40] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
+[2024-04-24 09:39:40] INFO root fetch - main [MainThread]: Store serial: [22908529]
