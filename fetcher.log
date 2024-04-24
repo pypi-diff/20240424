@@ -21435,3 +21435,35 @@ AssertionError: tmp/p-template-generator-0.1.98.tar.gz does not exist
 [2024-04-24 13:50:55] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.1.tar.gz]
 [2024-04-24 13:50:55] INFO root fetch - main [MainThread]: End processing [dclab]: success
 [2024-04-24 13:50:55] INFO root fetch - main [MainThread]: Store serial: [22911578]
+[2024-04-24 13:53:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911578]
+[2024-04-24 13:53:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 13:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-21
+[2024-04-24 13:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commitizen-xcodeproj
+[2024-04-24 13:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decthings-model
+[2024-04-24 13:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mymath-stubs
+[2024-04-24 13:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tapsage-client
+[2024-04-24 13:53:20] WARNING root fetch - processPackages [tapsage-client]: Skipping, unable to determine old version
+[2024-04-24 13:53:20] INFO root fetch - main [MainThread]: End processing [tapsage-client] error
+[2024-04-24 13:53:20] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240424] Old Version: [2.5.0b20240423]
+[2024-04-24 13:53:20] INFO root fetch - processPackages [decthings-model]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-24 13:53:20] INFO root fetch - processPackages [commitizen-xcodeproj]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-24 13:53:20] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/12/0b/7c7992a06fce4de7c45d6d6f02083e6e7ee092159e27d7d4ad0c11ce04dd/bigdl_core_xe_21-2.5.0b20240423-cp39-cp39-win_amd64.whl
+[2024-04-24 13:53:20] WARNING root fetch - processPackages [mymath-stubs]: Skipping, unable to determine old version
+[2024-04-24 13:53:20] INFO root fetch - main [MainThread]: End processing [mymath-stubs] error
+[2024-04-24 13:53:20] INFO root fetch - processPackages [decthings-model]: Downloading https://files.pythonhosted.org/packages/d6/2b/ef48f9ca2874e3ed9f235fc975d6df9cfe653229a8e5b4157c0579fc4037/decthings_model-0.0.3.tar.gz
+[2024-04-24 13:53:20] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28703399>=10485760
+[2024-04-24 13:53:20] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-24 13:53:20] INFO root fetch - processPackages [commitizen-xcodeproj]: Downloading https://files.pythonhosted.org/packages/ca/dc/aa5c87a156597a48981ad484c74800746756b5eea966d88d479741835543/commitizen_xcodeproj-0.1.0.tar.gz
+[2024-04-24 13:53:20] INFO root fetch - processPackages [decthings-model]: Downloading https://files.pythonhosted.org/packages/50/f5/423c2ffce6201957ebbe0cfcc41abc0894cd11e2a1873d01ee7ae9fa6a91/decthings_model-0.0.4.tar.gz
+[2024-04-24 13:53:20] INFO root fetch - processPackages [decthings-model]: executing diffoscope
+[2024-04-24 13:53:20] INFO root fetch - processPackages [decthings-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decthings_model-0.0.3.tar.gz tmp/decthings_model-0.0.4.tar.gz --markdown 20240424/d/decthings-model/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-24 13:53:20] INFO root fetch - processPackages [commitizen-xcodeproj]: Downloading https://files.pythonhosted.org/packages/41/1d/fe8481d51ef660f03fd4a7273b293babc88b4c68882f7747c29766f4fc2a/commitizen_xcodeproj-0.1.1.tar.gz
+[2024-04-24 13:53:21] INFO root fetch - processPackages [commitizen-xcodeproj]: executing diffoscope
+[2024-04-24 13:53:21] INFO root fetch - processPackages [commitizen-xcodeproj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen_xcodeproj-0.1.0.tar.gz tmp/commitizen_xcodeproj-0.1.1.tar.gz --markdown 20240424/c/commitizen-xcodeproj/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-24 13:53:21] INFO root fetch - processPackages [decthings-model]: Remove: archive file [/home/abi/fetcher/tmp/decthings_model-0.0.3.tar.gz]
+[2024-04-24 13:53:21] INFO root fetch - processPackages [decthings-model]: Remove: archive file [/home/abi/fetcher/tmp/decthings_model-0.0.4.tar.gz]
+[2024-04-24 13:53:21] INFO root fetch - main [MainThread]: End processing [decthings-model]: success
+[2024-04-24 13:53:21] INFO root fetch - processPackages [commitizen-xcodeproj]: Remove: archive file [/home/abi/fetcher/tmp/commitizen_xcodeproj-0.1.0.tar.gz]
+[2024-04-24 13:53:21] INFO root fetch - processPackages [commitizen-xcodeproj]: Remove: archive file [/home/abi/fetcher/tmp/commitizen_xcodeproj-0.1.1.tar.gz]
+[2024-04-24 13:53:21] INFO root fetch - main [MainThread]: End processing [commitizen-xcodeproj]: success
+[2024-04-24 13:53:21] INFO root fetch - main [MainThread]: Store serial: [22911595]
