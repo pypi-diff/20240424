@@ -20358,3 +20358,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-24 13:16:31] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-04-24 13:16:31] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-04-24 13:16:31] INFO root fetch - main [MainThread]: Store serial: [22911072]
+[2024-04-24 13:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22911072]
+[2024-04-24 13:18:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-24 13:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-cpp
+[2024-04-24 13:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ms-swift
+[2024-04-24 13:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2024-04-24 13:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-kwargs
+[2024-04-24 13:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TDCRPy
+[2024-04-24 13:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: getai
+[2024-04-24 13:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bernard
+[2024-04-24 13:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imt-ring
+[2024-04-24 13:18:52] INFO root fetch - processPackages [ms-swift]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-24 13:18:52] INFO root fetch - processPackages [getai]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-24 13:18:52] INFO root fetch - processPackages [mo-kwargs]: New version: [7.602.24115] Old Version: [7.601.24115]
+[2024-04-24 13:18:52] INFO root fetch - processPackages [bernard]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-24 13:18:52] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240424] Old Version: [2.5.0b20240423]
+[2024-04-24 13:18:52] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/91/ae/d8e9ad95ae9399ea6de1f724196e2fa35e16f40a020f84dce52d54e14f1f/ms-swift-2.0.2.tar.gz
+[2024-04-24 13:18:52] INFO root fetch - processPackages [TDCRPy]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-24 13:18:52] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-24 13:18:52] INFO root fetch - processPackages [imt-ring]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-24 13:18:52] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/9e/23/d45fb761c7cd922b076d6c83065b3e80ac252f66ac17f9e040f5a8441e18/getai-0.0.6.tar.gz
+[2024-04-24 13:18:52] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/42/4d/39745e090919d8b235891c40f46b2a760a7dcb1eb606dac9f1866d2eb565/mo_kwargs-7.601.24115.tar.gz
+[2024-04-24 13:18:52] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-24 13:18:52] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/95/6c/ca8dd4ed2a03dad6e2984dde153be629ea4981476b43d6385596bdce0db4/bigdl_core_cpp-2.5.0b20240423-py3-none-win_amd64.whl
+[2024-04-24 13:18:52] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/b9/15/5216c8e3c5a41bd1e832c226f9bf126881908ca797d0915f40ead7dfcb8a/tdcrpy-1.9.0.tar.gz
+[2024-04-24 13:18:52] INFO root fetch - processPackages [imt-ring]: Downloading https://files.pythonhosted.org/packages/7a/07/1c678a542276a052b62a1ab9fc7cc142d51adb56560e891b785292f83e56/imt-ring-1.2.1.tar.gz
+[2024-04-24 13:18:52] INFO root fetch - processPackages [bernard]: Downloading https://files.pythonhosted.org/packages/d2/e0/c3cb3ab94581f7a96cd436684c92c66c1f3cec93c4d58eb728b79a7145fc/bernard-0.6.0.tar.gz
+[2024-04-24 13:18:52] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 57075455>=10485760
+[2024-04-24 13:18:52] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-24 13:18:52] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/94/b8/83c493a50b574ae64697e085dd2a0fcc86766ec22f1867cfdbefb8dd5dcc/ms-swift-2.0.3.tar.gz
+[2024-04-24 13:18:52] WARNING root fetch - processPackages [TDCRPy]: Skipping package: exceeds size limit 21698054>=10485760
+[2024-04-24 13:18:52] INFO root fetch - main [MainThread]: End processing [TDCRPy] error
+[2024-04-24 13:18:52] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-24 13:18:52] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/73/ed/a841ab4255ee2f81fcdf46d0ca66dcfc15849ad9ac20f3fdbd144faa0dff/mo_kwargs-7.602.24115.tar.gz
+[2024-04-24 13:18:52] INFO root fetch - processPackages [getai]: Downloading https://files.pythonhosted.org/packages/65/15/1eff434b2e336a66cf78dee19b4a9494b94cac16dc787e49d180743d6f6e/getai-0.0.7.tar.gz
+[2024-04-24 13:18:52] INFO root fetch - processPackages [ms-swift]: executing diffoscope
+[2024-04-24 13:18:52] INFO root fetch - processPackages [ms-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms-swift-2.0.2.tar.gz tmp/ms-swift-2.0.3.tar.gz --markdown 20240424/m/ms-swift/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-24 13:18:52] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-24 13:18:52] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240424/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-24 13:18:52] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2024-04-24 13:18:52] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_kwargs-7.601.24115.tar.gz tmp/mo_kwargs-7.602.24115.tar.gz --markdown 20240424/m/mo-kwargs/7.601.24115-7.602.24115/README.md --exclude *.pyd
+[2024-04-24 13:18:52] INFO root fetch - processPackages [getai]: executing diffoscope
+[2024-04-24 13:18:52] INFO root fetch - processPackages [getai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getai-0.0.6.tar.gz tmp/getai-0.0.7.tar.gz --markdown 20240424/g/getai/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-24 13:18:53] INFO root fetch - processPackages [bernard]: Downloading https://files.pythonhosted.org/packages/e3/e5/22abb7e4c1b4c85c9a7b78e5b43a5f1515f7bb95ee4d675c6270408022c3/bernard-0.7.0.tar.gz
+[2024-04-24 13:18:53] INFO root fetch - processPackages [bernard]: executing diffoscope
+[2024-04-24 13:18:53] INFO root fetch - processPackages [bernard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bernard-0.6.0.tar.gz tmp/bernard-0.7.0.tar.gz --markdown 20240424/b/bernard/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-24 13:18:53] INFO root fetch - processPackages [imt-ring]: Downloading https://files.pythonhosted.org/packages/8a/be/05e597d19f3627a0483b49de752b12ba6d473569d24e4b18227affb4397f/imt_ring-1.2.2.tar.gz
+[2024-04-24 13:18:53] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.601.24115.tar.gz]
+[2024-04-24 13:18:53] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.602.24115.tar.gz]
+[2024-04-24 13:18:53] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2024-04-24 13:18:53] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.6.tar.gz]
+[2024-04-24 13:18:53] INFO root fetch - processPackages [getai]: Remove: archive file [/home/abi/fetcher/tmp/getai-0.0.7.tar.gz]
+[2024-04-24 13:18:53] INFO root fetch - main [MainThread]: End processing [getai]: success
+[2024-04-24 13:18:54] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-24 13:18:54] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-24 13:18:54] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-24 13:18:54] INFO root fetch - processPackages [bernard]: Remove: archive file [/home/abi/fetcher/tmp/bernard-0.6.0.tar.gz]
+[2024-04-24 13:18:54] INFO root fetch - processPackages [bernard]: Remove: archive file [/home/abi/fetcher/tmp/bernard-0.7.0.tar.gz]
+[2024-04-24 13:18:54] INFO root fetch - main [MainThread]: End processing [bernard]: success
+[2024-04-24 13:18:54] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.2.tar.gz]
+[2024-04-24 13:18:54] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.3.tar.gz]
+[2024-04-24 13:18:54] INFO root fetch - main [MainThread]: End processing [ms-swift]: success
+[2024-04-24 13:18:56] INFO root fetch - processPackages [imt-ring]: executing diffoscope
+[2024-04-24 13:18:56] INFO root fetch - processPackages [imt-ring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imt-ring-1.2.1.tar.gz tmp/imt_ring-1.2.2.tar.gz --markdown 20240424/i/imt-ring/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-24 13:18:57] INFO root fetch - processPackages [imt-ring]: Remove: archive file [/home/abi/fetcher/tmp/imt-ring-1.2.1.tar.gz]
+[2024-04-24 13:18:57] INFO root fetch - processPackages [imt-ring]: Remove: archive file [/home/abi/fetcher/tmp/imt_ring-1.2.2.tar.gz]
+[2024-04-24 13:18:57] INFO root fetch - main [MainThread]: End processing [imt-ring]: success
+[2024-04-24 13:18:57] INFO root fetch - main [MainThread]: Store serial: [22911092]
