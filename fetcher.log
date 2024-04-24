@@ -15559,3 +15559,44 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 10:41:35] INFO root fetch - processPackages [xdwlib]: Remove: archive file [/home/abi/fetcher/tmp/xdwlib-3.9.7.zip]
 [2024-04-24 10:41:35] INFO root fetch - main [MainThread]: End processing [xdwlib]: success
 [2024-04-24 10:41:35] INFO root fetch - main [MainThread]: Store serial: [22909174]
+[2024-04-24 10:43:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909174]
+[2024-04-24 10:43:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-24 10:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepfos
+[2024-04-24 10:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaggle_waggle
+[2024-04-24 10:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuzu
+[2024-04-24 10:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edpop-explorer
+[2024-04-24 10:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: org.iplatform.common
+[2024-04-24 10:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discovery-connect
+[2024-04-24 10:43:44] INFO root fetch - processPackages [kaggle_waggle]: New version: [1.6.12a4] Old Version: [1.6.12a2]
+[2024-04-24 10:43:44] INFO root fetch - processPackages [deepfos]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-24 10:43:44] ERROR root fetch - processPackages [discovery-connect]: Unable to get metadata: No such project 'discovery-connect'
+[2024-04-24 10:43:44] INFO root fetch - main [MainThread]: End processing [discovery-connect] error
+[2024-04-24 10:43:44] INFO root fetch - processPackages [edpop-explorer]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-24 10:43:44] WARNING root fetch - processPackages [org.iplatform.common]: Skipping, unable to determine old version
+[2024-04-24 10:43:44] INFO root fetch - main [MainThread]: End processing [org.iplatform.common] error
+[2024-04-24 10:43:44] INFO root fetch - processPackages [kaggle_waggle]: Downloading https://files.pythonhosted.org/packages/c0/48/4819d1c00455fd830133073454ba1facdc9cab071f43fe5bd3f432acd963/kaggle_waggle-1.6.12a2.tar.gz
+[2024-04-24 10:43:44] WARNING root fetch - processPackages [kaggle_waggle]: Skipping package: exceeds size limit 13217186>=10485760
+[2024-04-24 10:43:44] INFO root fetch - main [MainThread]: End processing [kaggle_waggle] error
+[2024-04-24 10:43:45] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev45] Old Version: [0.3.3.dev44]
+[2024-04-24 10:43:45] INFO root fetch - processPackages [deepfos]: Downloading https://files.pythonhosted.org/packages/6c/b9/ab1c6d8eeab69fea66b16089ccb4bf1f1ea6b6329aa5f4b454166e22c8eb/deepfos-1.1.8.tar.gz
+[2024-04-24 10:43:45] INFO root fetch - processPackages [edpop-explorer]: Downloading https://files.pythonhosted.org/packages/46/25/04ec4766ef6c987fcb39b2953f7f9f3bc6fb97a0e37080a76981e3f4a0a3/edpop-explorer-0.7.0.tar.gz
+[2024-04-24 10:43:45] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/f2/fa/38f7885a2c49f445d8edafaedb48b2660602c665cf5c130700b1cf1d574c/kuzu-0.3.3.dev44.tar.gz
+[2024-04-24 10:43:45] INFO root fetch - processPackages [edpop-explorer]: Downloading https://files.pythonhosted.org/packages/e6/56/b2d7f4ff0171616751d33ffeca649db22bff05e9103ada3647eedb890bc0/edpop_explorer-0.8.0.tar.gz
+[2024-04-24 10:43:45] INFO root fetch - processPackages [edpop-explorer]: executing diffoscope
+[2024-04-24 10:43:45] INFO root fetch - processPackages [edpop-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edpop-explorer-0.7.0.tar.gz tmp/edpop_explorer-0.8.0.tar.gz --markdown 20240424/e/edpop-explorer/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-24 10:43:45] INFO root fetch - processPackages [deepfos]: Downloading https://files.pythonhosted.org/packages/1c/7e/e2a63a40bfcbce55924df8339621c31f502551f86e9e3ba4a6bc74f91f9b/deepfos-1.1.9.tar.gz
+[2024-04-24 10:43:45] INFO root fetch - processPackages [deepfos]: executing diffoscope
+[2024-04-24 10:43:45] INFO root fetch - processPackages [deepfos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfos-1.1.8.tar.gz tmp/deepfos-1.1.9.tar.gz --markdown 20240424/d/deepfos/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-24 10:43:45] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/ab/d1/4dc490bcb1fee5e77cc4b416b9d9dcce5470b2f45617a3e4668d6b5b2c96/kuzu-0.3.3.dev45-cp38-cp38-macosx_11_0_arm64.whl
+[2024-04-24 10:43:46] INFO root fetch - processPackages [edpop-explorer]: Remove: archive file [/home/abi/fetcher/tmp/edpop-explorer-0.7.0.tar.gz]
+[2024-04-24 10:43:46] INFO root fetch - processPackages [edpop-explorer]: Remove: archive file [/home/abi/fetcher/tmp/edpop_explorer-0.8.0.tar.gz]
+[2024-04-24 10:43:46] INFO root fetch - main [MainThread]: End processing [edpop-explorer]: success
+[2024-04-24 10:43:46] INFO root fetch - processPackages [deepfos]: Remove: archive file [/home/abi/fetcher/tmp/deepfos-1.1.8.tar.gz]
+[2024-04-24 10:43:46] INFO root fetch - processPackages [deepfos]: Remove: archive file [/home/abi/fetcher/tmp/deepfos-1.1.9.tar.gz]
+[2024-04-24 10:43:46] INFO root fetch - main [MainThread]: End processing [deepfos]: success
+[2024-04-24 10:43:49] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-24 10:43:49] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev44.tar.gz tmp/kuzu-0.3.3.dev45-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20240424/k/kuzu/0.3.3.dev44-0.3.3.dev45/README.md --exclude *.pyd
+[2024-04-24 10:43:50] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev44.tar.gz]
+[2024-04-24 10:43:50] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev45-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2024-04-24 10:43:50] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-24 10:43:50] INFO root fetch - main [MainThread]: Store serial: [22909214]
