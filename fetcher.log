@@ -14391,3 +14391,51 @@ AssertionError: tmp/pydrex-0.0.1.tar.gz does not exist
 [2024-04-24 09:57:18] INFO root fetch - processPackages [github-custom-actions]: Remove: archive file [/home/abi/fetcher/tmp/github_custom_actions-2.0.1.tar.gz]
 [2024-04-24 09:57:18] INFO root fetch - main [MainThread]: End processing [github-custom-actions]: success
 [2024-04-24 09:57:18] INFO root fetch - main [MainThread]: Store serial: [22908746]
+[2024-04-24 09:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22908746]
+[2024-04-24 09:59:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-24 09:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phringe
+[2024-04-24 09:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-api
+[2024-04-24 09:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill
+[2024-04-24 09:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wmill-pg
+[2024-04-24 09:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safe-ds-runner
+[2024-04-24 09:59:27] INFO root fetch - processPackages [phringe]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-24 09:59:27] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-24 09:59:27] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/7a/6c/f071cba50885da2c0c38dd2f65e60b0b1a3d428c2bf4acc7a24115009243/phringe-0.0.8.tar.gz
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-24 09:59:27] INFO root fetch - processPackages [safe-ds-runner]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-24 09:59:27] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-24 09:59:27] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/a9/3f/4fae0af86d9be225260c4afd1c1b74017765456017b0dd091b57adba093b/phringe-0.0.9.tar.gz
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-24 09:59:27] INFO root fetch - processPackages [safe-ds-runner]: Downloading https://files.pythonhosted.org/packages/26/51/7201459d57d5908314248a4dd1c59ec2d745a3d9f63d7c4e66a1593e51a5/safe_ds_runner-0.8.0.tar.gz
+[2024-04-24 09:59:27] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240424/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-24 09:59:27] INFO root fetch - processPackages [phringe]: executing diffoscope
+[2024-04-24 09:59:27] INFO root fetch - processPackages [phringe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phringe-0.0.8.tar.gz tmp/phringe-0.0.9.tar.gz --markdown 20240424/p/phringe/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-24 09:59:27] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240424/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-24 09:59:27] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-24 09:59:27] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240424/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-24 09:59:27] INFO root fetch - processPackages [safe-ds-runner]: Downloading https://files.pythonhosted.org/packages/20/3d/c4895c123cfc06603d02ec8039c6c0e0b40b2a14c7fc844e007ee41ceb23/safe_ds_runner-0.9.0.tar.gz
+[2024-04-24 09:59:28] INFO root fetch - processPackages [safe-ds-runner]: executing diffoscope
+[2024-04-24 09:59:28] INFO root fetch - processPackages [safe-ds-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_ds_runner-0.8.0.tar.gz tmp/safe_ds_runner-0.9.0.tar.gz --markdown 20240424/s/safe-ds-runner/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-24 09:59:28] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-24 09:59:28] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-24 09:59:28] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-24 09:59:28] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-24 09:59:28] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-24 09:59:28] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-24 09:59:28] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.8.tar.gz]
+[2024-04-24 09:59:28] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.9.tar.gz]
+[2024-04-24 09:59:28] INFO root fetch - main [MainThread]: End processing [phringe]: success
+[2024-04-24 09:59:28] INFO root fetch - processPackages [safe-ds-runner]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds_runner-0.8.0.tar.gz]
+[2024-04-24 09:59:28] INFO root fetch - processPackages [safe-ds-runner]: Remove: archive file [/home/abi/fetcher/tmp/safe_ds_runner-0.9.0.tar.gz]
+[2024-04-24 09:59:28] INFO root fetch - main [MainThread]: End processing [safe-ds-runner]: success
+[2024-04-24 09:59:31] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-24 09:59:31] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-24 09:59:31] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-24 09:59:31] INFO root fetch - main [MainThread]: Store serial: [22908765]
