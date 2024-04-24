@@ -16157,3 +16157,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-24 11:01:50] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.1.0.tar.gz]
 [2024-04-24 11:01:50] INFO root fetch - main [MainThread]: End processing [prowler]: success
 [2024-04-24 11:01:50] INFO root fetch - main [MainThread]: Store serial: [22909427]
+[2024-04-24 11:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22909427]
+[2024-04-24 11:04:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LnT-HR-AI
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: affinda
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notalib
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Background
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-collections
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ingeniamotion
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-tablestore20201209-py2
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cogflow
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-tablestore20201209
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iec870ree
+[2024-04-24 11:04:01] INFO root fetch - processPackages [cogflow]: New version: [1.8.8] Old Version: [1.8.7]
+[2024-04-24 11:04:01] WARNING root fetch - processPackages [LnT-HR-AI]: Skipping, unable to determine old version
+[2024-04-24 11:04:01] INFO root fetch - processPackages [LnT-HR-AI]: Start processing: moogli-erp
+[2024-04-24 11:04:01] INFO root fetch - main [MainThread]: End processing [LnT-HR-AI] error
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ingeniamotion]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-24 11:04:01] INFO root fetch - processPackages [mo-collections]: New version: [5.601.24115] Old Version: [5.600.24114]
+[2024-04-24 11:04:01] INFO root fetch - processPackages [iec870ree]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-24 11:04:01] INFO root fetch - processPackages [alibabacloud-tablestore20201209-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 11:04:01] INFO root fetch - processPackages [alibabacloud-tablestore20201209]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-24 11:04:01] INFO root fetch - processPackages [notalib]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-24 11:04:01] INFO root fetch - processPackages [affinda]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-04-24 11:04:01] INFO root fetch - processPackages [Geode-Background]: New version: [7.9.8rc1] Old Version: [7.9.7rc1]
+[2024-04-24 11:04:01] INFO root fetch - processPackages [moogli-erp]: New version: [2024.2.0b7] Old Version: [2024.2.0b6]
+[2024-04-24 11:04:01] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/fb/44/b3349c74021d1a671bbf3c93fb60a07930b735e0223c5dc50dc3a1cceb1d/cogflow-1.8.7.tar.gz
+[2024-04-24 11:04:01] INFO root fetch - processPackages [notalib]: Downloading https://files.pythonhosted.org/packages/63/d0/674e913e0c679b6b781781d6b467bbd54a0b98fdd4b3712bedf19487d69b/notalib-2.2.0.tar.gz
+[2024-04-24 11:04:01] INFO root fetch - processPackages [ingeniamotion]: Downloading https://files.pythonhosted.org/packages/03/51/50a099229f5ff66910ddf148d4e5c111407bbd67d36fbf01664106b75843/ingeniamotion-0.7.1.tar.gz
+[2024-04-24 11:04:01] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/02/4a/fbeebd529d9d51e39e8a88339cd7bd1401ce04e5c4561b0bd4d028b63d6b/mo_collections-5.600.24114.tar.gz
+[2024-04-24 11:04:01] INFO root fetch - processPackages [alibabacloud-tablestore20201209]: Downloading https://files.pythonhosted.org/packages/54/ce/22132e3123735700c0beb2f2c99c5cad4442b0ef849d3245e051903432e7/alibabacloud_tablestore20201209-1.0.0.tar.gz
+[2024-04-24 11:04:01] INFO root fetch - processPackages [iec870ree]: Downloading https://files.pythonhosted.org/packages/23/a3/7bbf958485ee5dda6fdfc5123fb77a024db8c157ce705a0ae0490e144ab5/iec870ree-0.9.1.tar.gz
+[2024-04-24 11:04:01] INFO root fetch - processPackages [alibabacloud-tablestore20201209-py2]: Downloading https://files.pythonhosted.org/packages/0e/e1/b0a80ebed107756978deddecd3fbe3d0f44d486f196d35c388b7dc516832/alibabacloud_tablestore20201209_py2-1.0.0.tar.gz
+[2024-04-24 11:04:01] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/79/1c/8de87be7be8fe931c4930bb8a18733e8cf05b51743f852690377e3993a89/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 11:04:01] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/b8/42/2d7ae0302daac690c91569d7fbb66707c626d6712fd25b8b2e92aba77435/affinda-4.8.1.tar.gz
+[2024-04-24 11:04:01] INFO root fetch - processPackages [moogli-erp]: Downloading https://files.pythonhosted.org/packages/9f/92/97c412c02539b6c62be6b98e66498bcfbfb07fb3b70f52cef27f46948268/moogli-erp-2024.2.0b6.tar.gz
+[2024-04-24 11:04:01] WARNING root fetch - processPackages [moogli-erp]: Skipping package: exceeds size limit 13135758>=10485760
+[2024-04-24 11:04:01] INFO root fetch - main [MainThread]: End processing [moogli-erp] error
+[2024-04-24 11:04:01] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/c3/a5/6c3279f45e7cb26915d5cd11acba57203265b409d3f40831046e507d577e/cogflow-1.8.8.tar.gz
+[2024-04-24 11:04:02] INFO root fetch - processPackages [alibabacloud-tablestore20201209]: Downloading https://files.pythonhosted.org/packages/8b/bd/9b45b8fad89007bd3649982c2a725c62db53cdb55849306c504fb39f0609/alibabacloud_tablestore20201209-1.0.1.tar.gz
+[2024-04-24 11:04:02] INFO root fetch - processPackages [ingeniamotion]: Downloading https://files.pythonhosted.org/packages/32/67/a03c81e51ec6a51577f10587cba0c8e502c8f8238178346c700f34cc1dda/ingeniamotion-0.8.0.tar.gz
+[2024-04-24 11:04:02] INFO root fetch - processPackages [notalib]: Downloading https://files.pythonhosted.org/packages/79/6f/ea15138f241c4666546c4012d6d57c1d82eb9bfb7df3c3037cc03bb14694/notalib-2.3.0.tar.gz
+[2024-04-24 11:04:02] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/00/6e/b601b90910778c00903a25e469fbba65196019c9a2851764c8df2d29d4a6/mo_collections-5.601.24115.tar.gz
+[2024-04-24 11:04:02] INFO root fetch - processPackages [alibabacloud-tablestore20201209-py2]: Downloading https://files.pythonhosted.org/packages/0d/a2/1b519867c8a20a0a0754d4eedff7b76fb289cb0a1e41f89827364d3ff786/alibabacloud_tablestore20201209_py2-1.0.1.tar.gz
+[2024-04-24 11:04:02] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-04-24 11:04:02] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.8.7.tar.gz tmp/cogflow-1.8.8.tar.gz --markdown 20240424/c/cogflow/1.8.7-1.8.8/README.md --exclude *.pyd
+[2024-04-24 11:04:02] INFO root fetch - processPackages [iec870ree]: Downloading https://files.pythonhosted.org/packages/2a/db/01b2a98a4524c5bab06ab7198999d1218809d72e37579fba8333fdaecfe9/iec870ree-0.9.2.tar.gz
+[2024-04-24 11:04:02] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/27/14/0974ffb17feb20d1870434401d523dfd68229befd4a340456b1a9f07ece3/affinda-4.9.0.tar.gz
+[2024-04-24 11:04:02] INFO root fetch - processPackages [notalib]: executing diffoscope
+[2024-04-24 11:04:02] INFO root fetch - processPackages [notalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notalib-2.2.0.tar.gz tmp/notalib-2.3.0.tar.gz --markdown 20240424/n/notalib/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-24 11:04:02] INFO root fetch - processPackages [alibabacloud-tablestore20201209-py2]: executing diffoscope
+[2024-04-24 11:04:02] INFO root fetch - processPackages [alibabacloud-tablestore20201209-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tablestore20201209_py2-1.0.0.tar.gz tmp/alibabacloud_tablestore20201209_py2-1.0.1.tar.gz --markdown 20240424/a/alibabacloud-tablestore20201209-py2/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 11:04:02] INFO root fetch - processPackages [mo-collections]: executing diffoscope
+[2024-04-24 11:04:02] INFO root fetch - processPackages [mo-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_collections-5.600.24114.tar.gz tmp/mo_collections-5.601.24115.tar.gz --markdown 20240424/m/mo-collections/5.600.24114-5.601.24115/README.md --exclude *.pyd
+[2024-04-24 11:04:02] INFO root fetch - processPackages [ingeniamotion]: executing diffoscope
+[2024-04-24 11:04:02] INFO root fetch - processPackages [ingeniamotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingeniamotion-0.7.1.tar.gz tmp/ingeniamotion-0.8.0.tar.gz --markdown 20240424/i/ingeniamotion/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-04-24 11:04:02] INFO root fetch - processPackages [alibabacloud-tablestore20201209]: executing diffoscope
+[2024-04-24 11:04:02] INFO root fetch - processPackages [alibabacloud-tablestore20201209]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tablestore20201209-1.0.0.tar.gz tmp/alibabacloud_tablestore20201209-1.0.1.tar.gz --markdown 20240424/a/alibabacloud-tablestore20201209/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-24 11:04:02] INFO root fetch - processPackages [iec870ree]: executing diffoscope
+[2024-04-24 11:04:02] INFO root fetch - processPackages [iec870ree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iec870ree-0.9.1.tar.gz tmp/iec870ree-0.9.2.tar.gz --markdown 20240424/i/iec870ree/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-24 11:04:02] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2024-04-24 11:04:02] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.8.1.tar.gz tmp/affinda-4.9.0.tar.gz --markdown 20240424/a/affinda/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-04-24 11:04:02] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/5a/bf/e3b335021e2827df1ff360ae972cac70607b2685fe93041a505c3564eb03/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl
+[2024-04-24 11:04:02] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.8.7.tar.gz]
+[2024-04-24 11:04:02] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.8.8.tar.gz]
+[2024-04-24 11:04:02] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-04-24 11:04:03] INFO root fetch - processPackages [alibabacloud-tablestore20201209]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tablestore20201209-1.0.0.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - processPackages [alibabacloud-tablestore20201209]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tablestore20201209-1.0.1.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-tablestore20201209]: success
+[2024-04-24 11:04:03] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2024-04-24 11:04:03] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240424:/home/abi/fetcher/20240424:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240424/G/Geode-Background/7.9.7rc1-7.9.8rc1/README.md --exclude *.pyd
+[2024-04-24 11:04:03] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.600.24114.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo_collections-5.601.24115.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - main [MainThread]: End processing [mo-collections]: success
+[2024-04-24 11:04:03] INFO root fetch - processPackages [alibabacloud-tablestore20201209-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tablestore20201209_py2-1.0.0.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - processPackages [alibabacloud-tablestore20201209-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tablestore20201209_py2-1.0.1.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-tablestore20201209-py2]: success
+[2024-04-24 11:04:03] INFO root fetch - processPackages [iec870ree]: Remove: archive file [/home/abi/fetcher/tmp/iec870ree-0.9.1.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - processPackages [iec870ree]: Remove: archive file [/home/abi/fetcher/tmp/iec870ree-0.9.2.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - main [MainThread]: End processing [iec870ree]: success
+[2024-04-24 11:04:03] INFO root fetch - processPackages [notalib]: Remove: archive file [/home/abi/fetcher/tmp/notalib-2.2.0.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - processPackages [notalib]: Remove: archive file [/home/abi/fetcher/tmp/notalib-2.3.0.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - main [MainThread]: End processing [notalib]: success
+[2024-04-24 11:04:03] INFO root fetch - processPackages [ingeniamotion]: Remove: archive file [/home/abi/fetcher/tmp/ingeniamotion-0.7.1.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - processPackages [ingeniamotion]: Remove: archive file [/home/abi/fetcher/tmp/ingeniamotion-0.8.0.tar.gz]
+[2024-04-24 11:04:03] INFO root fetch - main [MainThread]: End processing [ingeniamotion]: success
+[2024-04-24 11:04:05] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.8.1.tar.gz]
+[2024-04-24 11:04:05] INFO root fetch - processPackages [affinda]: Remove: archive file [/home/abi/fetcher/tmp/affinda-4.9.0.tar.gz]
+[2024-04-24 11:04:05] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2024-04-24 11:04:37] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.7rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 11:04:37] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-24 11:04:37] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2024-04-24 11:04:37] INFO root fetch - main [MainThread]: Store serial: [22909465]
